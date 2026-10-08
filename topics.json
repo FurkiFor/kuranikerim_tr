@@ -1,0 +1,716 @@
+[
+ {
+  "id": "v001",
+  "tema": "Zorluk",
+  "sure": 94,
+  "ayet": [
+   5,
+   6
+  ],
+  "hook": "Zor bir dönemden geçiyorsan bu ayet senin için",
+  "kapanis": "Kolaylık yakın. Kaydet, unutma.",
+  "bg": "gece",
+  "aciklama": "Allah her zorlukla beraber bir kolaylık olduğunu iki kez haber veriyor. Sıkıntıdaysan bu ayeti hatırla.",
+  "etiketler": [
+   "zorluk",
+   "inşirah"
+  ]
+ },
+ {
+  "id": "v002",
+  "tema": "Huzur",
+  "sure": 13,
+  "ayet": [
+   28,
+   28
+  ],
+  "hook": "Her şeye sahip olup yine de huzur bulamıyorsan",
+  "kapanis": "Kalbin huzuru zikirde.",
+  "bg": "safak",
+  "aciklama": "Huzuru başka yerlerde aradıysan, Kur'an kalplerin neyle huzur bulduğunu açıkça söylüyor.",
+  "etiketler": [
+   "huzur",
+   "zikir"
+  ]
+ },
+ {
+  "id": "v003",
+  "tema": "Sabır",
+  "sure": 2,
+  "ayet": [
+   153,
+   153
+  ],
+  "hook": "Sabretmekten yorulduğunu hissediyorsan",
+  "kapanis": "Allah sabredenlerle beraber.",
+  "bg": "deniz",
+  "aciklama": "Sabır ve namaz: zor zamanlarda Allah'ın gösterdiği iki dayanak.",
+  "etiketler": [
+   "sabır",
+   "namaz"
+  ]
+ },
+ {
+  "id": "v004",
+  "tema": "Dua",
+  "sure": 2,
+  "ayet": [
+   186,
+   186
+  ],
+  "hook": "Duaların duyulmuyor mu sanıyorsun?",
+  "kapanis": "O sana senden yakın.",
+  "bg": "fener",
+  "aciklama": "Allah, dua edenin duasına icabet ettiğini bildiriyor. Bugün içinden geçeni O'na söyle.",
+  "etiketler": [
+   "dua",
+   "yakınlık"
+  ]
+ },
+ {
+  "id": "v005",
+  "tema": "Umut",
+  "sure": 39,
+  "ayet": [
+   53,
+   53
+  ],
+  "hook": "Çok günah işledim, artık affedilmem diyorsan",
+  "kapanis": "Rahmetinden asla umut kesme.",
+  "bg": "geometri",
+  "aciklama": "Allah'ın rahmetinden ümit kesmemek... Bu ayeti ihtiyacı olan birine gönder.",
+  "etiketler": [
+   "tövbe",
+   "rahmet"
+  ]
+ },
+ {
+  "id": "v006",
+  "tema": "Moral",
+  "sure": 3,
+  "ayet": [
+   139,
+   139
+  ],
+  "hook": "Moralin bozuksa ve yıkılmış hissediyorsan",
+  "kapanis": "Gevşeme, üzülme.",
+  "bg": "gece",
+  "aciklama": "Allah inananlara gevşememelerini ve üzülmemelerini söylüyor.",
+  "etiketler": [
+   "moral",
+   "üzülme"
+  ]
+ },
+ {
+  "id": "v007",
+  "tema": "Zikir",
+  "sure": 2,
+  "ayet": [
+   152,
+   152
+  ],
+  "hook": "Allah'ın seni andığını hiç düşündün mü?",
+  "kapanis": "Sen O'nu an, O seni ansın.",
+  "bg": "safak",
+  "aciklama": "Sen Allah'ı andıkça O da seni anar. Bugün dilin zikirle ıslansın.",
+  "etiketler": [
+   "zikir",
+   "şükür"
+  ]
+ },
+ {
+  "id": "v008",
+  "tema": "Şükür",
+  "sure": 14,
+  "ayet": [
+   7,
+   7
+  ],
+  "hook": "Nimetlerin artmasını istiyorsan",
+  "kapanis": "Şükür nimeti artırır.",
+  "bg": "deniz",
+  "aciklama": "Şükrettikçe artırılan nimetler... Bugün şükrettiğin üç şeyi yorumlara yaz.",
+  "etiketler": [
+   "şükür",
+   "nimet"
+  ]
+ },
+ {
+  "id": "v009",
+  "tema": "Yalnızlık",
+  "sure": 93,
+  "ayet": [
+   3,
+   5
+  ],
+  "hook": "Terk edilmiş gibi hissediyorsan",
+  "kapanis": "Rabbin seni bırakmadı.",
+  "bg": "fener",
+  "aciklama": "Duhâ suresinden, yalnız hissedenlere teselli olan ayetler.",
+  "etiketler": [
+   "yalnızlık",
+   "duhâ"
+  ]
+ },
+ {
+  "id": "v010",
+  "tema": "Yakınlık",
+  "sure": 50,
+  "ayet": [
+   16,
+   16
+  ],
+  "hook": "Kimse seni anlamıyor gibi geliyorsa",
+  "kapanis": "O, şah damarından yakın.",
+  "bg": "geometri",
+  "aciklama": "Allah insanın içinden geçeni bilir ve ona şah damarından yakındır.",
+  "etiketler": [
+   "yakınlık",
+   "teselli"
+  ]
+ },
+ {
+  "id": "v011",
+  "tema": "Sabır",
+  "sure": 11,
+  "ayet": [
+   115,
+   115
+  ],
+  "hook": "Emeklerin boşa gidiyor gibi geliyorsa",
+  "kapanis": "Hiçbir iyilik kaybolmaz.",
+  "bg": "gece",
+  "aciklama": "Sabret: Allah iyilik yapanların ecrini asla zayi etmez.",
+  "etiketler": [
+   "sabır",
+   "emek"
+  ]
+ },
+ {
+  "id": "v012",
+  "tema": "Teslimiyet",
+  "sure": 64,
+  "ayet": [
+   11,
+   11
+  ],
+  "hook": "Başına gelenleri anlamlandıramıyorsan",
+  "kapanis": "Her şey O'nun izniyle.",
+  "bg": "safak",
+  "aciklama": "Hiçbir musibet Allah'ın izni olmadan gelmez. İnanana da Allah gönlünü doğruya yöneltir.",
+  "etiketler": [
+   "musibet",
+   "teslimiyet"
+  ]
+ },
+ {
+  "id": "v013",
+  "tema": "İmtihan",
+  "sure": 2,
+  "ayet": [
+   155,
+   156
+  ],
+  "hook": "Hayat seni sınıyor gibi geliyorsa",
+  "kapanis": "Biz Allah'a aitiz, O'na döneceğiz.",
+  "bg": "deniz",
+  "aciklama": "İmtihanlar ve sabredenlere verilen müjde. İnnâ lillâh ve innâ ileyhi râciûn.",
+  "etiketler": [
+   "imtihan",
+   "sabır"
+  ]
+ },
+ {
+  "id": "v014",
+  "tema": "Tevekkül",
+  "sure": 9,
+  "ayet": [
+   51,
+   51
+  ],
+  "hook": "Geleceğe dair kaygıların varsa",
+  "kapanis": "Allah'a güven, O yeter.",
+  "bg": "fener",
+  "aciklama": "Allah'ın yazdığından başkası başımıza gelmez. O bizim Mevlâmızdır.",
+  "etiketler": [
+   "tevekkül",
+   "kaygı"
+  ]
+ },
+ {
+  "id": "v015",
+  "tema": "Huzur",
+  "sure": 89,
+  "ayet": [
+   27,
+   30
+  ],
+  "hook": "Ölümü düşününce korkuyorsan",
+  "kapanis": "Huzurlu bir kalple dönmek.",
+  "bg": "geometri",
+  "aciklama": "Fecr suresinin sonundan, huzura ermiş nefse yapılan davet.",
+  "etiketler": [
+   "huzur",
+   "fecr"
+  ]
+ },
+ {
+  "id": "v016",
+  "tema": "İyilik",
+  "sure": 99,
+  "ayet": [
+   7,
+   8
+  ],
+  "hook": "Yaptığın iyilikler görülmüyor mu sanıyorsun?",
+  "kapanis": "Zerre kadarı bile kaybolmaz.",
+  "bg": "gece",
+  "aciklama": "Zerre kadar iyilik de kötülük de karşılıksız kalmaz.",
+  "etiketler": [
+   "iyilik",
+   "zilzal"
+  ]
+ },
+ {
+  "id": "v017",
+  "tema": "Merhamet",
+  "sure": 4,
+  "ayet": [
+   28,
+   28
+  ],
+  "hook": "Kendini çok güçsüz hissediyorsan",
+  "kapanis": "Allah yükünü hafifletmek ister.",
+  "bg": "safak",
+  "aciklama": "İnsan zayıf yaratıldı ve Allah yükünü hafifletmek istiyor.",
+  "etiketler": [
+   "merhamet",
+   "teselli"
+  ]
+ },
+ {
+  "id": "v018",
+  "tema": "Ahlak",
+  "sure": 41,
+  "ayet": [
+   34,
+   34
+  ],
+  "hook": "Sana kötülük edene ne yapmalısın?",
+  "kapanis": "Kötülüğe iyilikle karşılık ver.",
+  "bg": "deniz",
+  "aciklama": "Fenalığı en güzel şekilde savmak, düşmanı dosta çevirebilir.",
+  "etiketler": [
+   "ahlak",
+   "iyilik"
+  ]
+ },
+ {
+  "id": "v019",
+  "tema": "Öfke",
+  "sure": 3,
+  "ayet": [
+   134,
+   134
+  ],
+  "hook": "Öfkeni kontrol edemiyorsan",
+  "kapanis": "Öfkeni yen, affet.",
+  "bg": "fener",
+  "aciklama": "Allah'ın sevdiği kulların vasıfları: infak eder, öfkesini yener, affeder.",
+  "etiketler": [
+   "öfke",
+   "affetmek"
+  ]
+ },
+ {
+  "id": "v020",
+  "tema": "Dua",
+  "sure": 2,
+  "ayet": [
+   201,
+   201
+  ],
+  "hook": "Her namazdan sonra okuyabileceğin kısa bir dua",
+  "kapanis": "Rabbenâ âtinâ...",
+  "bg": "geometri",
+  "aciklama": "Dünya ve ahiret iyiliğini isteyen o meşhur dua. Kaydet, her gün oku.",
+  "etiketler": [
+   "dua",
+   "rabbena"
+  ]
+ },
+ {
+  "id": "v021",
+  "tema": "Tövbe",
+  "sure": 7,
+  "ayet": [
+   23,
+   23
+  ],
+  "hook": "Hata yaptığında ne demelisin?",
+  "kapanis": "Hz. Âdem'in tövbe duası.",
+  "bg": "gece",
+  "aciklama": "Hz. Âdem ve Hz. Havva'nın tövbe duası. Pişmanlığını Allah'a böyle anlat.",
+  "etiketler": [
+   "tövbe",
+   "dua"
+  ]
+ },
+ {
+  "id": "v022",
+  "tema": "Aile",
+  "sure": 30,
+  "ayet": [
+   21,
+   21
+  ],
+  "hook": "Evlilikte huzuru arıyorsan",
+  "kapanis": "Sevgi ve rahmet O'ndandır.",
+  "bg": "safak",
+  "aciklama": "Eşler arasındaki sevgi ve merhamet, Allah'ın ayetlerindendir.",
+  "etiketler": [
+   "aile",
+   "evlilik"
+  ]
+ },
+ {
+  "id": "v023",
+  "tema": "Güzel Hayat",
+  "sure": 16,
+  "ayet": [
+   97,
+   97
+  ],
+  "hook": "Güzel bir hayat istiyorsan",
+  "kapanis": "İman ve salih amel.",
+  "bg": "deniz",
+  "aciklama": "İnanarak iyi işler yapana hoş bir hayat vaadi.",
+  "etiketler": [
+   "hayat",
+   "salihamel"
+  ]
+ },
+ {
+  "id": "v024",
+  "tema": "Tevhid",
+  "sure": 112,
+  "ayet": [
+   1,
+   4
+  ],
+  "hook": "Allah'ı dört ayette tanımak",
+  "kapanis": "İhlas suresi.",
+  "bg": "fener",
+  "aciklama": "İhlâs suresi: Allah'ın birliğini anlatan dört ayet.",
+  "etiketler": [
+   "ihlas",
+   "tevhid"
+  ]
+ },
+ {
+  "id": "v025",
+  "tema": "Zaman",
+  "sure": 103,
+  "ayet": [
+   1,
+   3
+  ],
+  "hook": "Zamanını kaybettiğini düşünüyorsan",
+  "kapanis": "Asr suresi.",
+  "bg": "geometri",
+  "aciklama": "Asr suresi: hüsrandan kurtulanların dört özelliği.",
+  "etiketler": [
+   "asr",
+   "zaman"
+  ]
+ },
+ {
+  "id": "v026",
+  "tema": "Rızık",
+  "sure": 62,
+  "ayet": [
+   10,
+   10
+  ],
+  "hook": "Rızık kaygısı yaşıyorsan",
+  "kapanis": "Çalış, iste, Allah'ı an.",
+  "bg": "gece",
+  "aciklama": "Namazdan sonra yeryüzüne yayılın, Allah'ın lütfundan isteyin.",
+  "etiketler": [
+   "rızık",
+   "cuma"
+  ]
+ },
+ {
+  "id": "v027",
+  "tema": "Yöneliş",
+  "sure": 73,
+  "ayet": [
+   8,
+   8
+  ],
+  "hook": "Her şey üst üste geldiyse",
+  "kapanis": "Yalnız O'na yönel.",
+  "bg": "safak",
+  "aciklama": "Rabbinin adını an ve her şeyi bırakıp yalnız O'na yönel.",
+  "etiketler": [
+   "zikir",
+   "yöneliş"
+  ]
+ },
+ {
+  "id": "v028",
+  "tema": "Teslimiyet",
+  "sure": 6,
+  "ayet": [
+   162,
+   162
+  ],
+  "hook": "Hayatının amacını sorguluyorsan",
+  "kapanis": "Hayatım da ölümüm de Allah için.",
+  "bg": "deniz",
+  "aciklama": "Namazım, ibadetlerim, hayatım ve ölümüm Allah içindir.",
+  "etiketler": [
+   "ihlas",
+   "teslimiyet"
+  ]
+ },
+ {
+  "id": "v029",
+  "tema": "Dünya",
+  "sure": 18,
+  "ayet": [
+   46,
+   46
+  ],
+  "hook": "Dünyalık için kendini tüketiyorsan",
+  "kapanis": "Kalıcı olan salih ameldir.",
+  "bg": "fener",
+  "aciklama": "Mal ve evlat dünyanın süsüdür. Kalıcı olan iyi işlerdir.",
+  "etiketler": [
+   "dünya",
+   "ahiret"
+  ]
+ },
+ {
+  "id": "v030",
+  "tema": "Hayat",
+  "sure": 67,
+  "ayet": [
+   2,
+   2
+  ],
+  "hook": "Neden yaratıldığını hiç düşündün mü?",
+  "kapanis": "Hayat bir imtihan.",
+  "bg": "geometri",
+  "aciklama": "Ölümü ve hayatı, hanginizin daha güzel amel yapacağını sınamak için yarattı.",
+  "etiketler": [
+   "hayat",
+   "mülk"
+  ]
+ },
+ {
+  "id": "v031",
+  "tema": "Nimet",
+  "sure": 55,
+  "ayet": [
+   13,
+   13
+  ],
+  "hook": "Sahip olduklarını fark ediyor musun?",
+  "kapanis": "Hangi nimeti yalanlayabilirsin?",
+  "bg": "gece",
+  "aciklama": "Rahmân suresinden: Rabbinizin hangi nimetini yalanlarsınız?",
+  "etiketler": [
+   "nimet",
+   "rahman"
+  ]
+ },
+ {
+  "id": "v032",
+  "tema": "Dua",
+  "sure": 3,
+  "ayet": [
+   8,
+   8
+  ],
+  "hook": "İmanının zayıfladığını hissediyorsan",
+  "kapanis": "Kalbimizi kaydırma Rabbim.",
+  "bg": "safak",
+  "aciklama": "Doğru yoldan sonra kalplerin kaymaması için okunan dua.",
+  "etiketler": [
+   "dua",
+   "iman"
+  ]
+ },
+ {
+  "id": "v033",
+  "tema": "Aile",
+  "sure": 25,
+  "ayet": [
+   74,
+   74
+  ],
+  "hook": "Eşin ve çocukların için okuyabileceğin dua",
+  "kapanis": "Göz aydınlığı bir aile.",
+  "bg": "deniz",
+  "aciklama": "Eşler ve çocuklar göz aydınlığı olsun diye yapılan Kur'an duası.",
+  "etiketler": [
+   "aile",
+   "dua"
+  ]
+ },
+ {
+  "id": "v034",
+  "tema": "Sabır",
+  "sure": 8,
+  "ayet": [
+   46,
+   46
+  ],
+  "hook": "Kalabalık içinde dağılıyorsan",
+  "kapanis": "Birlik ve sabır.",
+  "bg": "fener",
+  "aciklama": "Çekişmeyin, sabredin; Allah sabredenlerle beraberdir.",
+  "etiketler": [
+   "sabır",
+   "birlik"
+  ]
+ },
+ {
+  "id": "v035",
+  "tema": "Zikir",
+  "sure": 33,
+  "ayet": [
+   41,
+   42
+  ],
+  "hook": "Gününe bereket katmak istiyorsan",
+  "kapanis": "Sabah akşam tesbih.",
+  "bg": "geometri",
+  "aciklama": "Allah'ı çok anın, O'nu sabah akşam tesbih edin.",
+  "etiketler": [
+   "zikir",
+   "tesbih"
+  ]
+ },
+ {
+  "id": "v036",
+  "tema": "Nimet",
+  "sure": 35,
+  "ayet": [
+   3,
+   3
+  ],
+  "hook": "Rızkı kimin verdiğini unuttuysan",
+  "kapanis": "O'ndan başka yaratıcı yok.",
+  "bg": "gece",
+  "aciklama": "Gökten ve yerden rızık veren Allah'tır.",
+  "etiketler": [
+   "rızık",
+   "nimet"
+  ]
+ },
+ {
+  "id": "v037",
+  "tema": "Güven",
+  "sure": 48,
+  "ayet": [
+   4,
+   4
+  ],
+  "hook": "İçinde bir korku varsa",
+  "kapanis": "Kalplere sükûnet O'ndan.",
+  "bg": "safak",
+  "aciklama": "İnananların kalplerine güven ve sükûnet indiren O'dur.",
+  "etiketler": [
+   "güven",
+   "sekine"
+  ]
+ },
+ {
+  "id": "v038",
+  "tema": "Nimet",
+  "sure": 108,
+  "ayet": [
+   1,
+   3
+  ],
+  "hook": "Az şeyin var gibi mi hissediyorsun?",
+  "kapanis": "Kevser suresi.",
+  "bg": "deniz",
+  "aciklama": "Kevser suresi: Allah'ın verdiği bol nimet ve şükür.",
+  "etiketler": [
+   "kevser",
+   "şükür"
+  ]
+ },
+ {
+  "id": "v039",
+  "tema": "Anne",
+  "sure": 31,
+  "ayet": [
+   14,
+   14
+  ],
+  "hook": "Anneni en son ne zaman aradın?",
+  "kapanis": "Anne-babana iyilik et.",
+  "bg": "fener",
+  "aciklama": "Annenin çektiği zahmet ve anne-babaya şükür emri. Bu videoyu anneni düşünerek izle.",
+  "etiketler": [
+   "anne",
+   "aile"
+  ]
+ },
+ {
+  "id": "v040",
+  "tema": "Sabır",
+  "sure": 39,
+  "ayet": [
+   10,
+   10
+  ],
+  "hook": "Sabrının karşılığını merak ediyorsan",
+  "kapanis": "Mükâfatı hesapsız.",
+  "bg": "geometri",
+  "aciklama": "Sabredenlere mükâfatları hesapsız verilir.",
+  "etiketler": [
+   "sabır",
+   "mükafat"
+  ]
+ },
+ {
+  "id": "v041",
+  "tema": "Namaz",
+  "sure": 2,
+  "ayet": [
+   45,
+   45
+  ],
+  "hook": "Namaz sana ağır geliyorsa",
+  "kapanis": "Sabır ve namazla yardım iste.",
+  "bg": "gece",
+  "aciklama": "Sabır ve namazla Allah'tan yardım isteyin.",
+  "etiketler": [
+   "namaz",
+   "huşu"
+  ]
+ },
+ {
+  "id": "v042",
+  "tema": "Gayret",
+  "sure": 29,
+  "ayet": [
+   69,
+   69
+  ],
+  "hook": "Yolunu kaybettiğini hissediyorsan",
+  "kapanis": "Çabalayana yol açılır.",
+  "bg": "safak",
+  "aciklama": "Allah yolunda çaba gösterenleri yollarına iletir.",
+  "etiketler": [
+   "gayret",
+   "hidayet"
+  ]
+ }
+]
