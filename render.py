@@ -145,11 +145,18 @@ def build(topic):
     scenes.append((end, 3.0))
     return scenes
 
+def add_rain(tid, total, aud):
+    """audio/rain.wav'dan videoya özel bir kesit alır (id'ye göre sabit başlangıç), yumuşak giriş/çıkış."""
+    off = (int(tid[1:]) * 7) % 30
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-stream_loop', '-1', '-ss', str(off), '-i', f'{BASE}/audio/rain.wav',
+                    '-t', str(total), '-af', f'volume=0.9,afade=t=in:d=1.2,afade=t=out:st={max(0, total - 1.5)}:d=1.5',
+                    '-ar', '44100', '-ac', '2', aud], check=True)
+
 def render(topic, out):
     scenes = build(topic); total = sum(d for _, d in scenes); n = int(total * FPS)
     bgf = BG[topic['bg']]; starts = np.cumsum([0] + [d for _, d in scenes])
     aud = f'{out}.wav'
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'lavfi', '-i', f'anullsrc=r=44100:cl=stereo', '-t', str(total), '-ar', '44100', '-ac', '2', aud], check=True)
+    add_rain(topic['id'], total, aud)
     ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                            '-i', aud, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k',
                            '-movflags', '+faststart', '-shortest', out], stdin=subprocess.PIPE)

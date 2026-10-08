@@ -8,7 +8,7 @@ Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub link
 - `data/tur-diyanetisleri.json`: Diyanet İşleri meali (Tanzil, fawazahmed0/quran-api)
 - `surahs.json`: sure numarası → Türkçe sure adı
 - `topics.json`: konu listesi. Alanlar: id, tema, sure, ayet [başlangıç, bitiş], hook, kapanis, bg, aciklama, etiketler
-- `render.py <id...>`: videoyu üretir → `videos/<id>.mp4` (1080x1920, 30fps, sessiz ses kanalı)
+- `render.py <id...>`: videoyu üretir → `videos/<id>.mp4` (1080x1920, 30fps, yağmur sesi `audio/rain.wav`, `make_rain.py` ile üretildi)
 - `caption.py <id...>`: TikTok açıklamasını basar
 - `state.json`: hangi videonun ne zaman planlandığının kaydı
 
@@ -18,7 +18,7 @@ Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub link
 3. Hook kuralları: ilk karede görünür, en fazla yaklaşık 10 kelime, izleyicinin durumuna hitap eder ("…hissediyorsan"). Video 13–25 saniye sürer. Kapanış kaydetme ya da paylaşma çağrısı içerir.
 4. Arka planlar sırayla döner: gece, safak, deniz, fener, geometri.
 5. Paylaşım saatleri (Asia/Dubai): 10:00, 15:00, 18:00. Günde 3 video.
-6. TikTok ayarları: `title` zorunludur (hook metni kullanılır), `PUBLIC_TO_EVERYONE`, `autoAddMusic: false` (Metricool/TikTok videolarda otomatik müziğe izin vermiyor; videolar sessiz), `isAigc: false` (kullanıcı AI etiketini kapattı).
+6. TikTok ayarları: `title` zorunludur (hook metni kullanılır), `PUBLIC_TO_EVERYONE`, `autoAddMusic: false` (Metricool/TikTok videolarda otomatik müziğe izin vermiyor; videolarda yağmur sesi var), `isAigc: false` (kullanıcı AI etiketini kapattı).
 
 ## Metricool
 - blogId: `7319798`, zaman dilimi `Asia/Dubai`
