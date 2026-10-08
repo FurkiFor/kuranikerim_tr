@@ -149,8 +149,7 @@ def render(topic, out):
     scenes = build(topic); total = sum(d for _, d in scenes); n = int(total * FPS)
     bgf = BG[topic['bg']]; starts = np.cumsum([0] + [d for _, d in scenes])
     aud = f'{out}.wav'
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'lavfi', '-i', f'anoisesrc=d={total}:c=brown:a=0.6:seed=3',
-                    '-af', f'lowpass=f=900,highpass=f=60,volume=0.35,afade=t=in:d=1.5,afade=t=out:st={total-2}:d=2', '-ar', '44100', '-ac', '2', aud], check=True)
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'lavfi', '-i', f'anullsrc=r=44100:cl=stereo', '-t', str(total), '-ar', '44100', '-ac', '2', aud], check=True)
     ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                            '-i', aud, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k',
                            '-movflags', '+faststart', '-shortest', out], stdin=subprocess.PIPE)
