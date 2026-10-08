@@ -1,6 +1,13 @@
 {
  "planlanan": {
-  "v001": {"tarih": "2026-10-09T03:10:00+04:00", "metricool_id": 391610479, "not": "test, SELF_ONLY"},
-  "v002": {"tarih": "2026-10-09T03:15:00+04:00", "metricool_id": 391616805}
+  "v001": {
+   "tarih": "2026-10-09T03:45:00+04:00",
+   "metricool_id": 391617686,
+   "not": "herkese açık yeniden yükleme; 03:10 test kopyası SELF_ONLY"
+  },
+  "v002": {
+   "tarih": "2026-10-09T03:15:00+04:00",
+   "metricool_id": 391616805
+  }
  }
 }
