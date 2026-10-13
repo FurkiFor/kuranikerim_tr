@@ -167,7 +167,12 @@
   "etiketler": [
    "yakınlık",
    "teselli"
-  ]
+  ],
+  "sahne": "kalp",
+  "seslendirme": {
+   "giris": "İçinden geçenleri kimseye anlatamıyor musun? Kur'an bunun cevabını tek bir cümlede veriyor.",
+   "yorum": "Yani sen daha söylemeden, O içinden geçeni biliyor. Sen hiç yalnız değilsin."
+  }
  },
  {
   "id": "v011",
@@ -184,7 +189,12 @@
   "etiketler": [
    "sabır",
    "emek"
-  ]
+  ],
+  "sahne": "tohum",
+  "seslendirme": {
+   "giris": "Emek veriyorsun ama karşılığını göremiyorsun. Bu ayet tam olarak bunu anlatıyor.",
+   "yorum": "Gördüğün ya da görmediğin her iyilik Allah katında kayıtlı. Hiçbiri boşa gitmez."
+  }
  },
  {
   "id": "v012",
@@ -201,7 +211,12 @@
   "etiketler": [
    "musibet",
    "teslimiyet"
-  ]
+  ],
+  "sahne": "firtina",
+  "seslendirme": {
+   "giris": "Başına gelen bir şeye neden diye soruyorsan, şu ayete kulak ver.",
+   "yorum": "Hiçbir şey kendiliğinden olmuyor. Ve Allah, inanan kalbi doğruya yöneltiyor."
+  }
  },
  {
   "id": "v013",
@@ -218,7 +233,12 @@
   "etiketler": [
    "imtihan",
    "sabır"
-  ]
+  ],
+  "sahne": "deniz",
+  "seslendirme": {
+   "giris": "Korku, kayıp, eksilme. Bunların hepsi bir imtihanın parçası olabilir.",
+   "yorum": "Sabredenlere müjde var. Onlar her şeyin sonunda Allah'a döneceğini bilirler."
+  }
  },
  {
   "id": "v014",
@@ -235,7 +255,12 @@
   "etiketler": [
    "tevekkül",
    "kaygı"
-  ]
+  ],
+  "sahne": "yol",
+  "seslendirme": {
+   "giris": "Yarın ne olacak diye uyuyamıyorsan, bu ayeti sonuna kadar dinle.",
+   "yorum": "Başımıza gelen, Allah'ın yazdığıdır. O bizim Mevlâmız. Güven O'na."
+  }
  },
  {
   "id": "v015",
@@ -252,7 +277,12 @@
   "etiketler": [
    "huzur",
    "fecr"
-  ]
+  ],
+  "sahne": "kapi",
+  "seslendirme": {
+   "giris": "Ölüm bir son mu, yoksa bir dönüş mü? Fecr Suresi bir davetle bitiyor.",
+   "yorum": "Huzura ermiş bir can için Rabbine dönüş, bir davettir."
+  }
  },
  {
   "id": "v016",
@@ -269,7 +299,12 @@
   "etiketler": [
    "iyilik",
    "zilzal"
-  ]
+  ],
+  "sahne": "kum",
+  "seslendirme": {
+   "giris": "Kimse görmese bile yaptığın küçük iyiliğin bir değeri var mı?",
+   "yorum": "Zerre kadar iyilik bile kaybolmuyor. Kötülük de öyle. O hâlde hiçbirini küçük görme."
+  }
  },
  {
   "id": "v017",
@@ -286,7 +321,12 @@
   "etiketler": [
    "merhamet",
    "teselli"
-  ]
+  ],
+  "sahne": "fener",
+  "seslendirme": {
+   "giris": "Yükün çok ağır geliyorsa, bil ki Allah bunu biliyor.",
+   "yorum": "Allah insanın zayıf yaratıldığını biliyor ve yükünü hafifletmek istiyor."
+  }
  },
  {
   "id": "v018",
@@ -303,7 +343,12 @@
   "etiketler": [
    "ahlak",
    "iyilik"
-  ]
+  ],
+  "sahne": "kalp",
+  "seslendirme": {
+   "giris": "Sana kötülük edene kötülükle mi karşılık vermelisin? Kur'an başka bir yol gösteriyor.",
+   "yorum": "Fenalığı en güzel şekilde savmak, bir düşmanı dosta çevirebilir."
+  }
  },
  {
   "id": "v019",
@@ -320,7 +365,12 @@
   "etiketler": [
    "öfke",
    "affetmek"
-  ]
+  ],
+  "sahne": "deniz",
+  "seslendirme": {
+   "giris": "Öfke anında söylenen tek bir söz her şeyi yıkabilir. Allah'ın sevdiği kullar ne yapar?",
+   "yorum": "Öfkesini yenen ve affeden, Allah'ın sevdiği iyilik yapanlardan olur."
+  }
  },
  {
   "id": "v020",
@@ -337,7 +387,12 @@
   "etiketler": [
    "dua",
    "rabbena"
-  ]
+  ],
+  "sahne": "fener",
+  "seslendirme": {
+   "giris": "Her namazdan sonra okuyabileceğin kısacık bir dua var. Hem de Kur'an'dan.",
+   "yorum": "Dünyanın da ahiretin de iyisini isteyen bu duayı bugün ezberle."
+  }
  },
  {
   "id": "v021",
@@ -354,7 +409,12 @@
   "etiketler": [
    "tövbe",
    "dua"
-  ]
+  ],
+  "sahne": "kapi",
+  "seslendirme": {
+   "giris": "Hata yaptığında Allah'a ne diyeceğini bilemiyor musun? İlk tövbe duası Kur'an'da.",
+   "yorum": "Hazreti Âdem ve Hazreti Havva böyle dua etti. Pişmanlığını sen de böyle anlat."
+  }
  },
  {
   "id": "v022",
@@ -371,7 +431,12 @@
   "etiketler": [
    "aile",
    "evlilik"
-  ]
+  ],
+  "sahne": "kalp",
+  "seslendirme": {
+   "giris": "Evlilikteki sevgi ve merhameti Kur'an nasıl anlatıyor, hiç düşündün mü?",
+   "yorum": "Eşler arasındaki sevgi ve merhamet, Allah'ın varlığının belgelerinden biri."
+  }
  },
  {
   "id": "v023",
@@ -388,7 +453,12 @@
   "etiketler": [
    "hayat",
    "salihamel"
-  ]
+  ],
+  "sahne": "tohum",
+  "seslendirme": {
+   "giris": "Güzel bir hayatın sırrı para mı, şöhret mi? Ayet bambaşka bir şey söylüyor.",
+   "yorum": "İnanarak iyi iş yapan herkese, kadın erkek fark etmeden, hoş bir hayat vaadi var."
+  }
  },
  {
   "id": "v024",
@@ -405,7 +475,12 @@
   "etiketler": [
    "ihlas",
    "tevhid"
-  ]
+  ],
+  "sahne": "yildiz",
+  "seslendirme": {
+   "giris": "Allah'ı anlatan en kısa surelerden biri. Sadece dört ayet.",
+   "yorum": "Bir ve tek. Hiçbir şeye muhtaç değil. Hiçbir şey O'na denk değil."
+  }
  },
  {
   "id": "v025",
@@ -422,7 +497,12 @@
   "etiketler": [
    "asr",
    "zaman"
-  ]
+  ],
+  "sahne": "kum",
+  "seslendirme": {
+   "giris": "Zaman akıp gidiyor. Asr Suresi, kimin kaybettiğini ve kimin kurtulduğunu söylüyor.",
+   "yorum": "İman, iyi iş, hakkı ve sabrı tavsiye etmek. Hüsrandan kurtaran dört şey."
+  }
  },
  {
   "id": "v026",
@@ -439,7 +519,12 @@
   "etiketler": [
    "rızık",
    "cuma"
-  ]
+  ],
+  "sahne": "yol",
+  "seslendirme": {
+   "giris": "Rızık kaygısıyla içini yiyorsan, Kur'an hem çalışmayı hem anmayı birlikte söylüyor.",
+   "yorum": "Çalış, Allah'ın lütfundan iste ve O'nu çok an."
+  }
  },
  {
   "id": "v027",
@@ -456,7 +541,12 @@
   "etiketler": [
    "zikir",
    "yöneliş"
-  ]
+  ],
+  "sahne": "fener",
+  "seslendirme": {
+   "giris": "Her şey üst üste geldiğinde, bu ayet sana tek bir yön gösteriyor.",
+   "yorum": "Rabbinin adını an ve her şeyi bırakıp yalnız O'na yönel."
+  }
  },
  {
   "id": "v028",
@@ -473,7 +563,12 @@
   "etiketler": [
    "ihlas",
    "teslimiyet"
-  ]
+  ],
+  "sahne": "yol",
+  "seslendirme": {
+   "giris": "Ne için yaşıyorum diye hiç sordun mu? Bu ayet cevabı tek cümlede veriyor.",
+   "yorum": "Namaz, ibadet, hayat ve ölüm. Hepsi âlemlerin Rabbi için."
+  }
  },
  {
   "id": "v029",
@@ -490,7 +585,12 @@
   "etiketler": [
    "dünya",
    "ahiret"
-  ]
+  ],
+  "sahne": "kum",
+  "seslendirme": {
+   "giris": "Para, mal, statü için kendini tüketiyorsan, bir saniye dur.",
+   "yorum": "Mal ve evlat dünyanın süsü. Rabbinin katında kalıcı olan, iyi işler."
+  }
  },
  {
   "id": "v030",
@@ -507,7 +607,12 @@
   "etiketler": [
    "hayat",
    "mülk"
-  ]
+  ],
+  "sahne": "yildiz",
+  "seslendirme": {
+   "giris": "Neden varız? Mülk Suresi'nin ikinci ayeti bunu açıkça söylüyor.",
+   "yorum": "Hayat da ölüm de, hanginizin daha iyi iş yapacağını belirtmek için yaratıldı."
+  }
  },
  {
   "id": "v031",
@@ -524,7 +629,12 @@
   "etiketler": [
    "nimet",
    "rahman"
-  ]
+  ],
+  "sahne": "yildiz",
+  "seslendirme": {
+   "giris": "Nefes alıyorsun, görüyorsun, seviliyorsun. Bunları hiç saydın mı?",
+   "yorum": "Rahmân Suresi'nde bu soru tekrar tekrar soruluyor. Hangi nimeti yalanlayabiliriz?"
+  }
  },
  {
   "id": "v032",
@@ -541,7 +651,12 @@
   "etiketler": [
    "dua",
    "iman"
-  ]
+  ],
+  "sahne": "kalp",
+  "seslendirme": {
+   "giris": "İmanının zayıfladığını hissettiğin günler için Kur'an'dan bir dua.",
+   "yorum": "Doğru yolu bulduktan sonra kalbin kaymasın diye bu duayı sık oku."
+  }
  },
  {
   "id": "v033",
@@ -558,7 +673,12 @@
   "etiketler": [
    "aile",
    "dua"
-  ]
+  ],
+  "sahne": "fener",
+  "seslendirme": {
+   "giris": "Eşin ve çocukların için ne dua edeceğini bilemiyorsan, Kur'an'da hazır bir dua var.",
+   "yorum": "Ailen gözünün aydınlığı olsun diye bu duayı her gün oku."
+  }
  },
  {
   "id": "v034",
@@ -575,7 +695,12 @@
   "etiketler": [
    "sabır",
    "birlik"
-  ]
+  ],
+  "sahne": "deniz",
+  "seslendirme": {
+   "giris": "Kavga, tartışma, dağılma. Ayet bunun sonucunu açıkça söylüyor.",
+   "yorum": "Çekişmek gücü götürür. Sabredenlerle ise Allah beraberdir."
+  }
  },
  {
   "id": "v035",
@@ -592,7 +717,12 @@
   "etiketler": [
    "zikir",
    "tesbih"
-  ]
+  ],
+  "sahne": "firtina",
+  "seslendirme": {
+   "giris": "Sabah ve akşam, sadece birkaç dakika. Kur'an'da açık bir çağrı var.",
+   "yorum": "Allah'ı çok anmak ve O'nu sabah akşam tesbih etmek."
+  }
  },
  {
   "id": "v036",
@@ -609,7 +739,12 @@
   "etiketler": [
    "rızık",
    "nimet"
-  ]
+  ],
+  "sahne": "tohum",
+  "seslendirme": {
+   "giris": "Sofrandaki ekmek, yağan yağmur. Bunları kim gönderiyor?",
+   "yorum": "Gökten ve yerden rızık veren Allah'tan başka yaratıcı yok."
+  }
  },
  {
   "id": "v037",
@@ -626,7 +761,12 @@
   "etiketler": [
    "güven",
    "sekine"
-  ]
+  ],
+  "sahne": "deniz",
+  "seslendirme": {
+   "giris": "İçinde adını koyamadığın bir korku varsa, bu ayeti dinle.",
+   "yorum": "Kalplere güveni indiren O. İmanı kat kat artırmak için."
+  }
  },
  {
   "id": "v038",
@@ -643,7 +783,12 @@
   "etiketler": [
    "kevser",
    "şükür"
-  ]
+  ],
+  "sahne": "fener",
+  "seslendirme": {
+   "giris": "Az şeyin var gibi mi hissediyorsun? Kur'an'ın en kısa suresi bunu anlatıyor.",
+   "yorum": "Allah pek çok nimet verdi. Karşılığı namaz, kurban ve şükür."
+  }
  },
  {
   "id": "v039",
@@ -660,7 +805,12 @@
   "etiketler": [
    "anne",
    "aile"
-  ]
+  ],
+  "sahne": "kalp",
+  "seslendirme": {
+   "giris": "Anneni en son ne zaman aradın? Bu ayeti dinledikten sonra arayacaksın.",
+   "yorum": "Annen seni güçsüzlükten güçsüzlüğe uğrayarak taşıdı. Bugün ona bir telefon aç."
+  }
  },
  {
   "id": "v040",
@@ -677,7 +827,12 @@
   "etiketler": [
    "sabır",
    "mükafat"
-  ]
+  ],
+  "sahne": "tohum",
+  "seslendirme": {
+   "giris": "Sabrının bir karşılığı olacak mı diye merak ediyorsan, cevap şaşırtabilir.",
+   "yorum": "Sabredenlerin ecri hesapsız ödenecek."
+  }
  },
  {
   "id": "v041",
@@ -694,7 +849,12 @@
   "etiketler": [
    "namaz",
    "huşu"
-  ]
+  ],
+  "sahne": "fener",
+  "seslendirme": {
+   "giris": "Namaz bazen ağır gelir. Kur'an bunu saklamıyor ve bir yol gösteriyor.",
+   "yorum": "Sabır ve namazla Allah'tan yardım iste. Huşu duyana namaz ağır gelmez."
+  }
  },
  {
   "id": "v042",
@@ -711,6 +871,11 @@
   "etiketler": [
    "gayret",
    "hidayet"
-  ]
+  ],
+  "sahne": "yol",
+  "seslendirme": {
+   "giris": "Yolunu kaybettiğini hissediyorsan, Allah çabalayana ne vaat ediyor?",
+   "yorum": "Allah yolunda çaba gösterenleri yollarına eriştirir. Sen yeter ki çabala."
+  }
  }
 ]

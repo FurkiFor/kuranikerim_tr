@@ -1,18 +1,31 @@
 #!/usr/bin/env python3
-"""Ayet + meal TikTok videosu üretici.
-Kullanım: python3 render.py <id>  (topics.json içindeki id)
-Ayet metinleri yalnızca data/ altındaki doğrulanmış veri setinden okunur."""
-import json, sys, math, subprocess, os
+"""Seslendirmeli, animasyonlu ayet videosu üretici (v2).
+Kullanım: python3 render.py <id> [<id> ...]     (topics.json içindeki id)
+Ayet metni (Arapça ve Diyanet meali) yalnızca data/ altındaki doğrulanmış veri setinden okunur.
+
+Akış (seslendirme ile birebir senkron):
+  1. HOOK      — izleyicinin durumuna hitap eden cümle, kelime kelime ekrana çakılır
+  2. GİRİŞ     — merak boşluğu açan 1-2 cümle (topics.json > seslendirme.giris)
+  3. AYET      — "<Sure> Suresi'nde Rabbimiz şöyle buyuruyor:" + mealin tamamı okunur;
+                 Arapça metin üstte, meal kelime kelime altyazı; sahne karanlıktan ışığa dönüşür
+  4. YORUM     — mealin söylediğini aşmayan 1-2 cümle (seslendirme.yorum)
+  5. KAPANIŞ   — kaydet / gönder çağrısı; son kare ilk kareye benzer (loop)
+Arka planda müzik ya da gürültü yok; yalnızca seslendirme."""
+import json, sys, os, subprocess, math, wave
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-W, H, FPS = 1080, 1920, 30
-BW, BH = 360, 640  # arka plan düşük çözünürlükte üretilip büyütülür
+sys.path.insert(0, BASE)
+import scenes as SC
+import voice as VO
 
+W, H, FPS = 1080, 1920, 30
 AR = {(x['chapter'], x['verse']): x['text'] for x in json.load(open(f'{BASE}/data/ara-quransimple.json'))['quran']}
 TR = {(x['chapter'], x['verse']): x['text'] for x in json.load(open(f'{BASE}/data/tur-diyanetisleri.json'))['quran']}
 SURE = json.load(open(f'{BASE}/surahs.json'))
+ESKI_BG = {'gece': 'yildiz', 'safak': 'firtina', 'deniz': 'deniz', 'fener': 'fener', 'geometri': 'yildiz'}
+
 
 def font(name, size, var=None):
     f = ImageFont.truetype(f'{BASE}/fonts/{name}', size, layout_engine=ImageFont.Layout.RAQM)
@@ -21,165 +34,251 @@ def font(name, size, var=None):
         except Exception: pass
     return f
 
-F_HOOK = font('Montserrat.ttf', 76, 'ExtraBold')
-F_TR = font('Montserrat.ttf', 52, 'SemiBold')
-F_SMALL = font('Montserrat.ttf', 34, 'Medium')
-F_TAG = font('Montserrat.ttf', 36, 'Bold')
 
-def wrap(text, f, maxw, rtl=False):
+F_HOOK = font('Montserrat.ttf', 94, 'Black')
+F_CAP = font('Montserrat.ttf', 68, 'ExtraBold')
+F_TAG = font('Montserrat.ttf', 38, 'Bold')
+F_REF = font('Montserrat.ttf', 36, 'SemiBold')
+F_CTA = font('Montserrat.ttf', 84, 'Black')
+F_HANDLE = font('Montserrat.ttf', 40, 'Bold')
+
+
+# ------------------------------------------------------------------ metin yardımcıları
+def wrap(words, f, maxw, rtl=False):
     kw = dict(direction='rtl', language='ar') if rtl else {}
-    words, lines, cur = text.split(), [], ''
+    lines, cur = [], []
     for w in words:
-        t = (cur + ' ' + w).strip()
-        if f.getlength(t, **kw) <= maxw: cur = t
-        else:
-            if cur: lines.append(cur)
-            cur = w
+        t = ' '.join(cur + [w])
+        if not cur or f.getlength(t, **kw) <= maxw: cur.append(w)
+        else: lines.append(cur); cur = [w]
     if cur: lines.append(cur)
     return lines
 
-def text_block(lines, f, color, spacing, rtl=False, shadow=True):
-    kw = dict(direction='rtl', language='ar') if rtl else {}
+
+def word_block(words, f, hi, acc, maxw=920, upto=None, stroke=7, spacing=1.18):
+    """Kelime kelime renklendirilebilen çok satırlı metin (beyaz, vurgulu kelime aksan rengi, siyah kontur).
+    upto: yalnızca ilk upto kelimeyi göster (hook için)."""
+    lines = wrap(words, f, maxw)
     asc, desc = f.getmetrics(); lh = int((asc + desc) * spacing)
-    hgt = lh * len(lines) + 40
-    img = Image.new('RGBA', (W, hgt), (0, 0, 0, 0))
-    d = ImageDraw.Draw(img)
+    img = Image.new('RGBA', (W, lh * len(lines) + 2 * stroke + 30), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img); sp = f.getlength(' '); k = 0
+    for li, ln in enumerate(lines):
+        tw = f.getlength(' '.join(ln)); x = (W - tw) / 2; y = 15 + li * lh
+        for w in ln:
+            if upto is None or k < upto:
+                col = acc if k == hi else (255, 255, 255, 255)
+                d.text((x, y), w, font=f, fill=col, stroke_width=stroke, stroke_fill=(0, 0, 0, 255))
+            x += f.getlength(w) + sp; k += 1
+    a = img.getchannel('A').filter(ImageFilter.GaussianBlur(12))
+    sh = Image.new('RGBA', img.size, (0, 0, 0, 0)); sh.putalpha(a.point(lambda v: int(v * 0.55)))
+    return Image.alpha_composite(sh, img)
+
+
+def arabic_card(text, ref, acc):
+    n = len(text)
+    fa = font('Amiri-Bold.ttf', 78 if n < 60 else 66 if n < 130 else 54 if n < 230 else 44)
+    lines = wrap(text.split(), fa, 940, rtl=True)
+    kw = dict(direction='rtl', language='ar')
+    asc, desc = fa.getmetrics(); lh = int((asc + desc) * 1.45)
+    rh = 60
+    h = lh * len(lines) + rh + 60
+    img = Image.new('RGBA', (W, h), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
+    d.rounded_rectangle([40, 0, W - 40, h], radius=38, fill=(0, 0, 0, 120), outline=acc[:3] + (110,), width=2)
     for i, ln in enumerate(lines):
-        x = (W - f.getlength(ln, **kw)) / 2; y = 20 + i * lh
-        d.text((x, y), ln, font=f, fill=color, **kw)
-    if shadow:
-        a = img.split()[3].filter(ImageFilter.GaussianBlur(10))
-        sh = Image.new('RGBA', img.size, (0, 0, 0, 0)); sh.putalpha(a.point(lambda v: int(v * .85)))
-        img = Image.alpha_composite(sh, img)
+        s = ' '.join(ln); x = (W - fa.getlength(s, **kw)) / 2
+        d.text((x, 22 + i * lh), s, font=fa, fill=acc, direction='rtl', language='ar')
+    y = 22 + lh * len(lines) + 4
+    d.text(((W - F_REF.getlength(ref)) / 2, y), ref, font=F_REF, fill=(255, 255, 255, 215))
     return img
 
-def stack(parts, gap=36):
-    h = sum(p.height for p in parts) + gap * (len(parts) - 1)
-    out = Image.new('RGBA', (W, h), (0, 0, 0, 0)); y = 0
-    for p in parts: out.alpha_composite(p, (0, y)); y += p.height + gap
+
+def tag_img(text, acc):
+    w = int(F_TAG.getlength(text)) + 64
+    img = Image.new('RGBA', (W, 72), (0, 0, 0, 0)); d = ImageDraw.Draw(img); x0 = (W - w) // 2
+    d.rounded_rectangle([x0, 4, x0 + w, 68], radius=32, fill=(0, 0, 0, 140), outline=acc[:3] + (200,), width=3)
+    d.text((x0 + 32, 13), text, font=F_TAG, fill=acc)
+    return img
+
+
+def chunks(words, f, maxw=900, maxwords=5):
+    """Altyazıyı ekranda 1-2 satırlık, en fazla 5 kelimelik parçalara böler; noktalama sonrası yeni parça."""
+    out, cur = [], []
+    for i, (w, s, e) in enumerate(words):
+        cur.append(i)
+        txt = ' '.join(words[j][0] for j in cur)
+        end = w[-1] in '.,;:!?' and len(cur) >= 2
+        if len(cur) >= maxwords or end or len(wrap(txt.split(), f, maxw)) > 2:
+            if len(wrap(txt.split(), f, maxw)) > 2 and len(cur) > 1:
+                cur.pop(); out.append(cur); cur = [i]
+            else:
+                out.append(cur); cur = []
+    if cur: out.append(cur)
     return out
 
-def divider(color):
-    img = Image.new('RGBA', (W, 30), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
-    cx = W // 2; d.line([(cx - 140, 15), (cx - 22, 15)], fill=color, width=3); d.line([(cx + 22, 15), (cx + 140, 15)], fill=color, width=3)
-    d.polygon([(cx, 3), (cx + 12, 15), (cx, 27), (cx - 12, 15)], fill=color)
-    return img
 
-# ---------------- arka planlar ----------------
-yy, xx = np.mgrid[0:BH, 0:BW].astype(np.float32); yy /= BH; xx /= BW
-rng = np.random.default_rng(7)
-
-def lerp(c1, c2, t): return c1[None, None] * (1 - t[..., None]) + c2[None, None] * t[..., None]
-
-def particles(img, pts, t, color, size=1.6, rise=0.02, flick=True):
-    n = len(pts); px = (pts[:, 0] + 0.01 * np.sin(t * .7 + pts[:, 2] * 9)) % 1; py = (pts[:, 1] - rise * t) % 1
-    br = (0.55 + 0.45 * np.sin(t * 2.2 + pts[:, 2] * 30)) if flick else np.ones(n)
-    for i in range(n):
-        cx, cy = px[i] * BW, py[i] * BH; s = size * (0.6 + pts[i, 2]); r = int(s * 3) + 1
-        x0, x1 = max(0, int(cx) - r), min(BW, int(cx) + r + 1); y0, y1 = max(0, int(cy) - r), min(BH, int(cy) + r + 1)
-        if x0 >= x1 or y0 >= y1: continue
-        gx = np.arange(x0, x1) - cx; gy = np.arange(y0, y1) - cy
-        g = np.exp(-(gy[:, None] ** 2 + gx[None, :] ** 2) / (2 * s * s))
-        img[y0:y1, x0:x1] += g[..., None] * color[None, None] * br[i]
-    return img
-
-STAR = rng.random((70, 3)).astype(np.float32); ORB = rng.random((18, 3)).astype(np.float32); DUST = rng.random((40, 3)).astype(np.float32)
-
-def bg_gece(t):
-    base = lerp(np.array([4, 8, 28.]), np.array([18, 30, 70.]), yy)
-    neb = (np.sin(xx * 5 + t * .15) + np.sin(yy * 4 - t * .11 + xx * 2) + np.sin((xx + yy) * 3 + t * .08)) / 3
-    img = base + np.clip(neb, 0, 1)[..., None] * np.array([40, 30, 80.])[None, None]
-    return particles(img, STAR, t, np.array([220, 225, 255.]), 0.9, 0.003)
-
-def bg_safak(t):
-    base = lerp(np.array([40, 20, 55.]), np.array([190, 110, 60.]), np.clip(yy * 1.1, 0, 1))
-    ang = np.arctan2(yy - 1.05, xx - .5); rays = (np.sin(ang * 14 + t * .25) * .5 + .5) ** 3
-    img = base + rays[..., None] * np.array([30, 22, 12.])[None, None] * (1 - yy[..., None] * .3)
-    return particles(img, DUST, t, np.array([255, 230, 180.]), 1.0, 0.015)
-
-def bg_deniz(t):
-    base = lerp(np.array([4, 40, 60.]), np.array([2, 90, 110.]), yy)
-    w = np.sin(yy * 40 + np.sin(xx * 6 + t * .6) * 2 - t * 1.1) * .5 + .5
-    img = base + (w ** 6)[..., None] * np.array([40, 90, 100.])[None, None] * yy[..., None]
-    return particles(img, DUST[:25], t, np.array([200, 255, 255.]), 0.8, -0.004)
-
-def bg_fener(t):
-    base = lerp(np.array([20, 8, 30.]), np.array([60, 25, 30.]), yy)
-    img = base.copy()
-    return particles(img, ORB, t, np.array([255, 170, 70.]), 7.0, 0.012, flick=False) * 1.0
-
-def bg_geometri(t):
-    base = lerp(np.array([2, 30, 24.]), np.array([6, 60, 48.]), yy)
-    a = t * .03; cx, cy = xx - .5, (yy - .5) * BH / BW
-    u = cx * math.cos(a) - cy * math.sin(a); v = cx * math.sin(a) + cy * math.cos(a)
-    p = 0
-    for k in range(8):
-        th = k * math.pi / 8; p = p + np.cos((u * math.cos(th) + v * math.sin(th)) * 34)
-    lines = np.exp(-((p / 8 - .55) ** 2) / .004)
-    img = base + lines[..., None] * np.array([60, 110, 80.])[None, None] * .5
-    return particles(img, DUST[:20], t, np.array([255, 220, 150.]), 0.9, 0.01)
-
-BG = {'gece': bg_gece, 'safak': bg_safak, 'deniz': bg_deniz, 'fener': bg_fener, 'geometri': bg_geometri}
-ACCENT = {'gece': (240, 210, 140), 'safak': (255, 240, 200), 'deniz': (180, 240, 230), 'fener': (255, 200, 120), 'geometri': (235, 210, 140)}
-
-# ---------------- sahne ----------------
-def build(topic):
-    acc = ACCENT[topic['bg']] + (255,)
-    scenes = []
-    hook = stack([text_block([topic['tema'].upper()], F_TAG, acc, 1.2, shadow=False), divider(acc),
-                  text_block(wrap(topic['hook'], F_HOOK, 880), F_HOOK, (255, 255, 255, 255), 1.18)], 24)
-    scenes.append((hook, 3.2))
-    c = topic['sure']; a, b = topic['ayet']
+# ------------------------------------------------------------------ zaman çizelgesi
+def build_timeline(tp):
+    c = tp['sure']; a, b = tp['ayet']; sname = SURE[str(c)]
+    ses = tp.get('seslendirme', {})
+    giris = ses.get('giris') or "Bu ayeti sonuna kadar dinle."
+    yorum = ses.get('yorum') or tp['aciklama']
+    kap = tp['kapanis'].rstrip('.') + '.'
+    cta = ses.get('kapanis') or f"{kap} Kaydet ve ihtiyacı olana gönder."
+    segs = [('hook', tp['hook'], None, 0.35), ('giris', giris, None, 0.30),
+            ('intro', f"{sname} Suresi'nde Rabbimiz şöyle buyuruyor:", None, 0.22)]
     for v in range(a, b + 1):
-        ar, tr = AR[(c, v)].replace('۞', '').strip(), TR[(c, v)].strip()
+        tr = TR[(c, v)].strip()
         if not tr.endswith(('.', '!', '?', '"')): tr += '.'
-        arn = len(ar); fa = font('Amiri-Bold.ttf', 84 if arn < 70 else 70 if arn < 140 else 58)
-        ft = F_TR if len(tr) < 150 else font('Montserrat.ttf', 44, 'SemiBold')
-        ref = f"{SURE[str(c)]} Suresi, {v}. ayet"
-        card = stack([text_block(wrap(ar, fa, 900, True), fa, acc, 1.55, rtl=True), divider(acc),
-                      text_block(wrap(tr, ft, 880), ft, (255, 255, 255, 255), 1.32),
-                      text_block([ref], F_SMALL, (255, 255, 255, 200), 1.2)], 34)
-        scenes.append((card, max(5.5, min(15, 2.5 + len(tr) / 15))))
-    end = stack([text_block([f"{SURE[str(c)]} Suresi {a}" + (f"-{b}" if b != a else '')], F_TAG, acc, 1.2),
-                 divider(acc), text_block(wrap(topic['kapanis'], F_HOOK, 880), font('Montserrat.ttf', 60, 'ExtraBold'), (255, 255, 255, 255), 1.2)], 24)
-    scenes.append((end, 3.0))
-    return scenes
+        segs.append(('meal', tr, v, 0.45 if v < b else 0.5))
+    segs += [('yorum', yorum, None, 0.35), ('cta', cta, None, 0.9)]
+    audio, tl, t = [], [], 0.25
+    audio.append(np.zeros(int(0.25 * VO.SR), np.float32))
+    for kind, text, v, gap in segs:
+        smp, words = VO.synth_segment(text)
+        dur = len(smp) / VO.SR
+        tl.append(dict(kind=kind, text=text, verse=v, start=t, end=t + dur,
+                       words=[(w, t + s, t + e) for w, s, e in words]))
+        audio += [smp, np.zeros(int(gap * VO.SR), np.float32)]
+        t += dur + gap
+    return tl, np.concatenate(audio), t
 
-def add_rain(tid, total, aud):
-    """audio/rain.wav'dan videoya özel bir kesit alır (id'ye göre sabit başlangıç), yumuşak giriş/çıkış."""
-    off = (int(tid[1:]) * 7) % 30
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-stream_loop', '-1', '-ss', str(off), '-i', f'{BASE}/audio/rain.wav',
-                    '-t', str(total), '-af', f'volume=0.9,afade=t=in:d=1.2,afade=t=out:st={max(0, total - 1.5)}:d=1.5',
-                    '-ar', '44100', '-ac', '2', aud], check=True)
 
-def render(topic, out):
-    scenes = build(topic); total = sum(d for _, d in scenes); n = int(total * FPS)
-    bgf = BG[topic['bg']]; starts = np.cumsum([0] + [d for _, d in scenes])
-    aud = f'{out}.wav'
-    add_rain(topic['id'], total, aud)
+def write_wav(path, a, sr):
+    a = np.clip(a, -1, 1)
+    with wave.open(path, 'wb') as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
+        w.writeframes((a * 32767).astype(np.int16).tobytes())
+
+
+# ------------------------------------------------------------------ çizim
+def paste(frame, img, y, alpha=1.0, x=0):
+    if alpha <= 0.01 or img is None: return
+    m = img.getchannel('A')
+    if alpha < 0.99: m = m.point(lambda v, a=alpha: int(v * a))
+    frame.paste(img, (x, int(y)), m)
+
+
+def ease_out(x): x = min(1, max(0, x)); return 1 - (1 - x) ** 3
+
+
+def render(tp, out):
+    scene = tp.get('sahne') or ESKI_BG.get(tp.get('bg'), 'fener')
+    sfn = SC.SCENES[scene]; acc = SC.ACCENT[scene] + (255,)
+    tl, audio, total = build_timeline(tp)
+    raw, aud = f'{out}.raw.wav', f'{out}.wav'
+    write_wav(raw, audio, VO.SR); VO.master(raw, aud); os.remove(raw)
+    c = tp['sure']; a, b = tp['ayet']; sname = SURE[str(c)]
+    meal = [s for s in tl if s['kind'] == 'meal']
+    m0, m1 = meal[0]['start'], meal[-1]['end']
+    hook = tl[0]; cta = tl[-1]
+    hook_words = [w for w, _, _ in hook['words']]
+    cta_words = [w for w, _, _ in cta['words']]
+    ref_full = f"{sname} Suresi " + (f"{a}-{b}" if b != a else f"{a}") + ". ayet"
+    tag = tag_img(tp['tema'].upper(), acc)
+    cards = {s['verse']: arabic_card(AR[(c, s['verse'])].replace('۞', '').strip(), f"{sname} Suresi, {s['verse']}. ayet", acc) for s in meal}
+    handle = word_block(['@kuranikerim_tr'], F_HANDLE, -1, acc, stroke=4)
+    refimg = word_block(ref_full.split(), F_REF, -1, acc, stroke=4)
+    # altyazı parçaları
+    capsegs = []
+    for s in tl[1:-1]:
+        for ch in chunks(s['words'], F_CAP):
+            ws = [s['words'][i] for i in ch]
+            capsegs.append(dict(seg=s, words=ws, start=ws[0][1], end=ws[-1][2]))
+    for i, cs in enumerate(capsegs):  # bir sonraki parça gelene kadar ekranda kalsın (en fazla 0.5 sn)
+        nxt = capsegs[i + 1]['start'] if i + 1 < len(capsegs) else cs['end'] + 0.4
+        cs['hold'] = min(nxt, cs['end'] + 0.5)
+    cache = {}
+
+    def cap_img(ci, hi):
+        k = ('c', ci, hi)
+        if k not in cache:
+            cache[k] = word_block([w for w, _, _ in capsegs[ci]['words']], F_CAP, hi, acc)
+        return cache[k]
+
+    def big_img(kind, words, upto, hi, f):
+        k = (kind, upto, hi)
+        if k not in cache: cache[k] = word_block(words, f, hi, acc, upto=upto, stroke=9)
+        return cache[k]
+
+    beats = [s['start'] for s in tl]
+    n = int(math.ceil(total * FPS))
     ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-                           '-i', aud, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k',
+                           '-i', aud, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
                            '-movflags', '+faststart', '-shortest', out], stdin=subprocess.PIPE)
-    vign = (1 - 0.45 * (((xx - .5) * 2) ** 2 + ((yy - .5) * 1.6) ** 2)).clip(.35, 1)[..., None]
-    layers = []
-    for img, d in scenes:
-        a = np.asarray(img).astype(np.float32); layers.append((a[..., :3] * (a[..., 3:] / 255), a[..., 3:] / 255))
+    vign = (1 - 0.5 * (((SC.XN - .5) * 2) ** 2 + ((SC.YN - .5) * 1.5) ** 2)).clip(.3, 1)[..., None]
+    capband = np.exp(-((SC.YN - 0.66) / 0.09) ** 2)[..., None]
+    cardband = np.exp(-((SC.YN - 0.27) / 0.14) ** 2)[..., None]
+    loop_p = 0.0
     for i in range(n):
-        t = i / FPS
-        bg = Image.fromarray(np.clip(bgf(t) * vign, 0, 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(0.8))
-        frame = np.asarray(bg.resize((W, H), Image.BILINEAR)).astype(np.float32)
-        k = int(np.searchsorted(starts, t, side='right') - 1); k = min(k, len(scenes) - 1)
-        d = scenes[k][1]; lt = t - starts[k]
-        fin = 1 if k == 0 else min(1, lt / .45)
-        al = max(0., min(fin, (d - lt) / .35 if k < len(scenes) - 1 else 1))
-        dy = int((1 - fin) * 30)
-        rgb, alpha = layers[k]; h = rgb.shape[0]
-        y = max(160, int(H * 0.44 - h / 2) + dy); h2 = min(h, H - y)
-        sl = frame[y:y + h2]
-        frame[y:y + h2] = sl * (1 - alpha[:h2] * al) + rgb[:h2] * al
-        ff.stdin.write(frame.astype(np.uint8).tobytes())
+        t = i / FPS; g = t / total
+        # dönüşüm: ayet okunurken karanlıktan ışığa; kapanışın sonunda başa dön (loop)
+        p = SC.sm((t - m0 + 0.6) / (m1 - m0 + 0.6))
+        if t > cta['end'] - 0.2: p *= 1 - SC.sm((t - cta['end'] + 0.2) / 1.0)
+        card_a = 0.0
+        for s in meal:
+            if s['start'] - 0.3 <= t <= s['end'] + 0.45:
+                card_a = max(card_a, min(1, (t - s['start'] + 0.3) / 0.4))
+        if meal and t > meal[-1]['end'] + 0.15:
+            card_a = max(0, 1 - (t - meal[-1]['end'] - 0.15) / 0.4)
+        arr = sfn(t, p, g).astype(np.float32)
+        shade = 1 - 0.42 * capband * (t > hook['end']) - 0.5 * cardband * card_a
+        arr = np.clip(arr * vign * shade, 0, 255)
+        # kamera: yavaş yaklaşma + her cümle başında küçük "punch"
+        z = 1.0 + 0.06 * g
+        for bt in beats:
+            if 0 <= t - bt < 0.6: z += (0.09 if bt == beats[0] else 0.035) * math.exp(-(t - bt) / 0.16)
+        cw, ch = SC.SW / z, SC.SH / z; x0 = (SC.SW - cw) / 2; y0 = (SC.SH - ch) / 2 - 8 * math.sin(t * 0.3)
+        y0 = min(max(0, y0), SC.SH - ch)
+        frame = Image.fromarray(arr.astype(np.uint8)).resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + cw, y0 + ch))
+        # ayet başında ışık patlaması (pattern interrupt)
+        if 0 <= t - m0 + 0.3 < 0.3:
+            k = 1 - (t - m0 + 0.3) / 0.3
+            frame = Image.blend(frame, Image.new('RGB', (W, H), (255, 240, 215)), 0.55 * k)
+        # konu etiketi
+        paste(frame, tag, 150, 1.0 if t < hook['end'] + 0.3 else 0.85)
+        # HOOK
+        if t < hook['end'] + 0.35:
+            upto = sum(1 for _, s, _ in hook['words'] if s <= t + 0.05)
+            hi = upto - 1
+            im = big_img('h', hook_words, max(1, upto), hi, F_HOOK)
+            fade = 1 if t < hook['end'] + 0.1 else max(0, 1 - (t - hook['end'] - 0.1) / 0.25)
+            paste(frame, im, H * 0.42 - im.height / 2, fade)
+        # Arapça kart
+        if card_a > 0:
+            cur = None
+            for s in meal:
+                if t >= s['start'] - 0.3: cur = s
+            cimg = cards[cur['verse']]
+            yy = 300 + (1 - ease_out(card_a)) * 40
+            paste(frame, cimg, yy, card_a)
+        # altyazılar
+        for ci, cs in enumerate(capsegs):
+            if cs['start'] - 0.05 <= t < cs['hold']:
+                hi = -1
+                for k, (_, s, e) in enumerate(cs['words']):
+                    if s - 0.03 <= t: hi = k
+                if t > cs['end']: hi = -1
+                im = cap_img(ci, hi)
+                lt = t - cs['start'] + 0.05
+                yy = H * 0.66 - im.height / 2 + (1 - ease_out(lt / 0.14)) * 26
+                paste(frame, im, yy, min(1, lt / 0.1))
+                break
+        # KAPANIŞ
+        if t >= cta['start'] - 0.1:
+            upto = sum(1 for _, s, _ in cta['words'] if s <= t + 0.05)
+            im = big_img('k', cta_words, max(1, upto), upto - 1, F_CTA)
+            fa = min(1, (t - cta['start'] + 0.1) / 0.2)
+            paste(frame, im, H * 0.45 - im.height / 2, fa)
+            paste(frame, refimg, H * 0.45 + im.height / 2 + 20, fa)
+            paste(frame, handle, H * 0.45 + im.height / 2 + 90, fa)
+        # ilerleme çubuğu (izlenme süresini artırır)
+        d = ImageDraw.Draw(frame)
+        d.rectangle([0, 0, W, 9], fill=(30, 30, 30))
+        d.rectangle([0, 0, int(W * g), 9], fill=acc[:3])
+        ff.stdin.write(frame.tobytes())
     ff.stdin.close(); ff.wait(); os.remove(aud)
     return total
+
 
 if __name__ == '__main__':
     topics = {t['id']: t for t in json.load(open(f'{BASE}/topics.json'))}
