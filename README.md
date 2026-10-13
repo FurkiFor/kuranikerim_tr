@@ -1,6 +1,6 @@
 # kuranikerim_tr — TikTok / YouTube Shorts ayet videoları (v2)
 
-@kuranikerim_tr için otomatik, **Türkçe seslendirmeli ve animasyonlu** ayet + meal videoları üretir.
+@kuranikerim_tr için otomatik, **Türkçe seslendirmeli, fon müzikli ve vektör animasyonlu** ayet + meal videoları üretir.
 Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub linkinden çeker.
 
 ## Dosyalar
@@ -9,18 +9,20 @@ Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub link
 - `surahs.json`: sure numarası → Türkçe sure adı
 - `topics.json`: konu listesi. Alanlar: `id, tema, sure, ayet [başlangıç, bitiş], hook, kapanis, sahne, seslendirme {giris, yorum}, bg, aciklama, etiketler`
 - `render.py <id...>`: videoyu üretir → `videos/<id>.mp4` (1080x1920, 30 fps, seslendirmeli)
-- `scenes.py`: ayetin anlamını görselleştiren animasyon sahneleri
-- `voice.py`: yerel Türkçe TTS (Piper "fahrettin" sesi, sherpa-onnx). Model ilk çalıştırmada GitHub'dan `models/` altına iner (git'e eklenmez)
+- `scenes.py`: ayetin anlamını anlatan vektör animasyon hikâyeleri (her biri 3 çekim: sorun → dönüşüm → sonuç)
+- `vg.py`: vektör çizim kütüphanesi (skia): karakter ve pozlar (yürüme, üzgün, dua, sevinç, oturma), bulut, güneş, ay, yağmur, şimşek, ağaç, çiçek, kuş, kelebek, dalga, tekne, kapı, kum saati, gezegen…
+- `voice.py`: yerel Türkçe TTS (Piper "dfki" sesi, sherpa-onnx; kullanıcı dfki'yi seçti). Model ilk çalıştırmada GitHub'dan `models/` altına iner (git'e eklenmez)
+- `music.py`: yerel üretilen telifsiz atmosferik fon müziği (pad + çan arpeji + bas + yankı); her videoda farklı ton/akor dizisi
 - `caption.py <id...>`: gönderi açıklamasını basar
 - `state.json`: hangi videonun ne zaman planlandığının kaydı
 
 ## Kurulum
 ```
-pip install --break-system-packages sherpa-onnx soundfile pillow numpy
+pip install --break-system-packages sherpa-onnx skia-python pillow numpy scipy
 # ffmpeg gerekir. Ses modeli render sırasında otomatik iner:
 # https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-fahrettin-medium.tar.bz2
 ```
-Bir video ~1,5 dk'da üretilir (2 çekirdek). İki videoyu paralel üretmek için iki ayrı `render.py` süreci çalıştırılabilir.
+Bir video ~2 dk'da üretilir (2 çekirdek). İki videoyu paralel üretmek için iki ayrı `render.py` süreci çalıştırılabilir.
 
 ## Video yapısı (render.py)
 1. **Hook (0–3 sn)**: izleyicinin durumuna hitap eden cümle; ses ile aynı anda kelime kelime ekrana çakılır, kamera "punch" yapar. İlk karede metin ve hareket vardır.
@@ -28,20 +30,22 @@ Bir video ~1,5 dk'da üretilir (2 çekirdek). İki videoyu paralel üretmek içi
 3. **Ayet**: "<Sure> Suresi'nde Rabbimiz şöyle buyuruyor:" + Diyanet mealinin tamamı okunur. Arapça metin üstte kartta, meal altta kelime kelime altyazı. Ayet başlarken ışık patlaması olur ve sahne karanlıktan aydınlığa dönüşür (kırık kalp birleşir, fırtına dağılır, kapı açılır…).
 4. **Yorum**: `seslendirme.yorum` — mealin söylediğini aşmayan 1–2 cümle.
 5. **Kapanış**: `kapanis` + "Kaydet ve ihtiyacı olana gönder." Sahne son saniyede başlangıç hâline döner (loop).
-- Üstte ilerleme çubuğu, konu etiketi. **Arka planda müzik veya gürültü yoktur**, yalnızca seslendirme (-14 LUFS).
+- Üstte ilerleme çubuğu, konu etiketi.
+- **Ses**: seslendirme + altında yumuşak fon müziği; konuşma sırasında müzik otomatik kısılır (sidechain). Toplam -14 LUFS. Yağmur/gürültü sesi kullanılmaz. `KT_MUSIC=0` ile müziksiz üretilebilir.
+- **Animasyon**: sahne her an hareket eder (karakter yürür/nefes alır, bulutlar akar, yağmur yağar, dalgalar, kuşlar, parçacıklar). Çekim geçişlerinde yakınlaşarak geçiş, cümle başlarında kamera vuruşu. Sahne alttaki TikTok arayüzü karakteri örtmesin diye yukarı kaydırılmıştır.
 
 ## Sahneler (`sahne` alanı)
 | sahne | anlatım | uygun temalar |
 |---|---|---|
-| `firtina` | fırtına dağılır, güneş doğar | zorluk, umut, musibet, sabah zikri |
-| `tohum` | tohum ağaca dönüşür | emek, sabır, rızık, iyilik, güzel hayat |
-| `fener` | karanlıkta küçük ışık büyür, eller dua için kalkar | dua, hidayet, yöneliş, namaz |
-| `kalp` | çatlak kalp birleşir, ışıkla dolar | huzur, yakınlık, sevgi, aile, af |
-| `deniz` | dalgalı deniz durulur, ay yansıması | sabır, korku, öfke, imtihan, güven |
-| `kapi` | kapalı kapı açılır, ışık dolar | tövbe, rahmet, Allah'a dönüş, cennet |
-| `kum` | kum saati akar | zaman, dünya hayatı, amel, hesap |
-| `yildiz` | gezegenler, yıldızlar, hilal | yaratılış, tevhid, nimet, hayatın amacı |
-| `yol` | kıvrımlı yol, zirvede şafak | gayret, tevekkül, rızık için çalışma, yön |
+| `firtina` | yağmurda yürüyen karakter; bulutlar dağılır, güneş doğar, çiçekler açar, gökkuşağı | zorluk, umut, musibet, sabah zikri |
+| `tohum` | toprağı sulayan karakter; filiz ağaca dönüşür, meyve verir | emek, sabır, rızık, iyilik, güzel hayat |
+| `fener` | karanlık ormanda fenerle yürüyen karakter; ışık dünyayı aydınlatır, dua, gökyüzüne fenerler | dua, hidayet, yöneliş, namaz |
+| `kalp` | kalp çatlar ve griye döner; parçalar birleşir, içi altın ışıkla dolar, atar | huzur, yakınlık, sevgi, aile, af |
+| `deniz` | fırtınada sallanan tekne; deniz durulur, deniz feneri, ay, zıplayan balıklar | sabır, korku, öfke, imtihan, güven |
+| `kapi` | karanlık odada kapıya yürüyen karakter; kapı açılır, ışık dolar, bahçe | tövbe, rahmet, Allah'a dönüş, cennet |
+| `kum` | dönen kum saati, uçuşan takvim yaprakları; altın taneler; mizan (terazi) | zaman, dünya hayatı, amel, hesap |
+| `yildiz` | ışık hızında yıldızlar; güneş sistemi; gökyüzüne bakan karakter, takımyıldız | yaratılış, tevhid, nimet, hayatın amacı |
+| `yol` | yolda yürüyen sırt çantalı karakter; dağ yükselir, güneş doğar; zirvede bayrak | gayret, tevekkül, rızık için çalışma, yön |
 
 ## Kurallar
 1. **Ayet metni asla elle ya da hafızadan yazılmaz.** Arapça ve meal sadece `data/` altındaki dosyalardan okunur. `topics.json`'a yalnızca sure ve ayet numarası girilir. `giris` ve `yorum` alanlarına meal metni kopyalanmaz.

@@ -10,21 +10,28 @@ Akış (seslendirme ile birebir senkron):
                  Arapça metin üstte, meal kelime kelime altyazı; sahne karanlıktan ışığa dönüşür
   4. YORUM     — mealin söylediğini aşmayan 1-2 cümle (seslendirme.yorum)
   5. KAPANIŞ   — kaydet / gönder çağrısı; son kare ilk kareye benzer (loop)
-Arka planda müzik ya da gürültü yok; yalnızca seslendirme."""
+Animasyonlar skia ile vektör olarak çizilir (scenes.py). Seslendirmenin altında, ses geldiğinde kısılan
+(ducking) yerel üretilmiş yumuşak fon müziği vardır (music.py)."""
 import json, sys, os, subprocess, math, wave
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE)
+import skia
 import scenes as SC
 import voice as VO
+import music as MU
+import vg
 
 W, H, FPS = 1080, 1920, 30
 AR = {(x['chapter'], x['verse']): x['text'] for x in json.load(open(f'{BASE}/data/ara-quransimple.json'))['quran']}
 TR = {(x['chapter'], x['verse']): x['text'] for x in json.load(open(f'{BASE}/data/tur-diyanetisleri.json'))['quran']}
 SURE = json.load(open(f'{BASE}/surahs.json'))
 ESKI_BG = {'gece': 'yildiz', 'safak': 'firtina', 'deniz': 'deniz', 'fener': 'fener', 'geometri': 'yildiz'}
+WORLD_UP = 180  # sahneyi yukarı kaydır: alttaki TikTok arayüzü karakteri örtmesin
+CAP_Y, HOOK_Y = 0.44, 0.36
+MUSIC_VOL = float(os.environ.get('KT_MUSIC', '0.16'))  # 0 = müziksiz
 
 
 def font(name, size, var=None):
@@ -72,6 +79,15 @@ def word_block(words, f, hi, acc, maxw=920, upto=None, stroke=7, spacing=1.18):
     a = img.getchannel('A').filter(ImageFilter.GaussianBlur(12))
     sh = Image.new('RGBA', img.size, (0, 0, 0, 0)); sh.putalpha(a.point(lambda v: int(v * 0.55)))
     return Image.alpha_composite(sh, img)
+
+
+def fit_font(words, f, maxw=920, max_lines=4):
+    size = f.size
+    while size > 50:
+        ff = font('Montserrat.ttf', size, 'Black')
+        if max(ff.getlength(w) for w in words) <= maxw and len(wrap(words, ff, maxw)) <= max_lines: return ff
+        size -= 6
+    return font('Montserrat.ttf', size, 'Black')
 
 
 def arabic_card(text, ref, acc):
@@ -151,131 +167,157 @@ def write_wav(path, a, sr):
 
 
 # ------------------------------------------------------------------ çizim
-def paste(frame, img, y, alpha=1.0, x=0):
-    if alpha <= 0.01 or img is None: return
-    m = img.getchannel('A')
-    if alpha < 0.99: m = m.point(lambda v, a=alpha: int(v * a))
-    frame.paste(img, (x, int(y)), m)
+def skimg(pil):
+    a = np.ascontiguousarray(np.asarray(pil.convert('RGBA')))
+    return skia.Image.fromarray(a, skia.ColorType.kRGBA_8888_ColorType, skia.AlphaType.kUnpremul_AlphaType)
+
+
+def draw(c, img, y, alpha=1.0, x=0):
+    if img is None or alpha <= 0.01: return
+    p = skia.Paint(AntiAlias=True); p.setAlphaf(min(1.0, alpha))
+    c.drawImage(img, x, int(y), skia.SamplingOptions(), p)
 
 
 def ease_out(x): x = min(1, max(0, x)); return 1 - (1 - x) ** 3
 
 
+def mix_audio(voice_wav, music_wav, out_wav):
+    """Müzik sesi; konuşma varken kısılır (sidechain), sonra toplam -14 LUFS."""
+    fc = (f"[1:a]volume={MUSIC_VOL}[m];[0:a]asplit=2[v][sc];"
+          "[m][sc]sidechaincompress=threshold=0.03:ratio=5:attack=30:release=500:makeup=1[md];"
+          "[v][md]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=9[o]")
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', voice_wav, '-i', music_wav, '-filter_complex', fc,
+                    '-map', '[o]', '-ar', '44100', '-ac', '2', out_wav], check=True)
+
+
 def render(tp, out):
     scene = tp.get('sahne') or ESKI_BG.get(tp.get('bg'), 'fener')
-    sfn = SC.SCENES[scene]; acc = SC.ACCENT[scene] + (255,)
+    shots = SC.STORIES[scene]; acc = SC.ACCENT[scene] + (255,)
     tl, audio, total = build_timeline(tp)
-    raw, aud = f'{out}.raw.wav', f'{out}.wav'
-    write_wav(raw, audio, VO.SR); VO.master(raw, aud); os.remove(raw)
-    c = tp['sure']; a, b = tp['ayet']; sname = SURE[str(c)]
+    raw, vo, aud = f'{out}.raw.wav', f'{out}.vo.wav', f'{out}.wav'
+    write_wav(raw, audio, VO.SR); VO.master(raw, vo); os.remove(raw)
+    if MUSIC_VOL > 0:
+        mw = MU.make(total + 0.5, int(tp['id'][1:]) * 7 + 3, f'{out}.mu.wav')
+        mix_audio(vo, mw, aud); os.remove(mw); os.remove(vo)
+    else:
+        os.replace(vo, aud)
+    c_, a, b = tp['sure'], *tp['ayet']; sname = SURE[str(c_)]
     meal = [s for s in tl if s['kind'] == 'meal']
     m0, m1 = meal[0]['start'], meal[-1]['end']
     hook = tl[0]; cta = tl[-1]
     hook_words = [w for w, _, _ in hook['words']]
     cta_words = [w for w, _, _ in cta['words']]
     ref_full = f"{sname} Suresi " + (f"{a}-{b}" if b != a else f"{a}") + ". ayet"
-    tag = tag_img(tp['tema'].upper(), acc)
-    cards = {s['verse']: arabic_card(AR[(c, s['verse'])].replace('۞', '').strip(), f"{sname} Suresi, {s['verse']}. ayet", acc) for s in meal}
-    handle = word_block(['@kuranikerim_tr'], F_HANDLE, -1, acc, stroke=4)
-    refimg = word_block(ref_full.split(), F_REF, -1, acc, stroke=4)
-    # altyazı parçaları
+    tag = skimg(tag_img(tp['tema'].upper(), acc))
+    cards = {s['verse']: skimg(arabic_card(AR[(c_, s['verse'])].replace('۞', '').strip(), f"{sname} Suresi, {s['verse']}. ayet", acc)) for s in meal}
+    handle = skimg(word_block(['@kuranikerim_tr'], F_HANDLE, -1, acc, stroke=4))
+    refimg = skimg(word_block(ref_full.split(), F_REF, -1, acc, stroke=4))
     capsegs = []
     for s in tl[1:-1]:
         for ch in chunks(s['words'], F_CAP):
             ws = [s['words'][i] for i in ch]
             capsegs.append(dict(seg=s, words=ws, start=ws[0][1], end=ws[-1][2]))
-    for i, cs in enumerate(capsegs):  # bir sonraki parça gelene kadar ekranda kalsın (en fazla 0.5 sn)
+    for i, cs in enumerate(capsegs):
         nxt = capsegs[i + 1]['start'] if i + 1 < len(capsegs) else cs['end'] + 0.4
         cs['hold'] = min(nxt, cs['end'] + 0.5)
     cache = {}
 
     def cap_img(ci, hi):
         k = ('c', ci, hi)
-        if k not in cache:
-            cache[k] = word_block([w for w, _, _ in capsegs[ci]['words']], F_CAP, hi, acc)
+        if k not in cache: cache[k] = skimg(word_block([w for w, _, _ in capsegs[ci]['words']], F_CAP, hi, acc))
         return cache[k]
 
     def big_img(kind, words, upto, hi, f):
         k = (kind, upto, hi)
-        if k not in cache: cache[k] = word_block(words, f, hi, acc, upto=upto, stroke=9)
+        if k not in cache:
+            ff_ = fit_font(words, f); im = word_block(words, ff_, hi, acc, upto=upto, stroke=9); cache[k] = (skimg(im), im.height)
         return cache[k]
 
+    # çekimler: A = hook+giriş, B = meal, C = yorum+kapanış
+    sA, sB, sC = 0.0, m0 - 0.35, m1 + 0.25
+    bounds = [(sA, sB), (sB, sC), (sC, total)]
+    TR_D = 0.45
     beats = [s['start'] for s in tl]
     n = int(math.ceil(total * FPS))
-    ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-                           '-i', aud, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
+    info = skia.ImageInfo.Make(W, H, skia.ColorType.kRGBA_8888_ColorType, skia.AlphaType.kPremul_AlphaType)
+    surf = skia.Surface(info); c = surf.getCanvas()
+    ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
+                           '-i', aud, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
                            '-movflags', '+faststart', '-shortest', out], stdin=subprocess.PIPE)
-    vign = (1 - 0.5 * (((SC.XN - .5) * 2) ** 2 + ((SC.YN - .5) * 1.5) ** 2)).clip(.3, 1)[..., None]
-    capband = np.exp(-((SC.YN - 0.66) / 0.09) ** 2)[..., None]
-    cardband = np.exp(-((SC.YN - 0.27) / 0.14) ** 2)[..., None]
-    loop_p = 0.0
-    for i in range(n):
-        t = i / FPS; g = t / total
-        # dönüşüm: ayet okunurken karanlıktan ışığa; kapanışın sonunda başa dön (loop)
-        p = SC.sm((t - m0 + 0.6) / (m1 - m0 + 0.6))
-        if t > cta['end'] - 0.2: p *= 1 - SC.sm((t - cta['end'] + 0.2) / 1.0)
+    # okunabilirlik bantları
+    capband = skia.Paint(); capband.setShader(skia.GradientShader.MakeLinear([skia.Point(0, H * (CAP_Y - 0.12)), skia.Point(0, H * (CAP_Y + 0.12))],
+                                                                              [vg.C('#000000', 0), vg.C('#000000', 0.45), vg.C('#000000', 0)], [0, 0.5, 1]))
+    topband = skia.Paint(); topband.setShader(skia.GradientShader.MakeLinear([skia.Point(0, 0), skia.Point(0, 420)], [vg.C('#000000', 0.45), vg.C('#000000', 0)]))
+
+    def band(y0, y1, a):
+        p = skia.Paint(); p.setShader(skia.GradientShader.MakeLinear([skia.Point(0, y0), skia.Point(0, y1)],
+                                                                     [vg.C('#000000', 0), vg.C('#000000', a), vg.C('#000000', 0)], [0, 0.5, 1]))
+        return p
+
+    def shot(i, t):
+        s0, s1 = bounds[i]; lt = max(0.0, t - s0); k = min(1.0, lt / max(0.1, s1 - s0))
+        z = 1.0 + 0.05 * k
+        for bt in beats:
+            if s0 <= bt <= s1 and 0 <= t - bt < 0.6: z += (0.08 if bt == beats[0] else 0.03) * math.exp(-(t - bt) / 0.16)
+        with vg.save(c, W / 2, H * 0.55, 0, z):
+            c.translate(-W / 2, -H * 0.55 - WORLD_UP)
+            shots[i](c, t, lt, k)
+
+    for fi in range(n):
+        t = fi / FPS; g = t / total
+        c.clear(skia.ColorBLACK)
+        cur = 0 if t < sB else 1 if t < sC else 2
+        s0 = bounds[cur][0]
+        if cur > 0 and t - s0 < TR_D:
+            u = (t - s0) / TR_D
+            with vg.save(c, W / 2, H / 2, 0, 1 + 0.12 * u):  # eski çekim yaklaşarak kaybolur
+                c.translate(-W / 2, -H / 2); shot(cur - 1, t)
+            c.saveLayerAlpha(None, int(255 * vg.smooth(u)))
+            with vg.save(c, W / 2, H / 2, 0, 1.1 - 0.1 * vg.out_cubic(u)):
+                c.translate(-W / 2, -H / 2); shot(cur, t)
+            c.restore()
+        else:
+            shot(cur, t)
+        if 0 <= t - m0 + 0.3 < 0.3:  # ayet başında ışık patlaması
+            c.drawRect(skia.Rect(0, 0, W, H), vg.fill('#FFF3DC', 0.55 * (1 - (t - m0 + 0.3) / 0.3)))
         card_a = 0.0
         for s in meal:
-            if s['start'] - 0.3 <= t <= s['end'] + 0.45:
-                card_a = max(card_a, min(1, (t - s['start'] + 0.3) / 0.4))
-        if meal and t > meal[-1]['end'] + 0.15:
-            card_a = max(0, 1 - (t - meal[-1]['end'] - 0.15) / 0.4)
-        arr = sfn(t, p, g).astype(np.float32)
-        shade = 1 - 0.42 * capband * (t > hook['end']) - 0.5 * cardband * card_a
-        arr = np.clip(arr * vign * shade, 0, 255)
-        # kamera: yavaş yaklaşma + her cümle başında küçük "punch"
-        z = 1.0 + 0.06 * g
-        for bt in beats:
-            if 0 <= t - bt < 0.6: z += (0.09 if bt == beats[0] else 0.035) * math.exp(-(t - bt) / 0.16)
-        cw, ch = SC.SW / z, SC.SH / z; x0 = (SC.SW - cw) / 2; y0 = (SC.SH - ch) / 2 - 8 * math.sin(t * 0.3)
-        y0 = min(max(0, y0), SC.SH - ch)
-        frame = Image.fromarray(arr.astype(np.uint8)).resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + cw, y0 + ch))
-        # ayet başında ışık patlaması (pattern interrupt)
-        if 0 <= t - m0 + 0.3 < 0.3:
-            k = 1 - (t - m0 + 0.3) / 0.3
-            frame = Image.blend(frame, Image.new('RGB', (W, H), (255, 240, 215)), 0.55 * k)
-        # konu etiketi
-        paste(frame, tag, 150, 1.0 if t < hook['end'] + 0.3 else 0.85)
-        # HOOK
-        if t < hook['end'] + 0.35:
+            if s['start'] - 0.3 <= t <= s['end'] + 0.45: card_a = max(card_a, min(1, (t - s['start'] + 0.3) / 0.4))
+        if t > meal[-1]['end'] + 0.15: card_a = max(0, 1 - (t - meal[-1]['end'] - 0.15) / 0.4)
+        c.drawRect(skia.Rect(0, 0, W, 420), topband)
+        if t > hook['end']: c.drawRect(skia.Rect(0, H * (CAP_Y - 0.12), W, H * (CAP_Y + 0.12)), capband)
+        draw(c, tag, 112, 1.0)
+        if t < hook['end'] + 0.35:  # HOOK
             upto = sum(1 for _, s, _ in hook['words'] if s <= t + 0.05)
-            hi = upto - 1
-            im = big_img('h', hook_words, max(1, upto), hi, F_HOOK)
+            im, hh = big_img('h', hook_words, max(1, upto), upto - 1, F_HOOK)
             fade = 1 if t < hook['end'] + 0.1 else max(0, 1 - (t - hook['end'] - 0.1) / 0.25)
-            paste(frame, im, H * 0.42 - im.height / 2, fade)
-        # Arapça kart
-        if card_a > 0:
-            cur = None
+            c.drawRect(skia.Rect(0, H * 0.18, W, H * 0.55), band(H * 0.18, H * 0.55, 0.35 * fade))
+            draw(c, im, H * HOOK_Y - hh / 2, fade)
+        if card_a > 0:  # Arapça kart
+            curv = None
             for s in meal:
-                if t >= s['start'] - 0.3: cur = s
-            cimg = cards[cur['verse']]
-            yy = 300 + (1 - ease_out(card_a)) * 40
-            paste(frame, cimg, yy, card_a)
-        # altyazılar
-        for ci, cs in enumerate(capsegs):
+                if t >= s['start'] - 0.3: curv = s
+            draw(c, cards[curv['verse']], 205 + (1 - ease_out(card_a)) * 40, card_a)
+        for ci, cs in enumerate(capsegs):  # altyazılar
             if cs['start'] - 0.05 <= t < cs['hold']:
                 hi = -1
-                for k, (_, s, e) in enumerate(cs['words']):
-                    if s - 0.03 <= t: hi = k
+                for kk, (_, s, e) in enumerate(cs['words']):
+                    if s - 0.03 <= t: hi = kk
                 if t > cs['end']: hi = -1
-                im = cap_img(ci, hi)
-                lt = t - cs['start'] + 0.05
-                yy = H * 0.66 - im.height / 2 + (1 - ease_out(lt / 0.14)) * 26
-                paste(frame, im, yy, min(1, lt / 0.1))
+                im = cap_img(ci, hi); lt = t - cs['start'] + 0.05
+                draw(c, im, H * CAP_Y - im.height() / 2 + (1 - ease_out(lt / 0.14)) * 26, min(1, lt / 0.1))
                 break
-        # KAPANIŞ
-        if t >= cta['start'] - 0.1:
+        if t >= cta['start'] - 0.1:  # KAPANIŞ
             upto = sum(1 for _, s, _ in cta['words'] if s <= t + 0.05)
-            im = big_img('k', cta_words, max(1, upto), upto - 1, F_CTA)
+            im, hh = big_img('k', cta_words, max(1, upto), upto - 1, F_CTA)
             fa = min(1, (t - cta['start'] + 0.1) / 0.2)
-            paste(frame, im, H * 0.45 - im.height / 2, fa)
-            paste(frame, refimg, H * 0.45 + im.height / 2 + 20, fa)
-            paste(frame, handle, H * 0.45 + im.height / 2 + 90, fa)
-        # ilerleme çubuğu (izlenme süresini artırır)
-        d = ImageDraw.Draw(frame)
-        d.rectangle([0, 0, W, 9], fill=(30, 30, 30))
-        d.rectangle([0, 0, int(W * g), 9], fill=acc[:3])
-        ff.stdin.write(frame.tobytes())
+            c.drawRect(skia.Rect(0, H * 0.16, W, H * 0.6), band(H * 0.16, H * 0.6, 0.45 * fa))
+            draw(c, im, H * HOOK_Y - hh / 2, fa)
+            draw(c, refimg, H * HOOK_Y + hh / 2 + 20, fa)
+            draw(c, handle, H * HOOK_Y + hh / 2 + 90, fa)
+        c.drawRect(skia.Rect(0, 0, W, 9), vg.fill('#1E1E1E'))
+        c.drawRect(skia.Rect(0, 0, W * g, 9), vg.fill(acc[:3]))
+        ff.stdin.write(surf.makeImageSnapshot().tobytes())
     ff.stdin.close(); ff.wait(); os.remove(aud)
     return total
 

@@ -1,371 +1,615 @@
-"""Ayetin anlamını görselleştiren prosedürel animasyon sahneleri.
-Her sahne f(t, p, g) -> uint8 RGB dizi (SW x SH).
-  t: saniye, p: dönüşüm ilerlemesi (0 = sorun/öncesi, 1 = ayetle gelen çözüm/ışık), g: videonun genel ilerlemesi (0..1)
+"""Ayetin anlamını anlatan vektör animasyon hikâyeleri (skia).
+Her hikâye üç çekimden oluşur:
+  A  sorun     — hook + giriş boyunca  (izleyicinin durumu)
+  B  dönüşüm   — meal okunurken       (ayetle gelen ışık / çözüm)
+  C  sonuç     — yorum + kapanış      (huzurlu son)
+Çekim fonksiyonu: f(c, t, lt, k)  c: skia canvas, t: video saniyesi, lt: çekim içi saniye, k: çekim ilerlemesi 0..1
 Sahneler yalnızca hissi anlatır; ayet metni ekrana render.py tarafından data/ dosyalarından yazılır."""
-import math
-import numpy as np
-from PIL import Image, ImageDraw
+import math, random
+import skia
+from vg import *
 
-SW, SH = 540, 960
-Y, X = np.mgrid[0:SH, 0:SW].astype(np.float32)
-YN, XN = Y / SH, X / SW
-R = np.random.default_rng(11)
-STARS = R.random((160, 3)).astype(np.float32)
-PART = R.random((60, 4)).astype(np.float32)
+GROUND_Y = 1560
 
 
-def sm(x):
-    x = min(1.0, max(0.0, x)); return x * x * (3 - 2 * x)
+# ================================================================== FIRTINA → GÜNEŞ
+def firtina_A(c, t, lt, k):
+    vgrad(c, ['#1B2333', '#2F3B52', '#46536B'])
+    for i, (y, s, sp) in enumerate([(260, 260, 40), (420, 200, 70), (180, 180, 25)]):
+        x = (i * 420 + lt * sp) % (W + 700) - 350
+        cloud(c, x, y, s, '#3A4458', shade='#2A3242')
+    hills(c, 1500, 70, '#2C3A2F', 0.3, 1.4, x_off=lt * 60)
+    hills(c, GROUND_Y + 40, 50, '#1E2A22', 1.7, 1.9, x_off=lt * 160)
+    px = 540
+    cloud(c, px + 20 + 25 * math.sin(lt * 1.4), 760 + 14 * math.sin(lt * 2.1), 230, '#525C70', shade='#3B4354')
+    raindrops(c, lt, 70, 3, (px - 260, 830, px + 280, GROUND_Y), '#A8B8D6', 0.9, 1700, -0.12, 50)
+    raindrops(c, lt, 90, 4, (0, 0, W, H + 400), '#7F8FAD', 0.45, 1300, -0.3, 34)
+    person(c, px, GROUND_Y + 10, 430, blend_pose(pose_walk(lt, 0.8), pose_sad(lt), 0.35), 1)
+    for ft in (0.7, 2.6, 4.6, 6.8):
+        if 0 <= lt - ft < 0.35:
+            a = 1 - (lt - ft) / 0.35
+            bolt(c, 200 + 600 * ((ft * 7) % 1), 120, 520, a, int(ft * 10))
+            c.drawRect(skia.Rect(0, 0, W, H + 400), fill('#FFFFFF', 0.35 * a))
+    for i in range(6):  # rüzgârda uçuşan yapraklar
+        x = (lt * 520 + i * 260) % (W + 200) - 100; y = 900 + i * 90 + 60 * math.sin(lt * 3 + i)
+        leaf(c, W - x, y, 16, lt * 300 + i * 50, '#6C7A5C', 0.8)
 
 
-def mix(a, b, k): return np.asarray(a, np.float32) * (1 - k) + np.asarray(b, np.float32) * k
+def firtina_B(c, t, lt, k):
+    q = in_out(k)
+    vgrad(c, [mixc('#1B2333', '#5AA9E6', q), mixc('#2F3B52', '#FFB98A', q), mixc('#46536B', '#FFE0A8', q)])
+    sy = lerp(1750, 640, out_cubic(k * 1.15))
+    sun(c, 540, sy, 120, lt, a=clamp(k * 3))
+    for i, (y, s, sp, side) in enumerate([(260, 260, 40, -1), (420, 200, 70, 1), (180, 180, 25, 1), (330, 220, 30, -1)]):
+        x = 540 + side * (150 + 900 * out_cubic(k * 1.2)) + 40 * math.sin(lt + i)
+        cloud(c, x, y - 80 * q, s * (1 - 0.3 * q), mixc('#3A4458', '#FFFFFF', q), shade=mixc('#2A3242', '#FFD6C2', q))
+    hills(c, 1500, 70, mixc('#2C3A2F', '#74C69D', q), 0.3, 1.4, x_off=lt * 40)
+    hills(c, GROUND_Y + 40, 50, mixc('#1E2A22', '#40916C', q), 1.7, 1.9, x_off=lt * 100 * (1 - q))
+    if k < 0.7:
+        raindrops(c, lt, int(110 * (1 - k / 0.7)), 4, (0, 0, W, H + 400), '#9FB4D8', 0.6 * (1 - k / 0.7), 1300, -0.3, 34)
+    rnd = random.Random(5)
+    for i in range(16):
+        fx = rnd.uniform(40, W - 40); fy = GROUND_Y + rnd.uniform(20, 160)
+        s = 26 * out_back(seg(k, 0.25 + i * 0.03, 0.45 + i * 0.03))
+        flower(c, fx, fy, s, rnd.choice(['#FF6B6B', '#FFD166', '#F78FB3', '#FFFFFF']), lt * 0.3)
+    for i in range(5):
+        bx = -100 + (lt * 260 + i * 140) % 1400; by = 520 + i * 60 + 30 * math.sin(lt * 2 + i)
+        if k > 0.35: bird(c, bx, by, 26, lt, '#2B2D42', clamp((k - 0.35) * 4), i)
+    pose = blend_pose(blend_pose(pose_walk(lt, 0.8), pose_sad(lt), 0.35 * (1 - q)), pose_joy(lt), smooth(seg(k, 0.55, 0.85)))
+    person(c, 540, GROUND_Y + 10, 430, pose, 1)
 
 
-def vgrad(top, bot, curve=1.0):
-    k = (YN ** curve)[..., None]
-    return np.asarray(top, np.float32)[None, None] * (1 - k) + np.asarray(bot, np.float32)[None, None] * k
+def firtina_C(c, t, lt, k):
+    vgrad(c, ['#4EA8DE', '#90E0EF', '#FFE5B4'])
+    sun(c, 820, 420, 110, t)
+    with save(c, 540, 1500):  # gökkuşağı
+        sw = 300 * out_cubic(seg(lt, 0, 1.4))
+        for i, col in enumerate(['#FF595E', '#FFCA3A', '#8AC926', '#1982C4', '#6A4C93']):
+            r = 640 - i * 40; p = skia.Path(); p.addArc(skia.Rect(-r, -r, r, r), 180, sw * 0.6)
+            c.drawPath(p, stroke(col, 40, 0.75))
+    for i in range(4):
+        cloud(c, (i * 330 + lt * 30) % (W + 500) - 250, 260 + i * 70, 150, '#FFFFFF', shade='#DDEAF5')
+    hills(c, 1480, 60, '#74C69D', 0.3, 1.4)
+    hills(c, GROUND_Y + 40, 50, '#40916C', 1.7, 1.9)
+    rnd = random.Random(5)
+    for i in range(22):
+        fx = rnd.uniform(40, W - 40); fy = GROUND_Y + rnd.uniform(20, 200)
+        with save(c, fx, fy, 6 * math.sin(lt * 2 + i)):
+            flower(c, 0, 0, 26, rnd.choice(['#FF6B6B', '#FFD166', '#F78FB3', '#FFFFFF']), lt * 0.3)
+    for i in range(3):
+        bx = 540 + 330 * math.sin(lt * 0.8 + i * 2); by = 1100 + 160 * math.sin(lt * 1.3 + i)
+        butterfly(c, bx, by, 26, lt + i, ['#F15BB5', '#FEE440', '#00BBF9'][i])
+    person(c, 540, GROUND_Y + 10, 430, pose_joy(lt) if lt < 2.5 else pose_idle(lt), 1)
 
 
-def glow(img, cx, cy, r, color, amt=1.0, sy=1.0):
-    if amt <= 0.003: return img
-    ext = 3.2 * r
-    x0, x1 = max(0, int(cx - ext)), min(SW, int(cx + ext) + 1)
-    y0, y1 = max(0, int(cy - ext * sy)), min(SH, int(cy + ext * sy) + 1)
-    if x0 >= x1 or y0 >= y1: return img
-    gx = np.arange(x0, x1, dtype=np.float32) - cx; gy = (np.arange(y0, y1, dtype=np.float32) - cy) / sy
-    g = np.exp(-gy[:, None] ** 2 / (2 * r * r)) * np.exp(-gx[None, :] ** 2 / (2 * r * r))
-    img[y0:y1, x0:x1] += g[..., None] * np.asarray(color, np.float32)[None, None] * amt
-    return img
+# ================================================================== TOHUM → AĞAÇ
+def _soil(c):
+    c.drawOval(skia.Rect(380, GROUND_Y - 30, 700, GROUND_Y + 40), fill('#7F5539'))
 
 
-def stars(img, t, amt, n=160, top=0.7):
-    if amt <= 0.01: return img
-    s = STARS[:n]
-    tw = 0.55 + 0.45 * np.sin(t * 2.0 + s[:, 2] * 40)
-    xs, ys = (s[:, 0] * SW).astype(int), (s[:, 1] * SH * top).astype(int)
+def tohum_A(c, t, lt, k):
+    ang = lt * 70  # hızlandırılmış gün döngüsü
+    day = 0.5 + 0.5 * math.cos(math.radians(ang))
+    vgrad(c, [mixc('#14213D', '#8ECAE6', day), mixc('#2B2D42', '#FFD6A5', day), mixc('#3D405B', '#FFF1D0', day)])
+    with save(c, 540, 1500, ang):
+        sun(c, 0, -900, 80, t, a=1)
+        moon(c, 0, 900, 60)
+    if day < 0.5: twinkles(c, t, 40, 1, a=1 - day * 2)
+    hills(c, 1500, 40, '#606C38', 0.8)
+    c.drawRect(skia.Rect(0, GROUND_Y, W, H + 400), fill('#5C3D2E'))
+    _soil(c)
+    sp = out_back(seg(lt, 1.5, 3.0)) * 0.5
+    if sp > 0:
+        c.drawLine(540, GROUND_Y - 20, 540, GROUND_Y - 20 - 60 * sp, stroke('#52B788', 10))
+        leaf(c, 560, GROUND_Y - 20 - 60 * sp, 22 * sp, 50, '#52B788')
+    else:
+        c.drawOval(skia.Rect(525, GROUND_Y - 34, 555, GROUND_Y - 14), fill('#C08552'))
+    tilt = 25 + 15 * math.sin(lt * 1.5)  # sulama kabı ve damlalar
+    with save(c, 700, 1180, -tilt):
+        c.drawRRect(skia.RRect.MakeRectXY(skia.Rect(-60, -50, 70, 60), 20, 20), fill('#4D96FF'))
+        c.drawPath(poly([(-60, -20), (-170, -70), (-175, -50), (-60, 10)]), fill('#4D96FF'))
+        c.drawArc(skia.Rect(-10, -100, 80, 0), 180, 180, False, stroke('#3A7BD5', 14))
+    for i in range(10):
+        yy = (lt * 600 + i * 40) % 300
+        c.drawCircle(560 + math.sin(i) * 20, 1170 + yy, 7, fill('#90E0EF', 0.9))
+    person(c, 800, GROUND_Y + 10, 400, pose_sit(lt), -1)
+
+
+def tohum_B(c, t, lt, k):
+    q = in_out(k)
+    vgrad(c, [mixc('#2B2D42', '#8ECAE6', q), mixc('#3D405B', '#FFD6A5', q), mixc('#3D405B', '#FFF1D0', q)])
+    sun(c, 540, lerp(1500, 520, out_cubic(k)), 90, t, a=clamp(k * 2.5))
+    hills(c, 1500, 40, mixc('#606C38', '#95D5B2', q), 0.8)
+    c.drawRect(skia.Rect(0, GROUND_Y, W, H + 400), fill(mixc('#5C3D2E', '#7F5539', q)))
+    _soil(c)
+    with save(c, 540, GROUND_Y, 0, lerp(1.25, 1.0, q)):
+        tree(c, 0, -10, out_cubic(k * 1.1), t, 1.15)
+    sparkles(c, t, 18, 9, 540, 900, 380, '#FFF3B0', clamp(k * 2))
+    person(c, 850, GROUND_Y + 10, 380, pose_sit(lt), -1)
+
+
+def tohum_C(c, t, lt, k):
+    vgrad(c, ['#8ECAE6', '#CDEDF6', '#FFF1D0'])
+    sun(c, 860, 360, 90, t)
+    for i in range(3): cloud(c, (i * 420 + lt * 25) % (W + 500) - 250, 250 + i * 80, 130, '#FFFFFF', shade='#E0EEF5')
+    hills(c, 1500, 40, '#95D5B2', 0.8)
+    c.drawRect(skia.Rect(0, GROUND_Y, W, H + 400), fill('#74C69D'))
+    tree(c, 540, GROUND_Y - 10, 1.0, t, 1.15, fruit='#E63946', fruit_k=seg(lt, 0.2, 1.6))
+    for i in range(7):
+        ly = 700 + ((lt * 140 + i * 160) % 900); lx = 380 + i * 50 + 60 * math.sin(lt * 2 + i)
+        leaf(c, lx, ly, 18, lt * 120 + i * 40, ['#52B788', '#FFB703'][i % 2])
+    for i in range(3):
+        bx = 1200 - ((lt * 220 + i * 260) % 1500); bird(c, bx, 520 + i * 50, 24, lt, '#2B2D42', 1, i)
+    person(c, 760, GROUND_Y + 10, 380, pose_sit(lt), -1, shirt='#E76F51')
+
+
+# ================================================================== FENER
+def _pines(c, t, x_off, col, base, h, n, seed):
+    rnd = random.Random(seed)
     for i in range(n):
-        v = 255 * amt * tw[i] * (0.4 + 0.6 * s[i, 2])
-        x, y = xs[i], ys[i]
-        img[y, x] += v
-        if s[i, 2] > 0.8:
-            img[max(0, y - 1):y + 2, x] += v * 0.4; img[y, max(0, x - 1):x + 2] += v * 0.4
-    return img
+        x = (i * (W + 300) / n - x_off) % (W + 300) - 150; hh = h * rnd.uniform(0.7, 1.2)
+        with save(c, x, base, 1.2 * math.sin(t * 1.2 + i)):
+            for j in range(3):
+                w = hh * (0.35 - j * 0.07); y0 = -hh * (0.25 + j * 0.25)
+                c.drawPath(poly([(-w, y0 + hh * 0.3), (w, y0 + hh * 0.3), (0, y0 - hh * 0.2)]), fill(col))
+            c.drawRect(skia.Rect(-hh * 0.03, -hh * 0.06, hh * 0.03, 0), fill(col))
 
 
-def particles(img, t, color, amt=1.0, n=40, rise=0.03, region=(0, 1, 0, 1), size=1.6):
-    x0, x1, y0, y1 = region
-    for i in range(n):
-        a, b, c, d = PART[i]
-        px = (x0 + (x1 - x0) * ((a + 0.015 * math.sin(t * 0.8 + d * 9)) % 1)) * SW
-        py = (y0 + (y1 - y0) * ((b - rise * t * (0.5 + c)) % 1)) * SH
-        br = amt * (0.5 + 0.5 * math.sin(t * 2.5 + d * 30))
-        s = size * (0.6 + c); r = int(s * 3) + 1
-        xa, xb, ya, yb = max(0, int(px) - r), min(SW, int(px) + r + 1), max(0, int(py) - r), min(SH, int(py) + r + 1)
-        if xa >= xb or ya >= yb: continue
-        gx = np.arange(xa, xb) - px; gy = np.arange(ya, yb) - py
-        g = np.exp(-(gy[:, None] ** 2 + gx[None, :] ** 2) / (2 * s * s))
-        img[ya:yb, xa:xb] += g[..., None] * np.asarray(color, np.float32)[None, None] * br
-    return img
+def fener_A(c, t, lt, k):
+    vgrad(c, ['#05070F', '#0D1328', '#141B33'])
+    twinkles(c, t, 30, 2, a=0.5)
+    moon(c, 820, 320, 70, a=0.5)
+    _pines(c, t, lt * 30, '#0F1A2B', 1320, 520, 6, 1)
+    _pines(c, t, lt * 70, '#0A1220', 1480, 640, 5, 2)
+    c.drawRect(skia.Rect(0, GROUND_Y - 10, W, H + 400), fill('#080D18'))
+    pose = pose_walk(lt, 0.6)
+    person(c, 520, GROUND_Y + 10, 420, pose, 1, shirt='#355070')
+    lantern(c, 640, 1250 + pose['y'], 90, lt, 0.75 + 0.1 * math.sin(lt * 7))
+    glow(c, 640, 1340, 380, '#FFB347', 0.25)
+    rnd = random.Random(3)
+    for i in range(14):
+        x = rnd.uniform(0, W) + 40 * math.sin(lt * 0.9 + i); y = rnd.uniform(900, 1500) + 30 * math.cos(lt * 1.3 + i)
+        glow(c, x, y, 18, '#D4FF7A', 0.6 * pulse(lt * 0.8 + i * 0.37))
 
 
-def to_img(a): return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
+def fener_B(c, t, lt, k):
+    fener_A(c, t, lt + 8, 0)
+    r = 60 + 1900 * in_out(k)
+    p = skia.Path(); p.addCircle(640, 1330, r)
+    c.save(); c.clipPath(p, doAntiAlias=True)
+    vgrad(c, ['#3A4E8C', '#8E7DBE', '#FFB38A'])
+    twinkles(c, t, 70, 5, a=1.0)
+    moon(c, 820, 320, 70)
+    _pines(c, t, 0, '#2E3F6E', 1320, 520, 6, 1)
+    _pines(c, t, 0, '#24345E', 1480, 640, 5, 2)
+    c.drawRect(skia.Rect(0, GROUND_Y - 10, W, H + 400), fill('#1E2B50'))
+    person(c, 520, GROUND_Y + 10, 420, blend_pose(pose_idle(lt), pose_dua(lt), smooth(seg(k, 0.3, 0.7))), 1, shirt='#355070')
+    lantern(c, 640, 1250, 90, lt, 1.0)
+    c.restore()
+    c.drawCircle(640, 1330, r, stroke('#FFE3A3', 10, 0.6 * (1 - k)))
 
 
-def to_arr(im): return np.asarray(im).astype(np.float32)
+def fener_C(c, t, lt, k):
+    vgrad(c, ['#1D2D5A', '#5B5EA6', '#E8A87C'])
+    twinkles(c, t, 70, 5)
+    moon(c, 820, 300, 70)
+    rnd = random.Random(8)
+    for i in range(18):  # gökyüzüne yükselen fenerler
+        x0 = rnd.uniform(60, W - 60); sp = rnd.uniform(70, 140); st = rnd.uniform(-6, 0)
+        y = 1500 - (lt - st) * sp
+        if y < -100: continue
+        s = rnd.uniform(26, 48) * (0.6 + 0.4 * y / 1500)
+        x = x0 + 30 * math.sin(lt * 0.8 + i)
+        glow(c, x, y, s * 3, '#FFB347', 0.55)
+        c.drawRRect(skia.RRect.MakeRectXY(skia.Rect(x - s * 0.5, y - s * 0.8, x + s * 0.5, y + s * 0.5), s * 0.2, s * 0.2), fill('#FFD68A'))
+        c.drawRect(skia.Rect(x - s * 0.5, y + s * 0.35, x + s * 0.5, y + s * 0.5), fill('#E07A5F'))
+    _pines(c, t, 0, '#26315C', 1480, 620, 5, 2)
+    c.drawRect(skia.Rect(0, GROUND_Y - 10, W, H + 400), fill('#1E2550'))
+    person(c, 540, GROUND_Y + 10, 420, pose_dua(lt), 1, shirt='#355070')
 
 
-def figure(d, x, y, h, col, lean=0.0, arms_up=False):
-    """Arkadan görünen sade insan silüeti; (x, y) ayak hizası, h boy."""
-    hr = h * 0.085
-    hx = x + lean * h * 0.05
-    d.ellipse([hx - hr, y - h, hx + hr, y - h + 2 * hr], fill=col)
-    sh_y = y - h + 2.25 * hr
-    d.polygon([(hx - h * 0.13, sh_y + h * 0.02), (hx + h * 0.13, sh_y + h * 0.02), (x + h * 0.11, y - h * 0.42), (x + h * 0.14, y),
-               (x - h * 0.14, y), (x - h * 0.11, y - h * 0.42)], fill=col)
-    d.rounded_rectangle([hx - h * 0.15, sh_y, hx + h * 0.15, sh_y + h * 0.1], radius=h * 0.04, fill=col)
-    if arms_up:
-        for s in (-1, 1):
-            d.line([(hx + s * h * 0.12, sh_y + h * 0.05), (hx + s * h * 0.22, sh_y - h * 0.12), (hx + s * h * 0.2, sh_y - h * 0.24)], fill=col, width=max(3, int(h * 0.06)))
+# ================================================================== KALP
+def _heart_fx(c, t, cx, cy, s, crack, split, fillk, grey, beat=True):
+    b = 1 + (0.06 * math.exp(-((t * 1.2) % 1) * 7) if beat else 0)
+    col = mixc('#E63946', '#7A7F8C', grey)
+    hp = heart_path(0, 0, s * b)
+    for side in (-1, 1):
+        with save(c, cx + side * split * 70, cy + split * 30, side * split * 12):
+            c.save()
+            c.clipRect(skia.Rect(0 if side > 0 else -800, -800, 800 if side > 0 else 0, 800))
+            c.drawPath(hp, fill(col))
+            if fillk > 0:
+                c.clipPath(hp, doAntiAlias=True)
+                top = 300 * s / 16 - fillk * 600 * s / 16
+                pts = [(-600, 900)] + [(x, top + 14 * math.sin(x / 60 + t * 4)) for x in range(-600, 620, 40)] + [(620, 900)]
+                c.drawPath(poly(pts), fill('#FFD166'))
+                glow(c, 0, -40 * s / 16, 300 * s / 16, '#FFFFFF', 0.35 * fillk)
+            c.drawPath(hp, stroke(mixc('#FFB3C1', '#C9CCD5', grey), 10, 0.8))
+            c.restore()
+    if crack > 0:
+        pts = [(cx + (14 if i % 2 else -14), cy - 200 * s / 16 + i * 52 * s / 16) for i in range(9)]
+        n = max(2, int(len(pts) * crack))
+        c.drawPath(poly(pts[:n], False), stroke('#1B1B2F', 16 * s / 16, 1 - fillk))
 
 
-def hills(d, base_y, amp, col, phase=0.0, freq=2.0):
-    pts = [(0, SH)]
-    for i in range(0, SW + 10, 10):
-        u = i / SW
-        pts.append((i, base_y - amp * (0.6 * math.sin(u * math.pi * freq + phase) + 0.4 * math.sin(u * math.pi * freq * 2.3 + phase * 1.7))))
-    pts.append((SW, SH)); d.polygon(pts, fill=col)
+def kalp_A(c, t, lt, k):
+    vgrad(c, ['#1A1028', '#2D1B3D', '#3B2147'])
+    rnd = random.Random(2)
+    for i in range(20):
+        x = rnd.uniform(0, W); y = (rnd.uniform(0, H) - lt * 40 * rnd.uniform(0.5, 1.5)) % H
+        c.drawCircle(x, y, rnd.uniform(6, 20), fill('#FFFFFF', 0.05))
+    cr = seg(lt, 0.6, 1.6); sp = out_back(seg(lt, 1.7, 2.6)) * (1 + 0.15 * math.sin(lt * 2.3))
+    with save(c, 540, 1000 + 18 * math.sin(lt * 1.7), 3 * math.sin(lt * 1.1)):
+        _heart_fx(c, t, 0, 0, 22, cr, sp, 0, smooth(seg(lt, 1.6, 3.0)), beat=lt < 1.6)
+    rnd = random.Random(9)
+    for i in range(8):  # kopan küçük parçalar düşer
+        u = (lt * 0.35 + rnd.random()) % 1
+        if lt > 1.7:
+            with save(c, 540 + rnd.uniform(-60, 60) + u * rnd.uniform(-200, 200), 1050 + u * 700, u * 500):
+                c.drawPath(poly([(0, -14), (12, 8), (-12, 8)]), fill('#7A7F8C', 1 - u))
+    cloud(c, 540 + 40 * math.sin(lt), 520, 190, '#4A4E69', shade='#3A3D55')
+    if lt > 2.4: raindrops(c, lt, 40, 7, (300, 600, 800, 1400), '#9AA0B8', 0.7, 1200, 0, 40)
 
 
-# ------------------------------------------------------------------ sahneler
-def firtina(t, p, g):
-    """Fırtınalı karanlık gökyüzü -> bulutlar aralanır, güneş doğar. (zorluk, umut, kolaylık)"""
-    q = sm(p)
-    img = mix(vgrad((18, 22, 34), (52, 58, 74)), vgrad((70, 60, 120), (255, 170, 110), 0.8), q)
-    sx, sy = SW * 0.5, SH * (0.62 - 0.14 * q)
-    glow(img, sx, sy, 34 + 14 * q, (255, 236, 190), 1.3 * q)
-    glow(img, sx, sy, 200, (255, 150, 80), 0.4 * q)
-    if q > 0.02:
-        ang = np.arctan2(Y - sy, X - sx); dist = np.sqrt((X - sx) ** 2 + (Y - sy) ** 2)
-        rays = ((np.sin(ang * 16 + t * 0.3) * 0.5 + 0.5) ** 4) * np.exp(-dist / 420)
-        img += rays[..., None] * np.array([255, 210, 150.])[None, None] * 0.3 * q
-    # bulutlar
-    cl = np.zeros((SH, SW), np.float32)
-    for i in range(9):
-        side = -1 if i % 2 == 0 else 1
-        cx = SW * (0.12 + 0.11 * i) + 25 * math.sin(t * 0.25 + i) + side * q * SW * 0.75
-        cy = SH * (0.18 + 0.07 * (i % 4)) - q * 40
-        rx, ry = 120 + 30 * (i % 3), 55 + 12 * (i % 2)
-        cl += np.exp(-(((X - cx) / rx) ** 2 + ((Y - cy) / ry) ** 2) * 1.6)
-    cl = np.clip(cl, 0, 1)[..., None]
-    ccol = mix((40, 44, 56), (255, 205, 190), q)
-    img = img * (1 - cl * 0.92) + cl * 0.92 * ccol[None, None]
-    flash = 0.0
-    if q < 0.3:
-        for ft in (1.1, 3.9, 6.7):
-            if 0 <= t - ft < 0.18: flash = (1 - (t - ft) / 0.18) * (1 - q / 0.3)
-    img += flash * 90
-    im = to_img(img); d = ImageDraw.Draw(im)
-    if q < 0.98:
-        n = int(140 * (1 - q)); rr = np.random.default_rng(int(t * 30))
-        for _ in range(n):
-            x, y = rr.random() * SW, rr.random() * SH
-            c = int(150 + 60 * rr.random())
-            d.line([(x, y), (x - 6, y + 24)], fill=(c, c, c + 15), width=1)
-    hills(d, SH * 0.86, 30, tuple(int(v) for v in mix((10, 12, 18), (60, 30, 40), q)), 0.4)
-    figure(d, SW * 0.5, SH * 0.84, 110, tuple(int(v) for v in mix((6, 7, 12), (40, 18, 28), q)))
-    return np.asarray(im)
+def kalp_B(c, t, lt, k):
+    q = in_out(k)
+    vgrad(c, [mixc('#2D1B3D', '#5F0F40', q), mixc('#3B2147', '#9A031E', q * 0.6), mixc('#3B2147', '#FB8B24', q * 0.5)])
+    sp = (1 - out_back(seg(k, 0.0, 0.35)))
+    _heart_fx(c, t, 540, 1000 - 30 * out_back(seg(k, 0.3, 0.6)),  22, 1 - seg(k, 0.3, 0.6), sp, out_cubic(seg(k, 0.35, 0.95)), 1 - smooth(seg(k, 0.2, 0.6)), beat=k > 0.5)
+    for i in range(4):
+        rk = ((lt * 0.7 + i * 0.25) % 1)
+        if k > 0.55: c.drawPath(heart_path(540, 1000, 22 * (1 + rk * 1.4)), stroke('#FFD166', 8 * (1 - rk), (1 - rk) * (k - 0.55) * 2))
+    cloud(c, 540 + 900 * out_cubic(k), 520 - 200 * k, 190 * (1 - k * 0.5), mixc('#4A4E69', '#FFFFFF', q), shade='#3A3D55')
+    sparkles(c, t, 20, 4, 540, 950, 360, '#FFD166', clamp(k * 2 - 0.6))
 
 
-def tohum(t, p, g):
-    """Toprakta tek tohum -> fidan -> ağaç; ışık ve yapraklar. (emek, sabır, rızık, iyilik)"""
-    q = sm(p)
-    img = mix(vgrad((8, 14, 30), (30, 34, 58)), vgrad((40, 70, 110), (240, 190, 130), 0.9), q)
-    glow(img, SW * 0.5, SH * 0.78, 260, (255, 200, 120), 0.35 + 0.5 * q)
-    img = stars(img, t, 0.8 * (1 - q), 90, 0.6)
-    im = to_img(img); d = ImageDraw.Draw(im)
-    hills(d, SH * 0.82, 18, (16, 22, 18), 1.2, 1.4)
-    grow = 0.06 + 0.94 * sm(p * 1.05 + 0.04 * g)
-    base = (SW * 0.5, SH * 0.81)
-    sway = 0.04 * math.sin(t * 0.9)
-    tips = []
-
-    def br(x, y, ang, ln, depth, w):
-        if depth == 0 or ln < 3: tips.append((x, y)); return
-        e = min(1.0, max(0.0, grow * 8 - (8 - depth * 1.0)))
-        if e <= 0: return
-        x2 = x + math.cos(ang) * ln * e; y2 = y - math.sin(ang) * ln * e
-        d.line([(x, y), (x2, y2)], fill=(42, 30, 26), width=max(1, int(w)))
-        if e < 1: tips.append((x2, y2)); return
-        br(x2, y2, ang + 0.42 + sway, ln * 0.74, depth - 1, w * 0.7)
-        br(x2, y2, ang - 0.38 + sway, ln * 0.76, depth - 1, w * 0.7)
-
-    br(base[0], base[1], math.pi / 2 + sway * 0.5, 120 * min(1, grow * 2), 7, 13)
-    d.ellipse([base[0] - 9, base[1] - 5, base[0] + 9, base[1] + 6], fill=(70, 50, 30))
-    arr = to_arr(im)
-    lv = sm((grow - 0.55) / 0.45)
-    if lv > 0:
-        for i, (x, y) in enumerate(tips[::2]):
-            c = (90, 200, 120) if i % 3 else (255, 210, 120)
-            glow(arr, x, y, 7, c, 0.9 * lv)
-    arr = particles(arr, t, (255, 220, 150), 0.6 + 0.6 * q, 30, 0.02, (0.1, 0.9, 0.3, 0.85))
-    return arr
+def kalp_C(c, t, lt, k):
+    vgrad(c, ['#5F0F40', '#9A031E', '#FB8B24'])
+    rnd = random.Random(4)
+    for i in range(16):  # yükselen küçük kalpler
+        x = rnd.uniform(60, W - 60) + 30 * math.sin(lt + i); y = H - ((lt * rnd.uniform(90, 160) + rnd.uniform(0, H)) % (H + 200))
+        c.drawPath(heart_path(x, y, rnd.uniform(1.5, 3.5)), fill(rnd.choice(['#FFB3C1', '#FFD166', '#FFFFFF']), 0.7))
+    for i in range(4):
+        rk = ((lt * 0.7 + i * 0.25) % 1)
+        c.drawPath(heart_path(540, 1000, 22 * (1 + rk * 1.4)), stroke('#FFD166', 8 * (1 - rk), 1 - rk))
+    glow(c, 540, 960, 520, '#FFD166', 0.35)
+    _heart_fx(c, t, 540, 1000, 22, 0, 0, 1, 0)
+    sparkles(c, t, 24, 4, 540, 950, 420, '#FFFFFF', 0.9)
 
 
-def fener(t, p, g):
-    """Zifiri karanlıkta küçük bir ışık; ışık büyür, etraf aydınlanır. (dua, hidayet, umut, yöneliş)"""
-    q = sm(p)
-    img = vgrad((4, 6, 16), (14, 12, 30))
-    img = stars(img, t, 0.15 + 0.85 * q, 160, 0.65)
-    fx, fy = SW * 0.5, SH * 0.66
-    flick = 1 + 0.05 * math.sin(t * 11) + 0.03 * math.sin(t * 17)
-    glow(img, fx, fy, (40 + 260 * q) * flick, (255, 170, 80), 0.9 + 0.3 * q)
-    glow(img, fx, fy, 14 * flick, (255, 240, 200), 2.0)
-    glow(img, fx, SH * 0.2, 300, (90, 110, 200), 0.35 * q, 0.6)
-    im = to_img(img); d = ImageDraw.Draw(im)
-    lit = tuple(int(v) for v in mix((6, 6, 12), (60, 34, 30), q))
-    hills(d, SH * 0.84, 22, lit, 2.0, 1.2)
-    figure(d, SW * 0.5, SH * 0.82, 150, (8, 6, 10), 0, arms_up=q > 0.5)
-    arr = to_arr(im)
-    glow(arr, fx, fy, 12 * flick, (255, 220, 160), 1.4)
-    return particles(arr, t, (255, 190, 110), 0.8, 40, 0.05, (0.3, 0.7, 0.2, 0.75))
+# ================================================================== DENİZ
+def _sea(c, t, amp, cols, speed=1.0, start=0):
+    fns = []
+    for j, col in enumerate(cols):
+        i = j + start
+        fns.append(wave(c, 1180 + i * 120, amp * (1 + i * 0.25), 420 + i * 90, t, (1.4 - i * 0.15) * speed, col, 1, i * 1.7))
+    return fns
 
 
-def _heart(cx, cy, s, n=120, off=0.0):
-    pts = []
-    for i in range(n + 1):
-        a = 2 * math.pi * i / n
-        x = 16 * math.sin(a) ** 3
-        y = 13 * math.cos(a) - 5 * math.cos(2 * a) - 2 * math.cos(3 * a) - math.cos(4 * a)
-        pts.append((cx + x * s + (off if x > 0 else -off), cy - y * s))
-    return pts
+def _boat_on(c, f, lt, pose, x=None):
+    bx = 540 + 30 * math.sin(lt * 0.7) if x is None else x
+    by = f(bx); slope = (f(bx + 20) - f(bx - 20)) / 40
+    rot = max(-24, min(24, math.degrees(math.atan(slope)) * 1.1))
+    boat(c, bx, by - 10, 150, rot)
+    with save(c, bx, by - 10, rot):
+        person(c, -75, -14, 175, pose, 1, shirt='#F4A261')
+        c.drawPath(poly([(-150, -18), (150, -18), (105, 42), (-108, 42)]), fill('#E76F51'))
+        c.drawRect(skia.Rect(-150, -27, 150, -12), fill('#F4A261'))
 
 
-def kalp(t, p, g):
-    """Çatlak, ikiye ayrılmış bir kalp -> parçalar birleşir, içi ışıkla dolar, atar. (huzur, yakınlık, sevgi)"""
-    q = sm(p)
-    img = mix(vgrad((14, 8, 22), (30, 12, 34)), vgrad((40, 14, 40), (110, 40, 60)), q)
-    beat = (math.exp(-((t * 1.15) % 1) * 9) * 0.06) * q
-    s = 13.0 * (1 + beat); cx, cy = SW * 0.5, SH * 0.5
-    off = 26 * (1 - q)
-    glow(img, cx, cy, 120 + 60 * q, (255, 90, 120), 0.45 + 0.65 * q)
-    im = to_img(img); d = ImageDraw.Draw(im)
-    pts = _heart(cx, cy, s, off=off)
-    fill = tuple(int(v) for v in mix((40, 16, 30), (235, 80, 110), q))
-    edge = tuple(int(v) for v in mix((140, 70, 90), (255, 210, 210), q))
-    d.polygon(pts, fill=fill)
-    d.line(pts, fill=edge, width=4)
-    if q < 0.95:
-        k = int(255 * (1 - q))
-        zz = [(cx + (off if i % 2 else -off) * 0.2 + (8 if i % 2 else -8), cy - 150 + i * 32) for i in range(10)]
-        d.line(zz, fill=(k // 6, k // 10, k // 8), width=int(6 + 10 * (1 - q)))
-    arr = to_arr(im)
-    glow(arr, cx, cy - 20, 50, (255, 230, 220), 0.9 * q)
-    return particles(arr, t, (255, 170, 190), 0.4 + 0.8 * q, 45, 0.03)
+def deniz_A(c, t, lt, k):
+    vgrad(c, ['#141A26', '#28324A', '#3A4660'])
+    for i in range(4):
+        cloud(c, (i * 360 + lt * 160) % (W + 600) - 300, 200 + i * 60, 240, '#323C52', shade='#252C3D')
+    raindrops(c, lt, 120, 2, (0, 0, W, H + 400), '#8FA3C4', 0.55, 1600, -0.45, 40)
+    for ft in (0.9, 3.1, 5.4):
+        if 0 <= lt - ft < 0.3:
+            a = 1 - (lt - ft) / 0.3
+            bolt(c, 300 + 400 * ((ft * 3) % 1), 100, 600, a, int(ft * 3)); c.drawRect(skia.Rect(0, 0, W, H + 400), fill('#FFFFFF', 0.3 * a))
+    cols = ['#22344F', '#1B2A40', '#152133', '#0F1826']
+    f = _sea(c, lt, 70, cols[:1])[0]
+    _boat_on(c, f, lt, pose_sad(lt))
+    _sea(c, lt, 70, cols[1:], start=1)
 
 
-def deniz(t, p, g):
-    """Dalgalı, fırtınalı deniz ve sallanan sandal -> deniz durulur, ay yansıması. (sabır, korku, öfke, imtihan)"""
-    q = sm(p)
-    img = mix(vgrad((10, 14, 26), (24, 30, 46)), vgrad((10, 22, 50), (40, 60, 110)), q)
-    img = stars(img, t, 0.2 + 0.8 * q, 120, 0.45)
-    mx, my = SW * 0.68, SH * 0.2
-    glow(img, mx, my, 26, (255, 250, 230), 0.6 + 1.2 * q)
-    glow(img, mx, my, 120, (160, 190, 255), 0.25 + 0.4 * q)
-    im = to_img(img); d = ImageDraw.Draw(im)
-    horizon = SH * 0.52
-    amp = 34 * (1 - q) + 4
-    for L in range(5):
-        yb = horizon + L * 80
-        col = tuple(int(v) for v in mix((14 + L * 4, 22 + L * 5, 38 + L * 6), (10 + L * 3, 26 + L * 6, 60 + L * 8), q))
-        pts = [(0, SH)]
-        for i in range(0, SW + 8, 8):
-            pts.append((i, yb - amp * (0.6 + 0.2 * L) * math.sin(i / 55 + t * (1.6 - L * 0.15) + L) - amp * 0.4 * math.sin(i / 23 - t * 2.1)))
-        pts.append((SW, SH)); d.polygon(pts, fill=col)
-        if L == 1:
-            bx = SW * 0.38; by = yb - amp * 0.75 * math.sin(bx / 55 + t * 1.45 + 1)
-            tilt = 0.35 * (1 - q) * math.sin(t * 1.4)
-            hw = 46; c, s_ = math.cos(tilt), math.sin(tilt)
-            hull = [(-hw, -6), (hw, -6), (hw * 0.7, 12), (-hw * 0.7, 12)]
-            d.polygon([(bx + x * c - y * s_, by + x * s_ + y * c - 8) for x, y in hull], fill=(8, 8, 12))
-            d.line([(bx, by - 14), (bx + 60 * s_, by - 100)], fill=(8, 8, 12), width=4)
-            d.polygon([(bx + 60 * s_, by - 100), (bx + 2, by - 18), (bx + 46 + 50 * s_, by - 26)], fill=(18, 18, 26))
-    arr = to_arr(im)
-    ref = np.exp(-((X - mx) / (16 + 30 * q)) ** 2) * (Y > horizon) * (0.55 + 0.45 * np.sin(Y * 0.35 + t * 3)) * np.exp(-(Y - horizon) / 500)
-    arr += ref[..., None] * np.array([230, 230, 255.])[None, None] * (0.15 + 0.6 * q)
-    return arr
+def deniz_B(c, t, lt, k):
+    q = in_out(k)
+    vgrad(c, [mixc('#141A26', '#0B1D3A', q), mixc('#28324A', '#1E3A6E', q), mixc('#3A4660', '#3E5C99', q)])
+    if q > 0.2: twinkles(c, t, 60, 6, a=(q - 0.2) * 1.2)
+    moon(c, 780, 360, 80, a=clamp(k * 1.8))
+    for i in range(4):
+        cloud(c, (i * 360 + lt * 160 * (1 - q)) % (W + 600) - 300 + (i % 2 * 2 - 1) * 800 * q, 200 + i * 60, 240, mixc('#323C52', '#5A6FA0', q), shade='#252C3D')
+    if k < 0.5: raindrops(c, lt, int(120 * (1 - k * 2)), 2, (0, 0, W, H + 400), '#8FA3C4', 0.55, 1600, -0.45, 40)
+    lx, ly = 930, 1120  # deniz feneri
+    c.drawPath(poly([(lx - 40, ly), (lx + 40, ly), (lx + 24, ly - 260), (lx - 24, ly - 260)]), fill('#F1FAEE'))
+    for j in range(3): c.drawRect(skia.Rect(lx - 38 + j * 5, ly - 70 - j * 80, lx + 38 - j * 5, ly - 40 - j * 80), fill('#E63946'))
+    with save(c, lx, ly - 290, 25 * math.sin(lt * 0.9) - 10):
+        p = skia.Paint(AntiAlias=True)
+        p.setShader(skia.GradientShader.MakeLinear([skia.Point(0, 0), skia.Point(-900, 0)], [C('#FFF3B0', 0.6 * q), C('#FFF3B0', 0)]))
+        c.drawPath(poly([(0, 0), (-1000, -120), (-1000, 120)]), p)
+    c.drawCircle(lx, ly - 290, 26, fill('#FFF3B0'))
+    amp = lerp(70, 10, q)
+    cols = [mixc('#22344F', '#24508C', q), mixc('#1B2A40', '#1D4373', q), mixc('#152133', '#16355D', q), mixc('#0F1826', '#0F284A', q)]
+    f = _sea(c, lt, amp, cols[:1])[0]
+    _boat_on(c, f, lt, blend_pose(pose_sad(lt), pose_idle(lt), q))
+    _sea(c, lt, amp, cols[1:], start=1)
 
 
-def kapi(t, p, g):
-    """Karanlık bir odada kapalı kapı; kapı açılır, içeri ışık dolar. (tövbe, rahmet, dönüş, cennet)"""
-    q = sm(p)
-    img = vgrad((10, 9, 14), (22, 18, 26))
-    dx0, dx1, dy0, dy1 = SW * 0.32, SW * 0.68, SH * 0.24, SH * 0.72
-    im = to_img(img); d = ImageDraw.Draw(im)
-    # zemine düşen ışık
-    spread = q
-    if spread > 0:
-        lp = [(dx0, dy1), (dx1, dy1), (SW * (0.68 + 0.4 * spread), SH), (SW * (0.32 - 0.4 * spread), SH)]
-        d.polygon(lp, fill=(int(120 * spread), int(95 * spread), int(60 * spread)))
-    d.rectangle([dx0 - 12, dy0 - 12, dx1 + 12, dy1], fill=(34, 26, 24))
-    d.rectangle([dx0, dy0, dx1, dy1], fill=tuple(int(v) for v in mix((40, 30, 24), (255, 236, 200), q)))
-    open_w = (dx1 - dx0) * (1 - 0.85 * q)
-    d.polygon([(dx0, dy0), (dx0 + open_w, dy0 + 18 * q), (dx0 + open_w, dy1 - 18 * q), (dx0, dy1)], fill=(64, 42, 30))
-    kx = dx0 + open_w - 16
-    d.ellipse([kx - 6, (dy0 + dy1) / 2 - 6, kx + 6, (dy0 + dy1) / 2 + 6], fill=(200, 160, 80))
-    figure(d, SW * 0.5, SH * 0.93, 230, (6, 5, 8))
-    arr = to_arr(im)
-    glow(arr, SW * 0.5, (dy0 + dy1) / 2, 160, (255, 220, 160), 1.1 * q, 1.6)
-    glow(arr, SW * 0.5, dy1, 260, (255, 190, 120), 0.4 * q, 0.5)
-    glow(arr, kx, (dy0 + dy1) / 2, 18, (255, 200, 100), 0.4 * (1 - q))
-    return particles(arr, t, (255, 230, 180), 0.9 * q, 50, 0.01, (0.3, 0.7, 0.25, 0.95), 1.3)
+def deniz_C(c, t, lt, k):
+    vgrad(c, ['#0B1D3A', '#1E3A6E', '#3E5C99'])
+    twinkles(c, t, 70, 6)
+    moon(c, 760, 380, 80)
+    cols = ['#24508C', '#1D4373', '#16355D', '#0F284A']
+    f = _sea(c, lt, 10, cols[:1])[0]
+    for i in range(14):  # ay yansıması
+        y = 1210 + i * 38; w = (160 - i * 6) * (0.6 + 0.4 * math.sin(lt * 3 + i))
+        c.drawRRect(skia.RRect.MakeRectXY(skia.Rect(760 - w / 2, y, 760 + w / 2, y + 8), 4, 4), fill('#FFF2C4', 0.5))
+    _boat_on(c, f, lt, pose_idle(lt), x=lerp(200, 520, smooth(seg(lt, 0, 8))))
+    for i in range(3):  # zıplayan balıklar
+        ph = (lt * 0.5 + i * 0.33) % 1
+        if ph < 0.4:
+            u = ph / 0.4; fx = 250 + i * 260 + u * 160; fy = 1240 - 220 * math.sin(u * math.pi)
+            with save(c, fx, fy, -60 + u * 120):
+                c.drawOval(skia.Rect(-30, -12, 30, 12), fill('#FFB703'))
+                c.drawPath(poly([(-28, 0), (-50, -16), (-50, 16)]), fill('#FB8500'))
+    _sea(c, lt, 10, cols[1:], start=1)
 
 
-def kum(t, p, g):
-    """Akan kum saati. Zaman tükenirken alttaki kum ışıl ışıl birikir. (zaman, dünya, iyilik, hesap)"""
-    q = sm(p)
-    img = vgrad((16, 12, 10), (38, 26, 18))
-    glow(img, SW * 0.5, SH * 0.5, 280, (255, 170, 80), 0.25 + 0.4 * q)
-    im = to_img(img); d = ImageDraw.Draw(im)
-    cx, top, mid, bot, hw = SW * 0.5, SH * 0.22, SH * 0.5, SH * 0.78, SW * 0.27
-    glass = (60, 52, 46)
-    upper = [(cx - hw, top), (cx + hw, top), (cx + 10, mid - 6), (cx - 10, mid - 6)]
-    lower = [(cx - 10, mid + 6), (cx + 10, mid + 6), (cx + hw, bot), (cx - hw, bot)]
-    d.polygon(upper, fill=glass); d.polygon(lower, fill=glass)
-    sand = (230, 180, 100)
-    lv = 0.15 + 0.8 * g  # akan miktar
-    ut = top + (mid - top) * lv
-    wfrac = (mid - ut) / (mid - top)
-    if wfrac > 0.02:
-        d.polygon([(cx - hw * wfrac + 4, ut), (cx + hw * wfrac - 4, ut), (cx + 6, mid - 8), (cx - 6, mid - 8)], fill=sand)
-    lt = bot - (bot - mid) * 0.75 * lv
-    d.polygon([(cx - hw + 6, bot - 4), (cx + hw - 6, bot - 4), (cx + hw * 0.1, lt), (cx - hw * 0.1, lt)], fill=sand)
-    d.line([(cx, mid - 8), (cx, lt)], fill=sand, width=3)
-    for yy in (top - 14, bot + 2):
-        d.rounded_rectangle([cx - hw - 30, yy, cx + hw + 30, yy + 14], radius=6, fill=(90, 62, 40))
-    arr = to_arr(im)
-    glow(arr, cx, lt, 60, (255, 210, 120), 0.6 + 0.8 * q, 0.6)
-    return particles(arr, t, (255, 210, 130), 0.4 + 0.8 * q, 40, -0.02, (0.15, 0.85, 0.1, 0.95), 1.2)
+# ================================================================== KAPI
+def _room(c, light):
+    vgrad(c, [mixc('#120E14', '#3B2E2A', light), mixc('#1C1620', '#4A3A34', light)])
+    c.drawRect(skia.Rect(0, GROUND_Y, W, H + 400), fill(mixc('#0E0B10', '#3A2C26', light)))
+    for i in range(7):
+        c.drawLine(i * 180, GROUND_Y, i * 180 - 200, H, stroke('#000000', 4, 0.25))
 
 
-def yildiz(t, p, g):
-    """Uzay: yıldızlar, hilal, yörüngede dönen gezegenler; yıldızlar arasında ışıktan çizgiler. (yaratılış, tevhid, nimet)"""
-    q = sm(p)
-    img = vgrad((2, 3, 12), (10, 8, 30))
-    neb = (np.sin(XN * 4 + t * 0.07) + np.sin(YN * 3 - t * 0.05 + XN * 2)) / 2
-    img += np.clip(neb, 0, 1)[..., None] * np.array([30, 20, 60.])[None, None] * (0.5 + q)
-    img = stars(img, t, 0.6 + 0.4 * q, 160, 1.0)
-    cx, cy = SW * 0.5, SH * 0.52
-    glow(img, cx, cy, 34, (255, 240, 200), 1.2 + 0.8 * q)
-    glow(img, cx, cy, 150, (255, 190, 120), 0.3 + 0.4 * q)
-    im = to_img(img); d = ImageDraw.Draw(im)
-    for k, (rad, sp, sz, col) in enumerate([(110, 0.5, 9, (120, 170, 255)), (175, 0.32, 13, (255, 160, 110)), (245, 0.2, 8, (180, 255, 210))]):
-        d.ellipse([cx - rad, cy - rad * 0.38, cx + rad, cy + rad * 0.38], outline=(60, 60, 100), width=1)
-        a = t * sp + k * 2
-        px, py = cx + rad * math.cos(a), cy + rad * 0.38 * math.sin(a)
-        d.ellipse([px - sz, py - sz, px + sz, py + sz], fill=col)
-    mx, my, mr = SW * 0.75, SH * 0.17, 34
-    d.ellipse([mx - mr, my - mr, mx + mr, my + mr], fill=(250, 235, 190))
-    d.ellipse([mx - mr + 14, my - mr - 6, mx + mr + 14, my + mr - 6], fill=(4, 4, 16))
-    arr = to_arr(im)
-    for k in range(3):  # kayan yıldızlar
-        ph = (t * 0.35 + k * 0.37) % 1
-        if ph < 0.25 and q > 0.2:
-            u = ph / 0.25; x0 = SW * (0.1 + 0.3 * k); y0 = SH * (0.08 + 0.1 * k)
-            for j in range(12):
-                glow(arr, x0 + (u * 260 - j * 7), y0 + (u * 130 - j * 3.5), 2.2, (255, 255, 255), (1 - j / 12) * (1 - u) * 1.5)
-    return arr
+def kapi_A(c, t, lt, k):
+    _room(c, 0)
+    dx, dy, dw, dh = 700, GROUND_Y, 300, 640
+    door(c, dx, dy, dw, dh, 0)
+    fl = 0.6 + 0.4 * pulse(lt * 1.7)
+    p = skia.Paint(AntiAlias=True)
+    p.setShader(skia.GradientShader.MakeLinear([skia.Point(0, dy), skia.Point(0, dy + 300)], [C('#FFD9A0', 0.7 * fl), C('#FFD9A0', 0)]))
+    c.drawPath(poly([(dx - dw / 2, dy), (dx + dw / 2, dy), (dx + dw / 2 + 160, dy + 300), (dx - dw / 2 - 160, dy + 300)]), p)
+    c.drawRect(skia.Rect(dx - dw / 2, dy - 8, dx + dw / 2, dy), fill('#FFE7B8', fl))
+    px = lerp(120, 420, smooth(seg(lt, 0, 5)))
+    person(c, px, GROUND_Y + 10, 420, pose_walk(lt, 0.7) if lt < 5 else pose_idle(lt), 1, shirt='#6D597A')
+    sparkles(c, t, 8, 2, dx, dy + 80, 140, '#FFE7B8', 0.6, 20)
 
 
-def yol(t, p, g):
-    """Dağlara uzanan kıvrımlı yol; yolcu ilerler, zirvede şafak söker. (gayret, tevekkül, hayatın amacı)"""
-    q = sm(p)
-    img = mix(vgrad((12, 14, 34), (40, 36, 70)), vgrad((60, 80, 150), (255, 180, 120), 0.85), q)
-    img = stars(img, t, 0.7 * (1 - q), 100, 0.45)
-    sx, sy = SW * 0.56, SH * (0.36 - 0.06 * q)
-    glow(img, sx, sy, 40, (255, 235, 180), 1.6 * q)
-    glow(img, sx, sy, 220, (255, 170, 100), 0.5 * q)
-    im = to_img(img); d = ImageDraw.Draw(im)
-    d.polygon([(-40, SH * 0.62), (SW * 0.3, SH * 0.42), (SW * 0.56, SH * 0.37), (SW * 0.82, SH * 0.45), (SW + 40, SH * 0.6), (SW, SH), (0, SH)],
-              fill=tuple(int(v) for v in mix((22, 22, 40), (90, 60, 80), q)))
-    hills(d, SH * 0.66, 40, tuple(int(v) for v in mix((14, 14, 26), (50, 34, 50), q)), 0.8, 1.8)
-    hills(d, SH * 0.8, 26, tuple(int(v) for v in mix((8, 8, 16), (30, 20, 30), q)), 2.4, 1.3)
-
-    def path(u):  # u: 0 alt, 1 zirve
-        x = SW * (0.5 + 0.28 * math.sin(u * 7.0) * (1 - u))
-        y = SH * (0.98 - 0.6 * u)
-        return x, y
-    pc = tuple(int(v) for v in mix((70, 64, 70), (240, 200, 150), q))
-    for i in range(60):
-        u0, u1 = i / 60, (i + 1) / 60
-        w = int(26 * (1 - u0) + 3)
-        d.line([path(u0), path(u1)], fill=pc, width=w)
-    fu = 0.05 + 0.45 * g
-    fx, fy = path(fu)
-    figure(d, fx, fy, 70 * (1 - fu) + 18, (6, 6, 10), 0)
-    return particles(to_arr(im), t, (255, 220, 170), 0.3 + 0.6 * q, 30, 0.02, (0, 1, 0.2, 0.7), 1.2)
+def kapi_B(c, t, lt, k):
+    q = out_cubic(seg(k, 0.0, 0.6))
+    _room(c, q)
+    dx, dy, dw, dh = 700, GROUND_Y, 300, 640
+    with save(c, dx, dy - dh / 2, lt * 10):
+        for i in range(16):
+            with save(c, 0, 0, i * 360 / 16):
+                c.drawPath(poly([(0, 0), (1400, -90), (1400, 90)]), fill('#FFE7B8', 0.12 * q))
+    glow(c, dx, dy - dh / 2, 900, '#FFE7B8', 0.6 * q)
+    door(c, dx, dy, dw, dh, q)
+    p = skia.Paint(AntiAlias=True)
+    p.setShader(skia.GradientShader.MakeLinear([skia.Point(0, dy), skia.Point(0, H)], [C('#FFE7B8', 0.9 * q), C('#FFE7B8', 0.1 * q)]))
+    c.drawPath(poly([(dx - dw / 2, dy), (dx + dw / 2, dy), (dx + dw / 2 + 500, H), (dx - dw / 2 - 600, H)]), p)
+    rnd = random.Random(1)
+    for i in range(30):  # kapıdan saçılan ışık parçacıkları
+        u = ((lt * rnd.uniform(0.25, 0.5)) + rnd.random()) % 1
+        ang = rnd.uniform(-2.6, 2.6)
+        x = dx + math.cos(ang) * u * 800 - 200 * u; y = dy - dh / 2 + math.sin(ang) * u * 600
+        star(c, x, y, 10 * (1 - u), '#FFFFFF', q * (1 - u))
+    pose = blend_pose(pose_idle(lt), pose_joy(lt), smooth(seg(k, 0.4, 0.8)))
+    person(c, 420, GROUND_Y + 10, 420, pose, 1, shirt='#6D597A')
 
 
-SCENES = {'firtina': firtina, 'tohum': tohum, 'fener': fener, 'kalp': kalp, 'deniz': deniz,
-          'kapi': kapi, 'kum': kum, 'yildiz': yildiz, 'yol': yol}
-ACCENT = {'firtina': (255, 205, 120), 'tohum': (180, 240, 150), 'fener': (255, 195, 110), 'kalp': (255, 150, 170),
-          'deniz': (160, 220, 255), 'kapi': (255, 220, 160), 'kum': (255, 200, 120), 'yildiz': (200, 190, 255), 'yol': (255, 190, 130)}
+def kapi_C(c, t, lt, k):
+    vgrad(c, ['#9BF6FF', '#CAFFBF', '#FDFFB6'])
+    sun(c, 540, 420, 100, t, col='#FFF3B0')
+    for i in range(3): cloud(c, (i * 420 + lt * 25) % (W + 500) - 250, 260 + i * 70, 130, '#FFFFFF', shade='#E8F8F0')
+    hills(c, 1350, 80, '#A7C957', 0.5, 1.2)
+    c.drawPath(smooth_path([(540, 1300), (480, 1400), (600, 1500), (440, 1650), (560, 1800), (500, H + 40)]), stroke('#BDE0FE', 70))
+    hills(c, GROUND_Y + 60, 40, '#6A994E', 1.2, 1.8)
+    for x in (150, 900):
+        tree(c, x, GROUND_Y - 30, 1.0, t, 0.7, fruit='#F94144', fruit_k=1)
+    rnd = random.Random(11)
+    for i in range(20):
+        fx = rnd.uniform(40, W - 40); fy = GROUND_Y + rnd.uniform(40, 300)
+        with save(c, fx, fy, 6 * math.sin(lt * 2 + i)): flower(c, 0, 0, 22, rnd.choice(['#FF6B6B', '#FFD166', '#F78FB3', '#FFFFFF']))
+    for i in range(3): butterfly(c, 540 + 300 * math.sin(lt * 0.7 + i * 2), 1150 + 150 * math.sin(lt * 1.1 + i), 24, lt + i, ['#F15BB5', '#FEE440', '#00BBF9'][i])
+    person(c, lerp(-80, 380, smooth(seg(lt, 0, 3))), GROUND_Y + 30, 380, pose_walk(lt, 0.7) if lt < 3 else pose_joy(lt), 1, shirt='#6D597A')
+
+
+# ================================================================== KUM SAATİ / MİZAN
+def _clock(c, x, y, r, t, sp=1.0, a=0.35):
+    if a <= 0.01: return
+    c.drawCircle(x, y, r, stroke('#FFFFFF', 10, a))
+    for i in range(12):
+        ang = i * math.pi / 6
+        c.drawLine(x + math.cos(ang) * r * 0.82, y + math.sin(ang) * r * 0.82, x + math.cos(ang) * r * 0.92, y + math.sin(ang) * r * 0.92, stroke('#FFFFFF', 6, a))
+    for L, spd, w in ((0.55, 0.15, 14), (0.8, 1.8, 8)):
+        ang = t * spd * sp * 2 * math.pi - math.pi / 2
+        c.drawLine(x, y, x + math.cos(ang) * r * L, y + math.sin(ang) * r * L, stroke('#FFFFFF', w, a))
+
+
+def kum_A(c, t, lt, k):
+    vgrad(c, ['#2B1D14', '#3E2A1E', '#5A3D2B'])
+    _clock(c, 540, 900, 470, lt, 3.0, 0.15)
+    rnd = random.Random(3)
+    for i in range(10):  # uçuşan takvim yaprakları
+        u = (lt * 0.3 + rnd.random()) % 1
+        x = rnd.uniform(0, W) + u * 300; y = H * 0.1 + u * H * 0.8
+        with save(c, x, y, u * 400 + i * 30):
+            c.drawRRect(skia.RRect.MakeRectXY(skia.Rect(-45, -55, 45, 55), 8, 8), fill('#F8F1E7', 0.5))
+            c.drawRect(skia.Rect(-45, -55, 45, -32), fill('#E63946', 0.5))
+    flip = out_back(seg(lt, 0.3, 1.3), 1.4)
+    if lt < 1.3: hourglass(c, 540, 980, 420, 180 * (1 - flip), 1.0, lt)
+    else: hourglass(c, 540, 980, 420, 0, seg(lt, 1.3, 9.0) * 0.6, lt)
+
+
+def kum_B(c, t, lt, k):
+    q = in_out(k)
+    vgrad(c, [mixc('#2B1D14', '#3D2C8D', q * 0.6), mixc('#3E2A1E', '#B5651D', q), mixc('#5A3D2B', '#F4A261', q)])
+    _clock(c, 540, 900, 470, lt, 3.0 * (1 - q), 0.15 * (1 - q))
+    glow(c, 540, 1300, 600, '#FFD166', 0.6 * q)
+    hourglass(c, 540, 980, 420, 0, 0.6 + 0.4 * k, lt, sand=mixc('#F4A261', '#FFD166', q))
+    rnd = random.Random(6)
+    for i in range(40):  # altın taneler yükselir
+        u = (lt * rnd.uniform(0.2, 0.45) + rnd.random()) % 1
+        x = 540 + rnd.uniform(-230, 230) + 40 * math.sin(lt * 2 + i); y = 1380 - u * 1100
+        star(c, x, y, rnd.uniform(6, 14) * math.sin(u * math.pi), '#FFE08A', q * math.sin(u * math.pi))
+
+
+def kum_C(c, t, lt, k):
+    vgrad(c, ['#3D2C8D', '#B5651D', '#F4A261'])
+    glow(c, 540, 900, 700, '#FFD166', 0.4)
+    tilt = 14 * out_elastic(seg(lt, 0.4, 2.2)) + 2 * math.sin(lt * 1.5)
+    cx, cy = 540, 760
+    c.drawRect(skia.Rect(cx - 14, cy, cx + 14, 1500), fill('#6D4C3D'))
+    c.drawRRect(skia.RRect.MakeRectXY(skia.Rect(cx - 160, 1490, cx + 160, 1540), 20, 20), fill('#6D4C3D'))
+    with save(c, cx, cy, tilt):
+        c.drawRRect(skia.RRect.MakeRectXY(skia.Rect(-380, -14, 380, 14), 14, 14), fill('#8D6E63'))
+    for side in (-1, 1):
+        a = math.radians(tilt); px = cx + side * 360 * math.cos(a); py = cy + side * 360 * math.sin(a)
+        c.drawLine(px, py, px - 110, py + 300, stroke('#5D4037', 5)); c.drawLine(px, py, px + 110, py + 300, stroke('#5D4037', 5))
+        c.drawPath(poly([(px - 150, py + 300), (px + 150, py + 300), (px + 100, py + 350), (px - 100, py + 350)]), fill('#A1887F'))
+        if side == 1:
+            for j in range(7):
+                kk = out_back(seg(lt, 0.2 + j * 0.15, 0.6 + j * 0.15))
+                if kk > 0:
+                    ox = px - 90 + (j % 4) * 60; oy = py + 280 - (j // 4) * 50
+                    glow(c, ox, oy, 60, '#FFE08A', 0.5 * kk); c.drawCircle(ox, oy, 26 * kk, fill('#FFD166'))
+    c.drawCircle(cx, cy, 30, fill('#FFD166'))
+    sparkles(c, t, 20, 3, 540, 900, 420, '#FFFFFF', 0.8)
+
+
+# ================================================================== YILDIZ / YARATILIŞ
+def yildiz_A(c, t, lt, k):
+    vgrad(c, ['#03030C', '#0B0B24', '#16123A'])
+    rnd = random.Random(1)
+    sp = 1.0 - 0.75 * smooth(seg(lt, 2.5, 6))
+    for i in range(140):  # ışık hızında yıldızlar
+        ang = rnd.uniform(0, 2 * math.pi); u = (rnd.random() + lt * 0.35 * (0.6 + sp)) % 1
+        d0 = 40 + u ** 2 * 1300; d1 = d0 + (40 + 260 * u) * sp
+        x0, y0 = 540 + math.cos(ang) * d0, 960 + math.sin(ang) * d0; x1, y1 = 540 + math.cos(ang) * d1, 960 + math.sin(ang) * d1
+        c.drawLine(x0, y0, x1, y1, stroke(rnd.choice(['#FFFFFF', '#BDE0FE', '#FFC8DD']), 2 + 4 * u, 0.3 + 0.7 * u))
+    glow(c, 540, 960, 300, '#7B2CBF', 0.4)
+    planet(c, 540 + 420 * math.cos(lt * 0.5), 960 + 600 * math.sin(lt * 0.5), 70, '#F28482', ring='#F6BD60', a=1 - sp * 0.6)
+
+
+def _system(c, t, cx=540, cy=980):
+    sun(c, cx, cy, 80, t, '#FFD166', '#FFE8A3', a=1, rays=12)
+    for i, (r, sp, s, col, ring) in enumerate([(200, 0.9, 22, '#90E0EF', None), (310, 0.6, 36, '#F28482', None), (430, 0.42, 30, '#84A59D', None), (560, 0.3, 46, '#F6BD60', '#E9EDC9')]):
+        c.drawOval(skia.Rect(cx - r, cy - r * 0.42, cx + r, cy + r * 0.42), stroke('#FFFFFF', 2, 0.18))
+        a = t * sp + i * 1.7
+        planet(c, cx + r * math.cos(a), cy + r * 0.42 * math.sin(a), s, col, ring, t)
+
+
+def yildiz_B(c, t, lt, k):
+    q = in_out(k)
+    vgrad(c, ['#03030C', mixc('#0B0B24', '#240046', q), mixc('#16123A', '#3C096C', q)])
+    twinkles(c, t, 120, 3, (0, 0, W, H + 400), a=0.9, big=0.12)
+    with save(c, 540, 980, 0, lerp(0.4, 1.0, out_cubic(k))):
+        _system(c, t, 0, 0)
+    ph = (lt * 0.25) % 1  # kuyruklu yıldız
+    cxp, cyp = -100 + ph * 1400, 300 + ph * 300
+    for j in range(20): c.drawCircle(cxp - j * 14, cyp - j * 4, 12 * (1 - j / 20), fill('#BDE0FE', 0.8 * (1 - j / 20)))
+    moon(c, 860, 300, 60, a=clamp(k * 2))
+
+
+def yildiz_C(c, t, lt, k):
+    vgrad(c, ['#10002B', '#240046', '#5A189A'])
+    twinkles(c, t, 120, 3, (0, 0, W, H * 0.75), big=0.15)
+    pts = [(220, 380), (330, 300), (450, 340), (560, 260), (640, 380), (780, 330)]
+    n = seg(lt, 0.3, 2.5) * (len(pts) - 1)
+    for i in range(int(n)): c.drawLine(*pts[i], *pts[i + 1], stroke('#C77DFF', 4, 0.8))
+    if int(n) < len(pts) - 1:
+        f = n - int(n); a, b = pts[int(n)], pts[int(n) + 1]
+        c.drawLine(*a, lerp(a[0], b[0], f), lerp(a[1], b[1], f), stroke('#C77DFF', 4, 0.8))
+    for p in pts: star(c, p[0], p[1], 14, '#FFFFFF', 1, t)
+    moon(c, 860, 520, 70)
+    for i in range(2):
+        ph = (lt * 0.4 + i * 0.5) % 1
+        if ph < 0.3:
+            u = ph / 0.3
+            for j in range(14): c.drawCircle(150 + i * 300 + u * 500 - j * 9, 200 + i * 120 + u * 250 - j * 4.5, 6 * (1 - j / 14), fill('#FFFFFF', (1 - u) * (1 - j / 14)))
+    hills(c, 1450, 70, '#3C096C', 0.6, 1.3)
+    hills(c, GROUND_Y + 30, 40, '#240046', 2.1, 1.7)
+    pose = pose_idle(lt); pose['hA'] = -38
+    person(c, 540, GROUND_Y + 30, 400, pose, 1, shirt='#7B2CBF')
+
+
+# ================================================================== YOL
+def _signpost(c, x, y):
+    c.drawRect(skia.Rect(x - 8, y - 220, x + 8, y), fill('#6B4F3A'))
+    c.drawPath(poly([(x - 10, y - 210), (x + 110, y - 210), (x + 140, y - 185), (x + 110, y - 160), (x - 10, y - 160)]), fill('#A47148'))
+
+
+def _walker(c, lt, speed=1.0):
+    pw = pose_walk(lt, speed)
+    c.drawRRect(skia.RRect.MakeRectXY(skia.Rect(400, GROUND_Y - 330 + pw['y'], 470, GROUND_Y - 200 + pw['y']), 16, 16), fill('#81B29A'))
+    person(c, 480, GROUND_Y - 10, 420, pw, 1, shirt='#E07A5F')
+
+
+def _flag(c, fx, fy, lt, a=1.0, L=8, s=12):
+    c.drawLine(fx, fy, fx, fy - 120, stroke('#3D3D3D', 6, a))
+    p = skia.Path(); p.moveTo(fx, fy - 120)
+    for j in range(1, L + 1): p.lineTo(fx + j * s, fy - 120 + 6 * math.sin(lt * 6 - j * 0.6))
+    for j in range(L, 0, -1): p.lineTo(fx + j * s, fy - 70 + 6 * math.sin(lt * 6 - j * 0.6))
+    p.lineTo(fx, fy - 70); p.close(); c.drawPath(p, fill('#E63946', a))
+
+
+def yol_A(c, t, lt, k):
+    vgrad(c, ['#1D3557', '#457B9D', '#A8DADC'])
+    twinkles(c, t, 25, 4, a=0.4)
+    off = (lt * 15) % 400
+    mountains(c, 1350, [pt for j in range(5) for pt in ((-60 - off + j * 400, 1350), (140 - off + j * 400, 1020))], '#355C7D')
+    hills(c, 1420, 70, '#2A4A64', 0.6, 1.5, x_off=lt * 80)
+    for i in range(3):  # sis bantları
+        xo = (lt * 60 + i * 400) % 1600 - 400
+        c.drawRRect(skia.RRect.MakeRectXY(skia.Rect(-200 + xo, 1300 + i * 70, 500 + xo, 1340 + i * 70), 20, 20), fill('#FFFFFF', 0.12))
+    c.drawRect(skia.Rect(0, GROUND_Y - 20, W, H + 400), fill('#1B2F45'))
+    c.drawRect(skia.Rect(0, GROUND_Y - 20, W, GROUND_Y + 10), fill('#C9ADA7'))
+    for j in range(3): _signpost(c, (j * 700 - lt * 260) % 2100 - 300, GROUND_Y - 10)
+    _walker(c, lt)
+
+
+def yol_B(c, t, lt, k):
+    q = in_out(k)
+    vgrad(c, [mixc('#1D3557', '#48CAE4', q), mixc('#457B9D', '#FFB4A2', q), mixc('#A8DADC', '#FFE5D9', q)])
+    sun(c, 560, lerp(1300, 520, out_cubic(k)), 110, t, a=clamp(k * 3))
+    mh = lerp(400, 820, out_cubic(k))
+    mountains(c, 1420, [(80, 1420 - mh * 0.55), (560, 1420 - mh), (1000, 1420 - mh * 0.5)], mixc('#355C7D', '#6D597A', q))
+    c.drawPath(poly([(470, 1420 - mh * 0.82), (560, 1420 - mh), (650, 1420 - mh * 0.82), (600, 1420 - mh * 0.78), (560, 1420 - mh * 0.86), (520, 1420 - mh * 0.78)]), fill('#FFFFFF', 0.9))
+    _flag(c, 560, 1420 - mh, lt, clamp(k * 3))
+    hills(c, 1460, 60, mixc('#2A4A64', '#B56576', q), 0.6, 1.5, x_off=lt * 80 * (1 - q))
+    c.drawRect(skia.Rect(0, GROUND_Y - 20, W, H + 400), fill(mixc('#1B2F45', '#6D597A', q)))
+    c.drawRect(skia.Rect(0, GROUND_Y - 20, W, GROUND_Y + 10), fill('#F2CC8F'))
+    for j in range(3): _signpost(c, (j * 700 - lt * 260 * (1 - q * 0.7)) % 2100 - 300, GROUND_Y - 10)
+    for i in range(4):
+        if k > 0.4: bird(c, -100 + (lt * 200 + i * 220) % 1400, 700 + i * 50, 22, lt, '#2B2D42', clamp((k - 0.4) * 4), i)
+    _walker(c, lt, 1.0 - 0.4 * q)
+
+
+def yol_C(c, t, lt, k):
+    vgrad(c, ['#48CAE4', '#FFB4A2', '#FFE5D9'])
+    sun(c, 540, 560, 120, t)
+    mountains(c, 1700, [(-100, 1500), (540, 1150), (1180, 1500)], '#6D597A')
+    for i in range(5):  # zirvenin altındaki bulutlar
+        cloud(c, (i * 300 + lt * 50) % (W + 600) - 300, 1450 + (i % 2) * 90, 170, '#FFFFFF', 0.95, shade='#F5E6E8')
+    _flag(c, 640, 1150, lt, 1.0, 10, 15)
+    for i in range(4): bird(c, 1200 - (lt * 200 + i * 240) % 1500, 420 + i * 60, 24, lt, '#2B2D42', 1, i)
+    person(c, 520, 1160, 330, pose_joy(lt), 1, shirt='#E07A5F')
+    sparkles(c, t, 14, 8, 540, 800, 400, '#FFFFFF', 0.7)
+
+
+STORIES = {
+    'firtina': (firtina_A, firtina_B, firtina_C),
+    'tohum': (tohum_A, tohum_B, tohum_C),
+    'fener': (fener_A, fener_B, fener_C),
+    'kalp': (kalp_A, kalp_B, kalp_C),
+    'deniz': (deniz_A, deniz_B, deniz_C),
+    'kapi': (kapi_A, kapi_B, kapi_C),
+    'kum': (kum_A, kum_B, kum_C),
+    'yildiz': (yildiz_A, yildiz_B, yildiz_C),
+    'yol': (yol_A, yol_B, yol_C),
+}
+ACCENT = {'firtina': (255, 209, 102), 'tohum': (149, 213, 178), 'fener': (255, 195, 110), 'kalp': (255, 179, 193),
+          'deniz': (160, 220, 255), 'kapi': (255, 231, 184), 'kum': (255, 214, 102), 'yildiz': (199, 125, 255), 'yol': (255, 180, 162)}

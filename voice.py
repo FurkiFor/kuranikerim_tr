@@ -6,8 +6,8 @@ import os, re, subprocess, tarfile, urllib.request
 import numpy as np
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-VOICE = os.environ.get('KT_VOICE', 'fahrettin')
-SPEED = float(os.environ.get('KT_SPEED', '0.92'))
+VOICE = os.environ.get('KT_VOICE', 'dfki')
+SPEED = float(os.environ.get('KT_SPEED', '0.97'))
 MDIR = f'{BASE}/models/vits-piper-tr_TR-{VOICE}-medium'
 URL = f'https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-{VOICE}-medium.tar.bz2'
 SR = 22050
