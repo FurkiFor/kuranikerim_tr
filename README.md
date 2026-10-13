@@ -40,11 +40,11 @@ Bir video ~2 dk'da üretilir (2 çekirdek). İki videoyu paralel üretmek için 
 | `firtina` | yağmurda yürüyen karakter; bulutlar dağılır, güneş doğar, çiçekler açar, gökkuşağı | zorluk, umut, musibet, sabah zikri |
 | `tohum` | toprağı sulayan karakter; filiz ağaca dönüşür, meyve verir | emek, sabır, rızık, iyilik, güzel hayat |
 | `fener` | karanlık ormanda fenerle yürüyen karakter; ışık dünyayı aydınlatır, dua, gökyüzüne fenerler | dua, hidayet, yöneliş, namaz |
-| `kalp` | kalp çatlar ve griye döner; parçalar birleşir, içi altın ışıkla dolar, atar | huzur, yakınlık, sevgi, aile, af |
+| `kalp` | gece şehirde yağmur altında oturan karakter, başının üstünde çatlayan kalp; kalp iyileşir, altınla dolar, karakter ayağa kalkar | huzur, yakınlık, sevgi, aile, af |
 | `deniz` | fırtınada sallanan tekne; deniz durulur, deniz feneri, ay, zıplayan balıklar | sabır, korku, öfke, imtihan, güven |
 | `kapi` | karanlık odada kapıya yürüyen karakter; kapı açılır, ışık dolar, bahçe | tövbe, rahmet, Allah'a dönüş, cennet |
-| `kum` | dönen kum saati, uçuşan takvim yaprakları; altın taneler; mizan (terazi) | zaman, dünya hayatı, amel, hesap |
-| `yildiz` | ışık hızında yıldızlar; güneş sistemi; gökyüzüne bakan karakter, takımyıldız | yaratılış, tevhid, nimet, hayatın amacı |
+| `kum` | telaşla koşturan karakter, masada dönen kum saati, uçuşan takvim yaprakları; altın taneler, dua; mizan (terazi) | zaman, dünya hayatı, amel, hesap |
+| `yildiz` | teleskopla gökyüzüne bakan karakter; gökte güneş sistemi açılır; takımyıldız | yaratılış, tevhid, nimet, hayatın amacı |
 | `yol` | yolda yürüyen sırt çantalı karakter; dağ yükselir, güneş doğar; zirvede bayrak | gayret, tevekkül, rızık için çalışma, yön |
 
 ## Kurallar
@@ -58,7 +58,7 @@ Bir video ~2 dk'da üretilir (2 çekirdek). İki videoyu paralel üretmek için 
    - Cümleler kısa ve konuşma dilinde olmalı (seslendirilecek). Rakam yerine yazıyla yaz, kısaltma kullanma ("Hz." yerine "Hazreti").
    - `kapanis` kısa bir sonuç cümlesidir; render sonuna "Kaydet ve ihtiyacı olana gönder." ekler.
    - Video 20–40 saniye civarı olur (meal uzunluğuna göre).
-4. Her konuya anlamına uyan bir `sahne` seç; art arda üç video aynı sahneyi kullanmasın.
+4. **Her videoda büyük, hareket eden bir karakter olur (v012 tarzı)**: karakter sahnenin altında, hikâye boyunca poz değiştirir (yürür, üzülür, dua eder, sevinir) ve ortam onunla birlikte karanlıktan aydınlığa döner. Yeni sahne yazılırsa bu kurala uyulur. Her konuya anlamına uyan bir `sahne` seç; art arda üç video aynı sahneyi kullanmasın.
 5. Paylaşım saatleri (Asia/Dubai): 10:00, 15:00, 18:00. Günde 3 video.
 6. Her video aynı saatte hem TikTok'ta hem YouTube Shorts'ta yayınlanır (iki ayrı Metricool gönderisi).
 7. TikTok ayarları: `title` zorunludur (hook metni kullanılır), `PUBLIC_TO_EVERYONE`, `autoAddMusic: false`, `isAigc: false` (kullanıcı AI etiketini kapattı).
