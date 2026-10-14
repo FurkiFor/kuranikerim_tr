@@ -20,6 +20,14 @@ on:
       pause:
         description: "Cümle arası duraklama çarpanı (1 = normal)"
         default: "1.5"
+      music:
+        description: "Fon müziği: dark (ruhani, karanlık) ya da soft"
+        default: dark
+        type: choice
+        options: [dark, soft]
+      music_volume:
+        description: "Fon müziği seviyesi (0 = müziksiz)"
+        default: "0.2"
 
 permissions:
   contents: write
@@ -36,6 +44,8 @@ jobs:
       KT_VOICE: ${{ inputs.voice }}
       KT_SPEED: ${{ inputs.speed }}
       KT_PAUSE: ${{ inputs.pause }}
+      KT_MUSIC_STYLE: ${{ inputs.music }}
+      KT_MUSIC: ${{ inputs.music_volume }}
       IDS: ${{ inputs.ids }}
     steps:
       - uses: actions/checkout@v4

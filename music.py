@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Yerel üretilen, telifsiz, yumuşak atmosferik fon müziği.
 Yavaş akorlu pad + hafif çan arpeji + alt bas + oda yankısı. Her video için konuya göre farklı ton/dizi.
-make(duration, seed, path) -> path  (44.1 kHz stereo wav)"""
-import numpy as np, wave, random
+make(duration, seed, path) -> path  (44.1 kHz stereo wav)
+KT_MUSIC_STYLE=dark (varsayılan; ruhani/karanlık) ya da soft (eski yumuşak pad + çan)."""
+import numpy as np, wave, random, os
 
 SR = 44100
 # (akor kökleri yarım ses olarak, akor tipi)  0=majör 1=minör
@@ -51,7 +52,66 @@ def lowpass(x, fc):
     return sosfilt(butter(2, fc, 'low', fs=SR, output='sos'), x)
 
 
-def make(duration, seed, path):
+# "dark" (ruhani, karanlık) stil: minör/Hicaz renkli, alçak drone, ağır akorlar, rüzgâr dokusu, uzun yankı
+DARK_PROGS = [
+    [(0, 1), (1, 0), (0, 1), (10, 0)],   # i  bII  i  bVII   (Hicaz/Frig rengi)
+    [(0, 1), (8, 0), (5, 1), (7, 1)],    # i  VI   iv  v
+    [(0, 1), (5, 1), (1, 0), (0, 1)],    # i  iv   bII i
+]
+DARK_KEYS = [45, 47, 48, 50]  # A, B, C, D (2. oktav: daha koyu)
+
+
+def noise_bed(n, seed, fc=500):
+    rng = np.random.default_rng(seed + 11)
+    x = lowpass(rng.standard_normal(n), fc)
+    t = np.arange(n) / SR
+    swell = 0.55 + 0.45 * np.sin(2 * np.pi * t / 9.0 + seed)  # yavaş nefes alan rüzgâr
+    return x / (np.max(np.abs(x)) + 1e-9) * swell
+
+
+def make_dark(duration, seed, path):
+    rnd = random.Random(seed)
+    key = rnd.choice(DARK_KEYS); prog = rnd.choice(DARK_PROGS); bar = rnd.choice([6.0, 6.5, 7.0])
+    nb = int((duration + 1.5) / bar) + 1
+    N = int((nb * bar + 5) * SR)
+    pad = np.zeros(N); bell = np.zeros(N)
+    t_all = np.arange(N) / SR
+    # sürekli alçak drone (kök + beşli), çok yavaş titreşimli
+    drone = (np.sin(2 * np.pi * mtof(key - 12) * t_all) * 0.30 + np.sin(2 * np.pi * mtof(key - 5) * t_all) * 0.12)
+    drone *= 0.8 + 0.2 * np.sin(2 * np.pi * t_all / 11.0)
+    for b in range(nb):
+        root, minor = prog[b % len(prog)]
+        r = key + 12 + root
+        notes = [r, r + (3 if minor else 4), r + 7, r + 12]
+        st = int(b * bar * SR); dur = bar + 2.5
+        for m in notes:
+            sg = tone(mtof(m), dur, 5, 0.004, 0.4) * env(int(dur * SR), 2.5, 2.8) * 0.14
+            e = min(N, st + len(sg)); pad[st:e] += sg[:e - st]
+        # seyrek, alçak çan (her ölçüde 1-2 vuruş)
+        for j in range(rnd.choice([1, 2])):
+            m = r + 12 + rnd.choice([0, 3 if minor else 4, 7]); bt = st + int(rnd.uniform(0.3, bar - 1.5) * SR); d = 4.0
+            tt = np.arange(int(d * SR)) / SR
+            sg = (np.sin(2 * np.pi * mtof(m) * tt) + 0.3 * np.sin(2 * np.pi * mtof(m) * 2.76 * tt) * np.exp(-tt * 3)) * np.exp(-tt * 1.1)
+            sg *= env(len(sg), 0.01, 0.5) * rnd.uniform(0.05, 0.08)
+            e = min(N, bt + len(sg)); bell[bt:e] += sg[:e - bt]
+    pad = lowpass(pad, 1100)
+    mix = pad + bell + lowpass(drone, 300) + noise_bed(N, seed) * 0.035
+    mix = reverb(mix, 4.5, 0.5, seed)
+    d = int(0.017 * SR)
+    L = mix; R = np.concatenate([np.zeros(d), mix[:-d]])
+    st = np.stack([L * 0.88 + R * 0.12, R * 0.88 + L * 0.12], 1)[:int(duration * SR)]
+    f = int(2.0 * SR); st[:f] *= np.linspace(0, 1, f)[:, None]; st[-int(2.5 * SR):] *= np.linspace(1, 0, int(2.5 * SR))[:, None]
+    st = st / (np.max(np.abs(st)) + 1e-9) * 0.7
+    with wave.open(path, 'wb') as w:
+        w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
+        w.writeframes((st * 32767).astype(np.int16).tobytes())
+    return path
+
+
+def make(duration, seed, path, style=None):
+    style = style or os.environ.get('KT_MUSIC_STYLE', 'dark')
+    if style == 'dark':
+        return make_dark(duration, seed, path)
     rnd = random.Random(seed)
     key = rnd.choice(KEYS); prog = rnd.choice(PROGS); bar = rnd.choice([4.0, 4.5, 5.0])
     total = duration + 1.5
