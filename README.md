@@ -11,7 +11,8 @@ Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub link
 - `render.py <id...>`: videoyu üretir → `videos/<id>.mp4` (1080x1920, 30 fps, seslendirmeli)
 - `scenes.py`: ayetin anlamını anlatan vektör animasyon hikâyeleri (her biri 3 çekim: sorun → dönüşüm → sonuç)
 - `vg.py`: vektör çizim kütüphanesi (skia): karakter ve pozlar (yürüme, üzgün, dua, sevinç, oturma), bulut, güneş, ay, yağmur, şimşek, ağaç, çiçek, kuş, kelebek, dalga, tekne, kapı, kum saati, gezegen…
-- `voice.py`: yerel Türkçe TTS (Piper "dfki" sesi, sherpa-onnx; kullanıcı dfki'yi seçti). Model ilk çalıştırmada GitHub'dan `models/` altına iner (git'e eklenmez)
+- `voice.py`: Türkçe TTS. Varsayılan ve tercih edilen: **EMA Lightning** (`KT_VOICE=ema`, Hugging Face'ten iner; kullanıcı dfki'yi robotik buldu). Yedek: Piper "dfki" (`KT_VOICE=dfki`, sherpa-onnx). Modeller `models/` ya da HF önbelleğine iner (git'e eklenmez)
+- `.github/workflows/render.yml`: videoları GitHub Actions'ta EMA sesiyle üretir ve `videos/` altına commit eder (girdi: `ids`, ör. `v015 v016 v017`). Bulut oturumundan Hugging Face'e erişilemediği için videolar burada üretilir
 - `music.py`: yerel üretilen telifsiz atmosferik fon müziği (pad + çan arpeji + bas + yankı); her videoda farklı ton/akor dizisi
 - `caption.py <id...>`: gönderi açıklamasını basar
 - `state.json`: hangi videonun ne zaman planlandığının kaydı

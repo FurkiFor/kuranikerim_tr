@@ -1,0 +1,116 @@
+name: Render videos
+
+# Videoları GitHub'ın sunucularında üretir (EMA Lightning sesi Hugging Face'ten iner)
+# ve videos/ altına commit eder. Elle ya da günlük görev tarafından tetiklenir:
+#   Actions → Render videos → Run workflow → ids: "v015 v016 v017"
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Üretilecek konu id'leri, boşlukla ayrılmış (ör. v015 v016 v017)"
+        required: true
+      voice:
+        description: "Ses: ema (EMA Lightning) ya da dfki (Piper)"
+        default: ema
+        type: choice
+        options: [ema, dfki]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-videos
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      KT_VOICE: ${{ inputs.voice }}
+      IDS: ${{ inputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: System packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libharfbuzz0b libgl1 libegl1 libfontconfig1 >/dev/null
+
+      - name: Python packages
+        run: |
+          python -m pip install -q --upgrade pip
+          python -m pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -q ema-lightning skia-python pillow numpy scipy sherpa-onnx
+
+      - name: Cache voice models
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            models
+          key: voices-v1
+
+      - name: Validate ids
+        run: |
+          for id in $IDS; do
+            [[ "$id" =~ ^v[0-9]{3,4}$ ]] || { echo "geçersiz id: $id"; exit 1; }
+            python -c "import json,sys; ids={t['id'] for t in json.load(open('topics.json'))}; sys.exit(0 if '$id' in ids else 1)" \
+              || { echo "topics.json'da yok: $id"; exit 1; }
+          done
+
+      - name: Voice sample
+        run: |
+          python - <<'EOF'
+          import voice, wave, numpy as np
+          a, _ = voice.synth_segment("Rahmân ve Rahîm olan Allah'ın adıyla. Hamd, âlemlerin Rabbi Allah'a mahsustur.")
+          pcm = (np.clip(a, -1, 1) * 32767).astype(np.int16)
+          with wave.open("voice-sample.wav", "wb") as w:
+              w.setnchannels(1); w.setsampwidth(2); w.setframerate(voice.SR); w.writeframes(pcm.tobytes())
+          print("ses örneği:", len(a) / voice.SR, "sn @", voice.SR)
+          EOF
+
+      - name: Render
+        run: |
+          pids=()
+          for id in $IDS; do
+            python render.py "$id" > "render-$id.log" 2>&1 &
+            pids+=($!)
+          done
+          fail=0
+          for p in "${pids[@]}"; do wait "$p" || fail=1; done
+          cat render-*.log
+          exit $fail
+
+      - name: Check videos
+        run: |
+          for id in $IDS; do
+            ffprobe -v error -show_entries format=duration -of csv=p=0 "videos/$id.mp4"
+            ffmpeg -nostats -i "videos/$id.mp4" -af ebur128 -f null - 2>&1 | grep -A1 "Integrated loudness" | tail -1
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: render-${{ github.run_id }}
+          path: |
+            voice-sample.wav
+            render-*.log
+          retention-days: 7
+
+      - name: Commit videos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for id in $IDS; do git add "videos/$id.mp4"; done
+          if git diff --cached --quiet; then echo "değişiklik yok"; exit 0; fi
+          git commit -q -m "videos: $IDS ($KT_VOICE sesi, GitHub Actions)"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

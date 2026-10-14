@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Türkçe seslendirme (Piper / sherpa-onnx, tamamen yerel).
-Ses modeli ilk kullanımda GitHub'dan (k2-fsa/sherpa-onnx releases) models/ altına indirilir.
+"""Türkçe seslendirme.
+KT_VOICE=ema  -> EMA Lightning (huggingface.co/canberkkkkkk/ema-lightning, Apache-2.0, pip: ema-lightning).
+                 Ağırlıklar ilk kullanımda Hugging Face'ten iner. Doğal ses; GitHub Actions'ta kullanılır.
+KT_VOICE=dfki -> Piper / sherpa-onnx (yerel, yedek). Model GitHub'dan (k2-fsa/sherpa-onnx releases) models/ altına iner.
 synth_segment(text) -> (samples float32 @ SR, [(kelime, başlangıç_sn, bitiş_sn), ...])"""
 import os, re, subprocess, tarfile, urllib.request
 import numpy as np
@@ -10,7 +12,9 @@ VOICE = os.environ.get('KT_VOICE', 'dfki')
 SPEED = float(os.environ.get('KT_SPEED', '0.97'))
 MDIR = f'{BASE}/models/vits-piper-tr_TR-{VOICE}-medium'
 URL = f'https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-{VOICE}-medium.tar.bz2'
-SR = 22050
+EMA = VOICE == 'ema'
+EMA_SEED = int(os.environ.get('KT_EMA_SEED', '7'))   # sabit tohum: her videoda aynı ses karakteri
+SR = 48000 if EMA else 22050
 _tts = None
 
 
@@ -28,6 +32,9 @@ def ensure_model():
 
 def engine():
     global _tts
+    if _tts is None and EMA:
+        from ema_lightning import EMA as _EMA
+        _tts = _EMA()
     if _tts is None:
         ensure_model()
         import sherpa_onnx
@@ -70,13 +77,20 @@ def weight(w):
 PAUSE = {',': 0.16, ';': 0.24, ':': 0.24, '.': 0.34, '!': 0.34, '?': 0.36}
 
 
+def generate(tts, text):
+    if EMA:
+        sp = tts.say(text, speed=SPEED, seed=EMA_SEED, sample_rate=SR)
+        return np.asarray(sp.audio, dtype=np.float32).reshape(-1)
+    a = tts.generate(text, sid=0, speed=SPEED)
+    return np.array(a.samples, dtype=np.float32)
+
+
 def synth_segment(text):
     """text: ekranda gösterilecek metin. Döner: ses, kelime zamanları (ekrandaki kelimelerle)."""
     tts = engine()
     out, words, t = [], [], 0.0
     for cl in clauses(text):
-        a = tts.generate(speakable(cl), sid=0, speed=SPEED)
-        smp = trim(np.array(a.samples, dtype=np.float32))
+        smp = trim(generate(tts, speakable(cl)))
         dur = len(smp) / SR
         ws = cl.split()
         tot = sum(weight(w) for w in ws)
