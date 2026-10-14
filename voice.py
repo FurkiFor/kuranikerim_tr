@@ -74,7 +74,8 @@ def weight(w):
     return max(2, len(core)) + 1.5
 
 
-PAUSE = {',': 0.16, ';': 0.24, ':': 0.24, '.': 0.34, '!': 0.34, '?': 0.36}
+PAUSE_K = float(os.environ.get('KT_PAUSE', '1'))  # >1: hikâye anlatır gibi daha uzun duraklamalar
+PAUSE = {k: v * PAUSE_K for k, v in {',': 0.16, ';': 0.24, ':': 0.24, '.': 0.34, '!': 0.34, '?': 0.36}.items()}
 
 
 def generate(tts, text):
@@ -100,7 +101,7 @@ def synth_segment(text):
             d = (dur - lead - 0.05) * weight(w) / tot
             words.append((w, cur, cur + d)); cur += d
         out.append(smp); t += dur
-        p = PAUSE.get(cl[-1], 0.08)
+        p = PAUSE.get(cl[-1], 0.08 * PAUSE_K)
         out.append(np.zeros(int(p * SR), np.float32)); t += p
     return (np.concatenate(out) if out else np.zeros(1, np.float32)), words
 

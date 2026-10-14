@@ -14,6 +14,12 @@ on:
         default: ema
         type: choice
         options: [ema, dfki]
+      speed:
+        description: "Konuşma hızı (1 = normal, küçük = yavaş). Hikâye anlatır gibi: 0.85"
+        default: "0.85"
+      pause:
+        description: "Cümle arası duraklama çarpanı (1 = normal)"
+        default: "1.5"
 
 permissions:
   contents: write
@@ -28,6 +34,8 @@ jobs:
     timeout-minutes: 60
     env:
       KT_VOICE: ${{ inputs.voice }}
+      KT_SPEED: ${{ inputs.speed }}
+      KT_PAUSE: ${{ inputs.pause }}
       IDS: ${{ inputs.ids }}
     steps:
       - uses: actions/checkout@v4
