@@ -1,0 +1,51 @@
+{
+ "id": "v019",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "7nj83BO9JGJR21dck3hN",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Öfkene mi yenik düşüyorsun?",
+   "prompt": "[deep voice] [slowly] Öfkene mi yenik düşüyorsun?",
+   "generation_id": "s7CmWmOEUfi4RYq3CEaP",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/WKN4k8PjJORfcDyKHKso/s7CmWmOEUfi4RYq3CEaP/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T122950Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=36f00b499ddb6c09d5f5e7358d8bda5bdbad5e77712de1f83760af63b9fcf44c0a0680c7cafc8c46ae8bef11c9214c98c641689cf96a5a506b320db0acbad62c77cb2faf57f9aa65a409c3e6f43d09724b6e49a6d5a6262fa50e2598d940651bcb4f39ec7a94d9109967349d2b7eb4d5429542c637d1ffcb5d53ec7a37ef15d54de8a3c2db5125e7a1ea1cfe7c44f495d1ab020874237e5879a723c14e981e749e6be12e402730ab0f9004204ad524bad3b6e93324904547173a1daf278f9201008f3f96e945b293c67a4629c28f219af30b5b31c9216f63acf3ab5b1184e0ceb05322d1d9d2b046d04d8994e8aeed9caf33682f467245da62f4932a28bb8840"
+  },
+  {
+   "kind": "giris",
+   "text": "Öfke anında söylenen tek bir söz her şeyi yıkabilir. Allah'ın sevdiği kullar ne yapar?",
+   "prompt": "[deep voice] [slowly] Öfke anında söylenen tek bir söz her şeyi yıkabilir. Allah'ın sevdiği kullar ne yapar?",
+   "generation_id": "ryIePAF4iWFu7h4SLjUT",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/6VqFZZmsedPlzeeIZgpS/ryIePAF4iWFu7h4SLjUT/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T122958Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=10e8ef6705ef3d29ea6d3b736986499176806287e278ebac5092f8c0026cc55428efeec703fcda35b2c090ba584ec7518fe5ca8c00ff49f86e0bd13576bd1ae8cabc8a6e7726aa95cc2d0f8b51bb95ab038377f2fca315c330e5233f317227a42abeb2254dcad99d54373e608d0828280e7ef5d08ec8381a480bc10cdb67d32e03b44c69a98429f7ac4c83363f920a380933de2a6b5722dc34ce4a78e435f07d5dea0a4b29efc1ae25aa46c7611f0840fa6fac0276c206f51e7f641b6e88d89348e9ebf9e7f9f71ccd9b87bf37de6ebea5b2c4ea6254def67334875e963a1b7ef96e988dcdfc78c4000ba1239c554689725ceed48e188d9c3a6410e36dd52a4b"
+  },
+  {
+   "kind": "intro",
+   "text": "Âl-i İmrân Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] Âl-i İmrân Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "HMgbQhn96xHqEZ1NqaiF",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/vZXJWX3eEvAyhtQ7mq8H/HMgbQhn96xHqEZ1NqaiF/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123001Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8c25b7a1385c71c117d78dfe184001918eb50d0174c0c409507de61fa437774febca002aca9c1c01da6767f62f8d69edb4cce34c3bfa9e2c1a35e651ce39819ff43b631c6e2ee3a4868fd21410e4a63d508793ea803957024764042ba0879013f74202390f1043d77f4d20a7c11f67988738c4e68ffafbf538654931b7fb9a50fb7a4a50fa46ae527b9c58f89572d7293a4a0809236220ed3c7d6a3eb5f27ee88db04be8ac48b2e4024a8ef79c3bd4b31c5541f74769aaf11a8e623ea677b9a7ba9ffa6ccbd1dbb24c8ee2198cdc15d1f6e5757213066b8918fe5fe00002c6fea4229547f372deb292045309d9f7b26a978f572c018b86d5596d2eed786fde04"
+  },
+  {
+   "kind": "meal",
+   "text": "Onlar bollukta ve darlıkta sarfederler, öfkelerini yenerler, insanların kusurlarını affederler. Allah iyilik yapanları sever.",
+   "prompt": "[softly] [slowly] Onlar bollukta ve darlıkta sarfederler, öfkelerini yenerler, insanların kusurlarını affederler. Allah iyilik yapanları sever.",
+   "generation_id": "Sb6S4NvrIdG1akqj93nl",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/pdf4GoL93Lb17OCOha0N/Sb6S4NvrIdG1akqj93nl/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123005Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=92cd07d99d039e95fa4383beb974a37d605fe203a0da9adadfdf583ef694d0afcd8fbcd00d2bc865c823b177397d5463044f32a282e2199a0e20ec5aaa332016d1f1f09d4a2ee8114a6c89f4a05d7b7f65e0aa97fda22b1178f2a44ee699a7f4d7b56d1231e5d4a588a6b015c94079a880587c62b9237b1c6e69b1455fd2753f7be445f840bcd0a65461870c3b277821237b04edb901c935fb65a80cde2d5a9c091865aaa5d9029d51b00e069f4811afaebe0393cb98dbd5081efe091f004ce46099f94d67dc7193a243c91d73baf003b75f66a4d9bdc99c8b4f939105d7b65023a98d77f5af3539707ce825fec0399a99a406b7d380391340280d2d83a8a271"
+  },
+  {
+   "kind": "yorum",
+   "text": "Öfkesini yenen ve affeden, Allah'ın sevdiği iyilik yapanlardan olur.",
+   "prompt": "[deep voice] [slowly] Öfkesini yenen ve affeden, Allah'ın sevdiği iyilik yapanlardan olur.",
+   "generation_id": "MTks7MkxZrVS2RbUiZqn",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/YbXSLarXl1WGxrZQNg6U/MTks7MkxZrVS2RbUiZqn/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123015Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b0f06a888cdc9c1d59b917bfc7623cd9d223baaeae620930068f64f81af0e9566fa3186c3c5286c9c2d5ae1ba38106da45777c496974bcdbae5cf77b81b71e0a340c199812f52a5214b2b572b45b4b42cf5bc4d3d73cce19934618fd98a44b4d3e0f353fbdea3315ae3e780bd853118761a098e6afcde588da5cdc584805ce52b442bbcaaec03ac9b7a544ff4cee68765413ea5e134f84b06af9cfa84eb5aebb50108d698a73d2fdeb8d5c077499f75c389158748566c4857b3e2d7dc85a173ad22a0e56b0623c9525b016f42dc99bda38827f8b9462b283fb1c8ff61066418303d02dc53b3c4f17306ec6e399a0be57176187c0871b5bc6002fce28f2766c6a"
+  },
+  {
+   "kind": "cta",
+   "text": "Öfkeni yen, affet. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Öfkeni yen, affet. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "YoxQBU1VkuVcZFYS9fzb",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/4iDQMRvRbntkv5oluwDt/YoxQBU1VkuVcZFYS9fzb/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123017Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=892b9c9294646ab4ea781f54b31eb4c9dd80ccce9ba25e0f4e11ff7cee1849ad5bf5eb7c575d6a1d749fa3fcbc0a00aac95e6011c7cabd64b01846dd25d296f7ee465e5f4042cf4a4d8e11157b6f1677f8d5aa75147eaef4160520235d7044066508b4795b41a4470473f32dc81630105de203fe81b4052ced7f8b8fcb77e7e789d2b72e23be1157f1ba38ed69d0179459fe36b68015b91bb632f5690da5695737a87ed54f79f88a89526f41f443cb48956f8ffc5f2287af46a7aeb5d3b874f6fccbfbbc43c8f4092370b22faa8f291f737150ab0bf0a1b853d9c5867693a416a3ebee326bf37d9db74473b873aece9e53419f4ca4335424a6400a9bae07331e"
+  }
+ ]
+}

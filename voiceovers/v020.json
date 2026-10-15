@@ -1,0 +1,51 @@
+{
+ "id": "v020",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "0yKkgyVSZ1AyFx2Qnp9N",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Duanda ne isteyeceğini biliyor musun?",
+   "prompt": "[deep voice] [slowly] Duanda ne isteyeceğini biliyor musun?",
+   "generation_id": "w7Rtm6xkRedULW42QcUm",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/5a4GxmvjkisbwMHnORqy/w7Rtm6xkRedULW42QcUm/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123020Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=81b49d78d5fd6e40686c7f2fb0459063d7bb4591ffd3878c044d04e2f3aa85213ce5868c2e2bb3d0da779f041e81aeeb622a5042690d1ada5f09bc8348bdeffa45d563b7b22c03a51cc7c0b5fc7e09fbef6de4bca048f10f88b27c881ea1aee57c7078ab6c3e2a90a5b687c8c7167be43420e27ce3f4f828216c705f0555e46b6d9edf94e352540b527e854e32927d96445e5616851ddf845831f9ef8ee54bb5d49eb794b3e9d4265e1bb0a13e8371e6bf3a434b9184447baf77fd9f1d8dc50f1de91f6089770509b67eca90139d7d7c3ad14dea794e6203b419d2dcfd911cd75b267b4d1f216c81c487349ce7ba9675793e98355f631f77ee930e306597af4b"
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an'da, dünyanın da ahiretin de iyisini isteyen kısacık bir dua var.",
+   "prompt": "[deep voice] [slowly] Kur'an'da, dünyanın da ahiretin de iyisini isteyen kısacık bir dua var.",
+   "generation_id": "H1cOu7jLIKP5joxl5lhH",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/HoB84K6jB2KAGOXvkY8c/H1cOu7jLIKP5joxl5lhH/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123023Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=13da3bd6b7f44e279de922cd4b07d82b8618ea0d75838ee84b0a0fc370b9a39d006e728b9c1029e2dbdc7dce286ffa919298b0f35245b05d07221430809185d94bfd29052d3637c52231bbee5c1ce4549aeb4f354b769f87f2d04563363199318536a242803c13bf55ea9ca186e619099a7dbe765eda3e5ef678281a79fb4c19b159e39d9a9c625ac47b2379a9508f59efdf585261ca6881aa1bea8e58f1c0cc0812826d20c1976d2b63f399df8cbd8857d438ae9be1c8de90f19447979faead69a82c0cbaac26e8939fdc2ae086a495c57e5a28517fda6150c3fe0aa190c7d4e28a5b055f5ef59af41284d2b533b1559c658d2469643ed618f1dcae351abc2d"
+  },
+  {
+   "kind": "intro",
+   "text": "Bakara Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] Bakara Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "sCKD9BIOJI3uNIpXZ6TR",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/J0lm5ce4hgzrTtdYoLXG/sCKD9BIOJI3uNIpXZ6TR/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123027Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=ac347ee263910712925c494a9fdf97894883f7903c8612d06a536be718cb3365484070e12c560025243dc94a110fcc2ce52bfdf7241d368d2e2ded7cd6d4b60d3a1e72398afad3b932ee7d9864a565e41c48006f648fa27bbc6fa972741025b460f3c2228922a59af0c5b8c6c28bda3c6a3d9254b494d1a4d030e4e711c6eff512007fb4898cd55980c9370abd312017dcbc907f6e23512faa64f4c3621d01ae71779e4068625b4e72f73e2d0cf4001821a8369defbbfe4b9278c0847006f27c4722a1d9438e2100ea0a2c1f72b3fe2dfdf6958fabc776b4d28f11557fc23456522790b8f8609fa81ba3202707b10c2be6809f06351d544f27f0a3239f2c90f6"
+  },
+  {
+   "kind": "meal",
+   "text": "Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru\" diyenler vardır.",
+   "prompt": "[softly] [slowly] Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru diyenler vardır.",
+   "generation_id": "6q7C4c96es5novrPjwki",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/OiqLQ7VYM0XqBe5eV94C/6q7C4c96es5novrPjwki/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123030Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=6131889d312aad03ad28570acf96a45d1a9c83f1906c0e116ec05410a6334d37d0574b589d5c8376babc938ec2b28efad24ce73e17fd73238e5a52e236cb74933dabaec05757fa2adfb9b9d27bfe541b0cc0f0bfdf8d86fa4eb6209041c01b949f4b872268f073f4eddae411ca11526e80be9988972e785674c4fb3d8771b93f1f85b6a0598bce0d1ccdae16c89163e20c0979fed623cba82ee1479e629ad4e4004d25e1028c70ff693b4620c33c4ec7772a8f29c487f8edbdf69338156ae8558e5f450fc6889e48dc8cb9083b8c15d984096147f2017df5fef91b0554b3a2aa5cca5124a23b1ae52714fc740bb9244a9f2956a371afa9f1d29c14d0901e0c65"
+  },
+  {
+   "kind": "yorum",
+   "text": "Dünyanın da ahiretin de iyisini isteyen bu duayı bugün ezberle.",
+   "prompt": "[deep voice] [slowly] Dünyanın da ahiretin de iyisini isteyen bu duayı bugün ezberle.",
+   "generation_id": "oaUpPpNtiGsPtaLCyjci",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Ms7lHa3ixWx3ijFLfKnN/oaUpPpNtiGsPtaLCyjci/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123033Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=60afae1f4caf22f0f2a12b086b4d2eb15b2fbd678319ac3a8b000f0e89864e2efc966065af85cfa38df6ef2a527a219fed0ec8f42d4ca56a75bbf04929cd9b74d8cf02e1a6c27889f81e79abad181d846c7c06a4ff92e96b421d332481d8d8794b394ecb48605dba87190b4907d423263b0e4ac3eb9c5fe0a02636584d8b7451b73abb235b06d3e1d9d756c8615d0d24c5226acb7d921fe5e99342e42d2156bbbba8071399face36a70951b41798e6eb073fbbb7306581fbf1b369681bf93f732da807928cad234c6d78f14d41dfd582acdc4d3f88c679ab81e1c32a7adacc1a138b9068f62225183d4e16f9041d3b68ae52ebcbccf9a6613b76315ad40f2c31"
+  },
+  {
+   "kind": "cta",
+   "text": "Rabbenâ âtinâ. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Rabbenâ âtinâ. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "5us8sfPY4t7fyF2dCVEq",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/0T1ULuWb5fnGtZTiaVjr/5us8sfPY4t7fyF2dCVEq/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T123034Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8ace55e6a38896cbb15d6fbaf0fdb147b36d7b98cabdd19dca58b71542d79829c103fa9dbc6cad0232a71833b53e2aa98b3cfa3bb03820872b29dd2ebde4ae3cd47b7244c3fedd4fff113d3d47e126f209653038d7b33296833bdbb408fbdfa45b0918f0a9cc5323a146ef01981def6b5606c23fad51c0c6ef16f32c7f10d1531df09d0ae384f4793aa22ccc26fd37a44a2302d23d29573d82f794472b13edfdf3f20d905e7eea725a9cdaae3d5e61e52cdd658b54d5059e794df6d8683926dc6a9579fd82478001bf895062cc93a6b181d8f49b9c2001926f542a9b8b308a167c8a57adc257559f784acaceb19d3153112a6e13b460116908f857e7b5378795"
+  }
+ ]
+}
