@@ -1,20 +1,26 @@
 name: Render videos
 
 # Videoları GitHub'ın sunucularında üretir ve videos/ altına commit eder.
-# Ses: ElevenLabs (Seçkin Yiğit, eleven_v4 — karanlık belgesel tonu). Gerekli secret: ELEVENLABS_API_KEY
+# Ses: ElevenLabs (Seçkin Yiğit, eleven_v4 — karanlık belgesel tonu).
+#   mcp    : sesler Claude'un ElevenLabs bağlayıcısıyla üretilir ve voiceovers/<id>.json olarak push edilir;
+#            bu push iş akışını kendiliğinden başlatır (mp3'ler burada indirilir, 2 saat geçerli adresler)
+#   eleven : ElevenLabs API (ELEVENLABS_API_KEY secret'ı gerekir; yoksa EMA'ya düşer)
 # Elle ya da günlük görev tarafından tetiklenir:
 #   Actions → Render videos → Run workflow → ids: "v015 v016 v017"
 on:
+  push:
+    branches: [main]
+    paths: ['voiceovers/*.json']
   workflow_dispatch:
     inputs:
       ids:
         description: "Üretilecek konu id'leri, boşlukla ayrılmış (ör. v015 v016 v017)"
         required: true
       voice:
-        description: "Ses: eleven (ElevenLabs, önerilen), ema (EMA Lightning) ya da dfki (Piper)"
-        default: eleven
+        description: "Ses: mcp (voiceovers/<id>.json), eleven (ElevenLabs API), ema (EMA Lightning) ya da dfki (Piper)"
+        default: mcp
         type: choice
-        options: [eleven, ema, dfki]
+        options: [mcp, eleven, ema, dfki]
       speed:
         description: "Konuşma hızı (yalnızca ema/dfki; 1 = normal, küçük = yavaş)"
         default: "0.85"
@@ -42,15 +48,27 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      KT_VOICE: ${{ inputs.voice }}
-      KT_SPEED: ${{ inputs.speed }}
-      KT_PAUSE: ${{ inputs.pause }}
-      KT_MUSIC_STYLE: ${{ inputs.music }}
-      KT_MUSIC: ${{ inputs.music_volume }}
+      KT_VOICE: ${{ inputs.voice || 'mcp' }}
+      KT_SPEED: ${{ inputs.speed || '0.85' }}
+      KT_PAUSE: ${{ inputs.pause || '1.5' }}
+      KT_MUSIC_STYLE: ${{ inputs.music || 'ilahi' }}
+      KT_MUSIC: ${{ inputs.music_volume || '0.2' }}
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
       IDS: ${{ inputs.ids }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 20
+
+      # push ile başladıysa: bu push'ta değişen voiceovers/<id>.json dosyalarından id'leri bul
+      - name: Resolve ids
+        if: github.event_name == 'push'
+        run: |
+          ids=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'voiceovers/*.json' 2>/dev/null \
+                | sed -n 's#^voiceovers/\(v[0-9]*\)\.json$#\1#p' | sort -u | tr '\n' ' ')
+          [ -n "$ids" ] || ids=$(git show --name-only --format= HEAD -- 'voiceovers/*.json' | sed -n 's#^voiceovers/\(v[0-9]*\)\.json$#\1#p' | tr '\n' ' ')
+          echo "IDS=$ids" >> "$GITHUB_ENV"; echo "id'ler: $ids"
+          [ -n "$ids" ] || { echo "değişen manifest yok"; exit 1; }
 
       - uses: actions/setup-python@v5
         with:
@@ -79,8 +97,16 @@ jobs:
           fi
           if [ "$KT_VOICE" = "dfki" ]; then python -m pip install -q sherpa-onnx; fi
 
+      - name: Fetch MCP voiceovers
+        if: env.KT_VOICE == 'mcp'
+        run: |
+          for id in $IDS; do
+            [ -f "voiceovers/$id.json" ] || { echo "::error::voiceovers/$id.json yok — önce sesler MCP ile üretilmeli"; exit 1; }
+            python mcp_voice.py check "$id" && python mcp_voice.py fetch "$id"
+          done
+
       - name: Cache voice models
-        if: env.KT_VOICE != 'eleven'
+        if: env.KT_VOICE != 'eleven' && env.KT_VOICE != 'mcp'
         uses: actions/cache@v4
         with:
           path: |
@@ -106,7 +132,7 @@ jobs:
           done
 
       - name: Voice sample
-        if: env.KT_VOICE != 'eleven'
+        if: env.KT_VOICE == 'ema' || env.KT_VOICE == 'dfki'
         run: |
           python - <<'EOF'
           import voice, wave, numpy as np
@@ -149,7 +175,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for id in $IDS; do git add "videos/$id.mp4"; done
+          for id in $IDS; do git add "videos/$id.mp4"; [ -d "voiceovers/$id" ] && git add "voiceovers/$id"; done
           if git diff --cached --quiet; then echo "değişiklik yok"; exit 0; fi
           git commit -q -m "videos: $IDS ($KT_VOICE sesi, GitHub Actions)"
           for i in 1 2 3 4 5; do

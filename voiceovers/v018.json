@@ -1,0 +1,51 @@
+{
+ "id": "v018",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "CS7PdTah1kPV9fMU75H4",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Sana kötülük edene ne yapıyorsun?",
+   "prompt": "[deep voice] [slowly] Sana kötülük edene ne yapıyorsun?",
+   "generation_id": "GjAuHP2uBAbENTF4u4IW",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/LHSYb9DpizLuoP7ZIkL3/GjAuHP2uBAbENTF4u4IW/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T060429Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0ef579c61a494290f0f70a35e9f80545beec0ce40f2aa9ca4da903e8984917dd7d24b48e216d6cecada2cfa20b1c1e3059c3536d37d7f77fe861a3031cf49a8e660a336f2bc20e5cad815f001197f55b88a9af76d4937e3706ac24d2b061919d5c1697f835e03c28dddc827d30aab7eb16b541b1a3b0de8b6ed17e254d031c08677b11798192ba57a86b7c68d3af26e0d2796bc3727a449e076e158d6feac87d4b0096252bc806a9d36996019d92aaa67825a13b81c68acb16d1248c11cac411f8a2d46b4b9c66880ff0df52eb93174097a6a4616d238bf93c310ac66ef295238a82b48a29fcb0840e22e46aa8949c0fe5fb41d5df60d21db0553fad1119c8b3"
+  },
+  {
+   "kind": "giris",
+   "text": "Kötülüğe kötülükle mi karşılık vermeli? Kur'an başka bir yol gösteriyor.",
+   "prompt": "[deep voice] [slowly] Kötülüğe kötülükle mi karşılık vermeli? Kur'an başka bir yol gösteriyor.",
+   "generation_id": "X0jz8OIxr2sQjfHGjJ5i",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/IT8n4AOpsDdTFXaLJw2G/X0jz8OIxr2sQjfHGjJ5i/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T060737Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8493385fae7ab1b550acd989a2125ca81676586d633c7f1ee8a810c6d8619d7ced226f94bd51f08664bd8d6abf7cbe20bbd035b9fd1db51f36c057bd684b2dc1daa677d0be39da9881daa5be3971aa226e5963eda4a83a164a597d9ee6d74553da3b49b5cd34da90a82c268d8d4df3f652df9be4c7013f5fc9af499b85cb530cc0dabd8bb30f54734343cf1a06d0c6c99993e8d0af2efd4acc0ba5b3f6429f87401b17b043ff386c7139e53e1ab7f717c6f9b8b208ebf420fa38df1cd3f373bf8db55044579d40aee403ce8b52f32db3a26038ca065555882464a1855b5ad1676a33bf56a318b7191f3e9384569dbabe53bcbbe4be7776fe81648f0c5f0daf9a"
+  },
+  {
+   "kind": "intro",
+   "text": "Fussilet Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] Fussilet Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "v7C4SVjbYpfeCXkoXOnF",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/2puse0NPbzij0gfEWCQO/v7C4SVjbYpfeCXkoXOnF/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T060739Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=27f58d9d613d59a03c28d039c0e49fcb1f5639ab1aee86ba6fc0fc5738751d7ec5149ceba8478ac6fbad6a3e6da660418b1800d5f6ba5257446a9d6e2314711b07d130832d28ae5302afddfdb818c5370164289d3cc7e526aeed26de1d9f186b3f00a6e61f54155004e7ba8b95f7f6e4f0a6b520025597a9978aa278bc2bd362e9dd1e2f308af8bffa104aa525668f45c3811b250cb6e67ffad6f5789e1590d5422cb537b7164d5be2cb2d2196f44ebd1ee144972f4459186f2f19398748d7b6d0fdf37816d94d4650fe09729d5ab86ad1201c8d3a7a49cfb1c362e127de26628dd3520f4fb2c818340219f1bc3d058695725f6afc304c3ad8a11510d9886877"
+  },
+  {
+   "kind": "meal",
+   "text": "İyilik ve fenalık bir değildir. Ey inanan kişi: Sen, fenalığı en güzel şekilde sav; o zaman, seninle arasında düşmanlık bulunan kişinin yakın bir dost gibi olduğunu görürsün.",
+   "prompt": "[softly] [slowly] İyilik ve fenalık bir değildir. Ey inanan kişi: Sen, fenalığı en güzel şekilde sav; o zaman, seninle arasında düşmanlık bulunan kişinin yakın bir dost gibi olduğunu görürsün.",
+   "generation_id": "x0nxf0LXloAieXGmAXw8",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ncGNFvvk9Qr3ZnudLxYl/x0nxf0LXloAieXGmAXw8/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T060744Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=28059ffde45708f9e64203ab2c1bb53619534ed2e1746a03830323305d88846f7f443dcb59f2bb0bd1300cfe82aee0b08090540e1c942b7f4830eb2d7e0244f8d5131dc6f980f320b3bfc26f4059f155e9c705dadaa8055c66f58c38c09e4cbad617c7fb3ca6abd9763974399c5040c88d1eb4ba831648df1865c09f8a42efadd2b8435e28cb5e59c9bab6170f7190ba88ca825849441efa2065da2bb10d90bb6c9f2a92801767fccfedb29710e44044ffdc15f039ad4e49ad8507b035ca879da1f91332d2a2dae1257c2f1ab540f486943ba303209bfcd03be08b02078250a2e83dec2f6cf323a390645a6a401fe2419d5eef8991ae06c18db0ffa98edac5ce"
+  },
+  {
+   "kind": "yorum",
+   "text": "Fenalığı en güzel şekilde savmak, bir düşmanı dosta çevirebilir.",
+   "prompt": "[deep voice] [slowly] Fenalığı en güzel şekilde savmak, bir düşmanı dosta çevirebilir.",
+   "generation_id": "FGwX5lYKjN6eldWuPzE8",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/4bW6SOiX8CV3HF75Zshc/FGwX5lYKjN6eldWuPzE8/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T060745Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=84658b02bb6ddf0b9f97732c969706f8ff33c8e14efd3405bcc5a7dbc3b6a6affba3cecd814138d1ef99d611296263f9490170b51a91046e3e5e6870b1a03f9b43fda27adeb2c432f92a5e4b2e16275bb57f99b97989c0840c43337137c528489dc45e8db306824bb4f76046987f98ccbf406a9b5a901728a883809573931fc36bd07426ce4e7631ae9abd432ef84fcdb27b76fc5ff4d34c7beefd18f48734ca968bb19380a83f8b56b80b0823913154feb905d92de8cc5bc3d92474ddb993f60a29741f72fdb449584b2615d0111dde900f8c4e822597b81c0cf9ae69948859bc66857fddad89e414acd893706b4f9c8ec5433f41eafb13149e6f8f1433f2a4"
+  },
+  {
+   "kind": "cta",
+   "text": "Kötülüğe iyilikle karşılık ver. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Kötülüğe iyilikle karşılık ver. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "aWygJ9cnmPckCrJPdUms",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/m655KvGdpQU3EsS3c1cL/aWygJ9cnmPckCrJPdUms/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261015%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261015T060748Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=6a5c003f3bb38ebdafb72c1c0126c615fa9f583e21ba106bfff7c3bce4a4d868a3ffb1067d0dce51262a854357c9e02f6d1772b9d1a9e0ee919e73be29b66c171740f0647ea897ee052e93b1fa6951c939486e2644b90e4d802f8ec2b7583a993a970fbf95e2221dcc6b4ce64060c02aaf7d5d2c50d8a1c33c155ef57c278082a6d07957e8f470eabab4e96ef074a455db77ef3a124522f83fd5cb3aa0769391cb6c42c6b95a91f4123d2f5bded781b5004ecdde2bfc10f41a8e28853aa57151e9e54abbc8311f0a3bd00cd78bf713d9c717f3da500a791991205a003dc622b708c25730e06e9d8760221a8de466d35094da90749d49e6aada5e991481168b71"
+  }
+ ]
+}

@@ -3,6 +3,8 @@
 KT_VOICE=ema  -> EMA Lightning (huggingface.co/canberkkkkkk/ema-lightning, Apache-2.0, pip: ema-lightning).
                  Ağırlıklar ilk kullanımda Hugging Face'ten iner. Doğal ses; GitHub Actions'ta kullanılır.
 KT_VOICE=dfki -> Piper / sherpa-onnx (yerel, yedek). Model GitHub'dan (k2-fsa/sherpa-onnx releases) models/ altına iner.
+KT_VOICE=mcp   -> ElevenLabs sesleri Claude'un ElevenLabs bağlayıcısıyla (MCP) üretilir; manifest voiceovers/<id>.json,
+                 mp3'ler voiceovers/<id>/NN.mp3 (mcp_voice.py fetch indirir). Kelime zamanları sessizlik analiziyle bulunur.
 KT_VOICE=eleven -> ElevenLabs (varsayılan ses: Seçkin Yiğit, model eleven_v4, karanlık belgesel tonu).
                  ELEVENLABS_API_KEY gerekir. Kelime zamanları API'nin karakter hizalamasından gelir (tahmin değil).
                  Üretilen her parça models/el_cache altına önbelleklenir: aynı metin ikinci kez ücretlendirilmez.
@@ -17,8 +19,9 @@ MDIR = f'{BASE}/models/vits-piper-tr_TR-{VOICE}-medium'
 URL = f'https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-{VOICE}-medium.tar.bz2'
 EMA = VOICE == 'ema'
 EL = VOICE == 'eleven'
+MCP = VOICE == 'mcp'
 EMA_SEED = int(os.environ.get('KT_EMA_SEED', '7'))   # sabit tohum: her videoda aynı ses karakteri
-SR = 48000 if EMA else 44100 if EL else 22050
+SR = 48000 if EMA else 44100 if (EL or MCP) else 22050
 
 # ---- ElevenLabs
 EL_VOICE = os.environ.get('KT_EL_VOICE', 'nA7C14u2DhGhE4ZLOyGF')      # Seçkin Yiğit — karanlık, sinematik anlatıcı
@@ -68,9 +71,8 @@ def _el_request(text, prev_text=None, next_text=None):
 
 
 def _el_segment(text, kind=None, prev_text=None, next_text=None):
-    spoken = speakable(text)
     tags = EL_TAGS.get(kind, '[deep voice]') if EL_MODEL in ('eleven_v3', 'eleven_v4') else ''
-    data = _el_request((tags + ' ' + spoken).strip(), prev_text, next_text)
+    data = _el_request(el_prompt(text, kind), prev_text, next_text)
     mp3 = base64.b64decode(data['audio_base64'])
     pcm = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', 'pipe:0', '-f', 'f32le', '-ac', '1', '-ar', str(SR), 'pipe:1'],
                          input=mp3, capture_output=True, check=True).stdout
@@ -170,8 +172,109 @@ def generate(tts, text):
     return np.array(a.samples, dtype=np.float32)
 
 
+# ---- MCP (Claude'un ElevenLabs bağlayıcısıyla önceden üretilmiş parçalar)
+_MCP = None
+
+
+def el_prompt(text, kind):
+    """ElevenLabs'a gönderilen metin (yönetmen etiketleri + okunuş için temizlenmiş metin)."""
+    tags = EL_TAGS.get(kind, '[deep voice]') if EL_MODEL in ('eleven_v3', 'eleven_v4') else ''
+    return (tags + ' ' + speakable(text)).strip()
+
+
+def load_mcp(vid):
+    global _MCP
+    man = json.load(open(f'{BASE}/voiceovers/{vid}.json'))
+    _MCP = {seg['text']: f'{BASE}/voiceovers/{vid}/{i:02d}.mp3' for i, seg in enumerate(man['segments'])}
+
+
+def _decode(path):
+    pcm = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', path, '-f', 'f32le', '-ac', '1', '-ar', str(SR), 'pipe:1'],
+                         capture_output=True, check=True).stdout
+    return np.frombuffer(pcm, np.float32).copy()
+
+
+def align_by_silence(audio, text):
+    """Hizalama verisi olmayan ses için kelime zamanları: cümle parçalarını (noktalama) sesteki
+    duraklamalara oturtur, parça içinde kelimeleri harf ağırlığına göre dağıtır."""
+    hop = int(0.01 * SR)
+    n = len(audio) // hop
+    rms = np.sqrt(np.mean(audio[:n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
+    thr = max(0.008, np.percentile(rms, 95) * 0.06)
+    voiced = rms > thr
+    idx = np.where(voiced)[0]
+    if len(idx) == 0:
+        return [(w, 0.0, len(audio) / SR) for w in text.split()]
+    s0, s1 = idx[0], idx[-1] + 1
+    # içerideki sessiz aralıklar (≥ 90 ms): (orta_nokta, uzunluk)
+    gaps, i = [], s0
+    while i < s1:
+        if not voiced[i]:
+            j = i
+            while j < s1 and not voiced[j]: j += 1
+            if j - i >= 9: gaps.append(((i + j) / 2, j - i, i, j))
+            i = j
+        else:
+            i += 1
+    cls = clauses(text)
+    wts = [sum(weight(w) for w in cl.split()) for cl in cls]
+    tot = sum(wts) or 1
+    nb = len(cls) - 1
+    spans = None
+    if nb > 0 and len(gaps) >= nb:
+        # dinamik programlama: parça sürelerini harf ağırlıklarına en iyi uyduran duraklama dizisi;
+        # uzun duraklamalar (noktalama) tercih edilir
+        L_ = s1 - s0; exp = [L_ * w / tot for w in wts]
+        G = [(s0, s0)] + [(g[2], g[3]) for g in gaps] + [(s1, s1)]
+        glen = [0] + [g[1] for g in gaps] + [0]
+        m = len(G)
+        INF = float('inf')
+        best = {(0, 0): (0.0, None)}
+        for k in range(1, nb + 2):           # k. sınır (son sınır = konuşma sonu)
+            for j in range(1, m):
+                if (k == nb + 1) != (j == m - 1): continue
+                bc = None
+                for i in range(j):
+                    if (k - 1, i) not in best: continue
+                    span = G[j][0] - G[i][1]
+                    if span <= 0: continue
+                    e = exp[k - 1]
+                    cost = best[(k - 1, i)][0] + ((span - e) / 100.0) ** 2
+                    if j < m - 1: cost -= min(glen[j], 50) / 100.0 * 0.6
+                    if bc is None or cost < bc[0]: bc = (cost, i)
+                if bc: best[(k, j)] = bc
+        if (nb + 1, m - 1) in best:
+            chain, k, j = [], nb + 1, m - 1
+            while k > 0:
+                i = best[(k, j)][1]; chain.append((G[i][1], G[j][0])); k -= 1; j = i
+            spans = chain[::-1]
+    if spans is None:  # duraklama yetersiz: oransal böl
+        spans, acc_ = [], s0
+        for w in wts:
+            e = acc_ + (s1 - s0) * w / tot; spans.append((int(acc_), int(e))); acc_ = e
+    words = []
+    for cl, (a, b) in zip(cls, spans):
+        ws = cl.split(); tw = sum(weight(w) for w in ws) or 1
+        cur = a * 0.01; dur = max(0.05, (b - a) * 0.01)
+        for w in ws:
+            d = dur * weight(w) / tw; words.append((w, cur, cur + d)); cur += d
+    return words
+
+
+def _mcp_segment(text):
+    if _MCP is None or text not in _MCP:
+        raise SystemExit(f'MCP seslendirmesinde bu parça yok: {text[:60]}')
+    audio = _decode(_MCP[text])
+    words = align_by_silence(audio, text)
+    t0 = max(0.0, words[0][1] - 0.06); t1 = min(len(audio) / SR, words[-1][2] + 0.28)
+    audio = audio[int(t0 * SR):int(t1 * SR)]
+    return audio, [(w, s - t0, e - t0) for w, s, e in words]
+
+
 def synth_segment(text, kind=None, prev_text=None, next_text=None):
     """text: ekranda gösterilecek metin. Döner: ses, kelime zamanları (ekrandaki kelimelerle)."""
+    if MCP:
+        return _mcp_segment(text)
     if EL:
         return _el_segment(text, kind, prev_text, next_text)
     tts = engine()
@@ -194,7 +297,7 @@ def synth_segment(text, kind=None, prev_text=None, next_text=None):
 
 def master(raw_wav, out_wav):
     """Ses işlemleri: düşük frekans temizliği, sıcaklık, hafif kompresör, çok hafif oda yankısı, -14 LUFS."""
-    if EL:  # stüdyo kaydı gibi temiz: yalnızca hafif alt kesim, sıcaklık, yumuşak kompresör, -14 LUFS
+    if EL or MCP:  # stüdyo kaydı gibi temiz: yalnızca hafif alt kesim, sıcaklık, yumuşak kompresör, -14 LUFS
         af = ('highpass=f=55,equalizer=f=140:t=q:w=1:g=1.5,acompressor=threshold=-22dB:ratio=2.2:attack=10:release=150:makeup=1.5,'
               'loudnorm=I=-14:TP=-1.5:LRA=9')
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', raw_wav, '-af', af, '-ar', '44100', '-ac', '2', out_wav], check=True)

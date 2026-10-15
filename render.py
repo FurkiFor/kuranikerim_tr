@@ -146,7 +146,8 @@ def spaced(text, f, col, gap=8, lines=True):
 
 
 # ------------------------------------------------------------------ zaman çizelgesi
-def build_timeline(tp):
+def segments(tp):
+    """Seslendirme parçaları: [(tür, metin, ayet_no, sonraki_sessizlik_sn)] — mcp_voice.py de bunu kullanır."""
     c = tp['sure']; a, b = tp['ayet']; sname = SURE[str(c)]
     ses = tp.get('seslendirme', {})
     giris = ses.get('giris') or "Bu ayeti sonuna kadar dinle."
@@ -160,6 +161,12 @@ def build_timeline(tp):
         if not tr.endswith(('.', '!', '?', '"')): tr += '.'
         segs.append(('meal', tr, v, 0.55 if v < b else 0.7))
     segs += [('yorum', yorum, None, 0.5), ('cta', cta, None, 1.4)]
+    return segs
+
+
+def build_timeline(tp):
+    segs = segments(tp)
+    if VO.MCP: VO.load_mcp(tp['id'])
     audio, tl, t = [], [], 0.35
     audio.append(np.zeros(int(0.35 * VO.SR), np.float32))
     for i, (kind, text, v, gap) in enumerate(segs):
