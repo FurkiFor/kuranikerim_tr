@@ -7,7 +7,7 @@ Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub link
 - `data/ara-quransimple.json`: Arapça metin (Tanzil "Quran Simple", fawazahmed0/quran-api)
 - `data/tur-diyanetisleri.json`: Diyanet İşleri meali (Tanzil, fawazahmed0/quran-api)
 - `surahs.json`: sure numarası → Türkçe sure adı
-- `topics.json`: konu listesi. Alanlar: `id, tema, sure, ayet [başlangıç, bitiş], hook, kapanis, sahne, seslendirme {giris, yorum}, bg, aciklama, etiketler`
+- `topics.json`: konu listesi. Alanlar: `id, tema, sure, ayet [başlangıç, bitiş], hook, kapanis, sahne, seslendirme {giris, yorum}, bg, aciklama, etiketler`, `kurgu {kamera, gecis}` (bkz. "Kurgu"), `seo {yt_baslik, ilk_satir, aciklama, anahtar}` (bkz. "SEO"), sır videolarında `tur: "sir"` ve `sir_kaynak` (bkz. "Kur'an'ın sırları")
 - `render.py <id...>`: videoyu üretir → `videos/<id>.mp4` (1080x1920, 30 fps, seslendirmeli)
 - `cine.py`: sinematik sahne motoru (v3): katmanlı derinlik/paralaks, hareketli sis, hacimsel ışık hüzmeleri, toz/kıvılcım, yıldız/samanyolu, dağ sırtları, yağmur/şimşek, deniz, orman, şehir, kapı, kum saati, fener… Her sahne 3 çekim: sorun → dönüşüm → sonuç
 - `figure.py`: gerçek insan oranlarında (≈7.5 baş boyu) profil siluet karakter; arkadan ışık (rim light), ceket; pozlar: yürüme, ayakta nefes, başı önde, yukarı bakma, kollar açık, diz üstü dua, diz üstü oturuş
@@ -17,7 +17,8 @@ Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub link
 - `ilahi.py`: telifsiz, yerel üretilen ilahi tarzı fon: ney (makam dizileriyle doğaçlama seyir: Hicaz, Uşşak, Hüseyni, Segâh, Rast), dem/ison koro mırıltısı, alçak sesli bendir (Sofyan), cami akustiği yankısı
 - `.github/workflows/render.yml`: videoları GitHub Actions'ta EMA sesiyle üretir ve `videos/` altına commit eder (girdi: `ids`, ör. `v015 v016 v017`). Bulut oturumundan Hugging Face'e erişilemediği için videolar burada üretilir
 - `music.py`: fon müziği seçici: `KT_MUSIC_STYLE=ilahi` (varsayılan, ilahi.py), `dark`, `soft`; her videoda farklı makam/ton
-- `caption.py <id...>`: gönderi açıklamasını basar
+- `caption.py <id...>`: gönderi açıklamasını basar; `--baslik <id>` YouTube başlığı, `--etiket <id>` YouTube etiketleri (konuda `seo` varsa onu kullanır)
+- `sir.py`: "Kur'an'ın sırları" videoları için doğrulanabilir sayılar (`ozet`, `sure <no>`, `kelime <arapça>`); tüm rakamlar `data/` metninden hesaplanır
 - `state.json`: hangi videonun ne zaman planlandığının kaydı
 
 ## Kurulum
@@ -53,6 +54,43 @@ GitHub Actions'ta: Settings → Secrets and variables → Actions → `ELEVENLAB
 | `kum` | çölde dev kum saati, rüzgârda yürüyen küçük insan; kum altına döner, gece yıldızları açılır | zaman, dünya hayatı, amel, hesap |
 | `yildiz` | tepede diz üstü oturup gökyüzüne bakan insan; yıldızlar zaman atlamalı döner, samanyolu parlar | yaratılış, tevhid, nimet, tefekkür |
 
+## Yaratıcı ekip (skill'ler)
+Günlük görev her konuyu yazarken iki skill setini kullanır:
+- **huashu-art-motion** (github.com/alchaincyf/huashu-art-motion, MIT) — **yönetmen/kurgucu** olarak: `SKILL.md` ("导演的要求：镜头怎么用", "最常见的六种做坏方式"), `references/镜头语言.md` (1–4. bölümler) ve `references/镜头表模板.md`. Bu repo 9:16 ve `cine.py` ile render eder; huashu'nun kendi motoru (`render.py --spec`, `deliver.py`, Playwright) **kullanılmaz** — skill'den kamera dili, çekim planı ve "kötü yapım" kontrol listesi alınır ve `kurgu` alanına çevrilir.
+- **Social Media Skills** eklentisi — `hook-writer` (hook), `short-form-video-script` / `tiktok-script` (tempo, döngü), `social-seo` + `youtube-shorts` + `tiktok-growth` (arama ve başlık), `hashtag-strategy` (3–5 niş etiket), `caption-writer` (açıklama). Skill aracı yoksa aşağıdaki kurallar yeterlidir.
+
+## Kurgu (`kurgu` alanı — huashu-art-motion kamera dili)
+```
+"kurgu": {"kamera": ["kay", "vurgu", "cek"], "gecis": ["kesme", "kararma"]}
+```
+- 3 çekim (sorun → dönüşüm → sonuç; dönüşüm = ayetin okunduğu bölüm). `kamera` her çekimin hareketi: `sabit` (dur; izleyici okurken), `it` (yavaş itme — gözü bir ayrıntıya götürür), `cek` (geri çekilme — genel plan, bölüm kapanışı), `kay` (yanal kayma, paralaksla), `vurgu` (0.55 sn'de hızlı itme — sadece bir an: ayetin geldiği an ya da hook cevabı).
+- `gecis`: çekim A→B ve B→C geçişi. `kararma` (karanlığa yakın çapraz geçiş) ya da `kesme` (sert kesme — vurgu).
+- Kurallar (huashu "镜头语言"): komşu iki çekim aynı hareketi kullanmaz; `vurgu` en fazla bir kez (render kontrol eder); "her çekimde aynı yavaş itme" = slayt gösterisi, yapılmaz; yazı okunurken kamera sakin. Son çekim bir yazı kartıyla değil karakterin hareketiyle biter (sahneler zaten öyle).
+- Art arda iki videoda aynı `kamera` dizisi kullanılmaz. Örnek diziler: `["cek","vurgu","kay"]`, `["kay","it","cek"]`, `["sabit","vurgu","cek"]`, `["it","kay","cek"]`.
+- Alan yoksa eski (v3) hareket kullanılır.
+
+## SEO (`seo` alanı)
+```
+"seo": {"yt_baslik": "Yalnız mısın? Bakara 186 · Dua ayeti",
+        "ilk_satir": "Yalnız mısın? Kur'an'da duaya cevap ayeti",
+        "aciklama": "Bakara Suresi 186. ayette Allah, kullarına yakın olduğunu ve dua edenin duasına cevap verdiğini bildiriyor. ...",
+        "anahtar": ["dua ayeti", "kuranda dua", "bakara 186"]}
+```
+- Platformlar arama motorudur: **anahtar kelime > hashtag**. Bir videonun tek bir arama niyeti olur (ör. "sabır ayeti", "dua ayeti", "anne baba ayeti").
+- **Üçlü tekrar**: aranan ifade (doğal dille) hem seslendirmede (`giris` ya da `yorum`), hem ekranda (`tema` etiketi), hem açıklamanın ilk satırında geçer. Doldurma yok.
+- `yt_baslik`: hook + sure/ayet + aranan ifade, ≤70 karakter (`caption.py --baslik` sonuna ` #Shorts` ekler). Hook'u bozma; anahtar kelimeyi hook'tan sonra koy.
+- `ilk_satir`: hook + aranan ifade (~125 karakterin altında, "…devamı"ndan önce okunur).
+- `aciklama`: 2–3 cümle, mealin söylediğini aşmadan ayetin konusunu aranan kelimelerle anlatır. Uydurma bilgi yok.
+- `anahtar`: 3–5 gerçek arama ifadesi (Türkçe, küçük harf). Arama hacmi uydurulmaz; varsa vidIQ `vidiq_keyword_research` (dil tr, bölge TR) ya da Kervly `get_youtube_insights` sonucuna dayanır.
+- Hashtag: 3–5 niş etiket (`caption.py` konunun etiketlerinden + #kuran #ayet #kuranikerim üretir).
+
+## Kur'an'ın sırları (`tur: "sir"`)
+Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'ın yapısındaki ilgi çekici, **doğrulanabilir** bir gerçeği anlatır; yine bir ayet ve Diyanet meali içerir. `tema`: "Kur'an'ın Sırları" (ekranda etiket olarak görünür).
+- Konu örnekleri: hurûf-ı mukattaa (Elif Lâm Mîm gibi harflerle başlayan sureler — anlamları kesin bilinmez, "en doğrusunu Allah bilir" diye söylenir), besmelesiz tek sure, en uzun/en kısa ayet ve sure, ilk inen ayetler, bir kelimenin tam yazımıyla kaç kez geçtiği.
+- **Her sayı `python3 sir.py ...` çıktısından gelir** ve konuya `"sir_kaynak": "<çalıştırılan komut> → <sonuç satırı>"` olarak yazılır. Kelime sayımlarında yöntem söylenir ("bu yazımıyla", "Tanzil metninde").
+- **Yasak**: 19 kodu / ebced hesapları ve sayı mistisizmi, "bilimsel mucize" iddiaları, hafızadan hadis/rivayet, "şifreyi çözdük" gibi iddialar, internetteki doğrulanmamış sayılar ("gün kelimesi 365 kez" vb.). Hook merak uyandırabilir ("Kur'an'ın şifresi gibi duran harfler", "Bu sure neden besmelesiz?"), ama içerik sadece doğrulanmış bilgiyi söyler; bilinmeyen bilinmiyor diye söylenir.
+- Rakamlar seslendirmede yazıyla yazılır (yirmi dokuz).
+
 ## Kurallar
 1. **Ayet metni asla elle ya da hafızadan yazılmaz.** Arapça ve meal sadece `data/` altındaki dosyalardan okunur. `topics.json`'a yalnızca sure ve ayet numarası girilir. `giris` ve `yorum` alanlarına meal metni kopyalanmaz.
 2. Yeni konu eklerken mealin ilgili ayetin anlamını taşıdığını `data/tur-diyanetisleri.json`'dan okuyarak kontrol et. Diyanet mealinde birleştirilmiş ayetler (aynı meal metni ardışık ayetlerde tekrar ediyorsa) ve çok uzun mealler (300 karakterden uzun) kullanılmaz. Daha önce kullanılan sure:ayet çiftleri tekrar edilmez.
@@ -77,8 +115,10 @@ GitHub Actions'ta: Settings → Secrets and variables → Actions → `ELEVENLAB
 - Metricool medyayı planlama anında kendi sunucusuna kopyalar. Planlanmış bir gönderinin videosu değişirse `updateScheduledPost` ile medya yeniden verilmelidir.
 
 ## Günlük akış (zamanlanmış görev)
-1. `state.json`'da `planlanan` içinde olmayan ilk 3 id'yi `topics.json` sırasıyla seç.
-2. Seçilen konuda `sahne` veya `seslendirme` yoksa kurallara göre ekle. Video `videos/` altında yoksa ya da eski (seslendirmesiz) ise `python3 render.py <id>` ile üret. Kalite kontrolünü yap. Commit edip `main`'e push et.
-3. Raw URL 200 dönene ve boyut yerel dosyayla eşleşene kadar bekle, sonra her video için o günün bir saatine Metricool'da biri TikTok, biri YouTube olmak üzere iki gönderi planla. Önce `getScheduledPosts` ile o saatte o ağ için gönderi olup olmadığını kontrol et.
-4. `state.json`'a TikTok için `{tarih, metricool_id}`, YouTube için `youtube: {tarih, metricool_id}` yaz, commit + push.
-5. Planlanmamış konu sayısı 9'un altına düşerse kurallara uyarak `topics.json`'a en az 15 yeni konu ekle (sahne ve seslendirme alanlarıyla birlikte).
+Her gün 08:44 (Dubai) çalışan "kuranikerim ayet videoları (ElevenLabs MCP) - günlük" görevi:
+1. Kervly `get_youtube_insights` ile neyin iyi gittiğine bakar (varsa vidIQ ile günde bir anahtar kelime araştırması).
+2. `state.json`'da planlanmamış ilk 3 konuyu seçer; son 4 videoda sır videosu yoksa 3. video yeni bir "Kur'an'ın sırları" konusu olur.
+3. Her konu için hook (hook-writer), seslendirme metni, sahne, `kurgu` (huashu-art-motion) ve `seo` (social-seo, youtube-shorts, tiktok-growth, hashtag-strategy) yazar.
+4. Sesleri ElevenLabs MCP ile üretir, `voiceovers/<id>.json` push'u GitHub Actions'ta videoyu üretir; kareleri kontrol eder.
+5. Kervly ile 10:00, 15:00, 18:00'e YouTube + TikTok planlar (`caption.py`, `--baslik`, `--etiket`), `state.json`'a yazar.
+6. Planlanmamış konu 9'un altına düşerse en az 15 yeni konu ekler (her ~5 konudan biri sır videosu).

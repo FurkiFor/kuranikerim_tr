@@ -232,6 +232,52 @@ def draw_img(c, img, x, y, alpha=1.0, blur=0.0, scale=1.0):
     if scale != 1.0: c.restore()
 
 
+# ---- kurgu (huashu-art-motion kamera dili) -------------------------------------------------
+# topics.json → "kurgu": {"kamera": [A, B, C], "gecis": [A→B, B→C]}
+#   kamera: sabit (dur; izleyici okurken) · it (yavaş itme) · cek (geri çekilme / genel plan)
+#           kay (yanal kayma, paralaksla) · vurgu (hızlı itme — sadece bir çekimde, ayetin geldiği an gibi)
+#   gecis : kararma (karanlığa yakın çapraz geçiş) · kesme (sert kesme — vurgu için)
+#   Kurallar: komşu iki çekim aynı hareketi kullanmaz, "vurgu" en fazla bir kez. Alan yoksa eski davranış.
+KAMERA = ('sabit', 'it', 'cek', 'kay', 'vurgu')
+GECIS = ('kararma', 'kesme')
+
+
+def kurgu_of(tp):
+    k = tp.get('kurgu')
+    if not k: return None
+    kam, gec = list(k.get('kamera', [])), list(k.get('gecis', ['kararma', 'kararma']))
+    if len(kam) != 3 or any(x not in KAMERA for x in kam):
+        raise SystemExit(f"{tp['id']}: kurgu.kamera 3 öğeli olmalı, değerler {KAMERA}")
+    if len(gec) != 2 or any(x not in GECIS for x in gec):
+        raise SystemExit(f"{tp['id']}: kurgu.gecis 2 öğeli olmalı, değerler {GECIS}")
+    if kam[0] == kam[1] or kam[1] == kam[2]:
+        raise SystemExit(f"{tp['id']}: komşu çekimler aynı kamera hareketini kullanamaz: {kam}")
+    if kam.count('vurgu') > 1:
+        raise SystemExit(f"{tp['id']}: 'vurgu' en fazla bir kez")
+    return {'kamera': kam, 'gecis': gec}
+
+
+def cam_move(kind, i, t, u, lt):
+    """kind=None: eski (v3) hareket. u: çekim ilerlemesi 0..1, lt: çekim içi süre (sn)."""
+    dx, dy = 18 * math.sin(t * 0.13 + i), 8 * math.sin(t * 0.09)
+    e = CI.ease_io(u)
+    if kind is None:
+        z = 1.015 + 0.06 * e
+        if i == 0: z += 0.10 * (1 - CI.ease_out(t / 3.0))   # açılışta yavaş geri çekilme
+        return CI.Cam(dx, dy, z)
+    if kind == 'sabit':
+        return CI.Cam(dx * 0.4, dy * 0.4, 1.03)
+    if kind == 'it':
+        return CI.Cam(dx, dy, 1.015 + 0.075 * e)
+    if kind == 'cek':
+        return CI.Cam(dx, dy, 1.12 - 0.095 * e)
+    if kind == 'kay':
+        return CI.Cam(CI.lerp(-30, 30, e) + dx * 0.3, dy * 0.5, 1.07)
+    if kind == 'vurgu':   # ilk 0.55 sn'de hızlı itme, sonra neredeyse durur
+        return CI.Cam(dx * 0.5, dy * 0.5, 1.0 + 0.11 * CI.ease_out(lt / 0.55) + 0.02 * e)
+    raise ValueError(kind)
+
+
 def render(tp, out):
     scene = tp.get('sahne') or ESKI_BG.get(tp.get('bg'), 'fener')
     accH = CI.ACCENT[scene]; acc = CI.rgb(accH)
@@ -281,11 +327,11 @@ def render(tp, out):
                            '-i', aud, '-c:v', 'libx264', '-preset', 'medium', '-crf', '22', '-maxrate', '8M', '-bufsize', '16M', '-tune', 'film', '-pix_fmt', 'yuv420p',
                            '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-shortest', out], stdin=subprocess.PIPE)
 
+    kurgu = kurgu_of(tp)
+
     def cam_for(i, t):
         s0, s1 = bounds[i]; u = clamp01((t - s0) / max(0.1, s1 - s0))
-        z = 1.015 + 0.06 * CI.ease_io(u)
-        if i == 0: z += 0.10 * (1 - CI.ease_out(t / 3.0))   # açılışta yavaş geri çekilme
-        return CI.Cam(18 * math.sin(t * 0.13 + i), 8 * math.sin(t * 0.09), z)
+        return cam_move(kurgu['kamera'][i] if kurgu else None, i, t, u, t - s0)
 
     def shot(i, t):
         s0, s1 = bounds[i]; lt = max(0.0, t - s0); k = clamp01(lt / max(0.1, s1 - s0))
@@ -304,7 +350,8 @@ def render(tp, out):
         c.clear(skia.ColorBLACK)
         cur = 0 if t < sB else 1 if t < sC else 2
         s0 = bounds[cur][0]
-        if cur > 0 and t - s0 < TR_D:  # çekim geçişi: karanlığa yakın çapraz geçiş
+        kesme = bool(kurgu) and cur > 0 and kurgu['gecis'][cur - 1] == 'kesme'
+        if cur > 0 and t - s0 < TR_D and not kesme:  # çekim geçişi: karanlığa yakın çapraz geçiş
             u = (t - s0) / TR_D
             shot(cur - 1, t)
             c.saveLayerAlpha(None, int(255 * CI.smooth(u)))
