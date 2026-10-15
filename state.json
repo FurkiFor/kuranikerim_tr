@@ -111,6 +111,36 @@
     "kervly_id": "p_1I26e92eTX1z"
    },
    "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
+  },
+  "v015": {
+   "tiktok": {
+    "tarih": "2026-10-15T10:00:00+04:00",
+    "kervly_id": "p_EiAxK0_QF7W4"
+   },
+   "youtube": {
+    "tarih": "2026-10-15T10:00:00+04:00",
+    "kervly_id": "p_gE239rDShOex"
+   }
+  },
+  "v016": {
+   "tiktok": {
+    "tarih": "2026-10-16T10:00:00+04:00",
+    "kervly_id": "p_N9IXgdL_Ptel"
+   },
+   "youtube": {
+    "tarih": "2026-10-16T10:00:00+04:00",
+    "kervly_id": "p_w0rsru_U6L-g"
+   }
+  },
+  "v017": {
+   "tiktok": {
+    "tarih": "2026-10-16T15:00:00+04:00",
+    "kervly_id": "p_o9Fm9kGHw_1y"
+   },
+   "youtube": {
+    "tarih": "2026-10-16T15:00:00+04:00",
+    "kervly_id": "p_B39YPJAIWZ8w"
+   }
   }
  }
 }
