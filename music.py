@@ -2,7 +2,7 @@
 """Yerel üretilen, telifsiz, yumuşak atmosferik fon müziği.
 Yavaş akorlu pad + hafif çan arpeji + alt bas + oda yankısı. Her video için konuya göre farklı ton/dizi.
 make(duration, seed, path) -> path  (44.1 kHz stereo wav)
-KT_MUSIC_STYLE=dark (varsayılan; ruhani/karanlık) ya da soft (eski yumuşak pad + çan)."""
+KT_MUSIC_STYLE=ilahi (varsayılan; ney + dem + bendir, makam dizileri — ilahi.py), dark (ruhani/karanlık pad) ya da soft (eski yumuşak pad + çan)."""
 import numpy as np, wave, random, os
 
 SR = 44100
@@ -109,7 +109,10 @@ def make_dark(duration, seed, path):
 
 
 def make(duration, seed, path, style=None):
-    style = style or os.environ.get('KT_MUSIC_STYLE', 'dark')
+    style = style or os.environ.get('KT_MUSIC_STYLE', 'ilahi')
+    if style == 'ilahi':
+        import ilahi
+        return ilahi.make(duration, seed, path)
     if style == 'dark':
         return make_dark(duration, seed, path)
     rnd = random.Random(seed)

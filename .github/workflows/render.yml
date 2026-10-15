@@ -1,7 +1,8 @@
 name: Render videos
 
-# Videoları GitHub'ın sunucularında üretir (EMA Lightning sesi Hugging Face'ten iner)
-# ve videos/ altına commit eder. Elle ya da günlük görev tarafından tetiklenir:
+# Videoları GitHub'ın sunucularında üretir ve videos/ altına commit eder.
+# Ses: ElevenLabs (Seçkin Yiğit, eleven_v4 — karanlık belgesel tonu). Gerekli secret: ELEVENLABS_API_KEY
+# Elle ya da günlük görev tarafından tetiklenir:
 #   Actions → Render videos → Run workflow → ids: "v015 v016 v017"
 on:
   workflow_dispatch:
@@ -10,21 +11,21 @@ on:
         description: "Üretilecek konu id'leri, boşlukla ayrılmış (ör. v015 v016 v017)"
         required: true
       voice:
-        description: "Ses: ema (EMA Lightning) ya da dfki (Piper)"
-        default: ema
+        description: "Ses: eleven (ElevenLabs, önerilen), ema (EMA Lightning) ya da dfki (Piper)"
+        default: eleven
         type: choice
-        options: [ema, dfki]
+        options: [eleven, ema, dfki]
       speed:
-        description: "Konuşma hızı (1 = normal, küçük = yavaş). Hikâye anlatır gibi: 0.85"
+        description: "Konuşma hızı (yalnızca ema/dfki; 1 = normal, küçük = yavaş)"
         default: "0.85"
       pause:
-        description: "Cümle arası duraklama çarpanı (1 = normal)"
+        description: "Cümle arası duraklama çarpanı (yalnızca ema/dfki)"
         default: "1.5"
       music:
-        description: "Fon müziği: dark (ruhani, karanlık) ya da soft"
-        default: dark
+        description: "Fon müziği: ilahi (ney + dem + bendir), dark (karanlık pad) ya da soft"
+        default: ilahi
         type: choice
-        options: [dark, soft]
+        options: [ilahi, dark, soft]
       music_volume:
         description: "Fon müziği seviyesi (0 = müziksiz)"
         default: "0.2"
@@ -46,6 +47,7 @@ jobs:
       KT_PAUSE: ${{ inputs.pause }}
       KT_MUSIC_STYLE: ${{ inputs.music }}
       KT_MUSIC: ${{ inputs.music_volume }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
       IDS: ${{ inputs.ids }}
     steps:
       - uses: actions/checkout@v4
@@ -59,19 +61,41 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libharfbuzz0b libgl1 libegl1 libfontconfig1 >/dev/null
 
+      # eleven seçili ama anahtar yoksa günlük akış durmasın: EMA'ya düş ve uyar
+      - name: Resolve voice
+        run: |
+          if [ "$KT_VOICE" = "eleven" ] && [ -z "$ELEVENLABS_API_KEY" ]; then
+            echo "::warning::ELEVENLABS_API_KEY secret'ı yok — bu çalıştırma EMA sesiyle üretiliyor"
+            echo "KT_VOICE=ema" >> "$GITHUB_ENV"
+          fi
+
       - name: Python packages
         run: |
           python -m pip install -q --upgrade pip
-          python -m pip install -q torch --index-url https://download.pytorch.org/whl/cpu
-          python -m pip install -q ema-lightning skia-python pillow numpy scipy sherpa-onnx
+          python -m pip install -q skia-python pillow numpy scipy
+          if [ "$KT_VOICE" = "ema" ]; then
+            python -m pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+            python -m pip install -q ema-lightning
+          fi
+          if [ "$KT_VOICE" = "dfki" ]; then python -m pip install -q sherpa-onnx; fi
 
       - name: Cache voice models
+        if: env.KT_VOICE != 'eleven'
         uses: actions/cache@v4
         with:
           path: |
             ~/.cache/huggingface
             models
           key: voices-v1
+
+      # ElevenLabs parçaları önbellekte: aynı metin yeniden üretilirken tekrar ücretlendirilmez
+      - name: Cache ElevenLabs audio
+        if: env.KT_VOICE == 'eleven'
+        uses: actions/cache@v4
+        with:
+          path: models/el_cache
+          key: el-${{ github.run_id }}
+          restore-keys: el-
 
       - name: Validate ids
         run: |
@@ -82,6 +106,7 @@ jobs:
           done
 
       - name: Voice sample
+        if: env.KT_VOICE != 'eleven'
         run: |
           python - <<'EOF'
           import voice, wave, numpy as np
@@ -114,6 +139,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: render-${{ github.run_id }}
+          if-no-files-found: ignore
           path: |
             voice-sample.wav
             render-*.log

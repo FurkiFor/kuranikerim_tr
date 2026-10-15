@@ -1,6 +1,6 @@
-# kuranikerim_tr — TikTok / YouTube Shorts ayet videoları (v2)
+# kuranikerim_tr — TikTok / YouTube Shorts ayet videoları (v3 — karanlık belgesel)
 
-@kuranikerim_tr için otomatik, **Türkçe seslendirmeli, fon müzikli ve vektör animasyonlu** ayet + meal videoları üretir.
+@kuranikerim_tr için otomatik, **karanlık belgesel tonunda Türkçe seslendirmeli, ilahi fonlu ve sinematik animasyonlu** ayet + meal videoları üretir.
 Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub linkinden çeker.
 
 ## Dosyalar
@@ -9,52 +9,56 @@ Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub link
 - `surahs.json`: sure numarası → Türkçe sure adı
 - `topics.json`: konu listesi. Alanlar: `id, tema, sure, ayet [başlangıç, bitiş], hook, kapanis, sahne, seslendirme {giris, yorum}, bg, aciklama, etiketler`
 - `render.py <id...>`: videoyu üretir → `videos/<id>.mp4` (1080x1920, 30 fps, seslendirmeli)
-- `scenes.py`: ayetin anlamını anlatan vektör animasyon hikâyeleri (her biri 3 çekim: sorun → dönüşüm → sonuç)
-- `vg.py`: vektör çizim kütüphanesi (skia): karakter ve pozlar (yürüme, üzgün, dua, sevinç, oturma), bulut, güneş, ay, yağmur, şimşek, ağaç, çiçek, kuş, kelebek, dalga, tekne, kapı, kum saati, gezegen…
-- `voice.py`: Türkçe TTS. Varsayılan ve tercih edilen: **EMA Lightning** (`KT_VOICE=ema`, Hugging Face'ten iner; kullanıcı dfki'yi robotik buldu). Yedek: Piper "dfki" (`KT_VOICE=dfki`, sherpa-onnx). Modeller `models/` ya da HF önbelleğine iner (git'e eklenmez)
+- `cine.py`: sinematik sahne motoru (v3): katmanlı derinlik/paralaks, hareketli sis, hacimsel ışık hüzmeleri, toz/kıvılcım, yıldız/samanyolu, dağ sırtları, yağmur/şimşek, deniz, orman, şehir, kapı, kum saati, fener… Her sahne 3 çekim: sorun → dönüşüm → sonuç
+- `figure.py`: gerçek insan oranlarında (≈7.5 baş boyu) profil siluet karakter; arkadan ışık (rim light), ceket; pozlar: yürüme, ayakta nefes, başı önde, yukarı bakma, kollar açık, diz üstü dua, diz üstü oturuş
+- `scenes.py`, `vg.py`: eski (v2) çizgi film tarzı sahneler — artık kullanılmıyor
+- `voice.py`: Türkçe TTS. Tercih edilen: **ElevenLabs** (`KT_VOICE=eleven`, ses "Seçkin Yiğit", model `eleven_v4`, karanlık belgesel tonu; `ELEVENLABS_API_KEY` gerekir). Kelime zamanları API'nin karakter hizalamasından gelir. Üretilen parçalar `models/el_cache` altında önbelleklenir. Yedekler: EMA Lightning (`ema`), Piper "dfki" (`dfki`)
+- `ilahi.py`: telifsiz, yerel üretilen ilahi tarzı fon: ney (makam dizileriyle doğaçlama seyir: Hicaz, Uşşak, Hüseyni, Segâh, Rast), dem/ison koro mırıltısı, alçak sesli bendir (Sofyan), cami akustiği yankısı
 - `.github/workflows/render.yml`: videoları GitHub Actions'ta EMA sesiyle üretir ve `videos/` altına commit eder (girdi: `ids`, ör. `v015 v016 v017`). Bulut oturumundan Hugging Face'e erişilemediği için videolar burada üretilir
-- `music.py`: yerel üretilen telifsiz atmosferik fon müziği (pad + çan arpeji + bas + yankı); her videoda farklı ton/akor dizisi
+- `music.py`: fon müziği seçici: `KT_MUSIC_STYLE=ilahi` (varsayılan, ilahi.py), `dark`, `soft`; her videoda farklı makam/ton
 - `caption.py <id...>`: gönderi açıklamasını basar
 - `state.json`: hangi videonun ne zaman planlandığının kaydı
 
 ## Kurulum
 ```
-pip install --break-system-packages sherpa-onnx skia-python pillow numpy scipy
-# ffmpeg gerekir. Ses modeli render sırasında otomatik iner:
-# https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-fahrettin-medium.tar.bz2
+pip install --break-system-packages skia-python pillow numpy scipy   # + sherpa-onnx (dfki sesi için)
+# ffmpeg gerekir.
+export KT_VOICE=eleven ELEVENLABS_API_KEY=...    # ya da KT_VOICE=dfki (yerel önizleme)
+python3 render.py v015
 ```
-Bir video ~2 dk'da üretilir (2 çekirdek). İki videoyu paralel üretmek için iki ayrı `render.py` süreci çalıştırılabilir.
+GitHub Actions'ta: Settings → Secrets and variables → Actions → `ELEVENLABS_API_KEY` secret'ı eklenmeli (ElevenLabs ücretli plan gerekir; ücretsiz katman bu hesapta kapalı).
 
-## Video yapısı (render.py)
-1. **Hook (0–3 sn)**: izleyicinin durumuna hitap eden cümle; ses ile aynı anda kelime kelime ekrana çakılır, kamera "punch" yapar. İlk karede metin ve hareket vardır.
-2. **Giriş**: `seslendirme.giris` — merak boşluğu açan 1–2 cümle (ör. "Kur'an bunun cevabını tek bir cümlede veriyor.").
-3. **Ayet**: "<Sure> Suresi'nde Rabbimiz şöyle buyuruyor:" + Diyanet mealinin tamamı okunur. Arapça metin üstte kartta, meal altta kelime kelime altyazı. Ayet başlarken ışık patlaması olur ve sahne karanlıktan aydınlığa dönüşür (kırık kalp birleşir, fırtına dağılır, kapı açılır…).
+## Video yapısı (render.py, v3)
+1. **Hook (0–3 sn)**: izleyiciyi doğrudan sorgulayan kısa soru ("Yalnız mısın?", "Borcun mu var?"); büyük serif yazı, ses ile aynı anda kelime kelime bulanıktan nete belirir. Kamera açılışta yavaşça geri çekilir.
+2. **Giriş**: `seslendirme.giris` — merak boşluğu açan 1–2 cümle.
+3. **Ayet**: "<Sure> Suresi'nde Rabbimiz şöyle buyuruyor:" + Diyanet mealinin tamamı. Arapça metin kartsız, gökyüzünde hafif parıltıyla; altında ince çizgili sure/ayet etiketi. Meal serif (Cormorant) altyazı, okunan kelime aksan renginde. Sahne karanlıktan ışığa döner (kapı açılır, şafak söker, fırtına diner, ağaç büyür…).
 4. **Yorum**: `seslendirme.yorum` — mealin söylediğini aşmayan 1–2 cümle.
-5. **Kapanış**: `kapanis` + "Kaydet ve ihtiyacı olana gönder." Sahne son saniyede başlangıç hâline döner (loop).
-- Üstte ilerleme çubuğu, konu etiketi.
-- **Ses**: seslendirme + altında yumuşak fon müziği; konuşma sırasında müzik otomatik kısılır (sidechain). Toplam -14 LUFS. Yağmur/gürültü sesi kullanılmaz. `KT_MUSIC=0` ile müziksiz üretilebilir.
-- **Animasyon**: sahne her an hareket eder (karakter yürür/nefes alır, bulutlar akar, yağmur yağar, dalgalar, kuşlar, parçacıklar). Çekim geçişlerinde yakınlaşarak geçiş, cümle başlarında kamera vuruşu. Sahne alttaki TikTok arayüzü karakteri örtmesin diye yukarı kaydırılmıştır.
+5. **Kapanış**: `kapanis` + "Kaydet ve ihtiyacı olana gönder." + sure/ayet ve @kuranikerim_tr.
+- Görsel dil: düşük anahtarlı ışık, arkadan aydınlatılmış insan silueti, paralaks, sis, ışık hüzmeleri, film greni, vinyet, film siyahı. Zıplayan/çizgi film hareket yok; kamera yavaş iter ve süzülür; çekim geçişleri karanlığa yakın çapraz geçiş.
+- Yazılar gökyüzü bölgesinde (üst yarı), karakter zeminde; alt kısım TikTok arayüzü için boş bırakılır.
+- **Ses**: seslendirme + altında ilahi tarzı fon; konuşma sırasında müzik otomatik kısılır (sidechain). Toplam -14 LUFS. `KT_MUSIC=0` ile müziksiz.
+- Bir video ~1 sn/kare hızında üretilir (2 çekirdek); 40 sn'lik video ≈ 10–20 dk.
 
 ## Sahneler (`sahne` alanı)
 | sahne | anlatım | uygun temalar |
 |---|---|---|
-| `firtina` | yağmurda yürüyen karakter; bulutlar dağılır, güneş doğar, çiçekler açar, gökkuşağı | zorluk, umut, musibet, sabah zikri |
-| `tohum` | toprağı sulayan karakter; filiz ağaca dönüşür, meyve verir | emek, sabır, rızık, iyilik, güzel hayat |
-| `fener` | karanlık ormanda fenerle yürüyen karakter; ışık dünyayı aydınlatır, dua, gökyüzüne fenerler | dua, hidayet, yöneliş, namaz |
-| `kalp` | gece şehirde yağmur altında oturan karakter, başının üstünde çatlayan kalp; kalp iyileşir, altınla dolar, karakter ayağa kalkar | huzur, yakınlık, sevgi, aile, af |
-| `deniz` | fırtınada sallanan tekne; deniz durulur, deniz feneri, ay, zıplayan balıklar | sabır, korku, öfke, imtihan, güven |
-| `kapi` | karanlık odada kapıya yürüyen karakter; kapı açılır, ışık dolar, bahçe | tövbe, rahmet, Allah'a dönüş, cennet |
-| `kum` | telaşla koşturan karakter, masada dönen kum saati, uçuşan takvim yaprakları; altın taneler, dua; mizan (terazi) | zaman, dünya hayatı, amel, hesap |
-| `yildiz` | teleskopla gökyüzüne bakan karakter; gökte güneş sistemi açılır; takımyıldız | yaratılış, tevhid, nimet, hayatın amacı |
-| `yol` | yolda yürüyen sırt çantalı karakter; dağ yükselir, güneş doğar; zirvede bayrak | gayret, tevekkül, rızık için çalışma, yön |
+| `kapi` | karanlık boşlukta kenarlarından ışık sızan kapıya yürüyen insan; kapı açılır, ışık dolar, ışığa yürür | tövbe, rahmet, Allah'a dönüş, ölüm, cennet |
+| `yol` | sisli dağ yolunda yürüyen yolcu; dağların ardından şafak söker, ışık hüzmeleri | gayret, tevekkül, yön, hayatın amacı |
+| `deniz` | fırtınalı gece denizine bakan insan; bulutlar dağılır, ay yolu, deniz feneri, dua | sabır, korku, öfke, imtihan, güven |
+| `fener` | karanlık ormanda fenerle yürüyen yolcu; diz çöküp dua eder, gökyüzüne fenerler yükselir | dua, yöneliş, namaz, zikir |
+| `firtina` | yağmurda rüzgâra karşı yürüyen insan; bulutlar yarılır, ışık sütunları iner | zorluk, umut, musibet, zikir |
+| `tohum` | çorak toprağa diz çöküp fidan diken insan; fidan şafakla büyük ağaca dönüşür | emek, sabır, rızık, iyilik, güzel hayat |
+| `kalp` | yağmurlu gece şehrinde sokak lambası altında başı önde duran insan; yağmur diner, başını kaldırır, yürür | yalnızlık, huzur, aile, af, anne-baba |
+| `kum` | çölde dev kum saati, rüzgârda yürüyen küçük insan; kum altına döner, gece yıldızları açılır | zaman, dünya hayatı, amel, hesap |
+| `yildiz` | tepede diz üstü oturup gökyüzüne bakan insan; yıldızlar zaman atlamalı döner, samanyolu parlar | yaratılış, tevhid, nimet, tefekkür |
 
 ## Kurallar
 1. **Ayet metni asla elle ya da hafızadan yazılmaz.** Arapça ve meal sadece `data/` altındaki dosyalardan okunur. `topics.json`'a yalnızca sure ve ayet numarası girilir. `giris` ve `yorum` alanlarına meal metni kopyalanmaz.
 2. Yeni konu eklerken mealin ilgili ayetin anlamını taşıdığını `data/tur-diyanetisleri.json`'dan okuyarak kontrol et. Diyanet mealinde birleştirilmiş ayetler (aynı meal metni ardışık ayetlerde tekrar ediyorsa) ve çok uzun mealler (300 karakterden uzun) kullanılmaz. Daha önce kullanılan sure:ayet çiftleri tekrar edilmez.
 3. **Hook ve içerik çekme kuralları** (Reels/Shorts/TikTok):
-   - Hook ilk saniyede görünür ve okunur, en fazla ~10 kelime, izleyicinin durumuna ya da bir soruya hitap eder ("…hissediyorsan", "…mi sanıyorsun?").
+   - Hook ilk saniyede görünür ve okunur, en fazla ~10 kelime ve **izleyiciyi doğrudan sorgulayan bir sorudur** ("Yalnız mısın?", "Borcun mu var?", "Anneni en son ne zaman aradın?"). Soru, ayetin konusuyla doğrudan ilgili olmalı.
    - Merak uyandırabilir ama **yanıltıcı olamaz**: hook, giriş ve yorum mealin söylemediği bir şeyi vaat etmez, uydurma rakam/hadis/olay içermez.
-   - `giris`: 1–2 kısa cümle, merak boşluğu açar ("Bu ayet tam olarak bunu anlatıyor.", "Kur'an başka bir yol gösteriyor.").
+   - `giris`: 1–2 kısa cümle, merak boşluğu açar ("Bu ayet tam olarak bunu anlatıyor.", "Kur'an başka bir yol gösteriyor."); hook'u tekrar etmez.
    - `yorum`: 1–2 kısa cümle, mealin özünü sade dille tekrarlar, kişisel bir çağrıyla bitebilir ("Bugün ona bir telefon aç.").
    - Cümleler kısa ve konuşma dilinde olmalı (seslendirilecek). Rakam yerine yazıyla yaz, kısaltma kullanma ("Hz." yerine "Hazreti").
    - `kapanis` kısa bir sonuç cümlesidir; render sonuna "Kaydet ve ihtiyacı olana gönder." ekler.
