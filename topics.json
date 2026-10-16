@@ -396,46 +396,92 @@
  },
  {
   "id": "v021",
-  "tema": "Tövbe",
+  "tema": "Tövbe Duası",
   "sure": 7,
   "ayet": [
    23,
    23
   ],
-  "hook": "Bir hatan seni içten içe yiyor mu?",
-  "kapanis": "Hz. Âdem'in tövbe duası.",
+  "hook": "Pişmanlığını Allah'a nasıl söylersin?",
+  "kapanis": "Hazreti Âdem'in tövbe duası.",
   "bg": "gece",
-  "aciklama": "Hz. Âdem ve Hz. Havva'nın tövbe duası. Pişmanlığını Allah'a böyle anlat.",
+  "aciklama": "Hz. Âdem ve Hz. Havva'nın tövbe duası: pişmanlığı Allah'a anlatmanın Kur'an'daki örneği.",
   "etiketler": [
    "tövbe",
    "dua"
   ],
   "sahne": "kapi",
   "seslendirme": {
-   "giris": "Allah'a ne diyeceğini bilemiyorsan, ilk tövbe duası Kur'an'da.",
-   "yorum": "Hazreti Âdem ve Hazreti Havva böyle dua etti. Pişmanlığını sen de böyle anlat."
+   "giris": "Kur'an, Hazreti Âdem ile Hazreti Havva'nın tövbe duasını bize kelimesi kelimesine aktarıyor.",
+   "yorum": "Bahane yok, sadece itiraf ve af dileği. Pişmanlığını sen de bu sözlerle söyle."
+  },
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "vurgu",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Pişmanlığını Allah'a nasıl söylersin? Tövbe duası",
+   "ilk_satir": "Pişmanlığını Allah'a nasıl söylersin? Kur'an'daki tövbe duası (A'râf 23)",
+   "aciklama": "A'râf Suresi 23. ayette Hazreti Âdem ve Hazreti Havva, kendilerine yazık ettiklerini söyleyip Rabbimizden bağışlanma ve merhamet diliyor. Kur'an meali ile tövbe duası: pişmanlığını Allah'a anlatmak isteyen herkes için.",
+   "anahtar": [
+    "tövbe duası",
+    "kuranda tövbe ayeti",
+    "hz adem tövbe duası",
+    "araf 23",
+    "kuran meali"
+   ]
   }
  },
  {
   "id": "v022",
-  "tema": "Aile",
+  "tema": "Evlilik Ayeti",
   "sure": 30,
   "ayet": [
    21,
    21
   ],
-  "hook": "Evinde huzur kalmadı mı?",
-  "kapanis": "Sevgi ve rahmet O'ndandır.",
+  "hook": "Eşinle aranızdaki sevgi nereden geliyor?",
+  "kapanis": "Sevgi ve merhamet O'ndandır.",
   "bg": "safak",
-  "aciklama": "Eşler arasındaki sevgi ve merhamet, Allah'ın ayetlerindendir.",
+  "aciklama": "Eşler arasındaki sevgi ve merhamet, Allah'ın varlığının belgelerindendir.",
   "etiketler": [
-   "aile",
-   "evlilik"
+   "evlilik",
+   "aile"
   ],
   "sahne": "kalp",
   "seslendirme": {
-   "giris": "Evlilikteki sevgi ve merhameti Kur'an nasıl anlatıyor, hiç düşündün mü?",
-   "yorum": "Eşler arasındaki sevgi ve merhamet, Allah'ın varlığının belgelerinden biri."
+   "giris": "Kur'an'daki evlilik ayeti bu soruya çok net bir cevap veriyor.",
+   "yorum": "Aranızdaki sevgiyi de merhameti de Allah var etti. Bu akşam eşine bunu hatırlat."
+  },
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "it",
+    "kay"
+   ],
+   "gecis": [
+    "kararma",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Eşinle aranızdaki sevgi nereden geliyor? Evlilik ayeti",
+   "ilk_satir": "Eşinle aranızdaki sevgi nereden geliyor? Kur'an'da evlilik ayeti (Rûm 21)",
+   "aciklama": "Rûm Suresi 21. ayette Allah, huzur bulalım diye bize eşler yarattığını ve aramıza sevgi ve merhamet koyduğunu bildiriyor; bunu varlığının belgelerinden sayıyor. Kur'an meali ile evlilik ve eş sevgisi ayeti.",
+   "anahtar": [
+    "evlilik ayeti",
+    "eş sevgisi ayeti",
+    "rum 21",
+    "kuranda evlilik",
+    "kuran meali"
+   ]
   }
  },
  {
@@ -877,5 +923,52 @@
    "giris": "Allah, çabalayana ne vaat ediyor?",
    "yorum": "Allah yolunda çaba gösterenleri yollarına eriştirir. Sen yeter ki çabala."
   }
+ },
+ {
+  "id": "v043",
+  "tur": "sir",
+  "tema": "Kur'an'ın Sırları",
+  "sure": 9,
+  "ayet": [
+   129,
+   129
+  ],
+  "hook": "Hangi sure besmelesiz başlar?",
+  "kapanis": "Allah'a güvenle biten sure.",
+  "bg": "safak",
+  "aciklama": "Kur'an'ın 114 suresinden yalnızca Tevbe Suresi besmeleyle başlamaz; son ayeti Allah'a güveni anlatır.",
+  "etiketler": [
+   "kuranın sırları",
+   "tevbe suresi"
+  ],
+  "sahne": "yol",
+  "seslendirme": {
+   "giris": "Kur'an'daki yüz on dört sureden yalnızca biri besmeleyle başlamaz: Tevbe Suresi. Peki bu sure nasıl biter?",
+   "yorum": "Besmelesiz başlayan bu sure, Allah'a güvenle kapanıyor. Yükün ağırsa, sen de dayanağını O'nda bul."
+  },
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hangi sure besmelesiz başlar? Kur'an'ın sırları",
+   "ilk_satir": "Hangi sure besmelesiz başlar? Kur'an'ın sırları: Tevbe Suresi",
+   "aciklama": "Kur'an'daki 114 surenin yalnızca biri, Tevbe Suresi, besmeleyle başlamaz (Tanzil metninden sayıldı). 129 ayetlik bu surenin son ayetinde Peygamberimize, yüz çevirenlere karşı Allah'ın yeteceğini ve yalnız O'na güvendiğini söylemesi bildirilir. Kur'an meali ile Tevbe 129.",
+   "anahtar": [
+    "besmelesiz sure",
+    "tevbe suresi",
+    "kuranın sırları",
+    "tevbe 129",
+    "kuran meali"
+   ]
+  },
+  "sir_kaynak": "python3 sir.py ozet → Sure sayısı: 114; Besmeleyle başlamayan sure(ler): Tevbe | python3 sir.py sure 9 → Tevbe Suresi: 129 ayet (son ayet 129)"
  }
 ]

@@ -1,0 +1,51 @@
+{
+ "id": "v021",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "98730j92zOs527zTFkXm",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Pişmanlığını Allah'a nasıl söylersin?",
+   "prompt": "[deep voice] [slowly] Pişmanlığını Allah'a nasıl söylersin?",
+   "generation_id": "NFXzCouhWd4aq00xM5pD",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/bQaESfRi70yoX3tpWZMr/NFXzCouhWd4aq00xM5pD/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044847Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8ea08e74dbe4fd627c300e452430b0340e28047d4cfb6ecc51aaed473d1e57d53bad8533d8b1692fc63c70c98da23c0301374e62bc8ca3d70be7c5c3a73cfeb5de01d9a9e0d35d20d97761eae64833f5fefe7e25d04574a99607cf17a180a82158e514e8b650da4065d94a6efffcc58df0c9988d8e70a63cb7661cff494b7dc44e44906a897b0b9ae300decc35a3885b3df646cc5263fc6b6a442d055fcc20fd9b8a4af978657de34b5a702005e10151bf57f063d75e285f09a51ae1086bec684c4d2ac1c507698d1731ae7cf977f18eb082064413e84464465b56f31ca7c3d38532c7443f1528f789ee433a923b4e86411c58d59b8971db23c722201639cf92"
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an, Hazreti Âdem ile Hazreti Havva'nın tövbe duasını bize kelimesi kelimesine aktarıyor.",
+   "prompt": "[deep voice] [slowly] Kur'an, Hazreti Âdem ile Hazreti Havva'nın tövbe duasını bize kelimesi kelimesine aktarıyor.",
+   "generation_id": "D0rY9qDczwmCKZGKlLQE",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/60j72O2P9j02vG8wIvi1/D0rY9qDczwmCKZGKlLQE/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044851Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=6511005e6c94391770c4528d2e466dddd61ff3b74ef6de420306a00afdf4e018f77de364b686ba34dd25da418806b9e18f0eb923f4dc8dce04fd4c80ed271efb66455a4048305c96ab36ffb571d6eff825fb7daec7ecfd40510f5a4f28d5bb085cc2b87bf4daf631a9a1d0e5ab5d6e0ceb3a147dd9529f7023af9c46d8002d28336f9ced7246a35c18be50047fde56941b93384971bbaea097c00317f68750dfeb0a8346f028808cdfe4e1b1614c29b62313bba092dcf1f599f01e0873423f09c9da8fb57c37671d4b97f215db0a1904d22f60f80bc75ade032f0829175e22fe470c6c55c7938c2b6b71a2e9311e38c080977479fb6d50c6bc2372fab7aaba20"
+  },
+  {
+   "kind": "intro",
+   "text": "A'râf Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] A'râf Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "SDhbvHITtYlcjq4mY1oz",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Pico7vEiwaUsxxXbbGqJ/SDhbvHITtYlcjq4mY1oz/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044852Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8e4396065f9ceb8904f7c7d79b4e6cfea9429946874daba2adebeee0020273236cf96acc9b19f956727688b789230721b31027f5bbdceaf4ba8dbde727391a1c8ba3e965ab5445988e87c89a334784c18b87c35e123d70c45ada549948a3dba0f7d5e7c92b4942f17d5ac3a9c06c5b3f7cc729bd63b5589bd34a837b51e81e3de2a4effc50abca727da223810524ec754e32ed626604cbbf5c920ad1e3f173c08c53ba6d9ae87213ce10ee80ff3421ee6dc45fdf27c2edc379e7725c75a42c495694873d472ac710d2e4475da5586834da2d4ca30865c073b29816a4a692d01240ad15d12b5070b0bd890715d0bd406b160a023775712849eaafe6875ef5a1fa"
+  },
+  {
+   "kind": "meal",
+   "text": "Her ikisi, \"Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz\" dediler.",
+   "prompt": "[softly] [slowly] Her ikisi, Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz dediler.",
+   "generation_id": "OuN72USLtKbGFmr7b5Zs",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/3n9zl9d0P4EMDHzcLyHI/OuN72USLtKbGFmr7b5Zs/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044856Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=391bad50906357fe0da9c731943361d294b31fac6af2df8cbd09300d659fe23e6361d82f44f96b2f946a0062f76776f00c38e399b0d09d9adb3fd04c09fa836a888bbf9828275ddbdb01477558208146a0d913ce142e1eca9d0c414215886cff8a6117169eec5f9e211580a7ed3b590f39ecb3be7d47eb81505ae45a1e860656036950158a324845efeac0777debf547d3fa9c3e09b0b50fdd829d30a2423f2c56d095412339056a4c0bf81197b6d6fb09dd1e3330bd9c41782ed89b28689babe604c9700f851a5d84d1762bd807157ee8a880a6386c670bd20a303390b94bf8a5034904044e1f0d5e7bf809fd0ad468540385b24e02e0cea6f1b147beaaf088"
+  },
+  {
+   "kind": "yorum",
+   "text": "Bahane yok, sadece itiraf ve af dileği. Pişmanlığını sen de bu sözlerle söyle.",
+   "prompt": "[deep voice] [slowly] Bahane yok, sadece itiraf ve af dileği. Pişmanlığını sen de bu sözlerle söyle.",
+   "generation_id": "kK3teddfj3VhcRue4UAz",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/VM7MXILu8RZpesaZfQSA/kK3teddfj3VhcRue4UAz/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044857Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=05d163f6a33de4f3dc4af935120cbbbaec27d6fb9cc94313f1f4782cf48cdc401b578487e1de3e12c78d61ede6268fb628a6eeb10c97d713df6f2b2389bb5677b9e6233856d8af5395f396fcd515963f98d7a0a37f98b3ee20ea5e7b3d10adb9c8d4fb23c72d8f6dff1455dd42a7a5291b8a04d5945ac2726a909d791b0c31a6d463921c9a381a453e8690818c6936fbec059513c25018a452ed6274d22230c40399c2ac3254d8aaaf030e4d3a48d28cb032ff83f173f4d7ada7531a1c94d52455685aee09016bfc8aa569745c58866e7f04ec65ccfd8ff7431cead178441e777dbf1811225388cb107ba2eeca38d45553e77709a1adf57052682ff363e708e5"
+  },
+  {
+   "kind": "cta",
+   "text": "Hazreti Âdem'in tövbe duası. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Hazreti Âdem'in tövbe duası. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "FUK5TobuuP0tpCRv0tpb",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/xHLRjtXR0h8exmslRSls/FUK5TobuuP0tpCRv0tpb/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044900Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=435ac9ed07d5edf01e58fd1049dcdfde06f6b66a6a03b258947b87f5652b1688b865634e90ec4b4340e6177f58ec86d4bd718ce99fee129af53922ff04fd8e6876b27a86f63dae00fa91c6971367ac27b26d72abba8eed37150aa093b725d50374479f44ba5dbf0685fb81c30dcf9d35ec024f44c00e1bf00d77ff7c50b34e516694288163409af30a82b2ce191a34e09624057a876b02d4159ea58212fcd33e25592c753b26e4d685c95ddee2a5e3f416ccfa2126c322f83ed87374485b9c0e5736e2ee60ca742cd5e8cec7551a37356f9d34a5c8a8884aa67403e76ebae923800ca052de7500b0f81cce405e4e503b71103586689784fbd29ef6eb665578fb"
+  }
+ ]
+}

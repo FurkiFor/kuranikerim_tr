@@ -1,0 +1,51 @@
+{
+ "id": "v043",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "Z9eWlVVSBm4beaJ4tHLf",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Hangi sure besmelesiz başlar?",
+   "prompt": "[deep voice] [slowly] Hangi sure besmelesiz başlar?",
+   "generation_id": "JTMyjc8XuUv6YdlG1lnr",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/fGE5sjYyjAkWaInd6cU6/JTMyjc8XuUv6YdlG1lnr/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044917Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5488aa36305740ce7f0c6d5e8aab87846c5a6b2d4286d20f069d4edc841df7dc6d830b921f6d12385452f5e006804044eb77272c74e1415495706f279c8a2955b275173e434e8ebd50c53b88b3832ab6e324b249055c5c65b7cfa75d3e2c63e087c22d284a5e41106767d195a8bd03368b00828fe9b0f6a509ab2bdb5e3d302d1c8a5cb378f4a5142a91245ea7d55c74d91ba6833d764d372ee87e2d6f8fc7be86839f2f13364fc12fabc923adb68d62cffd39cc25bcfcc8b2566b179f901a78f5dd0bc3379eb30b493466566c334cffe5f05159826e8bad087320807c3551340f417232c7c8649018fa9d8d01b6d26f21b5595e189c903a8f2b94525bb14c25"
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an'daki yüz on dört sureden yalnızca biri besmeleyle başlamaz: Tevbe Suresi. Peki bu sure nasıl biter?",
+   "prompt": "[deep voice] [slowly] Kur'an'daki yüz on dört sureden yalnızca biri besmeleyle başlamaz: Tevbe Suresi. Peki bu sure nasıl biter?",
+   "generation_id": "N4tTGwJfhhAJO8jhQJYh",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/j0kmNvk2kxVn6Il98TKo/N4tTGwJfhhAJO8jhQJYh/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044922Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=70f7b745dd035317da15d868032da9cf01f27ebad0e68d14bae724eca70475ac7ac9b174a9890842ec9eaf36fb716a6351533c0a0062ffeecf72fffa02555819e1b6be8ba13ad5680b0726f746c819b5c5e6b0391923d7509050bbcfc95bd451a59fd2597b72be08921d8ab13e3bb8375a97b92426629e9b538c384781f5d15861e2c88dd3b7bef3dcab8027c56e4eb9deb903c1fce10200a4d436d8a5190aa9747871ba7c9c1d7b3a310646060eefd5113d052faf36bc9e4c074c38078cda954e67deac5856423f0ba14617bd91d1f0f4d762b115d1a1b3564db0a4de20aef8b02b60700ebc874afe6426401a07bc031d31727d343f01730d6bc70214f8bcfe"
+  },
+  {
+   "kind": "intro",
+   "text": "Tevbe Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] Tevbe Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "tOHtFFG9ZQbFAjKd9q1W",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/NhG10dusEuvm7VjyTbkw/tOHtFFG9ZQbFAjKd9q1W/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044923Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7ae3f7d702d09ecc7d4f2d1617f8932a42960aa4289fdecaef5f339bfc92928ab4742c4aa9be4142176d30e2e6ce9831435b66d59e78fda4577b13fb9a42cfe8b51c6732f9b67c8a67e13f53456c0a95f37d87b8fa49503b8dc07ee513f08805a099d8a6bda6228b805901d67b9168305478265cbe38440be6c89fe2136d875e77527d91738209940af8eb8d3ccee0b584494128229f9cfa024e53e0e5b2859374f64238252d234ec1ca0be3b0dd1490d0a5418d953f7435b5c1bbebc1567a6efd2e4e3782705fc027e0fbae08474688d7bcad10874d5a8b274c9daba9def0c4ffb4c16736ec184826ce694603eb36f549f8dedd999b2ca088b47734f77f203c"
+  },
+  {
+   "kind": "meal",
+   "text": "Eğer yüz çevirirlerse de ki: \"Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.",
+   "prompt": "[softly] [slowly] Eğer yüz çevirirlerse de ki: Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.",
+   "generation_id": "Uw8rkJtbeas3LPG1tNve",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/kieXwwmQQEKEXsQDITRJ/Uw8rkJtbeas3LPG1tNve/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044927Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=ac426546bf9ea65d9a783f374d874304a5d70f050502d40f4d16131e62185d7b568548fb363ade8d857b12ddf8e281c3af5f0aed9971a4bd3585cde0701ea953526b4c27fa7a48a373cae99368e270513feac1949bde84404be3ffdadb4d2140b16320c1b2081ae4e6d3333ec24cdf44c5b9b37fd4ca08f41b53337701e97e00cafa2df776f0f4e39fac5e424b5d6f077012a7dd5538638a4bd9ce407af0c9ef61415e23e3363402ee43f96cb0e5c761f825c7204a16ed5fda7e2296de81c7ce22a41e5fd9f5598a5a21509571e91ae8844ca5d559131d53080a4c638bdf706299699b7f1972c999ddeba7fd57898f8d918ccdad10713184e69b59d006515c2c"
+  },
+  {
+   "kind": "yorum",
+   "text": "Besmelesiz başlayan bu sure, Allah'a güvenle kapanıyor. Yükün ağırsa, sen de dayanağını O'nda bul.",
+   "prompt": "[deep voice] [slowly] Besmelesiz başlayan bu sure, Allah'a güvenle kapanıyor. Yükün ağırsa, sen de dayanağını O'nda bul.",
+   "generation_id": "PUx4iUyFOCYCdNjEpc9a",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/boj7pWsKrE1dRsHyf5v8/PUx4iUyFOCYCdNjEpc9a/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044929Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b477ba81b51383baadba82a1a0ea149e008ae642adaa3bebdfa878b85cb6ab838a8121a2305cb1ac4f53d07ad11d769f36df83c1f3ea1ccc1608a4b78049f16cb42c524e873a9d338fbc2602f53601d4f8da9d012ede31c84a79cdf6b920e71d17a1f9caf74665b3bbcccd53b39bf03758b1d4ae17e9668aa7a83e665d1e94b1d88695301b7243fa2d6d1f7d245717dafcfd077033f8b3946e5019022888a0bf240d6416d2a73633c4f1100289b03ded1d82eba3738802f57bdf019f0e1fe4366dc1f3448366e6d3558cd42852114e6115d6194673ffec2d6f197ae52494f46032149c1e507f8fbe14de7a39f935faaa3f1e5853611ded18fb5a15f4728f2dcf"
+  },
+  {
+   "kind": "cta",
+   "text": "Allah'a güvenle biten sure. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Allah'a güvenle biten sure. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "5OEjvLENfSsNNVM5uoUa",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ZtvDPfscEmNxH8v6vQfE/5OEjvLENfSsNNVM5uoUa/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044930Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7d8113056faeb5ef8e275f78fbdf87164feaa2f97c00224b5b2ba6719ee28a288e8f98597be761b3d2c4f8bc99987012bd6efeac065a6d1d68820189d6a0a7ddf3c7c7010651dac1079049b76d67c7897dc75ed7ddc6bcbe7fe6dd5b1a0b737d153a1e4b383b380f96a6bcbdc1876afe3b92337ec87c73092dff51f4365e216ef4a86e54738bba0346225a90f3d344e7d3d1a7ca14d3d4a93b33fdd7190942ab14a176bcf7ef8caaddcedcae110ecca992c534cdb56a9302e4e7c273ee17ca52cf230b6ccb881fb4424582859ecafcc7acdbd2274128cd27aea3e868746ea11d34d6f52936177a377f7d97c71e661b5e9b0e35eb262438c6d2559927ab29735c"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "v022",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "DusTTEQDTgfd32VJ3AWR",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Eşinle aranızdaki sevgi nereden geliyor?",
+   "prompt": "[deep voice] [slowly] Eşinle aranızdaki sevgi nereden geliyor?",
+   "generation_id": "OfIWLwYuGsv6mijuKfHW",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/GChkIjGB22V4MOpiU2dc/OfIWLwYuGsv6mijuKfHW/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044905Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=50ecb485effce54e23e376b3ce804d932358de648ea7c3cc0d016b46e47eb687a5a7ca957d82108c15fde82bb15724ac9fe2022be35a348d06cdc4f717188c1e06801629e85f8fd9ff4d623960119b927e167b1083381658e1c4714176ba2e0aa4f1f063d57a8060eda0c3ee80b0f5d2b660fa5a2697df04a72655b26a153c8e9889bf471b32f25d49264daa5910669fe9e598301df9dbb6fac3c8aa5f46045ff530f02fb43459c7b39b64e3459510a1deca7c130273c5663e73874e3eb0e955db5a546624cd6fc4c1584bf07866c0c7b791f4c3f94d29e36af5ad5026367038cdaf3431a5465925356a2aca2cf61ceb692057a0062f7a2f420d1b41322267da"
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an'daki evlilik ayeti bu soruya çok net bir cevap veriyor.",
+   "prompt": "[deep voice] [slowly] Kur'an'daki evlilik ayeti bu soruya çok net bir cevap veriyor.",
+   "generation_id": "wqq59Gj0kvF6RbFns1xM",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/5pripSh1rRsufUBGDsQt/wqq59Gj0kvF6RbFns1xM/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044907Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5bd9480f5dd0415fd1ff4ba86671ff736c264009e8351836a76b041bc44928770e1400a636e09c06419796012822e37825e71cc615c9d00ca29d9127c2639fd8466cc2b43267ae54c6638f6d85534ed4f2fdfc49d344d81d3ae9ce0a1c13b7a76d4c211ce3c6dbbf1cdab21fc87394da5b1e4344eab67a36ea9c03c7ccae476200c67a78fe7a96bd0bc83fa0c5ee1475ee194b807f08d72fed99799d81128db08effeb3d82b86d5fa022d2bc2c00a8be13f06a93d18a3a69411aaeb1dea2ce5dccfd11226cc182272b631541bc2ad04ec3322e066c62a8946eef793aadc5cc858c2986782e946776c50f71aa9c277c8f6d771ce0cb88762d78ecbf0628e0a828"
+  },
+  {
+   "kind": "intro",
+   "text": "Rûm Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] Rûm Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "hoGJgESh5ldSnCLoXNEj",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/KWwoJXS3fyB4MKFkkBJk/hoGJgESh5ldSnCLoXNEj/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044909Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1c146f5835595e2a9996bfd41e2f07fe920e6cef97ef6d08ce6b881a944d0371d703346f92dffdf28444214292518c1f7b66a217b7ac4dd666c763a85d77ea95a11071dfab8d97b74693a0ff28fbf20ce44e18c563df95c3707fe0befbf7264528f2a8bd786a20b765993c58fa886a835482251328265ad9e6e5a18d24fe511d02bcfb28f2a1014f3fc519b8ee8b1b2076fcf946a277e3089c0849f8ae6e9a667cb63f9f3beadf7e580bcd6b8195a54920bcad0ba92f577c3758241c0261fd25fd6a2396375769ea177124ad015994f09ae7baefd1a0f114860283506e2b0af31255fffa069a723a448ff76bd5627d0736f0651f8b237cc480e4e4346bab81e9"
+  },
+  {
+   "kind": "meal",
+   "text": "İçinizden, kendileriyle huzura kavuşacağınız eşler yaratıp; aranızda muhabbet ve rahmet var etmesi, O'nun varlığının belgelerindendir. Bunlarda, düşünen millet için dersler vardır.",
+   "prompt": "[softly] [slowly] İçinizden, kendileriyle huzura kavuşacağınız eşler yaratıp; aranızda muhabbet ve rahmet var etmesi, O'nun varlığının belgelerindendir. Bunlarda, düşünen millet için dersler vardır.",
+   "generation_id": "2inieBLEM9UDSL7sWssL",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Kv4ub9hhD0GsbsvcYO80/2inieBLEM9UDSL7sWssL/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044912Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3c74d4a30d7b412b13e180bf9adcc46e3e2b1d182a3abf7a44d0f68284a4035bb1c1ac0b459aab66205680720b09c5a60bd5f13c99c28cc3cd31374deee39d577347623fa56c06a0ed9b7cebca6511a11bb08ce5a64de1420650d5ffe212f4c6a374636ef161c2d942b41215594721b78ed7d452c832a293703b586ea04e0c6859acff5c7bd46575c9ffc86aa4d53c58455ca1a421f9b50897c1ca5f57ac98bd2d3da5be6e0d336f920031480b8e1d4e4348015e227028dd000ac713758ed7cababf24846ecc2ad8e682f584e824b3ed5c2af126c0e88b07e489c05290cb7bfee56c746d7bc8280e537f7f850e9b208817cf7e98eaf23d2a5a7677574587b623"
+  },
+  {
+   "kind": "yorum",
+   "text": "Aranızdaki sevgiyi de merhameti de Allah var etti. Bu akşam eşine bunu hatırlat.",
+   "prompt": "[deep voice] [slowly] Aranızdaki sevgiyi de merhameti de Allah var etti. Bu akşam eşine bunu hatırlat.",
+   "generation_id": "59dfxDCcpSxknVAGNYrb",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/3Z3Mq51p9cMsTDoqdiPi/59dfxDCcpSxknVAGNYrb/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044913Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=a67978a0a689b749648de5361a1fbe05fba2b32c03f99b36201aafc1ee63a0165f10e03b789e4bd7bd42ef46303f11b2708855612ce26cdf4ef98d59a0196c950e5edcdfc79c49bd8c1490e58715615a429551841e3b302f2b2ddf22cc0cfce583c8e17c74055bc6f4de7db4e26af95d0dc326549124a378fd7cbefe5c4131c3a6dd26a56f117eb18038cc45b35f3d5fc7ba530b3967468cf427eca4c2133403bb461b1f17cf3a6934adcb0d3a5a412ebe6db0d6d92af1f42a7d5991b1757dbeda88063bfb3589267f3a34d83341fcfd74f4c3586c97dbc3065bb6001c4558b61e8729e9a0e5db01ea7f29db8c9de6402433215efdfe94b764af70e7185df245"
+  },
+  {
+   "kind": "cta",
+   "text": "Sevgi ve merhamet O'ndandır. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Sevgi ve merhamet O'ndandır. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "T5BKZpenvGY8dVVzH3FS",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/38DONCaQdWehISp4FKgn/T5BKZpenvGY8dVVzH3FS/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261016%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261016T044916Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b970700ea239914855ff856686caa6a4b9ba9a877c7b1139154b25b1a3d823aa98a9c444566c238f0cd03fcf996f34ab0b66d5b0534e7e754e7738a7e1f00ca29564c176cfe54cf0dcb364e031ec80d9034a82f99be55a00af17635e51b337ce2f94dee266eaa04135c54ef66e9e1dcd86f159a827b707ff5c65344bbc12890e58355b9bb0318de1ac7682ba7195189faa9cf20a3d22c1f559fd2d68d550f8c3c6059d42f768fc06d9e882efcf9994f19468053a5a1756d2fb4160b48952b86752cbdf9856349dd0e14bea602b5ce2d13c27b0d61702104a1aba644daae8d5541cb2d9c527f3c4648069a6b4fd485d0071dbb4ce5f905e9ce6b88e303ebe4911"
+  }
+ ]
+}
