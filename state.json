@@ -1,206 +1,236 @@
 {
-  "planlanan": {
-    "v001": {
-      "tarih": "2026-10-09T03:45:00+04:00",
-      "metricool_id": 391620429,
-      "not": "herkese açık yeniden yükleme; 03:10 test kopyası SELF_ONLY"
-    },
-    "v002": {
-      "tarih": "2026-10-09T03:15:00+04:00",
-      "metricool_id": 391616805
-    },
-    "v003": {
-      "tarih": "2026-10-09T10:00:00+04:00",
-      "metricool_id": 391622997,
-      "youtube": {
-        "tarih": "2026-10-09T20:15:00+04:00",
-        "metricool_id": 392186317
-      }
-    },
-    "v004": {
-      "tarih": "2026-10-09T15:00:00+04:00",
-      "metricool_id": 391623019,
-      "youtube": {
-        "tarih": "2026-10-09T20:17:00+04:00",
-        "metricool_id": 392186354
-      }
-    },
-    "v005": {
-      "tarih": "2026-10-09T18:00:00+04:00",
-      "metricool_id": 391623038,
-      "youtube": {
-        "tarih": "2026-10-09T20:19:00+04:00",
-        "metricool_id": 392186491
-      }
-    },
-    "v006": {
-      "tarih": "2026-10-11T10:00:00+04:00",
-      "metricool_id": 393092047,
-      "youtube": {
-        "tarih": "2026-10-11T10:00:00+04:00",
-        "metricool_id": 393092074
-      }
-    },
-    "v007": {
-      "tarih": "2026-10-11T15:00:00+04:00",
-      "metricool_id": 393092106,
-      "youtube": {
-        "tarih": "2026-10-11T15:00:00+04:00",
-        "metricool_id": 393092133
-      }
-    },
-    "v008": {
-      "tarih": "2026-10-11T18:00:00+04:00",
-      "metricool_id": 393092153,
-      "youtube": {
-        "tarih": "2026-10-11T18:00:00+04:00",
-        "metricool_id": 393092171
-      }
-    },
-    "v009": {
-      "tarih": "2026-10-13T10:00:00+04:00",
-      "metricool_id": 394593502,
-      "youtube": {
-        "tarih": "2026-10-13T10:00:00+04:00",
-        "metricool_id": 394593516
-      }
-    },
-    "v010": {
-      "tarih": "2026-10-13T15:00:00+04:00",
-      "metricool_id": 394784404,
-      "youtube": {
-        "tarih": "2026-10-13T15:00:00+04:00",
-        "metricool_id": 394784498
-      },
-      "not": "13 Ekim 14:06 v3 (vektör animasyon, dfki, fon müziği) videoyla güncellendi"
-    },
-    "v011": {
-      "tarih": "2026-10-13T18:00:00+04:00",
-      "metricool_id": 394784535,
-      "youtube": {
-        "tarih": "2026-10-13T18:00:00+04:00",
-        "metricool_id": 394784577
-      },
-      "not": "13 Ekim 14:06 v3 (vektör animasyon, dfki, fon müziği) videoyla güncellendi"
-    },
-    "v012": {
-      "tarih": "2026-10-14T10:00:00+04:00",
-      "metricool_id": 395544164,
-      "youtube": {
-        "tarih": "2026-10-15T01:39:00+04:00",
-        "kervly_id": "p_XEWimBh5SNy3",
-        "url": "https://www.youtube.com/shorts/ZHDcirmnREk",
-        "not": "Metricool limiti nedeniyle 14 Ekim gönderisi düştü; Kervly ile yayınlandı"
-      },
-      "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
-    },
-    "v013": {
-      "tarih": "2026-10-14T15:00:00+04:00",
-      "metricool_id": 395544210,
-      "youtube": {
-        "tarih": "2026-10-15T15:00:00+04:00",
-        "kervly_id": "p_MeQJ5ehoFtBH"
-      },
-      "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
-    },
-    "v014": {
-      "tarih": "2026-10-14T18:00:00+04:00",
-      "metricool_id": 395544246,
-      "youtube": {
-        "tarih": "2026-10-15T18:00:00+04:00",
-        "kervly_id": "p_1I26e92eTX1z"
-      },
-      "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
-    },
-    "v015": {
-      "tiktok": {
-        "tarih": "2026-10-15T10:00:00+04:00",
-        "kervly_id": "p_EiAxK0_QF7W4"
-      },
-      "youtube": {
-        "tarih": "2026-10-15T10:00:00+04:00",
-        "kervly_id": "p_gE239rDShOex"
-      }
-    },
-    "v016": {
-      "tiktok": {
-        "tarih": "2026-10-16T10:00:00+04:00",
-        "kervly_id": "p_N9IXgdL_Ptel"
-      },
-      "youtube": {
-        "tarih": "2026-10-16T10:00:00+04:00",
-        "kervly_id": "p_w0rsru_U6L-g"
-      }
-    },
-    "v017": {
-      "tiktok": {
-        "tarih": "2026-10-16T15:00:00+04:00",
-        "kervly_id": "p_o9Fm9kGHw_1y"
-      },
-      "youtube": {
-        "tarih": "2026-10-16T15:00:00+04:00",
-        "kervly_id": "p_B39YPJAIWZ8w"
-      }
-    },
-    "v018": {
-      "tiktok": {
-        "tarih": "2026-10-16T18:00:00+04:00",
-        "kervly_id": "p_pr1Y5gwY9BcG"
-      },
-      "youtube": {
-        "tarih": "2026-10-16T18:00:00+04:00",
-        "kervly_id": "p_GZfJKQXFaOP7"
-      }
-    },
-    "v019": {
-      "tiktok": {
-        "tarih": "2026-10-17T10:00:00+04:00",
-        "kervly_id": "p_OwO5bHiQ8mD-"
-      },
-      "youtube": {
-        "tarih": "2026-10-17T10:00:00+04:00",
-        "kervly_id": "p_5b91PBu8JSVw"
-      }
-    },
-    "v020": {
-      "tiktok": {
-        "tarih": "2026-10-17T15:00:00+04:00",
-        "kervly_id": "p_96JUaVGOQ09O"
-      },
-      "youtube": {
-        "tarih": "2026-10-17T15:00:00+04:00",
-        "kervly_id": "p_ccS1XW8drZZW"
-      }
-    },
-    "v021": {
-      "tiktok": {
-        "tarih": "2026-10-17T18:00:00+04:00",
-        "kervly_id": "p_szk9KwrE6D9K"
-      },
-      "youtube": {
-        "tarih": "2026-10-17T18:00:00+04:00",
-        "kervly_id": "p_2YaoUZhbbUMD"
-      }
-    },
-    "v022": {
-      "tiktok": {
-        "tarih": "2026-10-18T10:00:00+04:00",
-        "kervly_id": "p_oJIbB-x7VGWw"
-      },
-      "youtube": {
-        "tarih": "2026-10-18T10:00:00+04:00",
-        "kervly_id": "p_rDXcZpPgb66b"
-      }
-    },
-    "v043": {
-      "tiktok": {
-        "tarih": "2026-10-18T15:00:00+04:00",
-        "kervly_id": "p_aqrVBS2-LvIv"
-      },
-      "youtube": {
-        "tarih": "2026-10-18T15:00:00+04:00",
-        "kervly_id": "p_hzNEE9hxO6k8"
-      }
-    }
+ "planlanan": {
+  "v001": {
+   "tarih": "2026-10-09T03:45:00+04:00",
+   "metricool_id": 391620429,
+   "not": "herkese açık yeniden yükleme; 03:10 test kopyası SELF_ONLY"
+  },
+  "v002": {
+   "tarih": "2026-10-09T03:15:00+04:00",
+   "metricool_id": 391616805
+  },
+  "v003": {
+   "tarih": "2026-10-09T10:00:00+04:00",
+   "metricool_id": 391622997,
+   "youtube": {
+    "tarih": "2026-10-09T20:15:00+04:00",
+    "metricool_id": 392186317
+   }
+  },
+  "v004": {
+   "tarih": "2026-10-09T15:00:00+04:00",
+   "metricool_id": 391623019,
+   "youtube": {
+    "tarih": "2026-10-09T20:17:00+04:00",
+    "metricool_id": 392186354
+   }
+  },
+  "v005": {
+   "tarih": "2026-10-09T18:00:00+04:00",
+   "metricool_id": 391623038,
+   "youtube": {
+    "tarih": "2026-10-09T20:19:00+04:00",
+    "metricool_id": 392186491
+   }
+  },
+  "v006": {
+   "tarih": "2026-10-11T10:00:00+04:00",
+   "metricool_id": 393092047,
+   "youtube": {
+    "tarih": "2026-10-11T10:00:00+04:00",
+    "metricool_id": 393092074
+   }
+  },
+  "v007": {
+   "tarih": "2026-10-11T15:00:00+04:00",
+   "metricool_id": 393092106,
+   "youtube": {
+    "tarih": "2026-10-11T15:00:00+04:00",
+    "metricool_id": 393092133
+   }
+  },
+  "v008": {
+   "tarih": "2026-10-11T18:00:00+04:00",
+   "metricool_id": 393092153,
+   "youtube": {
+    "tarih": "2026-10-11T18:00:00+04:00",
+    "metricool_id": 393092171
+   }
+  },
+  "v009": {
+   "tarih": "2026-10-13T10:00:00+04:00",
+   "metricool_id": 394593502,
+   "youtube": {
+    "tarih": "2026-10-13T10:00:00+04:00",
+    "metricool_id": 394593516
+   }
+  },
+  "v010": {
+   "tarih": "2026-10-13T15:00:00+04:00",
+   "metricool_id": 394784404,
+   "youtube": {
+    "tarih": "2026-10-13T15:00:00+04:00",
+    "metricool_id": 394784498
+   },
+   "not": "13 Ekim 14:06 v3 (vektör animasyon, dfki, fon müziği) videoyla güncellendi"
+  },
+  "v011": {
+   "tarih": "2026-10-13T18:00:00+04:00",
+   "metricool_id": 394784535,
+   "youtube": {
+    "tarih": "2026-10-13T18:00:00+04:00",
+    "metricool_id": 394784577
+   },
+   "not": "13 Ekim 14:06 v3 (vektör animasyon, dfki, fon müziği) videoyla güncellendi"
+  },
+  "v012": {
+   "tarih": "2026-10-14T10:00:00+04:00",
+   "metricool_id": 395544164,
+   "youtube": {
+    "tarih": "2026-10-15T01:39:00+04:00",
+    "kervly_id": "p_XEWimBh5SNy3",
+    "url": "https://www.youtube.com/shorts/ZHDcirmnREk",
+    "not": "Metricool limiti nedeniyle 14 Ekim gönderisi düştü; Kervly ile yayınlandı"
+   },
+   "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
+  },
+  "v013": {
+   "tarih": "2026-10-14T15:00:00+04:00",
+   "metricool_id": 395544210,
+   "youtube": {
+    "tarih": "2026-10-15T15:00:00+04:00",
+    "kervly_id": "p_MeQJ5ehoFtBH"
+   },
+   "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
+  },
+  "v014": {
+   "tarih": "2026-10-14T18:00:00+04:00",
+   "metricool_id": 395544246,
+   "youtube": {
+    "tarih": "2026-10-15T18:00:00+04:00",
+    "kervly_id": "p_1I26e92eTX1z"
+   },
+   "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
+  },
+  "v015": {
+   "tiktok": {
+    "tarih": "2026-10-15T10:00:00+04:00",
+    "kervly_id": "p_EiAxK0_QF7W4"
+   },
+   "youtube": {
+    "tarih": "2026-10-15T10:00:00+04:00",
+    "kervly_id": "p_gE239rDShOex"
+   }
+  },
+  "v016": {
+   "tiktok": {
+    "tarih": "2026-10-16T10:00:00+04:00",
+    "kervly_id": "p_N9IXgdL_Ptel"
+   },
+   "youtube": {
+    "tarih": "2026-10-16T10:00:00+04:00",
+    "kervly_id": "p_w0rsru_U6L-g"
+   }
+  },
+  "v017": {
+   "tiktok": {
+    "tarih": "2026-10-16T15:00:00+04:00",
+    "kervly_id": "p_o9Fm9kGHw_1y"
+   },
+   "youtube": {
+    "tarih": "2026-10-16T15:00:00+04:00",
+    "kervly_id": "p_B39YPJAIWZ8w"
+   }
+  },
+  "v018": {
+   "tiktok": {
+    "tarih": "2026-10-16T18:00:00+04:00",
+    "kervly_id": "p_pr1Y5gwY9BcG"
+   },
+   "youtube": {
+    "tarih": "2026-10-16T18:00:00+04:00",
+    "kervly_id": "p_GZfJKQXFaOP7"
+   }
+  },
+  "v019": {
+   "tiktok": {
+    "tarih": "2026-10-17T10:00:00+04:00",
+    "kervly_id": "p_OwO5bHiQ8mD-"
+   },
+   "youtube": {
+    "tarih": "2026-10-17T10:00:00+04:00",
+    "kervly_id": "p_5b91PBu8JSVw"
+   }
+  },
+  "v020": {
+   "tiktok": {
+    "tarih": "2026-10-17T15:00:00+04:00",
+    "kervly_id": "p_96JUaVGOQ09O"
+   },
+   "youtube": {
+    "tarih": "2026-10-17T15:00:00+04:00",
+    "kervly_id": "p_ccS1XW8drZZW"
+   }
+  },
+  "v021": {
+   "tiktok": {
+    "tarih": "2026-10-17T18:00:00+04:00",
+    "kervly_id": "p_szk9KwrE6D9K"
+   },
+   "youtube": {
+    "tarih": "2026-10-17T18:00:00+04:00",
+    "kervly_id": "p_2YaoUZhbbUMD"
+   }
+  },
+  "v022": {
+   "tiktok": {
+    "tarih": "2026-10-18T10:00:00+04:00",
+    "kervly_id": "p_oJIbB-x7VGWw"
+   },
+   "youtube": {
+    "tarih": "2026-10-18T10:00:00+04:00",
+    "kervly_id": "p_rDXcZpPgb66b"
+   }
+  },
+  "v043": {
+   "tiktok": {
+    "tarih": "2026-10-18T15:00:00+04:00",
+    "kervly_id": "p_aqrVBS2-LvIv"
+   },
+   "youtube": {
+    "tarih": "2026-10-18T15:00:00+04:00",
+    "kervly_id": "p_hzNEE9hxO6k8"
+   }
+  },
+  "v023": {
+   "tiktok": {
+    "tarih": "2026-10-18T18:00:00+04:00",
+    "kervly_id": "p_5PDXSvsT3div"
+   },
+   "youtube": {
+    "tarih": "2026-10-18T18:00:00+04:00",
+    "kervly_id": "p_Mfe7_8eWIT0x"
+   }
+  },
+  "v024": {
+   "tiktok": {
+    "tarih": "2026-10-19T10:00:00+04:00",
+    "kervly_id": "p_fe9NSaxVdg4V"
+   },
+   "youtube": {
+    "tarih": "2026-10-19T10:00:00+04:00",
+    "kervly_id": "p_fZhmjS5uS0Z_"
+   }
+  },
+  "v025": {
+   "tiktok": {
+    "tarih": "2026-10-19T15:00:00+04:00",
+    "kervly_id": "p_UWRcDzITe4ht"
+   },
+   "youtube": {
+    "tarih": "2026-10-19T15:00:00+04:00",
+    "kervly_id": "p_E6E8dQpDmZNu"
+   }
   }
+ }
 }
