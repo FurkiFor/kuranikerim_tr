@@ -486,68 +486,137 @@
  },
  {
   "id": "v023",
-  "tema": "Güzel Hayat",
+  "tema": "Güzel Hayat Ayeti",
   "sure": 16,
   "ayet": [
    97,
    97
   ],
-  "hook": "Hayat sana güzel gelmiyor mu?",
-  "kapanis": "İman ve salih amel.",
+  "hook": "Güzel bir hayatı nerede arıyorsun?",
+  "kapanis": "İman ve iyi iş.",
   "bg": "deniz",
   "aciklama": "İnanarak iyi işler yapana hoş bir hayat vaadi.",
   "etiketler": [
-   "hayat",
-   "salihamel"
+   "salihamel",
+   "nahlsuresi"
   ],
   "sahne": "tohum",
   "seslendirme": {
-   "giris": "Güzel bir hayatın sırrı para mı, şöhret mi? Ayet bambaşka bir şey söylüyor.",
-   "yorum": "İnanarak iyi iş yapan herkese, kadın erkek fark etmeden, hoş bir hayat vaadi var."
+   "giris": "Para mı, şöhret mi? Kur'an'daki güzel hayat ayeti bambaşka bir yer gösteriyor.",
+   "yorum": "Kadın erkek fark etmez. İnanarak iyilik yapana hoş bir hayat vaadi var. Güzel hayatı bugün bir iyilikle ara."
+  },
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Güzel bir hayatı nerede arıyorsun? Nahl 97 · Güzel hayat ayeti",
+   "ilk_satir": "Güzel bir hayatı nerede arıyorsun? Kur'an'da güzel hayat ayeti (Nahl 97)",
+   "aciklama": "Nahl Suresi 97. ayette Allah, kadın erkek fark etmeksizin inanarak iyi iş yapan herkese hoş bir hayat yaşatacağını ve ecirlerini yaptıklarından daha güzeliyle ödeyeceğini bildiriyor. Kur'an meali ile güzel hayat ayeti.",
+   "anahtar": [
+    "güzel hayat ayeti",
+    "nahl 97",
+    "nahl suresi 97. ayet",
+    "salih amel ayeti",
+    "kuran meali"
+   ]
   }
  },
  {
   "id": "v024",
-  "tema": "Tevhid",
+  "tema": "İhlas Suresi Anlamı",
   "sure": 112,
   "ayet": [
    1,
    4
   ],
-  "hook": "Allah'ı birine anlatabilir misin?",
-  "kapanis": "İhlas suresi.",
+  "hook": "Çocuğun Allah kim diye sorsa ne dersin?",
+  "kapanis": "O bir ve tektir.",
   "bg": "fener",
   "aciklama": "İhlâs suresi: Allah'ın birliğini anlatan dört ayet.",
   "etiketler": [
-   "ihlas",
+   "ihlassuresi",
    "tevhid"
   ],
   "sahne": "yildiz",
   "seslendirme": {
-   "giris": "Allah'ı anlatan en kısa surelerden biri. Sadece dört ayet.",
-   "yorum": "Bir ve tek. Hiçbir şeye muhtaç değil. Hiçbir şey O'na denk değil."
+   "giris": "Cevap, belki de ezbere bildiğin bir surede. İhlas Suresi'nin anlamı Allah'ı dört kısa ayette anlatıyor.",
+   "yorum": "Bir ve tek. Her şey O'na muhtaç, O hiçbir şeye. Bu akşam çocuğuna bu dört ayeti anlamıyla oku."
+  },
+  "kurgu": {
+   "kamera": [
+    "it",
+    "sabit",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Çocuğun Allah kim diye sorsa ne dersin? İhlas Suresi anlamı",
+   "ilk_satir": "Çocuğun Allah kim diye sorsa ne dersin? İhlas Suresi anlamı ve meali",
+   "aciklama": "İhlas Suresi dört ayette Allah'ı anlatır: O bir tektir, her şey O'na muhtaçtır, doğurmamış ve doğmamıştır, hiçbir şey O'na denk değildir. Diyanet meali ile İhlas Suresi anlamı.",
+   "anahtar": [
+    "ihlas suresi anlamı",
+    "ihlas suresi meali",
+    "ihlas suresi",
+    "tevhid",
+    "kuran meali"
+   ]
   }
  },
  {
   "id": "v025",
-  "tema": "Zaman",
+  "tema": "Asr Suresi Anlamı",
   "sure": 103,
   "ayet": [
    1,
    3
   ],
-  "hook": "Zamanın elinden kayıp gidiyor mu?",
-  "kapanis": "Asr suresi.",
+  "hook": "Günün sonunda kârda mısın, zararda mı?",
+  "kapanis": "İman, iyi iş, hak ve sabır.",
   "bg": "geometri",
   "aciklama": "Asr suresi: hüsrandan kurtulanların dört özelliği.",
   "etiketler": [
-   "asr",
+   "asrsuresi",
    "zaman"
   ],
   "sahne": "kum",
   "seslendirme": {
-   "giris": "Zaman akıp gidiyor. Asr Suresi, kimin kaybettiğini ve kimin kurtulduğunu söylüyor.",
-   "yorum": "İman, iyi iş, hakkı ve sabrı tavsiye etmek. Hüsrandan kurtaran dört şey."
+   "giris": "Asr Suresi'nin anlamı tam da bu soruyla ilgili. Sadece üç kısa ayet.",
+   "yorum": "İnanmak, iyi iş yapmak, birbirine hakkı ve sabrı tavsiye etmek. Bu dördü olan zararda değil. Bu akşam kendine sor: bugün hangisini yaptın?"
+  },
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Günün sonunda kârda mısın, zararda mı? Asr Suresi anlamı",
+   "ilk_satir": "Günün sonunda kârda mısın, zararda mı? Asr Suresi anlamı ve meali",
+   "aciklama": "Asr Suresi'nde Allah ikindi vaktine and içerek insanın hüsranda olduğunu bildirir; inanıp yararlı iş yapanlar, birbirine gerçeği ve sabrı tavsiye edenler bunun dışındadır. Diyanet meali ile Asr Suresi anlamı.",
+   "anahtar": [
+    "asr suresi anlamı",
+    "asr suresi meali",
+    "asr suresi",
+    "zaman ayeti",
+    "kuran meali"
+   ]
   }
  },
  {

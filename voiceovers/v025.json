@@ -1,0 +1,65 @@
+{
+ "id": "v025",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "s1aFmTA8OWJjmy58DReu",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Günün sonunda kârda mısın, zararda mı?",
+   "prompt": "[deep voice] [slowly] Günün sonunda kârda mısın, zararda mı?",
+   "generation_id": "d29qp0o4jaCK3nCf8JAX",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/hcX5V3pOrpHwhWOZRgn1/d29qp0o4jaCK3nCf8JAX/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044827Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=11c16c13c67222a6e160e86782117df242cb9c330ff7a9ae1a90d2d0c21a1bcb6a916e9e45947855ab59d72bf8acc1305f84d515ad5e5c1c90d2f3fffd3c3bd34338873f3a75ad5c517bdbd68feb3d1998736631befcb7d862c3f4cc09ef9a205750d8db09f6f04a7423160f89a130a652ea263551beaa55e6063a9feeb20553d19fefec9f5f1dbc7cb79367c5e1b9d8148ce80e6c9044f636752f17a82ed8664952df955769f1ae80526a1499878879b5b3b9f55f55f6ada46b73f3cef4b94b6f6b154613a3b02cf0242362e75fdb58a4d783e5426b588730f58e97c72e4c6526de7cac0f423c81b5ebf3216e23bb581ca13035a4d159ce9603647b53be95da"
+  },
+  {
+   "kind": "giris",
+   "text": "Asr Suresi'nin anlamı tam da bu soruyla ilgili. Sadece üç kısa ayet.",
+   "prompt": "[deep voice] [slowly] Asr Suresi'nin anlamı tam da bu soruyla ilgili. Sadece üç kısa ayet.",
+   "generation_id": "KZOgyHCkWDt9f8ii5JP7",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/4Uha6moTYfqC3XocFTIk/KZOgyHCkWDt9f8ii5JP7/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044829Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2f0612049a02801bd7e22757fa1646e5c608155ebb9dfdb2d502a955765a204b5b1311422893ce66000d12623a0d492169d9439f239792df360ea54542ff043ed6b026a0253a22328b7638e8a087a7e4e568e3c2527b304996fe8197080bde27de838aba03978a1b43f4b052c3eacf74410251e2f2e2e7b199a663081598be022f82e6e18543f187609b536dec813a5fd6299747d9f1cdd7aa162b891d22a5fa222daaf7f29a00444f5f65e2693c18f589d9bf86a3f280b50dcadd0190f824ddfb3b1443a75ac60d7a00ed6d153e6ba1ccde93ef59c2e5b9d76a5a5b31251a28719fbc032e26d80118a1929afdd3a173e586a42833c767f76924a90dda30d297"
+  },
+  {
+   "kind": "intro",
+   "text": "Asr Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] Asr Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "8D8gXNLSktSEnYplRo39",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ml9V1LDzemu9l4h8ExhB/8D8gXNLSktSEnYplRo39/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044831Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7e319c3ae71ffc4bd5dc9876784bacd3420359d27863296e56f3380e57354a32a1be3d5664e1fd0ba708a14ab7584672a8da89b3b27662b88e409b8b8d1de534b2786a2a2f402c6a0eed35b59f11fc490f1aa5d684a0a5042365d9325ccc4c390a94fab1e020af262f6a57abbecce927e7b9d689461142ed50b979086433d4fcfc1c3211653ba24a2df148cf7c181733b05271ee6b0f126e71b4b5bef9cbf56cb75bb5499fc9e45739aa77a52e9323229811ac0ffdf4d91614c852aded95a72913182dfc926e006d6136f4a6c33404bf4796523a7faddd839eb3a3b74f4f2e5947ee93b4a4c99c0b40eb9c453bc4c9b444d9d434bd5ddd9775028694d47cf9ae"
+  },
+  {
+   "kind": "meal",
+   "text": "İkindi vaktine (Asra; çağa) and olsun ki.",
+   "prompt": "[softly] [slowly] İkindi vaktine, Asra; çağa, and olsun ki.",
+   "generation_id": "toczj8UkwhcxxrEfawnS",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/7ufBWBEG2eHbBPwvT6iT/toczj8UkwhcxxrEfawnS/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044833Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=55e446518bcda902dc0dc6aa84e485110e9a0aef9e73b45b4c7d7dcfff89eb40de5244556192cd9548f7d2ac542df1a744215bd94064cb89268015197d081e02b6ab184eb5943ae11e6d75fd498beb607852d496f22b4eed9bb024b9d9dfd766f19abd933cdce292d908c8555d6224a513ab1db7b3cb936bef52cb2a8f263ae773008f42ffc76f7a343d34246122eae620cae71d601a637c08e66d0a926d608838c17fedcbf15b582073ab85ff9c4cb1d7a3906959e1ac592327c77a863970c327f86b0b819654ddeb546dfea17741da6bcbc011b0ed14dad135b0aa8e3a45f6570d309961470b23bb7aec2ed8a50b87e6c9105c20820f1f51ce6b25fbc182fa"
+  },
+  {
+   "kind": "meal",
+   "text": "İnsan hiç şüphesiz hüsran içindedir.",
+   "prompt": "[softly] [slowly] İnsan hiç şüphesiz hüsran içindedir.",
+   "generation_id": "KYcZoMy17NCBvc35bqM6",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/XHZzlkeUnMflIRhfCCAQ/KYcZoMy17NCBvc35bqM6/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044836Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=284253b4a275ab93a353a8884b456eb3331ebfef96e9f4a2cf0195e8a22751c89ed0259510b779b4e3bf57412c0a4890010e8803a9e7e2149c6fff8d5a04a99744e517b3ac69868b7b9f7324941363cf109b01e150b47ac30fa59ca01bcd09dc529d751611ae3c079ea7c74c295e628dfec9fc657fce23fe61a6c62e96bb3dd2db85dc44527891eb87332da57e571f7b732b1aa188758bb3ac2a199cdf8f05313763bb314a311b0aa02ac2b4699dd46e59cc7e86d7740510805435ca0f0d9ada25a3b2e59d809cb5a2a7a2263bac9e397fd5221932182c34f2ed13d829aca00092e0426664d108a74b1b3d83fb9f2c9d53eca5308e276c851e71822bd5ab00fe"
+  },
+  {
+   "kind": "meal",
+   "text": "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır.",
+   "prompt": "[softly] [slowly] Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır.",
+   "generation_id": "Hhk9ZeZglRgGWYey8xzy",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/x2GvBvEOSawOb2ZvjjHP/Hhk9ZeZglRgGWYey8xzy/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044839Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=191fabe25642c2a8b75de96fa497a271bd8dd7fcb792687eece5e1fc46052cecb280e849f576ab6a498f69c2f3d80e6bb21c498dd0f25320b5c0a732eb7d18ea7387bf7f5ee88d4e4996c1fcd76038f96b90d738e08abc71afa2f479ffca1119f8b8404b8b2c2c21d49fd296aab39d496042aa6362219396e7f7aac39deee75e19702d5f6911ad28943819d7c81d053338741db5ef5656c1d1e593c11967bab4cc2a4d7234e036a380431d4d795a8f1c74bbf4165b68366bb737f1c12cb6a7332bca12a946bdfc0d3d12a43105912ad6f0153cf05f725777424f2102afb8b48a271b96cda4cc5d3d59e1838f4404068f0e6a4e640d6e65a69c0102c4d54131b7"
+  },
+  {
+   "kind": "yorum",
+   "text": "İnanmak, iyi iş yapmak, birbirine hakkı ve sabrı tavsiye etmek. Bu dördü olan zararda değil. Bu akşam kendine sor: bugün hangisini yaptın?",
+   "prompt": "[deep voice] [slowly] İnanmak, iyi iş yapmak, birbirine hakkı ve sabrı tavsiye etmek. Bu dördü olan zararda değil. Bu akşam kendine sor: bugün hangisini yaptın?",
+   "generation_id": "6UdaEcYEBLjWgazbzdfV",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/naZVacqmla77BxEiEEA3/6UdaEcYEBLjWgazbzdfV/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044841Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=95f53db11f1b2987bd88cd714447cce03c244c1a4e0aa2910505116c6427478adaaf861d07d6aac9350cb529a93768a60c460f1eec78bd316010ef01c25ad3fb81ccf7759707ed1e3085eb0c0c71d3c1dac1d4449151ca9ba386d10cb860c9ed6ff3dc00b53387c9c262bde1c7acb4c06c22f6cfeb16006ee937d33f1b7145cbb85d7b9026bfd354fe16791029a698c3ab2bdc6576fab0cb6130c5089be97771416e954c4f88975bb501aadbd18668d9d1c74d53baf72dea1b0434a018cff8a890b5635d3df041abe1ea04afc78e556f86f2db7059dc975e04d0224838c8e0a6245428caa88b6603029b54bb4d43ea8e2e097da88199920bf2798abf8b017ed3"
+  },
+  {
+   "kind": "cta",
+   "text": "İman, iyi iş, hak ve sabır. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] İman, iyi iş, hak ve sabır. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "XYLFxrqqJwUvRt5xuocc",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/8rHKem0Vm2jfKW0JFBLe/XYLFxrqqJwUvRt5xuocc/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044842Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3cfd4e7d062a7b90b3cc941e1bf9e41b3c78a9eeda8aa0c0a4d104fb0c4fa6ae5c1cf600b188f044a78bf10ae65519560a748c7d1985f8087aefc2bb4d0ef7c6530e34fe9b84f83329a0dd76ae99ae2b1b464363c9fe27bf6f14b44c2ba1dcea083e8a71445aec440a585bab21380af4ea8331b22ccd6dd4848fa5c95adc188d9c7a0aa7436793451e740c2e88d7950dab7101f541bac8e420be29eb99dfcaa3d9f407b2c073d48bb54b83e57ba44d24ed97ccffdc14cef99766bc95d4749bd718e969125b3a27de935f1d41a2bcf237e5ab3cf62723a620afa4f1711e2e9c1ec7d23166fd7a7cd1a7baf0bc8118cf1a0d96c1ce6674a89a67d62d5225e0b3dd"
+  }
+ ]
+}

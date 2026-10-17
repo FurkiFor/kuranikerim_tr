@@ -1,0 +1,72 @@
+{
+ "id": "v024",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "snYOdSfso6MyLpqU6ZUs",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Çocuğun Allah kim diye sorsa ne dersin?",
+   "prompt": "[deep voice] [slowly] Çocuğun Allah kim diye sorsa ne dersin?",
+   "generation_id": "28tX4VMUPmSmGFMR0cfc",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/IsvFBXQnrfh3GpnMKPvd/28tX4VMUPmSmGFMR0cfc/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044801Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=88ab29d42fd32c730752c9115885df989b484d226f3c07bfd9ed7fb3ce372bdcf3eb64fd989bed3f19230b03feb14be580a7ecc1f73602566c8fda067d887a60c5b011844c7eed0b70c60e082a805be08824041aea0f517c79a36eefbc9a705456b1c59b521f0e187ad4aa02df686410db4ae14d128bb543313091257017d92263468982bc7f0d8388204a5e565f214eb3b5cbec82d67890ec11b4b31d79909ec060d9fab06a90184e4226e70e81d709b122d3fcfdef5340587c6f112fd802efa1f25225dc7e6009c05779115ef7c6cd422c5da6a12182ee9d06542451d7ddb15480d130cc6fb7a74f59d7821be15659db1f68cd4a0a58456d7358b01e40196b"
+  },
+  {
+   "kind": "giris",
+   "text": "Cevap, belki de ezbere bildiğin bir surede. İhlas Suresi'nin anlamı Allah'ı dört kısa ayette anlatıyor.",
+   "prompt": "[deep voice] [slowly] Cevap, belki de ezbere bildiğin bir surede. İhlas Suresi'nin anlamı Allah'ı dört kısa ayette anlatıyor.",
+   "generation_id": "2XaFw2NV5nNeMrKW9HWj",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/UAzoSrDCVQJGDtWhkzw6/2XaFw2NV5nNeMrKW9HWj/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044805Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=a31f6616781de69a84e575e93c36029941e8bbee7e276b2ff84b046b1b1ddf20af282a8ffb65b14dc456a23edef4a0b5ebf2eec3d015eaee6506f8215d2826dbcd8d432c15468d8aeae180c1eff3eea1c06823e1e15ee6b0a23b69d2a502ff0453c5f14925681602883378dde3bb01e7c0f4e47b0070d758e94cf654e57bcbf3db6f8444769036c5db6235153a8ebe81820d1c25b4e8be7bdf5199eb3f9b88f11746fbe7828dd5c532338242261957ba0578e7ea01def390cfaf9e5f0ebda459e7585fcf6d13bef28df043002049a048d4cf6a7c94773ea6396abfb301627541c084a4ac06caa6769a62c920980e6bc3fac9a5d351308138c3137717dc7c2808"
+  },
+  {
+   "kind": "intro",
+   "text": "İhlâs Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] İhlâs Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "w2oLwIOSutJG4lf40lV9",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/bnOw5B1e9MGskBS0KBXs/w2oLwIOSutJG4lf40lV9/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044806Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0a8e0e6d1a37ab1ac935ec5e2a908cdb308de9656ecbe3d788ae3bad4288d03f134d5b131aa0739ef888cf2efaf2cec71c1c280eb52cca845df71a7d5062e30f652fd0fc3012c52b8c65f85fcbee4b199c7aef76784e84b5a1cb341a06bd7404fb8da2df00ad1324f1aa86e9241c8c26a9ba9a8c98a68cf7a9d5c185f920161a328c21315d3bb134f1101590118220d774bd5f2460d90e3006edcf957d1d6eb3d2ff67ead401d9ba1aefb081d6150453053f3e8392dfb7d3d082eb5edcaa2d21270cfc1049fe38a8ae48839652589837408b6534b73b24f5d1aa63f45a15412ced3be74535fa74abec924b6b0b669bd1343dd99a39507ded78da1de92e63d01d"
+  },
+  {
+   "kind": "meal",
+   "text": "De ki: O Allah bir tektir.",
+   "prompt": "[softly] [slowly] De ki: O Allah bir tektir.",
+   "generation_id": "IfBSWizpQNFBeywwhbQQ",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/GIhEVSZ0c6wqc4psi8lu/IfBSWizpQNFBeywwhbQQ/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044807Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2a349ceb89448c011a8bc44eeb71d3c6a7f08004a42caec1db7b58f16640282ba652cec798ef1a42a3fc06d76648d10a2da61c2b44cea8b9989f05e60662db0661d0908fd9e87778a8b145a6bdc3c9c58fdcd864095b45f5731ce0ca97939be5005c5f6f139d25ea7a70ce0ff2015dbfae43fb1f05f31e1f8bbced04989abe515b382ce1bca52a58e38929e1d38255c796a1df936385c55239e262a6f757924ab856ba2a090fb4660a9abae49954cda464e8ea97358d9d7db36f2d07c286425c8ba84ff2d8281e0308979cd367ed1a8b53e141a33a9fa4d126874e14af756f39c2e2feefef62c7eefd2409ce07c7f369cc775c3d9c346304ea23ccc5d06768e6"
+  },
+  {
+   "kind": "meal",
+   "text": "Allah her şeyden müstağni ve her şey O'na muhtaçtır.",
+   "prompt": "[softly] [slowly] Allah her şeyden müstağni ve her şey O'na muhtaçtır.",
+   "generation_id": "mGvKktcSLmPkGnZnFwQZ",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ycTjeFjziW8eQQkOT2ak/mGvKktcSLmPkGnZnFwQZ/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044810Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=6594caefa035ce27eac0bb93fa4cb11d7bebc505981834ca1c53862f7150e70878f041d08383a855847c3ae054d5a05d8671a2c1104b91bb29bff62383010cdc3d80d9022235e66efc021a291546268dd7099f29ba9030874f365ae452f0af2a2e90b0572db1981e500ec7489f556f628eb9e7333aecd00e0d1ddbacb9f4d82bb0fdef44fb4977381e145c9eae343ff619bab58cca690c0f285c5bceaad75c0bb9ca1fda78c08999741a4a17155b6b843bf5f72ca33a9e3bcb8997414b5372210188a2c7cd473e406c1872029f871cf69ea433694618ccda6d26e8ec9eb659099ad3f573f47f3816e3656727d9c0df7162301dbd9381753cc14d1cd06e4c07cf"
+  },
+  {
+   "kind": "meal",
+   "text": "O doğurmamış ve doğmamıştır.",
+   "prompt": "[softly] [slowly] O doğurmamış ve doğmamıştır.",
+   "generation_id": "Pl60eucq3OqiCT90MN0s",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/pIOjLtwC0DBGUsQkBCiS/Pl60eucq3OqiCT90MN0s/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044812Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8aed4c81b87dc8591f15759d501fbaa94730638ad3910dd2494753944c7622609665f1df05df797c7c2547958545773838422565425ae8ef856a25c01dcc742b16260153d01a763dc599233ff3d504636457cb70b6181600877e8144e0c72efdf6434be9db4710090e60869aaf02bc2b2dd5d56d2ea362a1524a58f7455c58cca21bc920e4d052e56d505456593de65c8b63502c66c4448fbd9532049d7762c65f049c8ded9ad128401bb3aa3f5072c9e0db9a5346ef2db6cd913d523cd3918a6b9d04836ff0b216f24d74fcc5b29707d1ac0213b754584898b31a3216e116bd4a14ebe64c87bff0300928b26c447f58229ed3161f2414ecde2f2434e28d12d1"
+  },
+  {
+   "kind": "meal",
+   "text": "Hiçbir şey O'na denk değildir.",
+   "prompt": "[softly] [slowly] Hiçbir şey O'na denk değildir.",
+   "generation_id": "qrZXokrMeuP6UFM0vVRR",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/pUVrPIvuFgSd36NJ2e04/qrZXokrMeuP6UFM0vVRR/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044815Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0effd986de3b5fcd4e235d3bf404b5129b4ea0d335b060453fc978ac4d3d2b34b706a76e498839b8e9f1e0bb9ee389de197beec8354e48b9ccbe9944edfb82776aa94ecab10655b4bf92e6d07aa8044b8d750e8dda3c7f3b7900204d6332a0f7f502c638fcd88cfecc540f43fd61a7761de1900b795b3f11e8efb9c46eadb145afa97175e670e7b3c19b9ae8e70dcb0682f8652bc22afcaadd8bf2d9875b17fc60d99c296a609f0831d02bf11123cc5f2d719d7e3441ddb7367cae831ec6c20e28f2d8aadbadcf4227a7085e7136362d2ceb064d9442ffec8493612c4c6ac001fab262ff0a5ef5e73ed73c0af3e35aebe2551fb2bc0b28213597c072fe6990b9"
+  },
+  {
+   "kind": "yorum",
+   "text": "Bir ve tek. Her şey O'na muhtaç, O hiçbir şeye. Bu akşam çocuğuna bu dört ayeti anlamıyla oku.",
+   "prompt": "[deep voice] [slowly] Bir ve tek. Her şey O'na muhtaç, O hiçbir şeye. Bu akşam çocuğuna bu dört ayeti anlamıyla oku.",
+   "generation_id": "EsbQRJDy5nWAH5dsmC6G",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/hBDuIhic0jTjvb13vcdF/EsbQRJDy5nWAH5dsmC6G/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044818Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9780e9db75d0ebb513cc672c9e9cab77cacc3b077011a557d346c6a350502e3d2ab319142d976a804e20e5607f4bb2ed6b263b922fab25ada6dfc46521157dfb0af753ecbfcf77530cebe589a9cfc87b647b213a215caeffc5c69379b322f38734915f95eed175daec27c04a202ef43ea89d04be4bfa709798e69a305d80604415edd11eab9311fd8d04d200346d8a23d8de72b01e9b4a7bed1cc129573badad63fd093a13ea4321bff70e92dbb785fc2e9dae4522c958662524f4ec4adeda71377938d6bab066b4956b27af49f8b0bf2173481b3ca1456a59fc1b6a3ae25a85b678338f98e1bf20609c2f89ec1eb6170830c3b523579263668beee4a3dc0773"
+  },
+  {
+   "kind": "cta",
+   "text": "O bir ve tektir. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] O bir ve tektir. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "lkmt9tBpMMHPOrbgffzp",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/EC19WlS9vtJs5fQFe6t6/lkmt9tBpMMHPOrbgffzp/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044820Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=95e0420b75de221cc0a77ce4fd76ef15f0f19baef4a992415af44575d03459f88961461b0c9a747c303c0a2d955089c9b9d8dcf1e297eb394333c924535ac10d902d80f8c45e63683515bf023b773bb3379413b4b337fc8208d36cdb7ce89106316b0a25f71eb88b7c3ae3e8559455ab6a26451d47f7ec2372ffa552c4a1bc7ec45e33974b137dbc19a8b9e4f036b0fcfc830a3179e139df599e0b76434d33d8dc1a433235edd22a9c4134758357ea755825fa880ea87a4636a53838fdcf37f29275ea6eecc0f6106443428c0c031f752fbe09a3466559b0915fe20df0c45ecc15238912abff1bf30b57715fdd55b243eda56553f05c3764203af2ed94499d0f"
+  }
+ ]
+}

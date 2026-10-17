@@ -1,0 +1,51 @@
+{
+ "id": "v023",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "zG4zH3uZp2DpG5Z4blvC",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Güzel bir hayatı nerede arıyorsun?",
+   "prompt": "[deep voice] [slowly] Güzel bir hayatı nerede arıyorsun?",
+   "generation_id": "4Q5tb0fl00iXk9JkBfSM",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/qoPjhB4leASdm2ZJbNLP/4Q5tb0fl00iXk9JkBfSM/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044743Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5feefc399b23055762285d6348acbbcbc13bd1ca98a5be94e4bc028f25c7bbb104df5d8209f1242ecbbcdaec4696a6a287287bf3f05930c7ac8f106cd347554a8d752b416f876938c52c14fe9bebdfff7be77f9b7dffffc9b0405bdac3af7aa7ebdab1202ac9765f0245a6d904276e9bfe74d4adf5808e2464aa0bb28e637d3352b65a74504786f3cfda562ad57f5c05dabadfcadd3e95e7242725a913b408c8d02d56712e0dc86b7e33bc5a23abe0a875fec77fc7f1fbc0d944c61aac707f85dc9804b3817357f5c6e8619a44cfa0e2fa9001e88f39e2f85e209bbebaa1e6d69a3368ec6fbecdb53969890e6d8de4713cb17889281fcaa66403530f6f6c95a5"
+  },
+  {
+   "kind": "giris",
+   "text": "Para mı, şöhret mi? Kur'an'daki güzel hayat ayeti bambaşka bir yer gösteriyor.",
+   "prompt": "[deep voice] [slowly] Para mı, şöhret mi? Kur'an'daki güzel hayat ayeti bambaşka bir yer gösteriyor.",
+   "generation_id": "1hL5MmPgYK3rTTtCjWie",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/2BCmuZd9YtWKHUki4DBr/1hL5MmPgYK3rTTtCjWie/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044746Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=822abbaf212c705c6d7a977c70fe0715a83b87d6e0a19f47e8fb66012421af0e2f0867d32b0392bf477349ba9bdde5187cf37f022ea1538d4b6697fdc2cccbd0d09d217de036a3faa5998a3c2fd9da6bcbe04bc64093403f76d8c221e7c473c0b16059eb1df8b828b987e81b23ea8aa29240fe1e1d9575dc36d5dd49829a5b220bb14d9f4d4f5683fb99d7cefcb4ae5b5b7fc24067df107d6aa1ae6d5ee6b301885f73b07551bd54b77609c0e048f618e64affc0cc43bd2c3a046cb7b2b028763b8204bb292d6fbbc94938579c07106b9378286fbc86e793475a8695562fb22b8a695571ef0d418cdf2f1bc91bcedf0badcb006107b841397cb2812677dc07ea"
+  },
+  {
+   "kind": "intro",
+   "text": "Nahl Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[softly] [slowly] Nahl Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "hdbBHTkfJuomLILgOE6w",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/BKuzDio6SCH7jDoLu0H6/hdbBHTkfJuomLILgOE6w/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044751Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=472a21fa6e121bfe9530657de06af7f58c138644ebf42e8f782e6712b02b704121b89a0e8c5cc30ff33e0bf1c1d85645b8fa16bd19e4e3409ac150944367dade4a8cdb2b2c33f65b0522c142ffde885f46aacf1e3826708a16901028aabf40ba908c05366210467c1c8c38b4efeb60a06a51855c1ac35d9f6c712564ee7521868543fb79727026efdba20f16f3f5a6b7cbfe899230c296f2c2f44498b911cd3ec6f4e28bb008219e59f03523e6602de09579ffa77ddf9195d461c8b4cbb5e27652cab0c252553debeb00fd75ba5e9a10f2c13f91b049010558aa2d8bd0f4c68dcf087be99609454dbce00c1f90a78f77d3f44268c4c48e84f4e783ae855c4bf8"
+  },
+  {
+   "kind": "meal",
+   "text": "Kadın, erkek, inanmış olarak kim iyi iş işlerse, ona hoş bir hayat yaşatacağız. Ecirlerini yaptıklarından daha güzeli ile ödeyeceğiz.",
+   "prompt": "[softly] [slowly] Kadın, erkek, inanmış olarak kim iyi iş işlerse, ona hoş bir hayat yaşatacağız. Ecirlerini yaptıklarından daha güzeli ile ödeyeceğiz.",
+   "generation_id": "bXYJKDQgXjwmaOLgfF0t",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/UCisgdjMPBGJYNgw72dx/bXYJKDQgXjwmaOLgfF0t/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044753Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=61c3dae211a4c196f95dde86efb6a7613441f20fcfbccd0bd414794787084c4896ab12b3bc780293e6dd34706909b1dfa123440eb070aec7e6fcf87687014d5c3a580c3cdc3b2638bc1e7c9d6da1fba08834fc21d8553c3becc1b22bd166050e9d34f5da570aeaa1601fcb67c73977c60df52c3147a901c97f074b680c39fff2e2812ab60bf844abd7b666229ccf7f34c7c2fcec34f249963e5a83ac5bc9b9ee729f7ce87017e2f0dc71f08e4cc7521b8fa1e4e5001c1727def71f14ef2dec5915e3ec970868c511a9fd9aeec843ca91dd1b2c66175fed62398c5e97d86787cbf76d6b4043d3b8224bda5fe7e177dd8a223be09aac36acc86a6280ee6f8bff4e"
+  },
+  {
+   "kind": "yorum",
+   "text": "Kadın erkek fark etmez. İnanarak iyilik yapana hoş bir hayat vaadi var. Güzel hayatı bugün bir iyilikle ara.",
+   "prompt": "[deep voice] [slowly] Kadın erkek fark etmez. İnanarak iyilik yapana hoş bir hayat vaadi var. Güzel hayatı bugün bir iyilikle ara.",
+   "generation_id": "9C2h9C4bIbok2u54n65Z",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/M1D7mhrWJ5XstSaiMNz6/9C2h9C4bIbok2u54n65Z/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044754Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2f9c418abc887f0f0cc6aef4b7b34cae0a0af86109e45b226a457c17c59e030b51203ff044092d9bb3910864664c9646406e51c8d7612b21abfe8b0cfeadc599f92d4e9d1290c690d4e43ed16ae0041b1002fded77dd9c839fc9463eda5f99d599be49fa28e2e576c5d9c9246de454648bf2c2439233cf3d0f88a13a396007ab61bcfef1f757ce6d61cac71145cd4a29b6b24bd6bd7f5d97a6ecc44ee10ecffafcd80923c6a7db67f3cd609a1a8e07d4f3120876bcf520630521dfe1920fc2e5a8e0b26a59c1cc6f0cfceca6a3d3d1bc11f22d8d60c42fcaf092be71157bac979a71fb26b401aec74106d2d38a23ccdad8e8d887cf3501dca7ffcd2cd0fe85a5"
+  },
+  {
+   "kind": "cta",
+   "text": "İman ve iyi iş. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] İman ve iyi iş. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "3Heq4urGZFshDOQWdynW",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/pu72Pa6u6x3AmXDJEOIK/3Heq4urGZFshDOQWdynW/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T044755Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1031593d4b9437d3d9c9e276e74646f0e22ca16cb1e5c3f5c6762189ede6314dbd8b7faa9860d0c1e7194a14063c2f8ac6a6832e5856ebc67bf8f3dc1482d4923bb5edd7b9b7bb0233d2fb866df69dff37bd12bd6e6ebfeeb43ce0e5e334d1d2eadf319e673e39aab38be61a21f3a75a767ec64a5878d5a9fd1d7307463b3db0de1ec57c251bd0e0d215229de6846d0168718660bad9b41b38e5d6cf058082678b202ecdf49b51423902d21ab35c15a457d971feecaddfe0f14aad15e3fac9d0288da0d5f900ce082a1feb00273c69ca7dc1594db51ae696a9b2cf1064dfb460099e50c2b2a30497799d37b39cf0aaf89e55bd39e4c30ec5df54d8dcd0330859"
+  }
+ ]
+}
