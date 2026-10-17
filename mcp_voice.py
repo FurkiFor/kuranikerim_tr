@@ -20,7 +20,10 @@ os.environ.setdefault('KT_VOICE', 'mcp')
 def plan(vid):
     import render, voice
     tp = {t['id']: t for t in json.load(open(f'{BASE}/topics.json'))}[vid]
-    return [dict(kind=k, text=t, prompt=voice.el_prompt(t, k)) for k, t, _, _ in render.segments(tp) if k != 'tilavet']  # tilavet: kâri kaydı, TTS değil
+    yon = tp.get('ses_yonetmen', {})   # konuya özel ton: {"hook": "[...]", "meal:62": "[...]"}
+    vurgu = tp.get('ses_vurgu', [])
+    return [dict(kind=k, text=t, prompt=voice.el_prompt(t, k, yon.get(f'{k}:{v}', yon.get(k)), vurgu))
+            for k, t, v, _ in render.segments(tp) if k != 'tilavet']  # tilavet: kâri kaydı, TTS değil
 
 
 def fetch(vid):

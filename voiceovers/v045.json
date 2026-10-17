@@ -1,0 +1,65 @@
+{
+ "id": "v045",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "PYZOYtB77hk5fr3XUbyM",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Etrafındaki herkes 'bitti' mi diyor?",
+   "prompt": "[deep voice] [whispers] Etrafındaki herkes 'bitti' mi diyor?",
+   "generation_id": "sVk6Xb5V8aDFUctWC9Yy",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/gtR6RWo89ksDbRul2bh3/sVk6Xb5V8aDFUctWC9Yy/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T161621Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=70a47ff9c63f86e4620850f91609c8de9d15adbbd4e01a52068b9f5fe66411edb04c669b79fd9c1194818f257b2286caabdeb2909517b4d4cb1b8bfdf875272f011c7d064cee8113cba354296c5f6895c147b99a6eac44e1f1aa669e4a1a4f5c39d062c7867136b9f5328638cd78c81f9c812f464127a8fb50bc8b94b15bb75115aebe629c3dc2824699a9f22d0700c98284031ea0346ab31f19b932a1c226e080a535e7b2c23a295359a335f94edf56b61ac8d8457408551554fbdebf963bc785e67e29a687ec6d859aee9d4f34e5da166b921b80ed297a0b5c75ccf8cbca7e6ea60b50b50420d4068cbc53d4fbb6f3791521dacfc4f61fd36b68b0ea9370e5"
+  },
+  {
+   "kind": "giris",
+   "text": "Hz. Musa'nın peşinde Firavun'un ordusu vardı, önünde deniz. Ama o, tek bir kelimeyle cevap verdi.",
+   "prompt": "[deep voice] [dramatically] [slowly] Hazreti Musa'nın peşinde Firavun'un ordusu vardı, önünde deniz. Ama o, tek bir kelimeyle cevap verdi.",
+   "generation_id": "yIgbvmVBdpQkGk0goWJc",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/7TYYJYUKlu8Adl1vK65a/yIgbvmVBdpQkGk0goWJc/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T161624Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3deec014c2564bfcf1309d803ef5ba70c243528040fed999fcfed2b78c6791a50d46208cbb57400f5c6c8282dce30be560410e209168b5c87c24660d217605a31a11c066af89f78ca0e00db3af53e59ae719e354a4cf736d422f6a88fa34623db076ce0635f26cf648bbca1b3c2bebf051eb6449f18b8d831e028b84a22b5bfa32d95fd57addcf92937ba3020b51dc9b10ae4c392df9b5d119e999438288a8aa9e095107bf0b17e071b7e360be642974482fd8c780da1fae73db3b0ea731790c761e7fb551d1a4e0678ce2e877210663ae4350a90763f4c1de2149a971837b6d22eaadbf7b15d4a52b35188ca5374ca37eab580f082e420dbaed684fb2d2e8f9"
+  },
+  {
+   "kind": "intro",
+   "text": "Şuarâ Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "prompt": "[deep voice] [softly] Şuarâ Suresi'nde Rabbimiz şöyle buyuruyor:",
+   "generation_id": "7WKbWb4ZzVY81LFQ9U9r",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/OHZ9uqPYg9VqibfoIKjI/7WKbWb4ZzVY81LFQ9U9r/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T161624Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=21f0ae89d45de743f78b7417d32f9a223d2e63b726469d5d55d4eef427fee7c47f66a843bc938b973af8ea81554a750162484f09aca20adcf4a0d76ebc22a5442fb66096707f5329b6e67c05c839fa17d1710cac62a3844849cb4d784414d5c2f9ce9f19f497f8140f8aa90a1c18a2798227bdc7192f40d07e35f2a71fb380d0b6d5441fb5d45d290c5524669abe81c5b1d944d6f8dbb389def1af33f6c1323bec44f2f6c0e3635848f1e0a9984190365beee6a7230f463a5beecd5d073f127326107f19ef0565d99a54737d5f024f2be751281006c93de97d416b419ae7a94b1f8d21a276640de83372b9d763807c0c28257b9208ebff5f1597bae053a7e61b"
+  },
+  {
+   "kind": "meal",
+   "text": "İki topluluk birbirini gördüğünde, Musa'nın adamları: \"İşte yakalandık\" dediler.",
+   "prompt": "[nervous] [breathless] İki topluluk birbirini gördüğünde, Musa'nın adamları: İşte yakalandık dediler.",
+   "generation_id": "vUMO5gQ3Q1uGVVdQMxAF",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/pT189yInTICGPEhYg8aV/vUMO5gQ3Q1uGVVdQMxAF/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T161627Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=483e22375d568c5ff586f7e96cba067950124cac23a0d003eb27d0a5437157fc310d27a0618250795d7c9d64bddf1b597b69467ad190d9f987377299f074acba8e69356aa217cf2a0dd009ba9589422e5b34c993904d53c30eb70487e495b859b8eb1331491a2fe0b8041c991b1458e8a9f8b344e79ea08e16badde5975bf1a9a43f47994e532a73a8f751c9534130780d0bd427a96fef7b66bafead7e1350a2addf95379c11805aaf56025b2623c1753af833276205fbb12fb88acec878a5674c04a396dd3597a72aea7af37fff013b3f9a157aed0a358eb3a497d1f3917a4e65e9f9e2906bc0c6a0288f3d45d212c795f337bdd102c183e70de1e4f9407caf"
+  },
+  {
+   "kind": "meal",
+   "text": "Musa: \"Hayır; Rabbim benimle beraberdir, bana elbette yol gösterecektir\" dedi.",
+   "prompt": "[deep voice] [dramatically] Musa: HAYIR; Rabbim benimle beraberdir, bana elbette yol gösterecektir dedi.",
+   "generation_id": "NqNJ8rTxqfoFt0I4g1oi",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/zk4EUvsZ41YOmLKRHZwv/NqNJ8rTxqfoFt0I4g1oi/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T161629Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9d9a48b0c28ae581700bd82b3a3bb2f7cfac40fc3cd3fd314c292d4852751822a77e691b202f17071ddbb51bde51edb6a359ab5551e1ffe73d70373cfb203cafc35861d3e9154c00d12092dfc5e40d9811e6e1bd53547682003c1c47b908e0b49326d881a94363e0952ac1c874347fae91c340379ffd9b3e4685f450e64ff017f0820c5c77f326a06f4fc068c81f6c2d00148356b173c6f580b39ba09b4b2ba82b2b92c814b6c68999442dbd1434f636472a014cd6e4d6c4515298a521e42f0a615768ed6f6d28918bebad41028599c3b14b65f58d9d628ebea2f786450bdeeb50ff8a58a821dc2ad62848661f6a9c0d90dae54800c3c6e9b470a375f6dad666"
+  },
+  {
+   "kind": "meal",
+   "text": "Bunun üzerine Biz Musa'ya: \"Değneğinle denize vur\" diye vahyettik. Hemen deniz ikiye ayrıldı, her parçası yüce bir dağ gibiydi.",
+   "prompt": "[deep voice] [dramatically] [slowly] Bunun üzerine Biz Musa'ya: Değneğinle denize vur diye vahyettik. Hemen deniz ikiye ayrıldı, her parçası yüce bir dağ gibiydi.",
+   "generation_id": "LUDOYNZhPtwNQ7s28B7R",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Xi6pdhj3wIGTAKbufqE0/LUDOYNZhPtwNQ7s28B7R/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T161631Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=313adae61720400fe8c478ab5f64822be068580699028f2bb1030e2cdfc2f3df40f015091b7e539eeb6978b9eb3e8c0bc11ade2bed98c7d4d51166c0cbbbd0722d1d3414e8befab89feb5ed1041048d10eb5bbd4f40c9fb6718c26cf08fe60e78ffc36363a2275881355866f0159dc94afdd88aad61dcb1abe7598e23ba31043c63b526ee9823015a40d6e3fb7557f5af140307d4f222f9e7c4f212c644df05c1861f6046f9a32ce9c1f4ebeafd50cffc373ebcd2a48fea657f750cbd181b2e66a342cf29fab527407d8ba0411b22dbf2b184f9c90156c6ac57a04285fdedfcf468fc503d1abf8d8e7785405b4bec80520f4b3db72a1a23e776f258fab465c1f"
+  },
+  {
+   "kind": "yorum",
+   "text": "Dikkat et: Bu cümleyi deniz yarılmadan önce söyledi. Yolu görmeden, yol gösterileceğine güvendi.",
+   "prompt": "[deep voice] [whispers] Dikkat et: Bu cümleyi deniz yarılmadan önce söyledi. Yolu görmeden, yol gösterileceğine güvendi.",
+   "generation_id": "wP3tkZkWas0PF0U80l9a",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/9Y9qCDdM77T9HKsJLTyh/wP3tkZkWas0PF0U80l9a/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T161632Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9b7bbc701578f1a15591e349bb47c7683c62230b7bb3ccaf8a40ca7f2aade6d5f3ba8c2442129ab0f8f4a3d3a4af940c8563642a1cc4e1417c4d077318c56fc86c5cd8f669480573e47d61f9eb9e8f11cba9c59c5604718b707a911ea375290cb4fc3ca2dfc462dd42e54610929ff7951930000110fb0d64d53281e927934c02323471ad901096c95531e4746ec070b1bc3b3af2bb1b0151f71e461a544f03610a7c25736997a61306db13f807560246ed0ec30fc1c0f02e1586ec3e0f2c5c2b8981935411ff3c0ee462e1f5f266f47e689a22204e3eb4d86e897de37ff00999b2bf34255dbb3786490b414139168250a0393b8ec6be8d7d1d5b1d651422286f"
+  },
+  {
+   "kind": "cta",
+   "text": "Herkes bitti dediğinde, sen de 'Hayır' de. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] [dramatically] Herkes bitti dediğinde, sen de 'HAYIR' de. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "E8tCRvEmeWxNx4J5Zu7A",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/EJ8ID2pQNIIIy3QFbKbT/E8tCRvEmeWxNx4J5Zu7A/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T161635Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9ff5585e402a8d60fcbb567c9519602ca39efa2bd72fa89fa5dc685c3466ee0a26a53c0337f5f9d93b9a8558e210e7829aa69b36fe080d9dd0dbbb77a3374b653435c261c454c1fabdf1177f56e015201dc8afa27c17055446aafacdca457d2f83b297d787c9e252d7438840ee5270639c3b431c0a24190da8b39f2fca002e299237624e20e1bdbaaf66eae69b902e29180ddd9035ca2d619797e19d64a1e04e9707a1ea28e0d9560097b5a5b4d0c6a5a976095c114b6ece9e4bac7770f55180cea1c2e1f7bf32144d3e4290f478d8d9aa6da193ae187a910aeebc700b40008692b7a06cf3c229ee01adc3c0b9066da31d2c803576c948a30125897e53453b5b"
+  }
+ ]
+}

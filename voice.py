@@ -141,7 +141,8 @@ def engine():
 
 def speakable(text):
     """Okunuş için metni temizler (ekrandaki metin değişmez)."""
-    s = text.replace('"', '').replace('“', '').replace('”', '').replace('(', ', ').replace(')', ', ')
+    s = re.sub(r'\bHz\.\s*', 'Hazreti ', text)   # "Hz." kısaltması okunuşta açılır
+    s = s.replace('"', '').replace('“', '').replace('”', '').replace('(', ', ').replace(')', ', ')
     s = s.replace('...', '.').replace('…', '.').replace(' ,', ',')
     s = re.sub(r',\s*,', ',', s)
     return re.sub(r'\s+', ' ', s).strip(' ,')
@@ -183,10 +184,15 @@ def generate(tts, text):
 _MCP = None
 
 
-def el_prompt(text, kind):
-    """ElevenLabs'a gönderilen metin (yönetmen etiketleri + okunuş için temizlenmiş metin)."""
-    tags = EL_TAGS.get(kind, '[deep voice]') if EL_MODEL in ('eleven_v3', 'eleven_v4') else ''
-    return (tags + ' ' + speakable(text)).strip()
+def el_prompt(text, kind, tags=None, vurgu=()):
+    """ElevenLabs'a gönderilen metin (yönetmen etiketleri + okunuş için temizlenmiş metin).
+    tags: konuya özel yönetmen etiketi (topics.json > ses_yonetmen); vurgu: büyük harfle vurgulanacak kelimeler."""
+    v4 = EL_MODEL in ('eleven_v3', 'eleven_v4')
+    tags = (tags if tags is not None else EL_TAGS.get(kind, '[deep voice]')) if v4 else ''
+    sp = speakable(text)
+    for w in vurgu:
+        sp = re.sub(r'\b' + re.escape(w) + r'\b', w.replace('i', 'İ').replace('ı', 'I').upper(), sp)
+    return (tags + ' ' + sp).strip()
 
 
 def load_mcp(vid):

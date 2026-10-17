@@ -73,6 +73,17 @@ Günlük görev her konuyu yazarken iki skill setini kullanır:
 ## Hook kalıbı (`hooks.md`)
 Hook'lar `hooks.md`'deki **kıssa köprüsü** ("Sen …? → [Peygamber] de … → Ama o …") ya da **soru zinciri** ("Borçların çok mu? → Beklemediğin yerden rızık gelsin ister misin?") kalıbıyla yazılır. `hook` = yalnızca sen sorusu; köprü/ikinci soru `seslendirme.giris`'e; kapanış hook'a döner. Köprüdeki her hâl ayette geçmeli (uydurma yok), ikinci soru ayetin kendi sözüyle örtüşmeli, sonuç garantisi yok. Hook ilk karede ekranda hazır durur (youtube-shorts: kaydırılmamak için).
 
+## Konuya özel ses tonu ve müzik
+```
+"ses_yonetmen": {"hook": "[deep voice] [whispers]", "meal:62": "[deep voice] [dramatically]", "cta": "[deep voice] [dramatically]"},
+"ses_vurgu": ["Hayır"],
+"muzik": "dark"
+```
+- `ses_yonetmen`: ElevenLabs v4 yönetmen etiketleri, parça türüne (`hook`, `giris`, `intro`, `yorum`, `cta`) ya da ayete (`meal:62`) göre; yoksa varsayılan EL_TAGS. Etiketler yalnızca sesin tonunu değiştirir, ekrandaki metin aynı kalır.
+- `ses_vurgu`: seslendirmede BÜYÜK harfle vurgulanacak kelimeler (yalnızca prompt'ta).
+- `muzik`: fon müziği stili (`ilahi`, `dark`, `soft`); yoksa KT_MUSIC_STYLE. Tilavet videolarında müzik her zaman kapalı.
+- Gergin/dramatik ton serbest; içerik yine korkutmaz, mealin söylediğini aşmaz.
+
 ## Kurgu (`kurgu` alanı — huashu-art-motion kamera dili)
 ```
 "kurgu": {"kamera": ["kay", "vurgu", "cek"], "gecis": ["kesme", "kararma"]}

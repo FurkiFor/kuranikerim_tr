@@ -328,7 +328,7 @@ def render(tp, out):
     raw, vo, aud = f'{out}.raw.wav', f'{out}.vo.wav', f'{out}.wav'
     write_wav(raw, audio, VO.SR); VO.master(raw, vo); os.remove(raw)
     if MUSIC_VOL > 0 and not tp.get('tilavet'):   # tilavet altına müzik konmaz
-        mw = MU.make(total + 0.5, int(tp['id'][1:]) * 7 + 3, f'{out}.mu.wav')
+        mw = MU.make(total + 0.5, int(tp['id'][1:]) * 7 + 3, f'{out}.mu.wav', style=tp.get('muzik'))
         mix_audio(vo, mw, aud); os.remove(mw); os.remove(vo)
     else:
         os.replace(vo, aud)
@@ -440,6 +440,7 @@ def render(tp, out):
                 ts = til[cv['verse']]
                 ka = clamp01((t - ts['start'] + 0.2) / 0.4) * (1 - clamp01((t - ts['end'] - 0.1) / 0.3))
                 draw_img(c, kari, 0, Y_TIL + im.height() * 0.62, 0.8 * ka * aout)
+            y = max(y, Y_TAG + 40 + im.height() / 2)   # uzun ayette Arapça metin üstteki tema etiketine binmesin
             draw_img(c, im, 0, y - im.height() / 2, CI.ease_out(ain) * aout, blur=8 * (1 - CI.ease_out(ain)), scale=sc + 0.03 * (1 - ain))
         # altyazılar
         for cs in capsegs:

@@ -1093,5 +1093,67 @@
     "kuran tilaveti"
    ]
   }
+ },
+ {
+  "id": "v045",
+  "tema": "Hz. Musa ve Denizin Yarılması",
+  "sure": 26,
+  "ayet": [
+   61,
+   63
+  ],
+  "hook": "Etrafındaki herkes 'bitti' mi diyor?",
+  "kapanis": "Herkes bitti dediğinde, sen de 'Hayır' de.",
+  "bg": "deniz",
+  "sahne": "deniz",
+  "aciklama": "Firavun'un ordusu yetişince Hz. Musa'nın yanındakiler \"İşte yakalandık\" dedi; Hz. Musa \"Hayır; Rabbim benimle beraberdir, bana elbette yol gösterecektir\" dedi ve deniz ikiye ayrıldı.",
+  "etiketler": [
+   "hz musa",
+   "denizin yarılması"
+  ],
+  "kalip": "A-kissa-koprusu",
+  "kopru_kaynak": "Şuara 60: Firavun ve adamları onların ardına düştüler; Şuara 63: Değneğinle denize vur",
+  "seslendirme": {
+   "giris": "Hz. Musa'nın peşinde Firavun'un ordusu vardı, önünde deniz. Ama o, tek bir kelimeyle cevap verdi.",
+   "yorum": "Dikkat et: Bu cümleyi deniz yarılmadan önce söyledi. Yolu görmeden, yol gösterileceğine güvendi."
+  },
+  "kurgu": {
+   "kamera": [
+    "it",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hz. Musa ve Denizin Yarılması | Rabbim Benimle",
+   "ilk_satir": "Hz. Musa ve denizin yarılması: herkes \"yakalandık\" dediğinde söylediği cümle",
+   "aciklama": "Şuara Suresi 61-63. ayetlerde Firavun'un ordusu yetiştiğinde Hz. Musa'nın yanındakiler \"İşte yakalandık\" der. Hz. Musa ise \"Hayır; Rabbim benimle beraberdir, bana elbette yol gösterecektir\" der; ardından Allah ona değneğiyle denize vurmasını vahyeder ve deniz ikiye ayrılır. Kur'an kıssaları, Diyanet meali ile.",
+   "anahtar": [
+    "hz musa denizin yarılması",
+    "denizin yarılması",
+    "hz musa kıssası",
+    "musa peygamber",
+    "kuran kıssaları",
+    "peygamber kıssaları"
+   ]
+  },
+  "muzik": "dark",
+  "ses_vurgu": [
+   "Hayır"
+  ],
+  "ses_yonetmen": {
+   "hook": "[deep voice] [whispers]",
+   "giris": "[deep voice] [dramatically] [slowly]",
+   "intro": "[deep voice] [softly]",
+   "meal:61": "[nervous] [breathless]",
+   "meal:62": "[deep voice] [dramatically]",
+   "meal:63": "[deep voice] [dramatically] [slowly]",
+   "yorum": "[deep voice] [whispers]",
+   "cta": "[deep voice] [dramatically]"
+  }
  }
 ]
