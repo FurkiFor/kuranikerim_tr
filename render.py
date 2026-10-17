@@ -327,7 +327,7 @@ def render(tp, out):
     tl, audio, total = build_timeline(tp)
     raw, vo, aud = f'{out}.raw.wav', f'{out}.vo.wav', f'{out}.wav'
     write_wav(raw, audio, VO.SR); VO.master(raw, vo); os.remove(raw)
-    if MUSIC_VOL > 0:
+    if MUSIC_VOL > 0 and not tp.get('tilavet'):   # tilavet altına müzik konmaz
         mw = MU.make(total + 0.5, int(tp['id'][1:]) * 7 + 3, f'{out}.mu.wav')
         mix_audio(vo, mw, aud); os.remove(mw); os.remove(vo)
     else:
