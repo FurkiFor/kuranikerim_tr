@@ -1039,5 +1039,59 @@
    ]
   },
   "sir_kaynak": "python3 sir.py ozet → Sure sayısı: 114; Besmeleyle başlamayan sure(ler): Tevbe | python3 sir.py sure 9 → Tevbe Suresi: 129 ayet (son ayet 129)"
+ },
+ {
+  "id": "v044",
+  "tur": "tilavet",
+  "tema": "Fatiha Suresi",
+  "sure": 1,
+  "ayet": [
+   1,
+   7
+  ],
+  "hook": "Her namazda okuduğun bu sureyi anlıyor musun?",
+  "kapanis": "Bir sonraki namazında anlamını düşünerek oku.",
+  "bg": "safak",
+  "sahne": "yol",
+  "aciklama": "Fatiha Suresi'nin yedi ayeti: Arapça tilavet ve Diyanet meali, ayet ayet.",
+  "etiketler": [
+   "fatiha suresi",
+   "fatiha suresi anlamı",
+   "kuran meali"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Fatiha'yı her gün defalarca okuyoruz. Şimdi her ayeti önce Arapçasıyla dinle, sonra anlamını."
+  },
+  "kurgu": {
+   "kamera": [
+    "it",
+    "kay",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Fatiha Suresi Anlamı ve Türkçe Meali | Ayet Ayet Dinle",
+   "ilk_satir": "Fatiha Suresi anlamı: her namazda okuduğun 7 ayet, Arapça tilavet ve Türkçe meal ile ayet ayet",
+   "aciklama": "Fatiha Suresi'nin yedi ayeti önce Ali el-Huzeyfi'nin tilavetiyle Arapça okunuyor, ardından Diyanet İşleri meali Türkçe seslendiriliyor. Fatiha Suresi'ni dinlerken Türkçe mealini ve anlamını ekranda takip et. Tilavet: Ali el-Huzeyfi (King Fahd Kur'an-ı Kerim Basım Kompleksi kaydı).",
+   "anahtar": [
+    "fatiha suresi",
+    "fatiha suresi anlamı",
+    "fatiha suresi meali",
+    "fatiha suresi türkçe meali",
+    "fatiha suresi dinle",
+    "fatiha suresi okunuşu",
+    "ali el huzeyfi",
+    "kuran tilaveti"
+   ]
+  }
  }
 ]

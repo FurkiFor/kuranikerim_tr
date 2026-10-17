@@ -41,6 +41,17 @@ GitHub Actions'ta: Settings → Secrets and variables → Actions → `ELEVENLAB
 - **Ses**: seslendirme + altında ilahi tarzı fon; konuşma sırasında müzik otomatik kısılır (sidechain). Toplam -14 LUFS. `KT_MUSIC=0` ile müziksiz.
 - Bir video ~1 sn/kare hızında üretilir (2 çekirdek); 40 sn'lik video ≈ 10–20 dk.
 
+## Tilavet videoları (`tilavet` alanı)
+```
+"tilavet": {"kari": "Ali el-Huzeyfi", "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)", "klasor": "recitations/hudhaify"}
+```
+- Her ayet önce gerçek kâri sesiyle Arapça okunur (`<klasor>/SSSAAA.mp3`, baştaki/sondaki sessizlik kırpılır), ardından Türkçe meal seslendirilir. Tilavet sırasında Arapça metin ortada büyük, altında "TİLAVET · <KÂRİ>" etiketi; meal başlarken Arapça yukarı süzülür.
+- TTS ile Kur'an okutulmaz (tecvid yok). Tilavet parçaları `mcp_voice.py plan` listesine girmez.
+- Lisans: King Fahd Kompleksi kayıtlarını uygulama/yayın/internet için ücretsiz genel kullanıma açmıştır (qurancomplex.gov.sa/en/?p=3979). Açıklamada kâri ve kaynak belirtilir.
+- Tilavet videolarında fon müziği kullanılmaz: `KT_MUSIC=0 python3 render.py v044`.
+- Bulut oturumu everyayah'a erişemez: dosyalar ElevenLabs `creative_attach_reference_file` ile çekilip asset önizleme adresinden indirilir.
+- Önizleme: `KT_STILLS=2,15,70 python3 render.py <id>` yalnızca o saniyeleri PNG olarak yazar.
+
 ## Sahneler (`sahne` alanı)
 | sahne | anlatım | uygun temalar |
 |---|---|---|
@@ -58,6 +69,9 @@ GitHub Actions'ta: Settings → Secrets and variables → Actions → `ELEVENLAB
 Günlük görev her konuyu yazarken iki skill setini kullanır:
 - **huashu-art-motion** (github.com/alchaincyf/huashu-art-motion, MIT) — **yönetmen/kurgucu** olarak: `SKILL.md` ("导演的要求：镜头怎么用", "最常见的六种做坏方式"), `references/镜头语言.md` (1–4. bölümler) ve `references/镜头表模板.md`. Bu repo 9:16 ve `cine.py` ile render eder; huashu'nun kendi motoru (`render.py --spec`, `deliver.py`, Playwright) **kullanılmaz** — skill'den kamera dili, çekim planı ve "kötü yapım" kontrol listesi alınır ve `kurgu` alanına çevrilir.
 - **Social Media Skills** eklentisi — `hook-writer` (hook), `short-form-video-script` / `tiktok-script` (tempo, döngü), `social-seo` + `youtube-shorts` + `tiktok-growth` (arama ve başlık), `hashtag-strategy` (3–5 niş etiket), `caption-writer` (açıklama). Skill aracı yoksa aşağıdaki kurallar yeterlidir.
+
+## Hook kalıbı (`hooks.md`)
+Hook'lar `hooks.md`'deki **kıssa köprüsü** ("Sen …? → [Peygamber] de … → Ama o …") ya da **soru zinciri** ("Borçların çok mu? → Beklemediğin yerden rızık gelsin ister misin?") kalıbıyla yazılır. `hook` = yalnızca sen sorusu; köprü/ikinci soru `seslendirme.giris`'e; kapanış hook'a döner. Köprüdeki her hâl ayette geçmeli (uydurma yok), ikinci soru ayetin kendi sözüyle örtüşmeli, sonuç garantisi yok. Hook ilk karede ekranda hazır durur (youtube-shorts: kaydırılmamak için).
 
 ## Kurgu (`kurgu` alanı — huashu-art-motion kamera dili)
 ```

@@ -33,6 +33,11 @@ GAP_K = float(os.environ.get('KT_GAP', '1.0'))        # parçalar arası sessizl
 
 # metin yerleşimi: yazılar gökyüzünde, karakter zeminde
 Y_TAG, Y_AR, Y_HOOK, Y_CAP = 118, 330, 640, 790
+Y_TIL = 560   # tilavet sırasında Arapça metnin merkezi
+
+
+def tr_upper(s):
+    return s.replace('i', 'İ').replace('ı', 'I').upper()
 
 
 def font(name, size, wght=None):
@@ -124,7 +129,7 @@ def arabic_img(text, ref, acc):
     gl = Image.new('RGBA', img.size, acc + (0,)); gl.putalpha(glow.point(lambda v: int(v * 0.55)))
     img = Image.alpha_composite(gl, img); d = ImageDraw.Draw(img)
     y = 20 + lh * len(lines) + 18
-    ref = ref.upper().replace('İ', 'İ')
+    ref = tr_upper(ref)
     rw = d.textlength(ref, font=F_SMALL) + 6 * len(ref)
     x = (W - rw) / 2
     for ch in ref:
@@ -154,6 +159,16 @@ def segments(tp):
     yorum = ses.get('yorum') or tp['aciklama']
     kap = tp['kapanis'].rstrip('.') + '.'
     cta = ses.get('kapanis') or f"{kap} Kaydet ve ihtiyacı olana gönder."
+    if tp.get('tilavet'):   # tilavet videosu: her ayet önce gerçek kâri sesiyle Arapça, ardından Türkçe meal
+        segs = [('hook', tp['hook'], None, 0.55), ('giris', giris, None, 0.6)]
+        for v in range(a, b + 1):
+            tr = TR[(c, v)].strip()
+            if not tr.endswith(('.', '!', '?', '"')): tr += '.'
+            segs.append(('tilavet', AR[(c, v)].strip(), v, 0.35))
+            segs.append(('meal', tr, v, 0.6 if v < b else 0.8))
+        if ses.get('yorum'): segs.append(('yorum', ses['yorum'], None, 0.5))
+        segs.append(('cta', cta, None, 1.4))
+        return segs
     segs = [('hook', tp['hook'], None, 0.65), ('giris', giris, None, 0.5),
             ('intro', f"{sname} Suresi'nde Rabbimiz şöyle buyuruyor:", None, 0.4)]
     for v in range(a, b + 1):
@@ -164,6 +179,30 @@ def segments(tp):
     return segs
 
 
+def level(smp, target_db=-20.0):
+    """Parçayı sesli bölümlerinin RMS'ine göre hedef seviyeye getirir (kazanç 0.25–8 arası)."""
+    hop = int(0.02 * VO.SR); n = len(smp) // hop
+    if n < 3: return smp
+    rms = np.sqrt(np.mean(smp[:n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
+    voiced = rms[rms > np.percentile(rms, 90) * 0.15]
+    cur = 20 * np.log10(np.sqrt(np.mean(voiced ** 2)) + 1e-9)
+    return smp * float(np.clip(10 ** ((target_db - cur) / 20), 0.25, 8.0))
+
+
+def recitation(tp, v):
+    """Kâri kaydı: <tilavet.klasor>/SSSAAA.mp3 → baştaki/sondaki sessizlik kırpılmış örnekler."""
+    path = f"{BASE}/{tp['tilavet']['klasor']}/{tp['sure']:03d}{v:03d}.mp3"
+    smp = VO._decode(path)
+    hop = int(0.01 * VO.SR); n = len(smp) // hop
+    rms = np.sqrt(np.mean(smp[:n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
+    on = np.where(rms > max(0.004, np.percentile(rms, 95) * 0.04))[0]
+    if len(on):
+        smp = smp[max(0, on[0] - 4) * hop:min(len(smp), (on[-1] + 12) * hop)]
+    fade = int(0.04 * VO.SR)
+    smp[:fade] *= np.linspace(0, 1, fade); smp[-fade:] *= np.linspace(1, 0, fade)
+    return smp
+
+
 def build_timeline(tp):
     segs = segments(tp)
     if VO.MCP: VO.load_mcp(tp['id'])
@@ -171,7 +210,11 @@ def build_timeline(tp):
     audio.append(np.zeros(int(0.35 * VO.SR), np.float32))
     for i, (kind, text, v, gap) in enumerate(segs):
         prev_t = segs[i - 1][1] if i else None; next_t = segs[i + 1][1] if i + 1 < len(segs) else None
-        smp, words = VO.synth_segment(text, kind, prev_t, next_t)
+        if kind == 'tilavet':
+            smp, words = recitation(tp, v), []
+        else:
+            smp, words = VO.synth_segment(text, kind, prev_t, next_t)
+        if tp.get('tilavet'): smp = level(smp)   # tilavet ve fısıltılı meal aynı seviyede duyulsun
         dur = len(smp) / VO.SR
         tl.append(dict(kind=kind, text=text, verse=v, start=t, end=t + dur,
                        words=[(w, t + s, t + e) for w, s, e in words]))
@@ -291,7 +334,9 @@ def render(tp, out):
         os.replace(vo, aud)
     c_, a, b = tp['sure'], *tp['ayet']; sname = SURE[str(c_)]
     meal = [s for s in tl if s['kind'] == 'meal']
-    m0, m1 = meal[0]['start'], meal[-1]['end']
+    vsegs = [s for s in tl if s['kind'] in ('meal', 'tilavet')]   # ayet bölümü (tilavet + meal)
+    m0, m1 = vsegs[0]['start'], vsegs[-1]['end']
+    til = {s['verse']: s for s in tl if s['kind'] == 'tilavet'}
     hook, cta = tl[0], tl[-1]
     WHITE, ACC, DIM = (255, 255, 255, 255), acc + (255,), (255, 255, 255, 255)
     # hook ve kapanış: büyük serif, kelime kelime
@@ -310,7 +355,8 @@ def render(tp, out):
         nxt = capsegs[i + 1]['start'] if i + 1 < len(capsegs) else cs['end'] + 0.5
         cs['hold'] = min(nxt - 0.02, cs['end'] + 0.6)
     arab = {s['verse']: skimg(arabic_img(AR[(c_, s['verse'])].replace('۞', '').strip(), f"{sname} Suresi · {s['verse']}. ayet", acc)) for s in meal}
-    tag = skimg(spaced(tp['tema'].upper(), F_SMALL, acc + (220,), 9))
+    tag = skimg(spaced(tr_upper(tp['tema']), F_SMALL, acc + (220,), 9))
+    kari = skimg(spaced(tr_upper(f"Tilavet · {tp['tilavet']['kari']}"), F_SMALL, (255, 255, 255, 190), 5)) if til else None
     ref_full = f"{sname} Suresi " + (f"{a}-{b}" if b != a else f"{a}") + ". ayet"
     refimg = skimg(spaced(ref_full, F_SMALL, (255, 255, 255, 200), 3, lines=False))
     handle = skimg(spaced('@kuranikerim_tr', F_HANDLE, acc + (230,), 2, lines=False))
@@ -337,15 +383,18 @@ def render(tp, out):
         s0, s1 = bounds[i]; lt = max(0.0, t - s0); k = clamp01(lt / max(0.1, s1 - s0))
         CI.SCENES[scene](c, t, i, lt, k, cam_for(i, t), E)
 
-    def words_draw(sprites, words, t, appear=0.28, hi_on=True, base_alpha=1.0, rise=14):
+    def words_draw(sprites, words, t, appear=0.28, hi_on=True, base_alpha=1.0, rise=14, pre=False):
+        # pre=True: kelimeler ilk kareden itibaren görünür (sessiz izleyen için), okunan kelime vurgulanır
         for k, ((x, y, var), (w, s, e)) in enumerate(zip(sprites, words)):
-            u = (t - s + 0.06) / appear
+            u = 9.0 if pre else (t - s + 0.06) / appear
             if u <= 0: continue
             al = CI.ease_out(u) * base_alpha
             active = hi_on and s - 0.04 <= t <= e + 0.08
             draw_img(c, var['a' if active else 'w'], x, y + rise * (1 - CI.ease_out(u)), al, blur=10 * (1 - CI.ease_out(u)))
 
-    for fi in range(n):
+    stills = [float(x) for x in os.environ.get('KT_STILLS', '').split(',') if x]   # önizleme: yalnızca bu saniyeler PNG
+    if stills: ff.stdin.close(); ff.kill()
+    for fi in ([int(x * FPS) for x in stills] if stills else range(n)):
         t = fi / FPS
         c.clear(skia.ColorBLACK)
         cur = 0 if t < sB else 1 if t < sC else 2
@@ -365,6 +414,7 @@ def render(tp, out):
         band_a = 0.0
         if t < hook['end'] + 0.6 or t >= cta['start'] - 0.2: band_a = 0.42
         elif any(cs['start'] - 0.2 <= t < cs['hold'] for cs in capsegs): band_a = 0.3
+        elif any(s['start'] - 0.3 <= t < s['end'] + 0.3 for s in til.values()): band_a = 0.34
         if band_a:
             sh_ = skia.GradientShader.MakeLinear([skia.Point(0, 180), skia.Point(0, 1020)],
                                                  [CI.argb('#000000', 0), CI.argb('#000000', band_a), CI.argb('#000000', band_a * 0.8), CI.argb('#000000', 0)], [0, 0.3, 0.7, 1])
@@ -373,16 +423,24 @@ def render(tp, out):
         # HOOK
         if t < hook['end'] + 0.45:
             fade = 1 - clamp01((t - hook['end'] - 0.05) / 0.35)
-            words_draw(hook_sp, hook['words'], t, 0.35, True, fade, 22)
+            words_draw(hook_sp, hook['words'], t, 0.35, True, fade, 22, pre=True)   # youtube-shorts: hook ilk karede okunur
         # Arapça (ayet boyunca)
         cv = None
-        for s in meal:
-            if t >= s['start'] - 0.35: cv = s
+        for s in (vsegs if til else meal):
+            if t >= s['start'] - 0.35 and (cv is None or s['verse'] != cv['verse']): cv = s
         if cv is not None and t < m1 + 0.9:
             ain = clamp01((t - cv['start'] + 0.35) / 0.7)
             aout = 1 - clamp01((t - m1 - 0.3) / 0.6)
             im = arab[cv['verse']]
-            draw_img(c, im, 0, Y_AR - im.height() / 2, CI.ease_out(ain) * aout, blur=8 * (1 - CI.ease_out(ain)), scale=1.0 + 0.03 * (1 - ain))
+            y, sc = Y_AR, 1.0
+            if til and cv['verse'] in til:   # tilavet sırasında Arapça ortada büyük, meal başlarken yukarı süzülür
+                ms = next(s for s in meal if s['verse'] == cv['verse'])
+                u = CI.ease_io(clamp01((t - ms['start'] + 0.35) / 0.6))
+                y, sc = CI.lerp(Y_TIL, Y_AR, u), CI.lerp(1.14, 1.0, u)
+                ts = til[cv['verse']]
+                ka = clamp01((t - ts['start'] + 0.2) / 0.4) * (1 - clamp01((t - ts['end'] - 0.1) / 0.3))
+                draw_img(c, kari, 0, Y_TIL + im.height() * 0.62, 0.8 * ka * aout)
+            draw_img(c, im, 0, y - im.height() / 2, CI.ease_out(ain) * aout, blur=8 * (1 - CI.ease_out(ain)), scale=sc + 0.03 * (1 - ain))
         # altyazılar
         for cs in capsegs:
             if cs['start'] - 0.08 <= t < cs['hold']:
@@ -398,7 +456,11 @@ def render(tp, out):
         # ince ilerleme çizgisi
         c.drawRect(skia.Rect(0, 0, W * t / total, 4), CI.paint(accH, 0.55))
         arr = surf.makeImageSnapshot().toarray(colorType=skia.ColorType.kRGBA_8888_ColorType)
+        if stills:
+            Image.fromarray(post(arr, fi)[..., :3]).save(f'{out}.{t:05.1f}.png'); continue
         ff.stdin.write(post(arr, fi).tobytes())
+    if stills:
+        os.remove(aud); return total
     ff.stdin.close(); ff.wait(); os.remove(aud)
     return total
 

@@ -99,6 +99,13 @@ def _el_segment(text, kind=None, prev_text=None, next_text=None):
             ww[1], ww[2] = a, max(a + 0.05, (a + b) / 2)
     # baştaki/sondaki sessizliği kırp, zamanları kaydır
     t0 = max(0.0, words[0][1] - 0.06); t1 = min(len(audio) / SR, words[-1][2] + 0.28)
+    # kelime hizalaması konuşmanın başını/sonunu kaçırırsa kesme: sesli bölümün tamamı korunur
+    hop = int(0.01 * SR); n = len(audio) // hop
+    if n:
+        rms = np.sqrt(np.mean(audio[:n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
+        on = np.where(rms > max(0.004, np.percentile(rms, 95) * 0.05))[0]
+        if len(on):
+            t0 = min(t0, max(0.0, on[0] * 0.01 - 0.05)); t1 = max(t1, min(len(audio) / SR, on[-1] * 0.01 + 0.2))
     audio = audio[int(t0 * SR):int(t1 * SR)]
     return audio, [(w, s - t0, e - t0) for w, s, e in words]
 _tts = None
@@ -267,6 +274,13 @@ def _mcp_segment(text):
     audio = _decode(_MCP[text])
     words = align_by_silence(audio, text)
     t0 = max(0.0, words[0][1] - 0.06); t1 = min(len(audio) / SR, words[-1][2] + 0.28)
+    # kelime hizalaması konuşmanın başını/sonunu kaçırırsa kesme: sesli bölümün tamamı korunur
+    hop = int(0.01 * SR); n = len(audio) // hop
+    if n:
+        rms = np.sqrt(np.mean(audio[:n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
+        on = np.where(rms > max(0.004, np.percentile(rms, 95) * 0.05))[0]
+        if len(on):
+            t0 = min(t0, max(0.0, on[0] * 0.01 - 0.05)); t1 = max(t1, min(len(audio) / SR, on[-1] * 0.01 + 0.2))
     audio = audio[int(t0 * SR):int(t1 * SR)]
     return audio, [(w, s - t0, e - t0) for w, s, e in words]
 
