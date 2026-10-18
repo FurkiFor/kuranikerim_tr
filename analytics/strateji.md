@@ -37,7 +37,7 @@ TikTok'ta saatin etkisi görülmüyor (148–184 arası); Instagram'da 100 takip
 - 24 Ekim'e kadar TikTok/Instagram'da ayrıca birikmiş videolar 12:00 ve 21:00'da çıkıyor (geçici olarak günde 7). Sonra 5.
 - Üretim iki partide: SABAH (07:14) 3 video → 10:00, 13:00, 18:00; AKŞAM (15:44) 2 video → 20:30, 23:30.
 - Bir parti eksik video üretirse boş slot TikTok/Instagram'da "tekrar paylaşım adayları"ndan biriyle doldurulur; YouTube boş kalır (tekrar yükleme yok).
-- Günün 5 videosunun karışımı: 3 teselli (biri kısa format), 1 açık adlı dua/zikir, 1 kıssa köprüsü (haftada en fazla 2 kez bunun yerine bilgi/sır). Günde 2 video `kisa: true`.
+- Günün 5 videosu (19 Ekim'den): 3 anlatımlı (2 teselli + 1 gün aşırı açık adlı dua/kıssa; en az biri `kisa: 2`) + 2 **ayet kartı** (13:00 ve 23:30). Bilgi/sır haftada en fazla 2.
 
 ## Etkileşim (yorumlar)
 - Her partide `analytics/yorumlar.json`'daki son 7 günün yanıtsız yorumları yanıtlanır (en fazla 20). Yorum kitleyi büyütür; ilk saatlerde gelen yanıt videonun dağıtımını da destekler.
