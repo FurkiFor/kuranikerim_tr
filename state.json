@@ -335,11 +335,11 @@
   },
   "v025": {
    "tiktok": {
-    "tarih": "2026-10-19T15:00:00+04:00",
+    "tarih": "2026-10-19T20:00:00+04:00",
     "zernio_id": "6ad4e5326ddc0248f07d1331"
    },
    "youtube": {
-    "tarih": "2026-10-19T15:00:00+04:00",
+    "tarih": "2026-10-19T20:00:00+04:00",
     "kervly_id": "p_E6E8dQpDmZNu"
    },
    "tiktok_kervly_hata": {
@@ -348,7 +348,7 @@
     "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
    },
    "instagram": {
-    "tarih": "2026-10-19T15:00:00+04:00",
+    "tarih": "2026-10-19T20:00:00+04:00",
     "zernio_id": "6ad4e5326ddc0248f07d1331"
    }
   },
