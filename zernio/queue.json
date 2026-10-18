@@ -163,5 +163,23 @@
   "zernio_id": "6ad4e537aac78fc19eee0804",
   "status": "scheduled",
   "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti)"
+ },
+ {
+  "id": "v046",
+  "at": "2026-10-19T13:00:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavet kartı (ilk deney)"
+ },
+ {
+  "id": "v048",
+  "at": "2026-10-19T23:30:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavet kartı (ilk deney)"
  }
 ]
