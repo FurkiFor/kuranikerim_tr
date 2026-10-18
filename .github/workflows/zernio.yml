@@ -5,21 +5,21 @@ name: Zernio (TikTok + Instagram)
 # Gerekli secret: ZERNIO_API_KEY (Settings → Secrets and variables → Actions → New repository secret).
 #
 #   push zernio/queue.json  -> zernio_id'si olmayan kayıtları planlar, sonucu queue.json + state.json'a yazar
-#   her gün 08:20 (Dubai)   -> istatistik: analytics/zernio.json, analytics/ozet.md, analytics/zernio-gecmis.jsonl
+#   her gün 06:50 (Dubai)   -> istatistik + yorumlar: analytics/zernio.json, analytics/ozet.md, analytics/zernio-gecmis.jsonl
 #   elle                    -> Actions → Zernio → Run workflow → cmd: queue | stats | both
 on:
   push:
     branches: [main]
-    paths: ['zernio/queue.json']
+    paths: ['zernio/queue.json', 'zernio/replies.json']
   schedule:
-    - cron: '20 4 * * *'
+    - cron: '50 2 * * *'
   workflow_dispatch:
     inputs:
       cmd:
-        description: "queue (planla), stats (istatistik) ya da both"
+        description: "queue (planla), stats (istatistik + yorumlar), replies (yanıt gönder + yorumlar) ya da both"
         default: both
         type: choice
-        options: [queue, stats, both]
+        options: [queue, stats, both, replies]
 
 permissions:
   contents: write
@@ -34,7 +34,7 @@ jobs:
     timeout-minutes: 15
     env:
       ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
-      CMD: ${{ github.event_name == 'push' && 'queue' || github.event_name == 'schedule' && 'stats' || inputs.cmd }}
+      CMD: ${{ github.event_name == 'push' && 'push' || github.event_name == 'schedule' && 'stats' || inputs.cmd }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -53,19 +53,27 @@ jobs:
           python zernio.py accounts
 
       - name: Queue
-        if: env.CMD == 'queue' || env.CMD == 'both'
+        if: env.CMD == 'queue' || env.CMD == 'both' || env.CMD == 'push'
         run: python zernio.py queue
+
+      - name: Replies
+        if: always() && (env.CMD == 'replies' || env.CMD == 'both' || env.CMD == 'push')
+        run: python zernio.py replies
 
       - name: Stats
         if: always() && (env.CMD == 'stats' || env.CMD == 'both')
         run: python zernio.py stats
+
+      - name: Comments
+        if: always() && (env.CMD == 'stats' || env.CMD == 'both' || env.CMD == 'replies')
+        run: python zernio.py comments
 
       - name: Commit
         if: always() && env.CMD != 'none'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json zernio/queue.json analytics 2>/dev/null || true
+          git add state.json zernio analytics 2>/dev/null || true
           if git diff --cached --quiet; then echo "değişiklik yok"; exit 0; fi
           git commit -q -m "zernio: $CMD (GitHub Actions)"
           for i in 1 2 3 4 5; do

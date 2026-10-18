@@ -22,24 +22,28 @@ Kaynaklar: Zernio (TikTok 18 video, Instagram 4 reels; en iyi saat, paylaşım s
 - YouTube'da 15 saniye ve altı videolar %82–88 izlenme oranı alıyor; 31–45 saniyelik videolar %43–79. Bizim videolar 35–53 saniye.
 - Test (2 hafta): günün 3 videosundan biri `kisa: true` olacak (15–25 sn: hook, köprü, tek ayet, kapanış). Kısa ile uzunu izlenme oranı ve takip/1.000 izlenme üzerinden karşılaştır.
 
-## Saatler
-| Platform | Veri | Karar |
+## Saatler (18 Ekim gece güncellemesi: günde 5 içerik)
+| Slot (Dubai) | Türkiye | Neden |
 |---|---|---|
-| YouTube | Ortalama izlenme: 10:00 → 943 (6 video), 18:00 → 756 (6), 20:00 → 701 (4), 12:00 → 646 (7), 15:00 → 604 (7), 11:00 → 264 (7), 13:00 → 462 (5); gece 01–05 → 1.211–2.327 (yalnızca 3 video) | Yeni videolar **10:00, 18:00, 20:00**. Gece hitaplı video 20:00 yerine **00:30**'a (Türkiye 23:30) |
-| TikTok | 18 video 135–190 izlenmede; saatin etkisi görülmüyor. Videolar 12–24 saatte son izlenmelerinin %87–100'üne ulaşıyor | Saat önemsiz; YouTube ile aynı saatler + tekrar paylaşımlar 12:00 ve 21:00 |
-| Instagram | Veri yok (100 takipçinin altı) | TikTok ile aynı. 100 takipçiden sonra `online-followers`'a göre |
-
-Saat farkları küçük örneklemde gürültü düzeyinde. 15:00 → 20:00 değişikliği hem veriye hem Türkiye akşam yoğun saatine dayanıyor; 2 hafta sonra yeniden bak.
+| **10:00** | 09:00 | YouTube'da en iyi saat (6 videoda ort. 943) |
+| **13:00** | 12:00 | öğle arası; 12–13:00 arası ort. 462–646 |
+| **18:00** | 17:00 | 6 videoda ort. 756 |
+| **20:30** | 19:30 | akşam yoğunluğu; 20:00 → 4 videoda ort. 701 |
+| **23:30** | 22:30 | gece hitaplı video burada; gece 01–05 arası 3 video 1.211–2.327 aldı (az örnek) |
+TikTok'ta saatin etkisi görülmüyor (148–184 arası); Instagram'da 100 takipçiye kadar veri yok. Her video üç platformda aynı saatte çıkar. 1 Kasım'da 5 slotun ortalamaları karşılaştırılıp en zayıf slot kaydırılır.
 
 ## Günde kaç gönderi
-| Platform | Gönderi/gün | Neden |
-|---|---|---|
-| YouTube | **3 yeni** (tekrar yok) | Paylaşım olan günler 1.360–4.075 izlenme, paylaşımsız gün (12 Ekim) 179 → her gün paylaşmak şart. Aynı videoyu tekrar yüklemek YouTube'da kopya sayılabilir |
-| TikTok | **4** (3 yeni + 1 tekrar) | Her video bağımsız bir deneme ve 1 günde eskiyor; haftada 8–9 gönderilen haftalarda etkileşim %11–14, 1 gönderide %1,9 → sıklık zarar vermiyor. Zernio sınırı 24 saatte 15 |
-| Instagram | **3** (yeni videolar) + bu hafta birikmiş 2 | Kitle henüz yok; hacim keşfi artırır. 25 Ekim'de reels başı izlenme düşüyorsa 2'ye indir |
+**Her platformda günde 5 yeni video** (YouTube, TikTok, Instagram; aynı video üç platformda). Kervly'de marka sınırı da 5.
+- 24 Ekim'e kadar TikTok/Instagram'da ayrıca birikmiş videolar 12:00 ve 21:00'da çıkıyor (geçici olarak günde 7). Sonra 5.
+- Üretim iki partide: SABAH (07:14) 3 video → 10:00, 13:00, 18:00; AKŞAM (15:44) 2 video → 20:30, 23:30.
+- Bir parti eksik video üretirse boş slot TikTok/Instagram'da "tekrar paylaşım adayları"ndan biriyle doldurulur; YouTube boş kalır (tekrar yükleme yok).
+- Günün 5 videosunun karışımı: 3 teselli (biri kısa format), 1 açık adlı dua/zikir, 1 kıssa köprüsü (haftada en fazla 2 kez bunun yerine bilgi/sır). Günde 2 video `kisa: true`.
 
-## Tekrar paylaşım (TikTok + Instagram, 12:00 ve 21:00)
-Birikmiş 15 video 24 Ekim'de bitiyor. Sonra günde 1 tekrar: YouTube'da en iyi tutan eski videolar (izlenme oranı ≥%70 ya da ≥1.000 izlenme), yeni açılışla yeniden üretilmiş hâliyle.
+## Etkileşim (yorumlar)
+- Her partide `analytics/yorumlar.json`'daki son 7 günün yanıtsız yorumları yanıtlanır (en fazla 20). Yorum kitleyi büyütür; ilk saatlerde gelen yanıt videonun dağıtımını da destekler.
+- Ton: kısa, sıcak, saygılı; "sen" diliyle. "Amin" ve dua yorumlarına "Amin, Rabbim kabul etsin 🤍" gibi kısa karşılık.
+- Soru soranlara: yalnız videodaki ayeti ve mealini hatırlat (data/'dan), fetva verme, hadis ya da rivayet aktarma, kesin vaat verme; "bir hocaya danışmanı öneririm" de.
+- Link, reklam, hakaret, tartışma çıkaran yorumlara yanıt yok. Aynı kişiye günde en fazla bir yanıt.
 
 ## Ölçüm (her gün `analytics/ozet.md`)
 - Öncü göstergeler: 2. saniyede kalan izleyici (hedef ≥%45), kaydetme + paylaşım / 1.000 izlenme (hedef ≥20), takip / 1.000 izlenme (hedef ≥5).

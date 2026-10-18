@@ -14,6 +14,8 @@ Kullanım:
   python3 zernio.py queue                        -> zernio/queue.json'daki planlanmamış kayıtları planlar
   python3 zernio.py stats                        -> analytics/zernio.json + analytics/ozet.md + geçmiş satırı
   python3 zernio.py posts [scheduled|failed|published]  -> Zernio gönderi listesi (özet)
+  python3 zernio.py comments                     -> son 7 günün yorumları -> analytics/yorumlar.json
+  python3 zernio.py replies                      -> zernio/replies.json'daki gönderilmemiş yanıtları gönderir
 
 ISO-tarih örneği: 2026-10-19T12:00:00+04:00 (Asia/Dubai).
 
@@ -304,6 +306,62 @@ def posts_list(status=None):
         print(p.get('_id'), p.get('scheduledFor'), p.get('status'), '|', pl, '|', (p.get('content') or '')[:50].replace('\n', ' '))
 
 
+def comments():
+    """Son 7 günün yorumlarını analytics/yorumlar.json'a yazar (bizim yanıtladıklarımız işaretli).
+    Günlük görev buradan yanıtlanmamış yorumları okur ve zernio/replies.json'a yanıt ekler."""
+    accs = accounts()
+    own = {a['_id'] for a in accs.values()}
+    out, since = [], datetime.now(timezone.utc) - timedelta(days=7)
+    d = call('GET', '/inbox/comments?limit=100')
+    for p in d.get('data', []):
+        if not p.get('commentCount') or p.get('accountId') not in own:
+            continue
+        try:
+            c = call('GET', f"/inbox/comments/{p['id']}?accountId={p['accountId']}&limit=50")
+        except Exception as e:
+            out.append({'postId': p['id'], 'hata': str(e)[:200]}); continue
+        for cm in c.get('comments') or c.get('data') or []:
+            fr = cm.get('from') or {}
+            if fr.get('isOwner'):
+                continue
+            ct = cm.get('createdTime')
+            if ct and datetime.fromisoformat(ct.replace('Z', '+00:00')) < since:
+                continue
+            answered = any((r.get('from') or {}).get('isOwner') for r in (cm.get('replies') or []))
+            out.append({'platform': p.get('platform'), 'accountId': p['accountId'], 'postId': p['id'],
+                        'gonderi': (p.get('content') or '')[:80], 'commentId': cm.get('id'),
+                        'yazan': fr.get('username') or fr.get('name'), 'metin': cm.get('message'),
+                        'tarih': ct, 'begeni': cm.get('likeCount'), 'yanitlanabilir': cm.get('canReply', True),
+                        'yanitlandi': answered})
+    out.sort(key=lambda x: x.get('tarih') or '', reverse=True)
+    os.makedirs(f'{BASE}/analytics', exist_ok=True)
+    json.dump(out, open(f'{BASE}/analytics/yorumlar.json', 'w'), ensure_ascii=False, indent=1)
+    print(f"{len(out)} yorum (son 7 gün), {sum(1 for x in out if not x.get('yanitlandi'))} yanıtsız")
+
+
+def replies():
+    """zernio/replies.json: [{"postId","accountId","commentId","message"}] — gönderilmemişleri yanıtlar."""
+    path = f'{BASE}/zernio/replies.json'
+    q = json.load(open(path)) if os.path.exists(path) else []
+    fail = 0
+    for e in q:
+        if e.get('sent') or e.get('error_final'):
+            continue
+        try:
+            body = {'accountId': e['accountId'], 'message': e['message']}
+            if e.get('commentId'):
+                body['commentId'] = e['commentId']
+            r = call('POST', f"/inbox/comments/{e['postId']}", body)
+            e['sent'] = True; e['replyId'] = (r.get('data') or {}).get('commentId'); e.pop('error', None)
+        except Exception as ex:
+            fail += 1; e['error'] = str(ex)[:300]; e['tries'] = e.get('tries', 0) + 1
+            if e['tries'] >= 2: e['error_final'] = True
+    json.dump(q, open(path, 'w'), ensure_ascii=False, indent=1)
+    open(path, 'a').write('\n')
+    print(f"yanıt: {sum(1 for e in q if e.get('sent'))} gönderildi, {fail} hata")
+    return fail
+
+
 if __name__ == '__main__':
     a = sys.argv[1:]
     if not a:
@@ -322,5 +380,9 @@ if __name__ == '__main__':
         stats()
     elif cmd == 'posts':
         posts_list(a[1] if len(a) > 1 else None)
+    elif cmd == 'comments':
+        comments()
+    elif cmd == 'replies':
+        sys.exit(1 if replies() else 0)
     else:
         sys.exit(__doc__)

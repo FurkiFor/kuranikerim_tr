@@ -129,7 +129,7 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
    - `kapanis` kısa bir sonuç cümlesidir; render sonuna "Kaydet ve ihtiyacı olana gönder." ekler.
    - Video 20–40 saniye civarı olur (meal uzunluğuna göre).
 4. **Her videoda büyük, hareket eden bir karakter olur (v012 tarzı)**: karakter sahnenin altında, hikâye boyunca poz değiştirir (yürür, üzülür, dua eder, sevinir) ve ortam onunla birlikte karanlıktan aydınlığa döner. Yeni sahne yazılırsa bu kurala uyulur. Her konuya anlamına uyan bir `sahne` seç; art arda üç video aynı sahneyi kullanmasın.
-5. Paylaşım saatleri ve sıklık `analytics/strateji.md`'ye göre (Asia/Dubai): yeni videolar 10:00, 18:00, 20:00 (gece hitaplı olan 20:00 yerine 00:30), üç platformda aynı saatte. 12:00 ve 21:00 TikTok/Instagram tekrar paylaşımlarına ayrılır. Günde 3 yeni video; günün 3 videosundan biri `kisa: true` (15–25 sn) — 2 haftalık test. İçerik karışımı: günde 2 acı+teselli, 1 pratik dua/zikir ya da kıssa köprüsü; bilgi/sır videosu haftada en fazla 2.
+5. Paylaşım saatleri, sıklık ve karışım `analytics/strateji.md`'de (günde her platformda 5 yeni video: 10:00, 13:00, 18:00, 20:30, 23:30 Dubai; gece hitaplı olan 23:30; günde 2 `kisa: true`). Üç platformda aynı saatte.
 6. Her video aynı saatte TikTok + Instagram Reels (Zernio) ve YouTube Shorts'ta (Kervly) yayınlanır. Metricool ve Kervly'nin TikTok'u kullanılmaz (Kervly TikTok 403 / invalid_client).
 7. TikTok ayarları: `title` zorunludur (hook metni kullanılır), `PUBLIC_TO_EVERYONE`, `autoAddMusic: false`, `isAigc: false` (kullanıcı AI etiketini kapattı).
 8. YouTube ayarları: `providers: [{network: youtube}]`, `youtubeData`: `title` = hook, `type: short`, `privacy: public`, `madeForKids: false`, `isAiGeneratedContent: false`, `category: EDUCATION`, `tags` = konunun etiketleri + kuran, ayet, kuranikerim, islam. `text` = TikTok ile aynı açıklama.
@@ -150,11 +150,5 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
 - Medya URL'si: `https://raw.githubusercontent.com/FurkiFor/kuranikerim_tr/main/videos/<id>.mp4`
 - Metricool medyayı planlama anında kendi sunucusuna kopyalar. Planlanmış bir gönderinin videosu değişirse `updateScheduledPost` ile medya yeniden verilmelidir.
 
-## Günlük akış (zamanlanmış görev)
-Her gün 08:44 (Dubai) çalışan "kuranikerim ayet videoları (ElevenLabs MCP) - günlük" görevi:
-1. `analytics/ozet.md` (Zernio: TikTok + Instagram) ve Kervly `get_youtube_insights` ile neyin iyi gittiğine bakar (varsa vidIQ ile günde bir anahtar kelime araştırması).
-2. `state.json`'da planlanmamış ilk 3 konuyu seçer; son 4 videoda sır videosu yoksa 3. video yeni bir "Kur'an'ın sırları" konusu olur.
-3. Her konu için hook (hook-writer), seslendirme metni, sahne, `kurgu` (huashu-art-motion) ve `seo` (social-seo, youtube-shorts, tiktok-growth, hashtag-strategy) yazar.
-4. Sesleri ElevenLabs MCP ile üretir, `voiceovers/<id>.json` push'u GitHub Actions'ta videoyu üretir; kareleri kontrol eder.
-5. Kervly ile 10:00, 15:00, 18:00'e YouTube planlar; aynı saatlere TikTok + Instagram'ı `zernio/queue.json` ile Zernio'ya verir (`caption.py`, `--baslik`, `--etiket`), `state.json`'a yazar.
-6. Planlanmamış konu 9'un altına düşerse en az 15 yeni konu ekler (her ~5 konudan biri sır videosu).
+## Günlük akış (zamanlanmış görevler)
+Talimat `GUNLUK.md`'de. İki parti: SABAH (07:14 Dubai, 3 video → 10:00, 13:00, 18:00; Pazartesi haftalık analiz) ve AKŞAM (15:44 Dubai, 2 video → 20:30, 23:30). Her parti ölçer, konu seçer, seslendirir, üretir, kontrol eder, YouTube'a Kervly ile, TikTok + Instagram'a Zernio ile planlar ve yorumları yanıtlar. Zernio istatistikleri her gün 06:50'de güncellenir.
