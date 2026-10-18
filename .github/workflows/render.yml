@@ -102,10 +102,21 @@ jobs:
         run: |
           for id in $IDS; do
             if python -c "import json,sys; t={t['id']:t for t in json.load(open('topics.json'))}['$id']; sys.exit(0 if t.get('tur')=='kart' else 1)"; then
-              echo "$id: ayet kartı (seslendirmesiz)"; continue
+              echo "$id: ayet kartı (tilavet/müzik, TTS yok)"; continue
             fi
             [ -f "voiceovers/$id.json" ] || { echo "::error::voiceovers/$id.json yok — önce sesler MCP ile üretilmeli"; exit 1; }
             python mcp_voice.py check "$id" && python mcp_voice.py fetch "$id"
+          done
+
+      # tilavet kartları: gerçek kâri kaydı (Ali el-Huzeyfi) — eksik ayet dosyalarını everyayah'tan indir
+      - name: Fetch recitations
+        run: |
+          mkdir -p recitations/hudhaify
+          for f in $(python kart.py --need $IDS); do
+            [ -s "recitations/hudhaify/$f" ] && continue
+            curl -fsSL --retry 4 --retry-delay 3 -o "recitations/hudhaify/$f" "https://everyayah.com/data/Hudhaify_128kbps/$f" \
+              || { echo "::error::tilavet indirilemedi: $f"; exit 1; }
+            echo "indirildi: $f ($(ffprobe -v error -show_entries format=duration -of csv=p=0 recitations/hudhaify/$f) sn)"
           done
 
       - name: Cache voice models
@@ -179,6 +190,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for id in $IDS; do git add "videos/$id.mp4"; [ -d "voiceovers/$id" ] && git add "voiceovers/$id"; done
+          git add recitations 2>/dev/null || true
           if git diff --cached --quiet; then echo "değişiklik yok"; exit 0; fi
           git commit -q -m "videos: $IDS ($KT_VOICE sesi, GitHub Actions)"
           for i in 1 2 3 4 5; do
