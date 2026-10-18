@@ -370,12 +370,28 @@
    "youtube": {
     "tarih": "2026-10-19T13:00:00+04:00",
     "kervly_id": "p_qSs_FUpRvbQ-"
+   },
+   "tiktok": {
+    "tarih": "2026-10-19T13:00:00+04:00",
+    "zernio_id": "6ad539993e416f103ec078fe"
+   },
+   "instagram": {
+    "tarih": "2026-10-19T13:00:00+04:00",
+    "zernio_id": "6ad539993e416f103ec078fe"
    }
   },
   "v048": {
    "youtube": {
     "tarih": "2026-10-19T23:30:00+04:00",
     "kervly_id": "p_suiabrux1JLM"
+   },
+   "tiktok": {
+    "tarih": "2026-10-19T23:30:00+04:00",
+    "zernio_id": "6ad539993e416f103ec07909"
+   },
+   "instagram": {
+    "tarih": "2026-10-19T23:30:00+04:00",
+    "zernio_id": "6ad539993e416f103ec07909"
    }
   }
  }

@@ -171,7 +171,9 @@
    "tiktok",
    "instagram"
   ],
-  "not": "tilavet kartı (ilk deney)"
+  "not": "tilavet kartı (ilk deney)",
+  "zernio_id": "6ad539993e416f103ec078fe",
+  "status": "scheduled"
  },
  {
   "id": "v048",
@@ -180,6 +182,8 @@
    "tiktok",
    "instagram"
   ],
-  "not": "tilavet kartı (ilk deney)"
+  "not": "tilavet kartı (ilk deney)",
+  "zernio_id": "6ad539993e416f103ec07909",
+  "status": "scheduled"
  }
 ]
