@@ -33,6 +33,7 @@ KLASOR = 'recitations/hudhaify'
 KARI = 'Ali el-Huzeyfi'
 LEAD, GAP, TAIL = 0.05, 0.55, 1.0
 XF = 0.32            # sayfa geçişi (çapraz)
+SCENE_K = 1.16       # tilavet kartında sahne üst kenardan büyütülür → figür ve güneş aşağı iner
 
 
 # ------------------------------------------------------------------ içerik
@@ -172,8 +173,8 @@ def render_tilavet(tp, out):
         ml, mh = meal_layer(m)
         rf = ref_layer(c, a, acc)
         block = ah - 10 + mh + 6 + 50
-        y0 = top_min + max(0.0, (830 - top_min - block) / 2)   # figürün başının (~860) üstünde kalsın
-        lay.append(dict(ar=ar, gl=gl, y_ar=y0, ml=ml, y_ml=y0 + ah - 10, rf=rf, y_rf=y0 + ah - 10 + mh + 6))
+        y0 = top_min + max(0.0, (900 - top_min - block) / 2)   # sahne %16 büyütülüp aşağı itildi: figürün başı ~1000
+        lay.append(dict(plate=skia.RRect.MakeRectXY(skia.Rect(40, y0 + ah * 0.55, W - 40, y0 + block + 30), 46, 46),ar=ar, gl=gl, y_ar=y0, ml=ml, y_ml=y0 + ah - 10, rf=rf, y_rf=y0 + ah - 10 + mh + 6))
     dots = len(PG) > 1
 
     def page_alpha(i, t):
@@ -202,7 +203,9 @@ def render_tilavet(tp, out):
         ph = 2 * math.pi * t / total
         cam = CI.Cam(14 * math.sin(ph), 6 * math.sin(2 * ph), 1.05 + 0.025 * math.sin(ph))
         cv.clear(skia.ColorBLACK)
+        cv.save(); cv.translate(W / 2, 0); cv.scale(SCENE_K, SCENE_K); cv.translate(-W / 2, 0)   # sahne aşağı: metne yer
         CI.SCENES[scene](cv, t + 30.0, 2, t + 6.0, 0.85, cam, E)
+        cv.restore()
         sh_ = skia.GradientShader.MakeLinear([skia.Point(0, 0), skia.Point(0, 1080)],
                                              [CI.argb('#000000', 0.45), CI.argb('#000000', 0.5), CI.argb('#000000', 0.32), CI.argb('#000000', 0)],
                                              [0, 0.35, 0.75, 1])
@@ -213,6 +216,8 @@ def render_tilavet(tp, out):
         for i, L in enumerate(lay):
             a = page_alpha(i, t)
             if a <= 0.01: continue
+            cv.drawRRect(L['plate'], skia.Paint(Color=skia.Color4f(0, 0, 0, 0.46 * a), AntiAlias=True,
+                                                MaskFilter=skia.MaskFilter.MakeBlur(skia.kNormal_BlurStyle, 38)))
             R.draw_img(cv, L['gl'], 0, L['y_ar'], a * (0.25 + 0.75 * e))
             R.draw_img(cv, L['ar'], 0, L['y_ar'], a, scale=1.0 + 0.012 * e)
             R.draw_img(cv, L['ml'], 0, L['y_ml'], a)
