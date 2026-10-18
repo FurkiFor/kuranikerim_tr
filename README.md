@@ -1,7 +1,7 @@
 # kuranikerim_tr — TikTok / YouTube Shorts ayet videoları (v3 — karanlık belgesel)
 
 @kuranikerim_tr için otomatik, **karanlık belgesel tonunda Türkçe seslendirmeli, ilahi fonlu ve sinematik animasyonlu** ayet + meal videoları üretir.
-Videolar `videos/` klasöründe tutulur. Metricool bu dosyaları raw GitHub linkinden çeker.
+Videolar `videos/` klasöründe tutulur. Zernio (TikTok + Instagram) ve Kervly (YouTube) bu dosyaları raw GitHub linkinden çeker.
 
 ## Dosyalar
 - `data/ara-quransimple.json`: Arapça metin (Tanzil "Quran Simple", fawazahmed0/quran-api)
@@ -128,11 +128,21 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
    - `kapanis` kısa bir sonuç cümlesidir; render sonuna "Kaydet ve ihtiyacı olana gönder." ekler.
    - Video 20–40 saniye civarı olur (meal uzunluğuna göre).
 4. **Her videoda büyük, hareket eden bir karakter olur (v012 tarzı)**: karakter sahnenin altında, hikâye boyunca poz değiştirir (yürür, üzülür, dua eder, sevinir) ve ortam onunla birlikte karanlıktan aydınlığa döner. Yeni sahne yazılırsa bu kurala uyulur. Her konuya anlamına uyan bir `sahne` seç; art arda üç video aynı sahneyi kullanmasın.
-5. Paylaşım saatleri (Asia/Dubai): 10:00, 15:00, 18:00. Günde 3 video.
-6. Her video aynı saatte hem TikTok'ta hem YouTube Shorts'ta yayınlanır (iki ayrı Metricool gönderisi).
+5. Paylaşım saatleri (Asia/Dubai): yeni videolar 10:00, 15:00, 18:00 (gece hitaplı olan 23:00). 12:00 ve 21:00 eski videoların TikTok/Instagram'a yeniden paylaşımı (birikim) için ayrılır. Günde 3 yeni video.
+6. Her video aynı saatte TikTok + Instagram Reels (Zernio) ve YouTube Shorts'ta (Kervly) yayınlanır. Metricool ve Kervly'nin TikTok'u kullanılmaz (Kervly TikTok 403 / invalid_client).
 7. TikTok ayarları: `title` zorunludur (hook metni kullanılır), `PUBLIC_TO_EVERYONE`, `autoAddMusic: false`, `isAigc: false` (kullanıcı AI etiketini kapattı).
 8. YouTube ayarları: `providers: [{network: youtube}]`, `youtubeData`: `title` = hook, `type: short`, `privacy: public`, `madeForKids: false`, `isAiGeneratedContent: false`, `category: EDUCATION`, `tags` = konunun etiketleri + kuran, ayet, kuranikerim, islam. `text` = TikTok ile aynı açıklama.
 9. Kalite kontrolü: her yeni videodan 3 kare al (ffmpeg `-ss 1`, mealin ortası, son 2 sn) ve bak: Arapça kart taşmıyor, altyazı okunuyor, sahne görünüyor. `ffmpeg -af ebur128` ile ses ~-14 LUFS olmalı.
+
+## Zernio (TikTok + Instagram)
+- `zernio.py` — istatistik ve planlama; anahtar yalnızca `ZERNIO_API_KEY` ortam değişkeninden (repo secret). Koda/commit'e anahtar yazılmaz.
+- Hesaplar: TikTok `@kuranikerim_tr`, Instagram `@rahsid_nur` (Zernio ücretsiz plan: 2 hesap). YouTube Zernio'da değil, Kervly'de.
+- Claude'un bulut oturumu zernio.com'a bağlanamaz; çağrılar GitHub Actions'taki **Zernio** iş akışıyla yapılır:
+  - Planlamak için `zernio/queue.json`'a `{"id","at","platforms":["tiktok","instagram"]}` ekle ve push et → iş akışı planlar, `zernio_id`'yi queue.json'a ve `state.json`'a (`planlanan.<id>.tiktok/instagram`) yazar ve commit'ler.
+  - Her gün 08:20 (Dubai) istatistik: `analytics/ozet.md` (okunur özet), `analytics/zernio.json` (video bazında izlenme, beğeni, kaydetme, paylaşım, 2./6. saniyede kalan izleyici, aramadan gelen pay), `analytics/zernio-gecmis.jsonl` (günlük takipçi).
+  - Elle: `gh workflow run zernio.yml -R FurkiFor/kuranikerim_tr -f cmd=both`.
+- TikTok ayarları: PUBLIC_TO_EVERYONE, yorum/duet/stitch açık, `auto_add_music: false`, `video_made_with_ai: false`. Instagram: Reels, `shareToFeed: true`.
+- TikTok sınırı: hesap başına 24 saatte 15 video (Zernio fazlasını bekletir).
 
 ## Metricool
 - blogId: `7319798`, zaman dilimi `Asia/Dubai`
@@ -141,9 +151,9 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
 
 ## Günlük akış (zamanlanmış görev)
 Her gün 08:44 (Dubai) çalışan "kuranikerim ayet videoları (ElevenLabs MCP) - günlük" görevi:
-1. Kervly `get_youtube_insights` ile neyin iyi gittiğine bakar (varsa vidIQ ile günde bir anahtar kelime araştırması).
+1. `analytics/ozet.md` (Zernio: TikTok + Instagram) ve Kervly `get_youtube_insights` ile neyin iyi gittiğine bakar (varsa vidIQ ile günde bir anahtar kelime araştırması).
 2. `state.json`'da planlanmamış ilk 3 konuyu seçer; son 4 videoda sır videosu yoksa 3. video yeni bir "Kur'an'ın sırları" konusu olur.
 3. Her konu için hook (hook-writer), seslendirme metni, sahne, `kurgu` (huashu-art-motion) ve `seo` (social-seo, youtube-shorts, tiktok-growth, hashtag-strategy) yazar.
 4. Sesleri ElevenLabs MCP ile üretir, `voiceovers/<id>.json` push'u GitHub Actions'ta videoyu üretir; kareleri kontrol eder.
-5. Kervly ile 10:00, 15:00, 18:00'e YouTube + TikTok planlar (`caption.py`, `--baslik`, `--etiket`), `state.json`'a yazar.
+5. Kervly ile 10:00, 15:00, 18:00'e YouTube planlar; aynı saatlere TikTok + Instagram'ı `zernio/queue.json` ile Zernio'ya verir (`caption.py`, `--baslik`, `--etiket`), `state.json`'a yazar.
 6. Planlanmamış konu 9'un altına düşerse en az 15 yeni konu ekler (her ~5 konudan biri sır videosu).

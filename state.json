@@ -92,7 +92,14 @@
     "url": "https://www.youtube.com/shorts/ZHDcirmnREk",
     "not": "Metricool limiti nedeniyle 14 Ekim gönderisi düştü; Kervly ile yayınlandı"
    },
-   "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
+   "tiktok": {
+    "tarih": "2026-10-18T23:00:00+04:00",
+    "zernio_id": "6ad4e53031dcaf44a1c30bc1"
+   },
+   "instagram": {
+    "tarih": "2026-10-18T23:00:00+04:00",
+    "zernio_id": "6ad4e53031dcaf44a1c30bc1"
+   }
   },
   "v013": {
    "tarih": "2026-10-14T15:00:00+04:00",
@@ -101,7 +108,14 @@
     "tarih": "2026-10-15T15:00:00+04:00",
     "kervly_id": "p_MeQJ5ehoFtBH"
    },
-   "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
+   "tiktok": {
+    "tarih": "2026-10-19T21:00:00+04:00",
+    "zernio_id": "6ad4e533656c8046ffd908f5"
+   },
+   "instagram": {
+    "tarih": "2026-10-19T21:00:00+04:00",
+    "zernio_id": "6ad4e533656c8046ffd908f5"
+   }
   },
   "v014": {
    "tarih": "2026-10-14T18:00:00+04:00",
@@ -110,36 +124,70 @@
     "tarih": "2026-10-15T18:00:00+04:00",
     "kervly_id": "p_1I26e92eTX1z"
    },
-   "not_tiktok": "Metricool TikTok gönderisi düştü; TikTok henüz Kervly ile paylaşılamıyor (403, denetimsiz uygulama)"
+   "tiktok": {
+    "tarih": "2026-10-21T21:00:00+04:00",
+    "zernio_id": "6ad4e53555f71120991c3258"
+   },
+   "instagram": {
+    "tarih": "2026-10-21T21:00:00+04:00",
+    "zernio_id": "6ad4e53555f71120991c3258"
+   }
   },
   "v015": {
    "tiktok": {
-    "tarih": "2026-10-15T10:00:00+04:00",
-    "kervly_id": "p_EiAxK0_QF7W4"
+    "tarih": "2026-10-19T12:00:00+04:00",
+    "zernio_id": "6ad4e53246b2f868fecfa7be"
    },
    "youtube": {
     "tarih": "2026-10-15T10:00:00+04:00",
     "kervly_id": "p_gE239rDShOex"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-15T10:00:00+04:00",
+    "kervly_id": "p_EiAxK0_QF7W4",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-19T12:00:00+04:00",
+    "zernio_id": "6ad4e53246b2f868fecfa7be"
    }
   },
   "v016": {
    "tiktok": {
-    "tarih": "2026-10-16T10:00:00+04:00",
-    "kervly_id": "p_N9IXgdL_Ptel"
+    "tarih": "2026-10-20T21:00:00+04:00",
+    "zernio_id": "6ad4e5348da0840ae24afcbe"
    },
    "youtube": {
     "tarih": "2026-10-16T10:00:00+04:00",
     "kervly_id": "p_w0rsru_U6L-g"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-16T10:00:00+04:00",
+    "kervly_id": "p_N9IXgdL_Ptel",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-20T21:00:00+04:00",
+    "zernio_id": "6ad4e5348da0840ae24afcbe"
    }
   },
   "v017": {
    "tiktok": {
-    "tarih": "2026-10-16T15:00:00+04:00",
-    "kervly_id": "p_o9Fm9kGHw_1y"
+    "tarih": "2026-10-20T12:00:00+04:00",
+    "zernio_id": "6ad4e533b15ebd20ede7a8fc"
    },
    "youtube": {
     "tarih": "2026-10-16T15:00:00+04:00",
     "kervly_id": "p_B39YPJAIWZ8w"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-16T15:00:00+04:00",
+    "kervly_id": "p_o9Fm9kGHw_1y",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-20T12:00:00+04:00",
+    "zernio_id": "6ad4e533b15ebd20ede7a8fc"
    }
   },
   "v018": {
@@ -154,82 +202,168 @@
   },
   "v019": {
    "tiktok": {
-    "tarih": "2026-10-17T10:00:00+04:00",
-    "kervly_id": "p_OwO5bHiQ8mD-"
+    "tarih": "2026-10-21T12:00:00+04:00",
+    "zernio_id": "6ad4e5349f9f9f8fb7d2bc3f"
    },
    "youtube": {
     "tarih": "2026-10-17T10:00:00+04:00",
     "kervly_id": "p_5b91PBu8JSVw"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-17T10:00:00+04:00",
+    "kervly_id": "p_OwO5bHiQ8mD-",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-21T12:00:00+04:00",
+    "zernio_id": "6ad4e5349f9f9f8fb7d2bc3f"
    }
   },
   "v020": {
    "tiktok": {
-    "tarih": "2026-10-17T15:00:00+04:00",
-    "kervly_id": "p_96JUaVGOQ09O"
+    "tarih": "2026-10-24T12:00:00+04:00",
+    "zernio_id": "6ad4e537aac78fc19eee0804"
    },
    "youtube": {
     "tarih": "2026-10-17T15:00:00+04:00",
     "kervly_id": "p_ccS1XW8drZZW"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-17T15:00:00+04:00",
+    "kervly_id": "p_96JUaVGOQ09O",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-24T12:00:00+04:00",
+    "zernio_id": "6ad4e537aac78fc19eee0804"
    }
   },
   "v021": {
    "tiktok": {
-    "tarih": "2026-10-17T18:00:00+04:00",
-    "kervly_id": "p_szk9KwrE6D9K"
+    "tarih": "2026-10-23T21:00:00+04:00",
+    "zernio_id": "6ad4e5378bf2697e5f7988d0"
    },
    "youtube": {
     "tarih": "2026-10-17T18:00:00+04:00",
     "kervly_id": "p_2YaoUZhbbUMD"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-17T18:00:00+04:00",
+    "kervly_id": "p_szk9KwrE6D9K",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-23T21:00:00+04:00",
+    "zernio_id": "6ad4e5378bf2697e5f7988d0"
    }
   },
   "v022": {
    "tiktok": {
-    "tarih": "2026-10-18T10:00:00+04:00",
-    "kervly_id": "p_oJIbB-x7VGWw"
+    "tarih": "2026-10-22T21:00:00+04:00",
+    "zernio_id": "6ad4e536d3a6de139adeefd8"
    },
    "youtube": {
     "tarih": "2026-10-18T10:00:00+04:00",
     "kervly_id": "p_rDXcZpPgb66b"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-18T10:00:00+04:00",
+    "kervly_id": "p_oJIbB-x7VGWw",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-22T21:00:00+04:00",
+    "zernio_id": "6ad4e536d3a6de139adeefd8"
    }
   },
   "v043": {
    "tiktok": {
-    "tarih": "2026-10-18T15:00:00+04:00",
-    "kervly_id": "p_aqrVBS2-LvIv"
+    "tarih": "2026-10-22T12:00:00+04:00",
+    "zernio_id": "6ad4e535b302b725a3b07abc"
    },
    "youtube": {
     "tarih": "2026-10-18T15:00:00+04:00",
     "kervly_id": "p_hzNEE9hxO6k8"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-18T15:00:00+04:00",
+    "kervly_id": "p_aqrVBS2-LvIv",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-22T12:00:00+04:00",
+    "zernio_id": "6ad4e535b302b725a3b07abc"
    }
   },
   "v023": {
    "tiktok": {
-    "tarih": "2026-10-18T18:00:00+04:00",
-    "kervly_id": "p_5PDXSvsT3div"
+    "tarih": "2026-10-23T12:00:00+04:00",
+    "zernio_id": "6ad4e536bbf50a789d5288f0"
    },
    "youtube": {
     "tarih": "2026-10-18T18:00:00+04:00",
     "kervly_id": "p_Mfe7_8eWIT0x"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-18T18:00:00+04:00",
+    "kervly_id": "p_5PDXSvsT3div",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-23T12:00:00+04:00",
+    "zernio_id": "6ad4e536bbf50a789d5288f0"
    }
   },
   "v024": {
    "tiktok": {
     "tarih": "2026-10-19T10:00:00+04:00",
-    "kervly_id": "p_fe9NSaxVdg4V"
+    "zernio_id": "6ad4e531b32d41ed7cd36542"
    },
    "youtube": {
     "tarih": "2026-10-19T10:00:00+04:00",
     "kervly_id": "p_fZhmjS5uS0Z_"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-19T10:00:00+04:00",
+    "kervly_id": "p_fe9NSaxVdg4V",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-19T10:00:00+04:00",
+    "zernio_id": "6ad4e531b32d41ed7cd36542"
    }
   },
   "v025": {
    "tiktok": {
     "tarih": "2026-10-19T15:00:00+04:00",
-    "kervly_id": "p_UWRcDzITe4ht"
+    "zernio_id": "6ad4e5326ddc0248f07d1331"
    },
    "youtube": {
     "tarih": "2026-10-19T15:00:00+04:00",
     "kervly_id": "p_E6E8dQpDmZNu"
+   },
+   "tiktok_kervly_hata": {
+    "tarih": "2026-10-19T15:00:00+04:00",
+    "kervly_id": "p_UWRcDzITe4ht",
+    "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
+   },
+   "instagram": {
+    "tarih": "2026-10-19T15:00:00+04:00",
+    "zernio_id": "6ad4e5326ddc0248f07d1331"
+   }
+  },
+  "v045": {
+   "tiktok": {
+    "tarih": "2026-10-18T21:00:00+04:00",
+    "zernio_id": "6ad4e510ec364a70f347e488"
+   },
+   "instagram": {
+    "tarih": "2026-10-18T21:00:00+04:00",
+    "zernio_id": "6ad4e510ec364a70f347e488"
+   },
+   "youtube": {
+    "tarih": "2026-10-18T21:00:00+04:00",
+    "kervly_id": "p_wMQEQtKbIx7K"
    }
   }
  }

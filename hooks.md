@@ -58,3 +58,10 @@
 
 ## Veri uyarısı
 `data/tur-diyanetisleri.json` içinde bazı ardışık ayetler aynı metinle kayıtlı (Talak 2 = Talak 3, Saffat 143 = Saffat 144). Metin iki ayeti birlikte içerdiği için konuda yalnızca ilkini ver (ör. Talak için `"ayet": [2, 2]`, ekranda "2–3. ayet" yaz); `[2, 3]` verilirse `render.py` aynı meali iki kez okutur.
+
+## Veri (Zernio, 18 Ekim 2026) — hook kararlarına etkisi
+- TikTok'ta 2. saniyede kalan izleyici ortalama %34 → izleyicinin üçte ikisi ilk 2 saniyede kaydırıyor. Hook sorusu **ilk karede ekranda ve ilk 0,5 sn'de seste** olmalı; köprü cümlesi 2. saniyeden önce başlamalı.
+- YouTube'da en çok izlenenler izleyicinin hâlini doğrudan söyleyen hook'lar: "Başına gelenleri anlamlandıramıyorsan" (2.475), "Ölümü düşününce korkuyorsan" (1.973), "Sana kötülük edene ne yapıyorsun?" (1.689). Dert ne kadar somut ve kişiselse o kadar iyi.
+- Aramadan en çok trafik alan TikTok videosu "Çok günah işledim, artık affedilmem diyorsan" (%17 arama payı) → tövbe/af, rızık, kaygı gibi aranan dertler seçilmeli.
+- Instagram'da izleme süresi TikTok'un yaklaşık 2,6 katı (İnşirah reel: 8,6 sn) → aynı video iki platformda da paylaşılır.
+- Her gün `analytics/ozet.md`'deki 2. saniye oranına bak: %40'ın üstündeki hook'ların kalıbını tekrar kullan, %30'un altındakileri bırak.
