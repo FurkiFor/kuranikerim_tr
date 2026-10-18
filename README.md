@@ -119,7 +119,8 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
 ## Kurallar
 1. **Ayet metni asla elle ya da hafızadan yazılmaz.** Arapça ve meal sadece `data/` altındaki dosyalardan okunur. `topics.json`'a yalnızca sure ve ayet numarası girilir. `giris` ve `yorum` alanlarına meal metni kopyalanmaz.
 2. Yeni konu eklerken mealin ilgili ayetin anlamını taşıdığını `data/tur-diyanetisleri.json`'dan okuyarak kontrol et. Diyanet mealinde birleştirilmiş ayetler (aynı meal metni ardışık ayetlerde tekrar ediyorsa) ve çok uzun mealler (300 karakterden uzun) kullanılmaz. Daha önce kullanılan sure:ayet çiftleri tekrar edilmez.
-3. **Hook ve içerik çekme kuralları** (Reels/Shorts/TikTok):
+3. **Açılış (ilk 3 sn) — render.py `OPEN_*`, voice.py `OPEN_TEMPO`:** ses 0,06. saniyede başlar, hook ilk karede tam ve büyük, ilk 1,1 sn hızlı geri çekilme, ilk ~3 sn aydınlatılmış görüntü, hook %15 / köprü %10 hızlı okunur, köprü 2–3. saniyede başlar. Bu değerleri düşürme; değiştirirsen `analytics/ozet.md`'deki 2. saniye oranıyla karşılaştır.
+   **Hook ve içerik çekme kuralları** (Reels/Shorts/TikTok):
    - Hook ilk saniyede görünür ve okunur, en fazla ~10 kelime ve **izleyiciyi doğrudan sorgulayan bir sorudur** ("Yalnız mısın?", "Borcun mu var?", "Anneni en son ne zaman aradın?"). Soru, ayetin konusuyla doğrudan ilgili olmalı.
    - Merak uyandırabilir ama **yanıltıcı olamaz**: hook, giriş ve yorum mealin söylemediği bir şeyi vaat etmez, uydurma rakam/hadis/olay içermez.
    - `giris`: 1–2 kısa cümle, merak boşluğu açar ("Bu ayet tam olarak bunu anlatıyor.", "Kur'an başka bir yol gösteriyor."); hook'u tekrar etmez.
@@ -128,7 +129,7 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
    - `kapanis` kısa bir sonuç cümlesidir; render sonuna "Kaydet ve ihtiyacı olana gönder." ekler.
    - Video 20–40 saniye civarı olur (meal uzunluğuna göre).
 4. **Her videoda büyük, hareket eden bir karakter olur (v012 tarzı)**: karakter sahnenin altında, hikâye boyunca poz değiştirir (yürür, üzülür, dua eder, sevinir) ve ortam onunla birlikte karanlıktan aydınlığa döner. Yeni sahne yazılırsa bu kurala uyulur. Her konuya anlamına uyan bir `sahne` seç; art arda üç video aynı sahneyi kullanmasın.
-5. Paylaşım saatleri (Asia/Dubai): yeni videolar 10:00, 15:00, 18:00 (gece hitaplı olan 23:00). 12:00 ve 21:00 eski videoların TikTok/Instagram'a yeniden paylaşımı (birikim) için ayrılır. Günde 3 yeni video.
+5. Paylaşım saatleri ve sıklık `analytics/strateji.md`'ye göre (Asia/Dubai): yeni videolar 10:00, 18:00, 20:00 (gece hitaplı olan 20:00 yerine 00:30), üç platformda aynı saatte. 12:00 ve 21:00 TikTok/Instagram tekrar paylaşımlarına ayrılır. Günde 3 yeni video; günün 3 videosundan biri `kisa: true` (15–25 sn) — 2 haftalık test. İçerik karışımı: günde 2 acı+teselli, 1 pratik dua/zikir ya da kıssa köprüsü; bilgi/sır videosu haftada en fazla 2.
 6. Her video aynı saatte TikTok + Instagram Reels (Zernio) ve YouTube Shorts'ta (Kervly) yayınlanır. Metricool ve Kervly'nin TikTok'u kullanılmaz (Kervly TikTok 403 / invalid_client).
 7. TikTok ayarları: `title` zorunludur (hook metni kullanılır), `PUBLIC_TO_EVERYONE`, `autoAddMusic: false`, `isAigc: false` (kullanıcı AI etiketini kapattı).
 8. YouTube ayarları: `providers: [{network: youtube}]`, `youtubeData`: `title` = hook, `type: short`, `privacy: public`, `madeForKids: false`, `isAiGeneratedContent: false`, `category: EDUCATION`, `tags` = konunun etiketleri + kuran, ayet, kuranikerim, islam. `text` = TikTok ile aynı açıklama.

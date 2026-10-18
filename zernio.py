@@ -206,6 +206,21 @@ def _avg(rows, k):
     return round(sum(v) / len(v), 3) if v else None
 
 
+def _hour_table(rows):
+    """Dubai saatine göre ortalama izlenme ve 2. saniye oranı (kendi verimizden; saat başına gönderi sayısıyla)."""
+    out = {}
+    for r in rows:
+        if not r.get('tarih'):
+            continue
+        h = datetime.fromisoformat(r['tarih'].replace('Z', '+00:00')).astimezone(DUBAI).hour
+        o = out.setdefault(h, {'gonderi': 0, 'izlenme': 0, 'k2': []})
+        o['gonderi'] += 1; o['izlenme'] += r['izlenme'] or 0
+        if r.get('kalan_2sn') is not None: o['k2'].append(r['kalan_2sn'])
+    return {f'{h:02d}': {'gonderi': o['gonderi'], 'ort_izlenme': round(o['izlenme'] / o['gonderi']),
+                         'ort_kalan_2sn': round(sum(o['k2']) / len(o['k2']), 2) if o['k2'] else None}
+            for h, o in sorted(out.items())}
+
+
 def stats():
     accs = accounts()
     st = json.load(open(f'{BASE}/state.json')).get('planlanan', {})
@@ -227,6 +242,12 @@ def stats():
             if len(d.get('posts', [])) < 50:
                 break
         rows.sort(key=lambda r: r['tarih'] or '', reverse=True)
+        extra = {}
+        for k, path in (('en_iyi_saat', '/analytics/best-time'), ('siklik', '/analytics/posting-frequency'), ('eskime', '/analytics/content-decay')):
+            try:
+                extra[k] = call('GET', f"{path}?accountId={a['_id']}")
+            except Exception as e:
+                extra[k] = {'hata': str(e)[:200]}
         out['hesaplar'][p] = {
             'kullanici': a.get('username'), 'takipci': a.get('followersCount'),
             'profil': (a.get('metadata') or {}).get('profileData', {}).get('extraData', {}),
@@ -234,6 +255,7 @@ def stats():
             'ortalama': {k: _avg(rows, k) for k in ('izlenme', 'begeni', 'kaydetme', 'paylasim', 'takip',
                                                   'etkilesim_orani', 'ort_izleme_sn', 'kalan_2sn', 'kalan_6sn', 'arama_payi')},
             'gonderi_sayisi': len(rows), 'gonderiler': rows,
+            'saat_analizi': _hour_table(rows), 'zernio_analiz': extra,
         }
     os.makedirs(f'{BASE}/analytics', exist_ok=True)
     json.dump(out, open(f'{BASE}/analytics/zernio.json', 'w'), ensure_ascii=False, indent=1)
@@ -261,6 +283,9 @@ def _ozet(out, hist_lines):
         if o.get('kalan_2sn') is not None:
             L.append(f"- 2. saniyede kalan izleyici: %{round(o['kalan_2sn'] * 100)} · 6. saniyede: %{round((o['kalan_6sn'] or 0) * 100)}"
                      f" · aramadan gelen pay: %{round((o['arama_payi'] or 0) * 100)}")
+        if h.get('saat_analizi'):
+            L.append('- Saat (Dubai) → ort. izlenme [gönderi]: ' + ', '.join(
+                f"{k}:00 → {v['ort_izlenme']} [{v['gonderi']}]" for k, v in h['saat_analizi'].items()))
         L.append('')
         L.append('| id | tarih | izl. | beğ. | kay. | paylş | 2sn | ilk satır |')
         L.append('|---|---|---|---|---|---|---|---|')

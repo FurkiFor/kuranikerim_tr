@@ -65,3 +65,9 @@
 - Aramadan en çok trafik alan TikTok videosu "Çok günah işledim, artık affedilmem diyorsan" (%17 arama payı) → tövbe/af, rızık, kaygı gibi aranan dertler seçilmeli.
 - Instagram'da izleme süresi TikTok'un yaklaşık 2,6 katı (İnşirah reel: 8,6 sn) → aynı video iki platformda da paylaşılır.
 - Her gün `analytics/ozet.md`'deki 2. saniye oranına bak: %40'ın üstündeki hook'ların kalıbını tekrar kullan, %30'un altındakileri bırak.
+
+## Veri (YouTube + TikTok, 18 Ekim akşamı) — içerik ve hook türü
+- Kazananlar izleyicinin ŞU AN yaşadığı somut acıyı söylüyor: "Başına gelenleri anlamlandıramıyorsan" (2.487, %73 izlenme oranı), "Ölümü düşününce korkuyorsan" (1.981), "Sana kötülük edene ne yapıyorsun?" (1.692), "Moralin bozuksa ve yıkılmış hissediyorsan" (%88 izlenme oranı).
+- Kaybedenler soyut bilgi/merak sorusu: "Duanda ne isteyeceğini biliyor musun?" (30 saatte 4), "Pişmanlığını Allah'a nasıl söylersin?" (18), "Hangi sure besmelesiz başlar?" (ilk gün 3).
+- Kural: hook ≤8 kelime, ikinci tekil şahıs, kişisel ve şu anki bir dert. Hâl cümlesi ("…yorsan") de soru ("…mı?") da olur; "biliyor musun / nerede / hangi" ile başlayan bilgi soruları kullanılmaz (sır videoları hariç, onlar da haftada en fazla 2).
+- İlk karede v018–v022'de hook yazısı yoktu (karanlık boş sahne); 18 Ekim'den itibaren render hook'u ilk karede tam gösterir.

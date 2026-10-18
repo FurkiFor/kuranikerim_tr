@@ -175,6 +175,14 @@ def segments(tp):
         if ses.get('yorum'): segs.append(('yorum', ses['yorum'], None, 0.5))
         segs.append(('cta', cta, None, 1.4))
         return segs
+    if tp.get('kisa'):   # kısa format (15–25 sn): hook + köprü + ayet + kapanış; "Rabbimiz şöyle buyuruyor" ve yorum yok
+        segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', giris, None, 0.3)]
+        for v in range(a, b + 1):
+            tr = TR[(c, v)].strip()
+            if not tr.endswith(('.', '!', '?', '"')): tr += '.'
+            segs.append(('meal', tr, v, 0.45 if v < b else 0.55))
+        segs.append(('cta', cta, None, 1.0))
+        return segs
     segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', giris, None, 0.38),
             ('intro', f"{sname} Suresi'nde Rabbimiz şöyle buyuruyor:", None, 0.32)]
     for v in range(a, b + 1):
