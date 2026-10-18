@@ -135,8 +135,8 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
 8. YouTube ayarları: `providers: [{network: youtube}]`, `youtubeData`: `title` = hook, `type: short`, `privacy: public`, `madeForKids: false`, `isAiGeneratedContent: false`, `category: EDUCATION`, `tags` = konunun etiketleri + kuran, ayet, kuranikerim, islam. `text` = TikTok ile aynı açıklama.
 9. Kalite kontrolü: her yeni videodan 3 kare al (ffmpeg `-ss 1`, mealin ortası, son 2 sn) ve bak: Arapça kart taşmıyor, altyazı okunuyor, sahne görünüyor. `ffmpeg -af ebur128` ile ses ~-14 LUFS olmalı.
 
-## Ayet kartı (tur: "kart")
-`kart.py`: 8–14 sn, seslendirmesiz, ilahi müzikli, döngülü kısa video. Diyanet mealinden birebir tek cümle (`kart_metin`, mealde aynen geçmeli — kod kontrol eder) + sure·ayet etiketi (kısa ayette tek satır Arapça). `python3 render.py <id>` kartı otomatik kart.py ile üretir; render iş akışı kartlar için seslendirme aramaz. Gerekçe: `analytics/strateji.md` "Viral format araştırması".
+## Tilavet kartı (tur: "kart", ses: "tilavet")
+`kart.py`: 10–24 sn döngülü kısa video. Gerçek tilavet (Ali el-Huzeyfi, `recitations/hudhaify/SSSAAA.mp3`; render iş akışı eksikleri everyayah.com/Hudhaify_128kbps'ten indirir ve commit eder), üstte altın kanca cümlesi (`ust`), ortada Arapça (tilavetin sesine göre parlar) + Diyanet mealinden birebir parça (`sayfalar[].metin`, kod kontrol eder), altta ilerleme çizgisi; çok ayetli dualarda her ayet ayrı sayfa. `python3 render.py <id>` kartı kart.py ile üretir; `python3 kart.py --check <id>` metinleri doğrular. `ses` alanı olmayan eski sade kart (yalnız ilahi müziği) hâlâ desteklenir ama kullanılmaz. Gerekçe: `analytics/strateji.md` "2. tur", deneyler: `analytics/arastirma.md`.
 
 ## Zernio (TikTok + Instagram)
 - `zernio.py` — istatistik ve planlama; anahtar yalnızca `ZERNIO_API_KEY` ortam değişkeninden (repo secret). Koda/commit'e anahtar yazılmaz.

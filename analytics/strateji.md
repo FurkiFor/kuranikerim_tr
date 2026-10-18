@@ -86,3 +86,11 @@ TikTok + Instagram'da son 30 günde 0,6–2 M izlenen 24 Türkçe dini video (ç
 - Ses çoğunlukla yalnız müzik/ilahi; bazılarında sakin erkek sesiyle birinci şahıs dua ("Allah'ım…", "Ya Rabbi…").
 - Kaydetmelik liste/görsel: "Peygamberlerin duaları" (1,4 M), "Tövbe duası" (1,4 M).
 Bizim uyarlama: **ayet kartı** (kart.py) — mealden birebir tek cümle, ilahi müzik, 11 sn, döngü. Günde 2 kart + 3 anlatımlı; 2 hafta sonra kartın 2. saniye oranı, izlenme ve paylaşımı anlatımlıyla karşılaştırılır. Kullanmadığımız viral kalıplar: "anında etkisini gösteren dua", hafızadan hadis, "3 kişiye gönder" (kurallarımıza aykırı).
+
+### 2. tur (vidIQ, 19 Ekim 2026 gece) — sade kart yetmez, **tilavet kartı**na geçildi
+- En büyük vuruşlar gerçek ses + duygu: Felak tilaveti Short 2,4 M (28 sn), Fatiha + doğa 1,49 M, çok sayıda 5–16 sn tilavet klibi; Kâbe'de ağlayan adam montajları 2,9 M / 1,5 M; Hira mağarası POV 12,3 M; ezanlı güvenlik kamerası 6,8 M.
+- Kaydetmelik liste: "3 dua" (Arapça tilavet + Türkçe yazı) 1,9 M; peygamber kıssası dramatik yazı + nağme 1,8 M / 2,6 M; bilgi yarışması 1,7 M; el yazısı not 3,1 M.
+- Türkçe örnek: "Yalnız Hissediyorsan Bu Ayet Senin İçin" — 7 sn, 182 B izlenme, 334 aboneli kanal: izleyiciye seslenen üst cümle + ayet.
+- Karar: sade müzik kartı (v046–v060 ilk sürüm) yayına çıkmadan **tilavet kartı** ile değiştirildi: üstte altın renkli kanca cümlesi (izleyicinin hâli ya da açık adlı peygamber duası), gerçek tilavet (Ali el-Huzeyfi, 0,05 sn'de başlar), Arapça + Diyanet meali, sesle nefes alan parıltı, ilerleme çizgisi, 10–24 sn, döngü. Günde 3 kart (13:00, 18:00, 23:30) + 2 anlatımlı (10:00, 20:30). 7 gün sonra kart / anlatımlı karşılaştırması (2. sn oranı, izlenme, paylaşım, takip) → karışım ona göre.
+- Deneyler: `analytics/arastirma.md` "Deney kuyruğu".
+
