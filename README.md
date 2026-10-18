@@ -137,7 +137,7 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
 
 ## Zernio (TikTok + Instagram)
 - `zernio.py` — istatistik ve planlama; anahtar yalnızca `ZERNIO_API_KEY` ortam değişkeninden (repo secret). Koda/commit'e anahtar yazılmaz.
-- Hesaplar: TikTok `@kuranikerim_tr`, Instagram `@rahsid_nur` (Zernio ücretsiz plan: 2 hesap). YouTube Zernio'da değil, Kervly'de.
+- Hesaplar: TikTok `@kuranikerim_tr`, Instagram `@kuranikerim_tr` (eski adı `@rahsid_nur`) (Zernio ücretsiz plan: 2 hesap). YouTube Zernio'da değil, Kervly'de.
 - Claude'un bulut oturumu zernio.com'a bağlanamaz; çağrılar GitHub Actions'taki **Zernio** iş akışıyla yapılır:
   - Planlamak için `zernio/queue.json`'a `{"id","at","platforms":["tiktok","instagram"]}` ekle ve push et → iş akışı planlar, `zernio_id`'yi queue.json'a ve `state.json`'a (`planlanan.<id>.tiktok/instagram`) yazar ve commit'ler.
   - Her gün 08:20 (Dubai) istatistik: `analytics/ozet.md` (okunur özet), `analytics/zernio.json` (video bazında izlenme, beğeni, kaydetme, paylaşım, 2./6. saniyede kalan izleyici, aramadan gelen pay), `analytics/zernio-gecmis.jsonl` (günlük takipçi).

@@ -22,7 +22,7 @@ ISO-tarih örneği: 2026-10-19T12:00:00+04:00 (Asia/Dubai).
 Kurallar (README → "Zernio"):
 - TikTok: PUBLIC_TO_EVERYONE (Business bağlantısında videolar yalnızca herkese açık olabilir),
   yorum/duet/stitch açık, auto_add_music false, video_made_with_ai false (kullanıcı AI etiketini kapattı).
-- Instagram: Reels, shareToFeed true.
+- Instagram (@kuranikerim_tr, eski adı @rahsid_nur): Reels, shareToFeed true.
 - YouTube Zernio'da bağlı değil; YouTube Kervly ile planlanır.
 """
 import json, os, sys, time, urllib.request, urllib.error
@@ -34,7 +34,7 @@ RAW = 'https://raw.githubusercontent.com/FurkiFor/kuranikerim_tr/main/videos/{}.
 TZ = 'Asia/Dubai'
 DUBAI = timezone(timedelta(hours=4))
 # Hesaplar kullanıcı adıyla eşleştirilir (id'ler değişebilir; her çağrıda /accounts'tan çözülür)
-HANDLES = {'tiktok': 'kuranikerim_tr', 'instagram': 'rahsid_nur'}
+HANDLES = {'tiktok': ('kuranikerim_tr',), 'instagram': ('kuranikerim_tr', 'rahsid_nur')}  # Instagram 18 Ekim'de rahsid_nur -> kuranikerim_tr
 
 sys.path.insert(0, BASE)
 
@@ -71,7 +71,7 @@ def accounts():
     out = {}
     for a in call('GET', '/accounts').get('accounts', []):
         p = a.get('platform'); u = a.get('username')
-        if p in HANDLES and (u == HANDLES[p] or p not in out):
+        if p in HANDLES and (u in HANDLES[p] or p not in out):
             out[p] = a
     return out
 
