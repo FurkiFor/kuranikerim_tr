@@ -30,6 +30,12 @@ SURE = json.load(open(f'{BASE}/surahs.json'))
 ESKI_BG = {'gece': 'yildiz', 'safak': 'yol', 'deniz': 'deniz', 'fener': 'fener', 'geometri': 'yildiz'}
 MUSIC_VOL = float(os.environ.get('KT_MUSIC', '0.2'))  # 0 = müziksiz
 GAP_K = float(os.environ.get('KT_GAP', '1.0'))        # parçalar arası sessizlik çarpanı
+# AÇILIŞ (ilk 3 sn — Zernio verisi: TikTok'ta izleyicinin %66'sı 2. saniyede kaydırıyordu; hook-writer + youtube-shorts "Stop")
+#   ses ilk 0,06 sn'de başlar · hook→köprü boşluğu kısa (köprü 2. saniyeden önce) · ilk 1,1 sn hızlı geri çekilme
+#   ilk ~3 sn pozlama yükseltilir (akışta "siyah ekran" görünmesin) · hook ilk karede tam ve büyük
+OPEN_LEAD, OPEN_GAP = 0.06, 0.28
+OPEN_PUNCH, OPEN_PUNCH_T = 0.22, 1.1
+OPEN_GAIN, OPEN_GAIN_T = 0.38, (1.6, 3.2)
 
 # metin yerleşimi: yazılar gökyüzünde, karakter zeminde
 Y_TAG, Y_AR, Y_HOOK, Y_CAP = 118, 330, 640, 790
@@ -160,7 +166,7 @@ def segments(tp):
     kap = tp['kapanis'].rstrip('.') + '.'
     cta = ses.get('kapanis') or f"{kap} Kaydet ve ihtiyacı olana gönder."
     if tp.get('tilavet'):   # tilavet videosu: her ayet önce gerçek kâri sesiyle Arapça, ardından Türkçe meal
-        segs = [('hook', tp['hook'], None, 0.55), ('giris', giris, None, 0.6)]
+        segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', giris, None, 0.45)]
         for v in range(a, b + 1):
             tr = TR[(c, v)].strip()
             if not tr.endswith(('.', '!', '?', '"')): tr += '.'
@@ -169,8 +175,8 @@ def segments(tp):
         if ses.get('yorum'): segs.append(('yorum', ses['yorum'], None, 0.5))
         segs.append(('cta', cta, None, 1.4))
         return segs
-    segs = [('hook', tp['hook'], None, 0.65), ('giris', giris, None, 0.5),
-            ('intro', f"{sname} Suresi'nde Rabbimiz şöyle buyuruyor:", None, 0.4)]
+    segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', giris, None, 0.38),
+            ('intro', f"{sname} Suresi'nde Rabbimiz şöyle buyuruyor:", None, 0.32)]
     for v in range(a, b + 1):
         tr = TR[(c, v)].strip()
         if not tr.endswith(('.', '!', '?', '"')): tr += '.'
@@ -206,8 +212,8 @@ def recitation(tp, v):
 def build_timeline(tp):
     segs = segments(tp)
     if VO.MCP: VO.load_mcp(tp['id'])
-    audio, tl, t = [], [], 0.35
-    audio.append(np.zeros(int(0.35 * VO.SR), np.float32))
+    audio, tl, t = [], [], OPEN_LEAD
+    audio.append(np.zeros(int(OPEN_LEAD * VO.SR), np.float32))
     for i, (kind, text, v, gap) in enumerate(segs):
         prev_t = segs[i - 1][1] if i else None; next_t = segs[i + 1][1] if i + 1 < len(segs) else None
         if kind == 'tilavet':
@@ -302,11 +308,17 @@ def kurgu_of(tp):
 
 def cam_move(kind, i, t, u, lt):
     """kind=None: eski (v3) hareket. u: çekim ilerlemesi 0..1, lt: çekim içi süre (sn)."""
+    cam = _cam_move(kind, i, t, u, lt)
+    if i == 0 and t < OPEN_PUNCH_T:   # açılış: ilk karede yakın, 1,1 sn'de hızlı geri çekilme (ilk saniyede hareket)
+        cam.z += OPEN_PUNCH * (1 - CI.ease_out(t / OPEN_PUNCH_T))
+    return cam
+
+
+def _cam_move(kind, i, t, u, lt):
     dx, dy = 18 * math.sin(t * 0.13 + i), 8 * math.sin(t * 0.09)
     e = CI.ease_io(u)
     if kind is None:
         z = 1.015 + 0.06 * e
-        if i == 0: z += 0.10 * (1 - CI.ease_out(t / 3.0))   # açılışta yavaş geri çekilme
         return CI.Cam(dx, dy, z)
     if kind == 'sabit':
         return CI.Cam(dx * 0.4, dy * 0.4, 1.03)
@@ -340,8 +352,8 @@ def render(tp, out):
     hook, cta = tl[0], tl[-1]
     WHITE, ACC, DIM = (255, 255, 255, 255), acc + (255,), (255, 255, 255, 255)
     # hook ve kapanış: büyük serif, kelime kelime
-    hsize = 104 if len(hook['text']) < 28 else 92 if len(hook['text']) < 44 else 80
-    hook_sp, _ = word_sprites([w for w, _, _ in hook['words']], F_HOOK(hsize), 920, Y_HOOK, {'w': WHITE, 'a': ACC}, shadow=0.7)
+    hsize = 118 if len(hook['text']) < 28 else 104 if len(hook['text']) < 44 else 90
+    hook_sp, _ = word_sprites([w for w, _, _ in hook['words']], F_HOOK(hsize), 960, Y_HOOK - 30, {'w': WHITE, 'a': ACC}, shadow=0.85)
     cta_sp, cta_h = word_sprites([w for w, _, _ in cta['words']], F_HOOK(76), 900, Y_HOOK - 40, {'w': WHITE, 'a': ACC}, shadow=0.7)
     # altyazı parçaları (giriş, intro, meal, yorum)
     capsegs = []
@@ -422,7 +434,7 @@ def render(tp, out):
         draw_img(c, tag, 0, Y_TAG - 30, 0.85 * clamp01(t / 0.8))
         # HOOK
         if t < hook['end'] + 0.45:
-            fade = 1 - clamp01((t - hook['end'] - 0.05) / 0.35)
+            fade = 1 - clamp01((t - hook['end'] - 0.02) / 0.22)
             words_draw(hook_sp, hook['words'], t, 0.35, True, fade, 22, pre=True)   # youtube-shorts: hook ilk karede okunur
         # Arapça (ayet boyunca)
         cv = None
@@ -456,10 +468,14 @@ def render(tp, out):
             draw_img(c, handle, 0, Y_HOOK - 40 + cta_h / 2 + 90, fa)
         # ince ilerleme çizgisi
         c.drawRect(skia.Rect(0, 0, W * t / total, 4), CI.paint(accH, 0.55))
-        arr = surf.makeImageSnapshot().toarray(colorType=skia.ColorType.kRGBA_8888_ColorType)
+        arr = post(surf.makeImageSnapshot().toarray(colorType=skia.ColorType.kRGBA_8888_ColorType), fi)
+        if t < OPEN_GAIN_T[1]:   # açılış pozlaması: ilk saniyelerde daha aydınlık, sonra karanlık belgesel tonuna iner
+            g = 1 + OPEN_GAIN * (1 - CI.smooth(clamp01((t - OPEN_GAIN_T[0]) / (OPEN_GAIN_T[1] - OPEN_GAIN_T[0]))))
+            rgb = arr[..., :3].astype(np.uint32) * int(g * 256) >> 8
+            arr[..., :3] = np.minimum(rgb, 255).astype(np.uint8)
         if stills:
-            Image.fromarray(post(arr, fi)[..., :3]).save(f'{out}.{t:05.1f}.png'); continue
-        ff.stdin.write(post(arr, fi).tobytes())
+            Image.fromarray(arr[..., :3]).save(f'{out}.{t:05.1f}.png'); continue
+        ff.stdin.write(arr.tobytes())
     if stills:
         os.remove(aud); return total
     ff.stdin.close(); ff.wait(); os.remove(aud)

@@ -201,8 +201,13 @@ def load_mcp(vid):
     _MCP = {seg['text']: f'{BASE}/voiceovers/{vid}/{i:02d}.mp3' for i, seg in enumerate(man['segments'])}
 
 
-def _decode(path):
-    pcm = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', path, '-f', 'f32le', '-ac', '1', '-ar', str(SR), 'pipe:1'],
+# Açılış temposu (ilk 3 sn): hook ve köprü cümlesi perde değişmeden hızlandırılır (ffmpeg atempo). 1.0 = kapalı.
+OPEN_TEMPO = {'hook': float(os.environ.get('KT_HOOK_TEMPO', '1.15')), 'giris': float(os.environ.get('KT_GIRIS_TEMPO', '1.10'))}
+
+
+def _decode(path, tempo=1.0):
+    af = ['-af', f'atempo={tempo:.3f}'] if abs(tempo - 1.0) > 0.005 else []
+    pcm = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', path, *af, '-f', 'f32le', '-ac', '1', '-ar', str(SR), 'pipe:1'],
                          capture_output=True, check=True).stdout
     return np.frombuffer(pcm, np.float32).copy()
 
@@ -274,10 +279,10 @@ def align_by_silence(audio, text):
     return words
 
 
-def _mcp_segment(text):
+def _mcp_segment(text, tempo=1.0):
     if _MCP is None or text not in _MCP:
         raise SystemExit(f'MCP seslendirmesinde bu parça yok: {text[:60]}')
-    audio = _decode(_MCP[text])
+    audio = _decode(_MCP[text], tempo)
     words = align_by_silence(audio, text)
     t0 = max(0.0, words[0][1] - 0.06); t1 = min(len(audio) / SR, words[-1][2] + 0.28)
     # kelime hizalaması konuşmanın başını/sonunu kaçırırsa kesme: sesli bölümün tamamı korunur
@@ -294,7 +299,7 @@ def _mcp_segment(text):
 def synth_segment(text, kind=None, prev_text=None, next_text=None):
     """text: ekranda gösterilecek metin. Döner: ses, kelime zamanları (ekrandaki kelimelerle)."""
     if MCP:
-        return _mcp_segment(text)
+        return _mcp_segment(text, OPEN_TEMPO.get(kind, 1.0))
     if EL:
         return _el_segment(text, kind, prev_text, next_text)
     tts = engine()
