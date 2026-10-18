@@ -1155,5 +1155,425 @@
    "yorum": "[deep voice] [whispers]",
    "cta": "[deep voice] [dramatically]"
   }
+ },
+ {
+  "id": "v046",
+  "tur": "kart",
+  "sure": 94,
+  "ayet": [
+   6,
+   6
+  ],
+  "kart_metin": "Gerçekten, güçlükle beraber bir kolaylık vardır",
+  "sahne": "yol",
+  "kart_sn": 11,
+  "hook": "Gerçekten, güçlükle beraber bir kolaylık vardır",
+  "tema": "Zorluk",
+  "etiketler": [
+   "zorluk",
+   "umut"
+  ],
+  "aciklama": "İnşirâh Suresi 6. ayet, Diyanet meali.",
+  "kapanis": "Gerçekten, güçlükle beraber bir kolaylık vardır",
+  "seo": {
+   "yt_baslik": "Güçlükle Beraber Bir Kolaylık Vardır | İnşirah 6",
+   "ilk_satir": "Gerçekten, güçlükle beraber bir kolaylık vardır",
+   "aciklama": "İnşirâh Suresi 6. ayet, Diyanet meali.",
+   "anahtar": [
+    "güçlükle beraber kolaylık ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v047",
+  "tur": "kart",
+  "sure": 93,
+  "ayet": [
+   3,
+   3
+  ],
+  "kart_metin": "Rabbin seni ne bıraktı ve ne de sana darıldı",
+  "sahne": "yildiz",
+  "kart_sn": 11,
+  "hook": "Rabbin seni ne bıraktı ve ne de sana darıldı",
+  "tema": "Yalnızlık",
+  "etiketler": [
+   "yalnızlık",
+   "teselli"
+  ],
+  "aciklama": "Duhâ Suresi 3. ayet, Diyanet meali.",
+  "kapanis": "Rabbin seni ne bıraktı ve ne de sana darıldı",
+  "seo": {
+   "yt_baslik": "Rabbin Seni Bırakmadı | Duha Suresi 3",
+   "ilk_satir": "Rabbin seni ne bıraktı ve ne de sana darıldı",
+   "aciklama": "Duhâ Suresi 3. ayet, Diyanet meali.",
+   "anahtar": [
+    "rabbin seni terk etmedi ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v048",
+  "tur": "kart",
+  "sure": 50,
+  "ayet": [
+   16,
+   16
+  ],
+  "kart_metin": "Biz ona şah damarından daha yakınız",
+  "sahne": "yildiz",
+  "kart_sn": 11,
+  "hook": "Biz ona şah damarından daha yakınız",
+  "tema": "Yakınlık",
+  "etiketler": [
+   "yakınlık",
+   "allah"
+  ],
+  "aciklama": "Kâf Suresi 16. ayet, Diyanet meali.",
+  "kapanis": "Biz ona şah damarından daha yakınız",
+  "seo": {
+   "yt_baslik": "Şah Damarından Daha Yakın | Kaf Suresi 16",
+   "ilk_satir": "Biz ona şah damarından daha yakınız",
+   "aciklama": "Kâf Suresi 16. ayet, Diyanet meali.",
+   "anahtar": [
+    "şah damarından yakın ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v049",
+  "tur": "kart",
+  "sure": 13,
+  "ayet": [
+   28,
+   28
+  ],
+  "kart_metin": "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur",
+  "sahne": "kalp",
+  "kart_sn": 11,
+  "hook": "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur",
+  "tema": "Huzur",
+  "etiketler": [
+   "huzur",
+   "zikir"
+  ],
+  "aciklama": "Ra'd Suresi 28. ayet, Diyanet meali.",
+  "kapanis": "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur",
+  "seo": {
+   "yt_baslik": "Kalpler Ancak Allah'ı Anmakla Huzur Bulur | Ra'd 28",
+   "ilk_satir": "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur",
+   "aciklama": "Ra'd Suresi 28. ayet, Diyanet meali.",
+   "anahtar": [
+    "kalpler ancak allahı anmakla huzur bulur"
+   ]
+  }
+ },
+ {
+  "id": "v050",
+  "tur": "kart",
+  "sure": 3,
+  "ayet": [
+   173,
+   173
+  ],
+  "kart_metin": "Allah bize yeter. O ne güzel Vekil'dir",
+  "sahne": "deniz",
+  "kart_sn": 11,
+  "hook": "Allah bize yeter. O ne güzel Vekil'dir",
+  "tema": "Tevekkül",
+  "etiketler": [
+   "tevekkül",
+   "hasbunallah"
+  ],
+  "aciklama": "Âl-i İmrân Suresi 173. ayet, Diyanet meali.",
+  "kapanis": "Allah bize yeter. O ne güzel Vekil'dir",
+  "seo": {
+   "yt_baslik": "Allah Bize Yeter, O Ne Güzel Vekil | Âl-i İmrân 173",
+   "ilk_satir": "Allah bize yeter. O ne güzel Vekil'dir",
+   "aciklama": "Âl-i İmrân Suresi 173. ayet, Diyanet meali.",
+   "anahtar": [
+    "hasbunallah ve nimel vekil anlamı"
+   ]
+  }
+ },
+ {
+  "id": "v051",
+  "tur": "kart",
+  "sure": 2,
+  "ayet": [
+   286,
+   286
+  ],
+  "kart_metin": "Allah kişiye ancak gücünün yeteceği kadar yükler",
+  "sahne": "kum",
+  "kart_sn": 11,
+  "hook": "Allah kişiye ancak gücünün yeteceği kadar yükler",
+  "tema": "Imtihan",
+  "etiketler": [
+   "imtihan",
+   "sabır"
+  ],
+  "aciklama": "Bakara Suresi 286. ayet, Diyanet meali.",
+  "kapanis": "Allah kişiye ancak gücünün yeteceği kadar yükler",
+  "seo": {
+   "yt_baslik": "Allah Gücünün Yeteceği Kadar Yükler | Bakara 286",
+   "ilk_satir": "Allah kişiye ancak gücünün yeteceği kadar yükler",
+   "aciklama": "Bakara Suresi 286. ayet, Diyanet meali.",
+   "anahtar": [
+    "allah kuluna taşıyamayacağı yük vermez ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v052",
+  "tur": "kart",
+  "sure": 12,
+  "ayet": [
+   87,
+   87
+  ],
+  "kart_metin": "Allah'ın rahmetinden ümidinizi kesmeyin",
+  "sahne": "fener",
+  "kart_sn": 11,
+  "hook": "Allah'ın rahmetinden ümidinizi kesmeyin",
+  "tema": "Umut",
+  "etiketler": [
+   "umut",
+   "rahmet"
+  ],
+  "aciklama": "Yûsuf Suresi 87. ayet, Diyanet meali.",
+  "kapanis": "Allah'ın rahmetinden ümidinizi kesmeyin",
+  "seo": {
+   "yt_baslik": "Allah'ın Rahmetinden Ümit Kesmeyin | Yusuf 87",
+   "ilk_satir": "Allah'ın rahmetinden ümidinizi kesmeyin",
+   "aciklama": "Yûsuf Suresi 87. ayet, Diyanet meali.",
+   "anahtar": [
+    "allahın rahmetinden ümit kesmeyin ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v053",
+  "tur": "kart",
+  "sure": 2,
+  "ayet": [
+   186,
+   186
+  ],
+  "kart_metin": "Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım",
+  "sahne": "yildiz",
+  "kart_sn": 11,
+  "hook": "Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "yakınlık"
+  ],
+  "aciklama": "Bakara Suresi 186. ayet, Diyanet meali.",
+  "kapanis": "Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım",
+  "seo": {
+   "yt_baslik": "Ben Kullarıma Yakınım | Bakara 186",
+   "ilk_satir": "Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım",
+   "aciklama": "Bakara Suresi 186. ayet, Diyanet meali.",
+   "anahtar": [
+    "ben kullarıma yakınım ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v054",
+  "tur": "kart",
+  "sure": 33,
+  "ayet": [
+   51,
+   51
+  ],
+  "kart_metin": "Allah kalblerinizde olanı bilir",
+  "sahne": "kalp",
+  "kart_sn": 11,
+  "hook": "Allah kalblerinizde olanı bilir",
+  "tema": "Kalp",
+  "etiketler": [
+   "kalp",
+   "niyet"
+  ],
+  "aciklama": "Ahzâb Suresi 51. ayet, Diyanet meali.",
+  "kapanis": "Allah kalblerinizde olanı bilir",
+  "seo": {
+   "yt_baslik": "Allah Kalplerinizde Olanı Bilir | Ahzab 51",
+   "ilk_satir": "Allah kalblerinizde olanı bilir",
+   "aciklama": "Ahzâb Suresi 51. ayet, Diyanet meali.",
+   "anahtar": [
+    "allah kalplerinizde olanı bilir ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v055",
+  "tur": "kart",
+  "sure": 57,
+  "ayet": [
+   4,
+   4
+  ],
+  "kart_metin": "Nerede olursanız olun, O, sizinle beraberdir",
+  "sahne": "deniz",
+  "kart_sn": 11,
+  "hook": "Nerede olursanız olun, O, sizinle beraberdir",
+  "tema": "Yakınlık",
+  "etiketler": [
+   "yakınlık",
+   "güven"
+  ],
+  "aciklama": "Hadîd Suresi 4. ayet, Diyanet meali.",
+  "kapanis": "Nerede olursanız olun, O, sizinle beraberdir",
+  "seo": {
+   "yt_baslik": "Nerede Olursanız Olun O Sizinle Beraberdir | Hadid 4",
+   "ilk_satir": "Nerede olursanız olun, O, sizinle beraberdir",
+   "aciklama": "Hadîd Suresi 4. ayet, Diyanet meali.",
+   "anahtar": [
+    "allah sizinle beraberdir ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v056",
+  "tur": "kart",
+  "sure": 65,
+  "ayet": [
+   3,
+   3
+  ],
+  "kart_metin": "Allah'a güvenen kimseye O yeter",
+  "sahne": "tohum",
+  "kart_sn": 11,
+  "hook": "Allah'a güvenen kimseye O yeter",
+  "tema": "Tevekkül",
+  "etiketler": [
+   "tevekkül",
+   "rızık"
+  ],
+  "aciklama": "Talâk Suresi 3. ayet, Diyanet meali.",
+  "kapanis": "Allah'a güvenen kimseye O yeter",
+  "seo": {
+   "yt_baslik": "Allah'a Güvenene O Yeter | Talak 3",
+   "ilk_satir": "Allah'a güvenen kimseye O yeter",
+   "aciklama": "Talâk Suresi 3. ayet, Diyanet meali.",
+   "anahtar": [
+    "allaha güvenene o yeter ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v057",
+  "tur": "kart",
+  "sure": 2,
+  "ayet": [
+   152,
+   152
+  ],
+  "kart_metin": "Artık Beni anın, Ben de sizi anayım",
+  "sahne": "kalp",
+  "kart_sn": 11,
+  "hook": "Artık Beni anın, Ben de sizi anayım",
+  "tema": "Zikir",
+  "etiketler": [
+   "zikir",
+   "şükür"
+  ],
+  "aciklama": "Bakara Suresi 152. ayet, Diyanet meali.",
+  "kapanis": "Artık Beni anın, Ben de sizi anayım",
+  "seo": {
+   "yt_baslik": "Beni Anın Ben de Sizi Anayım | Bakara 152",
+   "ilk_satir": "Artık Beni anın, Ben de sizi anayım",
+   "aciklama": "Bakara Suresi 152. ayet, Diyanet meali.",
+   "anahtar": [
+    "beni anın ben de sizi anayım ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v058",
+  "tur": "kart",
+  "sure": 11,
+  "ayet": [
+   115,
+   115
+  ],
+  "kart_metin": "Sabret, Allah iyi davrananların ecrini elbette zayi etmez",
+  "sahne": "kum",
+  "kart_sn": 11,
+  "hook": "Sabret, Allah iyi davrananların ecrini elbette zayi etmez",
+  "tema": "Sabır",
+  "etiketler": [
+   "sabır",
+   "iyilik"
+  ],
+  "aciklama": "Hûd Suresi 115. ayet, Diyanet meali.",
+  "kapanis": "Sabret, Allah iyi davrananların ecrini elbette zayi etmez",
+  "seo": {
+   "yt_baslik": "Sabret, Allah Ecrini Zayi Etmez | Hud 115",
+   "ilk_satir": "Sabret, Allah iyi davrananların ecrini elbette zayi etmez",
+   "aciklama": "Hûd Suresi 115. ayet, Diyanet meali.",
+   "anahtar": [
+    "sabret allah ecrini zayi etmez ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v059",
+  "tur": "kart",
+  "sure": 2,
+  "ayet": [
+   153,
+   153
+  ],
+  "kart_metin": "Allah, muhakkak ki sabredenlerle beraberdir",
+  "sahne": "firtina",
+  "kart_sn": 11,
+  "hook": "Allah, muhakkak ki sabredenlerle beraberdir",
+  "tema": "Sabır",
+  "etiketler": [
+   "sabır",
+   "imtihan"
+  ],
+  "aciklama": "Bakara Suresi 153. ayet, Diyanet meali.",
+  "kapanis": "Allah, muhakkak ki sabredenlerle beraberdir",
+  "seo": {
+   "yt_baslik": "Allah Sabredenlerle Beraberdir | Bakara 153",
+   "ilk_satir": "Allah, muhakkak ki sabredenlerle beraberdir",
+   "aciklama": "Bakara Suresi 153. ayet, Diyanet meali.",
+   "anahtar": [
+    "allah sabredenlerle beraberdir ayeti"
+   ]
+  }
+ },
+ {
+  "id": "v060",
+  "tur": "kart",
+  "sure": 20,
+  "ayet": [
+   114,
+   114
+  ],
+  "kart_metin": "Rabbim! ilmimi artır",
+  "sahne": "fener",
+  "kart_sn": 11,
+  "hook": "Rabbim! ilmimi artır",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "ilim"
+  ],
+  "aciklama": "Tâhâ Suresi 114. ayet, Diyanet meali.",
+  "kapanis": "Rabbim! ilmimi artır",
+  "seo": {
+   "yt_baslik": "Rabbim İlmimi Artır Duası | Taha 114",
+   "ilk_satir": "Rabbim! ilmimi artır",
+   "aciklama": "Tâhâ Suresi 114. ayet, Diyanet meali.",
+   "anahtar": [
+    "rabbi zidni ilma duası anlamı"
+   ]
+  }
  }
 ]

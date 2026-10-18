@@ -101,6 +101,9 @@ jobs:
         if: env.KT_VOICE == 'mcp'
         run: |
           for id in $IDS; do
+            if python -c "import json,sys; t={t['id']:t for t in json.load(open('topics.json'))}['$id']; sys.exit(0 if t.get('tur')=='kart' else 1)"; then
+              echo "$id: ayet kartı (seslendirmesiz)"; continue
+            fi
             [ -f "voiceovers/$id.json" ] || { echo "::error::voiceovers/$id.json yok — önce sesler MCP ile üretilmeli"; exit 1; }
             python mcp_voice.py check "$id" && python mcp_voice.py fetch "$id"
           done

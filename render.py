@@ -175,8 +175,9 @@ def segments(tp):
         if ses.get('yorum'): segs.append(('yorum', ses['yorum'], None, 0.5))
         segs.append(('cta', cta, None, 1.4))
         return segs
-    if tp.get('kisa'):   # kısa format (15–25 sn): hook + köprü + ayet + kapanış; "Rabbimiz şöyle buyuruyor" ve yorum yok
-        segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', giris, None, 0.3)]
+    if tp.get('kisa'):   # kisa: true → 15–25 sn (hook + köprü + ayet + kapanış); kisa: 2 → 8–15 sn (hook + ayet + kapanış, köprü yok)
+        segs = [('hook', tp['hook'], None, OPEN_GAP)]
+        if tp.get('kisa') != 2: segs.append(('giris', giris, None, 0.3))
         for v in range(a, b + 1):
             tr = TR[(c, v)].strip()
             if not tr.endswith(('.', '!', '?', '"')): tr += '.'
@@ -497,4 +498,9 @@ if __name__ == '__main__':
     topics = {t['id']: t for t in json.load(open(f'{BASE}/topics.json'))}
     for tid in sys.argv[1:]:
         tp = topics[tid]; os.makedirs(f'{BASE}/videos', exist_ok=True)
-        d = render(tp, f"{BASE}/videos/{tid}.mp4"); print(tid, f'{d:.1f}s')
+        if tp.get('tur') == 'kart':   # ayet kartı: seslendirmesiz, döngülü kısa video (kart.py)
+            import kart
+            d = kart.render(tp, f"{BASE}/videos/{tid}.mp4")
+        else:
+            d = render(tp, f"{BASE}/videos/{tid}.mp4")
+        print(tid, f'{d:.1f}s')

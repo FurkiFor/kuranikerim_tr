@@ -77,3 +77,12 @@ Süreklilik: kanal 20 Temmuz–8 Ekim arasında günde 0–8 izlenmedeydi; 9 Eki
 TikTok: 18 videonun hepsi 135–190 izlenmede kaldı (içerik ne olursa olsun) → TikTok dağıtımı ilk deneme kitlesinin ötesine açmıyor. Sebep içerik değil ilk 2 saniye (%34). YouTube'da kazanan konular TikTok'ta da en yüksek etkileşimi aldı ("Allah'ın seni andığını…" %31, "Çok günah işledim…" %23).
 
 Sonuç: (1) her gün paylaş; (2) hâl cümlesi / kişisel soru / açık arama adı; bilgi sorusu, emir kipi ve "…okunacak dua" etiketi yok; (3) teselli ağırlıklı, dua yalnız açık adla; (4) ilk kare + ilk 2 sn düzeltmesi TikTok için şart.
+
+## Viral format araştırması (vidIQ, 19 Ekim 2026)
+TikTok + Instagram'da son 30 günde 0,6–2 M izlenen 24 Türkçe dini video (çoğu 1–80 bin takipçili küçük hesap):
+- Süre 8–14 sn (TikTok örnekleri 8, 10, 14 sn), döngülü.
+- Tek teselli cümlesi ilk karede ekranda tam: "Merak etme, birden bire işler düzelir. Allah kadirdir" (1,3 M), "Seni bekletir. Çünkü vereceği şey aceleye sığmayacak kadar güzeldir" (1,1 M), "Allah kalplerimizde olanı bilir" + ayet (2 M), "Derdini sev…" (1,1 M, 8 sn).
+- Sakin estetik görüntü (cami içi, Kâbe, manzara, seccade); kamera neredeyse sabit.
+- Ses çoğunlukla yalnız müzik/ilahi; bazılarında sakin erkek sesiyle birinci şahıs dua ("Allah'ım…", "Ya Rabbi…").
+- Kaydetmelik liste/görsel: "Peygamberlerin duaları" (1,4 M), "Tövbe duası" (1,4 M).
+Bizim uyarlama: **ayet kartı** (kart.py) — mealden birebir tek cümle, ilahi müzik, 11 sn, döngü. Günde 2 kart + 3 anlatımlı; 2 hafta sonra kartın 2. saniye oranı, izlenme ve paylaşımı anlatımlıyla karşılaştırılır. Kullanmadığımız viral kalıplar: "anında etkisini gösteren dua", hafızadan hadis, "3 kişiye gönder" (kurallarımıza aykırı).

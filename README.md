@@ -135,6 +135,9 @@ Arada bir (yaklaşık her 4–5 videoda bir, günde en fazla bir) video, Kur'an'
 8. YouTube ayarları: `providers: [{network: youtube}]`, `youtubeData`: `title` = hook, `type: short`, `privacy: public`, `madeForKids: false`, `isAiGeneratedContent: false`, `category: EDUCATION`, `tags` = konunun etiketleri + kuran, ayet, kuranikerim, islam. `text` = TikTok ile aynı açıklama.
 9. Kalite kontrolü: her yeni videodan 3 kare al (ffmpeg `-ss 1`, mealin ortası, son 2 sn) ve bak: Arapça kart taşmıyor, altyazı okunuyor, sahne görünüyor. `ffmpeg -af ebur128` ile ses ~-14 LUFS olmalı.
 
+## Ayet kartı (tur: "kart")
+`kart.py`: 8–14 sn, seslendirmesiz, ilahi müzikli, döngülü kısa video. Diyanet mealinden birebir tek cümle (`kart_metin`, mealde aynen geçmeli — kod kontrol eder) + sure·ayet etiketi (kısa ayette tek satır Arapça). `python3 render.py <id>` kartı otomatik kart.py ile üretir; render iş akışı kartlar için seslendirme aramaz. Gerekçe: `analytics/strateji.md` "Viral format araştırması".
+
 ## Zernio (TikTok + Instagram)
 - `zernio.py` — istatistik ve planlama; anahtar yalnızca `ZERNIO_API_KEY` ortam değişkeninden (repo secret). Koda/commit'e anahtar yazılmaz.
 - Hesaplar: TikTok `@kuranikerim_tr`, Instagram `@kuranikerim_tr` (eski adı `@rahsid_nur`) (Zernio ücretsiz plan: 2 hesap). YouTube Zernio'da değil, Kervly'de.

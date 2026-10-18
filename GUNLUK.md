@@ -1,8 +1,8 @@
 # Günlük görev — @kuranikerim_tr (YouTube + TikTok + Instagram)
 
 Bu dosya zamanlanmış görevlerin talimatıdır. İki parti var:
-- **SABAH** (07:14 Dubai): 3 video → 10:00, 13:00, 18:00. Pazartesi günleri haftalık eski video analizi de bu partide yapılır.
-- **AKŞAM** (15:44 Dubai): 2 video → 20:30, 23:30 (gece hitaplı video 23:30'a).
+- **SABAH** (07:14 Dubai): 3 video → 10:00 (anlatımlı), 13:00 (ayet kartı), 18:00 (anlatımlı). Pazartesi günleri haftalık eski video analizi de bu partide yapılır.
+- **AKŞAM** (15:44 Dubai): 2 video → 20:30 (anlatımlı; gece hitaplıysa 20:30'da kalır), 23:30 (ayet kartı).
 
 Görev metni hangi partide olduğunu söyler. Hesapların tüm yönetimi bu göreve aittir: içerik seçimi, üretim, saat, yayın, yorumlara yanıt, strateji güncellemesi. Amaç her üç hesabı büyütmek. Kullanıcıyla (Furkan) Türkçe konuş; rakam uydurma.
 
@@ -32,6 +32,8 @@ Görev metni hangi partide olduğunu söyler. Hesapların tüm yönetimi bu gör
 - `mcp__kervly__list_posts` (brand kuranikerim, platform youtube, bugün 00:00 – yarın 23:59): bir slotun ±45 dk'sında YouTube gönderisi varsa o slot DOLU. Üretilecek video sayısı = boş slot sayısı (SABAH en fazla 3, AKŞAM en fazla 2).
 
 ## 4. Konu seçimi (strateji.md "Hangi içerik tutuyor" ve günün karışımı)
+- **AYET KARTI (tur: "kart", kart.py)**: 8–14 sn, seslendirmesiz, yalnız ilahi müzik, Diyanet mealinden BİREBİR tek cümle (`kart_metin` mealde aynen geçmeli; kart.py kontrol eder), döngülü. vidIQ (19 Ekim): bu nişte 0,6–2 M izlenen Türkçe videoların ortak formatı. Günün 5 videosundan 2'si kart: SABAH 13:00, AKŞAM 23:30. Kartlar ElevenLabs kredisi harcamaz: topics.json'da planlanmamış kart konusu seç → render iş akışını REST ile tetikle (`inputs[ids]=<id>`, voice=mcp; kartlar sesi atlar) → kontrol → planla. Kart stoku 10'un altına düşerse 15 yeni kart konusu ekle: teselli/umut/yakınlık/sabır/tevekkül/dua cümleleri; ≤90 karakter, kendi başına anlamlı, bağlamından koparınca anlamı değişmeyen cümle; sahne anlamına uygun; `seo` (yt_baslik: "<cümle kısaltması> | <Sure> <ayet>"), 2 etiket. Kart serisi kendi içinde ayet tekrar etmez (anlatımlı videolarda kullanılmış ayetler kartta kullanılabilir).
+- Anlatımlı videolar (günde 3): SABAH 10:00 ve 18:00, AKŞAM 20:30.
 - Günün 5 videosu: 3 teselli (musibet, moral bozukluğu, zorluk/kolaylık, kaygı, ölüm korkusu, kötülük görmek, güçsüzlük, yalnızlık, tövbe/af…), 1 açık adlı dua/zikir (başlık ve ilk satır açık arama adı: "Nazar duası", "Esmaül Hüsna (Haşr 22–24)", "Ayetel Kürsi"… ayet tabanlı, hadis iddiası yok, hook yine kişisel dert), 1 kıssa köprüsü (haftada en fazla 2 kez bunun yerine bilgi/sır). Günde 2 video `kisa: true`.
 - SABAH: 2 teselli + 1 açık adlı dua (biri kısa). AKŞAM: 1 teselli (kısa; gece hitabı olabilir → 23:30) + 1 kıssa köprüsü ya da bilgi/sır. Bugün planlananlara bak (state.json) ve karışımı tamamla.
 - Emir kipi ("…oku", "…edin"), "…için okunacak dua" etiketi, "biliyor musun / nerede / hangi / nasıl" bilgi soruları kullanılmaz (sır videosu hariç).
