@@ -129,3 +129,4 @@ Bizim uyarlama: **ayet kartı** (kart.py) — mealden birebir tek cümle, ilahi 
 - Sorun dağıtım: Instagram yeni reels'i önce takipçilere ve küçük bir deneme kitlesine gösteriyor; 9 takipçide bu havuz neredeyse yok (TikTok'ta izlenmenin %95'i takipçi olmayanlardan geliyor, Instagram'da öyle değil).
 - Karar: 19 Ekim'den sonra kuyruğa giren Instagram gönderileri **Trial Reel** (Zernio `trialParams.graduationStrategy = SS_PERFORMANCE`). 24 Ekim'e kadar önceden planlanmış normal reels kontrol grubu. 26 Ekim'de trial / normal erişim, izlenme, takip karşılaştırması.
 - Uzun video Instagram'da çalışmadı: 96 sn Fatiha → 4 izlenme.
+- 19 Ekim: kullanıcı Hesap durumunu kontrol etti, her şey yeşil (öneri kısıtlaması yok) → sebep kısıtlama değil, soğuk başlangıç (9 takipçi). Trial Reels kararı geçerli.
