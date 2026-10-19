@@ -185,6 +185,7 @@ def render_tilavet(tp, out):
         a_out = 1.0 if i + 1 == len(PG) else 1 - CI.smooth((t - e) / XF)
         return min(a_in, a_out)
 
+    sk = float(tp.get('sahne_k', SCENE_K))   # uzun metinli kartta figürün başı etiketin altına insin diye konuya özel büyütme
     E = CI.Env(scene, seed)
     post = R.Post(seed)
     n = len(env)
@@ -203,7 +204,7 @@ def render_tilavet(tp, out):
         ph = 2 * math.pi * t / total
         cam = CI.Cam(14 * math.sin(ph), 6 * math.sin(2 * ph), 1.05 + 0.025 * math.sin(ph))
         cv.clear(skia.ColorBLACK)
-        cv.save(); cv.translate(W / 2, 0); cv.scale(SCENE_K, SCENE_K); cv.translate(-W / 2, 0)   # sahne aşağı: metne yer
+        cv.save(); cv.translate(W / 2, 0); cv.scale(sk, sk); cv.translate(-W / 2, 0)   # sahne aşağı: metne yer
         CI.SCENES[scene](cv, t + 30.0, 2, t + 6.0, 0.85, cam, E)
         cv.restore()
         sh_ = skia.GradientShader.MakeLinear([skia.Point(0, 0), skia.Point(0, 1080)],
