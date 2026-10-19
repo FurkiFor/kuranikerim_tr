@@ -2,6 +2,32 @@
  {
   "platform": "tiktok",
   "accountId": "6ad42f22301325504552e868",
+  "postId": "7698255594767027462",
+  "gonderi": "Çocuğun Allah kim diye sorsa ne dersin? İhlas Suresi anlamı ve meali 🤍 İhlas Sur",
+  "commentId": "7698418122890740481",
+  "yazan": "glsenem040",
+  "metin": "🥰🥰🥰",
+  "tarih": "2026-10-19T16:34:19.000Z",
+  "begeni": 0,
+  "yanitlanabilir": true,
+  "yanitlandi": false
+ },
+ {
+  "platform": "tiktok",
+  "accountId": "6ad42f22301325504552e868",
+  "postId": "7698255594767027462",
+  "gonderi": "Çocuğun Allah kim diye sorsa ne dersin? İhlas Suresi anlamı ve meali 🤍 İhlas Sur",
+  "commentId": "7698367321384010514",
+  "yazan": "melegimmm71",
+  "metin": "🥰🥰🥰",
+  "tarih": "2026-10-19T13:17:11.000Z",
+  "begeni": 0,
+  "yanitlanabilir": true,
+  "yanitlandi": false
+ },
+ {
+  "platform": "tiktok",
+  "accountId": "6ad42f22301325504552e868",
   "postId": "7698085013442645249",
   "gonderi": "Başına gelenleri anlamlandıramıyorsan 🤍 Hiçbir musibet Allah'ın izni olmadan gel",
   "commentId": "7698111617561805569",
@@ -180,9 +206,5 @@
   "begeni": 1,
   "yanitlanabilir": true,
   "yanitlandi": true
- },
- {
-  "postId": "7425546108690009360",
-  "hata": "GET /inbox/comments/7425546108690009360?accountId=6ad42f22301325504552e868&limit=50 -> HTTP 400: {\"error\":\"Failed to fetch comments\",\"type\":\"platform_error\",\"code\":\"platform_api_error\",\"platform\":\"tik"
  }
 ]
