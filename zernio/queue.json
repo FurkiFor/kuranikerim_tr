@@ -185,5 +185,14 @@
   "not": "tilavet kartı (ilk deney)",
   "zernio_id": "6ad539993e416f103ec07909",
   "status": "scheduled"
+ },
+ {
+  "id": "v053",
+  "at": "2026-10-19T18:00:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavet kartı — açık adlı dua (deney 6)"
  }
 ]
