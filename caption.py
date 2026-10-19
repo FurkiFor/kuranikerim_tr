@@ -13,6 +13,10 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 SURE = json.load(open(f'{BASE}/surahs.json'))
 TOPICS = {t['id']: t for t in json.load(open(f'{BASE}/topics.json'))}
 SABIT = ['kuran', 'ayet', 'kuranikerim', 'islam']
+# Yorum çağrısı (19 Ekim: YouTube'da video başına 0,3 yorum). Videoya göre sabit seçilir, hep aynı cümle olmaz.
+YORUM = ["Sana iyi geldiyse yorumlara \"Amin\" yaz 🤲",
+         "Bu ayet sana ne hissettirdi? Yorumlara yaz.",
+         "Bu ayeti kime göndermek isterdin? Yorumlara yaz."]
 
 
 def ascii_tag(s):
@@ -34,13 +38,17 @@ def hashtags(t, n=5):
     return ' '.join('#' + x for x in tags[:n])
 
 
+def yorum(tid):
+    return YORUM[sum(map(ord, tid)) % len(YORUM)]
+
+
 def caption(tid):
     t = TOPICS[tid]; seo = t.get('seo') or {}
     if not seo:
         return (f"{t['hook']} 🤍\n\n{t['aciklama']}\n\n📖 {ref(t)} (Diyanet meali)\n\n"
-                f"Kaydet, ihtiyacı olan birine gönder.\n\n" + hashtags(t, 6))
+                f"{yorum(tid)}\nKaydet, ihtiyacı olan birine gönder.\n\n" + hashtags(t, 6))
     return (f"{seo['ilk_satir']} 🤍\n\n{seo['aciklama']}\n\n📖 {ref(t)} (Diyanet meali)\n\n"
-            f"Kaydet, ihtiyacı olan birine gönder. Her gün yeni bir ayet için takip et.\n\n" + hashtags(t, 5))
+            f"{yorum(tid)}\nKaydet, ihtiyacı olan birine gönder. Her gün yeni bir ayet için takip et.\n\n" + hashtags(t, 5))
 
 
 def baslik(tid):
