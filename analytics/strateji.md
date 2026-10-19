@@ -78,6 +78,34 @@ TikTok: 18 videonun hepsi 135–190 izlenmede kaldı (içerik ne olursa olsun) �
 
 Sonuç: (1) her gün paylaş; (2) hâl cümlesi / kişisel soru / açık arama adı; bilgi sorusu, emir kipi ve "…okunacak dua" etiketi yok; (3) teselli ağırlıklı, dua yalnız açık adla; (4) ilk kare + ilk 2 sn düzeltmesi TikTok için şart.
 
+### Haftalık güncelleme — 19 Ekim 2026 (Pazartesi, SABAH)
+Kaynak: Kervly `get_youtube_insights` (90 gün) + `get_youtube_videos` (50) + `analytics/zernio.json` (TikTok 21, Instagram 7). 9 Ekim sonrası, 1 günü dolmuş 21 YouTube Short (medyan izlenme):
+| Grup | Video | Medyan | Ort. |
+|---|---|---|---|
+| 9–16 Ekim (hâl/soru/açık ad) | 18 | 1.255 | 1.241 |
+| 17–18 Ekim (bilgi soruları ağırlıklı) | 3 | 28 | 280 |
+| Hook: hâl cümlesi | 12 | ~970 | ~1.170 |
+| Hook: kişisel soru | 5 | 932 | 1.102 |
+| Hook: açık sure/dua adı | 2 | 1.974 | 1.974 |
+| Hook: bilgi sorusu ("biliyor musun", "nasıl söylersin") | 2 | 16 | 16 |
+| Süre ≤15 sn | 3 | 1.578 | 1.195 |
+| 16–25 sn | 4 | 521 | 734 |
+| 26–35 sn | 6 | 945 | 1.187 |
+| 36+ sn | 8 | 1.255 | 1.193 |
+| Slot 10:00 | 5 | 932 | 1.137 |
+| Slot 15:00 | 5 | 957 | 799 |
+| Slot 18:00 | 5 | 662 | 920 |
+| Slot 20:00 | 3 | 380 | 770 |
+İzlenme oranı (YouTube Analytics): 14 sn'lik iki video %82,5 ve %87,6; 21–28 sn %53–57; 32–45 sn %43–77.
+TikTok 2. saniye oranı: 18 Ekim yeni açılışlı v045 %42, v019 %43 (ort. izleme 5,4–5,7 sn) · eski açılışlı kontrol v012 %40 (5,1 sn) · 8–15 Ekim'deki 13 eski render ortalaması %34 (2,0–4,9 sn). Yeni açılış lehine, ama 2 video (≥5 değil) → karar değişmiyor, 25 Ekim'de yeniden bak.
+Bulgular → kararlar:
+1. Bilgi/soyut soru hook'ları (Duanda… 3, Pişmanlığını… 28, Hangi sure… 29 [16 sa], Güzel bir hayatı… 5 [13 sa], Eşinle… 265 [21 sa]) 5 videoda aynı sonucu verdi → **mevcut "bilgi sorusu yok" kararı kesinleşti**. Önceden planlanmış v024 (19 Ekim 10:00, "Çocuğun Allah kim diye sorsa ne dersin?") ve v025 (19 Ekim 20:00, "Günün sonunda kârda mısın…") aynı risk grubunda; bundan sonra bu tür konu planlanmaz.
+2. Süre izlenmeyi belirlemiyor, izlenme oranını belirliyor (kısa > uzun) → `kisa` testi ve tilavet kartı sürüyor; karar değişmiyor.
+3. Saat: 10:00 en iyi slot olarak kalıyor; 18:00 ve 20:00 ortalamaları 3–5 videoya dayanıyor → 1 Kasım değerlendirmesine kadar değişiklik yok.
+Tekrar paylaşım adayları (YouTube ≥1.000 izlenme ya da ≥%70 izlenme oranı, TikTok/IG'ye yeni açılışla gitmemiş):
+- v018 "Sana kötülük edene ne yapıyorsun?" (YT 1.745; TikTok'a 15 Ekim eski açılışla gitti) — `voiceovers/v018/` var → render ile yeni açılışla yeniden üretilebilir.
+- v012 "Başına gelenleri anlamlandıramıyorsan" (2.653, %71,7), v007 "Allah'ın seni andığını…" (1.643, %82,5), v006 "Moralin bozuksa…" (1.578, %87,6), v011 "Emeklerin boşa…" (1.615), v005 "Çok günah işledim…" (1.565), İnşirah 5-6 (2.410, %76,6), Nazar duası (1.538) — mp3'leri yok; yeni sesle (ElevenLabs) yeniden üretim gerekir.
+
 ## Viral format araştırması (vidIQ, 19 Ekim 2026)
 TikTok + Instagram'da son 30 günde 0,6–2 M izlenen 24 Türkçe dini video (çoğu 1–80 bin takipçili küçük hesap):
 - Süre 8–14 sn (TikTok örnekleri 8, 10, 14 sn), döngülü.

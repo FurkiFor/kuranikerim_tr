@@ -54,6 +54,7 @@
 | 11 | Artık umudun kalmadı mı? | Umudunu kesmemen gereken tek yeri biliyor musun? | Yusuf 87: "Allah'ın rahmetinden ümidinizi kesmeyin" | Yeni |
 | 12 | Yalnız mı kaldın? | Mağaradaki iki kişiye ne söylendiğini biliyor musun? | Tevbe 40: "Üzülme, Allah bizimledir" | Yeni; hicret/mağara kıssası |
 | 13 | Bir şeyini mi kaybettin? | Kayıp anında söylenecek cümleyi biliyor musun? | Bakara 155–156 | v013 ile aynı ayet |
+| 15 | Derdin bitmiyorsa Hz. Eyyub'un bu duasını dinle (tilavet kartı `ust`) | — | Enbiya 83: "Başıma bir bela geldi, (Sana sığındım)…" | v053; vidIQ 19 Ekim: hâl + "bu duayı dinle" kalıbı |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
