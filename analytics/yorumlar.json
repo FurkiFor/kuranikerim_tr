@@ -180,5 +180,9 @@
   "begeni": 1,
   "yanitlanabilir": true,
   "yanitlandi": true
+ },
+ {
+  "postId": "7425546108690009360",
+  "hata": "GET /inbox/comments/7425546108690009360?accountId=6ad42f22301325504552e868&limit=50 -> HTTP 400: {\"error\":\"Failed to fetch comments\",\"type\":\"platform_error\",\"code\":\"platform_api_error\",\"platform\":\"tik"
  }
 ]
