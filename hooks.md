@@ -55,6 +55,10 @@
 | 12 | Yalnız mı kaldın? | Mağaradaki iki kişiye ne söylendiğini biliyor musun? | Tevbe 40: "Üzülme, Allah bizimledir" | Yeni; hicret/mağara kıssası |
 | 13 | Bir şeyini mi kaybettin? | Kayıp anında söylenecek cümleyi biliyor musun? | Bakara 155–156 | v013 ile aynı ayet |
 | 15 | Derdin bitmiyorsa Hz. Eyyub'un bu duasını dinle (tilavet kartı `ust`) | — | Enbiya 83: "Başıma bir bela geldi, (Sana sığındım)…" | v053; vidIQ 19 Ekim: hâl + "bu duayı dinle" kalıbı |
+| 16 | Sana kurulan tuzaklardan mı korkuyorsun? | — | Nahl 127: "kurdukları düzenlerden de endişe etme" | v062; kötülük görmek (en iyi dert türü) |
+| 17 | Yaşadıklarını kimse görmüyor mu sanıyorsun? | — | Tur 48: "sen, Bizim nezaretimiz altındasın" | v068; Peygambere hitap, girişte söylenir |
+| 18 | Umudunu insanlara bağlayıp kırıldın mı? | — | İnşirah 7-8: "ümit edeceğini yalnız Rabbinden iste" | v069 |
+| 19 | Aklına kötü düşünceler mi geliyor? | — | Mü'minun 97-98: şeytanların kışkırtmalarından sığınma | v073; arama: vesvese duası |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
