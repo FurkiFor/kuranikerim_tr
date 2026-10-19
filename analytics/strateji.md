@@ -122,3 +122,10 @@ Bizim uyarlama: **ayet kartı** (kart.py) — mealden birebir tek cümle, ilahi 
 - Karar: sade müzik kartı (v046–v060 ilk sürüm) yayına çıkmadan **tilavet kartı** ile değiştirildi: üstte altın renkli kanca cümlesi (izleyicinin hâli ya da açık adlı peygamber duası), gerçek tilavet (Ali el-Huzeyfi, 0,05 sn'de başlar), Arapça + Diyanet meali, sesle nefes alan parıltı, ilerleme çizgisi, 10–24 sn, döngü. Günde 3 kart (13:00, 18:00, 23:30) + 2 anlatımlı (10:00, 20:30). 7 gün sonra kart / anlatımlı karşılaştırması (2. sn oranı, izlenme, paylaşım, takip) → karışım ona göre.
 - Deneyler: `analytics/arastirma.md` "Deney kuyruğu".
 
+
+## Instagram — 19 Ekim 2026 teşhisi ve Trial Reels deneyi
+- Hesap Creator (MEDIA_CREATOR), 9 takipçi. Son 7 reels: erişim 0–58, izlenme 0–74. 18 Ekim'deki 3 reels'in erişimi **0** (izlenme 0–2).
+- Erişen az kişide içerik zayıf değil: İnşirah 5-6 → 74 izlenme, 5 paylaşım, 3 kaydetme (%16 etkileşim); v018 → %35. TikTok/YouTube'da tutan aynı videolar.
+- Sorun dağıtım: Instagram yeni reels'i önce takipçilere ve küçük bir deneme kitlesine gösteriyor; 9 takipçide bu havuz neredeyse yok (TikTok'ta izlenmenin %95'i takipçi olmayanlardan geliyor, Instagram'da öyle değil).
+- Karar: 19 Ekim'den sonra kuyruğa giren Instagram gönderileri **Trial Reel** (Zernio `trialParams.graduationStrategy = SS_PERFORMANCE`). 24 Ekim'e kadar önceden planlanmış normal reels kontrol grubu. 26 Ekim'de trial / normal erişim, izlenme, takip karşılaştırması.
+- Uzun video Instagram'da çalışmadı: 96 sn Fatiha → 4 izlenme.

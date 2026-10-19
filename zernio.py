@@ -22,7 +22,7 @@ ISO-tarih örneği: 2026-10-19T12:00:00+04:00 (Asia/Dubai).
 Kurallar (README → "Zernio"):
 - TikTok: PUBLIC_TO_EVERYONE (Business bağlantısında videolar yalnızca herkese açık olabilir),
   yorum/duet/stitch açık, auto_add_music false, video_made_with_ai false (kullanıcı AI etiketini kapattı).
-- Instagram (@kuranikerim_tr, eski adı @rahsid_nur): Reels, shareToFeed true.
+- Instagram (@kuranikerim_tr, eski adı @rahsid_nur): Reels, shareToFeed true; 19 Ekim'den Trial Reels (SS_PERFORMANCE), kuyrukta "ig_trial": false ile normal reels.
 - YouTube Zernio'da bağlı değil; YouTube Kervly ile planlanır.
 """
 import json, os, sys, time, urllib.request, urllib.error
@@ -82,7 +82,7 @@ def _caption(tid):
     return caption.caption(tid).strip()
 
 
-def body_for(tid, when, platforms=('tiktok', 'instagram'), accs=None):
+def body_for(tid, when, platforms=('tiktok', 'instagram'), accs=None, ig_trial=True):
     accs = accs if accs is not None else accounts()
     dt = datetime.fromisoformat(when)
     if dt.tzinfo is None:
@@ -96,6 +96,10 @@ def body_for(tid, when, platforms=('tiktok', 'instagram'), accs=None):
         t = {'platform': p, 'accountId': accs[p]['_id']}
         if p == 'instagram':
             t['platformSpecificData'] = {'shareToFeed': True}
+            # 19 Ekim: 9 takipçili hesapta normal reels'in erişimi 0–58. Trial Reels takipçi olmayanlara gösterilir;
+            # SS_PERFORMANCE iyi gidenleri otomatik normal reele çevirir. Kuyrukta "ig_trial": false ile kapatılır.
+            if ig_trial:
+                t['platformSpecificData']['trialParams'] = {'graduationStrategy': 'SS_PERFORMANCE'}
         tgt.append(t)
     if not tgt:
         raise ValueError('hedef platform yok')
@@ -128,8 +132,8 @@ def record(tid, when, post, platforms):
     open(path, 'a').write('\n')
 
 
-def post(tid, when, platforms=('tiktok', 'instagram'), accs=None):
-    b = body_for(tid, when, platforms, accs)
+def post(tid, when, platforms=('tiktok', 'instagram'), accs=None, ig_trial=True):
+    b = body_for(tid, when, platforms, accs, ig_trial)
     r = call('POST', '/posts', b)
     p = r.get('post', r)
     plats = [t['platform'] for t in b['platforms']]
@@ -149,7 +153,16 @@ def queue():
             continue
         accs = accs or accounts()
         try:
-            p = post(e['id'], e['at'], e.get('platforms') or ['tiktok', 'instagram'], accs)
+            plats = e.get('platforms') or ['tiktok', 'instagram']
+            trial = e.get('ig_trial', True) and 'instagram' in plats
+            try:
+                p = post(e['id'], e['at'], plats, accs, trial)
+            except Exception as tx:  # Trial Reels reddedilirse TikTok da düşmesin: normal reels ile bir kez daha dene
+                if not trial:
+                    raise
+                print(f"uyarı {e['id']}: trial reel reddedildi ({str(tx)[:200]}), normal reels deneniyor", file=sys.stderr)
+                p = post(e['id'], e['at'], plats, accs, False)
+                e['ig_trial'] = False; e['trial_hata'] = str(tx)[:300]
             e['zernio_id'] = p.get('_id'); e['status'] = p.get('status'); e.pop('error', None)
         except Exception as ex:  # biri hata verirse diğerleri devam etsin
             fail += 1; e['error'] = str(ex)[:500]
