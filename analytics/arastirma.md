@@ -30,4 +30,5 @@ Bir deney en az 5 video ve 7 gün ölçülür; sonuç `strateji.md`'ye karar ola
 | 5 | Gerçek görüntü (lisanslı/serbest cami-doğa çekimi) | araştırılmadı: lisans kaynağı gerek | — |
 | 6 | Hâl + açık adlı dua + "bu duasını dinle" kancası (tilavet kartı `ust`), kartta Arapça dua birinci şahıs | 19 Ekim başladı (v053) | 2. sn oranı — diğer açık adlı dua kartlarına karşı |
 | 7 | Dua kartında ilk karede ayetin kendi hitabı ("Rabbim!" / "Rabbimiz!") büyük altın yazı, hâl cümlesi yerine; yalnız meali hitapla başlayan dua ayetleri (İbrahim 40, İbrahim 41, Saffat 100…) | bekliyor (19 Ekim AKŞAM: 4 outlier) | 2. sn oranı — hâl cümleli dua kartlarına karşı |
+| 8 | Somut an sorusu + açık sure adı (v024: "Çocuğun Allah kim diye sorsa ne dersin? İhlas Suresi anlamı"), tilavetli anlatımlı, kısa bilinen sureler | 19 Ekim gece başladı (v024 = 1. video); 20:30 slotunda gün aşırı | TikTok 2. sn oranı ve izlenme (v024: %60, 752), YouTube 24. saat izlenmesi |
 Kullanılmayacak viral kalıplar: "anında etkisini gösteren dua", hafızadan hadis, "Amin yaz / 3 kişiye gönder", korkutma, mealin söylemediği vaat.

@@ -138,3 +138,20 @@ Bizim uyarlama: **ayet kartı** (kart.py) — mealden birebir tek cümle, ilahi 
 - Karar: 19 Ekim'den sonra kuyruğa giren Instagram gönderileri **Trial Reel** (Zernio `trialParams.graduationStrategy = SS_PERFORMANCE`). 24 Ekim'e kadar önceden planlanmış normal reels kontrol grubu. 26 Ekim'de trial / normal erişim, izlenme, takip karşılaştırması.
 - Uzun video Instagram'da çalışmadı: 96 sn Fatiha → 4 izlenme.
 - 19 Ekim: kullanıcı Hesap durumunu kontrol etti, her şey yeşil (öneri kısıtlaması yok) → sebep kısıtlama değil, soğuk başlangıç (9 takipçi). Trial Reels kararı geçerli.
+
+
+## 19 Ekim 2026 gece kararları (22:30 Dubai; Kervly + taze Zernio stats)
+Bugünün 5 videosu, platform başına (YouTube izlenme ~3–16 saatte; TikTok/Instagram Zernio 22:32):
+| Video | Tür | YouTube | TikTok (2. sn) | Instagram |
+|---|---|---|---|---|
+| v024 İhlas "Çocuğun Allah kim diye sorsa ne dersin?" 10:00 | anlatımlı, somut an sorusu + açık sure adı | **1.203** | **752 (%60)**, ort. 11 sn, 3 takip | 4 (normal reel) |
+| v046 İnşirah 5-6 kartı 13:00 | tilavet kartı | 39 | 154 (%26) | **1.557** (trial, erişim 1.223) |
+| v053 Hz. Eyyub duası kartı 18:00 | tilavet kartı | 17 | 113 (%18) | **1.635** (trial, erişim 1.297, 14 kaydetme) |
+| v025 Asr "kârda mısın" 20:00 | anlatımlı, kişisel soru + sure adı | 62 (2,5 sa) | 149 (%42) | 7 (normal reel) |
+| v015 Ölüm korkusu (tekrar) 12:00 | eski anlatımlı | — | 178 (%52) | 4 (normal reel) |
+Bulgular → kararlar:
+1. **Instagram Trial Reels çalışıyor**: aynı gün 2 trial 1.557–1.635, 4 normal reel 3–7. Trial varsayılan kalır. Ayrım yok henüz: iki trial da tilavet kartı. 20 Ekim'deki anlatımlılar da trial gider → kart/anlatımlı ayrımı orada okunur. Kuyrukta kalan normal reels (24 Ekim'e kadar) kontrol grubu olarak dokunulmaz.
+2. **Tilavet kartı YouTube'da zayıf (17–39)**. Önceden kararlaştırılan ilk adım uygulandı, ama "tr" değil: kartta `audioLanguage` artık gönderilmez (ses Arapça, "tr" yanlış etiket olur). v048 (bu gece 23:30) güncellendi. 5 kart daha bu ayarla 1 günü doldurup hâlâ <100 kalırsa YouTube'da kart sayısı 3 → 1'e iner, boşalan slot anlatımlıya geçer.
+3. **Tilavet kartı TikTok'ta ilk 2 saniyede kaybediyor** (%18–26; hesap ortalaması %36, anlatımlılar %42–60). Kural: 21 Ekim'e kadar 5 kart TikTok'a çıkmış olacak; 5 kartın 2. sn ortalaması <%30 ise kartlar TikTok'a gönderilmez (yalnız YouTube + Instagram), TikTok o slotlarda anlatımlı ya da tekrar paylaşım alır.
+4. **v024 kalıbı ("somut an sorusu + açık sure adı") ayrı bir tür**: soyut bilgi sorusu (biliyor musun/nerede/hangi; medyan 16–28) ile aynı değil. TikTok'ta 21 videoluk 134–190 bandını ilk kez kırdı. Deney 8 (arastirma.md): 20:30 slotunda gün aşırı, 5 video. "Bilgi sorusu yok" kuralı soyut sorular için geçerli kalır.
+5. **YouTube'da 10:00 dışı slotların çöküşü slot değil içerik**: 17–19 Ekim'de 10:00 dışındaki 7 video (bilgi sorusu, kıssa, kart) 4–67; 15–16 Ekim'de aynı slotlarda hâl cümleli videolar 548–1.787 almıştı. Saat değişikliği yok (1 Kasım değerlendirmesi geçerli).
