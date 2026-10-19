@@ -1437,7 +1437,7 @@
   ],
   "kart_metin": "Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin",
   "sahne": "firtina",
-  "hook": "Hz. Eyyub derdinin içinde böyle dua etti",
+  "hook": "Derdin bitmiyorsa Hz. Eyyub'un bu duasını dinle",
   "tema": "Sabır",
   "etiketler": [
    "sabır",
@@ -1449,10 +1449,11 @@
   "kapanis": "Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin",
   "seo": {
    "yt_baslik": "Hz. Eyyub'un Duası | Enbiya 83",
-   "ilk_satir": "Hz. Eyyub derdinin içinde böyle dua etti — Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin",
+   "ilk_satir": "Derdin bitmiyorsa Hz. Eyyub'un bu duasını dinle — Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin",
    "aciklama": "Enbiyâ Suresi 83. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "eyyub peygamberin duası",
+    "hz eyyub duası",
     "enbiya suresi 83"
    ]
   },
@@ -1463,7 +1464,8 @@
     "metin": "Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin"
    }
   ],
-  "ust": "Hz. Eyyub derdinin içinde böyle dua etti"
+  "ust": "Derdin bitmiyorsa Hz. Eyyub'un bu duasını dinle",
+  "deney": "vidIQ 19 Ekim sabah: hâl + açık ad + 'dinle' kancası"
  },
  {
   "id": "v054",
