@@ -322,7 +322,15 @@ if __name__ == '__main__':
     T = {t['id']: t for t in json.load(open(f'{R.BASE}/topics.json'))}
     if sys.argv[1:2] == ['--need']:
         for tid in sys.argv[2:]:
-            if T[tid].get('tur') == 'kart': print('\n'.join(need(T[tid])))
+            tp = T[tid]
+            if tp.get('tur') == 'kart':
+                files = need(tp)
+            elif tp.get('tilavet'):   # tilavetli anlatımlı video (render.py): ayet aralığının kâri kayıtları
+                a, b = tp['ayet']
+                files = [f"{tp['sure']:03d}{v:03d}.mp3" for v in range(a, b + 1)]
+            else:
+                files = []
+            if files: print('\n'.join(files))
         sys.exit(0)
     if sys.argv[1:2] == ['--check']:
         for tid in sys.argv[2:]: check(T[tid]); print(tid, 'ok', need(T[tid]))

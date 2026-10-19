@@ -39,6 +39,14 @@ TikTok'ta saatin etkisi görülmüyor (148–184 arası); Instagram'da 100 takip
 - Bir parti eksik video üretirse boş slot TikTok/Instagram'da "tekrar paylaşım adayları"ndan biriyle doldurulur; YouTube boş kalır (tekrar yükleme yok).
 - Günün 5 videosu (19 Ekim'den): 3 anlatımlı (2 teselli + 1 gün aşırı açık adlı dua/kıssa; en az biri `kisa: 2`) + 2 **ayet kartı** (13:00 ve 23:30). Bilgi/sır haftada en fazla 2.
 
+## Tilavetli anlatımlı (19 Ekim 2026 öğlen kararı)
+- Karar: günün 2 anlatımlı videosu (10:00, 20:30) gerçek tilavetle üretilir: Türkçe hook → kâri (Ali el-Huzeyfi) ayeti okur, Arapça ekranda → Türkçe meal → kapanış. render.py `tilavet` modu; kurallar GUNLUK.md 4. bölüm. Böylece günün 5 videosunun 5'inde de Kur'an tilaveti var (3 kart + 2 anlatımlı). Furkan'ın isteği: "Kur'an okuması kesin olsun".
+- Gerekçe: üç platformda en iyi giden tek içerik İnşirah 5-6 (YouTube 2.426 izlenme, 44 sn'de %77 izlenme oranı; TikTok'ta en yüksek 2. sn oranı %44; Instagram'da 19 Ekim öğlen 600+ izlenme, Furkan'ın uygulamadan gördüğü — Zernio aynı saatte 74 gösteriyordu). vidIQ: en büyük dini Short'lar gerçek tilavet (strateji "2. tur").
+- Neden Türkçe ses de kalıyor: tilavet kartı yalnız Arapça ses taşıdığı için YouTube'a `audioLanguage: ar` gidiyor; v046 (İnşirah kartı) ilk 2 saatte 4 izlenme. Anlatımlıda Türkçe ses ve `audioLanguage: tr` olduğu için Türkçe kitleye sınıflanması korunur.
+- Ölçüm (26 Ekim): tilavetli anlatımlı / eski anlatımlı (14–16 Ekim) / tilavet kartı — 24. saat izlenmesi, izlenme oranı, 2. sn oranı, paylaşım/1.000. Kartlar anlatımlının belirgin altında kalırsa önce kartlarda `audioLanguage: tr` denenir, sonra kart sayısı azaltılır.
+- Ayet uzunluğu: ≤ 120 Arapça harf, 1–2 ayet (İnşirah 5-6 = 58 harf). Uzun ayetli eski konular (v026–v042'nin çoğu) daraltılmadan seçilmez.
+- Veri uyarısı: Zernio Instagram/TikTok gönderi analitiği gecikmeli ya da donuk geliyor (18–19 Ekim'de TikTok takipçi, toplam beğeni ve video sayısı birebir aynı; Instagram İnşirah 74 ↔ uygulamada 600+). Zernio rakamlarıyla aynı gün karar verilmez; çelişkide uygulama ekranı esastır.
+
 ## Etkileşim (yorumlar)
 - Her partide `analytics/yorumlar.json`'daki son 7 günün yanıtsız yorumları yanıtlanır (en fazla 20). Yorum kitleyi büyütür; ilk saatlerde gelen yanıt videonun dağıtımını da destekler.
 - Ton: kısa, sıcak, saygılı; "sen" diliyle. "Amin" ve dua yorumlarına "Amin, Rabbim kabul etsin 🤍" gibi kısa karşılık.
