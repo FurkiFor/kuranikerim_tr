@@ -1,5 +1,5 @@
 {
- "olusturma": "2026-10-18T20:41+04:00",
+ "olusturma": "2026-10-19T07:19+04:00",
  "hesaplar": {
   "instagram": {
    "kullanici": "rahsid_nur",
@@ -12,24 +12,81 @@
    },
    "hesap_metrikleri": {
     "reach": 66,
-    "views": 116,
+    "views": 119,
     "accounts_engaged": 5,
     "total_interactions": 29
    },
    "ortalama": {
-    "izlenme": 27.5,
-    "begeni": 1.75,
-    "kaydetme": 1.25,
-    "paylasim": 1.75,
+    "izlenme": 16.143,
+    "begeni": 1.0,
+    "kaydetme": 0.714,
+    "paylasim": 1.0,
     "takip": 0.0,
-    "etkilesim_orani": 14.545,
-    "ort_izleme_sn": 6.925,
+    "etkilesim_orani": 8.311,
+    "ort_izleme_sn": 11.114,
     "kalan_2sn": null,
     "kalan_6sn": null,
     "arama_payi": null
    },
-   "gonderi_sayisi": 4,
+   "gonderi_sayisi": 7,
    "gonderiler": [
+    {
+     "id": "v012",
+     "tarih": "2026-10-18T19:02:43.000Z",
+     "ilk_satir": "Başına gelenleri anlamlandıramıyorsan 🤍",
+     "izlenme": 0,
+     "erisim": 0,
+     "begeni": 0,
+     "yorum": 0,
+     "paylasim": 0,
+     "kaydetme": 0,
+     "takip": 0,
+     "etkilesim_orani": 0,
+     "ort_izleme_sn": 36.0,
+     "kalan_2sn": null,
+     "kalan_6sn": null,
+     "kalan_10sn": null,
+     "arama_payi": null,
+     "fyp_payi": null
+    },
+    {
+     "id": "v019",
+     "tarih": "2026-10-18T17:05:01.000Z",
+     "ilk_satir": "Öfkene mi yenik düşüyorsun? 🤍",
+     "izlenme": 1,
+     "erisim": 0,
+     "begeni": 0,
+     "yorum": 0,
+     "paylasim": 0,
+     "kaydetme": 0,
+     "takip": 0,
+     "etkilesim_orani": 0,
+     "ort_izleme_sn": 7.3,
+     "kalan_2sn": null,
+     "kalan_6sn": null,
+     "kalan_10sn": null,
+     "arama_payi": null,
+     "fyp_payi": null
+    },
+    {
+     "id": "v045",
+     "tarih": "2026-10-18T16:35:06.000Z",
+     "ilk_satir": "Hz. Musa ve denizin yarılması: herkes \"yakalandık\" dediğinde söylediği cümle 🤍",
+     "izlenme": 2,
+     "erisim": 0,
+     "begeni": 0,
+     "yorum": 0,
+     "paylasim": 0,
+     "kaydetme": 0,
+     "takip": 0,
+     "etkilesim_orani": 0,
+     "ort_izleme_sn": 7.2,
+     "kalan_2sn": null,
+     "kalan_6sn": null,
+     "kalan_10sn": null,
+     "arama_payi": null,
+     "fyp_payi": null
+    },
     {
      "id": null,
      "tarih": "2026-10-17T15:46:53.000Z",
@@ -61,7 +118,7 @@
      "kaydetme": 0,
      "takip": 0,
      "etkilesim_orani": 6.67,
-     "ort_izleme_sn": 4.2,
+     "ort_izleme_sn": 3.8,
      "kalan_2sn": null,
      "kalan_6sn": null,
      "kalan_10sn": null,
@@ -127,6 +184,21 @@
      "gonderi": 1,
      "ort_izlenme": 4,
      "ort_kalan_2sn": null
+    },
+    "20": {
+     "gonderi": 1,
+     "ort_izlenme": 2,
+     "ort_kalan_2sn": null
+    },
+    "21": {
+     "gonderi": 1,
+     "ort_izlenme": 1,
+     "ort_kalan_2sn": null
+    },
+    "23": {
+     "gonderi": 1,
+     "ort_izlenme": 0,
+     "ort_kalan_2sn": null
     }
    },
    "zernio_analiz": {
@@ -151,8 +223,26 @@
        "post_count": 1
       },
       {
+       "day_of_week": 6,
+       "hour": 16,
+       "avg_engagement": 0,
+       "post_count": 1
+      },
+      {
+       "day_of_week": 6,
+       "hour": 17,
+       "avg_engagement": 0,
+       "post_count": 1
+      },
+      {
        "day_of_week": 5,
        "hour": 15,
+       "avg_engagement": 0,
+       "post_count": 1
+      },
+      {
+       "day_of_week": 6,
+       "hour": 19,
        "avg_engagement": 0,
        "post_count": 1
       }
@@ -162,9 +252,9 @@
      "frequency": [
       {
        "platform": "instagram",
-       "posts_per_week": 4,
-       "avg_engagement_rate": 14.544250132485427,
-       "avg_engagement": 4.75,
+       "posts_per_week": 7,
+       "avg_engagement_rate": 8.311000075705959,
+       "avg_engagement": 2.7142857142857144,
        "weeks_count": 1
       }
      ]
@@ -197,50 +287,107 @@
     "isBusinessAccount": false
    },
    "hesap_metrikleri": {
-    "follower_count": 1660,
-    "likes_count": 6535,
-    "video_count": 56,
+    "follower_count": 1662,
+    "likes_count": 6591,
+    "video_count": 58,
     "followers_gained": 0,
     "followers_lost": 0
    },
    "ortalama": {
-    "izlenme": 162.833,
-    "begeni": 16.722,
+    "izlenme": 160.381,
+    "begeni": 17.048,
     "kaydetme": 2.0,
-    "paylasim": 0.333,
+    "paylasim": 0.524,
     "takip": 0.333,
-    "etkilesim_orani": 13.991,
-    "ort_izleme_sn": 3.283,
-    "kalan_2sn": 0.337,
-    "kalan_6sn": 0.121,
-    "arama_payi": 0.026
+    "etkilesim_orani": 14.718,
+    "ort_izleme_sn": 3.595,
+    "kalan_2sn": 0.349,
+    "kalan_6sn": 0.127,
+    "arama_payi": 0.027
    },
-   "gonderi_sayisi": 18,
+   "gonderi_sayisi": 21,
    "gonderiler": [
+    {
+     "id": "v012",
+     "tarih": "2026-10-18T19:02:12.000Z",
+     "ilk_satir": "Başına gelenleri anlamlandıramıyorsan 🤍 Hiçbir musibet Allah'ın izni olmadan gelmez. İnana",
+     "izlenme": 139,
+     "erisim": 0,
+     "begeni": 17,
+     "yorum": 1,
+     "paylasim": 1,
+     "kaydetme": 2,
+     "takip": 0,
+     "etkilesim_orani": 15.11,
+     "ort_izleme_sn": 5.1,
+     "kalan_2sn": 0.4,
+     "kalan_6sn": 0.16,
+     "kalan_10sn": 0.12,
+     "arama_payi": 0.02,
+     "fyp_payi": 0.947
+    },
+    {
+     "id": "v019",
+     "tarih": "2026-10-18T17:03:34.000Z",
+     "ilk_satir": "Öfkene mi yenik düşüyorsun? 🤍 Allah'ın sevdiği kulların vasıfları: infak eder, öfkesini ye",
+     "izlenme": 134,
+     "erisim": 0,
+     "begeni": 24,
+     "yorum": 10,
+     "paylasim": 4,
+     "kaydetme": 6,
+     "takip": 0,
+     "etkilesim_orani": 32.84,
+     "ort_izleme_sn": 5.4,
+     "kalan_2sn": 0.43,
+     "kalan_6sn": 0.21,
+     "kalan_10sn": 0.13,
+     "arama_payi": 0.008,
+     "fyp_payi": 0.96
+    },
+    {
+     "id": "v045",
+     "tarih": "2026-10-18T16:34:11.000Z",
+     "ilk_satir": "Hz. Musa ve denizin yarılması: herkes \"yakalandık\" dediğinde söylediği cümle 🤍 Şuara Sures",
+     "izlenme": 156,
+     "erisim": 0,
+     "begeni": 16,
+     "yorum": 0,
+     "paylasim": 0,
+     "kaydetme": 1,
+     "takip": 0,
+     "etkilesim_orani": 10.9,
+     "ort_izleme_sn": 5.7,
+     "kalan_2sn": 0.42,
+     "kalan_6sn": 0.12,
+     "kalan_10sn": 0.08,
+     "arama_payi": 0.041,
+     "fyp_payi": 0.945
+    },
     {
      "id": null,
      "tarih": "2026-10-17T15:43:13.000Z",
      "ilk_satir": "Fatiha Suresi anlamı ve Türkçe meali: her namazda okuduğun 7 ayet, Arapça tilavetiyle ayet",
-     "izlenme": 171,
+     "izlenme": 173,
      "erisim": 0,
      "begeni": 20,
      "yorum": 0,
      "paylasim": 1,
      "kaydetme": 2,
      "takip": 0,
-     "etkilesim_orani": 13.45,
+     "etkilesim_orani": 13.29,
      "ort_izleme_sn": 5.4,
      "kalan_2sn": 0.35,
      "kalan_6sn": 0.13,
      "kalan_10sn": 0.1,
      "arama_payi": 0,
-     "fyp_payi": 0.995
+     "fyp_payi": 0.99
     },
     {
      "id": null,
      "tarih": "2026-10-16T18:03:15.000Z",
      "ilk_satir": "“Ne olursan ol gel” Mevlana’nın çok güzel bir sözü. Bu yüzden gelmeyi unutmayın! ✨ #Mevlan",
-     "izlenme": 184,
+     "izlenme": 186,
      "erisim": 101,
      "begeni": 30,
      "yorum": 0,
@@ -248,12 +395,12 @@
      "kaydetme": 1,
      "takip": 0,
      "etkilesim_orani": 30.69,
-     "ort_izleme_sn": 1.4,
+     "ort_izleme_sn": 1.5,
      "kalan_2sn": null,
      "kalan_6sn": null,
      "kalan_10sn": null,
-     "arama_payi": 0.005,
-     "fyp_payi": 0.974
+     "arama_payi": 0.015,
+     "fyp_payi": 0.959
     },
     {
      "id": null,
@@ -262,11 +409,11 @@
      "izlenme": 148,
      "erisim": 135,
      "begeni": 10,
-     "yorum": 3,
+     "yorum": 4,
      "paylasim": 0,
      "kaydetme": 4,
      "takip": 0,
-     "etkilesim_orani": 12.59,
+     "etkilesim_orani": 13.33,
      "ort_izleme_sn": 3.5,
      "kalan_2sn": 0.27,
      "kalan_6sn": 0.1,
@@ -302,9 +449,9 @@
      "begeni": 15,
      "yorum": 1,
      "paylasim": 0,
-     "kaydetme": 1,
+     "kaydetme": 0,
      "takip": 0,
-     "etkilesim_orani": 12.98,
+     "etkilesim_orani": 12.21,
      "ort_izleme_sn": 4.9,
      "kalan_2sn": 0.33,
      "kalan_6sn": 0.16,
@@ -335,20 +482,20 @@
      "id": "v010",
      "tarih": "2026-10-13T11:03:15.000Z",
      "ilk_satir": "Kimse seni anlamıyor gibi geliyorsa 🤍 Allah insanın içinden geçeni bilir ve ona şah damarı",
-     "izlenme": 163,
+     "izlenme": 167,
      "erisim": 140,
      "begeni": 12,
      "yorum": 0,
      "paylasim": 0,
-     "kaydetme": 2,
-     "takip": 1,
-     "etkilesim_orani": 10,
-     "ort_izleme_sn": 4.1,
+     "kaydetme": 0,
+     "takip": 2,
+     "etkilesim_orani": 8.57,
+     "ort_izleme_sn": 4.2,
      "kalan_2sn": 0.33,
      "kalan_6sn": 0.16,
      "kalan_10sn": 0.13,
-     "arama_payi": 0.089,
-     "fyp_payi": 0.877
+     "arama_payi": 0.114,
+     "fyp_payi": 0.854
     },
     {
      "id": "v009",
@@ -588,7 +735,7 @@
     },
     "15": {
      "gonderi": 3,
-     "ort_izlenme": 154,
+     "ort_izlenme": 155,
      "ort_kalan_2sn": 0.34
     },
     "18": {
@@ -598,18 +745,39 @@
     },
     "19": {
      "gonderi": 1,
-     "ort_izlenme": 171,
+     "ort_izlenme": 173,
      "ort_kalan_2sn": 0.35
+    },
+    "20": {
+     "gonderi": 1,
+     "ort_izlenme": 156,
+     "ort_kalan_2sn": 0.42
+    },
+    "21": {
+     "gonderi": 1,
+     "ort_izlenme": 134,
+     "ort_kalan_2sn": 0.43
     },
     "22": {
      "gonderi": 1,
-     "ort_izlenme": 184,
+     "ort_izlenme": 186,
      "ort_kalan_2sn": null
+    },
+    "23": {
+     "gonderi": 1,
+     "ort_izlenme": 139,
+     "ort_kalan_2sn": 0.4
     }
    },
    "zernio_analiz": {
     "en_iyi_saat": {
      "slots": [
+      {
+       "day_of_week": 6,
+       "hour": 17,
+       "avg_engagement": 44,
+       "post_count": 1
+      },
       {
        "day_of_week": 6,
        "hour": 11,
@@ -642,6 +810,12 @@
       },
       {
        "day_of_week": 6,
+       "hour": 19,
+       "avg_engagement": 21,
+       "post_count": 1
+      },
+      {
+       "day_of_week": 6,
        "hour": 14,
        "avg_engagement": 21,
        "post_count": 1
@@ -650,6 +824,12 @@
        "day_of_week": 4,
        "hour": 11,
        "avg_engagement": 19,
+       "post_count": 1
+      },
+      {
+       "day_of_week": 4,
+       "hour": 9,
+       "avg_engagement": 18,
        "post_count": 1
       },
       {
@@ -665,21 +845,21 @@
        "post_count": 1
       },
       {
-       "day_of_week": 4,
-       "hour": 9,
+       "day_of_week": 6,
+       "hour": 16,
        "avg_engagement": 17,
        "post_count": 1
       },
       {
        "day_of_week": 3,
        "hour": 6,
-       "avg_engagement": 17,
+       "avg_engagement": 16,
        "post_count": 1
       },
       {
        "day_of_week": 1,
        "hour": 11,
-       "avg_engagement": 14,
+       "avg_engagement": 12,
        "post_count": 1
       },
       {
@@ -719,16 +899,16 @@
       },
       {
        "platform": "tiktok",
-       "posts_per_week": 8,
-       "avg_engagement_rate": 10.976337478180914,
-       "avg_engagement": 17.5,
+       "posts_per_week": 9,
+       "avg_engagement_rate": 13.755736136299133,
+       "avg_engagement": 23,
        "weeks_count": 1
       },
       {
        "platform": "tiktok",
-       "posts_per_week": 9,
-       "avg_engagement_rate": 13.755736136299133,
-       "avg_engagement": 23,
+       "posts_per_week": 11,
+       "avg_engagement_rate": 13.167892979965101,
+       "avg_engagement": 20,
        "weeks_count": 1
       }
      ]
@@ -736,10 +916,16 @@
     "eskime": {
      "buckets": [
       {
+       "bucket_order": 0,
+       "bucket_label": "0-6h",
+       "avg_pct_of_final": 100,
+       "post_count": 3
+      },
+      {
        "bucket_order": 1,
        "bucket_label": "6-12h",
-       "avg_pct_of_final": 86.95652173913044,
-       "post_count": 1
+       "avg_pct_of_final": 96.18357487922705,
+       "post_count": 4
       },
       {
        "bucket_order": 2,
@@ -750,14 +936,14 @@
       {
        "bucket_order": 3,
        "bucket_label": "1-2d",
-       "avg_pct_of_final": 100,
+       "avg_pct_of_final": 98.14814814814815,
        "post_count": 3
       },
       {
        "bucket_order": 4,
        "bucket_label": "2-7d",
        "avg_pct_of_final": 100,
-       "post_count": 9
+       "post_count": 10
       },
       {
        "bucket_order": 5,
