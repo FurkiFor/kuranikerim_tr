@@ -204,7 +204,9 @@
    "tiktok",
    "instagram"
   ],
-  "not": "tilavetli anlatımlı — teselli, kötülük görmek"
+  "not": "tilavetli anlatımlı — teselli, kötülük görmek",
+  "zernio_id": "6ad6e129b3d3065037928309",
+  "status": "scheduled"
  },
  {
   "id": "v049",
@@ -213,7 +215,9 @@
    "tiktok",
    "instagram"
   ],
-  "not": "tilavet kartı — deney 9 'Bazen…' kancası"
+  "not": "tilavet kartı — deney 9 'Bazen…' kancası",
+  "zernio_id": "6ad6e1296f0e5fa2b2728a5e",
+  "status": "scheduled"
  },
  {
   "id": "v055",
@@ -222,6 +226,8 @@
    "tiktok",
    "instagram"
   ],
-  "not": "tilavet kartı — açık adlı dua (deney 6 kalıbı)"
+  "not": "tilavet kartı — açık adlı dua (deney 6 kalıbı)",
+  "zernio_id": "6ad6e12a6f0e5fa2b2728a64",
+  "status": "scheduled"
  }
 ]
