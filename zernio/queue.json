@@ -237,7 +237,9 @@
    "tiktok",
    "instagram"
   ],
-  "not": "tilavetli anlatımlı — kıssa köprüsü (Hz. Yunus), üzüntü"
+  "not": "tilavetli anlatımlı — kıssa köprüsü (Hz. Yunus), üzüntü",
+  "zernio_id": "6ad757b4700b7183ef334513",
+  "status": "scheduled"
  },
  {
   "id": "v058",
@@ -246,6 +248,8 @@
    "tiktok",
    "instagram"
   ],
-  "not": "tilavet kartı — deney 9 'Bazen…' kancası (2. video)"
+  "not": "tilavet kartı — deney 9 'Bazen…' kancası (2. video)",
+  "zernio_id": "6ad757b4700b7183ef334519",
+  "status": "scheduled"
  }
 ]
