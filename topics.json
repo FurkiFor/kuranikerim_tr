@@ -1289,7 +1289,7 @@
   ],
   "kart_metin": "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur",
   "sahne": "kalp",
-  "hook": "Kalbin huzursuzsa bu ayeti dinle",
+  "hook": "Bazen hiçbir şey kalbini huzura kavuşturmuyor",
   "tema": "Huzur",
   "etiketler": [
    "huzur",
@@ -1299,12 +1299,14 @@
   "aciklama": "Ra'd Suresi 28. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur",
   "seo": {
-   "yt_baslik": "Kalbin Huzursuzsa Bu Ayeti Dinle | Ra'd 28",
-   "ilk_satir": "Kalbin huzursuzsa bu ayeti dinle — Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur",
+   "yt_baslik": "Bazen Hiçbir Şey Kalbini Huzura Kavuşturmuyor | Ra'd 28",
+   "ilk_satir": "Kalp huzuru ayeti | Ra'd 28 — Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur",
    "aciklama": "Ra'd Suresi 28. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "kalpler ancak allahı anmakla huzur bulur",
-    "rad suresi 28"
+    "huzur ayeti",
+    "rad suresi 28",
+    "kuran dinle"
    ]
   },
   "ses": "tilavet",
@@ -1314,7 +1316,8 @@
     "metin": "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur"
    }
   ],
-  "ust": "Kalbin huzursuzsa bu ayeti dinle"
+  "ust": "Bazen hiçbir şey kalbini huzura kavuşturmuyor",
+  "not": "deney 9: 'Bazen…' gözlem cümlesi (soru/emir yok) — vidIQ 20 Ekim"
  },
  {
   "id": "v050",
@@ -1528,8 +1531,8 @@
   ],
   "kart_metin": "Rabbim! Doğrusu bana indireceğin hayra muhtacım",
   "sahne": "kum",
-  "hook": "Hz. Musa yurdundan kaçıp yapayalnız kaldığında bu duayı etti",
-  "tema": "Dua",
+  "hook": "Muhtaç hissediyorsan Hz. Musa'nın bu duasını dinle",
+  "tema": "Hayır duası",
   "etiketler": [
    "dua",
    "musa",
@@ -1539,12 +1542,14 @@
   "aciklama": "Kasas Suresi 24. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Rabbim! Doğrusu bana indireceğin hayra muhtacım",
   "seo": {
-   "yt_baslik": "Hz. Musa'nın Çaresizken Ettiği Dua | Kasas 24",
-   "ilk_satir": "Hz. Musa yurdundan kaçıp yapayalnız kaldığında bu duayı etti — Rabbim! Doğrusu bana indireceğin hayra muhtacım",
+   "yt_baslik": "Muhtaç Hissediyorsan Hz. Musa'nın Duası | Kasas 24",
+   "ilk_satir": "Hz. Musa'nın duası | Kasas 24 — Rabbim! Doğrusu bana indireceğin hayra muhtacım",
    "aciklama": "Kasas Suresi 24. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "hz musa duası",
     "rabbi inni lima enzelte duası",
-    "kasas suresi 24"
+    "kasas suresi 24",
+    "hayır duası"
    ]
   },
   "ses": "tilavet",
@@ -1554,7 +1559,8 @@
     "metin": "Rabbim! Doğrusu bana indireceğin hayra muhtacım"
    }
   ],
-  "ust": "Hz. Musa yurdundan kaçıp yapayalnız kaldığında bu duayı etti"
+  "ust": "Muhtaç hissediyorsan Hz. Musa'nın bu duasını dinle",
+  "not": "deney 6 kalıbı (hâl + açık adlı dua + dinle)"
  },
  {
   "id": "v056",
@@ -1830,12 +1836,12 @@
   },
   "seo": {
    "yt_baslik": "Sana kurulan tuzaklardan mı korkuyorsun? | Nahl 127",
-   "ilk_satir": "Sabır ayeti | Nahl 127: kurulan düzenlerden endişe etme",
+   "ilk_satir": "Kötülük görünce sabır ayeti | Nahl 127: kurdukları düzenlerden endişe etme",
    "aciklama": "Nahl Suresi 127. ayette sabrın ancak Allah'ın yardımıyla olduğu bildirilir; onlara üzülmemek ve kurdukları düzenlerden endişe etmemek öğütlenir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "sabır ayeti",
     "nahl suresi 127",
-    "kötülük görünce okunacak ayet",
+    "kötülük görünce sabır",
     "sabır ile ilgili ayetler"
    ]
   }
