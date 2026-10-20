@@ -229,5 +229,23 @@
   "not": "tilavet kartı — açık adlı dua (deney 6 kalıbı)",
   "zernio_id": "6ad6e12a6f0e5fa2b2728a64",
   "status": "scheduled"
+ },
+ {
+  "id": "v065",
+  "at": "2026-10-20T20:30:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavetli anlatımlı — kıssa köprüsü (Hz. Yunus), üzüntü"
+ },
+ {
+  "id": "v058",
+  "at": "2026-10-20T23:30:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavet kartı — deney 9 'Bazen…' kancası (2. video)"
  }
 ]
