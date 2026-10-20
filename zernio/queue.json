@@ -196,5 +196,32 @@
   "not": "tilavet kartı — açık adlı dua (deney 6)",
   "zernio_id": "6ad59301879c86d73ea5915c",
   "status": "scheduled"
+ },
+ {
+  "id": "v062",
+  "at": "2026-10-20T10:00:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavetli anlatımlı — teselli, kötülük görmek"
+ },
+ {
+  "id": "v049",
+  "at": "2026-10-20T13:00:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavet kartı — deney 9 'Bazen…' kancası"
+ },
+ {
+  "id": "v055",
+  "at": "2026-10-20T18:00:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavet kartı — açık adlı dua (deney 6 kalıbı)"
  }
 ]

@@ -59,6 +59,8 @@
 | 17 | Yaşadıklarını kimse görmüyor mu sanıyorsun? | — | Tur 48: "sen, Bizim nezaretimiz altındasın" | v068; Peygambere hitap, girişte söylenir |
 | 18 | Umudunu insanlara bağlayıp kırıldın mı? | — | İnşirah 7-8: "ümit edeceğini yalnız Rabbinden iste" | v069 |
 | 19 | Aklına kötü düşünceler mi geliyor? | — | Mü'minun 97-98: şeytanların kışkırtmalarından sığınma | v073; arama: vesvese duası |
+| 20 | Bazen hiçbir şey kalbini huzura kavuşturmuyor (kart `ust`, deney 9) | — | Ra'd 28: "kalbler ancak Allah'ı anmakla huzura kavuşur" | v049; vidIQ 20 Ekim: gözlem cümlesi |
+| 21 | Muhtaç hissediyorsan Hz. Musa'nın bu duasını dinle (kart `ust`) | — | Kasas 24: "bana indireceğin hayra muhtacım" | v055; deney 6 kalıbı |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
