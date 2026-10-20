@@ -61,6 +61,8 @@
 | 19 | Aklına kötü düşünceler mi geliyor? | — | Mü'minun 97-98: şeytanların kışkırtmalarından sığınma | v073; arama: vesvese duası |
 | 20 | Bazen hiçbir şey kalbini huzura kavuşturmuyor (kart `ust`, deney 9) | — | Ra'd 28: "kalbler ancak Allah'ı anmakla huzura kavuşur" | v049; vidIQ 20 Ekim: gözlem cümlesi |
 | 21 | Muhtaç hissediyorsan Hz. Musa'nın bu duasını dinle (kart `ust`) | — | Kasas 24: "bana indireceğin hayra muhtacım" | v055; deney 6 kalıbı |
+| 22 | Üzüntüden çıkamıyor musun? | — | Enbiya 88: "onu üzüntüden kurtarmıştık" | v065; kıssa köprüsü (Hz. Yunus, karanlıklar: Enbiya 87) |
+| 23 | Bazen bütün emeklerin boşa gitmiş gibi gelir (kart `ust`, deney 9) | — | Hud 115: "ecrini elbette zayi etmez" | v058; gözlem cümlesi |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

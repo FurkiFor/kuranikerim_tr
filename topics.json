@@ -1647,7 +1647,7 @@
   ],
   "kart_metin": "Sabret, Allah iyi davrananların ecrini elbette zayi etmez",
   "sahne": "kum",
-  "hook": "Emeklerin boşa gidiyor gibi hissediyorsan",
+  "hook": "Bazen bütün emeklerin boşa gitmiş gibi gelir",
   "tema": "Sabır",
   "etiketler": [
    "sabır",
@@ -1657,8 +1657,8 @@
   "aciklama": "Hûd Suresi 115. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Sabret, Allah iyi davrananların ecrini elbette zayi etmez",
   "seo": {
-   "yt_baslik": "Emeklerin Boşa Gidiyor Gibiyse | Hud 115",
-   "ilk_satir": "Emeklerin boşa gidiyor gibi hissediyorsan — Sabret, Allah iyi davrananların ecrini elbette zayi etmez",
+   "yt_baslik": "Bazen Bütün Emeklerin Boşa Gitmiş Gibi Gelir | Hud 115",
+   "ilk_satir": "Sabır ayeti | Hud 115 — Sabret, Allah iyi davrananların ecrini elbette zayi etmez",
    "aciklama": "Hûd Suresi 115. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "sabret allah ecri zayi etmez ayeti",
@@ -1672,7 +1672,8 @@
     "metin": "Sabret, Allah iyi davrananların ecrini elbette zayi etmez"
    }
   ],
-  "ust": "Emeklerin boşa gidiyor gibi hissediyorsan"
+  "ust": "Bazen bütün emeklerin boşa gitmiş gibi gelir",
+  "not": "deney 9 (2. video): 'Bazen…' gözlem cümlesi — 20 Ekim AKŞAM 23:30"
  },
  {
   "id": "v059",
@@ -1983,17 +1984,19 @@
   },
   "seo": {
    "yt_baslik": "Üzüntüden çıkamıyor musun? | Hz. Yunus · Enbiya 88",
-   "ilk_satir": "Hz. Yunus kıssası | Enbiya 88: onu üzüntüden kurtardık",
+   "ilk_satir": "Üzüntü ve keder ayeti | Enbiya 88 — Hz. Yunus: onu üzüntüden kurtarmıştık",
    "aciklama": "Enbiya Suresi 87. ayette Hz. Yunus'un karanlıklar içinde Rabbine seslendiği anlatılır; 88. ayette Allah ona cevap verip onu üzüntüden kurtardığını ve inananları böyle kurtardığını bildirir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "hz yunus",
     "hz yunus kıssası",
-    "yunus peygamber",
     "enbiya suresi 88",
-    "üzüntüden kurtulmak ayet"
+    "üzüntü ayeti",
+    "yunus peygamber"
    ]
   },
   "kalip": "A-kissa-koprusu",
-  "kopru_kaynak": "Enbiya 87: fakat sonunda karanlıklar içinde ... diye seslenmişti"
+  "kopru_kaynak": "Enbiya 87: fakat sonunda karanlıklar içinde ... diye seslenmişti",
+  "not": "AKŞAM 20 Ekim 20:30 — kıssa köprüsü + hâl sorusu (teselli). vidIQ TR: 'hz yunus' ~4.312/ay; 'yunus duası' ~3.598 ama dua 87. ayette (videoda yok) → başlığa yazılmadı"
  },
  {
   "id": "v066",
