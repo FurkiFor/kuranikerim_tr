@@ -2795,5 +2795,600 @@
     "teselli ayetleri"
    ]
   }
+ },
+ {
+  "id": "v082",
+  "tur": "kart",
+  "sure": 15,
+  "ayet": [
+   49,
+   49
+  ],
+  "kart_metin": "Kullarıma Benim bağışlayan, merhamet eden olduğumu",
+  "sahne": "kapi",
+  "hook": "Günahların yüzünden umudunu kaybettiysen",
+  "tema": "Tövbe",
+  "etiketler": [
+   "tövbe",
+   "af",
+   "tilavet"
+  ],
+  "aciklama": "Hicr Suresi 49. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Kullarıma Benim bağışlayan, merhamet eden olduğumu",
+  "seo": {
+   "yt_baslik": "Günahların yüzünden umudunu kaybettiysen | Hicr 49",
+   "ilk_satir": "Tövbe ve af ayeti | Hicr 49: Kullarıma Benim bağışlayan, merhamet eden olduğumu",
+   "aciklama": "Hicr Suresi 49. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe ayeti",
+    "allah bağışlayandır ayeti",
+    "hicr suresi 49",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 49,
+    "metin": "Kullarıma Benim bağışlayan, merhamet eden olduğumu"
+   }
+  ],
+  "ust": "Günahların yüzünden umudunu kaybettiysen"
+ },
+ {
+  "id": "v083",
+  "tur": "kart",
+  "sure": 16,
+  "ayet": [
+   128,
+   128
+  ],
+  "kart_metin": "Allah şüphesiz sakınanlarla ve iyilik yapanlarla beraberdir",
+  "sahne": "tohum",
+  "hook": "Bazen yaptığın iyilikler karşılıksız kalıyor gibi gelir",
+  "tema": "İyilik",
+  "etiketler": [
+   "iyilik",
+   "teselli",
+   "tilavet"
+  ],
+  "aciklama": "Nahl Suresi 128. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Allah şüphesiz sakınanlarla ve iyilik yapanlarla beraberdir",
+  "seo": {
+   "yt_baslik": "Bazen yaptığın iyilikler karşılıksız kalıyor gibi gelir | Nahl 128",
+   "ilk_satir": "İyilik ayeti | Nahl 128: Allah şüphesiz sakınanlarla ve iyilik yapanlarla beraberdir",
+   "aciklama": "Nahl Suresi 128. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "iyilik ile ilgili ayet",
+    "allah iyilik yapanlarla beraberdir",
+    "nahl suresi 128",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 128,
+    "metin": "Allah şüphesiz sakınanlarla ve iyilik yapanlarla beraberdir"
+   }
+  ],
+  "ust": "Bazen yaptığın iyilikler karşılıksız kalıyor gibi gelir"
+ },
+ {
+  "id": "v084",
+  "tur": "kart",
+  "sure": 25,
+  "ayet": [
+   58,
+   58
+  ],
+  "kart_metin": "Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et",
+  "sahne": "yol",
+  "hook": "Güvendiğin insanlar seni yarı yolda bıraktıysa",
+  "tema": "Tevekkül",
+  "etiketler": [
+   "tevekkül",
+   "güven",
+   "tilavet"
+  ],
+  "aciklama": "Furkân Suresi 58. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et",
+  "seo": {
+   "yt_baslik": "Güvendiğin insanlar seni yarı yolda bıraktıysa | Furkan 58",
+   "ilk_satir": "Tevekkül ayeti | Furkan 58: Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et",
+   "aciklama": "Furkân Suresi 58. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tevekkül ayeti",
+    "allaha güven ayeti",
+    "furkan suresi 58",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 58,
+    "metin": "Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et"
+   }
+  ],
+  "ust": "Güvendiğin insanlar seni yarı yolda bıraktıysa"
+ },
+ {
+  "id": "v085",
+  "tur": "kart",
+  "sure": 20,
+  "ayet": [
+   46,
+   46
+  ],
+  "kart_metin": "Korkmayın, dedi; Ben sizinle beraberim; görür ve işitirim",
+  "sahne": "deniz",
+  "hook": "Korktuğun bir şeyle yüzleşmen gerekiyorsa",
+  "tema": "Korku",
+  "etiketler": [
+   "korku",
+   "kaygı",
+   "tilavet"
+  ],
+  "aciklama": "Tâhâ Suresi 46. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Korkmayın, dedi; Ben sizinle beraberim; görür ve işitirim",
+  "seo": {
+   "yt_baslik": "Korktuğun bir şeyle yüzleşmen gerekiyorsa | Taha 46",
+   "ilk_satir": "Korku ve kaygı ayeti | Taha 46: Korkmayın, dedi; Ben sizinle beraberim; görür ve işitirim",
+   "aciklama": "Tâhâ Suresi 46. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "korkmayın ben sizinle beraberim ayeti",
+    "korku ile ilgili ayet",
+    "taha suresi 46",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 46,
+    "metin": "Korkmayın, dedi; Ben sizinle beraberim; görür ve işitirim"
+   }
+  ],
+  "ust": "Korktuğun bir şeyle yüzleşmen gerekiyorsa"
+ },
+ {
+  "id": "v086",
+  "tur": "kart",
+  "sure": 94,
+  "ayet": [
+   1,
+   1
+  ],
+  "kart_metin": "Senin gönlünü açmadık mı",
+  "sahne": "yildiz",
+  "hook": "Bazen göğsün sıkışır, nefes alamazsın",
+  "tema": "İç Sıkıntısı",
+  "etiketler": [
+   "iç sıkıntısı",
+   "inşirah",
+   "tilavet"
+  ],
+  "aciklama": "İnşirâh Suresi 1. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Senin gönlünü açmadık mı",
+  "seo": {
+   "yt_baslik": "Bazen göğsün sıkışır, nefes alamazsın | İnşirah 1",
+   "ilk_satir": "İç sıkıntısı ayeti | İnşirah 1: Senin gönlünü açmadık mı",
+   "aciklama": "İnşirâh Suresi 1. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "iç sıkıntısı için ayet",
+    "inşirah suresi",
+    "elem neşrah",
+    "kuran dinle"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 1,
+    "metin": "Senin gönlünü açmadık mı"
+   }
+  ],
+  "ust": "Bazen göğsün sıkışır, nefes alamazsın"
+ },
+ {
+  "id": "v087",
+  "tur": "kart",
+  "sure": 25,
+  "ayet": [
+   63,
+   63
+  ],
+  "kart_metin": "Bilgisizler kendilerine takıldıkları zaman onlara güzel ve yumuşak söz söylerler",
+  "sahne": "kalp",
+  "hook": "Biri sana kırıcı konuştuysa",
+  "tema": "Kırgınlık",
+  "etiketler": [
+   "kırgınlık",
+   "güzel söz",
+   "tilavet"
+  ],
+  "aciklama": "Furkân Suresi 63. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Bilgisizler kendilerine takıldıkları zaman onlara güzel ve yumuşak söz söylerler",
+  "seo": {
+   "yt_baslik": "Biri sana kırıcı konuştuysa | Furkan 63",
+   "ilk_satir": "Kırgınlık ayeti | Furkan 63: Bilgisizler kendilerine takıldıkları zaman onlara güzel ve yumuşak söz söylerler",
+   "aciklama": "Furkân Suresi 63. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "güzel söz ayeti",
+    "rahmanın kulları ayeti",
+    "furkan suresi 63",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 63,
+    "metin": "Bilgisizler kendilerine takıldıkları zaman onlara güzel ve yumuşak söz söylerler"
+   }
+  ],
+  "ust": "Biri sana kırıcı konuştuysa"
+ },
+ {
+  "id": "v088",
+  "tur": "kart",
+  "sure": 17,
+  "ayet": [
+   80,
+   80
+  ],
+  "kart_metin": "Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et",
+  "sahne": "yol",
+  "hook": "Yeni bir yere, yeni bir işe başlıyorsan",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "yeni başlangıç",
+   "tilavet"
+  ],
+  "aciklama": "İsrâ Suresi 80. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et",
+  "seo": {
+   "yt_baslik": "Yeni bir yere, yeni bir işe başlıyorsan | İsra 80",
+   "ilk_satir": "Yeni işe başlarken dua | İsra 80: Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et",
+   "aciklama": "İsrâ Suresi 80. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "yeni işe başlarken dua",
+    "isra suresi 80",
+    "rabbi edhilni duası",
+    "kuran duaları"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 80,
+    "metin": "Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et"
+   }
+  ],
+  "ust": "Yeni bir yere, yeni bir işe başlıyorsan"
+ },
+ {
+  "id": "v089",
+  "tur": "kart",
+  "sure": 28,
+  "ayet": [
+   21,
+   21
+  ],
+  "kart_metin": "Rabbim! Beni zalim milletten kurtar",
+  "sahne": "firtina",
+  "hook": "Korku içindeysen Hz. Musa'nın bu duasını dinle",
+  "tema": "Dua",
+  "etiketler": [
+   "korku",
+   "musa",
+   "dua",
+   "tilavet"
+  ],
+  "aciklama": "Kasas Suresi 21. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Beni zalim milletten kurtar",
+  "seo": {
+   "yt_baslik": "Korku içindeysen Hz. Musa'nın bu duasını dinle | Kasas 21",
+   "ilk_satir": "Korku anında dua | Kasas 21: Rabbim! Beni zalim milletten kurtar",
+   "aciklama": "Kasas Suresi 21. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "korku anında okunacak ayet",
+    "hz musa duası",
+    "kasas suresi 21",
+    "kuran duaları"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 21,
+    "metin": "Rabbim! Beni zalim milletten kurtar"
+   }
+  ],
+  "ust": "Korku içindeysen Hz. Musa'nın bu duasını dinle"
+ },
+ {
+  "id": "v090",
+  "tur": "kart",
+  "sure": 28,
+  "ayet": [
+   16,
+   16
+  ],
+  "kart_metin": "Rabbim! Doğrusu kendime yazık ettim, beni bağışla",
+  "sahne": "kapi",
+  "hook": "Rabbim! Hz. Musa'nın tövbe duası",
+  "tema": "Tövbe",
+  "etiketler": [
+   "tövbe",
+   "musa",
+   "dua",
+   "tilavet"
+  ],
+  "aciklama": "Kasas Suresi 16. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Doğrusu kendime yazık ettim, beni bağışla",
+  "seo": {
+   "yt_baslik": "Rabbim! Hz. Musa'nın tövbe duası | Kasas 16",
+   "ilk_satir": "Tövbe duası | Kasas 16: Rabbim! Doğrusu kendime yazık ettim, beni bağışla",
+   "aciklama": "Kasas Suresi 16. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe duası",
+    "hz musa duası",
+    "kasas suresi 16",
+    "kuran duaları"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 16,
+    "metin": "Rabbim! Doğrusu kendime yazık ettim, beni bağışla"
+   }
+  ],
+  "ust": "Rabbim! Hz. Musa'nın tövbe duası"
+ },
+ {
+  "id": "v091",
+  "tur": "kart",
+  "sure": 23,
+  "ayet": [
+   29,
+   29
+  ],
+  "kart_metin": "Rabbim! Beni mübarek bir yere indir. Sen indirenlerin en iyisisin",
+  "sahne": "deniz",
+  "hook": "Rabbim! Hz. Nuh'un gemide ettiği dua",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "nuh",
+   "tilavet"
+  ],
+  "aciklama": "Mü'minûn Suresi 29. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Beni mübarek bir yere indir. Sen indirenlerin en iyisisin",
+  "seo": {
+   "yt_baslik": "Rabbim! Hz. Nuh'un gemide ettiği dua | Mü'minun 29",
+   "ilk_satir": "Hz. Nuh'un duası | Mü'minun 29: Rabbim! Beni mübarek bir yere indir. Sen indirenlerin en iyisisin",
+   "aciklama": "Mü'minûn Suresi 29. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz nuh duası",
+    "müminun suresi 29",
+    "bereket duası",
+    "kuran duaları"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 29,
+    "metin": "Rabbim! Beni mübarek bir yere indir. Sen indirenlerin en iyisisin"
+   }
+  ],
+  "ust": "Rabbim! Hz. Nuh'un gemide ettiği dua"
+ },
+ {
+  "id": "v092",
+  "tur": "kart",
+  "sure": 29,
+  "ayet": [
+   30,
+   30
+  ],
+  "kart_metin": "Rabbim! Bozgunculara karşı bana yardım et",
+  "sahne": "firtina",
+  "hook": "Etrafın kötülükle doluysa Hz. Lut'un duası",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "lut",
+   "tilavet"
+  ],
+  "aciklama": "Ankebût Suresi 30. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Bozgunculara karşı bana yardım et",
+  "seo": {
+   "yt_baslik": "Etrafın kötülükle doluysa Hz. Lut'un duası | Ankebut 30",
+   "ilk_satir": "Kötülükten korunma duası | Ankebut 30: Rabbim! Bozgunculara karşı bana yardım et",
+   "aciklama": "Ankebût Suresi 30. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz lut duası",
+    "ankebut suresi 30",
+    "kötülükten korunma duası",
+    "kuran duaları"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 30,
+    "metin": "Rabbim! Bozgunculara karşı bana yardım et"
+   }
+  ],
+  "ust": "Etrafın kötülükle doluysa Hz. Lut'un duası"
+ },
+ {
+  "id": "v093",
+  "tur": "kart",
+  "sure": 26,
+  "ayet": [
+   78,
+   80
+  ],
+  "kart_metin": "Beni yaratan da, doğru yola eriştiren de O'dur",
+  "sahne": "fener",
+  "hook": "Hastalık içini daraltıyorsa Hz. İbrahim'in bu sözünü dinle",
+  "tema": "Şifa",
+  "etiketler": [
+   "şifa",
+   "ibrahim",
+   "tilavet"
+  ],
+  "aciklama": "Şuarâ Suresi 78-80. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Hasta olduğumda bana O şifa verir",
+  "seo": {
+   "yt_baslik": "Şifa ayeti: Hz. İbrahim'in sözü | Şuara 78-80",
+   "ilk_satir": "Şifa ayeti | Şuara 78-80: Hasta olduğumda bana O şifa verir — Hz. İbrahim",
+   "aciklama": "Şuarâ Suresi 78-80. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "şifa ayetleri",
+    "hasta olduğumda bana o şifa verir",
+    "şuara suresi 80",
+    "şifa ayetleri dinle"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 78,
+    "metin": "Beni yaratan da, doğru yola eriştiren de O'dur"
+   },
+   {
+    "ayet": 79,
+    "metin": "Beni yediren de, içiren de O'dur"
+   },
+   {
+    "ayet": 80,
+    "metin": "Hasta olduğumda bana O şifa verir"
+   }
+  ],
+  "ust": "Hastalık içini daraltıyorsa Hz. İbrahim'in bu sözünü dinle"
+ },
+ {
+  "id": "v094",
+  "tur": "kart",
+  "sure": 12,
+  "ayet": [
+   92,
+   92
+  ],
+  "kart_metin": "Bugün azarlanacak değilsiniz, Allah sizi bağışlar. O, merhametlilerin merhametlisidir",
+  "sahne": "kalp",
+  "hook": "Hz. Yusuf'un, onu kuyuya atan kardeşlerine sözü",
+  "tema": "Affetmek",
+  "etiketler": [
+   "affetmek",
+   "yusuf",
+   "tilavet"
+  ],
+  "aciklama": "Yûsuf Suresi 92. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Bugün azarlanacak değilsiniz, Allah sizi bağışlar. O, merhametlilerin merhametlisidir",
+  "seo": {
+   "yt_baslik": "Hz. Yusuf'un, onu kuyuya atan kardeşlerine sözü | Yusuf 92",
+   "ilk_satir": "Affetmek ayeti | Yusuf 92: Bugün azarlanacak değilsiniz, Allah sizi bağışlar. O, merhametlilerin merhametlisidir",
+   "aciklama": "Yûsuf Suresi 92. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "affetmek ile ilgili ayet",
+    "hz yusuf",
+    "yusuf suresi 92",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 92,
+    "metin": "Bugün azarlanacak değilsiniz, Allah sizi bağışlar. O, merhametlilerin merhametlisidir"
+   }
+  ],
+  "ust": "Hz. Yusuf'un, onu kuyuya atan kardeşlerine sözü"
+ },
+ {
+  "id": "v095",
+  "tur": "kart",
+  "sure": 71,
+  "ayet": [
+   10,
+   10
+  ],
+  "kart_metin": "Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır",
+  "sahne": "kum",
+  "hook": "İçinde bir pişmanlık varsa Hz. Nuh'un bu sözünü dinle",
+  "tema": "İstiğfar",
+  "etiketler": [
+   "istiğfar",
+   "nuh",
+   "tilavet"
+  ],
+  "aciklama": "Nûh Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır",
+  "seo": {
+   "yt_baslik": "İçinde bir pişmanlık varsa Hz. Nuh'un bu sözünü dinle | Nuh 10",
+   "ilk_satir": "İstiğfar ayeti | Nuh 10: Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır",
+   "aciklama": "Nûh Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "istiğfar ayeti",
+    "nuh suresi 10",
+    "tövbe ayeti",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 10,
+    "metin": "Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır"
+   }
+  ],
+  "ust": "İçinde bir pişmanlık varsa Hz. Nuh'un bu sözünü dinle"
+ },
+ {
+  "id": "v096",
+  "tur": "kart",
+  "sure": 28,
+  "ayet": [
+   22,
+   22
+  ],
+  "kart_metin": "Rabbimin bana doğru yolu göstereceğini umarım",
+  "sahne": "yol",
+  "hook": "Yolunu kaybettiysen Hz. Musa'nın bu sözünü dinle",
+  "tema": "Yol",
+  "etiketler": [
+   "doğru yol",
+   "musa",
+   "tilavet"
+  ],
+  "aciklama": "Kasas Suresi 22. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbimin bana doğru yolu göstereceğini umarım",
+  "seo": {
+   "yt_baslik": "Yolunu kaybettiysen Hz. Musa'nın bu sözünü dinle | Kasas 22",
+   "ilk_satir": "Doğru yol ayeti | Kasas 22: Rabbimin bana doğru yolu göstereceğini umarım",
+   "aciklama": "Kasas Suresi 22. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "doğru yol ayeti",
+    "hz musa",
+    "kasas suresi 22",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 22,
+    "metin": "Rabbimin bana doğru yolu göstereceğini umarım"
+   }
+  ],
+  "ust": "Yolunu kaybettiysen Hz. Musa'nın bu sözünü dinle"
  }
 ]
