@@ -259,6 +259,32 @@
    "tiktok",
    "instagram"
   ],
-  "not": "tilavetli anlatımlı — teselli, kötülük görmek (sözler)"
+  "not": "tilavetli anlatımlı — teselli, kötülük görmek (sözler) (zernio_id iş akışı logundan elle yazıldı: commit çakışması)",
+  "zernio_id": "6ad831101917040bc3af0243",
+  "status": "scheduled"
+ },
+ {
+  "id": "v051",
+  "at": "2026-10-21T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "tilavet kartı — deney 9 'Bazen…' (3. video); TikTok'a kart yok (21 Ekim kuralı)"
+ },
+ {
+  "id": "v018",
+  "at": "2026-10-21T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tekrar paylaşım — yeni açılışla yeniden render (TikTok kart slotu)"
+ },
+ {
+  "id": "v054",
+  "at": "2026-10-21T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "tilavet kartı — açık adlı dua, deney 7 (hitap kancası); TikTok'a kart yok"
  }
 ]
