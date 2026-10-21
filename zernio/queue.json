@@ -365,5 +365,22 @@
   "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)",
   "zernio_id": "6ad8400275743c53b95ad53c",
   "status": "scheduled"
+ },
+ {
+  "id": "v097",
+  "at": "2026-10-21T20:30:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "kısa sure anlamı (deney 8) — Felak, somut an sorusu + sure adı, kısmi tilavet (1, 5)"
+ },
+ {
+  "id": "v083",
+  "at": "2026-10-21T23:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "tilavet kartı — deney 9 'Bazen…' (4. video); TikTok'a kart yok"
  }
 ]
