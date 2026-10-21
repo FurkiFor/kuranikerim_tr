@@ -124,13 +124,21 @@
     "tarih": "2026-10-15T18:00:00+04:00",
     "kervly_id": "p_1I26e92eTX1z"
    },
-   "tiktok": {
+   "tiktok_iptal": {
     "tarih": "2026-10-21T21:00:00+04:00",
     "zernio_id": "6ad4e53555f71120991c3258"
    },
-   "instagram": {
+   "instagram_iptal": {
     "tarih": "2026-10-21T21:00:00+04:00",
     "zernio_id": "6ad4e53555f71120991c3258"
+   },
+   "tiktok": {
+    "tarih": "2026-10-21T21:00:00+04:00",
+    "zernio_id": "6ad8400075743c53b95ad52b"
+   },
+   "instagram": {
+    "tarih": "2026-10-21T21:00:00+04:00",
+    "zernio_id": "6ad8400075743c53b95ad52b"
    }
   },
   "v015": {
@@ -220,10 +228,6 @@
    }
   },
   "v020": {
-   "tiktok": {
-    "tarih": "2026-10-24T12:00:00+04:00",
-    "zernio_id": "6ad4e537aac78fc19eee0804"
-   },
    "youtube": {
     "tarih": "2026-10-17T15:00:00+04:00",
     "kervly_id": "p_ccS1XW8drZZW"
@@ -233,16 +237,20 @@
     "kervly_id": "p_96JUaVGOQ09O",
     "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
    },
-   "instagram": {
+   "tiktok_iptal": {
     "tarih": "2026-10-24T12:00:00+04:00",
     "zernio_id": "6ad4e537aac78fc19eee0804"
+   },
+   "instagram_iptal": {
+    "tarih": "2026-10-24T12:00:00+04:00",
+    "zernio_id": "6ad4e537aac78fc19eee0804"
+   },
+   "tiktok": {
+    "tarih": "2026-10-24T12:00:00+04:00",
+    "zernio_id": "6ad8400275743c53b95ad53c"
    }
   },
   "v021": {
-   "tiktok": {
-    "tarih": "2026-10-23T21:00:00+04:00",
-    "zernio_id": "6ad4e5378bf2697e5f7988d0"
-   },
    "youtube": {
     "tarih": "2026-10-17T18:00:00+04:00",
     "kervly_id": "p_2YaoUZhbbUMD"
@@ -252,16 +260,20 @@
     "kervly_id": "p_szk9KwrE6D9K",
     "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
    },
-   "instagram": {
+   "tiktok_iptal": {
     "tarih": "2026-10-23T21:00:00+04:00",
     "zernio_id": "6ad4e5378bf2697e5f7988d0"
+   },
+   "instagram_iptal": {
+    "tarih": "2026-10-23T21:00:00+04:00",
+    "zernio_id": "6ad4e5378bf2697e5f7988d0"
+   },
+   "tiktok": {
+    "tarih": "2026-10-23T21:00:00+04:00",
+    "zernio_id": "6ad84002114d4a0dec3cf817"
    }
   },
   "v022": {
-   "tiktok": {
-    "tarih": "2026-10-22T21:00:00+04:00",
-    "zernio_id": "6ad4e536d3a6de139adeefd8"
-   },
    "youtube": {
     "tarih": "2026-10-18T10:00:00+04:00",
     "kervly_id": "p_rDXcZpPgb66b"
@@ -271,16 +283,20 @@
     "kervly_id": "p_oJIbB-x7VGWw",
     "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
    },
-   "instagram": {
+   "tiktok_iptal": {
     "tarih": "2026-10-22T21:00:00+04:00",
     "zernio_id": "6ad4e536d3a6de139adeefd8"
+   },
+   "instagram_iptal": {
+    "tarih": "2026-10-22T21:00:00+04:00",
+    "zernio_id": "6ad4e536d3a6de139adeefd8"
+   },
+   "tiktok": {
+    "tarih": "2026-10-22T21:00:00+04:00",
+    "zernio_id": "6ad8400106d80db284acdc07"
    }
   },
   "v043": {
-   "tiktok": {
-    "tarih": "2026-10-22T12:00:00+04:00",
-    "zernio_id": "6ad4e535b302b725a3b07abc"
-   },
    "youtube": {
     "tarih": "2026-10-18T15:00:00+04:00",
     "kervly_id": "p_hzNEE9hxO6k8"
@@ -290,16 +306,20 @@
     "kervly_id": "p_aqrVBS2-LvIv",
     "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
    },
-   "instagram": {
+   "tiktok_iptal": {
     "tarih": "2026-10-22T12:00:00+04:00",
     "zernio_id": "6ad4e535b302b725a3b07abc"
+   },
+   "instagram_iptal": {
+    "tarih": "2026-10-22T12:00:00+04:00",
+    "zernio_id": "6ad4e535b302b725a3b07abc"
+   },
+   "tiktok": {
+    "tarih": "2026-10-22T12:00:00+04:00",
+    "zernio_id": "6ad8400075743c53b95ad534"
    }
   },
   "v023": {
-   "tiktok": {
-    "tarih": "2026-10-23T12:00:00+04:00",
-    "zernio_id": "6ad4e536bbf50a789d5288f0"
-   },
    "youtube": {
     "tarih": "2026-10-18T18:00:00+04:00",
     "kervly_id": "p_Mfe7_8eWIT0x"
@@ -309,9 +329,17 @@
     "kervly_id": "p_5PDXSvsT3div",
     "not": "Kervly TikTok gönderisi düştü (403 / invalid_client)"
    },
-   "instagram": {
+   "tiktok_iptal": {
     "tarih": "2026-10-23T12:00:00+04:00",
     "zernio_id": "6ad4e536bbf50a789d5288f0"
+   },
+   "instagram_iptal": {
+    "tarih": "2026-10-23T12:00:00+04:00",
+    "zernio_id": "6ad4e536bbf50a789d5288f0"
+   },
+   "tiktok": {
+    "tarih": "2026-10-23T12:00:00+04:00",
+    "zernio_id": "6ad8400106d80db284acdc0b"
    }
   },
   "v024": {

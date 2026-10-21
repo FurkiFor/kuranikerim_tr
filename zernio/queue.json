@@ -106,7 +106,7 @@
    "instagram"
   ],
   "zernio_id": "6ad4e53555f71120991c3258",
-  "status": "scheduled",
+  "status": "cancelled",
   "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
   "iptal": true
  },
@@ -118,7 +118,7 @@
    "instagram"
   ],
   "zernio_id": "6ad4e535b302b725a3b07abc",
-  "status": "scheduled",
+  "status": "cancelled",
   "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
   "iptal": true
  },
@@ -130,7 +130,7 @@
    "instagram"
   ],
   "zernio_id": "6ad4e536d3a6de139adeefd8",
-  "status": "scheduled",
+  "status": "cancelled",
   "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
   "iptal": true
  },
@@ -142,7 +142,7 @@
    "instagram"
   ],
   "zernio_id": "6ad4e536bbf50a789d5288f0",
-  "status": "scheduled",
+  "status": "cancelled",
   "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
   "iptal": true
  },
@@ -154,7 +154,7 @@
    "instagram"
   ],
   "zernio_id": "6ad4e5378bf2697e5f7988d0",
-  "status": "scheduled",
+  "status": "cancelled",
   "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
   "iptal": true
  },
@@ -166,7 +166,7 @@
    "instagram"
   ],
   "zernio_id": "6ad4e537aac78fc19eee0804",
-  "status": "scheduled",
+  "status": "cancelled",
   "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
   "iptal": true
  },
@@ -307,7 +307,9 @@
    "instagram"
   ],
   "yerine": "6ad4e53555f71120991c3258",
-  "not": "yeniden plan: TikTok + Instagram Trial Reel (teselli)"
+  "not": "yeniden plan: TikTok + Instagram Trial Reel (teselli)",
+  "zernio_id": "6ad8400075743c53b95ad52b",
+  "status": "scheduled"
  },
  {
   "id": "v043",
@@ -316,7 +318,9 @@
    "tiktok"
   ],
   "yerine": "6ad4e535b302b725a3b07abc",
-  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)",
+  "zernio_id": "6ad8400075743c53b95ad534",
+  "status": "scheduled"
  },
  {
   "id": "v022",
@@ -325,7 +329,9 @@
    "tiktok"
   ],
   "yerine": "6ad4e536d3a6de139adeefd8",
-  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)",
+  "zernio_id": "6ad8400106d80db284acdc07",
+  "status": "scheduled"
  },
  {
   "id": "v023",
@@ -334,7 +340,9 @@
    "tiktok"
   ],
   "yerine": "6ad4e536bbf50a789d5288f0",
-  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)",
+  "zernio_id": "6ad8400106d80db284acdc0b",
+  "status": "scheduled"
  },
  {
   "id": "v021",
@@ -343,7 +351,9 @@
    "tiktok"
   ],
   "yerine": "6ad4e5378bf2697e5f7988d0",
-  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)",
+  "zernio_id": "6ad84002114d4a0dec3cf817",
+  "status": "scheduled"
  },
  {
   "id": "v020",
@@ -352,6 +362,8 @@
    "tiktok"
   ],
   "yerine": "6ad4e537aac78fc19eee0804",
-  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)",
+  "zernio_id": "6ad8400275743c53b95ad53c",
+  "status": "scheduled"
  }
 ]
