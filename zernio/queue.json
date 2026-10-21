@@ -373,7 +373,9 @@
    "tiktok",
    "instagram"
   ],
-  "not": "kısa sure anlamı (deney 8) — Felak, somut an sorusu + sure adı, kısmi tilavet (1, 5)"
+  "not": "kısa sure anlamı (deney 8) — Felak, somut an sorusu + sure adı, kısmi tilavet (1, 5)",
+  "zernio_id": "6ad8ab1b4f28fa9bdfc83e6a",
+  "status": "scheduled"
  },
  {
   "id": "v083",
@@ -381,6 +383,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı — deney 9 'Bazen…' (4. video); TikTok'a kart yok"
+  "not": "tilavet kartı — deney 9 'Bazen…' (4. video); TikTok'a kart yok",
+  "zernio_id": "6ad8ab1c4f28fa9bdfc83e6f",
+  "status": "scheduled"
  }
 ]
