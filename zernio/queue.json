@@ -269,7 +269,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı — deney 9 'Bazen…' (3. video); TikTok'a kart yok (21 Ekim kuralı)"
+  "not": "tilavet kartı — deney 9 'Bazen…' (3. video); TikTok'a kart yok (21 Ekim kuralı)",
+  "zernio_id": "6ad8333b4d987ef9ef514d0c",
+  "status": "scheduled"
  },
  {
   "id": "v018",
@@ -277,7 +279,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tekrar paylaşım — yeni açılışla yeniden render (TikTok kart slotu)"
+  "not": "tekrar paylaşım — yeni açılışla yeniden render (TikTok kart slotu)",
+  "zernio_id": "6ad8333b4d987ef9ef514d10",
+  "status": "scheduled"
  },
  {
   "id": "v054",
@@ -285,6 +289,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı — açık adlı dua, deney 7 (hitap kancası); TikTok'a kart yok"
+  "not": "tilavet kartı — açık adlı dua, deney 7 (hitap kancası); TikTok'a kart yok",
+  "zernio_id": "6ad8333c4d987ef9ef514d16",
+  "status": "scheduled"
  }
 ]
