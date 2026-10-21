@@ -161,3 +161,32 @@ Bulgular → kararlar:
 1. **Tilavet kartları TikTok'a gitmiyor (19 Ekim gece kuralı tetiklendi).** TikTok'a çıkan ilk 5 kartın 2. sn oranı: v046 %27, v048 %27, v053 %20, v049 %38, v055 %31 → ortalama **%28,6 < %30** (6. kart v058 %31). Anlatımlılar aynı dönemde %40–61 (v024 %61, v025 %55, v062 %50, v065 %40). Bugünden itibaren kartlar yalnız **YouTube + Instagram**'a gider; TikTok kart slotlarında anlatımlı ya da yeni açılışlı tekrar paylaşım çıkar (bugün 13:00: v018 yeniden render). Not: "Bazen…" gözlem kartları (deney 9) %38 ve %31, "…dinle" kartları %20–31 — 2 video, karar değil. TikTok'a dönüş şartı: Instagram/YouTube'da test edilen ≥5 yeni kartın kalıbı TikTok'ta tekrar denenip ≥%35 olması.
 2. **YouTube'da kart / anlatımlı farkı büyük.** Tilavetli anlatımlı v062 (Nahl 127) 1.358, v065 (Enbiya 88) 1.139 (~10–15 saatte); `audioLanguage`'sız kartlar v048 32 (~31 sa), v049 27 (~18 sa), v055 29 (~13 sa), v058 127 (~8 sa). 1 günü dolan kart henüz 1 → 19 Ekim kuralı (5 kart <100 ise YouTube'da kart 3 → 1) 23–24 Ekim'de okunur.
 3. **Instagram'da tersi:** trial kartlar v053 1.988, v046 1.607, v048 1.412 izlenme; anlatımlılar (normal reel) 4–8. 20 Ekim gönderileri Zernio'da henüz yok (veri yok). Kartlar Instagram'ın ana içeriği olarak kalır.
+
+
+## 21 Ekim 2026 08:15 — format güncellemesi (Furkan: "izlenmeyen videolar var")
+Kaynak: Kervly `get_youtube_insights` (7 gün) + `get_youtube_videos` (40), 21 Ekim 08:12 · `analytics/zernio.json` 07:18. Saatler yayından bu yana geçen süre.
+
+| Format | Video | YouTube | TikTok izl. (2. sn, ort. izleme) | Instagram |
+|---|---|---|---|---|
+| Tilavet kartı | v046, v053, v048, v049, v055, v058 | 65 (43 sa), 80 (38), 32 (33), 27 (19), 29 (14), 127 (9) → **medyan 47** | 129–167 (%20–38, 2,2–6,0 sn) | trial: 1.607, 1.988, 1.412 (20 Ekim'dekiler henüz yok) |
+| Tilavetli anlatımlı (hâl/teselli) | v062 Nahl 127, v065 Enbiya 88 | 1.379 (22 sa), 1.139 (12 sa) | 158 (%50, 8,3 sn), 148 (%40, 6,3 sn) | trial; henüz veri yok |
+| Kısa sure anlamı (somut an sorusu + sure adı, tilavetsiz) | v024 İhlas, v025 Asr | 1.468 (46 sa), 1.060 (36 sa) | **870 (%61, 11,6 sn, 4 takip), 392 (%55, 13,4 sn, 10 takip)** | normal reel: 8, 7 |
+| Kıssa / bilgi sorusu | v045, v023, v043, v020 | 35, 14, 93, 4 | 176 (%42) | normal reel: 8 |
+| Normal reel (tüm türler, 18–20 Ekim) | 10 gönderi | — | — | **0–8** |
+
+Kararlar:
+1. **YouTube'da tilavet kartı 3 → 1** (19 Ekim kuralı: 1 günü dolan 3 kart 32–80, dolmak üzere olan 2 kart 27–29; anlatımlılar 1.060–1.468, ~25 kat). Tek kart 23:30'da kalır (en iyi kart v058 "Bazen…" 127/9 sa). 13:00'te YouTube'a gönderi yok; 18:00 YouTube slotu **tilavetli anlatımlı**ya geçer (22 Ekim'den). 23:30 kartı da 5 videoda 1 günde <100 kalırsa YouTube'da kart tamamen biter. Bugünkü (21 Ekim) planlı kartlar v051 13:00 ve v054 18:00 YouTube'da kalır (v054 açık arama adlı "Rabbişrahli duası" — kartta bu kanca türünün YouTube'daki tek ölçümü).
+2. **Instagram'da normal reel bitti.** Kontrol grubu sonucu net: 10 normal reel 0–8, trial kartlar 1.412–1.988. Birikmiş kuyruktaki 6 normal reel (v014, v020–v023, v043; 21–24 Ekim) iptal edildi: v014 (teselli) aynı saatte TikTok + Instagram **trial** olarak yeniden planlandı; bilgi sorulu v020–v023, v043 yalnız TikTok'ta kaldı. Instagram'a artık yalnız trial gider (`ig_trial: false` kullanılmaz).
+3. **Deney 8 hızlandırıldı: 20:30 her gün "kısa sure anlamı".** İki video, iki platformda da en iyi anlatımlılar arasında; TikTok'ta 134–190 bandını kıran yalnız bu ikisi (ort. izleme 11–13 sn, diğerleri 2–8 sn). Format: somut bir an soran kanca + açık sure adı ("Çocuğun Allah kim diye sorsa ne dersin? İhlas Suresi anlamı"), kısa surenin tamamının meali, **yalnız 1–2 ayet tilavet** (`tilavet.ayetler`, okunan Arapça ≤ 120 harf; Furkan'ın "tilavet kesin olsun" isteği korunur, süre 60 sn'yi aşmaz). 5 videoda (22–26 Ekim) ölç: TikTok izlenme ve 2. sn, YouTube 24. saat. Kısmi tilavet TikTok ort. izlemeyi tilavetli anlatımlı gibi 6–8 sn'ye düşürürse (v024/v025: tilavetsiz 11–13 sn) tilavet kapanışa (meal sonrasına) alınır.
+4. TikTok değişmedi: kart yok (sabah kararı). 18:00 anlatımlı TikTok'a da gider; 13:00 ve 23:30 TikTok slotları tekrar paylaşım.
+5. Motor: render.py Diyanet'in birleşik meallerini (Felak, Nas, Nasr, Kureyş, Fil…) tekrar etmeden bir kez okur; 1. ayette Tanzil metninin başındaki besmele ekrandan çıkarıldı (kâri kaydında ve Diyanet mealinde yok; Fatiha hariç).
+
+Yeni günlük düzen (22 Ekim'den):
+| Slot | YouTube | TikTok | Instagram (trial) |
+|---|---|---|---|
+| 10:00 | tilavetli anlatımlı (teselli) | aynı | aynı |
+| 13:00 | — | tekrar paylaşım | tilavet kartı |
+| 18:00 | tilavetli anlatımlı (teselli / açık adlı dua) | aynı | tilavet kartı (açık adlı dua) |
+| 20:30 | kısa sure anlamı (deney 8) | aynı | aynı |
+| 23:30 | tilavet kartı | tekrar paylaşım | tilavet kartı |
+YouTube günde 4, TikTok 5 (+24 Ekim'e kadar birikmiş 12:00/21:00), Instagram 5. ElevenLabs kullanımı günde 2 → 3 anlatımlı.

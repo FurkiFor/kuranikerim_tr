@@ -25,6 +25,9 @@ import music as MU
 
 W, H, FPS = 1080, 1920, 30
 AR = {(x['chapter'], x['verse']): x['text'] for x in json.load(open(f'{BASE}/data/ara-quransimple.json'))['quran']}
+# Tanzil metni her surenin 1. ayetinin başına besmele ekler; kâri kaydında (SSS001.mp3) ve Diyanet mealinde besmele yok → ekrandan da çıkar (Fatiha hariç)
+BESMELE = AR[(1, 1)] + ' '
+AR = {k: (t[len(BESMELE):] if k[0] != 1 and k[1] == 1 and t.startswith(BESMELE) else t) for k, t in AR.items()}
 TR = {(x['chapter'], x['verse']): x['text'] for x in json.load(open(f'{BASE}/data/tur-diyanetisleri.json'))['quran']}
 SURE = json.load(open(f'{BASE}/surahs.json'))
 ESKI_BG = {'gece': 'yildiz', 'safak': 'yol', 'deniz': 'deniz', 'fener': 'fener', 'geometri': 'yildiz'}
@@ -157,6 +160,14 @@ def spaced(text, f, col, gap=8, lines=True):
 
 
 # ------------------------------------------------------------------ zaman çizelgesi
+def meal_of(c, v, b):
+    """Ayetin meali; Diyanet birkaç ayeti tek mealde birleştirdiyse (Felak, Nas, Nasr…) meal yalnız grubun son ayetinde döner, öncekilerde None."""
+    tr = TR[(c, v)].strip()
+    if v < b and TR.get((c, v + 1), '').strip() == tr:
+        return None
+    return tr if tr.endswith(('.', '!', '?', '"')) else tr + '.'
+
+
 def segments(tp):
     """Seslendirme parçaları: [(tür, metin, ayet_no, sonraki_sessizlik_sn)] — mcp_voice.py de bunu kullanır."""
     c = tp['sure']; a, b = tp['ayet']; sname = SURE[str(c)]
@@ -167,11 +178,11 @@ def segments(tp):
     cta = ses.get('kapanis') or f"{kap} Kaydet ve ihtiyacı olana gönder."
     if tp.get('tilavet'):   # tilavet videosu: her ayet önce gerçek kâri sesiyle Arapça, ardından Türkçe meal
         segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', giris, None, 0.45)]
+        okunan = set(tp['tilavet'].get('ayetler') or range(a, b + 1))   # kısa sure anlamı: yalnız seçilen ayetler kâriden
         for v in range(a, b + 1):
-            tr = TR[(c, v)].strip()
-            if not tr.endswith(('.', '!', '?', '"')): tr += '.'
-            segs.append(('tilavet', AR[(c, v)].strip(), v, 0.35))
-            segs.append(('meal', tr, v, 0.6 if v < b else 0.8))
+            tr = meal_of(c, v, b)
+            if v in okunan: segs.append(('tilavet', AR[(c, v)].strip(), v, 0.35))
+            if tr: segs.append(('meal', tr, v, 0.6 if v < b else 0.8))
         if ses.get('yorum'): segs.append(('yorum', ses['yorum'], None, 0.5))
         segs.append(('cta', cta, None, 1.4))
         return segs
@@ -179,17 +190,15 @@ def segments(tp):
         segs = [('hook', tp['hook'], None, OPEN_GAP)]
         if tp.get('kisa') != 2: segs.append(('giris', giris, None, 0.3))
         for v in range(a, b + 1):
-            tr = TR[(c, v)].strip()
-            if not tr.endswith(('.', '!', '?', '"')): tr += '.'
-            segs.append(('meal', tr, v, 0.45 if v < b else 0.55))
+            tr = meal_of(c, v, b)
+            if tr: segs.append(('meal', tr, v, 0.45 if v < b else 0.55))
         segs.append(('cta', cta, None, 1.0))
         return segs
     segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', giris, None, 0.38),
             ('intro', f"{sname} Suresi'nde Rabbimiz şöyle buyuruyor:", None, 0.32)]
     for v in range(a, b + 1):
-        tr = TR[(c, v)].strip()
-        if not tr.endswith(('.', '!', '?', '"')): tr += '.'
-        segs.append(('meal', tr, v, 0.55 if v < b else 0.7))
+        tr = meal_of(c, v, b)
+        if tr: segs.append(('meal', tr, v, 0.55 if v < b else 0.7))
     segs += [('yorum', yorum, None, 0.5), ('cta', cta, None, 1.4)]
     return segs
 
@@ -375,7 +384,17 @@ def render(tp, out):
     for i, cs in enumerate(capsegs):
         nxt = capsegs[i + 1]['start'] if i + 1 < len(capsegs) else cs['end'] + 0.5
         cs['hold'] = min(nxt - 0.02, cs['end'] + 0.6)
-    arab = {s['verse']: skimg(arabic_img(AR[(c_, s['verse'])].replace('۞', '').strip(), f"{sname} Suresi · {s['verse']}. ayet", acc)) for s in meal}
+    def grp(v, kind):   # Diyanet birleşik meali: meal anında grubun tüm ayetleri ve "1-5. ayetler" etiketi
+        g = v
+        while kind == 'meal' and g > a and TR[(c_, g - 1)].strip() == TR[(c_, v)].strip(): g -= 1
+        return g
+    arab = {}
+    for s in vsegs:
+        v = s['verse']; g = grp(v, s['kind'])
+        if v in arab and g == v: continue
+        txt = ' '.join(AR[(c_, x)].replace('۞', '').strip() for x in range(g, v + 1))
+        ref = f"{sname} Suresi · {v}. ayet" if g == v else f"{sname} Suresi · {g}-{v}. ayetler"
+        arab[v] = skimg(arabic_img(txt, ref, acc))
     tag = skimg(spaced(tr_upper(tp['tema']), F_SMALL, acc + (220,), 9))
     kari = skimg(spaced(tr_upper(f"Tilavet · {tp['tilavet']['kari']}"), F_SMALL, (255, 255, 255, 190), 5)) if til else None
     ref_full = f"{sname} Suresi " + (f"{a}-{b}" if b != a else f"{a}") + ". ayet"
@@ -455,7 +474,7 @@ def render(tp, out):
             im = arab[cv['verse']]
             y, sc = Y_AR, 1.0
             if til and cv['verse'] in til:   # tilavet sırasında Arapça ortada büyük, meal başlarken yukarı süzülür
-                ms = next(s for s in meal if s['verse'] == cv['verse'])
+                ms = next((s for s in meal if s['verse'] >= cv['verse']), meal[-1])   # Diyanet birleşik meali: grubun son ayetinde
                 u = CI.ease_io(clamp01((t - ms['start'] + 0.35) / 0.6))
                 y, sc = CI.lerp(Y_TIL, Y_AR, u), CI.lerp(1.14, 1.0, u)
                 ts = til[cv['verse']]

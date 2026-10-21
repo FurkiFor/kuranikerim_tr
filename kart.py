@@ -327,7 +327,7 @@ if __name__ == '__main__':
                 files = need(tp)
             elif tp.get('tilavet'):   # tilavetli anlatımlı video (render.py): ayet aralığının kâri kayıtları
                 a, b = tp['ayet']
-                files = [f"{tp['sure']:03d}{v:03d}.mp3" for v in range(a, b + 1)]
+                files = [f"{tp['sure']:03d}{v:03d}.mp3" for v in (tp['tilavet'].get('ayetler') or range(a, b + 1))]
             else:
                 files = []
             if files: print('\n'.join(files))

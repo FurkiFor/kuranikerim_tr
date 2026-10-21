@@ -11,7 +11,9 @@ Kullanım:
                                                  -> POST /v1/posts gövdesini basar (gönderMEZ)
   python3 zernio.py post <id> <ISO-tarih> [tiktok,instagram]
                                                  -> gönderiyi planlar, state.json'a yazar
-  python3 zernio.py queue                        -> zernio/queue.json'daki planlanmamış kayıtları planlar
+  python3 zernio.py queue                        -> zernio/queue.json'daki planlanmamış kayıtları planlar;
+                                                    "iptal": true olan kayıtların Zernio gönderisini siler,
+                                                    "yerine": <zernio_id> olan kayıt o iptal başarılı olunca planlanır
   python3 zernio.py stats                        -> analytics/zernio.json + analytics/ozet.md + geçmiş satırı
   python3 zernio.py posts [scheduled|failed|published]  -> Zernio gönderi listesi (özet)
   python3 zernio.py comments                     -> son 7 günün yorumları -> analytics/yorumlar.json
@@ -148,8 +150,30 @@ def queue():
     path = f'{BASE}/zernio/queue.json'
     q = json.load(open(path)) if os.path.exists(path) else []
     accs = None; fail = 0
+    # 1) İptaller: "iptal": true + zernio_id -> DELETE /posts/{id} (yalnız yayınlanmamışlar silinebilir)
+    cancelled = {e['zernio_id'] for e in q if e.get('zernio_id') and e.get('status') == 'cancelled'}
     for e in q:
-        if e.get('zernio_id') or e.get('error_final'):
+        if not (e.get('iptal') and e.get('zernio_id')) or e.get('status') == 'cancelled':
+            continue
+        try:
+            call('DELETE', f"/posts/{e['zernio_id']}")
+            e['status'] = 'cancelled'; e.pop('error', None); cancelled.add(e['zernio_id'])
+            sp = f'{BASE}/state.json'; st = json.load(open(sp))   # state.json'daki iptal edilen platform kayıtlarını sil
+            pl = st.get('planlanan', {}).get(e['id'], {})
+            for p in e.get('platforms') or ['tiktok', 'instagram']:
+                if isinstance(pl.get(p), (dict, str)) and (e['at'][:16] in str(pl.get(p)) or e['zernio_id'] in str(pl.get(p))):
+                    pl[p + '_iptal'] = pl.pop(p)
+            json.dump(st, open(sp, 'w'), ensure_ascii=False, indent=1); open(sp, 'a').write('\n')
+            print(f"{e['id']} {e['at']} iptal edildi ({e['zernio_id']})")
+        except Exception as ex:
+            fail += 1; e['error'] = str(ex)[:500]
+            print(f"HATA iptal {e['id']}: {ex}", file=sys.stderr)
+    # 2) Yeni planlar. "yerine": <zernio_id> taşıyan kayıt, o gönderi iptal edilmeden planlanmaz (çift paylaşım olmasın)
+    for e in q:
+        if e.get('zernio_id') or e.get('error_final') or e.get('iptal'):
+            continue
+        if e.get('yerine') and e['yerine'] not in cancelled:
+            print(f"bekliyor {e['id']}: {e['yerine']} henüz iptal edilmedi", file=sys.stderr)
             continue
         accs = accs or accounts()
         try:

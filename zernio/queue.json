@@ -107,7 +107,8 @@
   ],
   "zernio_id": "6ad4e53555f71120991c3258",
   "status": "scheduled",
-  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti)"
+  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
+  "iptal": true
  },
  {
   "id": "v043",
@@ -118,7 +119,8 @@
   ],
   "zernio_id": "6ad4e535b302b725a3b07abc",
   "status": "scheduled",
-  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti)"
+  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
+  "iptal": true
  },
  {
   "id": "v022",
@@ -129,7 +131,8 @@
   ],
   "zernio_id": "6ad4e536d3a6de139adeefd8",
   "status": "scheduled",
-  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti)"
+  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
+  "iptal": true
  },
  {
   "id": "v023",
@@ -140,7 +143,8 @@
   ],
   "zernio_id": "6ad4e536bbf50a789d5288f0",
   "status": "scheduled",
-  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti)"
+  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
+  "iptal": true
  },
  {
   "id": "v021",
@@ -151,7 +155,8 @@
   ],
   "zernio_id": "6ad4e5378bf2697e5f7988d0",
   "status": "scheduled",
-  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti)"
+  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
+  "iptal": true
  },
  {
   "id": "v020",
@@ -162,7 +167,8 @@
   ],
   "zernio_id": "6ad4e537aac78fc19eee0804",
   "status": "scheduled",
-  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti)"
+  "not": "birikmiş video (TikTok/IG'ye hiç gitmemişti) — 21 Ekim: iptal (Instagram'da normal reel 0–8 izlenme alıyor)",
+  "iptal": true
  },
  {
   "id": "v046",
@@ -292,5 +298,60 @@
   "not": "tilavet kartı — açık adlı dua, deney 7 (hitap kancası); TikTok'a kart yok",
   "zernio_id": "6ad8333c4d987ef9ef514d16",
   "status": "scheduled"
+ },
+ {
+  "id": "v014",
+  "at": "2026-10-21T21:00:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "yerine": "6ad4e53555f71120991c3258",
+  "not": "yeniden plan: TikTok + Instagram Trial Reel (teselli)"
+ },
+ {
+  "id": "v043",
+  "at": "2026-10-22T12:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "yerine": "6ad4e535b302b725a3b07abc",
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+ },
+ {
+  "id": "v022",
+  "at": "2026-10-22T21:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "yerine": "6ad4e536d3a6de139adeefd8",
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+ },
+ {
+  "id": "v023",
+  "at": "2026-10-23T12:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "yerine": "6ad4e536bbf50a789d5288f0",
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+ },
+ {
+  "id": "v021",
+  "at": "2026-10-23T21:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "yerine": "6ad4e5378bf2697e5f7988d0",
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
+ },
+ {
+  "id": "v020",
+  "at": "2026-10-24T12:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "yerine": "6ad4e537aac78fc19eee0804",
+  "not": "yeniden plan: yalnız TikTok (bilgi sorusu; Instagram'a gitmez)"
  }
 ]
