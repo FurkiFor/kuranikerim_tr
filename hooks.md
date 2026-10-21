@@ -63,6 +63,9 @@
 | 21 | Muhtaç hissediyorsan Hz. Musa'nın bu duasını dinle (kart `ust`) | — | Kasas 24: "bana indireceğin hayra muhtacım" | v055; deney 6 kalıbı |
 | 22 | Üzüntüden çıkamıyor musun? | — | Enbiya 88: "onu üzüntüden kurtarmıştık" | v065; kıssa köprüsü (Hz. Yunus, karanlıklar: Enbiya 87) |
 | 23 | Bazen bütün emeklerin boşa gitmiş gibi gelir (kart `ust`, deney 9) | — | Hud 115: "ecrini elbette zayi etmez" | v058; gözlem cümlesi |
+| 24 | İnsanların sözleri gönlünü mü daraltıyor? | — | Hicr 97: "söyledikleri şeylerden senin gönlünün daraldığını biliyoruz" | v061; Peygambere hitap, girişte söylenir |
+| 25 | Bazen hiçbir şey senin elinde değil (kart `ust`, deney 9) | — | Mü'min 44: "Ben işimi Allah'a bırakıyorum" | v051; gözlem cümlesi |
+| 26 | Rabbim! Hz. Musa'nın duası (kart `ust`, deney 7) | — | Taha 25-28: "Rabbim! Göğsümü genişlet…" | v054; ayetin kendi hitabı + açık ad; arama: rabbişrahli duası |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

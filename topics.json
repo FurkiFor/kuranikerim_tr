@@ -1366,7 +1366,7 @@
   ],
   "kart_metin": "Ben işimi Allah'a bırakıyorum. Doğrusu Allah, kulları görür",
   "sahne": "kum",
-  "hook": "Hiçbir şey yolunda gitmiyorsa",
+  "hook": "Bazen hiçbir şey senin elinde değil",
   "tema": "Tevekkül",
   "etiketler": [
    "tevekkül",
@@ -1376,12 +1376,14 @@
   "aciklama": "Mü'min Suresi 44. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Ben işimi Allah'a bırakıyorum. Doğrusu Allah, kulları görür",
   "seo": {
-   "yt_baslik": "Hiçbir Şey Yolunda Gitmiyorsa | Mü'min 44",
-   "ilk_satir": "Hiçbir şey yolunda gitmiyorsa — Ben işimi Allah'a bırakıyorum. Doğrusu Allah, kulları görür",
-   "aciklama": "Mü'min Suresi 44. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "yt_baslik": "Bazen Hiçbir Şey Senin Elinde Değil | Mü'min 44",
+   "ilk_satir": "Tevekkül ayeti | Mü'min 44: Ben işimi Allah'a bırakıyorum — Kur'an meali ve tilavet",
+   "aciklama": "Mü'min Suresi 44. ayet: \"Ben işimi Allah'a bırakıyorum. Doğrusu Allah, kulları görür.\" Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "tevekkül ayeti",
     "işimi allaha bırakıyorum ayeti",
-    "mümin suresi 44"
+    "mümin suresi 44",
+    "kuran meali"
    ]
   },
   "ses": "tilavet",
@@ -1391,7 +1393,8 @@
     "metin": "Ben işimi Allah'a bırakıyorum. Doğrusu Allah, kulları görür"
    }
   ],
-  "ust": "Hiçbir şey yolunda gitmiyorsa"
+  "ust": "Bazen hiçbir şey senin elinde değil",
+  "deney": 9
  },
  {
   "id": "v052",
@@ -1481,23 +1484,25 @@
   ],
   "kart_metin": "Rabbim! Göğsümü genişlet",
   "sahne": "yildiz",
-  "hook": "Zor bir konuşmadan ya da sınavdan önce bu duayı oku",
+  "hook": "Rabbim! Hz. Musa'nın duası",
   "tema": "Dua",
   "etiketler": [
-   "dua",
+   "rabbişrahli duası",
    "musa",
-   "sınav",
+   "dua",
    "tilavet"
   ],
   "aciklama": "Tâhâ Suresi 25-28. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "ki sözümü iyi anlasınlar",
   "seo": {
-   "yt_baslik": "Sınavdan Önce Okunacak Dua: Rabbişrahli Sadri | Taha 25-28",
-   "ilk_satir": "Zor bir konuşmadan ya da sınavdan önce bu duayı oku — Rabbim! Göğsümü genişlet … işimi kolaylaştır … dilimin düğümünü çöz … ki sözümü iyi anlasınlar",
-   "aciklama": "Tâhâ Suresi 25-28. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "yt_baslik": "Rabbişrahli Duası: Hz. Musa'nın Duası | Taha 25-28",
+   "ilk_satir": "Rabbişrahli duası | Taha 25-28: Hz. Musa'nın duası — Rabbim! Göğsümü genişlet, işimi kolaylaştır",
+   "aciklama": "Tâhâ Suresi 25-28. ayetler: Hz. Musa'nın \"Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar\" duası. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
-    "rabbişrahli sadri duası",
-    "sınav duası kuran"
+    "rabbişrahli duası",
+    "hz musa duası",
+    "taha suresi 25",
+    "kuran duaları"
    ]
   },
   "ses": "tilavet",
@@ -1519,7 +1524,8 @@
     "metin": "ki sözümü iyi anlasınlar"
    }
   ],
-  "ust": "Zor bir konuşmadan ya da sınavdan önce bu duayı oku"
+  "ust": "Rabbim! Hz. Musa'nın duası",
+  "deney": 7
  },
  {
   "id": "v055",
@@ -1777,9 +1783,9 @@
   },
   "kurgu": {
    "kamera": [
-    "cek",
+    "sabit",
     "vurgu",
-    "kay"
+    "cek"
    ],
    "gecis": [
     "kesme",
