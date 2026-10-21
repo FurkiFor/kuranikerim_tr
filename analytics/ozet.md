@@ -1,16 +1,16 @@
-# Zernio özeti — 2026-10-20T11:57+04:00
+# Zernio özeti — 2026-10-21T07:18+04:00
 
-## instagram @kuranikerim_tr — 18 takipçi, 14 gönderi (son 90 gün)
-- Takipçi değişimi (kayıtlı ilk gün → bugün): 9 → 18 (+9, 3 gün)
-- Ortalama: 354.571 izlenme, 14.214 beğeni, 2.714 kaydetme, 1.857 paylaşım, 0.0 takip/video, ort. izleme 9.314 sn
-- Saat (Dubai) → ort. izlenme [gönderi]: 05:00 → 76 [1], 10:00 → 14 [2], 12:00 → 5 [1], 13:00 → 808 [2], 18:00 → 1829 [1], 19:00 → 5 [1], 20:00 → 8 [2], 21:00 → 4 [2], 23:00 → 692 [2]
+## instagram @kuranikerim_tr — 18 takipçi, 16 gönderi (son 90 gün)
+- Takipçi değişimi (kayıtlı ilk gün → bugün): 9 → 18 (+9, 4 gün)
+- Ortalama: 322.812 izlenme, 13.062 beğeni, 2.562 kaydetme, 1.625 paylaşım, 0.0 takip/video, ort. izleme 8.406 sn
+- Saat (Dubai) → ort. izlenme [gönderi]: 05:00 → 79 [1], 10:00 → 14 [2], 12:00 → 2 [2], 13:00 → 812 [2], 18:00 → 1988 [1], 19:00 → 5 [1], 20:00 → 8 [2], 21:00 → 3 [3], 23:00 → 707 [2]
 
 | id | tarih | izl. | beğ. | kay. | paylş | 2sn | ilk satır |
 |---|---|---|---|---|---|---|---|
-| v053 | 2026-10-19 | 1829 | 75 | 18 | 9 |  | Derdin bitmiyorsa Hz. Eyyub'un bu duasını dinle —  |
-| v046 | 2026-10-19 | 1599 | 47 | 8 | 5 |  | Zor bir dönemden geçiyorsan bu iki ayeti dinle — E |
-| v048 | 2026-10-19 | 1381 | 68 | 6 | 5 |  | Yalnız hissediyorsan bu ayet senin için — Biz ona  |
-| - | 2026-10-16 | 76 | 4 | 3 | 5 |  | Güçlükle beraber bir kolaylık vardır — İnşirah Sur |
+| v053 | 2026-10-19 | 1988 | 84 | 21 | 9 |  | Derdin bitmiyorsa Hz. Eyyub'un bu duasını dinle —  |
+| v046 | 2026-10-19 | 1607 | 47 | 8 | 5 |  | Zor bir dönemden geçiyorsan bu iki ayeti dinle — E |
+| v048 | 2026-10-19 | 1412 | 68 | 6 | 5 |  | Yalnız hissediyorsan bu ayet senin için — Biz ona  |
+| - | 2026-10-16 | 79 | 5 | 3 | 5 |  | Güçlükle beraber bir kolaylık vardır — İnşirah Sur |
 | v018 | 2026-10-15 | 19 | 2 | 2 | 2 |  | Sana kötülük edene ne yapıyorsun? 🤍 |
 | - | 2026-10-16 | 17 | 1 | 0 | 0 |  | Nazar için dua: kendin ve bebeğin için okuyabilece |
 | v024 | 2026-10-19 | 8 | 0 | 0 | 0 |  | Çocuğun Allah kim diye sorsa ne dersin? İhlas Sure |
@@ -20,24 +20,24 @@
 | v019 | 2026-10-18 | 5 | 0 | 0 | 0 |  | Öfkene mi yenik düşüyorsun? 🤍 |
 | - | 2026-10-17 | 5 | 0 | 0 | 0 |  | Fatiha Suresi anlamı ve Türkçe meali, Arapça tilav |
 
-## tiktok @kuranikerim_tr — 1672 takipçi, 29 gönderi (son 90 gün)
-- Takipçi değişimi (kayıtlı ilk gün → bugün): 1660 → 1672 (+12, 3 gün)
-- Ortalama: 187.31 izlenme, 22.241 beğeni, 2.793 kaydetme, 0.483 paylaşım, 0.586 takip/video, ort. izleme 4.221 sn
-- 2. saniyede kalan izleyici: %36 · 6. saniyede: %14 · aramadan gelen pay: %2
-- Saat (Dubai) → ort. izlenme [gönderi]: 03:00 → 182 [3], 04:00 → 163 [1], 05:00 → 169 [1], 10:00 → 263 [6], 12:00 → 189 [1], 13:00 → 156 [2], 15:00 → 156 [3], 18:00 → 154 [4], 19:00 → 178 [1], 20:00 → 211 [2], 21:00 → 152 [2], 22:00 → 187 [1], 23:00 → 149 [2]
+## tiktok @kuranikerim_tr — 1672 takipçi, 35 gönderi (son 90 gün)
+- Takipçi değişimi (kayıtlı ilk gün → bugün): 1660 → 1672 (+12, 4 gün)
+- Ortalama: 188.286 izlenme, 23.086 beğeni, 2.857 kaydetme, 0.514 paylaşım, 0.714 takip/video, ort. izleme 4.406 sn
+- 2. saniyede kalan izleyici: %37 · 6. saniyede: %15 · aramadan gelen pay: %2
+- Saat (Dubai) → ort. izlenme [gönderi]: 03:00 → 182 [3], 04:00 → 163 [1], 05:00 → 170 [1], 10:00 → 274 [6], 12:00 → 183 [2], 13:00 → 149 [3], 15:00 → 157 [3], 18:00 → 157 [5], 19:00 → 179 [1], 20:00 → 239 [3], 21:00 → 155 [3], 22:00 → 188 [1], 23:00 → 151 [3]
 
 | id | tarih | izl. | beğ. | kay. | paylş | 2sn | ilk satır |
 |---|---|---|---|---|---|---|---|
-| v024 | 2026-10-19 | 832 | 98 | 15 | 1 | %61 | Çocuğun Allah kim diye sorsa ne dersin? İhlas Sure |
-| v025 | 2026-10-19 | 247 | 41 | 6 | 1 | %52 | Günün sonunda kârda mısın, zararda mı? Asr Suresi  |
+| v024 | 2026-10-19 | 870 | 100 | 15 | 2 | %61 | Çocuğun Allah kim diye sorsa ne dersin? İhlas Sure |
+| v025 | 2026-10-19 | 392 | 60 | 8 | 2 | %55 | Günün sonunda kârda mısın, zararda mı? Asr Suresi  |
+| v015 | 2026-10-19 | 192 | 24 | 4 | 0 | %50 | Ölümü düşününce korkuyorsan 🤍 Fecr suresinin sonun |
 | v006 | 2026-10-11 | 191 | 22 | 3 | 2 | %36 | Moralin bozuksa ve yıkılmış hissediyorsan 🤍 Allah  |
-| v015 | 2026-10-19 | 189 | 24 | 4 | 0 | %51 | Ölümü düşününce korkuyorsan 🤍 Fecr suresinin sonun |
-| - | 2026-10-16 | 187 | 30 | 1 | 0 |  | “Ne olursan ol gel” Mevlana’nın çok güzel bir sözü |
+| - | 2026-10-16 | 188 | 30 | 1 | 0 |  | “Ne olursan ol gel” Mevlana’nın çok güzel bir sözü |
+| v008 | 2026-10-11 | 184 | 17 | 4 | 0 | %29 | Nimetlerin artmasını istiyorsan 🤍 Şükrettikçe artı |
 | v001 | 2026-10-08 | 183 | 13 | 3 | 0 | %33 | Zor bir dönemden geçiyorsan bu ayet senin için 🤍 A |
 | v001 | 2026-10-08 | 182 | 13 | 3 | 0 | %37 | Zor bir dönemden geçiyorsan bu ayet senin için 🤍 A |
 | v002 | 2026-10-08 | 181 | 16 | 4 | 0 | %35 | Her şeye sahip olup yine de huzur bulamıyorsan 🤍 H |
-| v008 | 2026-10-11 | 179 | 17 | 4 | 0 | %29 | Nimetlerin artmasını istiyorsan 🤍 Şükrettikçe artı |
-| - | 2026-10-17 | 178 | 20 | 2 | 1 | %35 | Fatiha Suresi anlamı ve Türkçe meali: her namazda  |
-| v045 | 2026-10-18 | 175 | 16 | 0 | 0 | %42 | Hz. Musa ve denizin yarılması: herkes "yakalandık" |
-| - | 2026-10-16 | 169 | 14 | 3 | 0 | %44 | Güçlükle beraber bir kolaylık vardır 🤍 İnşirah Sur |
+| - | 2026-10-17 | 179 | 20 | 2 | 1 | %35 | Fatiha Suresi anlamı ve Türkçe meali: her namazda  |
+| v045 | 2026-10-18 | 176 | 16 | 1 | 0 | %42 | Hz. Musa ve denizin yarılması: herkes "yakalandık" |
+| v017 | 2026-10-20 | 174 | 23 | 2 | 1 | %47 | Kendini çok güçsüz hissediyorsan 🤍 İnsan zayıf yar |
 
