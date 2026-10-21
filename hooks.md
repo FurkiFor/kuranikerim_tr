@@ -66,6 +66,7 @@
 | 24 | İnsanların sözleri gönlünü mü daraltıyor? | — | Hicr 97: "söyledikleri şeylerden senin gönlünün daraldığını biliyoruz" | v061; Peygambere hitap, girişte söylenir |
 | 25 | Bazen hiçbir şey senin elinde değil (kart `ust`, deney 9) | — | Mü'min 44: "Ben işimi Allah'a bırakıyorum" | v051; gözlem cümlesi |
 | 26 | Rabbim! Hz. Musa'nın duası (kart `ust`, deney 7) | — | Taha 25-28: "Rabbim! Göğsümü genişlet…" | v054; ayetin kendi hitabı + açık ad; arama: rabbişrahli duası |
+| 27 | Biri seni kıskandığında ne dersin? | — | Felak 1-5: "hased ettiği zaman hasedcilerin şerrinden … Rabbe sığınırım" | v097; deney 8 (somut an + sure adı, v024 kalıbı); arama: felak suresi ~19.6 B/ay |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

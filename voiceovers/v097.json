@@ -1,0 +1,44 @@
+{
+ "id": "v097",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "6EaSJNxIr4SXmbv6KSDG",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Biri seni kıskandığında ne dersin?",
+   "prompt": "[deep voice] [slowly] Biri seni kıskandığında ne dersin?",
+   "generation_id": "P4PtQuZ4wWmTeZej0Vah",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/BfbCAoCiCVNDjGuaucti/P4PtQuZ4wWmTeZej0Vah/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T114736Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=33706276fbe6e4992293aee145fd6531fff43b4b7e3a1416ec84229146cccbc7fe18803865db86d839d7fde54327794d1a0696d6f751ae20c05952d43bd93204751fb7dc377c5a774c48de42e335c7e0edd94c9b4ee705013ec3f5ea12e40b657e8332f2dbc54e73853670ed3634160d5c547e3e4c2dbe19c3881e692f97bc4365b48a6a1e2fecc152adb4564bd581f6e20a86245ef1eda9948f9972511cffc2d163ce8fac02f6f5b5a11bac644d810431fe0185f4eeb3aebab965b02ae755136c6372f38dc4b3a961c20c838cb4684d87098046265f3a89bac56d35d599d97d24f41c56e0bb9d9e45c2e7c8382e86e5c9d01299614c2332aac6d8105b07b973"
+  },
+  {
+   "kind": "giris",
+   "text": "Cevap, Felak Suresi'nde. Felak Suresi'nin anlamı beş kısa ayette.",
+   "prompt": "[deep voice] [slowly] Cevap, Felak Suresi'nde. Felak Suresi'nin anlamı beş kısa ayette.",
+   "generation_id": "Adfab4GhHDGwOzQBnY7v",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/AN7TkgC1cEdJgk5zXB35/Adfab4GhHDGwOzQBnY7v/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T114739Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=6289117d6fc7eca1ef9c411f05c04b9e98e426f9a01ae650bdda12002b8844da74bdab691054c86bf8e4431a06604b1256e3d6feab41deb4cb93f1e3a44379c34a90669658fb13e03d3d12acec1b155750875e4423d904290256eb3476a560ce29f6631f5e6b9cd9c08c6b5c20747d07522b2d8fb8527b14864d31c2b5b54182ef90fd5fcb48a13ec5c5b8ef75d9a6f556add58c281620953dd64af19f605213b3c5fd5beddf69e413451aa6c1390e9a97d8e5c69d5aca4af1c3936486cb4196d5bfa675b1c04ef1f48ba676a777a8e9d3e76c2891b6357600fe6ad25a9e3cb7c289425d34b1b1a60a49e06f63f66b62527f695beb2bd4f76e121302f5f02525"
+  },
+  {
+   "kind": "meal",
+   "text": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.",
+   "prompt": "[softly] [slowly] De ki: Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.",
+   "generation_id": "tbJNHuKEV1UDcIDampDQ",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/I6rEzM8Xsk2AR9sOqZVo/tbJNHuKEV1UDcIDampDQ/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T114747Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=58f66426f2d0cb5638b13dbd700d40ab09ebb2d2608e4cbb0b46af6561df267edd6e507f2e409dac235d1164be4049f6138c2018f4c01748c230874669e6d30a9dfcf94ca07f01ade2e92593ae2eb50b0acd5cdf834dd61fc4e99076f74eb457df319d34fbe1b601dd84312f72c5dcb51db650756c5295c1374f9fd347db923c84724caeab4039ffc804efb1f93576ec90a21619e3f9ab849b0d860f469c85eb0e9b5575fe01436df52605c40e4ddf26db935bfcb93c4558cc0a77a4c5c34910129270d07bf026718d18db517ed8f23a30dec3873ceeb77c09ab71c3900ec54369e2edb3dadedace2d3adecc8f67c85851d5f02c5e51b36e1b42dfe6ea43d5d9"
+  },
+  {
+   "kind": "yorum",
+   "text": "Hasedcinin de, karanlığın da şerrinden sığınılacak yer tek: tan yerini ağartan Rab.",
+   "prompt": "[deep voice] [slowly] Hasedcinin de, karanlığın da şerrinden sığınılacak yer tek: tan yerini ağartan Rab.",
+   "generation_id": "YYghE4mC5K68BfwECb2k",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/YtvLmmQCnA2lzz9rKEAN/YYghE4mC5K68BfwECb2k/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T114747Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0b6e78bd8102d134cbc729107425fe45f6b118f316e2e4d881fe3fc5391adec601e1629167d0c0e145904257128c53520d1ce1e21dda82cd44e5d06d831794ff946362e1265b1e2eb4eedf31eb46c2e9eb432f557522a6674d055ffab6ce724f688ad269c34cc9a8976c2e29216b978207104c053e18729ba216fd90d9dee20ba57c94ee097eea0b42ccca118a87167c3e0adbc6515300762a4507b0e7292ef726e1c63be248b8208d8449d73991de896489e7990ab4a84800a723ec107c5f543b3f910d1cf0a83aadf8a0b386d25fc9714ef8cbfdc55bca01308566f64feb581780a26997c7fc4d4afc8934b8c1de86233e7683600b913b4d9a0e59cc491053"
+  },
+  {
+   "kind": "cta",
+   "text": "Sen de tan yerini ağartan Rabbe sığın. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Sen de tan yerini ağartan Rabbe sığın. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "SSVWXkcfd1AByQzB58vX",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/aZtZ5YCIAv0Xq4iahwWJ/SSVWXkcfd1AByQzB58vX/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T114747Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3e1c5c24e237816c8dbabcb9d2386e646ec49e28df3d61639eac09173f39ba19a20f7b2a395dec4450a67f9ac6db8c198c530087b51ffbc54ffc3345e14812c15a39c9842f0079a982ff59aa812ac9c942eb90d19a1bb5d3051e4fe99c4342a6853a93ba6c496c7c8d5a3f8327e803b09e03af92c9e8f17f7eba86a32ce0103c583a089562957a06c40d8fa48c64abb062f9595fa834a943fd459be4c70ed772b6d42b54a0311e9c4b970226fb3e386f088c9b421178ce1f88d080fbf555b82b3669226760781ac3ae81bfc44877a24ce644d2b576dc1430994ac180f65248dbc64a4c6598cdb5cc786fac595e817a4e49bcc23247a4cee398294b5ede833ffc"
+  }
+ ]
+}

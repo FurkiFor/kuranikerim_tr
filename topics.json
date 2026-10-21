@@ -3390,5 +3390,62 @@
    }
   ],
   "ust": "Yolunu kaybettiysen Hz. Musa'nın bu sözünü dinle"
+ },
+ {
+  "id": "v097",
+  "tema": "Felak Suresi Anlamı",
+  "sure": 113,
+  "ayet": [
+   1,
+   5
+  ],
+  "hook": "Biri seni kıskandığında ne dersin?",
+  "kapanis": "Sen de tan yerini ağartan Rabbe sığın",
+  "bg": "yol",
+  "sahne": "yol",
+  "aciklama": "Felak Suresi beş ayette yaratıkların, karanlığın, büyücülerin ve hasedcilerin şerrinden tan yerini ağartan Rabbe sığınmayı öğretir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "felak suresi",
+   "haset",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    1,
+    5
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Felak Suresi'nde. Felak Suresi'nin anlamı beş kısa ayette.",
+   "yorum": "Hasedcinin de, karanlığın da şerrinden sığınılacak yer tek: tan yerini ağartan Rab."
+  },
+  "kurgu": {
+   "kamera": [
+    "it",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Biri seni kıskandığında ne dersin? Felak Suresi anlamı",
+   "ilk_satir": "Hasetten ve büyüden Rabbe sığınmak | Felak Suresi anlamı ve meali (1-5)",
+   "aciklama": "Felak Suresi'nde Allah, yaratıkların, bastırdığı zaman karanlığın, düğümlere nefes eden büyücülerin ve hased ettiği zaman hasedcilerin şerrinden tan yerini ağartan Rabbe sığınmayı öğretir. Diyanet meali ile Felak Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "felak suresi",
+    "felak suresi anlamı",
+    "felak suresi meali",
+    "haset ayeti",
+    "felak suresi dinle"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "not": "AKŞAM 21 Ekim 20:30 — kısa sure anlamı (deney 8). vidIQ TR: 'felak suresi' ~19.629/ay (+%209), 'felak suresi dinle' ~4.910, 'felak suresi meali' ~3.842, 'felak suresi anlamı' ~3.263. Haset ve büyü mealde geçiyor; nazar geçmiyor → yazılmadı."
  }
 ]
