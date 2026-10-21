@@ -1,29 +1,29 @@
 {
- "olusturma": "2026-10-21T07:18+04:00",
+ "olusturma": "2026-10-21T12:01+04:00",
  "hesaplar": {
   "instagram": {
    "kullanici": "kuranikerim_tr",
-   "takipci": 18,
+   "takipci": 20,
    "profil": {
-    "mediaCount": 49,
+    "mediaCount": 51,
     "accountType": "MEDIA_CREATOR",
     "followsCount": 1,
     "instagramScopedId": "17841469935041900"
    },
    "hesap_metrikleri": {
-    "reach": 3873,
+    "reach": 3880,
     "views": 4978,
     "accounts_engaged": 240,
     "total_interactions": 314
    },
    "ortalama": {
-    "izlenme": 322.812,
+    "izlenme": 323.125,
     "begeni": 13.062,
     "kaydetme": 2.562,
     "paylasim": 1.625,
     "takip": 0.0,
     "etkilesim_orani": 6.766,
-    "ort_izleme_sn": 8.406,
+    "ort_izleme_sn": 8.613,
     "kalan_2sn": null,
     "kalan_6sn": null,
     "arama_payi": null
@@ -34,15 +34,15 @@
      "id": "v016",
      "tarih": "2026-10-20T17:03:34.000Z",
      "ilk_satir": "Yaptığın iyilikler görülmüyor mu sanıyorsun? 🤍",
-     "izlenme": 0,
-     "erisim": 0,
+     "izlenme": 5,
+     "erisim": 1,
      "begeni": 0,
      "yorum": 0,
      "paylasim": 0,
      "kaydetme": 0,
      "takip": 0,
      "etkilesim_orani": 0,
-     "ort_izleme_sn": 2.9,
+     "ort_izleme_sn": 6.2,
      "kalan_2sn": null,
      "kalan_6sn": null,
      "kalan_10sn": null,
@@ -73,7 +73,7 @@
      "tarih": "2026-10-19T19:31:49.000Z",
      "ilk_satir": "Yalnız hissediyorsan bu ayet senin için — Biz ona şah damarından daha yakınız 🤍",
      "izlenme": 1412,
-     "erisim": 1124,
+     "erisim": 1126,
      "begeni": 68,
      "yorum": 0,
      "paylasim": 5,
@@ -373,7 +373,7 @@
     },
     "21": {
      "gonderi": 3,
-     "ort_izlenme": 3,
+     "ort_izlenme": 4,
      "ort_kalan_2sn": null
     },
     "23": {
@@ -539,166 +539,185 @@
   },
   "tiktok": {
    "kullanici": "kuranikerim_tr",
-   "takipci": 1672,
+   "takipci": 1678,
    "profil": {
-    "likesCount": 6879,
-    "videoCount": 66,
+    "likesCount": 7061,
+    "videoCount": 73,
     "followingCount": 1,
     "isBusinessAccount": false
    },
    "hesap_metrikleri": {
-    "follower_count": 1677,
-    "likes_count": 7042,
-    "video_count": 72,
-    "followers_gained": 12,
+    "follower_count": 1678,
+    "likes_count": 7061,
+    "video_count": 73,
+    "followers_gained": 18,
     "followers_lost": 0
    },
    "ortalama": {
-    "izlenme": 188.286,
-    "begeni": 23.086,
-    "kaydetme": 2.857,
-    "paylasim": 0.514,
-    "takip": 0.714,
-    "etkilesim_orani": 15.991,
-    "ort_izleme_sn": 4.406,
+    "izlenme": 185.667,
+    "begeni": 22.806,
+    "kaydetme": 2.889,
+    "paylasim": 0.528,
+    "takip": 0.694,
+    "etkilesim_orani": 16.138,
+    "ort_izleme_sn": 4.736,
     "kalan_2sn": 0.367,
-    "kalan_6sn": 0.146,
+    "kalan_6sn": 0.148,
     "arama_payi": 0.024
    },
-   "gonderi_sayisi": 35,
+   "gonderi_sayisi": 36,
    "gonderiler": [
+    {
+     "id": "v061",
+     "tarih": "2026-10-21T06:02:36.000Z",
+     "ilk_satir": "Gönül darlığı ayeti | Hicr 97 — Kur'an meali ve tilavet 🤍 Hicr Suresi 97. ayette Allah, sö",
+     "izlenme": 60,
+     "erisim": 0,
+     "begeni": 7,
+     "yorum": 0,
+     "paylasim": 1,
+     "kaydetme": 2,
+     "takip": 0,
+     "etkilesim_orani": 16.67,
+     "ort_izleme_sn": 10.5,
+     "kalan_2sn": 0.32,
+     "kalan_6sn": 0.19,
+     "kalan_10sn": 0.19,
+     "arama_payi": 0,
+     "fyp_payi": 1
+    },
     {
      "id": "v058",
      "tarih": "2026-10-20T19:31:58.000Z",
      "ilk_satir": "Sabır ayeti | Hud 115 — Sabret, Allah iyi davrananların ecrini elbette zayi etmez 🤍 Hûd Su",
-     "izlenme": 146,
+     "izlenme": 149,
      "erisim": 0,
      "begeni": 32,
      "yorum": 0,
      "paylasim": 0,
      "kaydetme": 1,
      "takip": 0,
-     "etkilesim_orani": 22.6,
+     "etkilesim_orani": 22.15,
      "ort_izleme_sn": 2.2,
      "kalan_2sn": 0.31,
      "kalan_6sn": 0.07,
      "kalan_10sn": null,
      "arama_payi": 0,
-     "fyp_payi": 0.983
+     "fyp_payi": 0.976
     },
     {
      "id": "v016",
      "tarih": "2026-10-20T17:02:33.000Z",
      "ilk_satir": "Yaptığın iyilikler görülmüyor mu sanıyorsun? 🤍 Zerre kadar iyilik de kötülük de karşılıksı",
-     "izlenme": 144,
+     "izlenme": 146,
      "erisim": 0,
      "begeni": 9,
-     "yorum": 1,
+     "yorum": 2,
      "paylasim": 0,
      "kaydetme": 0,
      "takip": 0,
-     "etkilesim_orani": 6.94,
+     "etkilesim_orani": 7.53,
      "ort_izleme_sn": 4.2,
      "kalan_2sn": 0.41,
      "kalan_6sn": 0.15,
      "kalan_10sn": 0.1,
      "arama_payi": 0.01,
-     "fyp_payi": 0.951
+     "fyp_payi": 0.942
     },
     {
      "id": "v065",
      "tarih": "2026-10-20T16:32:40.000Z",
      "ilk_satir": "Üzüntü ve keder ayeti | Enbiya 88 — Hz. Yunus: onu üzüntüden kurtarmıştık 🤍 Enbiya Suresi ",
-     "izlenme": 148,
+     "izlenme": 149,
      "erisim": 0,
      "begeni": 13,
      "yorum": 0,
      "paylasim": 0,
      "kaydetme": 2,
      "takip": 1,
-     "etkilesim_orani": 10.14,
-     "ort_izleme_sn": 6.3,
+     "etkilesim_orani": 10.07,
+     "ort_izleme_sn": 6.2,
      "kalan_2sn": 0.4,
-     "kalan_6sn": 0.18,
+     "kalan_6sn": 0.17,
      "kalan_10sn": 0.16,
      "arama_payi": 0.029,
-     "fyp_payi": 0.942
+     "fyp_payi": 0.935
     },
     {
      "id": "v055",
      "tarih": "2026-10-20T14:03:40.000Z",
      "ilk_satir": "Hz. Musa'nın duası | Kasas 24 — Rabbim! Doğrusu bana indireceğin hayra muhtacım 🤍 Kasas Su",
-     "izlenme": 153,
+     "izlenme": 162,
      "erisim": 0,
-     "begeni": 27,
+     "begeni": 29,
      "yorum": 0,
      "paylasim": 1,
      "kaydetme": 7,
      "takip": 1,
-     "etkilesim_orani": 22.88,
-     "ort_izleme_sn": 2.7,
-     "kalan_2sn": 0.31,
-     "kalan_6sn": 0.09,
+     "etkilesim_orani": 22.84,
+     "ort_izleme_sn": 2.9,
+     "kalan_2sn": 0.32,
+     "kalan_6sn": 0.1,
      "kalan_10sn": 0.04,
-     "arama_payi": 0.019,
-     "fyp_payi": 0.944
+     "arama_payi": 0.029,
+     "fyp_payi": 0.924
     },
     {
      "id": "v049",
      "tarih": "2026-10-20T09:02:39.000Z",
      "ilk_satir": "Kalp huzuru ayeti | Ra'd 28 — Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur 🤍 ",
-     "izlenme": 129,
+     "izlenme": 130,
      "erisim": 0,
      "begeni": 30,
      "yorum": 3,
      "paylasim": 0,
      "kaydetme": 2,
      "takip": 0,
-     "etkilesim_orani": 27.13,
+     "etkilesim_orani": 26.92,
      "ort_izleme_sn": 6.0,
-     "kalan_2sn": 0.38,
+     "kalan_2sn": 0.39,
      "kalan_6sn": 0.19,
      "kalan_10sn": 0.12,
-     "arama_payi": 0.015,
-     "fyp_payi": 0.956
+     "arama_payi": 0.022,
+     "fyp_payi": 0.942
     },
     {
      "id": "v017",
      "tarih": "2026-10-20T08:04:05.000Z",
      "ilk_satir": "Kendini çok güçsüz hissediyorsan 🤍 İnsan zayıf yaratıldı ve Allah yükünü hafifletmek istiy",
-     "izlenme": 174,
+     "izlenme": 175,
      "erisim": 0,
      "begeni": 23,
-     "yorum": 1,
+     "yorum": 2,
      "paylasim": 1,
      "kaydetme": 2,
      "takip": 1,
-     "etkilesim_orani": 15.52,
+     "etkilesim_orani": 16,
      "ort_izleme_sn": 6.4,
      "kalan_2sn": 0.47,
      "kalan_6sn": 0.21,
      "kalan_10sn": 0.15,
      "arama_payi": 0.005,
-     "fyp_payi": 0.979
+     "fyp_payi": 0.974
     },
     {
      "id": "v062",
      "tarih": "2026-10-20T06:02:53.000Z",
      "ilk_satir": "Kötülük görünce sabır ayeti | Nahl 127: kurdukları düzenlerden endişe etme 🤍 Nahl Suresi 1",
-     "izlenme": 158,
+     "izlenme": 160,
      "erisim": 0,
      "begeni": 21,
-     "yorum": 1,
+     "yorum": 3,
      "paylasim": 1,
      "kaydetme": 3,
      "takip": 0,
-     "etkilesim_orani": 16.46,
-     "ort_izleme_sn": 8.3,
+     "etkilesim_orani": 17.5,
+     "ort_izleme_sn": 8.4,
      "kalan_2sn": 0.5,
-     "kalan_6sn": 0.19,
+     "kalan_6sn": 0.2,
      "kalan_10sn": 0.17,
-     "arama_payi": 0.011,
-     "fyp_payi": 0.972
+     "arama_payi": 0.017,
+     "fyp_payi": 0.96
     },
     {
      "id": "v048",
@@ -723,34 +742,34 @@
      "id": "v013",
      "tarih": "2026-10-19T17:02:19.000Z",
      "ilk_satir": "Hayat seni sınıyor gibi geliyorsa 🤍 İmtihanlar ve sabredenlere verilen müjde. İnnâ lillâh ",
-     "izlenme": 170,
+     "izlenme": 172,
      "erisim": 0,
      "begeni": 15,
      "yorum": 0,
      "paylasim": 0,
      "kaydetme": 2,
      "takip": 1,
-     "etkilesim_orani": 10,
+     "etkilesim_orani": 9.88,
      "ort_izleme_sn": 4.5,
      "kalan_2sn": 0.32,
      "kalan_6sn": 0.13,
      "kalan_10sn": 0.08,
      "arama_payi": 0.017,
-     "fyp_payi": 0.949
+     "fyp_payi": 0.938
     },
     {
      "id": "v025",
      "tarih": "2026-10-19T16:03:27.000Z",
      "ilk_satir": "Günün sonunda kârda mısın, zararda mı? Asr Suresi anlamı ve meali 🤍 Asr Suresi'nde Allah i",
-     "izlenme": 392,
+     "izlenme": 393,
      "erisim": 0,
      "begeni": 60,
      "yorum": 0,
      "paylasim": 2,
      "kaydetme": 8,
      "takip": 10,
-     "etkilesim_orani": 17.86,
-     "ort_izleme_sn": 13.4,
+     "etkilesim_orani": 17.81,
+     "ort_izleme_sn": 18.3,
      "kalan_2sn": 0.55,
      "kalan_6sn": 0.3,
      "kalan_10sn": 0.24,
@@ -761,20 +780,20 @@
      "id": "v053",
      "tarih": "2026-10-19T14:02:46.000Z",
      "ilk_satir": "Derdin bitmiyorsa Hz. Eyyub'un bu duasını dinle — Başıma bir bela geldi, (Sana sığındım), ",
-     "izlenme": 132,
+     "izlenme": 134,
      "erisim": 0,
-     "begeni": 30,
-     "yorum": 0,
+     "begeni": 33,
+     "yorum": 1,
      "paylasim": 0,
-     "kaydetme": 2,
+     "kaydetme": 3,
      "takip": 0,
-     "etkilesim_orani": 24.24,
-     "ort_izleme_sn": 2.5,
-     "kalan_2sn": 0.2,
-     "kalan_6sn": 0.08,
-     "kalan_10sn": 0.03,
+     "etkilesim_orani": 27.61,
+     "ort_izleme_sn": 3.0,
+     "kalan_2sn": 0.21,
+     "kalan_6sn": 0.09,
+     "kalan_10sn": 0.04,
      "arama_payi": 0.007,
-     "fyp_payi": 0.964
+     "fyp_payi": 0.965
     },
     {
      "id": "v046",
@@ -818,17 +837,17 @@
      "id": "v024",
      "tarih": "2026-10-19T06:03:55.000Z",
      "ilk_satir": "Çocuğun Allah kim diye sorsa ne dersin? İhlas Suresi anlamı ve meali 🤍 İhlas Suresi dört a",
-     "izlenme": 870,
+     "izlenme": 871,
      "erisim": 0,
-     "begeni": 100,
+     "begeni": 101,
      "yorum": 4,
      "paylasim": 2,
-     "kaydetme": 15,
+     "kaydetme": 16,
      "takip": 4,
-     "etkilesim_orani": 13.91,
-     "ort_izleme_sn": 11.6,
-     "kalan_2sn": 0.61,
-     "kalan_6sn": 0.37,
+     "etkilesim_orani": 14.12,
+     "ort_izleme_sn": 11.8,
+     "kalan_2sn": 0.62,
+     "kalan_6sn": 0.38,
      "kalan_10sn": 0.27,
      "arama_payi": 0.023,
      "fyp_payi": 0.969
@@ -1027,7 +1046,7 @@
      "id": "v009",
      "tarih": "2026-10-13T06:02:11.000Z",
      "ilk_satir": "Terk edilmiş gibi hissediyorsan 🤍 Duhâ suresinden, yalnız hissedenlere teselli olan ayetle",
-     "izlenme": 137,
+     "izlenme": 138,
      "erisim": 129,
      "begeni": 10,
      "yorum": 0,
@@ -1103,26 +1122,26 @@
      "id": "v005",
      "tarih": "2026-10-09T14:04:33.000Z",
      "ilk_satir": "Çok günah işledim, artık affedilmem diyorsan 🤍 Allah'ın rahmetinden ümit kesmemek... Bu ay",
-     "izlenme": 167,
-     "erisim": 152,
+     "izlenme": 168,
+     "erisim": 153,
      "begeni": 31,
      "yorum": 2,
      "paylasim": 2,
      "kaydetme": 0,
      "takip": 1,
-     "etkilesim_orani": 23.03,
+     "etkilesim_orani": 22.88,
      "ort_izleme_sn": 2.5,
      "kalan_2sn": 0.42,
      "kalan_6sn": 0.1,
      "kalan_10sn": 0.05,
-     "arama_payi": 0.17,
-     "fyp_payi": 0.777
+     "arama_payi": 0.175,
+     "fyp_payi": 0.772
     },
     {
      "id": "v004",
      "tarih": "2026-10-09T11:02:34.000Z",
      "ilk_satir": "Duaların duyulmuyor mu sanıyorsun? 🤍 Allah, dua edenin duasına icabet ettiğini bildiriyor.",
-     "izlenme": 141,
+     "izlenme": 142,
      "erisim": 132,
      "begeni": 15,
      "yorum": 0,
@@ -1141,7 +1160,7 @@
      "id": "v003",
      "tarih": "2026-10-09T06:02:06.000Z",
      "ilk_satir": "Sabretmekten yorulduğunu hissediyorsan 🤍 Sabır ve namaz: zor zamanlarda Allah'ın gösterdiğ",
-     "izlenme": 148,
+     "izlenme": 149,
      "erisim": 142,
      "begeni": 9,
      "yorum": 0,
@@ -1160,7 +1179,7 @@
      "id": "v001",
      "tarih": "2026-10-08T23:45:30.000Z",
      "ilk_satir": "Zor bir dönemden geçiyorsan bu ayet senin için 🤍 Allah her zorlukla beraber bir kolaylık o",
-     "izlenme": 182,
+     "izlenme": 184,
      "erisim": 154,
      "begeni": 13,
      "yorum": 0,
@@ -1179,7 +1198,7 @@
      "id": "v002",
      "tarih": "2026-10-08T23:15:55.000Z",
      "ilk_satir": "Her şeye sahip olup yine de huzur bulamıyorsan 🤍 Huzuru başka yerlerde aradıysan, Kur'an k",
-     "izlenme": 181,
+     "izlenme": 182,
      "erisim": 144,
      "begeni": 16,
      "yorum": 0,
@@ -1198,7 +1217,7 @@
      "id": "v001",
      "tarih": "2026-10-08T23:10:24.000Z",
      "ilk_satir": "Zor bir dönemden geçiyorsan bu ayet senin için 🤍 Allah her zorlukla beraber bir kolaylık o",
-     "izlenme": 183,
+     "izlenme": 184,
      "erisim": 155,
      "begeni": 13,
      "yorum": 0,
@@ -1217,7 +1236,7 @@
      "id": null,
      "tarih": "2026-09-07T00:38:57.000Z",
      "ilk_satir": "Nasip",
-     "izlenme": 163,
+     "izlenme": 164,
      "erisim": 159,
      "begeni": 3,
      "yorum": 0,
@@ -1236,12 +1255,12 @@
    "saat_analizi": {
     "03": {
      "gonderi": 3,
-     "ort_izlenme": 182,
+     "ort_izlenme": 183,
      "ort_kalan_2sn": 0.35
     },
     "04": {
      "gonderi": 1,
-     "ort_izlenme": 163,
+     "ort_izlenme": 164,
      "ort_kalan_2sn": 0.24
     },
     "05": {
@@ -1250,13 +1269,13 @@
      "ort_kalan_2sn": 0.45
     },
     "10": {
-     "gonderi": 6,
-     "ort_izlenme": 274,
-     "ort_kalan_2sn": 0.4
+     "gonderi": 7,
+     "ort_izlenme": 244,
+     "ort_kalan_2sn": 0.39
     },
     "12": {
      "gonderi": 2,
-     "ort_izlenme": 183,
+     "ort_izlenme": 184,
      "ort_kalan_2sn": 0.48
     },
     "13": {
@@ -1271,7 +1290,7 @@
     },
     "18": {
      "gonderi": 5,
-     "ort_izlenme": 157,
+     "ort_izlenme": 159,
      "ort_kalan_2sn": 0.32
     },
     "19": {
@@ -1286,7 +1305,7 @@
     },
     "21": {
      "gonderi": 3,
-     "ort_izlenme": 155,
+     "ort_izlenme": 156,
      "ort_kalan_2sn": 0.39
     },
     "22": {
@@ -1296,7 +1315,7 @@
     },
     "23": {
      "gonderi": 3,
-     "ort_izlenme": 151,
+     "ort_izlenme": 152,
      "ort_kalan_2sn": 0.32
     }
    },
@@ -1306,7 +1325,7 @@
       {
        "day_of_week": 0,
        "hour": 6,
-       "avg_engagement": 121,
+       "avg_engagement": 123,
        "post_count": 1
       },
       {
@@ -1334,6 +1353,12 @@
        "post_count": 1
       },
       {
+       "day_of_week": 0,
+       "hour": 14,
+       "avg_engagement": 37,
+       "post_count": 1
+      },
+      {
        "day_of_week": 1,
        "hour": 9,
        "avg_engagement": 35,
@@ -1353,12 +1378,6 @@
       },
       {
        "day_of_week": 0,
-       "hour": 14,
-       "avg_engagement": 32,
-       "post_count": 1
-      },
-      {
-       "day_of_week": 0,
        "hour": 9,
        "avg_engagement": 32,
        "post_count": 1
@@ -1370,15 +1389,15 @@
        "post_count": 1
       },
       {
-       "day_of_week": 0,
+       "day_of_week": 1,
        "hour": 8,
        "avg_engagement": 28,
        "post_count": 1
       },
       {
-       "day_of_week": 1,
+       "day_of_week": 0,
        "hour": 8,
-       "avg_engagement": 27,
+       "avg_engagement": 28,
        "post_count": 1
       },
       {
@@ -1388,20 +1407,20 @@
        "post_count": 1
       },
       {
-       "day_of_week": 6,
-       "hour": 19,
-       "avg_engagement": 23,
-       "post_count": 1
-      },
-      {
        "day_of_week": 1,
        "hour": 14,
-       "avg_engagement": 23,
+       "avg_engagement": 24,
        "post_count": 2
       },
       {
        "day_of_week": 5,
        "hour": 15,
+       "avg_engagement": 23,
+       "post_count": 1
+      },
+      {
+       "day_of_week": 6,
+       "hour": 19,
        "avg_engagement": 23,
        "post_count": 1
       },
@@ -1424,16 +1443,16 @@
        "post_count": 1
       },
       {
+       "day_of_week": 1,
+       "hour": 6,
+       "avg_engagement": 19,
+       "post_count": 2
+      },
+      {
        "day_of_week": 4,
        "hour": 9,
        "avg_engagement": 18,
        "post_count": 1
-      },
-      {
-       "day_of_week": 1,
-       "hour": 6,
-       "avg_engagement": 18,
-       "post_count": 2
       },
       {
        "day_of_week": 3,
@@ -1474,6 +1493,12 @@
       {
        "day_of_week": 1,
        "hour": 17,
+       "avg_engagement": 11,
+       "post_count": 1
+      },
+      {
+       "day_of_week": 2,
+       "hour": 6,
        "avg_engagement": 10,
        "post_count": 1
       },
@@ -1496,29 +1521,29 @@
       {
        "platform": "tiktok",
        "posts_per_week": 1,
-       "avg_engagement_rate": 1.8404907975460123,
+       "avg_engagement_rate": 1.8292682926829267,
        "avg_engagement": 3,
        "weeks_count": 1
       },
       {
        "platform": "tiktok",
        "posts_per_week": 9,
-       "avg_engagement_rate": 13.552978427188656,
+       "avg_engagement_rate": 13.501395610664678,
        "avg_engagement": 23,
        "weeks_count": 1
       },
       {
        "platform": "tiktok",
        "posts_per_week": 11,
-       "avg_engagement_rate": 13.26788488861285,
+       "avg_engagement_rate": 13.263076410303897,
        "avg_engagement": 21.181818181818183,
        "weeks_count": 1
       },
       {
        "platform": "tiktok",
-       "posts_per_week": 14,
-       "avg_engagement_rate": 17.566543493966144,
-       "avg_engagement": 37.07142857142857,
+       "posts_per_week": 15,
+       "avg_engagement_rate": 17.824564380704427,
+       "avg_engagement": 36.13333333333333,
        "weeks_count": 1
       }
      ]
@@ -1528,38 +1553,38 @@
       {
        "bucket_order": 0,
        "bucket_label": "0-6h",
-       "avg_pct_of_final": 81.15390826874062,
-       "post_count": 17
+       "avg_pct_of_final": 80.31236117295425,
+       "post_count": 18
       },
       {
        "bucket_order": 1,
        "bucket_label": "6-12h",
-       "avg_pct_of_final": 91.8716192722097,
+       "avg_pct_of_final": 90.24471261904965,
        "post_count": 18
       },
       {
        "bucket_order": 2,
        "bucket_label": "12-24h",
-       "avg_pct_of_final": 98.6470842469219,
-       "post_count": 14
+       "avg_pct_of_final": 97.93617485080901,
+       "post_count": 18
       },
       {
        "bucket_order": 3,
        "bucket_label": "1-2d",
-       "avg_pct_of_final": 99.1111111111111,
-       "post_count": 13
+       "avg_pct_of_final": 99.17460317460318,
+       "post_count": 14
       },
       {
        "bucket_order": 4,
        "bucket_label": "2-7d",
        "avg_pct_of_final": 100,
-       "post_count": 14
+       "post_count": 15
       },
       {
        "bucket_order": 5,
        "bucket_label": "7-30d",
        "avg_pct_of_final": 100,
-       "post_count": 9
+       "post_count": 10
       },
       {
        "bucket_order": 6,
