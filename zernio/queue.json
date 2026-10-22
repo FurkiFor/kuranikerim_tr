@@ -386,5 +386,22 @@
   "not": "tilavet kartı — deney 9 'Bazen…' (4. video); TikTok'a kart yok",
   "zernio_id": "6ad8ab1c4f28fa9bdfc83e6f",
   "status": "scheduled"
+ },
+ {
+  "id": "v067",
+  "at": "2026-10-22T10:00:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "tilavetli anlatımlı — teselli, şifa ayeti (İsra 82)"
+ },
+ {
+  "id": "v076",
+  "at": "2026-10-22T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tilavetli anlatımlı — açık adlı peygamber duası (Hz. Zekeriya, Enbiya 89); IG 18:00 = dua kartı"
  }
 ]
