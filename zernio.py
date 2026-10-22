@@ -178,7 +178,7 @@ def queue():
         accs = accs or accounts()
         try:
             plats = e.get('platforms') or ['tiktok', 'instagram']
-            trial = e.get('ig_trial', True) and 'instagram' in plats
+            trial = e.get('ig_trial', False) and 'instagram' in plats  # 22 Ekim: Trial Reels 1.000+ takipçi istiyor
             try:
                 p = post(e['id'], e['at'], plats, accs, trial)
             except Exception as tx:  # Trial Reels reddedilirse TikTok da düşmesin: normal reels ile bir kez daha dene

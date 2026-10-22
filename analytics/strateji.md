@@ -231,3 +231,8 @@ Yeni günlük düzen (22 Ekim akşamından):
 | 20:30 | kısa sure anlamı | aynı | aynı |
 | 23:30 | kısa sure anlamı (gece kapanışlı) | aynı | tilavet kartı |
 YouTube 4, TikTok 5 (4 yeni + 1 tekrar), Instagram 5. Değerlendirme: deney 8 25 Ekim, Instagram trial 26 Ekim, slotlar 1 Kasım.
+
+
+## 22 Ekim 2026 — Instagram Trial Reels kapandı (Zernio yayın hatası)
+- Zernio bildirimi (v062, 20 Ekim 10:00): "Trial Reels require an Instagram account with 1,000+ followers. Publish as a regular Reel instead." `analytics/zernio.json`'da 20 Ekim 10:00'dan sonraki trial gönderilerin hiçbiri yok (v062, v049, v055, v065, v058, v061, v051, v054, v097, v083, v067, v052); yayınlanan son IG gönderisi v016 (20 Ekim 21:00, normal reel). 19 Ekim'deki 3 trial (v046, v048, v053: 1.413–2.003 izlenme) yayınlanmıştı → şart 20 Ekim civarı uygulanmaya başladı.
+- Karar: Instagram gönderileri 1.000 takipçiye kadar **normal reel** (zernio.py varsayılanı `ig_trial` false). Bugünkü v067 ve v052 IG'ye normal reel olarak 15:00 ve 16:00'da yeniden, v090 18:00 normal reel olarak planlandı. Normal reel daha önce 0–8 izlenme aldı (20 takipçi) → IG için takipçi kazanımı ayrı iş: 26 Ekim ölçümünde IG normal reel izlenmesine bak; karar gerekirse Furkan'a sor (ör. TikTok/YouTube'dan IG'ye yönlendirme, profil).
