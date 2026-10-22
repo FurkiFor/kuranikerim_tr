@@ -1,0 +1,58 @@
+{
+ "id": "v038",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "zslvLmB8euP9wblmCoU1",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Hiçbir şeyin yok sanınca ne dersin?",
+   "prompt": "[deep voice] [slowly] Hiçbir şeyin yok sanınca ne dersin?",
+   "generation_id": "k6a5OGPBQBxLiPSMCONK",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/KCJyyh0a55QImAH39GZr/k6a5OGPBQBxLiPSMCONK/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T114808Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=36b0fde9a298e69cc57ebf395a4f140041800c87580d7fbef476c73e06c9fa436d5284165906c1ab269d6bf2f83a60d89422ce9a8418a08b7ac9016ab15a192698c7e260b6d5a09e8f476a7337f7b52e7117714bc82e60dc2caadcedd83c2ab96001a8f49d23c7bbfdc63228ea56530949c089cf79dbeacc05004a396b9f3ea2709c7caeae6ca0e2d282fa77e6e0427d08f64b266064aca697d1d6caa30ae1c18609c14ae08f49269a051c32063ca65af0c662cd64d22e269218ee6818834676537cc6b5ba98b8b3add8f0977b2b899f5d18edd58f253816c33c1c25eb20a589ee05b8d4ec299ff9617f56c478fe7146fdc2ee658847d88a57cb37929397ee8e"
+  },
+  {
+   "kind": "giris",
+   "text": "Cevap, Kevser Suresi'nde. Allah bu üç kısa ayette Peygamberine sesleniyor.",
+   "prompt": "[deep voice] [slowly] Cevap, Kevser Suresi'nde. Allah bu üç kısa ayette Peygamberine sesleniyor.",
+   "generation_id": "yRWcAByFvpvATxAYj8Vk",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/fVWJOpDM1RzvopoQKscu/yRWcAByFvpvATxAYj8Vk/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T114811Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=18c77ccd17d564d98e30f00bd8b0d8aa5c0ffba0d11410a350a6e270979b4a1eb5031d477656cabe1ae164fa018cfb8db9463e671f0d983d7a22e9634c3dd8a5fccfee99c19fd4b0cf4494dc1d34f9c9cccb38152eac05d45cd6cf1c4b90812b57a296deec6d1b2e4252f75284cd323bdf61d5eb59107a6ed09ab1a3dcc43c311a80aed99486f46d0fc78de8711cdea203abd6762d6073fdd98472cfc2a516320f9e82993740953f5513c68ff6f35f6c9907748f68b116b90c6f8b648a4c24110f26f14aa5836ee165cd62b63a75e6106ffad0997573311584a9ea4ff4759d42ecf69cbfa0c22531c8bd4a7268d5e3f23a2e7fb6e2f870db952d70ecf30c54f1"
+  },
+  {
+   "kind": "meal",
+   "text": "Doğrusu sana pek çok nimet vermişizdir.",
+   "prompt": "[softly] [slowly] Doğrusu sana pek çok nimet vermişizdir.",
+   "generation_id": "tsADuWuhxSLstgsLx1cC",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/uTOybsVAP5IiGNKwGEXi/tsADuWuhxSLstgsLx1cC/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T114813Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8ce235542a297ec715b915d5da09c49aba901c8ed7be2e058bf85115c9c577d7ad142ff4835eacd310e460fb14e8c4cd3b97ee69a8e3cc09b80795e47fd183e743601d7e6504bb203283f8598c69d5db28c2edd2edb77e246f1c380c42f6bcf456231298f1cf144d9d64bc952f248306f7d07f255e42dd8e07b0b702bd0fc4345a9baad23dbb232d54e711c391638451843e9ae08161692725314c0a688846057fdfb1783d51b1b9af935b72419328e0470cf02dfe77aa6c5f4b9ebd7197dd2a6ade0bdea2df0b3e7b921f09f297bc09e3baa47696848b5940e3b054f0e9afc241b168817a416ee96d7389a40fddb47a6f1f1af6110661c03e0b7305ea1992d1"
+  },
+  {
+   "kind": "meal",
+   "text": "Öyleyse Rabbin için namaz kıl, kurban kes.",
+   "prompt": "[softly] [slowly] Öyleyse Rabbin için namaz kıl, kurban kes.",
+   "generation_id": "49LtTk620jPKOS88cyhH",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/vHFvJEKBrVgPcYS0fCAB/49LtTk620jPKOS88cyhH/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T114816Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=52d5f51395d4273609b0f624587e7943f055591b43359698069673a2df219d92b83b3d6bc4e09823ee6b9c095e711ec3c2476c04b7f1aca32820de32f6ea65c90f5bd8692a97acc86b4e68d3d61f7fca5fc12d93b7ceadeb53b6bbcd36d40392720aa94f73a339598fdad1f9689d9301a70fc885e10605d0a83508d7fd8a9bd56a2fce19f009745c58744fff15ade569d5578306355dad7d0db27d5be0e64c1e4198f4f9acc545a00f8ad24a5c4d8a91f25a3dee20e999317608b3b550c72cbfe9e2ebd6a4f711ce528b759c7688807bb9fbbeaded19b98fd647f0082d8e09b37f2d945f93b6b63e6f411ed27cc377960cddfecb4aec56f350da774d57c59345"
+  },
+  {
+   "kind": "meal",
+   "text": "Doğrusu adı sanı ortadan kalkacak olan, sana kin tutan kimsedir.",
+   "prompt": "[softly] [slowly] Doğrusu adı sanı ortadan kalkacak olan, sana kin tutan kimsedir.",
+   "generation_id": "xk53d1MSEfMXOMsfTzZr",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/624xIfQqlYIijZUG8qHE/xk53d1MSEfMXOMsfTzZr/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T114819Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=6aaaf3cb742e4ac413e0ca3434e15a976c2da08c011d6e783f61720fff39e3f883cd6c0bd865b5d8e7f8d3f630c525286d5526e848b45f2becb08efdc98a90618bd6c734ea34f65ebe224d8935e96de16cf574c5b3f39c6d17a8abadadf65e456ff6fc559891fe43573f0194e8a24412a8d9753f6473fcc3363291e3b330a383f0de1e62cd7730ecae2f940659b0aec55ffc2010fb393580dff00a542d3256e09ddf819754693b46cfa8d132a4f72d30f048200098e4dce26c10fea98ac8229c3755b44b7993e9535be1d5275bd321520793d9b6db527637dbc84126dafb43f06392962363c23136be62d7766951bee42d72b7b05346973963bcfac6457933ba"
+  },
+  {
+   "kind": "yorum",
+   "text": "Sen de elindekini az görme. Verilen nimet çok; karşılığı, Rabbin için namaz.",
+   "prompt": "[deep voice] [slowly] Sen de elindekini az görme. Verilen nimet çok; karşılığı, Rabbin için namaz.",
+   "generation_id": "VnfBD5VA7kj0YoAaZq01",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/u69IshvskhLH6N38Vidw/VnfBD5VA7kj0YoAaZq01/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T114822Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=537907480e6731da314d841aee79e02d3fa1cc04e630b0764a12316d85eefa8bcacba3c16e65b64c0c12d3bd89ae3726ad5c2e01ab4fcef804c9db310b496a90ae436c69ea3b7c9b3fd5a96d5010a6160bca941dd32fa2f586699c7a071baf9d5f66258ed24e65121b1e963dcc2da2031bd990729c17d2b46e25894981df89abf9c8ff0ecb766ee9c925cc31c942ac33ef0d67f0209ec87fced031a3987806f87e4771b7912db67275577f8fbfec3614bcaab8283dab2af51b4d16459c75ecd17357cffdb53d45c53605b3ba2677c74404a422341e757643212f654a00f4286ce2f029242972c6ed033027bdd28fa569311dba857ffb8e6b359ffefadbba9514"
+  },
+  {
+   "kind": "cta",
+   "text": "Hiçbir şeyin yok sandığında, sana verilen nimetleri hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Hiçbir şeyin yok sandığında, sana verilen nimetleri hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "R8Yz33JCOjtnIfPLNDn9",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/qB2TPUYwa9Pbl5iSg8cd/R8Yz33JCOjtnIfPLNDn9/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T114823Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=874a8c40cb7b3f5a93b17c2e775e1f643c49a365b0929a7d92b3ddd48fa4d5246481f0a6f8cee79fa7f444ffcd208ffe9b4070646d20f8e4a28c996ae59ed392e46a04cb76e5b6e5d294273907c4abdaccfa21c156d0b659e0806b098d111b2d26e9b56798600cebf6002ac0790e6ee57d02597a7b5e69331cceb69c49348c5e249d5b4b0b97248a9a41669ccac75850885d449ca7299969da0a71e6fb48e26f9236850814baa73c792b553bb9e05802b1f5a01fb95b6b48f08b155a1ed5e227f7cb66dc5fa868965a8fe34a10a9dc790d8c0ab43b091320092342955d6cbf64bbd13b6093a4d3855a564335d9e997b29f6b2dd3de58df0f060f271d1052a4cd"
+  }
+ ]
+}

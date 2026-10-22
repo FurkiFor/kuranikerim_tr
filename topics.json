@@ -885,25 +885,66 @@
  },
  {
   "id": "v038",
-  "tema": "Nimet",
+  "tema": "Kevser Suresi Anlamı",
   "sure": 108,
   "ayet": [
    1,
    3
   ],
-  "hook": "Az şeyin var gibi mi hissediyorsun?",
-  "kapanis": "Kevser suresi.",
-  "bg": "deniz",
-  "aciklama": "Kevser suresi: Allah'ın verdiği bol nimet ve şükür.",
+  "hook": "Hiçbir şeyin yok sanınca ne dersin?",
+  "kapanis": "Hiçbir şeyin yok sandığında, sana verilen nimetleri hatırla",
+  "bg": "tohum",
+  "sahne": "tohum",
+  "aciklama": "Kevser Suresi üç ayette Peygamberimize pek çok nimet verildiğini, öyleyse Rabbi için namaz kılıp kurban kesmesini ve ona kin tutanın adının sanının ortadan kalkacağını bildirir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
-   "kevser",
-   "şükür"
+   "kevser suresi",
+   "nimet",
+   "tilavet"
   ],
-  "sahne": "fener",
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    1,
+    2,
+    3
+   ]
+  },
   "seslendirme": {
-   "giris": "Kur'an'ın en kısa suresi bunu anlatıyor.",
-   "yorum": "Allah pek çok nimet verdi. Karşılığı namaz, kurban ve şükür."
-  }
+   "giris": "Cevap, Kevser Suresi'nde. Allah bu üç kısa ayette Peygamberine sesleniyor.",
+   "yorum": "Sen de elindekini az görme. Verilen nimet çok; karşılığı, Rabbin için namaz."
+  },
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hiçbir şeyin yok sanınca ne dersin? Kevser Suresi anlamı",
+   "ilk_satir": "Hiçbir şeyin yok sanınca ne dersin? Kevser Suresi anlamı ve meali (1-3)",
+   "aciklama": "Kevser Suresi'nde Allah, Peygamberimize pek çok nimet verdiğini bildirir; öyleyse Rabbi için namaz kılmasını, kurban kesmesini söyler ve ona kin tutanın adının sanının ortadan kalkacağını haber verir. Diyanet meali ile Kevser Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "kevser suresi",
+    "kevser suresi anlamı",
+    "kevser suresi meali",
+    "kısa sureler",
+    "kuran tilaveti"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "20:30 kısa sure anlamı",
+   "tiktok": "20:30",
+   "instagram": "20:30 normal reel"
+  },
+  "not": "AKŞAM 22 Ekim 20:30 — kısa sure anlamı (deney 8, 4. video). v038 eski motor sürümü baştan yazıldı (hiç yayınlanmamıştı). Tilavet 1-3 (okunan Arapça 91 harf: 32+27+32). Hook: mealdeki 'sana pek çok nimet vermişizdir' ile örtüşen somut an; hitap Peygambere olduğu için girişte söylenir. vidIQ TR 22 Ekim: 'kevser suresi' ~18.761/ay (rekabet 43), 'kevser suresi anlamı' ~5.401, 'kısa sureler' ~4.261, 'kuran tilaveti' ~8.718."
  },
  {
   "id": "v039",
