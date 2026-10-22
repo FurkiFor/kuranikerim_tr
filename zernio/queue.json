@@ -436,7 +436,7 @@
   ],
   "not": "açık adlı dua kartı — deney 7 (ayetin hitabı 'Rabbim!' + açık ad), Kasas 16",
   "zernio_id": "6ad988efed658e60f596a90c",
-  "status": "scheduled",
+  "status": "cancelled",
   "iptal": true
  },
  {
@@ -447,7 +447,9 @@
   ],
   "ig_trial": false,
   "yerine": "6ad988efed658e60f596a90c",
-  "not": "normal reel olarak yeniden plan: Trial Reels 1.000+ takipçi istiyor (Zernio hatası, 22 Ekim)"
+  "not": "normal reel olarak yeniden plan: Trial Reels 1.000+ takipçi istiyor (Zernio hatası, 22 Ekim)",
+  "zernio_id": "6ad9d651ab124936c560a002",
+  "status": "scheduled"
  },
  {
   "id": "v067",
@@ -456,7 +458,9 @@
    "instagram"
   ],
   "ig_trial": false,
-  "not": "10:00 IG trial yayınlanamadı (1.000 takipçi şartı) → normal reel"
+  "not": "10:00 IG trial yayınlanamadı (1.000 takipçi şartı) → normal reel",
+  "zernio_id": "6ad9d651e11ecfaa1f301221",
+  "status": "scheduled"
  },
  {
   "id": "v052",
@@ -465,6 +469,8 @@
    "instagram"
   ],
   "ig_trial": false,
-  "not": "13:00 IG trial yayınlanamadı (1.000 takipçi şartı) → normal reel"
+  "not": "13:00 IG trial yayınlanamadı (1.000 takipçi şartı) → normal reel",
+  "zernio_id": "6ad9d651e11ecfaa1f301228",
+  "status": "scheduled"
  }
 ]

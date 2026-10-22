@@ -574,8 +574,8 @@
     "zernio_id": "6ad985469ef3b9b670bbc319"
    },
    "instagram": {
-    "tarih": "2026-10-22T10:00:00+04:00",
-    "zernio_id": "6ad985469ef3b9b670bbc319"
+    "tarih": "2026-10-22T15:00:00+04:00",
+    "zernio_id": "6ad9d651e11ecfaa1f301221"
    }
   },
   "v076": {
@@ -600,14 +600,18 @@
   },
   "v052": {
    "instagram": {
-    "tarih": "2026-10-22T13:00:00+04:00",
-    "zernio_id": "6ad988ef334faa03a05e6a3b"
+    "tarih": "2026-10-22T16:00:00+04:00",
+    "zernio_id": "6ad9d651e11ecfaa1f301228"
    }
   },
   "v090": {
-   "instagram": {
+   "instagram_iptal": {
     "tarih": "2026-10-22T18:00:00+04:00",
     "zernio_id": "6ad988efed658e60f596a90c"
+   },
+   "instagram": {
+    "tarih": "2026-10-22T18:00:00+04:00",
+    "zernio_id": "6ad9d651ab124936c560a002"
    }
   }
  }
