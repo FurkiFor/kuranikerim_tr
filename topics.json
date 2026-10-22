@@ -1406,8 +1406,8 @@
   ],
   "kart_metin": "Ben üzüntü ve tasamı yalnız Allah'a açarım",
   "sahne": "fener",
-  "hook": "Hz. Yakup'un derdini açtığı tek yer",
-  "tema": "Hüzün",
+  "hook": "Bazen derdini kimseye anlatamazsın",
+  "tema": "Dert ve Tasa",
   "etiketler": [
    "hüzün",
    "yakup",
@@ -1416,12 +1416,14 @@
   "aciklama": "Yûsuf Suresi 86. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Ben üzüntü ve tasamı yalnız Allah'a açarım",
   "seo": {
-   "yt_baslik": "Hz. Yakup'un Derdini Açtığı Tek Yer | Yusuf 86",
-   "ilk_satir": "Hz. Yakup'un derdini açtığı tek yer — Ben üzüntü ve tasamı yalnız Allah'a açarım",
+   "yt_baslik": "Bazen Derdini Kimseye Anlatamazsın | Yusuf 86",
+   "ilk_satir": "Dert ve tasa ayeti | Yusuf 86: Ben üzüntü ve tasamı yalnız Allah'a açarım",
    "aciklama": "Yûsuf Suresi 86. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "üzüntümü allaha açarım ayeti",
-    "yusuf suresi 86"
+    "yusuf suresi 86",
+    "kuran meali",
+    "kuran dinle"
    ]
   },
   "ses": "tilavet",
@@ -1431,7 +1433,9 @@
     "metin": "Ben üzüntü ve tasamı yalnız Allah'a açarım"
    }
   ],
-  "ust": "Hz. Yakup'un derdini açtığı tek yer"
+  "ust": "Bazen derdini kimseye anlatamazsın",
+  "kalip": "deney9-bazen",
+  "not": "SABAH 22 Ekim 13:00 IG — deney 9 'Bazen…' 5. video (vidIQ 22 Ekim: düz gözlem/teselli cümlesi yine outlier). Eski ust: 'Hz. Yakup'un derdini açtığı tek yer'."
  },
  {
   "id": "v053",
@@ -2077,7 +2081,7 @@
    "klasor": "recitations/hudhaify"
   },
   "seslendirme": {
-   "giris": "Kur'an'ın kendisini anlattığı ayeti dinle."
+   "giris": "Kur'an'ın kendisini anlattığı bu şifa ayetini dinle."
   },
   "kurgu": {
    "kamera": [
@@ -2091,8 +2095,8 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Şifa ayeti | İsra 82 · Kur'an'dan rahmet ve şifa",
-   "ilk_satir": "Şifa ayetleri | İsra 82: Kur'an'dan inananlara rahmet ve şifa",
+   "yt_baslik": "Kalbin şifa mı arıyor? Şifa ayeti | İsra 82",
+   "ilk_satir": "Kalbin şifa mı arıyor? Şifa ayetleri | İsra 82: Kur'an'dan inananlara rahmet ve şifa",
    "aciklama": "İsra Suresi 82. ayette Allah, Kur'an'dan inananlara rahmet ve şifa olan şeyler indirdiğini bildirir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "şifa ayetleri",
@@ -2100,7 +2104,8 @@
     "isra suresi 82",
     "kuranda şifa ayeti"
    ]
-  }
+  },
+  "not": "SABAH 22 Ekim 10:00 — tilavetli anlatımlı (teselli, arama niyeti şifa). vidIQ TR 19 Ekim: 'şifa ayetleri' ~9.479/ay, 'şifa ayetleri dinle' ~5.280. Mealin söylemediği hastalık şifası vaadi yok."
  },
  {
   "id": "v068",
@@ -2535,16 +2540,17 @@
   },
   "seo": {
    "yt_baslik": "Hz. Zekeriya'nın duası | Enbiya 89 · Rabbim beni tek başıma bırakma",
-   "ilk_satir": "Hz. Zekeriya'nın duası | Enbiya 89: Rabbim! Beni tek başıma bırakma",
+   "ilk_satir": "Hz. Zekeriya'nın duası | Peygamber duaları · Enbiya 89: Rabbim! Beni tek başıma bırakma",
    "aciklama": "Enbiya Suresi 89. ayette Hz. Zekeriya'nın duası: Rabbim! Beni tek başıma bırakma, Sen varislerin en hayırlısısın. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "peygamber duaları",
     "hz zekeriya duası",
-    "zekeriya peygamber",
     "enbiya suresi 89",
     "yalnızlık duası"
    ]
   },
-  "kopru_kaynak": "Enbiya 89: Zekeriya da ... diye nida etmişti"
+  "kopru_kaynak": "Enbiya 89: Zekeriya da ... diye nida etmişti",
+  "not": "SABAH 22 Ekim 18:00 — tilavetli anlatımlı (açık adlı peygamber duası). vidIQ TR 22 Ekim: 'peygamber duaları' ~5.212/ay (rekabet 30), 'hz zekeriya duası' <750."
  },
  {
   "id": "v077",

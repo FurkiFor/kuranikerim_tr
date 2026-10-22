@@ -67,6 +67,9 @@
 | 25 | Bazen hiçbir şey senin elinde değil (kart `ust`, deney 9) | — | Mü'min 44: "Ben işimi Allah'a bırakıyorum" | v051; gözlem cümlesi |
 | 26 | Rabbim! Hz. Musa'nın duası (kart `ust`, deney 7) | — | Taha 25-28: "Rabbim! Göğsümü genişlet…" | v054; ayetin kendi hitabı + açık ad; arama: rabbişrahli duası |
 | 27 | Biri seni kıskandığında ne dersin? | — | Felak 1-5: "hased ettiği zaman hasedcilerin şerrinden … Rabbe sığınırım" | v097; deney 8 (somut an + sure adı, v024 kalıbı); arama: felak suresi ~19.6 B/ay |
+| 28 | Kalbin şifa mı arıyor? | — | İsra 82: "Kuran'dan inananlara rahmet ve şifa olan şeyler indiriyoruz" | v067; arama: şifa ayetleri ~9,5 B/ay; hastalık şifası vaadi yok |
+| 29 | Yapayalnız kalmaktan mı korkuyorsun? | — | Enbiya 89: "Rabbim! Beni tek başıma bırakma" | v076; açık adlı peygamber duası (Hz. Zekeriya), köprü girişte; arama: peygamber duaları ~5,2 B/ay |
+| 30 | Bazen derdini kimseye anlatamazsın (kart `ust`, deney 9) | — | Yusuf 86: "Ben üzüntü ve tasamı yalnız Allah'a açarım" | v052; gözlem cümlesi, 5. video |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
