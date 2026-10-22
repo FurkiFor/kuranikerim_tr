@@ -480,7 +480,9 @@
    "tiktok",
    "instagram"
   ],
-  "not": "kısa sure anlamı (deney 8, 20:30) — Kevser, somut an sorusu + sure adı, tam tilavet (1-3); IG normal reel"
+  "not": "kısa sure anlamı (deney 8, 20:30) — Kevser, somut an sorusu + sure adı, tam tilavet (1-3); IG normal reel",
+  "zernio_id": "6ad9fe57b3cecdd2c995e8e0",
+  "status": "scheduled"
  },
  {
   "id": "v087",
@@ -488,6 +490,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı (IG 23:30) — hâl cümlesi 'Biri sana kırıcı konuştuysa' (Furkan 63); normal reel"
+  "not": "tilavet kartı (IG 23:30) — hâl cümlesi 'Biri sana kırıcı konuştuysa' (Furkan 63); normal reel",
+  "zernio_id": "6ad9fe59b466d4f7bf505547",
+  "status": "scheduled"
  }
 ]

@@ -115,12 +115,16 @@
   "postId": "7699367678816849153",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7699440568959566613",
-  "message": "Çok teşekkürler 🤍 Rabbim kalbine şifa, gönlüne huzur versin."
+  "message": "Çok teşekkürler 🤍 Rabbim kalbine şifa, gönlüne huzur versin.",
+  "sent": true,
+  "replyId": "7699453187086615316"
  },
  {
   "postId": "7699399784347618567",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7699415035059651329",
-  "message": "Güzel kalbine teşekkürler 🤍 Rabbim Kur'an'la aramızı hiç ayırmasın."
+  "message": "Güzel kalbine teşekkürler 🤍 Rabbim Kur'an'la aramızı hiç ayırmasın.",
+  "sent": true,
+  "replyId": "7699454164988560180"
  }
 ]
