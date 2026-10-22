@@ -407,5 +407,13 @@
   "not": "tilavetli anlatımlı — açık adlı peygamber duası (Hz. Zekeriya, Enbiya 89); IG 18:00 = dua kartı",
   "zernio_id": "6ad985469ef3b9b670bbc31e",
   "status": "scheduled"
+ },
+ {
+  "id": "v098",
+  "at": "2026-10-22T23:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "kısa sure anlamı (deney 8, 23:30) — Nas, somut an sorusu + sure adı, kısmi tilavet (4, 5); 22 Ekim platform kararı: TikTok 23:30 tekrar paylaşım yerine"
  }
 ]
