@@ -472,5 +472,22 @@
   "not": "13:00 IG trial yayınlanamadı (1.000 takipçi şartı) → normal reel",
   "zernio_id": "6ad9d651e11ecfaa1f301228",
   "status": "scheduled"
+ },
+ {
+  "id": "v038",
+  "at": "2026-10-22T20:30:00+04:00",
+  "platforms": [
+   "tiktok",
+   "instagram"
+  ],
+  "not": "kısa sure anlamı (deney 8, 20:30) — Kevser, somut an sorusu + sure adı, tam tilavet (1-3); IG normal reel"
+ },
+ {
+  "id": "v087",
+  "at": "2026-10-22T23:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "tilavet kartı (IG 23:30) — hâl cümlesi 'Biri sana kırıcı konuştuysa' (Furkan 63); normal reel"
  }
 ]
