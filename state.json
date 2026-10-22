@@ -568,12 +568,24 @@
    "youtube": {
     "tarih": "2026-10-22T10:00:00+04:00",
     "kervly_id": "p_NCkYR_678hFW"
+   },
+   "tiktok": {
+    "tarih": "2026-10-22T10:00:00+04:00",
+    "zernio_id": "6ad985469ef3b9b670bbc319"
+   },
+   "instagram": {
+    "tarih": "2026-10-22T10:00:00+04:00",
+    "zernio_id": "6ad985469ef3b9b670bbc319"
    }
   },
   "v076": {
    "youtube": {
     "tarih": "2026-10-22T18:00:00+04:00",
     "kervly_id": "p_G3QsNGWBtGoA"
+   },
+   "tiktok": {
+    "tarih": "2026-10-22T18:00:00+04:00",
+    "zernio_id": "6ad985469ef3b9b670bbc31e"
    }
   }
  }
