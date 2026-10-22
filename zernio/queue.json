@@ -424,7 +424,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı — deney 9 'Bazen…' 5. video (Yusuf 86)"
+  "not": "tilavet kartı — deney 9 'Bazen…' 5. video (Yusuf 86)",
+  "zernio_id": "6ad988ef334faa03a05e6a3b",
+  "status": "scheduled"
  },
  {
   "id": "v090",
@@ -432,6 +434,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "açık adlı dua kartı — deney 7 (ayetin hitabı 'Rabbim!' + açık ad), Kasas 16"
+  "not": "açık adlı dua kartı — deney 7 (ayetin hitabı 'Rabbim!' + açık ad), Kasas 16",
+  "zernio_id": "6ad988efed658e60f596a90c",
+  "status": "scheduled"
  }
 ]
