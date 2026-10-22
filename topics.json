@@ -3454,5 +3454,67 @@
   },
   "kalip": "deney8-somut-an-sure-adi",
   "not": "AKŞAM 21 Ekim 20:30 — kısa sure anlamı (deney 8). vidIQ TR: 'felak suresi' ~19.629/ay (+%209), 'felak suresi dinle' ~4.910, 'felak suresi meali' ~3.842, 'felak suresi anlamı' ~3.263. Haset ve büyü mealde geçiyor; nazar geçmiyor → yazılmadı."
+ },
+ {
+  "id": "v098",
+  "tema": "Nas Suresi Anlamı",
+  "sure": 114,
+  "ayet": [
+   1,
+   6
+  ],
+  "hook": "Aklına kötü düşünceler gelince ne dersin?",
+  "kapanis": "Bu gece uyumadan önce sen de insanların Rabbine sığın",
+  "bg": "fener",
+  "sahne": "fener",
+  "aciklama": "Nas Suresi altı ayette, insanların gönüllerine vesvese veren sinsi vesvesecinin şerrinden insanların Rabbi, Hükümranı ve Tanrısı olan Allah'a sığınmayı öğretir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "nas suresi",
+   "vesvese",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    4,
+    5
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Nas Suresi'nde. Kur'an'ın son suresi, altı kısa ayet.",
+   "yorum": "Gönlüne fısıldanan her kötü düşünceye karşı sığınak tek: insanların Rabbi olan Allah."
+  },
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Aklına kötü düşünceler gelince ne dersin? Nas Suresi anlamı",
+   "ilk_satir": "Aklına kötü düşünceler gelince ne dersin? Nas Suresi anlamı ve meali (1-6)",
+   "aciklama": "Nas Suresi'nde Allah, insanlardan ve cinlerden olup insanların gönüllerine vesvese veren sinsi vesvesecinin şerrinden; insanların Rabbi, Hükümranı ve Tanrısı olan Allah'a sığınmayı öğretir. Diyanet meali ile Nas Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "nas suresi",
+    "nas suresi anlamı",
+    "nas suresi meali",
+    "felak nas",
+    "vesvese"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "23:30 Türkçe sesli kısa sure anlamı (kart yerine)",
+   "tiktok": "23:30 (tekrar paylaşım yerine)",
+   "instagram": "gönderilmez — 23:30 IG slotu tilavet kartı"
+  },
+  "not": "22 Ekim platform kararı (strateji.md 22 Ekim): YouTube'da kart bitti, 23:30 Türkçe sesli kısa sure anlamı. Tilavet yalnız 4-5. ayet (vesvese ayetleri, 74 harf); Diyanet Nas mealini tek mealde birleştirmiş, meal bir kez 6. ayette okunur. Hook: somut an sorusu + açık sure adı (v024/v097 kalıbı); 'kötü düşünce' = mealdeki vesvese. ilk_satir bu kez TikTok'ta v024/v025 gibi hook sorusuyla başlar. vidIQ TR 22 Ekim: 'nas suresi' ~9.977/ay, 'felak nas' ~7.207, 'nas suresi tefsiri' ~4.068."
  }
 ]

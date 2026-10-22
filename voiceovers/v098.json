@@ -1,0 +1,44 @@
+{
+ "id": "v098",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "CH8CoDToX56fry8fcRY1",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Aklına kötü düşünceler gelince ne dersin?",
+   "prompt": "[deep voice] [slowly] Aklına kötü düşünceler gelince ne dersin?",
+   "generation_id": "PMgeVCEOM3dDb8N1Ks92",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/JicFxnadQkIu5Oaz5kkv/PMgeVCEOM3dDb8N1Ks92/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T032609Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2d4079366b520195f5c353bd480dd5f2ae181c77ea353df312ec34dec11d2e52264ac3a204d30ad534d80b6141c7bdf1b13196fa90e5b4b5a89edb89a11d1e4a47405fcb859cbe8d831bebb485f6c5118c6f362b3d139d5d65fbf8a4b947f9b2a6126a29dd9c8ca6d1c585a8f9425f9da97d909dc9a7fe33ea5e4477f4c84f7048ad629edca7f8caa4eadec14abb8566f605de00fadd37ea5af5ef5c1ebe421b8e94a9105f0741f9ac7eae11483cf130354f6ccb37beb2a1b9b1e1ce2e4f0bdc02668a9cd71713e1bee2010a97d82f3765b4bfc15f0ed25baf7570a21eda3828b986b5320fba53c9f1427f18a67506afb15c688100c6f96ce0ec7c7c5844e215"
+  },
+  {
+   "kind": "giris",
+   "text": "Cevap, Nas Suresi'nde. Kur'an'ın son suresi, altı kısa ayet.",
+   "prompt": "[deep voice] [slowly] Cevap, Nas Suresi'nde. Kur'an'ın son suresi, altı kısa ayet.",
+   "generation_id": "xZvEwM9RfVPRa2BAa60b",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/rvykf35qSRoASkeqyJTa/xZvEwM9RfVPRa2BAa60b/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T032612Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=097ce5b727759f8a62d8812279f1f99bc2e6c434bef84011aabf1e89c8061c67efb091b70f320da0185385d9b2c4f26b09a64ba5f0e908933f42475d019d656071daa99e88c64625fedf82e45026075ed10a028fd5c508bbc2688a1144a6f9bcd5235819863fea7d3defaf29c10f91acd35343828814f8ef955bc31ef4be7efc9073cb2c79626e278026f57ce8be7eedb8bdcce35a9745cb5233d2cc29dbbf5daeb2721306a5c9701d4bc35a379893e4fcac6b5a9efea5ab3172a260d99dbacd3cc0bf0068bd06c734b9dd3b4b0e314651333548453248fb23db2e54622fb681a80e1cfe6306158529985f1e2fa11b60690332441fe84d6c1f1b0f272b4b9586"
+  },
+  {
+   "kind": "meal",
+   "text": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.",
+   "prompt": "[softly] [slowly] De ki: İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.",
+   "generation_id": "9vw7ALLiRGmeSS9sMfV2",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/BpYUIawi5KGzmNRVHhWS/9vw7ALLiRGmeSS9sMfV2/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T032616Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=95668895a5215d946b2896a2e75f8c86041f00f468a3d7261e58eff83d1acf02e5b6f7c3185f8e51b659e55f9ec6ca4f705ef0ddae1864e48b40c59843916741a9a887ce036c6dd05f251fc0e326585586e22500432fe515b89a5416e2dbfa2237e4173d4cca940707a274536e7f92bc722d87e6366cc0e3b013bbf3c93190af1c9207c0f98820af29c0aa4405bb81dba6e656f3e76237c0a123d69367a64bf980f5dd2bc83f20785c217c7a1ddaf73d07e0ae7ad366d0166afe2b06217658a03191eae28345857139f7b081abd0a3ecb276b2ebce396bf54b7b8f5b93f2cdcf48cfa7508000180d78f9cece2f22cf510d66834e97606ac9cc9d1cec24f2133c"
+  },
+  {
+   "kind": "yorum",
+   "text": "Gönlüne fısıldanan her kötü düşünceye karşı sığınak tek: insanların Rabbi olan Allah.",
+   "prompt": "[deep voice] [slowly] Gönlüne fısıldanan her kötü düşünceye karşı sığınak tek: insanların Rabbi olan Allah.",
+   "generation_id": "ZKDdUickeGZcXiulArRW",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/tbP0QsZrUmM4BBqrAXWt/ZKDdUickeGZcXiulArRW/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T032617Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8c24794a7d82d750776d515bc513508b35d27ff49912d909c00ad3f74919c159f22a5beb0df80e29be9ba2124b468ad928805c686d21b7e0cb9e3caebf74bd61ef05e293c7d14803eb045d54e10fd36085cbbf7b13ab8dc895452f4259714cedddecb504561178aa22e53cb689876ac6cc482d2ded508946c604ef12213e91b372a71a023670936e8f328cfcc038cae327cf85880660f6dfea105c6a6fc9425ee9b86e7891c246c6d7014b6bb130b0b35836c8073dd2e6c8f557c49a2d261a8b75d2bb1f1d0e8a7bf1a2f9b504483a3d32576ac42e8abec96ed8e72cfb714d17e1aa5530a4880fcb22760ff554dc2467a8cb45dcb6c2eba1ef37aafe083244eb"
+  },
+  {
+   "kind": "cta",
+   "text": "Bu gece uyumadan önce sen de insanların Rabbine sığın. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bu gece uyumadan önce sen de insanların Rabbine sığın. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "9ReUv33SmRRPWHElZNYc",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/id3e6GvFhyfWnUZzsvGo/9ReUv33SmRRPWHElZNYc/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T032620Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b8c49ba2a12a2de6ab773f5afe9a011ece96c0106c8e7762d414be2ac20031e9952a34991971956fc97f25bdba754a60a8ffd0e065d264fed5bac7fbe8d54c9ea913ee2ae09affcbdd2cb9a3f5a000efa63cc233f06dcc34cf0471323ea441837a7165552a77873985f5fdaff306a5d85cb8ce1aa59c0457d5689017534943b513d03431e75c8d2beeb55c15e5452a466f593d62e5c2288bf5199af25038a763f8f5d809942aff3a4008b6e7b4f5c699224e716ac7638080ed6c96ff741d396ca2503dea0632aa27a9ad8ce5ba534997aceb630e9e477f7f041693bea88127f19b96f9ec2f4920eab2d13574432358048bfa3f72eaaa31acf07170c2ef90ceab"
+  }
+ ]
+}
