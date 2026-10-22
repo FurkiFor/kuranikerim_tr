@@ -70,6 +70,7 @@
 | 28 | Kalbin şifa mı arıyor? | — | İsra 82: "Kuran'dan inananlara rahmet ve şifa olan şeyler indiriyoruz" | v067; arama: şifa ayetleri ~9,5 B/ay; hastalık şifası vaadi yok |
 | 29 | Yapayalnız kalmaktan mı korkuyorsun? | — | Enbiya 89: "Rabbim! Beni tek başıma bırakma" | v076; açık adlı peygamber duası (Hz. Zekeriya), köprü girişte; arama: peygamber duaları ~5,2 B/ay |
 | 30 | Bazen derdini kimseye anlatamazsın (kart `ust`, deney 9) | — | Yusuf 86: "Ben üzüntü ve tasamı yalnız Allah'a açarım" | v052; gözlem cümlesi, 5. video |
+| 28 | Aklına kötü düşünceler gelince ne dersin? | — | Nas 1-6: "…insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden … Allah'a sığınırım" | v098; deney 8, 23:30 (gece yalnız kapanışta); arama: nas suresi ~9.977/ay |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

@@ -190,3 +190,44 @@ Yeni günlük düzen (22 Ekim'den):
 | 20:30 | kısa sure anlamı (deney 8) | aynı | aynı |
 | 23:30 | tilavet kartı | tekrar paylaşım | tilavet kartı |
 YouTube günde 4, TikTok 5 (+24 Ekim'e kadar birikmiş 12:00/21:00), Instagram 5. ElevenLabs kullanımı günde 2 → 3 anlatımlı.
+
+
+## 22 Ekim 2026 07:30 — platforma göre format kararı (Furkan: "istatistiklere bak, yapıları ele, platforma göre içerik üret")
+Kaynak: Kervly `get_youtube_insights` (7 gün) + `get_youtube_videos` (40), 22 Ekim 07:18 · Zernio stats 22 Ekim 07:18 (TikTok 39 gönderi; Instagram 16 gönderi — 20–21 Ekim trial reel'leri Zernio'da henüz yok, **veri yok**). Saatler yayından bu yana.
+
+**YouTube** (YouTube Studio dil alanı: kartlar `ar`, Türkçe sesliler `tr` olarak sınıflanmış)
+| Format | Video | İzlenme | Medyan |
+|---|---|---|---|
+| Tilavet kartı (Arapça ses) | v046 66, v053 97, v048 39, v049 37, v055 67, v058 154 (1 günü dolan 6) · v051 18 (18 sa), v054 98 (13 sa), v083 4 (8 sa) | 4–154 | **66** (1 günü dolan 6) |
+| Türkçe sesli (tilavetli anlatımlı + kısa sure anlamı) | v024 1.776, v025 1.258, v062 1.639, v065 1.671 (1 günü dolan 4) · v061 1.002 (21 sa), v097 868 (11 sa) | 868–1.776 | **1.655** (1 günü dolan 4) |
+
+**TikTok** (izlenme · 2. sn · ort. izleme)
+| Format | Video |
+|---|---|
+| Kısa sure anlamı (somut an sorusu + sure adı) | v024 906 · %61 · 11,6 sn; v025 397 · %54 · 18,1 sn (12 takip); v097 161 · %51 · 9,4 sn (~15 sa, kısmi tilavet) |
+| Tilavetli anlatımlı (hâl/teselli sorusu) | v062 169 · %50 · 8,1; v061 167 · %36 · 7,4; v065 155 · %40 · 6,0 |
+| Tekrar paylaşım (eski anlatımlı, yeni açılış) | v015 192 · %50; v017 177 · %48; v016 148 · %42; v018 136 · %36; v014 133 · %30 |
+| Tilavet kartı (21 Ekim'den TikTok'a gitmiyor) | v055 194 · %32; v046 168 · %27; v058 159 · %34; v048 156 · %27; v053 136 · %21; v049 130 · %39 |
+39 gönderiden 134–200 bandını kıran yalnız 2 video var, ikisi de kısa sure anlamı. Takipçi 1.660 → 1.678 (18 → 22 Ekim).
+
+**Instagram**: trial kart 1.413–2.003 (19 Ekim, 3 video); normal reel 0–8. 20–21 Ekim'in 11 trial gönderisi Zernio verisinde yok → kart/anlatımlı trial karşılaştırması 26 Ekim'e kalır. Takipçi 9 → 20.
+
+Kararlar:
+1. **YouTube'da tilavet kartı bitti.** 21 Ekim kuralı ("1 günü dolan 5 kart <100 ise kart biter") tetiklendi: 6 kartın 5'i <100, medyan 66; Türkçe sesliler medyan 1.655 (~25 kat). Sebep büyük olasılıkla YouTube'un Arapça sesli kartı `ar` diline sınıflaması (Studio verisi), içerik değil. YouTube artık günde **4 Türkçe sesli** video alır; 13:00'te YouTube gönderisi yok. Kart yalnız Instagram'a gider.
+2. **23:30 = ikinci kısa sure anlamı (YouTube + TikTok).** Kısa sure anlamı TikTok'ta bandı kıran tek format (3'te 2), YouTube'da Türkçe sesli medyanında. 23:30'daki YouTube kartı ve TikTok tekrar paylaşımı bunun yerine geçer; gece hitabı kapanışta olur. Deney 8 böylece günde 2 videoyla ilerler (5 video 23 Ekim akşamı dolar; değerlendirme 25 Ekim). İlk örnek: v098 Nas Suresi (bugün 23:30, bu oturumda üretildi).
+3. Kısa sure anlamında `seo.ilk_satir` hook sorusuyla başlar (v024/v025 gibi: "Aklına kötü düşünceler gelince ne dersin? Nas Suresi anlamı…"); v097'de ilk satır SEO cümlesiydi. Tek fark değil, ölçüt değil; 5 videoda bakılır.
+4. Instagram değişmedi: 13:00, 18:00, 23:30 trial kart; 10:00 ve 20:30 Türkçe sesli trial. 26 Ekim'de trial kart / trial anlatımlı karşılaştırması (Zernio verisi gelmezse Furkan'dan uygulama ekranı istenir).
+5. TikTok 13:00 tekrar paylaşımı kalır (yeni açılışlı tekrarlar 133–192, yeni anlatımlılarla aynı bant).
+6. ElevenLabs: günde 3 → 4 sesli video (v098: 5 parça ≈ 558 kredi). Kredi biterse 23:30'da karta dönülmez: YouTube boş kalır, TikTok tekrar paylaşım alır.
+
+Kısa sure anlamı adayları (kullanılmamış): Kureyş (rızık, güven), Kevser (az şeyin olduğunu düşünmek; v038 eski motor, baştan), Nasr, Kafirun, Fil, Maun, Tekasür, Karia, Kadr, Adiyat, Tin, Humeze. Kullanıldı: İhlas v024, Asr v025, Felak v097, Nas v098. Uzun sure, Ayetel Kürsi, Leheb yok; Duha, İnşirah, Zilzal'ın ayetleri daha önce kullanıldı (tekrar yok).
+
+Yeni günlük düzen (22 Ekim akşamından):
+| Slot | YouTube | TikTok | Instagram (trial) |
+|---|---|---|---|
+| 10:00 | tilavetli anlatımlı (teselli) | aynı | aynı |
+| 13:00 | — | tekrar paylaşım | tilavet kartı |
+| 18:00 | tilavetli anlatımlı | aynı | açık adlı dua kartı |
+| 20:30 | kısa sure anlamı | aynı | aynı |
+| 23:30 | kısa sure anlamı (gece kapanışlı) | aynı | tilavet kartı |
+YouTube 4, TikTok 5 (4 yeni + 1 tekrar), Instagram 5. Değerlendirme: deney 8 25 Ekim, Instagram trial 26 Ekim, slotlar 1 Kasım.
