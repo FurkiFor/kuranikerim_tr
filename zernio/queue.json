@@ -543,5 +543,21 @@
   "not": "tilavetli anlatımlı — Hz. İbrahim kıssa köprüsü (Enbiya 69); IG 18:00 = v054 dua kartı",
   "zernio_id": "6adad6053ba9cbd8295b384c",
   "status": "scheduled"
+ },
+ {
+  "id": "v049",
+  "at": "2026-10-23T20:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG 20:30 tilavet kartı, normal Reel (23 Ekim kararı) — 20 Ekim trial olarak gönderilip IG'de hiç yayınlanmamıştı; deney 9 'Bazen hiçbir şey kalbini huzura kavuşturmuyor' (Ra'd 28)"
+ },
+ {
+  "id": "v083",
+  "at": "2026-10-23T23:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG 23:30 tilavet kartı, normal Reel — 21 Ekim trial yayınlanmamıştı; deney 9 'Bazen yaptığın iyilikler karşılıksız kalıyor gibi gelir' (Nahl 128); gece hitabı yok"
  }
 ]
