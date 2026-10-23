@@ -570,7 +570,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "kısa sure anlamı (deney 8, 20:30) — Kureyş, somut an sorusu + sure adı, kısmi tilavet (3, 4); Türkçe sesli IG'ye gitmez"
+  "not": "kısa sure anlamı (deney 8, 20:30) — Kureyş, somut an sorusu + sure adı, kısmi tilavet (3, 4); Türkçe sesli IG'ye gitmez",
+  "zernio_id": "6adb5894b361b67a8f763a4f",
+  "status": "scheduled"
  },
  {
   "id": "v100",
@@ -578,6 +580,8 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "kısa sure anlamı (deney 8, 23:30) — Fil, somut an sorusu + sure adı, kısmi tilavet (1, 2), gece yalnız kapanışta"
+  "not": "kısa sure anlamı (deney 8, 23:30) — Fil, somut an sorusu + sure adı, kısmi tilavet (1, 2), gece yalnız kapanışta",
+  "zernio_id": "6adb5895b361b67a8f763a55",
+  "status": "scheduled"
  }
 ]
