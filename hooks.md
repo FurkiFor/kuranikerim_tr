@@ -72,6 +72,8 @@
 | 30 | Bazen derdini kimseye anlatamazsın (kart `ust`, deney 9) | — | Yusuf 86: "Ben üzüntü ve tasamı yalnız Allah'a açarım" | v052; gözlem cümlesi, 5. video |
 | 28 | Aklına kötü düşünceler gelince ne dersin? | — | Nas 1-6: "…insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden … Allah'a sığınırım" | v098; deney 8, 23:30 (gece yalnız kapanışta); arama: nas suresi ~9.977/ay |
 | 31 | Hiçbir şeyin yok sanınca ne dersin? | — | Kevser 1-3: "Doğrusu sana pek çok nimet vermişizdir" | v038; deney 8, 22 Ekim 20:30; Peygambere hitap girişte söylenir; arama: kevser suresi ~18,8 B/ay |
+| 32 | Aç kalırım diye korkunca ne dersin? | — | Kureyş 3-4: "kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in Rabbine…" | v099; deney 8, 23 Ekim 20:30; vidIQ: rızık + somut an outlier'ları (187x, 85x); rızık vaadi yok |
+| 33 | Sana karşı bir düzen kurulunca ne dersin? | — | Fil 1-2: "Onların düzenlerini boşa çıkarmadı mı" | v100; deney 8, 23:30 (gece yalnız kapanışta); arama: fil suresi ~15,4 B/ay (+%237) |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

@@ -1,0 +1,51 @@
+{
+ "id": "v099",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "ClYjNQepcSV3Qrxgi2T0",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Aç kalırım diye korkunca ne dersin?",
+   "prompt": "[deep voice] [slowly] Aç kalırım diye korkunca ne dersin?",
+   "generation_id": "qKX7iWmijEgF03A1KCcm",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/VohByCCXc83yK7ej6Fru/qKX7iWmijEgF03A1KCcm/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T114724Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3f9f36bd33277dcb32c44ae952751e91d1685cf647cab64b5cd43a3968e26d5d9eeb136e9c4e0a22d258443a967b75bca9909349ac777f62095e5cd42af990667fe126c8f603d5121c1ba6d89e9a8a5b3dbdc76401ceaeb3084d6fe0d97e3aba5c97fb088b9cf93dab6d88e00ed03103acf0f7a5cccde7c14fde3448c06a9ca5fee4fa42e4c763c3500e925e5217844089b8bb8e3f34090cb530463443308ba9cf60ac575663ce77694a0fc7e7fbe90bb4e211ffa59d23d3dcc0aec602b64ade6e342aa9fb8dc8aefa0cf0f16fc094f4bbb21e999cf84787902244d4f856d0be617dcead05ea801fcc470d70b53f2d06bde6c9cd81d1407a4cdf42644a010f3d"
+  },
+  {
+   "kind": "giris",
+   "text": "Cevap, Kureyş Suresi'nde. Dört kısa ayet, bir kabileye kimin onları doyurduğunu hatırlatıyor.",
+   "prompt": "[deep voice] [slowly] Cevap, Kureyş Suresi'nde. Dört kısa ayet, bir kabileye kimin onları doyurduğunu hatırlatıyor.",
+   "generation_id": "VmNBwUjo1JjiPiD9n4GQ",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/rL0wcVSkVzlDHCD3Wz5D/VmNBwUjo1JjiPiD9n4GQ/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T114726Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=352e9fd7a6beb83f78be0c73927ce1c62f7a0ab25d3b8e0c9609470bbda081007e9a0afd260054f5eb1399ed5eccc3ed2f61904d26950509ca14115f8217f79e85d76ca834cef35a2883611f477c44f2659463c9df608a0dcad9024d1d928d2417e6c4607823ca6d74aa02ec588ce345b71acbd31a81605ef03fa4089232fde99e06204033d0213903e7c90ad1dcb349ec24f8fb12bfb1ddf87cbf0d659c5a22f44ce96a89ee4c506811063fa2e79617ed03eed4b7cd84befe8a678bb1576028e4b92d9d56a23c5ad9c7cd52259c84c5d87927d9af1f31412ca61c9c456275437e3ca20d05a5d05c5ef9a8c15d9682dbdbb1e617732d357367ad80ff6b58585f"
+  },
+  {
+   "kind": "meal",
+   "text": "Kureyş kabilesinin yaz ve kış yolculuklarında uzlaşması ve anlaşması sağlanmıştır.",
+   "prompt": "[softly] [slowly] Kureyş kabilesinin yaz ve kış yolculuklarında uzlaşması ve anlaşması sağlanmıştır.",
+   "generation_id": "q5QkZn54sfp4vXz4Rl0a",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/XOfVHgRRo0SLt6nnvFu2/q5QkZn54sfp4vXz4Rl0a/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T114725Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=ade97aea8c15b014c6d36c5753ba03afb01b66c9b2d1e2069e076ebc7c04b28d164e2d5ca21abac190c1e6af6d6ca200e8f15b95a0e6347f794294998071d8c51510c90bfc2102aa834f248ec45c78ba68c32010cc13aeb9bf648f932a05d86af0f524b9dcb58f4e581cfb39c5faa426e0870dbf08b493ab8d2b890a604a83b5ca6a30c946297df2fee49398e3d1c782796fa79623295a30825281268b70b7f2600c534086c5ab2d3d0127372cd3ecd1c44290e97bdb11b2894d4a3cae23509258b79b061c634a734ce6c97acf56c414f4e0eb01bcb789d7ebaeaef88a421836a97af7713a1f78430609121e6ee0b4bc051ce67681c30d172199b876d9fb89a0"
+  },
+  {
+   "kind": "meal",
+   "text": "Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in (Kabe'nin) Rabbine kulluk etsinler.",
+   "prompt": "[softly] [slowly] Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in, Kabe'nin, Rabbine kulluk etsinler.",
+   "generation_id": "9S3IAy4lFfd8kZ864bCr",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/GjfkfoGE90mpLRCv0JPf/9S3IAy4lFfd8kZ864bCr/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T114727Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=88ba1e58be933fa7ccc7882d8ad856e27e056edf249f850771bbbbebf6db47b2b6982f1ef9a5bb894939c45c615ffe1ad3088f50eafbaf15313f49fdb355f9ebdd06da95faa7fa15cadbef88b9cb05f3eb46e22ccf9642160919f024d4d493f8cf3c85ec341ada451d1616963144eecdebdc537d81080d1d995c0e01d937de8b075b55fb0502271239e330511e0cf8a8fa14120bb7584ef6c1a8033a7294b26cb627ca284bc7185b44d50b55d8250517f308145023c92c51f37322ed224dbe7390a58c08874527d408e65423bfb1307fb28f917633a2ae02f4a6915cedb62499f984ea5b1873f6ef2feacc689a1414f5128bde9642b63533199055a163516d72"
+  },
+  {
+   "kind": "yorum",
+   "text": "Sen de korktuğunda hatırla: açken doyuran, korkarken güven veren Rabbindir.",
+   "prompt": "[deep voice] [slowly] Sen de korktuğunda hatırla: açken doyuran, korkarken güven veren Rabbindir.",
+   "generation_id": "b7mu5AeHKshriUPts3co",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/pSIr2d1tOdR7j3Rm6Ux1/b7mu5AeHKshriUPts3co/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T114727Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=71eebbf5c4d319fd9cdf31165e8fb45e62854568d34480449ebc44e0e52775c5bd76d7b0a593c2d15ab96f4c4d05b73a9109e01561235a85d86895c09cff03f7f0f3dd98f93a296f212cb4ec3fdfce7546f57f02ca58714a6bc82b545e25be8161dc2129fab063287b6e9f2b409fa21cc0925977d34dba3253d0c94aa6c7c8e37ae27809eab181ec4d94d7240510621b0e64e5e9c820a0e4cb3cef75913448c0c055e279b95fec530a28772beaa8ba2a0749cc1ddbb1939f1510ab9fc3c4299ce61e395834569ac7d0f1c2f8ad2cdb416eaee63779001c8f29900dc090715484cf633785bbd11fea8b14adc70c43f39a639c0bdfaa8b56ea066d1de1f76864ad"
+  },
+  {
+   "kind": "cta",
+   "text": "Aç kalırım diye korktuğunda, doyuran ve güven verenin kim olduğunu hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Aç kalırım diye korktuğunda, doyuran ve güven verenin kim olduğunu hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "nJesg6LNlpJjXO6yUE5y",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/YBqvpoygksc9ajeCA5PB/nJesg6LNlpJjXO6yUE5y/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T114729Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2441b0d9ba80c98cbb8df904a66d946b9bff1acaec1e9782439c9b9df4c33acff7d486e9f42894872bfc818aaca51c60a1384add285e526c9f26e5c39ef75a53de7730502df130172e8c88bed8279e5bce9de1eb52520724014cb8ea6f1e3a863ceb49feac884361d41e95c4092e4e7bcf0dd2815d01f89e2af4e2fbb3a0ccd6ffd7c36e9ecf8b0d5a5ec7860cafcf495592ac78a68966bd2ab2156809a96e951554b3fb85b37cc436f38d677392d4e62df068c98ca2944b0cce1b1b676f17797ac13e8b653d0382db81b6dbe6392829af95db3104393352a0edede92e4fce75fd24bb551d12e541f3122f528f8f0ad0b3859305e897c420a5fd9f49006382a5"
+  }
+ ]
+}

@@ -3560,5 +3560,129 @@
    "instagram": "gönderilmez — 23:30 IG slotu tilavet kartı"
   },
   "not": "22 Ekim platform kararı (strateji.md 22 Ekim): YouTube'da kart bitti, 23:30 Türkçe sesli kısa sure anlamı. Tilavet yalnız 4-5. ayet (vesvese ayetleri, 74 harf); Diyanet Nas mealini tek mealde birleştirmiş, meal bir kez 6. ayette okunur. Hook: somut an sorusu + açık sure adı (v024/v097 kalıbı); 'kötü düşünce' = mealdeki vesvese. ilk_satir bu kez TikTok'ta v024/v025 gibi hook sorusuyla başlar. vidIQ TR 22 Ekim: 'nas suresi' ~9.977/ay, 'felak nas' ~7.207, 'nas suresi tefsiri' ~4.068."
+ },
+ {
+  "id": "v099",
+  "tema": "Kureyş Suresi Anlamı",
+  "sure": 106,
+  "ayet": [
+   1,
+   4
+  ],
+  "hook": "Aç kalırım diye korkunca ne dersin?",
+  "kapanis": "Aç kalırım diye korktuğunda, doyuran ve güven verenin kim olduğunu hatırla",
+  "bg": "tohum",
+  "sahne": "tohum",
+  "aciklama": "Kureyş Suresi dört ayette Kureyş kabilesine yaz ve kış yolculuklarındaki düzeni hatırlatır; onları açken doyuran ve korku içindeyken güven veren Kâbe'nin Rabbine kulluk etmelerini söyler. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "kureyş suresi",
+   "rızık",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    3,
+    4
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Kureyş Suresi'nde. Dört kısa ayet, bir kabileye kimin onları doyurduğunu hatırlatıyor.",
+   "yorum": "Sen de korktuğunda hatırla: açken doyuran, korkarken güven veren Rabbindir."
+  },
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "vurgu",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Aç kalırım diye korkunca ne dersin? Kureyş Suresi anlamı",
+   "ilk_satir": "Aç kalırım diye korkunca ne dersin? Kureyş Suresi anlamı ve meali (1-4)",
+   "aciklama": "Kureyş Suresi'nde Allah, Kureyş kabilesinin yaz ve kış yolculuklarındaki düzenini hatırlatır; onları açken doyuran ve korku içindeyken güven veren Kâbe'nin Rabbine kulluk etmelerini söyler. Diyanet meali ile Kureyş Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "kureyş suresi",
+    "kureyş suresi anlamı",
+    "kureyş suresi meali",
+    "kısa sureler",
+    "kuran tilaveti"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "20:30 kısa sure anlamı",
+   "tiktok": "20:30",
+   "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 23 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 3-4 (37+55=92 harf); Diyanet 1-2 ve 3-4'ü birleştirmiş, render meali grup sonunda bir kez okur. Hook: mealdeki 'açken doyuran ve korku içindeyken güven veren' ile örtüşen somut an; rızık vaadi yok. vidIQ 23 Ekim: IG rızık outlier'ı 2,5 M (187,8x, somut an: 05:30 dükkân kapısı) + TikTok karga/ceviz rızık 1,6 M (85x). vidIQ TR: 'kureyş suresi' ~3.464/ay (rekabet 46,7), 'kısa sureler' ~4.256, 'kuran tilaveti' ~11.379 (+%231)."
+ },
+ {
+  "id": "v100",
+  "tema": "Fil Suresi Anlamı",
+  "sure": 105,
+  "ayet": [
+   1,
+   5
+  ],
+  "hook": "Sana karşı bir düzen kurulunca ne dersin?",
+  "kapanis": "Bu gece uyumadan önce hatırla: düzenleri boşa çıkaran Rabbindir",
+  "bg": "deniz",
+  "sahne": "deniz",
+  "aciklama": "Fil Suresi beş ayette Rabbin Fil sahiplerine ne ettiğini anlatır: onların düzenlerini boşa çıkardı, üzerlerine sert taşlar atan sürülerle kuşlar gönderdi ve onları yenilmiş ekin gibi yaptı. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "fil suresi",
+   "tilavet",
+   "kısa sureler"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    1,
+    2
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Fil Suresi'nde. Büyük bir ordu, büyük bir düzen; beş kısa ayet.",
+   "yorum": "Düzeni kuran onlardı, boşa çıkaran Rabbin oldu. Sen de güvenini O'na bağla."
+  },
+  "kurgu": {
+   "kamera": [
+    "it",
+    "kay",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Sana karşı bir düzen kurulunca ne dersin? Fil Suresi anlamı",
+   "ilk_satir": "Sana karşı bir düzen kurulunca ne dersin? Fil Suresi anlamı ve meali (1-5)",
+   "aciklama": "Fil Suresi'nde Allah, Fil sahiplerine ne ettiğini hatırlatır: onların düzenlerini boşa çıkardı, üzerlerine sert taşlar atan sürülerle kuşlar gönderdi ve sonunda onları yenilmiş ekin gibi yaptı. Diyanet meali ile Fil Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "fil suresi",
+    "fil suresi anlamı",
+    "fil suresi meali",
+    "kısa sureler",
+    "kuran tilaveti"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "23:30 kısa sure anlamı (gece kapanışlı)",
+   "tiktok": "23:30",
+   "instagram": "gönderilmez — 23:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 23 Ekim 23:30 — kısa sure anlamı (deney 8). Tilavet 1-2 (54+40=94 harf); Diyanet 3-4'ü birleştirmiş. Hook: mealdeki 'düzenlerini boşa çıkarmadı mı' ile örtüşen somut an (kötülük görmek, en iyi dert türü); gece yalnız kapanışta; mealin söylemediği koruma vaadi yok. vidIQ TR 23 Ekim: 'fil suresi' ~15.382/ay (30 günde +%237, rekabet 53,5)."
  }
 ]
