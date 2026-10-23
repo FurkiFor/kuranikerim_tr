@@ -500,7 +500,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 10:00 tilavet kartı (23 Ekim kararı: IG'ye yalnız kart, normal reel) — 20 Ekim trial olarak gönderilip IG'de hiç yayınlanmamıştı (IG profilinde yok); deney 9 'Bazen…'"
+  "not": "IG 10:00 tilavet kartı (23 Ekim kararı: IG'ye yalnız kart, normal reel) — 20 Ekim trial olarak gönderilip IG'de hiç yayınlanmamıştı (IG profilinde yok); deney 9 'Bazen…'",
+  "zernio_id": "6adad33676559621cd301470",
+  "status": "scheduled"
  },
  {
   "id": "v051",
@@ -508,7 +510,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 13:00 tilavet kartı, normal reel — 21 Ekim trial yayınlanmamıştı; deney 9 'Bazen hiçbir şey senin elinde değil' (Mü'min 44)"
+  "not": "IG 13:00 tilavet kartı, normal reel — 21 Ekim trial yayınlanmamıştı; deney 9 'Bazen hiçbir şey senin elinde değil' (Mü'min 44)",
+  "zernio_id": "6adad33600bc86429b5dbdb9",
+  "status": "scheduled"
  },
  {
   "id": "v054",
@@ -516,6 +520,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 18:00 açık adlı dua kartı, normal reel — 21 Ekim trial yayınlanmamıştı; deney 7 'Rabbim! Hz. Musa'nın duası' (Taha 25-28)"
+  "not": "IG 18:00 açık adlı dua kartı, normal reel — 21 Ekim trial yayınlanmamıştı; deney 7 'Rabbim! Hz. Musa'nın duası' (Taha 25-28)",
+  "zernio_id": "6adad33600bc86429b5dbdbd",
+  "status": "scheduled"
  }
 ]
