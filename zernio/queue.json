@@ -550,7 +550,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 20:30 tilavet kartı, normal Reel (23 Ekim kararı) — 20 Ekim trial olarak gönderilip IG'de hiç yayınlanmamıştı; deney 9 'Bazen hiçbir şey kalbini huzura kavuşturmuyor' (Ra'd 28)"
+  "not": "IG 20:30 tilavet kartı, normal Reel (23 Ekim kararı) — 20 Ekim trial olarak gönderilip IG'de hiç yayınlanmamıştı; deney 9 'Bazen hiçbir şey kalbini huzura kavuşturmuyor' (Ra'd 28)",
+  "zernio_id": "6adb4a31816a5e215c6152ab",
+  "status": "scheduled"
  },
  {
   "id": "v083",
@@ -558,6 +560,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 23:30 tilavet kartı, normal Reel — 21 Ekim trial yayınlanmamıştı; deney 9 'Bazen yaptığın iyilikler karşılıksız kalıyor gibi gelir' (Nahl 128); gece hitabı yok"
+  "not": "IG 23:30 tilavet kartı, normal Reel — 21 Ekim trial yayınlanmamıştı; deney 9 'Bazen yaptığın iyilikler karşılıksız kalıyor gibi gelir' (Nahl 128); gece hitabı yok",
+  "zernio_id": "6adb4a32816a5e215c6152bb",
+  "status": "scheduled"
  }
 ]
