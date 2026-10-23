@@ -638,12 +638,20 @@
    "youtube": {
     "tarih": "2026-10-23T10:00:00+04:00",
     "kervly_id": "p_wn-zX1NEr8kq"
+   },
+   "tiktok": {
+    "tarih": "2026-10-23T10:00:00+04:00",
+    "zernio_id": "6adad6053ba9cbd8295b3848"
    }
   },
   "v070": {
    "youtube": {
     "tarih": "2026-10-23T18:00:00+04:00",
     "kervly_id": "p_bIBxyg0PJE3k"
+   },
+   "tiktok": {
+    "tarih": "2026-10-23T18:00:00+04:00",
+    "zernio_id": "6adad6053ba9cbd8295b384c"
    }
   }
  }

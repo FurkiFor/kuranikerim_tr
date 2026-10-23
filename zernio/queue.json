@@ -530,7 +530,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tilavetli anlatımlı — teselli/tevekkül (Ahzab 3); 23 Ekim kararı: Türkçe sesli IG'ye gitmez"
+  "not": "tilavetli anlatımlı — teselli/tevekkül (Ahzab 3); 23 Ekim kararı: Türkçe sesli IG'ye gitmez",
+  "zernio_id": "6adad6053ba9cbd8295b3848",
+  "status": "scheduled"
  },
  {
   "id": "v070",
@@ -538,6 +540,8 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tilavetli anlatımlı — Hz. İbrahim kıssa köprüsü (Enbiya 69); IG 18:00 = v054 dua kartı"
+  "not": "tilavetli anlatımlı — Hz. İbrahim kıssa köprüsü (Enbiya 69); IG 18:00 = v054 dua kartı",
+  "zernio_id": "6adad6053ba9cbd8295b384c",
+  "status": "scheduled"
  }
 ]
