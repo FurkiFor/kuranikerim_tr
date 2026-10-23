@@ -523,5 +523,21 @@
   "not": "IG 18:00 açık adlı dua kartı, normal reel — 21 Ekim trial yayınlanmamıştı; deney 7 'Rabbim! Hz. Musa'nın duası' (Taha 25-28)",
   "zernio_id": "6adad33600bc86429b5dbdbd",
   "status": "scheduled"
+ },
+ {
+  "id": "v064",
+  "at": "2026-10-23T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tilavetli anlatımlı — teselli/tevekkül (Ahzab 3); 23 Ekim kararı: Türkçe sesli IG'ye gitmez"
+ },
+ {
+  "id": "v070",
+  "at": "2026-10-23T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tilavetli anlatımlı — Hz. İbrahim kıssa köprüsü (Enbiya 69); IG 18:00 = v054 dua kartı"
  }
 ]
