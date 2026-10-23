@@ -74,10 +74,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      # 23 Ekim: apt-get update 25+ dk takıldı → zaman aşımı + yeniden deneme; update başarısızsa yine kurmayı dene
       - name: System packages
+        timeout-minutes: 12
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libharfbuzz0b libgl1 libegl1 libfontconfig1 >/dev/null
+          APT="-o Acquire::Retries=3 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20"
+          timeout 300 sudo apt-get $APT update -qq || echo "::warning::apt-get update zaman aşımı/hata, mevcut listelerle devam"
+          for i in 1 2 3; do
+            timeout 300 sudo apt-get $APT install -y -qq --no-install-recommends ffmpeg libraqm0 libfribidi0 libharfbuzz0b libgl1 libegl1 libfontconfig1 >/dev/null && break
+            echo "::warning::apt-get install deneme $i başarısız"; sleep 10
+          done
+          command -v ffmpeg
 
       # eleven seçili ama anahtar yoksa günlük akış durmasın: EMA'ya düş ve uyar
       - name: Resolve voice
