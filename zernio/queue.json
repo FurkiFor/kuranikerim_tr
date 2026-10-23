@@ -563,5 +563,21 @@
   "not": "IG 23:30 tilavet kartı, normal Reel — 21 Ekim trial yayınlanmamıştı; deney 9 'Bazen yaptığın iyilikler karşılıksız kalıyor gibi gelir' (Nahl 128); gece hitabı yok",
   "zernio_id": "6adb4a32816a5e215c6152bb",
   "status": "scheduled"
+ },
+ {
+  "id": "v099",
+  "at": "2026-10-23T20:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "kısa sure anlamı (deney 8, 20:30) — Kureyş, somut an sorusu + sure adı, kısmi tilavet (3, 4); Türkçe sesli IG'ye gitmez"
+ },
+ {
+  "id": "v100",
+  "at": "2026-10-23T23:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "kısa sure anlamı (deney 8, 23:30) — Fil, somut an sorusu + sure adı, kısmi tilavet (1, 2), gece yalnız kapanışta"
  }
 ]
