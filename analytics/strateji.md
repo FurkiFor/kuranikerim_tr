@@ -236,3 +236,22 @@ YouTube 4, TikTok 5 (4 yeni + 1 tekrar), Instagram 5. Değerlendirme: deney 8 25
 ## 22 Ekim 2026 — Instagram Trial Reels kapandı (Zernio yayın hatası)
 - Zernio bildirimi (v062, 20 Ekim 10:00): "Trial Reels require an Instagram account with 1,000+ followers. Publish as a regular Reel instead." `analytics/zernio.json`'da 20 Ekim 10:00'dan sonraki trial gönderilerin hiçbiri yok (v062, v049, v055, v065, v058, v061, v051, v054, v097, v083, v067, v052); yayınlanan son IG gönderisi v016 (20 Ekim 21:00, normal reel). 19 Ekim'deki 3 trial (v046, v048, v053: 1.413–2.003 izlenme) yayınlanmıştı → şart 20 Ekim civarı uygulanmaya başladı.
 - Karar: Instagram gönderileri 1.000 takipçiye kadar **normal reel** (zernio.py varsayılanı `ig_trial` false). Bugünkü v067 ve v052 IG'ye normal reel olarak 15:00 ve 16:00'da yeniden, v090 18:00 normal reel olarak planlandı. Normal reel daha önce 0–8 izlenme aldı (20 takipçi) → IG için takipçi kazanımı ayrı iş: 26 Ekim ölçümünde IG normal reel izlenmesine bak; karar gerekirse Furkan'a sor (ör. TikTok/YouTube'dan IG'ye yönlendirme, profil).
+
+
+## 23 Ekim 2026 — Instagram yalnız kart
+Kaynak: herkese açık Reels verisi (vidIQ `vidiq_ig_profile_reels`, 23 Ekim 04:00 ve 07:20) + Zernio stats 23 Ekim 07:18.
+
+| Instagram formatı (normal Reel) | Video | İzlenme |
+|---|---|---|
+| Tilavet / dua kartı | v052 Yusuf 86 1.583 · v087 Furkan 63 1.507 · v090 Kasas 16 1.426 (22 Ekim) — 19 Ekim kartları 1.417–2.005 | **1.426–2.005** |
+| Türkçe sesli anlatımlı / kısa sure anlamı | v067 İsra 82 4 · v038 Kevser 1 · v016 6 · v017 2 · v015 3 · v025 7 | **1–7** |
+
+Kararlar:
+1. **Trial Reels kapalı.** Instagram Trial Reels'i yalnız 1.000+ takipçili hesaplara açıyor; 20–21 Ekim trial gönderilerinin hiçbiri yayınlanmadı. queue.json'a `"ig_trial": true` yazılmaz; 1.000 takipçiye kadar her IG gönderisi normal Reel.
+2. **Instagram'a yalnız tilavet kartı / dua kartı.** Sorun trial değil format: aynı hesapta, aynı gün, normal Reel olarak kartlar ~1.500, anlatımlılar 1–7 (6+ videoda tutarlı). Türkçe sesli anlatımlı ve kısa sure anlamı Instagram'a gitmez; 19 Ekim'deki "trial çalışıyor" yorumu da kart etkisiydi (o gün trial olanların hepsi karttı).
+3. Yeni düzen (hepsi kart, normal Reel): 10:00 tilavet kartı · 13:00 tilavet kartı · 18:00 açık adlı dua kartı · 20:30 tilavet kartı · 23:30 tilavet kartı. SABAH 10:00/13:00/18:00, AKŞAM 20:30/23:30 kartlarını planlar. Zernio'da bütün Türkçe sesli işler `["tiktok"]`.
+4. Önce yayınlanamamış trial kartları (v055, v058, v051, v054, v083, v049 — IG profilinde yok) normal Reel olarak kullanılır; 23 Ekim SABAH: v058 10:00, v051 13:00, v054 18:00. Sonra planlanmamış kartlar (v047, v050, v056, v057, v059, v060, v082, v084–v086, v088, v089, v091–v096).
+5. YouTube ve TikTok değişmedi (22 Ekim düzeni): kart gitmez.
+6. Ölçüm: 26 Ekim'de IG kart izlenmesi + takip artışı (20 takipçi, 18 Ekim'den beri 9 → 20). Kartlar ~1.500'de takip getirmiyorsa (Zernio takip/video 0,0) profil/çağrı metni ayrıca ele alınır.
+
+Ek not — YouTube: 22 Ekim 18:00 (v076), 20:30 (v038), 23:30 (v098) Kervly'de "invalid_grant / Token has been expired or revoked" hatasıyla yayınlanmadı (Google uygulaması "Testing" modunda token 7 günde düşüyor). 23 Ekim SABAH Furkan'a yeniden bağlama bildirimi gitti; yeni gönderiler Kervly'ye planlanıyor, eski düşenler bağlantıdan sonra en fazla 2'şer retry.
