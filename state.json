@@ -705,6 +705,20 @@
     "tarih": "2026-10-24T18:00:00+04:00",
     "zernio_id": "6adc27a622e55297ad86cb8c"
    }
+  },
+  "v101": {
+   "youtube": {
+    "tarih": "2026-10-25T00:30:00+04:00",
+    "kervly_id": "p_vzCZHqxa9lEy",
+    "not": "20:30 yerine — Kervly günlük sınır (24 Ekim 5/5)"
+   }
+  },
+  "v102": {
+   "youtube": {
+    "tarih": "2026-10-26T00:30:00+04:00",
+    "kervly_id": "p_5x1IaUCr87cZ",
+    "not": "23:30 yerine — Kervly günlük sınır"
+   }
   }
  }
 }
