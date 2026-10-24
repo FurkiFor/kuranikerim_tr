@@ -1,0 +1,44 @@
+{
+ "id": "v101",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "iEloHXbVT7Hb3m4fdZNg",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Beklediğin yardım sonunda gelince ne dersin?",
+   "prompt": "[deep voice] [slowly] Beklediğin yardım sonunda gelince ne dersin?",
+   "generation_id": "iBF7uOaiTCr2i4dxIpvY",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/I0YBZvt1MbzfGFAW3g4T/iBF7uOaiTCr2i4dxIpvY/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261024%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261024T114841Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8cf08c43169bb0b2155389dd1e7bd5a91e8e81e850f6832511c219ed24374ba8685b2a7c7c041081e69d04f7ef30ffe1839e624f30bc5e09ee9826239856fea676b09dde681d4770111bc1e5e578119d5385cc8c3e637d1e5dcc02207cd187215e6c5f3bf11849c7f23a540e8e5a185eec965411b74e8ac070d017782e404b6399d3961aba2091ccaf91d76f59ca8ad9b2cf70105dde82d94646bbedfec9d049f415c2217e0f88c393a8f6880616a28015806d798e21992eebe0157c71dd005fe527aa42cc9974b96f4c30557963c938ae75694b0a89d3b56d14ff74f92073b6a22c0db6eb77e1245f152abfd9a4ef2d3e114b32f95b1946cf2b00b7ac66ea92"
+  },
+  {
+   "kind": "giris",
+   "text": "Cevap, Nasr Suresi'nde. Üç kısa ayet, bir yardım ve zafer gününü anlatıyor.",
+   "prompt": "[deep voice] [slowly] Cevap, Nasr Suresi'nde. Üç kısa ayet, bir yardım ve zafer gününü anlatıyor.",
+   "generation_id": "ZK98123oSELGONN4PCJH",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/jX4AXZGD4DXUY4ceWxIz/ZK98123oSELGONN4PCJH/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261024%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261024T114842Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2732d35ab1b9b6392a7b10c3c02d437edfd87ec64aa5e2c67ba2dec193efcced837f99f34fb72fdd7f05ae2d4a9fb37f4987c1ac1ccfc2ce2ab64834f83eb0ee68ad80c74df1adc8011babac9a36796517de1ddbd38a4fb86c6fcf65afd5bbab3406b6ccfaab215ff9c0b48ab9199b3ad24d6ba329e77d8c642d1989f6b28291d2f727cf905ade6996c7690689a2d82caca4595db4962927359573e981294e5bea353eedb2ea820d045589e64b38be19d6f1aa6cc6a8e2b0bb8868ebfbda6b4e3eaf59fddc2715e1555f61037fa624ccbf95a9b5d564c3617f92adabf6f12c429caa3621b528de55165b564eed6948186325bf45a19cdf7e3213c735a5af992e"
+  },
+  {
+   "kind": "meal",
+   "text": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir.",
+   "prompt": "[softly] [slowly] Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir.",
+   "generation_id": "GhjNYmEXhJJt0djeiFbM",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/LrwnIGd8DchSMfLuvlFm/GhjNYmEXhJJt0djeiFbM/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261024%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261024T114844Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b0c66a4bc2493866742c4c0cd582e7f2cd3d9e28571a3eb2f2387d8e4d19d2d67f10b8a0581dcd1bcfe5d4aabb0b1c9149ada662f6fb9cfbc8f9612f1d376b4124441ca37f18700555cb3ddc1dfac732471b31d34bcfb16162d68661b07f61da3fcd44fc3b26f8c61e228013c19aaa8536a08bc6568994eb97257ae117427f7edb27c09c4adc4864445960cbc2b2befa3f4a966f009ba3cbe8df5dc844f90f62850c6629200d4f486b9cc3db853f805c23bc01a5659f797150ce94f4ae059a4d84616c676a360b03aa3ce9450a96123bd9a45a3a02b13e22975c8dd1aaf9e824b650f1a86ffc194e5ce1f3b3ad1efafb0174d6676908d8005164de643c2b2cea"
+  },
+  {
+   "kind": "yorum",
+   "text": "Yardım gelince övünmek değil; Rabbini övmek ve bağışlanma dilemek. Sen de sevindiğin gün O'na dön.",
+   "prompt": "[deep voice] [slowly] Yardım gelince övünmek değil; Rabbini övmek ve bağışlanma dilemek. Sen de sevindiğin gün O'na dön.",
+   "generation_id": "Hs2HLJjRcJKbH1bWsoZM",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/jK2bzBwD50jDoHyp7rHU/Hs2HLJjRcJKbH1bWsoZM/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261024%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261024T114844Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b02e9d76bb665868daaa5592c60d44e49ffaf316634e4476a8961bdea29337892ed3dcd9701d3e37424ac0f5ccc0438204a9bf4c9b6135077f06c1d7dfcf06978820dd2279eec73e40edaf34605f80479c818b0714e1f2d6a5bdc2a07c59f14ceca1835f5389fb2831a73e5046be942563a93d968b489aad152840600aaa78bc46a3e2181975bc70615d48a57c54227a105db49e7099f40a624174cb59b148e528a84d842385a2eda82dc900922c0dd2f8e230bee47ef61b41fd76f0a5ee4a14a724b1a9e3b48eebf66ccf3c1be67d7c96b072e256b884004645d8b6b6fd0b01b34ea4871547929fd410ee9af0a941b0f5b71fc2a1e12579678214d8eb34fa4e"
+  },
+  {
+   "kind": "cta",
+   "text": "Sevindiğin gün de önce Rabbini an. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Sevindiğin gün de önce Rabbini an. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "0X4tqpf3hray1b8tJe24",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/GZCotzR8UqV8l4ADikkR/0X4tqpf3hray1b8tJe24/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261024%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261024T114844Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7bd59b4a7a4d7eb566aff0ebe120e69f32fe7af6e5fc2c973acc1ece5cbc9ade5a1eb7f097a96967f4e3a52afb31d9bd7dbea04660c959a3e9d11cf3432883a392ac173eb2e2a4c1cd4de0dde9c0577a8c38475f97365b63b5fffc7bb3da074ac0008f7f9cb95114835da1cae4f08d22ef9fa39a0602a8bec6e365447443ce2aad414641d04fbf8e83fe13ad79b20a624a966254854279d4594c8b09a4097354de3d209593fd17595b5bfce75bcc053e0dcbd3e775ef4fbc2b78322cd496b1a476897764db6461fbc2349367aaf49cc95abd8d1bcf0cedd623bc8de1d49cc0716a8e31ec9d7d681d51e1fef0b3c9e5b1f0663039fffd865886ffb8e3d91aeb51"
+  }
+ ]
+}
