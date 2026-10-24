@@ -640,7 +640,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "kısa sure anlamı (deney 8) — Nasr 'Beklediğin yardım sonunda gelince ne dersin?'; Türkçe sesli IG'ye gitmez"
+  "not": "kısa sure anlamı (deney 8) — Nasr 'Beklediğin yardım sonunda gelince ne dersin?'; Türkçe sesli IG'ye gitmez",
+  "zernio_id": "6adca13140b11727d2946701",
+  "status": "scheduled"
  },
  {
   "id": "v085",
@@ -648,7 +650,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 20:30 tilavet kartı, normal Reel — deney 9 'Bazen korktuğun şeyle yüz yüze gelmen gerekir' (Taha 46)"
+  "not": "IG 20:30 tilavet kartı, normal Reel — deney 9 'Bazen korktuğun şeyle yüz yüze gelmen gerekir' (Taha 46)",
+  "zernio_id": "6adca13102cc85e9c4df88cf",
+  "status": "scheduled"
  },
  {
   "id": "v102",
@@ -656,7 +660,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "kısa sure anlamı (deney 8) — Maun 'Biri senden küçük bir yardım isteyince ne yaparsın?', gece yalnız kapanışta"
+  "not": "kısa sure anlamı (deney 8) — Maun 'Biri senden küçük bir yardım isteyince ne yaparsın?', gece yalnız kapanışta",
+  "zernio_id": "6adca13102cc85e9c4df88d3",
+  "status": "scheduled"
  },
  {
   "id": "v082",
@@ -664,6 +670,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 23:30 tilavet kartı, normal Reel — deney 9 'Bazen günahların yüzünden umudunu kaybedersin' (Hicr 49); gece hitabı yok"
+  "not": "IG 23:30 tilavet kartı, normal Reel — deney 9 'Bazen günahların yüzünden umudunu kaybedersin' (Hicr 49); gece hitabı yok",
+  "zernio_id": "6adca13202cc85e9c4df88d7",
+  "status": "scheduled"
  }
 ]

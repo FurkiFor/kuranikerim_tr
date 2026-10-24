@@ -711,6 +711,10 @@
     "tarih": "2026-10-25T00:30:00+04:00",
     "kervly_id": "p_vzCZHqxa9lEy",
     "not": "20:30 yerine — Kervly günlük sınır (24 Ekim 5/5)"
+   },
+   "tiktok": {
+    "tarih": "2026-10-24T20:30:00+04:00",
+    "zernio_id": "6adca13140b11727d2946701"
    }
   },
   "v102": {
@@ -718,6 +722,22 @@
     "tarih": "2026-10-26T00:30:00+04:00",
     "kervly_id": "p_5x1IaUCr87cZ",
     "not": "23:30 yerine — Kervly günlük sınır"
+   },
+   "tiktok": {
+    "tarih": "2026-10-24T23:30:00+04:00",
+    "zernio_id": "6adca13102cc85e9c4df88d3"
+   }
+  },
+  "v085": {
+   "instagram": {
+    "tarih": "2026-10-24T20:30:00+04:00",
+    "zernio_id": "6adca13102cc85e9c4df88cf"
+   }
+  },
+  "v082": {
+   "instagram": {
+    "tarih": "2026-10-24T23:30:00+04:00",
+    "zernio_id": "6adca13202cc85e9c4df88d7"
    }
   }
  }
