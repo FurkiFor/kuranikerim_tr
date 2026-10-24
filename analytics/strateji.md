@@ -220,7 +220,7 @@ Kararlar:
 5. TikTok 13:00 tekrar paylaşımı kalır (yeni açılışlı tekrarlar 133–192, yeni anlatımlılarla aynı bant).
 6. ElevenLabs: günde 3 → 4 sesli video (v098: 5 parça ≈ 558 kredi). Kredi biterse 23:30'da karta dönülmez: YouTube boş kalır, TikTok tekrar paylaşım alır.
 
-Kısa sure anlamı adayları (kullanılmamış): Nasr, Kafirun, Maun, Tekasür, Karia, Kadr, Adiyat, Tin, Humeze. Kullanıldı: İhlas v024, Asr v025, Felak v097, Nas v098, Kevser v038 (22 Ekim 20:30), Kureyş v099 (23 Ekim 20:30), Fil v100 (23 Ekim 23:30). Uzun sure, Ayetel Kürsi, Leheb yok; Duha, İnşirah, Zilzal'ın ayetleri daha önce kullanıldı (tekrar yok).
+Kısa sure anlamı adayları (kullanılmamış): Kafirun, Tekasür, Karia, Kadr, Adiyat, Tin, Humeze. Kullanıldı: İhlas v024, Asr v025, Felak v097, Nas v098, Kevser v038 (22 Ekim 20:30), Kureyş v099 (23 Ekim 20:30), Fil v100 (23 Ekim 23:30), Nasr v101 (24 Ekim 20:30), Maun v102 (24 Ekim 23:30). Uzun sure, Ayetel Kürsi, Leheb yok; Duha, İnşirah, Zilzal'ın ayetleri daha önce kullanıldı (tekrar yok).
 
 Yeni günlük düzen (22 Ekim akşamından):
 | Slot | YouTube | TikTok | Instagram (trial) |
