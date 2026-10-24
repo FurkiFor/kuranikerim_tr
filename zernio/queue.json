@@ -590,7 +590,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tilavetli anlatımlı — teselli (Tur 48, görülmemek); Türkçe sesli IG'ye gitmez"
+  "not": "tilavetli anlatımlı — teselli (Tur 48, görülmemek); Türkçe sesli IG'ye gitmez",
+  "zernio_id": "6adc27a4d94ea28a4b362ae2",
+  "status": "scheduled"
  },
  {
   "id": "v084",
@@ -598,7 +600,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 10:00 tilavet kartı, normal Reel — deney 9 'Bazen güvendiğin insanlar seni yarı yolda bırakır' (Furkan 58)"
+  "not": "IG 10:00 tilavet kartı, normal Reel — deney 9 'Bazen güvendiğin insanlar seni yarı yolda bırakır' (Furkan 58)",
+  "zernio_id": "6adc27a522e55297ad86cb73",
+  "status": "scheduled"
  },
  {
   "id": "v055",
@@ -606,7 +610,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 13:00 tilavet kartı, normal Reel — 20 Ekim trial olarak gönderilip IG'de yayınlanmamıştı (profilde yok); ust deney 9 'Bazen kendini çok muhtaç hissedersin' (Kasas 24)"
+  "not": "IG 13:00 tilavet kartı, normal Reel — 20 Ekim trial olarak gönderilip IG'de yayınlanmamıştı (profilde yok); ust deney 9 'Bazen kendini çok muhtaç hissedersin' (Kasas 24)",
+  "zernio_id": "6adc27a522e55297ad86cb7a",
+  "status": "scheduled"
  },
  {
   "id": "v080",
@@ -614,7 +620,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tilavetli anlatımlı — açık adlı peygamber duası (Hz. İbrahim, İbrahim 41, anne baba için dua)"
+  "not": "tilavetli anlatımlı — açık adlı peygamber duası (Hz. İbrahim, İbrahim 41, anne baba için dua)",
+  "zernio_id": "6adc27a622e55297ad86cb7e",
+  "status": "scheduled"
  },
  {
   "id": "v091",
@@ -622,6 +630,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG 18:00 açık adlı dua kartı, normal Reel — deney 7 'Rabbim! Hz. Nuh'un gemide ettiği dua' (Mü'minun 29)"
+  "not": "IG 18:00 açık adlı dua kartı, normal Reel — deney 7 'Rabbim! Hz. Nuh'un gemide ettiği dua' (Mü'minun 29)",
+  "zernio_id": "6adc27a622e55297ad86cb8c",
+  "status": "scheduled"
  }
 ]
