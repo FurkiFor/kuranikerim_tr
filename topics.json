@@ -3772,8 +3772,7 @@
    "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
    "klasor": "recitations/hudhaify",
    "ayetler": [
-    2,
-    3
+    7
    ]
   },
   "seslendirme": {
@@ -3809,6 +3808,6 @@
    "tiktok": "23:30",
    "instagram": "gönderilmez — 23:30 IG slotu tilavet kartı"
   },
-  "not": "AKŞAM 24 Ekim 23:30 — kısa sure anlamı (deney 8). Diyanet 2-3'ü birleştirmiş; tilavet 2-3 (36+41=77 harf), meal bir kez. Hook: 7. ayetteki 'basit şeyleri dahi vermezler' ve 2-3'teki yoksulu doyurmak ile örtüşen somut an; suçlayıcı değil, soru. Gece yalnız kapanışta. vidIQ TR 24 Ekim: 'maun suresi' ~10.179/ay (rekabet 50)."
+  "not": "AKŞAM 24 Ekim 23:30 — kısa sure anlamı (deney 8). Diyanet 2-3'ü birleştirmiş; tilavet yalnız 7. ayet (25 harf; hook'taki 'basit şeyleri dahi vermezler'). İlk render tilavet 2-3 ile 61,9 sn çıktı (>60) → 7'ye daraltıldı. Hook: 7. ayetteki 'basit şeyleri dahi vermezler' ve 2-3'teki yoksulu doyurmak ile örtüşen somut an; suçlayıcı değil, soru. Gece yalnız kapanışta. vidIQ TR 24 Ekim: 'maun suresi' ~10.179/ay (rekabet 50)."
  }
 ]
