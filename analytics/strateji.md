@@ -255,3 +255,6 @@ Kararlar:
 6. Ölçüm: 26 Ekim'de IG kart izlenmesi + takip artışı (20 takipçi, 18 Ekim'den beri 9 → 20). Kartlar ~1.500'de takip getirmiyorsa (Zernio takip/video 0,0) profil/çağrı metni ayrıca ele alınır.
 
 Ek not — YouTube: 22 Ekim 18:00 (v076), 20:30 (v038), 23:30 (v098) Kervly'de "invalid_grant / Token has been expired or revoked" hatasıyla yayınlanmadı (Google uygulaması "Testing" modunda token 7 günde düşüyor). 23 Ekim SABAH Furkan'a yeniden bağlama bildirimi gitti; yeni gönderiler Kervly'ye planlanıyor, eski düşenler bağlantıdan sonra en fazla 2'şer retry.
+
+Ek not — 24 Ekim SABAH (Zernio 07:18 + vidIQ IG 07:20): 23 Ekim'in 5 IG kartından 4'ü normal Reel olarak 1.372–2.083 (v054 deney 7 "Rabbim! Hz. Musa'nın duası" en iyi), v051 (Mü'min 44, 13:00, 22 sn) 12 izlenme — tek video, sebep belirsiz; 26 Ekim ölçümünde kart süresi (22 sn > diğerleri 8–16 sn) ve 13:00 slotu ayrıca okunur. IG takipçi 20 → 28 (1 günde +8; kartlar takip getirmeye başladı, Zernio takip/video hâlâ 0,0). TikTok: v098 Nas (kısa sure anlamı, 23:30) 1.035 izlenme · %63 · 13 takip; v021 (A'râf 23 tövbe duası, birikmiş tekrar) 1.384 · %62 · 8 takip; 23 Ekim'in yeni videoları 124–165. YouTube: token düşük (22–23 Ekim'de 7 gönderi yayınlanmadı) → YouTube verisi yok.
+

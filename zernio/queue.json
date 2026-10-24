@@ -583,5 +583,45 @@
   "not": "kısa sure anlamı (deney 8, 23:30) — Fil, somut an sorusu + sure adı, kısmi tilavet (1, 2), gece yalnız kapanışta",
   "zernio_id": "6adb5895b361b67a8f763a55",
   "status": "scheduled"
+ },
+ {
+  "id": "v068",
+  "at": "2026-10-24T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tilavetli anlatımlı — teselli (Tur 48, görülmemek); Türkçe sesli IG'ye gitmez"
+ },
+ {
+  "id": "v084",
+  "at": "2026-10-24T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG 10:00 tilavet kartı, normal Reel — deney 9 'Bazen güvendiğin insanlar seni yarı yolda bırakır' (Furkan 58)"
+ },
+ {
+  "id": "v055",
+  "at": "2026-10-24T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG 13:00 tilavet kartı, normal Reel — 20 Ekim trial olarak gönderilip IG'de yayınlanmamıştı (profilde yok); ust deney 9 'Bazen kendini çok muhtaç hissedersin' (Kasas 24)"
+ },
+ {
+  "id": "v080",
+  "at": "2026-10-24T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tilavetli anlatımlı — açık adlı peygamber duası (Hz. İbrahim, İbrahim 41, anne baba için dua)"
+ },
+ {
+  "id": "v091",
+  "at": "2026-10-24T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG 18:00 açık adlı dua kartı, normal Reel — deney 7 'Rabbim! Hz. Nuh'un gemide ettiği dua' (Mü'minun 29)"
  }
 ]
