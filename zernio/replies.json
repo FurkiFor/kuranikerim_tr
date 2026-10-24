@@ -219,18 +219,24 @@
   "postId": "7700142200927030548",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7700191560122630932",
-  "message": "Çok teşekkürler 🤍 Rabbim dünya ve ahiret iyiliğini sana da nasip etsin."
+  "message": "Çok teşekkürler 🤍 Rabbim dünya ve ahiret iyiliğini sana da nasip etsin.",
+  "sent": true,
+  "replyId": "7700194199517430549"
  },
  {
   "postId": "7700110742288157970",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7700124449027212052",
-  "message": "Güzel bir soru. Ayet doğrudan Peygamberimize hitap ediyor; biz sabır öğüdünü örnek alıyoruz. Ayrıntısı için bir hocaya danışmanı öneririm 🤍"
+  "message": "Güzel bir soru. Ayet doğrudan Peygamberimize hitap ediyor; biz sabır öğüdünü örnek alıyoruz. Ayrıntısı için bir hocaya danışmanı öneririm 🤍",
+  "sent": true,
+  "replyId": "7700195421058269958"
  },
  {
   "postId": "7699910196281249044",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7700118509997196039",
-  "message": "🤍 Rabbim tövbelerimizi kabul etsin, kalbine huzur versin."
+  "message": "🤍 Rabbim tövbelerimizi kabul etsin, kalbine huzur versin.",
+  "sent": true,
+  "replyId": "7700194068978336533"
  }
 ]
