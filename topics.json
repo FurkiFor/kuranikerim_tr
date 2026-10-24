@@ -1582,7 +1582,7 @@
   ],
   "kart_metin": "Rabbim! Doğrusu bana indireceğin hayra muhtacım",
   "sahne": "kum",
-  "hook": "Muhtaç hissediyorsan Hz. Musa'nın bu duasını dinle",
+  "hook": "Bazen kendini çok muhtaç hissedersin",
   "tema": "Hayır duası",
   "etiketler": [
    "dua",
@@ -1593,7 +1593,7 @@
   "aciklama": "Kasas Suresi 24. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Rabbim! Doğrusu bana indireceğin hayra muhtacım",
   "seo": {
-   "yt_baslik": "Muhtaç Hissediyorsan Hz. Musa'nın Duası | Kasas 24",
+   "yt_baslik": "Bazen kendini çok muhtaç hissedersin | Hz. Musa'nın duası · Kasas 24",
    "ilk_satir": "Hz. Musa'nın duası | Kasas 24 — Rabbim! Doğrusu bana indireceğin hayra muhtacım",
    "aciklama": "Kasas Suresi 24. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
@@ -1610,8 +1610,8 @@
     "metin": "Rabbim! Doğrusu bana indireceğin hayra muhtacım"
    }
   ],
-  "ust": "Muhtaç hissediyorsan Hz. Musa'nın bu duasını dinle",
-  "not": "deney 6 kalıbı (hâl + açık adlı dua + dinle)"
+  "ust": "Bazen kendini çok muhtaç hissedersin",
+  "not": "deney 6 kalıbı (hâl + açık adlı dua + dinle) 24 Ekim: ust '…dinle' → deney 9 gözlem cümlesi (IG 13:00 normal Reel; 20 Ekim trial yayınlanmamıştı)."
  },
  {
   "id": "v056",
@@ -2178,13 +2178,13 @@
   },
   "kurgu": {
    "kamera": [
-    "it",
-    "kay",
-    "cek"
+    "cek",
+    "vurgu",
+    "kay"
    ],
    "gecis": [
-    "kararma",
-    "kesme"
+    "kesme",
+    "kararma"
    ]
   },
   "seo": {
@@ -2775,7 +2775,7 @@
   },
   "kurgu": {
    "kamera": [
-    "it",
+    "sabit",
     "kay",
     "cek"
    ],
@@ -2934,7 +2934,7 @@
   ],
   "kart_metin": "Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et",
   "sahne": "yol",
-  "hook": "Güvendiğin insanlar seni yarı yolda bıraktıysa",
+  "hook": "Bazen güvendiğin insanlar seni yarı yolda bırakır",
   "tema": "Tevekkül",
   "etiketler": [
    "tevekkül",
@@ -2944,7 +2944,7 @@
   "aciklama": "Furkân Suresi 58. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et",
   "seo": {
-   "yt_baslik": "Güvendiğin insanlar seni yarı yolda bıraktıysa | Furkan 58",
+   "yt_baslik": "Bazen güvendiğin insanlar seni yarı yolda bırakır | Furkan 58",
    "ilk_satir": "Tevekkül ayeti | Furkan 58: Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et",
    "aciklama": "Furkân Suresi 58. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
@@ -2961,7 +2961,7 @@
     "metin": "Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et"
    }
   ],
-  "ust": "Güvendiğin insanlar seni yarı yolda bıraktıysa"
+  "ust": "Bazen güvendiğin insanlar seni yarı yolda bırakır"
  },
  {
   "id": "v085",

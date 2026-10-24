@@ -74,6 +74,7 @@
 | 31 | Hiçbir şeyin yok sanınca ne dersin? | — | Kevser 1-3: "Doğrusu sana pek çok nimet vermişizdir" | v038; deney 8, 22 Ekim 20:30; Peygambere hitap girişte söylenir; arama: kevser suresi ~18,8 B/ay |
 | 32 | Aç kalırım diye korkunca ne dersin? | — | Kureyş 3-4: "kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in Rabbine…" | v099; deney 8, 23 Ekim 20:30; vidIQ: rızık + somut an outlier'ları (187x, 85x); rızık vaadi yok |
 | 33 | Sana karşı bir düzen kurulunca ne dersin? | — | Fil 1-2: "Onların düzenlerini boşa çıkarmadı mı" | v100; deney 8, 23:30 (gece yalnız kapanışta); arama: fil suresi ~15,4 B/ay (+%237) |
+| 34 | Anne babanın yokluğu içini mi yakıyor? | — | İbrahim 41: "Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla" | v080; açık adlı peygamber duası (Hz. İbrahim), 24 Ekim 18:00; arama niyeti: anne baba için dua |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
