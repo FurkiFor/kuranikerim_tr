@@ -740,7 +740,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "kısa sure anlamı (deney 8) — Kafirun 1-6, somut an + sure adı"
+  "not": "kısa sure anlamı (deney 8) — Kafirun 1-6, somut an + sure adı",
+  "zernio_id": "6addf28ac577cd7016a7f255",
+  "status": "scheduled"
  },
  {
   "id": "v094",
@@ -748,7 +750,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı (Hz. Yusuf'un sözü, Yusuf 92) — normal Reel"
+  "not": "tilavet kartı (Hz. Yusuf'un sözü, Yusuf 92) — normal Reel",
+  "zernio_id": "6addf28b62d6fa3164709f99",
+  "status": "scheduled"
  },
  {
   "id": "v063",
@@ -756,7 +760,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tilavetli anlatımlı (teselli, gece kapanışlı) — Yunus 62-63 korku/hüzün"
+  "not": "tilavetli anlatımlı (teselli, gece kapanışlı) — Yunus 62-63 korku/hüzün",
+  "zernio_id": "6addf28b62d6fa3164709f9d",
+  "status": "scheduled"
  },
  {
   "id": "v088",
@@ -764,6 +770,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "dua kartı (deney 7: Rabbim! Peygamberimize öğretilen dua, İsra 80) — normal Reel"
+  "not": "dua kartı (deney 7: Rabbim! Peygamberimize öğretilen dua, İsra 80) — normal Reel",
+  "zernio_id": "6addf28c62d6fa3164709fa1",
+  "status": "scheduled"
  }
 ]
