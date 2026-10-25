@@ -1623,7 +1623,7 @@
   ],
   "kart_metin": "Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz",
   "sahne": "yildiz",
-  "hook": "Hz. Âdem ile Havva'nın tövbe duası",
+  "hook": "Rabbimiz! Hz. Âdem ile Havva'nın tövbe duası",
   "tema": "Tövbe",
   "etiketler": [
    "tövbe",
@@ -1634,12 +1634,14 @@
   "aciklama": "A'râf Suresi 23. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz",
   "seo": {
-   "yt_baslik": "Hz. Âdem ile Havva'nın Tövbe Duası | A'raf 23",
+   "yt_baslik": "Rabbimiz! Hz. Âdem ile Havva'nın Tövbe Duası | A'raf 23",
    "ilk_satir": "Hz. Âdem ile Havva'nın tövbe duası — Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz",
    "aciklama": "A'râf Suresi 23. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "tövbe duası",
     "rabbena zalemna enfusena duası",
-    "araf suresi 23"
+    "araf suresi 23",
+    "hz adem duası"
    ]
   },
   "ses": "tilavet",
@@ -1649,7 +1651,7 @@
     "metin": "Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz"
    }
   ],
-  "ust": "Hz. Âdem ile Havva'nın tövbe duası"
+  "ust": "Rabbimiz! Hz. Âdem ile Havva'nın tövbe duası"
  },
  {
   "id": "v057",
