@@ -243,30 +243,40 @@
   "postId": "7700142200927030548",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7700303877053448981",
-  "message": "Amin, Rabbim kabul etsin 🤍"
+  "message": "Amin, Rabbim kabul etsin 🤍",
+  "sent": true,
+  "replyId": "7700429415960249109"
  },
  {
   "postId": "7700234463648812309",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7700303709935534868",
-  "message": "Amin 🤲 Rabbim dualarını kabul eylesin."
+  "message": "Amin 🤲 Rabbim dualarını kabul eylesin.",
+  "sent": true,
+  "replyId": "7700431274543956742"
  },
  {
   "postId": "7700234463648812309",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7700292661189542677",
-  "message": "Amin, Rabbim gönlüne huzur versin 🤍"
+  "message": "Amin, Rabbim gönlüne huzur versin 🤍",
+  "sent": true,
+  "replyId": "7700427753572582152"
  },
  {
   "postId": "18433965499146928",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17952673320278591",
-  "message": "Güzel kalbine selam olsun 🤍"
+  "message": "Güzel kalbine selam olsun 🤍",
+  "sent": true,
+  "replyId": "17898136800655593"
  },
  {
   "postId": "18145239334606505",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17938553754123900",
-  "message": "Rabbim razı olsun, iyi ki buradasın 🤍"
+  "message": "Rabbim razı olsun, iyi ki buradasın 🤍",
+  "sent": true,
+  "replyId": "18230842486334596"
  }
 ]

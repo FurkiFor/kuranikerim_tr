@@ -680,7 +680,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tilavetli anlatımlı (teselli) — İnşirah 7-8, hâl/kişisel soru"
+  "not": "tilavetli anlatımlı (teselli) — İnşirah 7-8, hâl/kişisel soru",
+  "zernio_id": "6add795931e71d0c7a5cc4d6",
+  "status": "scheduled"
  },
  {
   "id": "v086",
@@ -688,7 +690,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı (deney 9 gözlem, 4 sn) — normal Reel"
+  "not": "tilavet kartı (deney 9 gözlem, 4 sn) — normal Reel",
+  "zernio_id": "6add795931e71d0c7a5cc4da",
+  "status": "scheduled"
  },
  {
   "id": "v050",
@@ -696,7 +700,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı (Hz. Musa, Şuara 62) — normal Reel"
+  "not": "tilavet kartı (Hz. Musa, Şuara 62) — normal Reel",
+  "zernio_id": "6add795a31e71d0c7a5cc4de",
+  "status": "scheduled"
  },
  {
   "id": "v065",
@@ -704,7 +710,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tekrar paylaşım — YouTube en iyi tilavetli anlatımlı (2.173); TikTok 20 Ekim 155"
+  "not": "tekrar paylaşım — YouTube en iyi tilavetli anlatımlı (2.173); TikTok 20 Ekim 155",
+  "zernio_id": "6add795a31e71d0c7a5cc4e2",
+  "status": "scheduled"
  },
  {
   "id": "v066",
@@ -712,7 +720,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tilavetli anlatımlı — tövbe duası (Mü'minun 118)"
+  "not": "tilavetli anlatımlı — tövbe duası (Mü'minun 118)",
+  "zernio_id": "6add795a31e71d0c7a5cc4e6",
+  "status": "scheduled"
  },
  {
   "id": "v056",
@@ -720,6 +730,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "açık adlı dua kartı (deney 7: Rabbimiz! Hz. Âdem ile Havva'nın tövbe duası) — normal Reel"
+  "not": "açık adlı dua kartı (deney 7: Rabbimiz! Hz. Âdem ile Havva'nın tövbe duası) — normal Reel",
+  "zernio_id": "6add795b31e71d0c7a5cc4ea",
+  "status": "scheduled"
  }
 ]
