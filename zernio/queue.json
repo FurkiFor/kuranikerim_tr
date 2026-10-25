@@ -673,5 +673,53 @@
   "not": "IG 23:30 tilavet kartı, normal Reel — deney 9 'Bazen günahların yüzünden umudunu kaybedersin' (Hicr 49); gece hitabı yok",
   "zernio_id": "6adca13202cc85e9c4df88d7",
   "status": "scheduled"
+ },
+ {
+  "id": "v069",
+  "at": "2026-10-25T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tilavetli anlatımlı (teselli) — İnşirah 7-8, hâl/kişisel soru"
+ },
+ {
+  "id": "v086",
+  "at": "2026-10-25T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "tilavet kartı (deney 9 gözlem, 4 sn) — normal Reel"
+ },
+ {
+  "id": "v050",
+  "at": "2026-10-25T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "tilavet kartı (Hz. Musa, Şuara 62) — normal Reel"
+ },
+ {
+  "id": "v065",
+  "at": "2026-10-25T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tekrar paylaşım — YouTube en iyi tilavetli anlatımlı (2.173); TikTok 20 Ekim 155"
+ },
+ {
+  "id": "v066",
+  "at": "2026-10-25T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tilavetli anlatımlı — tövbe duası (Mü'minun 118)"
+ },
+ {
+  "id": "v056",
+  "at": "2026-10-25T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "açık adlı dua kartı (deney 7: Rabbimiz! Hz. Âdem ile Havva'nın tövbe duası) — normal Reel"
  }
 ]

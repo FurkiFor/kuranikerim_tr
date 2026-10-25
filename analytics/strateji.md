@@ -259,3 +259,25 @@ Ek not — YouTube: 22 Ekim 18:00 (v076), 20:30 (v038), 23:30 (v098) Kervly'de "
 Ek not — 24 Ekim SABAH (Zernio 07:18 + vidIQ IG 07:20): 23 Ekim'in 5 IG kartından 4'ü normal Reel olarak 1.372–2.083 (v054 deney 7 "Rabbim! Hz. Musa'nın duası" en iyi), v051 (Mü'min 44, 13:00, 22 sn) 12 izlenme — tek video, sebep belirsiz; 26 Ekim ölçümünde kart süresi (22 sn > diğerleri 8–16 sn) ve 13:00 slotu ayrıca okunur. IG takipçi 20 → 28 (1 günde +8; kartlar takip getirmeye başladı, Zernio takip/video hâlâ 0,0). TikTok: v098 Nas (kısa sure anlamı, 23:30) 1.035 izlenme · %63 · 13 takip; v021 (A'râf 23 tövbe duası, birikmiş tekrar) 1.384 · %62 · 8 takip; 23 Ekim'in yeni videoları 124–165. YouTube: token düşük (22–23 Ekim'de 7 gönderi yayınlanmadı) → YouTube verisi yok.
 
 Ek not — 24 Ekim AKŞAM (Kervly 15:45): YouTube token'ı çalışıyor (Furkan yeniden bağlamış; son 3 günde `error` kaydı yok). 22–23 Ekim'de düşen 7 gönderi (v038, v076, v098, v064, v070, v099, v100) 24 Ekim 09:12'de birlikte yayınlandı — 3,5 saatte 8–704 izlenme (v098 Nas 8; aynı anda 7 video kanalı boğdu, tek gözlem). Bu yüzden Kervly marka sınırı (günde 5) 24 Ekim'de doldu: 20:30 v101 YouTube'a planlanamadı → **25 Ekim 00:30**'a (TR 23:30) kaydı. 23:30 v102 de aynı sebeple **26 Ekim 00:30**'a gider (25 Ekim: 10:00, 18:00, 20:30, 23:30 + 00:30 v101 = 5). TikTok ve Instagram etkilenmedi (Zernio). Kural: bir günde Kervly sınırı doluysa YouTube gönderisi ertesi günün 00:30'una kayar; 26 Ekim'den sonra 00:30 boş kalırsa düzen kendiliğinden 4'e döner. Furkan Kervly'de sınırı 6'ya çıkarırsa bu kayma gerekmez.
+
+
+## 25 Ekim 2026 SABAH — deney 8 değerlendirmesi (kısa sure anlamı) ve 23:30 kararı
+Kaynak: Zernio stats 25 Ekim 07:18 · Kervly `get_youtube_stats` 25 Ekim 07:16. YouTube rakamları yayından bu yana toplam; v098, v099, v100 ve v038'in YouTube'u 24 Ekim 09:12'de 7 videoyla birlikte çıktı (token düşüşü), 24. saat verisi temiz değil.
+
+| Video (kısa sure anlamı, kısmi tilavet) | Slot | TikTok izl. · 2. sn · ort. izleme · takip | YouTube |
+|---|---|---|---|
+| v097 Felak | 21 Ekim 20:30 | 255 · %48 · 9,2 sn · 1 | 1.820 |
+| v098 Nas | 22 Ekim 23:30 | **1.167 · %63 · 14,8 sn · 14** | 40 (toplu yayın) |
+| v038 Kevser | 22 Ekim 20:30 | 189 · %54 · 10,9 sn · 1 | 368 (toplu yayın) |
+| v099 Kureyş | 23 Ekim 20:30 | 160 · %50 · 7,9 sn · 0 | 1.244 (toplu yayın) |
+| v100 Fil | 23 Ekim 23:30 | 152 · %47 · 6,2 sn · 0 | 337 (toplu yayın) |
+| (v101 Nasr, v102 Maun — 24 Ekim, 1 günü dolmadı) | | 139 · %42 · 6,0 / 145 · %52 · 9,8 | 387 (6,5 sa) / planlı |
+
+Karşılaştırma (aynı dönem TikTok): tilavetli anlatımlı teselli v064 132, v068 163, v070 176, v076 143, v080 131 (2. sn %36–46, ort. izleme 4,2–6,0 sn). Birikmiş tekrar **v021 "Pişmanlığını Allah'a nasıl söylersin?" (A'râf 23 tövbe duası) 3.547 · %60 · 10 sn · 17 takip** — hesabın en çok izlenen TikTok videosu (tek video).
+
+Kararlar:
+1. **23:30 tilavetli anlatımlıya döndü** (22 Ekim kuralı tetiklendi: 5 videonun TikTok medyanı 189 < 200). Kısa sure anlamı TikTok'ta 2. sn ve ort. izlemede hâlâ anlatımlıdan iyi (medyan %50 / 9,2 sn ↔ %41 / 5,9 sn) ama bandı yalnız 1/5'i kırdı. 20:30 kısa sure anlamı sürer; 23:30 = teselli tilavetli anlatımlı, gece hitabı hook'ta ya da kapanışta (günde en fazla 1). İlk uygulama 25 Ekim AKŞAM.
+2. Ort. izleme medyanı 9,2 sn (>8) → kısmi tilavetin yeri değişmez.
+3. **Tövbe/af öne alındı:** v021 (TikTok 3.547, 17 takip) + hooks.md'deki arama verisi (tövbe/af en çok aranan dert) + vidIQ (YouTube TR, 25 Ekim: tövbe/"Ya Rabbi" kısa videoları üst sırada; "tövbe duası" ~7.453/ay, +%76,6). Bugün 18:00 v066 "Tövbe duası" (Mü'minun 118) ve IG 18:00 v056 "Rabbimiz! Hz. Âdem ile Havva'nın tövbe duası". Haftada en az 2 tövbe/af videosu (anlatımlı ya da kart) hedef; 1 Kasım'da v021 tek video mu, kalıp mı diye bakılır.
+4. Instagram: 24 Ekim'in 5 kartı 1.390–1.671 (13:00 v055 1.390 — 23 Ekim'deki 13:00 v051 düşüşü tekrar etmedi, slot sorunu değil). IG takipçi 28 → 42 (1 günde +14), TikTok 1.694 → 1.714.
+5. 13:00 TikTok tekrar paylaşımı: yeni açılışlı videoların hepsi TikTok'ta bir kez yayınlandı; strateji "tekrar paylaşım adayları"ndan v018 kullanıldı, kalanların (v012, v007, v006, v011, v005) mp3'i yok. Bugün YouTube'da en iyi tilavetli anlatımlı v065 (Enbiya 88, YT 2.173; TikTok 20 Ekim 155) aynı dosyayla tekrar. 1 Kasım'da: tekrarların TikTok sonucu <150 ise 13:00 TikTok, v005 "Çok günah işledim…" (tövbe, YT 1.565) gibi adayların yeni sesle yeniden üretimine geçer.
