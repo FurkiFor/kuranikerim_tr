@@ -78,6 +78,8 @@
 | 35 | Beklediğin yardım sonunda gelince ne dersin? | — | Nasr 1-3: "Allah'ın yardımı ve zafer günü gelip … Rabbini överek tesbih et; O'ndan bağışlama dile" | v101; deney 8, 24 Ekim 20:30; arama: nasr suresi ~5.821/ay (+%75) |
 | 36 | Biri senden küçük bir yardım isteyince ne yaparsın? | — | Maun 2-7: "yoksulu doyurmaya yanaşmayan … Onlar basit şeyleri dahi vermezler" | v102; deney 8, 24 Ekim 23:30 (gece yalnız kapanışta); arama: maun suresi ~10.179/ay |
 | 37 | Günahların içini mi sıkıyor? | — | Mü'minun 118: "Rabbim! Bağışla, merhamet et" | v066; açık adlı dua (tövbe duası), 25 Ekim 18:00; v021 tövbe duası tekrarı TikTok 1.384 |
+| 38 | Biri inancından vazgeçmeni isteyince ne dersin? | — | Kafirun 1-6: "Ben sizin taptıklarınıza tapmam … Sizin dininiz size, benim dinim banadır" | v103; deney 8, 25 Ekim 20:30; arama: kafirun suresi ~7.472/ay (+%75,6) |
+| 39 | İçini korku ve hüzün mü sardı? | — | Yunus 62-63: "Allah'ın dostlarına korku yoktur, onlar üzülmeyeceklerdir" (iman + takva koşulu 63'te) | v063; 25 Ekim 23:30 tilavetli anlatımlı, gece yalnız kapanışta |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

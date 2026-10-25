@@ -3875,5 +3875,612 @@
    "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
   },
   "not": "AKŞAM 25 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 6. ayet (29 harf). Hook: 2. ve 6. ayetle örtüşen somut an (inançtan taviz istenmesi); suçlama/kınama yok. vidIQ TR 24 Ekim: 'kafirun suresi' ~7.472/ay (+%75,6); 25 Ekim: 'tekasür suresi' ~7.989/ay (rekabet 56) — sıradaki aday."
+ },
+ {
+  "id": "v104",
+  "tur": "kart",
+  "sure": 55,
+  "ayet": [
+   60,
+   60
+  ],
+  "kart_metin": "İyiliğin karşılığı ancak iyilik değil midir",
+  "sahne": "tohum",
+  "hook": "Bazen iyilik yapmaktan yorulursun",
+  "tema": "İyilik",
+  "etiketler": [
+   "iyilik",
+   "rahman suresi",
+   "tilavet"
+  ],
+  "aciklama": "Rahmân Suresi 60. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "İyiliğin karşılığı ancak iyilik değil midir",
+  "seo": {
+   "yt_baslik": "Bazen iyilik yapmaktan yorulursun | Rahman 60",
+   "ilk_satir": "İyilik ayeti | Rahman 60: İyiliğin karşılığı ancak iyilik değil midir",
+   "aciklama": "Rahmân Suresi 60. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "iyilik ayeti",
+    "rahman suresi 60",
+    "iyiliğin karşılığı",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 60,
+    "metin": "İyiliğin karşılığı ancak iyilik değil midir"
+   }
+  ],
+  "ust": "Bazen iyilik yapmaktan yorulursun",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v105",
+  "tur": "kart",
+  "sure": 16,
+  "ayet": [
+   18,
+   18
+  ],
+  "kart_metin": "Allah'ın verdiği nimetleri sayacak olsanız bitiremezsiniz; doğrusu Allah bağışlar, merhamet eder",
+  "sahne": "yildiz",
+  "hook": "Bazen eksiklerine bakarken nimetleri unutursun",
+  "tema": "Şükür",
+  "etiketler": [
+   "şükür",
+   "nimet",
+   "tilavet"
+  ],
+  "aciklama": "Nahl Suresi 18. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Allah'ın verdiği nimetleri sayacak olsanız bitiremezsiniz; doğrusu Allah bağışlar, merhamet eder",
+  "seo": {
+   "yt_baslik": "Bazen eksiklerine bakarken nimetleri unutursun | Nahl 18",
+   "ilk_satir": "Şükür ayeti | Nahl 18: Allah'ın verdiği nimetleri sayacak olsanız bitiremezsiniz; doğrusu Allah bağışlar, merhamet eder",
+   "aciklama": "Nahl Suresi 18. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "şükür ayeti",
+    "nahl suresi 18",
+    "nimet ayeti",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 18,
+    "metin": "Allah'ın verdiği nimetleri sayacak olsanız bitiremezsiniz; doğrusu Allah bağışlar, merhamet eder"
+   }
+  ],
+  "ust": "Bazen eksiklerine bakarken nimetleri unutursun",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v106",
+  "tur": "kart",
+  "sure": 15,
+  "ayet": [
+   55,
+   55
+  ],
+  "kart_metin": "Seni gerçekten müjdeliyoruz, umutsuzlardan olma",
+  "sahne": "yol",
+  "hook": "Bazen umudunu kaybetmek üzeresin",
+  "tema": "Umut",
+  "etiketler": [
+   "umut",
+   "hz ibrahim",
+   "tilavet"
+  ],
+  "aciklama": "Hicr Suresi 55. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Seni gerçekten müjdeliyoruz, umutsuzlardan olma",
+  "seo": {
+   "yt_baslik": "Bazen umudunu kaybetmek üzeresin | Hicr 55",
+   "ilk_satir": "Umut ayeti | Hicr 55: Seni gerçekten müjdeliyoruz, umutsuzlardan olma",
+   "aciklama": "Hicr Suresi 55. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "umut ayeti",
+    "hicr suresi 55",
+    "umutsuzluk",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 55,
+    "metin": "Seni gerçekten müjdeliyoruz, umutsuzlardan olma"
+   }
+  ],
+  "ust": "Bazen umudunu kaybetmek üzeresin",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v107",
+  "tur": "kart",
+  "sure": 27,
+  "ayet": [
+   70,
+   70
+  ],
+  "kart_metin": "Onlara üzülme. Hilelerine karşı da sıkılma",
+  "sahne": "kalp",
+  "hook": "Bazen insanların oyunları içini daraltır",
+  "tema": "Huzur",
+  "etiketler": [
+   "üzülme",
+   "huzur",
+   "tilavet"
+  ],
+  "aciklama": "Neml Suresi 70. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Onlara üzülme. Hilelerine karşı da sıkılma",
+  "seo": {
+   "yt_baslik": "Bazen insanların oyunları içini daraltır | Neml 70",
+   "ilk_satir": "Üzülme ayeti | Neml 70: Onlara üzülme. Hilelerine karşı da sıkılma",
+   "aciklama": "Neml Suresi 70. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "üzülme ayeti",
+    "neml suresi 70",
+    "kuran meali",
+    "teselli ayeti"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 70,
+    "metin": "Onlara üzülme. Hilelerine karşı da sıkılma"
+   }
+  ],
+  "ust": "Bazen insanların oyunları içini daraltır",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v108",
+  "tur": "kart",
+  "sure": 73,
+  "ayet": [
+   10,
+   10
+  ],
+  "kart_metin": "Onların söylediklerine sabret, yanlarından güzellikle ayrıl",
+  "sahne": "deniz",
+  "hook": "Bazen sözleriyle seni kırarlar",
+  "tema": "Sabır",
+  "etiketler": [
+   "sabır",
+   "kırgınlık",
+   "tilavet"
+  ],
+  "aciklama": "Müzzemmil Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Onların söylediklerine sabret, yanlarından güzellikle ayrıl",
+  "seo": {
+   "yt_baslik": "Bazen sözleriyle seni kırarlar | Müzzemmil 10",
+   "ilk_satir": "Sabır ayeti | Müzzemmil 10: Onların söylediklerine sabret, yanlarından güzellikle ayrıl",
+   "aciklama": "Müzzemmil Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "sabır ayeti",
+    "müzzemmil suresi 10",
+    "kırgınlık",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 10,
+    "metin": "Onların söylediklerine sabret, yanlarından güzellikle ayrıl"
+   }
+  ],
+  "ust": "Bazen sözleriyle seni kırarlar",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v109",
+  "tur": "kart",
+  "sure": 42,
+  "ayet": [
+   43,
+   43
+  ],
+  "kart_metin": "Ama sabredip bağışlayanın işi, işte bu, azmedilmeye değer işlerdendir",
+  "sahne": "kalp",
+  "hook": "Bazen affetmek en zor iştir",
+  "tema": "Affetmek",
+  "etiketler": [
+   "affetmek",
+   "sabır",
+   "tilavet"
+  ],
+  "aciklama": "Şûrâ Suresi 43. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Ama sabredip bağışlayanın işi, işte bu, azmedilmeye değer işlerdendir",
+  "seo": {
+   "yt_baslik": "Bazen affetmek en zor iştir | Şura 43",
+   "ilk_satir": "Affetmek ayeti | Şura 43: Ama sabredip bağışlayanın işi, işte bu, azmedilmeye değer işlerdendir",
+   "aciklama": "Şûrâ Suresi 43. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "affetmek ile ilgili ayet",
+    "şura suresi 43",
+    "sabır ayeti",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 43,
+    "metin": "Ama sabredip bağışlayanın işi, işte bu, azmedilmeye değer işlerdendir"
+   }
+  ],
+  "ust": "Bazen affetmek en zor iştir",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v110",
+  "tur": "kart",
+  "sure": 64,
+  "ayet": [
+   13,
+   13
+  ],
+  "kart_metin": "Allah vardır, O'ndan başka tanrı yoktur. İnananlar yalnız Allah 'a güvensinler",
+  "sahne": "fener",
+  "hook": "Bazen güvenecek kimse kalmamış gibi gelir",
+  "tema": "Tevekkül",
+  "etiketler": [
+   "tevekkül",
+   "güven",
+   "tilavet"
+  ],
+  "aciklama": "Teğâbün Suresi 13. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Allah vardır, O'ndan başka tanrı yoktur. İnananlar yalnız Allah 'a güvensinler",
+  "seo": {
+   "yt_baslik": "Bazen güvenecek kimse kalmamış gibi gelir | Teğabün 13",
+   "ilk_satir": "Tevekkül ayeti | Teğabün 13: Allah vardır, O'ndan başka tanrı yoktur. İnananlar yalnız Allah 'a güvensinler",
+   "aciklama": "Teğâbün Suresi 13. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tevekkül ayeti",
+    "teğabün suresi 13",
+    "allaha güven",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 13,
+    "metin": "Allah vardır, O'ndan başka tanrı yoktur. İnananlar yalnız Allah 'a güvensinler"
+   }
+  ],
+  "ust": "Bazen güvenecek kimse kalmamış gibi gelir",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v111",
+  "tur": "kart",
+  "sure": 54,
+  "ayet": [
+   10,
+   10
+  ],
+  "kart_metin": "Ben yenildim, bana yardım et",
+  "sahne": "firtina",
+  "hook": "Bazen 'yenildim' dediğin olur",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "hz nuh",
+   "tilavet"
+  ],
+  "aciklama": "Kamer Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Ben yenildim, bana yardım et",
+  "seo": {
+   "yt_baslik": "Bazen 'yenildim' dediğin olur | Kamer 10",
+   "ilk_satir": "Hz. Nuh'un duası | Kamer 10: Ben yenildim, bana yardım et",
+   "aciklama": "Kamer Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz nuh duası",
+    "kamer suresi 10",
+    "peygamber duaları",
+    "kuran duaları"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 10,
+    "metin": "Ben yenildim, bana yardım et"
+   }
+  ],
+  "ust": "Bazen 'yenildim' dediğin olur",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v112",
+  "tur": "kart",
+  "sure": 20,
+  "ayet": [
+   122,
+   122
+  ],
+  "kart_metin": "Rabbi yine de onu seçip tevbesini kabul etti, ona doğru yolu gösterdi",
+  "sahne": "kapi",
+  "hook": "Bazen bir hatadan sonra her şey bitti sanırsın",
+  "tema": "Tövbe",
+  "etiketler": [
+   "tövbe",
+   "hz adem",
+   "tilavet"
+  ],
+  "aciklama": "Tâhâ Suresi 122. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbi yine de onu seçip tevbesini kabul etti, ona doğru yolu gösterdi",
+  "seo": {
+   "yt_baslik": "Bazen bir hatadan sonra her şey bitti sanırsın | Taha 122",
+   "ilk_satir": "Tövbe ayeti | Taha 122: Rabbi yine de onu seçip tevbesini kabul etti, ona doğru yolu gösterdi",
+   "aciklama": "Tâhâ Suresi 122. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe ayeti",
+    "taha suresi 122",
+    "hz adem tövbesi",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 122,
+    "metin": "Rabbi yine de onu seçip tevbesini kabul etti, ona doğru yolu gösterdi"
+   }
+  ],
+  "ust": "Bazen bir hatadan sonra her şey bitti sanırsın",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v113",
+  "tur": "kart",
+  "sure": 7,
+  "ayet": [
+   151,
+   151
+  ],
+  "kart_metin": "Rabbim! Beni ve kardeşimi bağışla, bize acı, Sen merhametlilerin merhametlisisin",
+  "sahne": "fener",
+  "hook": "Rabbim! Hz. Musa'nın kardeşiyle birlikte duası",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "hz musa",
+   "peygamber duaları",
+   "tilavet"
+  ],
+  "aciklama": "A'râf Suresi 151. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Beni ve kardeşimi bağışla, bize acı, Sen merhametlilerin merhametlisisin",
+  "seo": {
+   "yt_baslik": "Rabbim! Hz. Musa'nın kardeşiyle birlikte duası | A'raf 151",
+   "ilk_satir": "Bağışlanma duası | A'raf 151: Rabbim! Beni ve kardeşimi bağışla, bize acı, Sen merhametlilerin merhametlisisin",
+   "aciklama": "A'râf Suresi 151. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "bağışlanma duası",
+    "araf suresi 151",
+    "hz musa duası",
+    "peygamber duaları"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 151,
+    "metin": "Rabbim! Beni ve kardeşimi bağışla, bize acı, Sen merhametlilerin merhametlisisin"
+   }
+  ],
+  "ust": "Rabbim! Hz. Musa'nın kardeşiyle birlikte duası",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v114",
+  "tur": "kart",
+  "sure": 3,
+  "ayet": [
+   53,
+   53
+  ],
+  "kart_metin": "Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz",
+  "sahne": "yildiz",
+  "hook": "Rabbimiz! Hz. İsa'nın havarilerinin duası",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "peygamber duaları",
+   "tilavet"
+  ],
+  "aciklama": "Âl-i İmrân Suresi 53. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz",
+  "seo": {
+   "yt_baslik": "Rabbimiz! Hz. İsa'nın havarilerinin duası | Al-i İmran 53",
+   "ilk_satir": "Kuran duaları | Al-i İmran 53: Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz",
+   "aciklama": "Âl-i İmrân Suresi 53. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "kuran duaları",
+    "ali imran 53",
+    "havarilerin duası",
+    "dua ayeti"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 53,
+    "metin": "Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz"
+   }
+  ],
+  "ust": "Rabbimiz! Hz. İsa'nın havarilerinin duası",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v115",
+  "tur": "kart",
+  "sure": 19,
+  "ayet": [
+   4,
+   4
+  ],
+  "kart_metin": "Rabbim! Sana yalvarmakla şimdiye kadar bedbaht olup bir şeyden mahrum kalmadım",
+  "sahne": "kum",
+  "hook": "Rabbim! Hz. Zekeriya'nın yaşlılığındaki duası",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "hz zekeriya",
+   "peygamber duaları",
+   "tilavet"
+  ],
+  "aciklama": "Meryem Suresi 4. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Sana yalvarmakla şimdiye kadar bedbaht olup bir şeyden mahrum kalmadım",
+  "seo": {
+   "yt_baslik": "Rabbim! Hz. Zekeriya'nın yaşlılığındaki duası | Meryem 4",
+   "ilk_satir": "Hz. Zekeriya'nın duası | Meryem 4: Rabbim! Sana yalvarmakla şimdiye kadar bedbaht olup bir şeyden mahrum kalmadım",
+   "aciklama": "Meryem Suresi 4. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz zekeriya duası",
+    "meryem suresi 4",
+    "peygamber duaları",
+    "dua ayeti"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 4,
+    "metin": "Rabbim! Sana yalvarmakla şimdiye kadar bedbaht olup bir şeyden mahrum kalmadım"
+   }
+  ],
+  "ust": "Rabbim! Hz. Zekeriya'nın yaşlılığındaki duası",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v116",
+  "tur": "kart",
+  "sure": 20,
+  "ayet": [
+   67,
+   68
+  ],
+  "kart_metin": "Bu yüzden Musa içinde bir korku hissetti",
+  "sahne": "firtina",
+  "hook": "Hz. Musa korkunca ona söylenen söz",
+  "tema": "Korku",
+  "etiketler": [
+   "korku",
+   "hz musa",
+   "tilavet"
+  ],
+  "aciklama": "Tâhâ Suresi 67-68. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Bu yüzden Musa içinde bir korku hissetti",
+  "seo": {
+   "yt_baslik": "Hz. Musa korkunca ona söylenen söz | Taha 67-68",
+   "ilk_satir": "Korku ve kaygı ayeti | Taha 67-68: Bu yüzden Musa içinde bir korku hissetti",
+   "aciklama": "Tâhâ Suresi 67-68. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "korku ayeti",
+    "taha suresi 68",
+    "hz musa",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 67,
+    "metin": "Bu yüzden Musa içinde bir korku hissetti"
+   },
+   {
+    "ayet": 68,
+    "metin": "Korkma, sen muhakkak daha üstünsün"
+   }
+  ],
+  "ust": "Hz. Musa korkunca ona söylenen söz",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v117",
+  "tur": "kart",
+  "sure": 12,
+  "ayet": [
+   98,
+   98
+  ],
+  "kart_metin": "Rabbim'den bağışlanmanızı dileyeceğim; O şüphesiz bağışlar ve merhamet eder",
+  "sahne": "kalp",
+  "hook": "Hz. Yakub'un, özür dileyen oğullarına cevabı",
+  "tema": "Affetmek",
+  "etiketler": [
+   "affetmek",
+   "hz yakub",
+   "tilavet"
+  ],
+  "aciklama": "Yûsuf Suresi 98. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim'den bağışlanmanızı dileyeceğim; O şüphesiz bağışlar ve merhamet eder",
+  "seo": {
+   "yt_baslik": "Hz. Yakub'un, özür dileyen oğullarına cevabı | Yusuf 98",
+   "ilk_satir": "Affetmek ayeti | Yusuf 98: Rabbim'den bağışlanmanızı dileyeceğim; O şüphesiz bağışlar ve merhamet eder",
+   "aciklama": "Yûsuf Suresi 98. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "affetmek ile ilgili ayet",
+    "yusuf suresi 98",
+    "hz yakub",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 98,
+    "metin": "Rabbim'den bağışlanmanızı dileyeceğim; O şüphesiz bağışlar ve merhamet eder"
+   }
+  ],
+  "ust": "Hz. Yakub'un, özür dileyen oğullarına cevabı",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v118",
+  "tur": "kart",
+  "sure": 11,
+  "ayet": [
+   90,
+   90
+  ],
+  "kart_metin": "Rabbinizden mağfiret dileyin; O'na tevbe edin; doğrusu Rabbim merhamet eder ve çok sever",
+  "sahne": "kapi",
+  "hook": "Hz. Şuayb'ın kavmine tövbe çağrısı",
+  "tema": "Tövbe",
+  "etiketler": [
+   "tövbe",
+   "istiğfar",
+   "hz şuayb",
+   "tilavet"
+  ],
+  "aciklama": "Hûd Suresi 90. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbinizden mağfiret dileyin; O'na tevbe edin; doğrusu Rabbim merhamet eder ve çok sever",
+  "seo": {
+   "yt_baslik": "Hz. Şuayb'ın kavmine tövbe çağrısı | Hud 90",
+   "ilk_satir": "Tövbe ve istiğfar ayeti | Hud 90: Rabbinizden mağfiret dileyin; O'na tevbe edin; doğrusu Rabbim merhamet eder ve çok sever",
+   "aciklama": "Hûd Suresi 90. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe ayeti",
+    "istiğfar ayeti",
+    "hud suresi 90",
+    "kuran meali"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 90,
+    "metin": "Rabbinizden mağfiret dileyin; O'na tevbe edin; doğrusu Rabbim merhamet eder ve çok sever"
+   }
+  ],
+  "ust": "Hz. Şuayb'ın kavmine tövbe çağrısı",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
  }
 ]
