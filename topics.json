@@ -1909,7 +1909,7 @@
    63
   ],
   "hook": "İçini korku ve hüzün mü sardı?",
-  "kapanis": "Korku ve hüzün sardığında Allah'ın dostlarını hatırla.",
+  "kapanis": "Bu gece korku ve hüzün sardığında, Allah'ın dostlarını hatırla.",
   "bg": "fener",
   "sahne": "fener",
   "aciklama": "Yunus Suresi 62-63. ayetlerde Allah'ın dostlarına korku olmadığı, onların üzülmeyecekleri bildirilir; bunlar inanan ve Allah'a karşı gelmekten sakınanlardır. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -1947,7 +1947,8 @@
     "hüzün ayeti",
     "korku ile ilgili ayet"
    ]
-  }
+  },
+  "not": "AKŞAM 25 Ekim 23:30 — tilavetli anlatımlı (teselli, gece yalnız kapanışta; 25 Ekim SABAH deney 8 kararı). Tilavet 114 harf (62-63). Dert: korku/hüzün (bugün 10:00 umut, 18:00 tövbe)."
  },
  {
   "id": "v064",
@@ -3095,23 +3096,23 @@
   ],
   "kart_metin": "Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et",
   "sahne": "yol",
-  "hook": "Yeni bir yere, yeni bir işe başlıyorsan",
+  "hook": "Rabbim! Peygamberimize öğretilen dua",
   "tema": "Dua",
   "etiketler": [
    "dua",
-   "yeni başlangıç",
+   "peygamber duaları",
    "tilavet"
   ],
   "aciklama": "İsrâ Suresi 80. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et",
   "seo": {
-   "yt_baslik": "Yeni bir yere, yeni bir işe başlıyorsan | İsra 80",
-   "ilk_satir": "Yeni işe başlarken dua | İsra 80: Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et",
+   "yt_baslik": "Rabbim! Peygamberimize öğretilen dua | İsra 80",
+   "ilk_satir": "Rabbi edhilni duası | İsra 80: Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et",
    "aciklama": "İsrâ Suresi 80. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
-    "yeni işe başlarken dua",
-    "isra suresi 80",
     "rabbi edhilni duası",
+    "isra suresi 80",
+    "peygamber duaları",
     "kuran duaları"
    ]
   },
@@ -3122,7 +3123,8 @@
     "metin": "Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et"
    }
   ],
-  "ust": "Yeni bir yere, yeni bir işe başlıyorsan"
+  "ust": "Rabbim! Peygamberimize öğretilen dua",
+  "not": "AKŞAM 25 Ekim: IG 23:30 kartı. ust deney 7'ye çevrildi (ayetin kendi hitabı 'Rabbim!' + açık kaynak; meal 'De ki:' ile başlıyor). Eski ust 'Yeni bir yere, yeni bir işe başlıyorsan' — 'iş' ayette yok, kaldırıldı. Gece hitabı yok (günün tek gece hitabı v063'te)."
  },
  {
   "id": "v089",
@@ -3366,7 +3368,8 @@
     "metin": "Bugün azarlanacak değilsiniz, Allah sizi bağışlar. O, merhametlilerin merhametlisidir"
    }
   ],
-  "ust": "Hz. Yusuf'un, onu kuyuya atan kardeşlerine sözü"
+  "ust": "Hz. Yusuf'un, onu kuyuya atan kardeşlerine sözü",
+  "not": "AKŞAM 25 Ekim: IG 20:30 kartı (açık adlı peygamber sözü; 'kuyunun derinliklerine bırakmayı' Yusuf 15)."
  },
  {
   "id": "v095",
@@ -3811,5 +3814,66 @@
    "instagram": "gönderilmez — 23:30 IG slotu tilavet kartı"
   },
   "not": "AKŞAM 24 Ekim 23:30 — kısa sure anlamı (deney 8). Diyanet 2-3'ü birleştirmiş; tilavet yalnız 7. ayet (25 harf; hook'taki 'basit şeyleri dahi vermezler'). İlk render tilavet 2-3 ile 61,9 sn çıktı (>60) → 7'ye daraltıldı. Hook: 7. ayetteki 'basit şeyleri dahi vermezler' ve 2-3'teki yoksulu doyurmak ile örtüşen somut an; suçlayıcı değil, soru. Gece yalnız kapanışta. vidIQ TR 24 Ekim: 'maun suresi' ~10.179/ay (rekabet 50)."
+ },
+ {
+  "id": "v103",
+  "tema": "Kafirun Suresi Anlamı",
+  "sure": 109,
+  "ayet": [
+   1,
+   6
+  ],
+  "hook": "Biri inancından vazgeçmeni isteyince ne dersin?",
+  "kapanis": "Biri yine isterse, bu altı ayeti hatırla.",
+  "bg": "yildiz",
+  "sahne": "yildiz",
+  "aciklama": "Kafirun Suresi altı ayette inançta pazarlık olmadığını söyler: Ben sizin taptıklarınıza tapmam; sizin dininiz size, benim dinim bana. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "kafirun suresi",
+   "tilavet",
+   "kısa sureler"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    6
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Kafirun Suresi'nde. Altı kısa ayet; son cümlesi net bir sınır.",
+   "yorum": "Bu sure, inançta pazarlık olmadığını sade bir dille söyler. Sen de inancını sakin ve kararlı koru."
+  },
+  "kurgu": {
+   "kamera": [
+    "it",
+    "kay",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Biri inancından vazgeçmeni isteyince ne dersin? Kafirun Suresi anlamı",
+   "ilk_satir": "Biri inancından vazgeçmeni isteyince ne dersin? Kafirun Suresi anlamı ve meali (1-6)",
+   "aciklama": "Kafirun Suresi'nde Allah, Peygamberine inkârcılara şunu söylemesini emreder: Ben sizin taptıklarınıza tapmam, sizler de benim taptığıma tapmazsınız; sizin dininiz size, benim dinim banadır. Diyanet meali ile Kafirun Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "kafirun suresi",
+    "kafirun suresi anlamı",
+    "kafirun suresi meali",
+    "kısa sureler",
+    "kuran tilaveti"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "20:30 kısa sure anlamı",
+   "tiktok": "20:30",
+   "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 25 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 6. ayet (29 harf). Hook: 2. ve 6. ayetle örtüşen somut an (inançtan taviz istenmesi); suçlama/kınama yok. vidIQ TR 24 Ekim: 'kafirun suresi' ~7.472/ay (+%75,6); 25 Ekim: 'tekasür suresi' ~7.989/ay (rekabet 56) — sıradaki aday."
  }
 ]

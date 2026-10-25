@@ -1,0 +1,44 @@
+{
+ "id": "v063",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "pZTAAzggwgaMfmtXySDP",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "İçini korku ve hüzün mü sardı?",
+   "prompt": "[deep voice] [slowly] İçini korku ve hüzün mü sardı?",
+   "generation_id": "J5UeEs9746hwZhW2FG6j",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/KgJapoijOaImlxWUKMT8/J5UeEs9746hwZhW2FG6j/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T114812Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=4cb425f006c35881e3f64ff182f7cd66ec4ce1f02945ab5a447c7b8d7a7eb2e3c8d86302f531a7affcefa29f3bdb5440b02e2ba87a862641938d7853c0d95c5bdc64126d5a9fa7b34a1a95c2f867c8e00d539d7320d811e0f9628162e0b3eddc5d4f1719ac60b38968b18bf2a769dd2eff29d80833ac02e066f347684032e61884c93bbc0421eda33129cdefd0f6e4c29fd7342546438bd2e050dfc209567aff9524c699ae05ac0c785293176eebbce22d82231546783f7864ca6db6ab1a73991cae33ef059e7b6fd762e7d4066073ba040ac6a966f0ff62535da138fedb02764072697eacf74e753c91af609ea9c3ab6301dd79486176662704046da3a6690f"
+  },
+  {
+   "kind": "giris",
+   "text": "Allah, dostlarını bu ayette anlatıyor. Dinle.",
+   "prompt": "[deep voice] [slowly] Allah, dostlarını bu ayette anlatıyor. Dinle.",
+   "generation_id": "eSOZCZgZigBfT8wI6ZYv",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/d2AvxWG9pJOLv28hWOQ2/eSOZCZgZigBfT8wI6ZYv/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T114812Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=01ac8db9f33cb2153dc4b41f76eb5486611fb3e0d12a8f8f37f88c8a6b4febcdb8f84c41ea8746b64f522d0cf463fc30517519248bc93a17ea4186d195082a31fdee34599be8f98e08c42089366a6b0c69f4b84efca8daf6b81703dadfaba3cf55fc51faa3e949f6114b857327352a23fbc877eba4c614da21a3bd120783e1b059a065970a291da70c01bc536d094fd36b095f2a4a890d72ceab3c404cb38bfe435912ac31c3fc3ee6bbc62bd6452cec6fab2c9fc246c101581ed23d66321a2c840cda6c4fdc5162ba9735b8122d311653d53b69d0449db26a286cf6ec70dfe06d373064b0e6417c8d51d570bf3cb68facb279781ea3afd8fd96af5f2910d4c1"
+  },
+  {
+   "kind": "meal",
+   "text": "İyi bilin ki, Allah'ın dostlarına korku yoktur, onlar üzülmeyeceklerdir.",
+   "prompt": "[softly] [slowly] İyi bilin ki, Allah'ın dostlarına korku yoktur, onlar üzülmeyeceklerdir.",
+   "generation_id": "8KpiUee5G3vxzQMW4Krq",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/XOBHPjJuR6ji6jcYU5TQ/8KpiUee5G3vxzQMW4Krq/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T114813Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=76523f2f41e0c01981000b4d82599740f3b0db3fd0acd98b0ea318a5608b1b9e9c5f62633e0265864d582a0daec60221a0db7c1d8abf4faacc8776fa28baa1e53441abb7deb827441533eb4483f2050e50d7cd762172195d55e22a37dd3294e7757b70f18327201ed1dcb67338dbb5fc2231b0d0c9423576988e007e2e4455a8fa1d652b296be29d01f3f461715e3fb0c18549e720ffb3bc8e588795593e7db762d457daa2390691fbfed321be156b2b2a6ecb5ac83e163bdd86668a876906bcc9672d916d192ad4a2d274e42e32c2919a0aa833fba25e2589e37dcc0a4d86870f6ef4e849b6b9e011014fe6599d8ad48311e7d6b41dc35b93eaa6a6822e8007"
+  },
+  {
+   "kind": "meal",
+   "text": "Onlar Allah'a inanmış ve O'na karşı gelmekten sakınmışlardır.",
+   "prompt": "[softly] [slowly] Onlar Allah'a inanmış ve O'na karşı gelmekten sakınmışlardır.",
+   "generation_id": "NZJ8UxwwNkknaX8r66fh",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/D0pJPPPLbjkm0W7rkBm2/NZJ8UxwwNkknaX8r66fh/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T114813Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=32843b35983876ae889dc5895b364c5e352436092e973ffaed998acb16dd75d54a004512ce121e0916fd995966afd515ad9b663e62f30de608f21f37a46a21817db4b12186f7fae868c5061e4ca8ba10a89037d980977e5e107bf27a0615eca07cf971527224b7b4dd239d2a486bf74cd34dfb28a4dbfae960dc1aeb84418b140fdff1b98c0d78167ac47aa5ac7d96ed5a1761de6ec89dc3faeb9006702da3d26b583242c4ed6e766873b93af993012d5bb030d325d7d572651ce813e36e1c4c907d448a630c030526cd3d4a68b535e8f0b8af09fd58f773597653ec2907a901c07f93be48019cac92b2238a8ff59001997dd0f47052e6f594b0945e1d0851ef"
+  },
+  {
+   "kind": "cta",
+   "text": "Bu gece korku ve hüzün sardığında, Allah'ın dostlarını hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bu gece korku ve hüzün sardığında, Allah'ın dostlarını hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "dC77NcaFZM51YpfEpNs9",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/4QlG8FVaadA3UQjDPjro/dC77NcaFZM51YpfEpNs9/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T114814Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=af08272c7fd6b45e120a6582cb4abc58ed8e8322ee67bb37cf34633b992daad766e991f035cf11e4b9a553f546b32dd585eddb2ea8a9aa2d5cb294d78d54848c4b1fd9147290ed8d5c506cd5740ddbe52844c51f822cb49cde93e350771a14d13f895723eb3b689b4b727135df9b7ea82ceb8268e8f4b7064d9a4fb59ed1c292c2efeea46e342bcd37e815a26e778d46eaf1250253fe282f60b6365eb5405c313ae00394578022a248cd9471a320523135317081836e905a7813885a718d6ea0fa692ba866674448bb7ea13dcbff79aec42aaa7f39956196ade0a6149b902de54dd3e34cffe808fb513d3e6ee683b50940b6a35614edfbc6619dd3f3ad419892"
+  }
+ ]
+}
