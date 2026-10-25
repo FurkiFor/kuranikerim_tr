@@ -1,0 +1,44 @@
+{
+ "id": "v069",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "TMCbFsRfHBJruTtVmF6P",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Umudunu insanlara bağlayıp kırıldın mı?",
+   "prompt": "[deep voice] [slowly] Umudunu insanlara bağlayıp kırıldın mı?",
+   "generation_id": "Jfvc1Wwab8T4A1e6lzyu",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ehZf6bGj8TErfv1WX9ch/Jfvc1Wwab8T4A1e6lzyu/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T031849Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3259314512e99743e2f93e9b3f37ca1eabce2c36e97ca039123cd976653604314e4acf67a5c8954956b3cc7603c8858dcdf1909f198f39cd9c467c5b1edd5adcd4f86401bdec17e70690677d7e96080efc8598747892cf7ecc41c8bab33bceade1daf5f237863a0f1e505f56032d5912cc5ce81bae779a9c5785fe15c5705305dfe648ef9ee36689c5f5b7d57d5ced0ced138c44a32b250a6f11058e0062ff04f41ffa0647b6e52f0c4892dcd88f898980ca29192a25a06cc80ef4235ad29926fc188c99fa64861a5c85a430d4f5571b23718c891d8fa1979aea76c339055d42c91e65c780d9d1b9f05a17e1ba2327789d9f2848a07c1dd53ec4e9b0ba604dfd"
+  },
+  {
+   "kind": "giris",
+   "text": "İnşirah Suresi'nin son iki ayeti bunu anlatıyor. Dinle.",
+   "prompt": "[deep voice] [slowly] İnşirah Suresi'nin son iki ayeti bunu anlatıyor. Dinle.",
+   "generation_id": "gyyGlUUlHg7nbQ0ILK9P",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/YRYT20CLczIDUqzW65wT/gyyGlUUlHg7nbQ0ILK9P/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T031850Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=41b8076ffe684e7d6fa0e15111d6664b5f50852f3064d5d9b13abeb14b62575359cd5b7097ddd928da93bfaff9e8273b6e5b03eb37f0a7f1ad31e57ac40ef67e0989de0e5121fd2f374a47c664199da385588fd22bcd74f298bffa4cab1a1ffff46526116bd9586cea7ad81fb67fd5b31927d3c22e882d0064b9618c742c67429bd7b586c87368ec9fb1484242ff8601170b26bd0187e2e8461c7da87fe80132eb74e44f8be95024e5f488832c22990989fbe8b9bf9aa7f6b476a65ce4dd416d4c1315d6db92facd559daef9905bf69e72a23290f05d09978c6c48a392c8b8eb64d5d18ad678220eb2b3b0f2072fda55d8032b02ae340841fb1499e3d85fefc0"
+  },
+  {
+   "kind": "meal",
+   "text": "Öyleyse, bir işi bitirince diğerine giriş.",
+   "prompt": "[softly] [slowly] Öyleyse, bir işi bitirince diğerine giriş.",
+   "generation_id": "1YE6oxN5bZZ16wduRvwQ",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/W0DowMwCZlQC35RdX5jI/1YE6oxN5bZZ16wduRvwQ/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T031850Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7775e983103250bf73db2408f031052fe7125455659649909db1adefe3a1bc09f8c9832504e0e70d4a9cd3f4e11cde8c53a12f9e0064902f14c9a8663b014c0635f0bb8cd3c2fc768d20996f2e0f6234c1ae71831f0217a7804ee385a7530510eb789567db5faa428bcea7b6ff560d2a2510f5ce67b719f51b8d56a93c1156036107b06a70c85ca6d909f01953d1f85f8a5b97250a07408fe0b0387f9536ebde097155d9f6b88798940094b3e6e0be755c86023f971d1c016cbd076a70e5b650059f49341c54068870608b62dda9b20acaed6732342d7cbfa1e774786080abe4ff00f5e2b8ad2e7aee4730cdee3e46068121d0400350c58094a9a965840e50e8"
+  },
+  {
+   "kind": "meal",
+   "text": "Ve ümit edeceğini yalnız Rabbinden iste.",
+   "prompt": "[softly] [slowly] Ve ümit edeceğini yalnız Rabbinden iste.",
+   "generation_id": "AI5NZRYuqCNbD6efRfzf",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/CcXyeaoBW9PGgAawJIE8/AI5NZRYuqCNbD6efRfzf/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T031850Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9ef0185b5e2c686ba72a26582998132b7adeb3d08682b72da2326eb0ebd8e8449e79484bb98e99682a04ce5949a380d385f1f72a748cb0aff32753168d3868f49f54e6f057b10e755f8890691f3bb5ba74b63a35cc2d4ef6b6f836273ca8bf134df5f0936971d03f2f922896c5c87a33c064a21cd9765abb8082921724a684900237377017ea5e8fd9c247641444194a4bce7f1e045f894d1787a35ff2a366fd0f0804291cfc990011dd46b7287d3ea989c29ae726fdb9520f9a662cf08dd4df11acce26763c7209286d8102dc50f5818cf56660e3fc133c710cfaa912e66b1917895ffdffe3c7c41c5b9707e0016284b583de79e3bb96925e9a9ddf40d7b505"
+  },
+  {
+   "kind": "cta",
+   "text": "Umudunu yalnız Rabbine bağla. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Umudunu yalnız Rabbine bağla. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "WoMpp3ZbwRQXzJx0fcaW",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/WRg6mLxS3H8q0bAbJWTn/WoMpp3ZbwRQXzJx0fcaW/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T031851Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3e9335d38042bfde476ffeefcb4d8375a7f2590890321ea3dced901ebabe38426bea6cc62a5d9250256c1f960aa284d76a673053ecdb0f739aa27cbae627a8ecc6645b7b7e019cf2e809e5abb4f5e8b077f0afc761b951834eda4440fcff48bd4122d81e9dc86e379088aa96f4d49e0fbbbd9b34df4588a7922ea471c5a7ca713bd3c9707851d6a04574fba50ea7387cc05830d557d12c0f5436796c630fc21503006066c2b9f106ecc7d4eebf35d24ab61f43641e9eea73702c25cab80ff60efe699a25379f3e29aa49fc40d0561947c9c2c776f066ca6a14a29183934687705486bc9d4a3d0bcc54f93fec9441a234d51b0b46e23aefaf95b46905812acbed"
+  }
+ ]
+}
