@@ -114,6 +114,42 @@ Tekrar paylaşım adayları (YouTube ≥1.000 izlenme ya da ≥%70 izlenme oran�
 - v018 "Sana kötülük edene ne yapıyorsun?" (YT 1.745; TikTok'a 15 Ekim eski açılışla gitti) — `voiceovers/v018/` var → render ile yeni açılışla yeniden üretilebilir.
 - v012 "Başına gelenleri anlamlandıramıyorsan" (2.653, %71,7), v007 "Allah'ın seni andığını…" (1.643, %82,5), v006 "Moralin bozuksa…" (1.578, %87,6), v011 "Emeklerin boşa…" (1.615), v005 "Çok günah işledim…" (1.565), İnşirah 5-6 (2.410, %76,6), Nazar duası (1.538) — mp3'leri yok; yeni sesle (ElevenLabs) yeniden üretim gerekir.
 
+### Haftalık güncelleme — 26 Ekim 2026 (Pazartesi, SABAH)
+Kaynak: Kervly `get_youtube_insights` (7 gün) + `get_youtube_stats` (26 Ekim 07:16) · Zernio stats 26 Ekim 07:17 (TikTok 61, Instagram 36 gönderi). 19 Ekim sonrası, 1 günü dolmuş videolar. YouTube'da 24 Ekim 09:12 toplu yayını (7 video, token düşüşü) temiz olmayan ayrı grup.
+
+**YouTube (izlenme, yayından bu yana)**
+| Format | Video | Medyan |
+|---|---|---|
+| Tilavetli anlatımlı, teselli (temiz) | v062 Nahl 127 1.795 · v061 Hicr 97 1.411 · v065 Enbiya 88 2.174 · v067 İsra 82 2.048 · v068 Tur 48 2.203 (+ v069 İnşirah 7-8 1.216, 21 sa) | **2.048** (5) |
+| Kısa sure anlamı (temiz) | v024 İhlas 1.872 · v025 Asr 1.786 · v097 Felak 1.904 · v101 Nasr 945 (00:30) (+ v103 Kafirun 992, 14 sa; v102 Maun 1.061, 3 sa) | **1.829** (4) |
+| Açık adlı dua anlatımlı | v080 İbrahim 41 1.726 (+ v066 Tövbe 939, 17 sa) | 1 temiz video |
+| Toplu yayın (24 Ekim 09:12) | v099 1.904 · v064 1.296 · v070 923 · v076 892 · v100 794 · v038 382 · v098 58 | 923 |
+| Tilavet kartı (22 Ekim'den YouTube'a gitmiyor) | 9 video: 34–161 | 71 |
+Süre: 31–45 sn ort. 1.251 (24 video), 46–60 sn 982 (12), 16–30 sn 606 (9), ≤15 sn 82 (5, hepsi kart). Aramadan gelen pay %5 (730/13.891; 18 Ekim'de %2). 7 günde +63 / −3 abone; abone 209.
+Tek gözlem: v063 (25 Ekim 23:30, "İçini korku ve hüzün mü sardı?") 8 saatte 43 izlenme; aynı gece 00:30'daki v102 Maun 3 saatte 1.061. Slot mu içerik mi belirsiz; 1 Kasım slot değerlendirmesinde 23:30'a ayrıca bakılır.
+
+**TikTok (izlenme · 2. sn · ort. izleme)**
+| Format | Video | Medyan |
+|---|---|---|
+| Kısa sure anlamı | 9 video: 155–1.269 (v098 1.269 · %62 · 15 takip; v024 1.246 · %60) | **192** · 2. sn %46–62 |
+| Tilavetli anlatımlı | 9 video: 137–183 | **168** · 2. sn %37–49 |
+| Tekrar / eski açılış | 11 video: 142–4.192 (v021 tövbe duası 4.192 · %59 · 22 takip) | 182 |
+| Tilavet kartı (21 Ekim'den gitmiyor) | 6 video: 138–228 | 169 · 2. sn %21–41 |
+Bandı (134–200) kıranlar: v021 tövbe duası 4.192, v098 Nas 1.269, v024 İhlas 1.246, v066 tövbe duası 640 (13 sa, %55, 8 takip), v043 430, v025 404, v103 Kafirun 335 (11 sa). Takipçi 1.660 → 1.726 (18 → 26 Ekim).
+
+**Instagram (normal Reel)**
+| Format | Video | Medyan |
+|---|---|---|
+| Tilavet / dua kartı | 16 video (1 günü dolan): v051 26, diğer 15'i 1.415–2.619 (+ v086 18, 21 sa) | **1.522** |
+| Türkçe sesli (anlatımlı + kısa sure) | 8 video: 10–18 | 13 |
+İki çöküş: v086 (İnşirah 1, **4,0 sn**) 18 izlenme ve v051 (Mü'min 44, **21,5 sn**) 26 izlenme; tutan kartların süresi 7,7–16,3 sn. En iyi: v054 deney 7 "Rabbim! Hz. Musa'nın duası" 2.619 (29 kaydetme, 14 paylaşım). Takipçi 9 → 51 (Zernio takip/video hâlâ 0,0 — Zernio bu alanı doldurmuyor).
+
+Bulgular → kararlar:
+1. YouTube: teselli tilavetli anlatımlı (medyan 2.048, 5 video) ve kısa sure anlamı (1.829, 4) aynı bantta; ikisi de kartın ~40 katı → **mevcut düzen (10:00/18:00/23:30 anlatımlı, 20:30 kısa sure, kart yok) değişmiyor.**
+2. TikTok: kısa sure anlamı 2. sn ve medyanda anlatımlının önünde (9'a 9 video) → 20:30 kısa sure anlamı sürer. Bandı kıran 7 videonun 3'ü tövbe/af ya da sure adlı dua (v021, v066, v043 besmelesiz sure) → tövbe/af haftada en az 2 hedefi sürer; 1 Kasım'da v021/v066 kalıbı (açık adlı tövbe duası) 3. videoyla sınanır.
+3. Instagram: kart medyanı 1.522 (16 video), Türkçe sesli 13 → **yalnız kart kararı doğrulandı.** Süre uçları (4 sn ve 21,5 sn) iki kartta çöktü; 2 video (≥5 değil) olduğu için kural değil, **önlem**: IG kartı 7–17 sn hedeflenir (kart.py tahmini `len(AR)/5.5+0.6`); 1 Kasım'da yeniden bakılır.
+Tekrar paylaşım adayları (TikTok 13:00; YouTube ≥1.000, TikTok'ta bandın içinde kalmış, bir kez paylaşılmış): v068 Tur 48 (YT 2.203 / TT 169) — 26 Ekim 13:00, v067 İsra 82 (2.048 / 156), v080 İbrahim 41 (1.726 / 142), v062 Nahl 127 (1.795 / 183), v061 Hicr 97 (1.411 / 178). v065 tekrarı (25 Ekim) ilk paylaşımın altında kaldı (146 ↔ 168) — tekrar tek başına artış getirmiyor; 1 Kasım kuralı (tekrarlar <150 ise yeni sesle yeniden üretim) geçerli.
+
 ## Viral format araştırması (vidIQ, 19 Ekim 2026)
 TikTok + Instagram'da son 30 günde 0,6–2 M izlenen 24 Türkçe dini video (çoğu 1–80 bin takipçili küçük hesap):
 - Süre 8–14 sn (TikTok örnekleri 8, 10, 14 sn), döngülü.

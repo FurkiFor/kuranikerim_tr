@@ -773,5 +773,47 @@
   "not": "dua kartı (deney 7: Rabbim! Peygamberimize öğretilen dua, İsra 80) — normal Reel",
   "zernio_id": "6addf28c62d6fa3164709fa1",
   "status": "scheduled"
+ },
+ {
+  "id": "v081",
+  "at": "2026-10-26T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v047",
+  "at": "2026-10-26T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v112",
+  "at": "2026-10-26T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v068",
+  "at": "2026-10-26T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v074",
+  "at": "2026-10-26T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v092",
+  "at": "2026-10-26T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
  }
 ]

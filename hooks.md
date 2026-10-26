@@ -80,6 +80,8 @@
 | 37 | Günahların içini mi sıkıyor? | — | Mü'minun 118: "Rabbim! Bağışla, merhamet et" | v066; açık adlı dua (tövbe duası), 25 Ekim 18:00; v021 tövbe duası tekrarı TikTok 1.384 |
 | 38 | Biri inancından vazgeçmeni isteyince ne dersin? | — | Kafirun 1-6: "Ben sizin taptıklarınıza tapmam … Sizin dininiz size, benim dinim banadır" | v103; deney 8, 25 Ekim 20:30; arama: kafirun suresi ~7.472/ay (+%75,6) |
 | 39 | İçini korku ve hüzün mü sardı? | — | Yunus 62-63: "Allah'ın dostlarına korku yoktur, onlar üzülmeyeceklerdir" (iman + takva koşulu 63'te) | v063; 25 Ekim 23:30 tilavetli anlatımlı, gece yalnız kapanışta |
+| 40 | Seni hafife mi alıyorlar? | — | Rum 60: "Kesin olarak inanmayanlar seni hafife almasınlar" | v081; 26 Ekim 10:00; Peygambere hitap girişte söylenir; kötülük görmek ailesi |
+| 41 | Rızık kaygısı uykunu mu kaçırıyor? | — | Zariyat 58: "rızıklandıran … Allah'tır" | v074; 26 Ekim 18:00; rızık vaadi yok; "rızık ayeti" <750/ay (vidIQ) |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
