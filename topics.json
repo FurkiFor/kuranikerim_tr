@@ -2509,7 +2509,7 @@
    7
   ],
   "hook": "Kimsesiz kaldığını mı düşünüyorsun?",
-  "kapanis": "Kimsesiz hissettiğinde seni barındıranı hatırla.",
+  "kapanis": "Bu gece kimsesiz hissedersen, seni barındıranı hatırla.",
   "bg": "gece",
   "sahne": "yildiz",
   "aciklama": "Duha Suresi 6-7. ayetlerde Allah, Peygamberine onu öksüz bulup barındırdığını, şaşırmış bulup doğru yola eriştirdiğini hatırlatır. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -2528,26 +2528,27 @@
   },
   "kurgu": {
    "kamera": [
-    "sabit",
+    "kay",
     "vurgu",
     "cek"
    ],
    "gecis": [
-    "kesme",
-    "kararma"
+    "kararma",
+    "kesme"
    ]
   },
   "seo": {
-   "yt_baslik": "Kimsesiz kaldığını mı düşünüyorsun? | Duha 6-7",
-   "ilk_satir": "Duha Suresi 6-7: seni öksüz bulup barındırmadı mı",
+   "yt_baslik": "Kimsesiz kaldığını mı düşünüyorsun? | Duha 6-7 · Yalnızlık ayeti",
+   "ilk_satir": "Kimsesiz kaldığını mı düşünüyorsun? Yalnızlık ayeti | Duha 6-7: Seni öksüz bulup da barındırmadı mı",
    "aciklama": "Duha Suresi 6-7. ayetlerde Allah, Peygamberine onu öksüz bulup barındırdığını, şaşırmış bulup doğru yola eriştirdiğini hatırlatır. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
-    "duha suresi",
-    "duha suresi 6 7",
     "yalnızlık ayeti",
+    "duha suresi 6 7",
+    "duha suresi",
     "teselli ayetleri"
    ]
-  }
+  },
+  "not": "AKŞAM 26 Ekim 23:30 — tilavetli anlatımlı (teselli: kimsesizlik/yalnızlık; gece yalnız kapanışta). Tilavet 59 harf (6-7). Ayet Peygambere hitap, girişte söylenir. Bugün 10:00 hafife alınma, 18:00 rızık kaygısı."
  },
  {
   "id": "v076",
@@ -4484,5 +4485,65 @@
   ],
   "ust": "Hz. Şuayb'ın kavmine tövbe çağrısı",
   "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+ },
+ {
+  "id": "v119",
+  "tema": "Tin Suresi Anlamı",
+  "sure": 95,
+  "ayet": [
+   1,
+   8
+  ],
+  "hook": "Aynada kendini beğenmeyince ne dersin?",
+  "kapanis": "Aynada kendini beğenmediğinde, dördüncü ayeti hatırla.",
+  "bg": "safak",
+  "sahne": "tohum",
+  "aciklama": "Tin Suresi'nde Allah, insanı en güzel şekilde yarattığını bildirir; inanıp yararlı iş işleyenlere kesintisiz ecir olduğunu söyler. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "tin suresi",
+   "tilavet",
+   "kısa sureler"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    4
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Tin Suresi'nde. Sekiz kısa ayet; dördüncüsünü iyi dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Aynada kendini beğenmeyince ne dersin? Tin Suresi anlamı",
+   "ilk_satir": "Aynada kendini beğenmeyince ne dersin? Tin Suresi anlamı ve meali (1-8)",
+   "aciklama": "Tin Suresi'nde Allah, insanı en güzel şekilde yarattığını bildirir; sonra inanıp yararlı iş işleyenlere kesintisiz ecir olduğunu söyler ve hükmedenlerin en iyisinin kendisi olduğunu hatırlatır. Diyanet meali ile Tin Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tin suresi",
+    "tin suresi anlamı",
+    "tin suresi meali",
+    "kısa sureler",
+    "kuran tilaveti"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "20:30 kısa sure anlamı",
+   "tiktok": "20:30",
+   "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 26 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 4. ayet (52 harf). Hook: 4. ayetle örtüşen somut an (aynada kendini beğenmemek); güzellik/kilo vaadi yok. vidIQ TR 26 Ekim: 'tin suresi' ~24.764/ay (rekabet 59) — aday listesinin en yükseği. Yorum parçası süre için çıkarıldı (TTS 56 sn → ~46 sn; hedef ≤60 sn)."
  }
 ]
