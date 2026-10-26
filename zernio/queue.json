@@ -827,5 +827,37 @@
   ],
   "zernio_id": "6adeca17b548746026842614",
   "status": "scheduled"
+ },
+ {
+  "id": "v119",
+  "at": "2026-10-26T20:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "kısa sure anlamı (deney 8) — Tin 1-8, somut an + sure adı"
+ },
+ {
+  "id": "v105",
+  "at": "2026-10-26T20:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "tilavet kartı (deney 9 gözlem, Nahl 18 şükür, 12,1 sn) — normal Reel"
+ },
+ {
+  "id": "v075",
+  "at": "2026-10-26T23:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tilavetli anlatımlı (teselli, gece kapanışlı) — Duha 6-7 kimsesizlik"
+ },
+ {
+  "id": "v109",
+  "at": "2026-10-26T23:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "tilavet kartı (deney 9 gözlem, Şura 43 affetmek, 10,3 sn) — normal Reel"
  }
 ]
