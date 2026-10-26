@@ -852,12 +852,32 @@
    "youtube": {
     "tarih": "2026-10-26T20:30:00+04:00",
     "kervly_id": "p_1A83Yr7CkOp0"
+   },
+   "tiktok": {
+    "tarih": "2026-10-26T20:30:00+04:00",
+    "zernio_id": "6adf421e2be9ca30193916a3"
    }
   },
   "v075": {
    "youtube": {
     "tarih": "2026-10-26T23:30:00+04:00",
     "kervly_id": "p_u0-rG3UxDkiw"
+   },
+   "tiktok": {
+    "tarih": "2026-10-26T23:30:00+04:00",
+    "zernio_id": "6adf421f32a6aabd1deb7726"
+   }
+  },
+  "v105": {
+   "instagram": {
+    "tarih": "2026-10-26T20:30:00+04:00",
+    "zernio_id": "6adf421f2be9ca30193916af"
+   }
+  },
+  "v109": {
+   "instagram": {
+    "tarih": "2026-10-26T23:30:00+04:00",
+    "zernio_id": "6adf42202be9ca30193916b3"
    }
   }
  }

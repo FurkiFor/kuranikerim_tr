@@ -834,7 +834,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "kısa sure anlamı (deney 8) — Tin 1-8, somut an + sure adı"
+  "not": "kısa sure anlamı (deney 8) — Tin 1-8, somut an + sure adı",
+  "zernio_id": "6adf421e2be9ca30193916a3",
+  "status": "scheduled"
  },
  {
   "id": "v105",
@@ -842,7 +844,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı (deney 9 gözlem, Nahl 18 şükür, 12,1 sn) — normal Reel"
+  "not": "tilavet kartı (deney 9 gözlem, Nahl 18 şükür, 12,1 sn) — normal Reel",
+  "zernio_id": "6adf421f2be9ca30193916af",
+  "status": "scheduled"
  },
  {
   "id": "v075",
@@ -850,7 +854,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tilavetli anlatımlı (teselli, gece kapanışlı) — Duha 6-7 kimsesizlik"
+  "not": "tilavetli anlatımlı (teselli, gece kapanışlı) — Duha 6-7 kimsesizlik",
+  "zernio_id": "6adf421f32a6aabd1deb7726",
+  "status": "scheduled"
  },
  {
   "id": "v109",
@@ -858,6 +864,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "tilavet kartı (deney 9 gözlem, Şura 43 affetmek, 10,3 sn) — normal Reel"
+  "not": "tilavet kartı (deney 9 gözlem, Şura 43 affetmek, 10,3 sn) — normal Reel",
+  "zernio_id": "6adf42202be9ca30193916b3",
+  "status": "scheduled"
  }
 ]
