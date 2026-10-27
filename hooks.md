@@ -58,7 +58,7 @@
 | 16 | Sana kurulan tuzaklardan mı korkuyorsun? | — | Nahl 127: "kurdukları düzenlerden de endişe etme" | v062; kötülük görmek (en iyi dert türü) |
 | 17 | Yaşadıklarını kimse görmüyor mu sanıyorsun? | — | Tur 48: "sen, Bizim nezaretimiz altındasın" | v068; Peygambere hitap, girişte söylenir |
 | 18 | Umudunu insanlara bağlayıp kırıldın mı? | — | İnşirah 7-8: "ümit edeceğini yalnız Rabbinden iste" | v069 |
-| 19 | Aklına kötü düşünceler mi geliyor? | — | Mü'minun 97-98: şeytanların kışkırtmalarından sığınma | v073; arama: vesvese duası |
+| 19 | Aklına kötü düşünceler mi geliyor? | — | Mü'minun 97-98: şeytanların kışkırtmalarından sığınma | v073; 27 Ekim 10:00; arama: vesvese ~7.169/ay, "vesvese duası" <750 |
 | 20 | Bazen hiçbir şey kalbini huzura kavuşturmuyor (kart `ust`, deney 9) | — | Ra'd 28: "kalbler ancak Allah'ı anmakla huzura kavuşur" | v049; vidIQ 20 Ekim: gözlem cümlesi |
 | 21 | Muhtaç hissediyorsan Hz. Musa'nın bu duasını dinle (kart `ust`) | — | Kasas 24: "bana indireceğin hayra muhtacım" | v055; deney 6 kalıbı |
 | 22 | Üzüntüden çıkamıyor musun? | — | Enbiya 88: "onu üzüntüden kurtarmıştık" | v065; kıssa köprüsü (Hz. Yunus, karanlıklar: Enbiya 87) |
@@ -84,6 +84,7 @@
 | 41 | Rızık kaygısı uykunu mu kaçırıyor? | — | Zariyat 58: "rızıklandıran … Allah'tır" | v074; 26 Ekim 18:00; rızık vaadi yok; "rızık ayeti" <750/ay (vidIQ) |
 | 42 | Aynada kendini beğenmeyince ne dersin? | — | Tin 4: "Biz insanı en güzel şekilde yarattık" | v119; deney 8, 26 Ekim 20:30; somut an; güzellik vaadi yok; arama: tin suresi ~24.764/ay |
 | 43 | Kimsesiz kaldığını mı düşünüyorsun? | — | Duha 6-7: "Seni öksüz bulup da barındırmadı mı" | v075; 26 Ekim 23:30, gece yalnız kapanışta; Peygambere hitap girişte söylenir |
+| 44 | Anne baban yaşlandıkça için mi sızlıyor? | — | İsra 24: "Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et!" (yaşlılık hâli İsra 23'te) | v071; açık adlı dua (anne baba duası), 27 Ekim 18:00; v080 anne baba YouTube 2.394 |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

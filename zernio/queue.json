@@ -867,5 +867,47 @@
   "not": "tilavet kartı (deney 9 gözlem, Şura 43 affetmek, 10,3 sn) — normal Reel",
   "zernio_id": "6adf42202be9ca30193916b3",
   "status": "scheduled"
+ },
+ {
+  "id": "v073",
+  "at": "2026-10-27T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v106",
+  "at": "2026-10-27T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v110",
+  "at": "2026-10-27T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v067",
+  "at": "2026-10-27T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v071",
+  "at": "2026-10-27T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v113",
+  "at": "2026-10-27T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
  }
 ]
