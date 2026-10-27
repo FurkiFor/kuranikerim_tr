@@ -2311,8 +2311,8 @@
    24,
    24
   ],
-  "hook": "Anne baban için dua ediyor musun?",
-  "kapanis": "Bu gece anne baban için bu duayı sen de et.",
+  "hook": "Anne baban yaşlandıkça için mi sızlıyor?",
+  "kapanis": "Anne baban aklına geldiğinde bu duayı sen de et.",
   "bg": "gece",
   "sahne": "kalp",
   "aciklama": "İsra Suresi 24. ayette anne babaya acıyarak alçak gönüllülük kanatlarını germek ve 'Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et' diye dua etmek öğütlenir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -2331,18 +2331,18 @@
   },
   "kurgu": {
    "kamera": [
-    "sabit",
-    "vurgu",
+    "it",
+    "kay",
     "cek"
    ],
    "gecis": [
-    "kesme",
-    "kararma"
+    "kararma",
+    "kesme"
    ]
   },
   "seo": {
    "yt_baslik": "Anne baba duası | İsra 24 · Rabbim onlara merhamet et",
-   "ilk_satir": "Anne baba duası | İsra 24: Rabbim! Küçükken beni yetiştirdikleri gibi onlara merhamet et",
+   "ilk_satir": "Anne baba duası | İsra 24: Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et",
    "aciklama": "İsra Suresi 24. ayette anne babaya acıyarak alçak gönüllülük kanatlarını germek ve 'Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et' diye dua etmek öğütlenir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "anne baba duası",
@@ -2350,7 +2350,9 @@
     "anne babaya dua",
     "rabbi irhamhuma"
    ]
-  }
+  },
+  "kopru_kaynak": "İsra 23: Eğer ikisinden biri veya her ikisi, senin yanında iken ihtiyarlayacak olursa",
+  "not": "SABAH 27 Ekim 18:00 — tilavetli anlatımlı (açık adlı dua: anne baba duası; v080 İbrahim 41 YouTube 2.394). Tilavet 104 harf."
  },
  {
   "id": "v072",
@@ -2429,9 +2431,9 @@
   },
   "kurgu": {
    "kamera": [
-    "cek",
+    "sabit",
     "vurgu",
-    "kay"
+    "cek"
    ],
    "gecis": [
     "kesme",
@@ -2448,7 +2450,9 @@
     "müminun suresi 97 98",
     "vesveseden kurtulma"
    ]
-  }
+  },
+  "not": "SABAH 27 Ekim 10:00 — tilavetli anlatımlı (teselli: vesvese/kaygı; arama niyeti vesvese duası). Tilavet 91 harf.",
+  "kopru_kaynak": "Mü'minun 97: De ki: Rabbim! Şeytanların kışkırtmalarından Sana sığınırım"
  },
  {
   "id": "v074",
@@ -4248,7 +4252,7 @@
    151
   ],
   "kart_metin": "Rabbim! Beni ve kardeşimi bağışla, bize acı, Sen merhametlilerin merhametlisisin",
-  "sahne": "fener",
+  "sahne": "kapi",
   "hook": "Rabbim! Hz. Musa'nın kardeşiyle birlikte duası",
   "tema": "Dua",
   "etiketler": [
