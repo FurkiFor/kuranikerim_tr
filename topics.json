@@ -2363,12 +2363,13 @@
    5
   ],
   "hook": "Sabrın tükendi mi?",
-  "kapanis": "Sabrın tükendiğinde bu iki kelimeyi hatırla.",
+  "kapanis": "Bu gece sabrın tükendiğinde, bu kısa ayeti hatırla.",
   "bg": "deniz",
   "sahne": "firtina",
   "aciklama": "Mearic Suresi 5. ayette 'Güzel güzel sabret' buyrulur. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
    "sabır",
+   "sabır ayeti",
    "teselli",
    "tilavet"
   ],
@@ -2378,7 +2379,7 @@
    "klasor": "recitations/hudhaify"
   },
   "seslendirme": {
-   "giris": "Kur'an'ın en kısa sabır ayetlerinden birini dinle."
+   "giris": "Bu söz önce Peygamberimize söylendi. Kısa bir ayet; dinle."
   },
   "kurgu": {
    "kamera": [
@@ -2392,16 +2393,22 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Sabrın tükendi mi? | Mearic 5 · Güzel sabır ayeti",
-   "ilk_satir": "Sabır ayeti | Mearic 5: Güzel güzel sabret",
-   "aciklama": "Mearic Suresi 5. ayette 'Güzel güzel sabret' buyrulur. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "yt_baslik": "Sabrın tükendi mi? | Mearic 5 · Sabır ayeti",
+   "ilk_satir": "Sabrın tükendi mi? Sabır ayeti | Mearic 5: Güzel güzel sabret",
+   "aciklama": "Mearic Suresi 5. ayette Peygamberimize 'Güzel güzel sabret' buyrulur. Kur'an'dan kısa bir sabır ayeti. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "sabır ayeti",
-    "güzel sabır",
+    "sabır ile ilgili ayetler",
     "mearic suresi 5",
-    "sabır ile ilgili ayetler"
+    "güzel güzel sabret"
    ]
-  }
+  },
+  "platform": {
+   "youtube": "23:30 tilavetli anlatımlı",
+   "tiktok": "23:30",
+   "instagram": "gönderilmez — 23:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 27 Ekim 23:30 — tilavetli anlatımlı teselli, gece hitabı yalnız kapanışta. vidIQ 27 Ekim AKŞAM: sabır teması 3 IG outlier'da (Bir şeye sabrediyorsanız 1,3 M; Seni bekletir… sabret 1,5 M; Sabret 1,1 M). Peygambere hitap girişte söylenir."
  },
  {
   "id": "v073",
@@ -4549,5 +4556,66 @@
    "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
   },
   "not": "AKŞAM 26 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 4. ayet (52 harf). Hook: 4. ayetle örtüşen somut an (aynada kendini beğenmemek); güzellik/kilo vaadi yok. vidIQ TR 26 Ekim: 'tin suresi' ~24.764/ay (rekabet 59) — aday listesinin en yükseği. Yorum parçası süre için çıkarıldı (TTS 56 sn → ~46 sn; hedef ≤60 sn)."
+ },
+ {
+  "id": "v120",
+  "tema": "Tekasür Suresi Anlamı",
+  "sure": 102,
+  "ayet": [
+   1,
+   8
+  ],
+  "hook": "Sahip olduklarını başkalarıyla kıyaslayınca ne dersin?",
+  "kapanis": "Yine kıyaslamaya başladığında, son ayeti hatırla.",
+  "bg": "kum",
+  "sahne": "kum",
+  "aciklama": "Tekasür Suresi, çoğunluk olmak iddiasının insanı mezara varıncaya kadar meşgul ettiğini söyler ve verilen her nimetten sorguya çekileceğimizi hatırlatır. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "tekasür suresi",
+   "tilavet",
+   "kısa sureler"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    1,
+    2
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Tekasür Suresi'nde. Sekiz kısa ayet; ilk cümle bu yarışı anlatıyor."
+  },
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Sahip olduklarını kıyaslayınca ne dersin? Tekasür Suresi anlamı",
+   "ilk_satir": "Sahip olduklarını başkalarıyla kıyaslayınca ne dersin? Tekasür Suresi anlamı ve meali (1-8)",
+   "aciklama": "Tekasür Suresi'nde çoğunluk olmak iddiasının insanı mezarları ziyarete varıncaya kadar meşgul ettiği söylenir; sonunda verilen her nimetten sorguya çekileceğimiz hatırlatılır. Diyanet meali ile Tekasür Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tekasür suresi",
+    "tekasür suresi anlamı",
+    "tekasür suresi meali",
+    "kısa sureler",
+    "kuran tilaveti"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "20:30 kısa sure anlamı",
+   "tiktok": "20:30",
+   "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 27 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 1-2. ayet (Diyanet'te birleşik meal; 53 harf). Hook: 1. ayetteki 'çoğunluk olmak iddiası' ile örtüşen somut an (kıyaslama); zenginlik/rızık vaadi yok, cehennem ayetleri hook'ta kullanılmadı. vidIQ TR 27 Ekim: 'tekasür suresi' ~8.024/ay (rekabet 56)."
  }
 ]

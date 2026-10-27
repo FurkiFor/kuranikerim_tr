@@ -1,0 +1,37 @@
+{
+ "id": "v072",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "XttIq4DBtZ48z1T9b31m",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Sabrın tükendi mi?",
+   "prompt": "[deep voice] [slowly] Sabrın tükendi mi?",
+   "generation_id": "dAlnTwObIKwz2flGBe8S",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/uBbz1H3SLWEhSprZjfxJ/dAlnTwObIKwz2flGBe8S/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261027%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261027T114913Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5328bf92ba694e71618e79f8f6ccd676924ffbbe3b97fe6b379d51b14924b95329cbe11d44db3281d4827ba4e7fdbc89c98e7fa1f7f0752e5d37f267679d439e7138fdf10a108e19ec813289cd8ceb48d3788460092049c031965b75abc23adcc2bf3a0f047116516bf2e1b86369818dd7547901f2189db52fe0315d5b1f69cd73ee72e794eb7516ed73335fb80236fa3892952f0a29374d9d0dfea919e55089375583b8ff114793301e9556bd8bcff726e54f339f3b2353f920559fc33ce25b40d852ccea2ebc9af7d4a8e2c9c898a649ba99b70569e9c2f252ae7a847a085b66e565c5a317be7c61b235e095ff38f73ed2211131838c45f86897cd67062daf"
+  },
+  {
+   "kind": "giris",
+   "text": "Bu söz önce Peygamberimize söylendi. Kısa bir ayet; dinle.",
+   "prompt": "[deep voice] [slowly] Bu söz önce Peygamberimize söylendi. Kısa bir ayet; dinle.",
+   "generation_id": "rQ9BKdzalqrXhQUBWXLG",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/VJ6vdzlmyXJ6AxsGHe8X/rQ9BKdzalqrXhQUBWXLG/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261027%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261027T114915Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0a55988884c4f29891b7c0d697676933b86fcefd58e31ba7855f2b5b3f335699406aa97c12885efbd8638d58936a90ddbae0611b9fc07e23a3ac00c87d4425a9e6154d489307cdd99e055ad4015e1a2332b7eefbf847d86b97182fd29a9655ae4412d34cd30c9df6cf82937e00a947affdac440acbd2c010ff25bad613665ca0cd83bc186e453635581edb567d54346f27fe240d954ec34a2a837e10897fd15b7206467935c700ccdd628cef520cef60964f05a39fe514fc4b6b4252e211a4020a3120fb0151249fc1fce6ca6aca07198f2625c673826ca7ce69f615d618b656d3319775993a19679b99d5a7b59defec6120f61a483d0f51e5b4b5379ad499e4"
+  },
+  {
+   "kind": "meal",
+   "text": "Güzel güzel sabret.",
+   "prompt": "[softly] [slowly] Güzel güzel sabret.",
+   "generation_id": "2XK64lWyvkUF1qGa9iTe",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/WkmLSCkz8JowvZZg35nq/2XK64lWyvkUF1qGa9iTe/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261027%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261027T114915Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2493176980c8e398af0521174fd9f0e5d13fea019e9b995060824524ffec7a33ba937cd6382fc46d44f0b823768d0ffa4c481079e1bcd0083f18f6c3b36427560d1c582d31a9287ecd8d8bad97108d97493effe022abf162c26e3f45ccabae645b40092fd78f8dc9973f92b56cc81d7974f3ea5f642edaeb16d5332c47cd780d6ffa5db0e27349c3e3ee5f6b3efbf66ab53b9241fc609099d33cfc5da7a1a6e5094d48041382fb9911d77ab1d7f7e60af99c5480919fda094f14580844d786abad07e07b047b83c5b1be3bf7a75b776ae39c1e280f596ab29a22c8e04ba760bb0991db9fa511e4cb177221e5b8e0bfd1462bd6d07d7cc8416eed3f908230730e"
+  },
+  {
+   "kind": "cta",
+   "text": "Bu gece sabrın tükendiğinde, bu kısa ayeti hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bu gece sabrın tükendiğinde, bu kısa ayeti hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "eIXPCWz5lwfuzJYSCwUu",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/MpJzpnqE3c5HTS40WNJF/eIXPCWz5lwfuzJYSCwUu/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261027%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261027T114917Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b04e3d6ae7b9812b70d5bfc93fd83d7a9a16d4ce4c45d88066a06013ee1afb7eea81dd8142ff18f45657e2ed70ade80b9bdbd2f5ed4e866d30dfd931b0e6c891c80ce449b6bcd5d300f0ae6f97ce529e57871c82e92125dd9c868c57fe53222954e4686db5948f170e1696b7756db5efb4c64e33d543b41db97780ecd3b15cc5f6ba45d4a01b0a9934d09083b5f8ec470e94bfe8b6ff74de885ac9a40a359a3972f17224dfe778cd3384113932f1dd0005fa326dea365784480f9bf2f73714fb7e83ce0ea4ffcf8410a37c9cd2eaa8db97127996004176f214f2e2b88fe4c8bc62241dad994dab49cf0b5529755067730d0add38c3a6a2115084530fbfb22fa8"
+  }
+ ]
+}

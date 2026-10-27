@@ -85,6 +85,8 @@
 | 42 | Aynada kendini beğenmeyince ne dersin? | — | Tin 4: "Biz insanı en güzel şekilde yarattık" | v119; deney 8, 26 Ekim 20:30; somut an; güzellik vaadi yok; arama: tin suresi ~24.764/ay |
 | 43 | Kimsesiz kaldığını mı düşünüyorsun? | — | Duha 6-7: "Seni öksüz bulup da barındırmadı mı" | v075; 26 Ekim 23:30, gece yalnız kapanışta; Peygambere hitap girişte söylenir |
 | 44 | Anne baban yaşlandıkça için mi sızlıyor? | — | İsra 24: "Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et!" (yaşlılık hâli İsra 23'te) | v071; açık adlı dua (anne baba duası), 27 Ekim 18:00; v080 anne baba YouTube 2.394 |
+| 45 | Sahip olduklarını başkalarıyla kıyaslayınca ne dersin? | — | Tekasür 1-8: "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki…" | v120; deney 8, 27 Ekim 20:30; somut an (kıyaslama); zenginlik vaadi yok; arama: tekasür suresi ~8.024/ay |
+| 46 | Sabrın tükendi mi? | — | Mearic 5: "Güzel güzel sabret" | v072; 27 Ekim 23:30, gece yalnız kapanışta; Peygambere hitap girişte söylenir; vidIQ 27 Ekim: sabır teması 3 IG outlier'da |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
