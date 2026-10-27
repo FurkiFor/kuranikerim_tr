@@ -4580,8 +4580,7 @@
    "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
    "klasor": "recitations/hudhaify",
    "ayetler": [
-    1,
-    2
+    1
    ]
   },
   "seslendirme": {
@@ -4616,6 +4615,6 @@
    "tiktok": "20:30",
    "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
   },
-  "not": "AKŞAM 27 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 1-2. ayet (Diyanet'te birleşik meal; 53 harf). Hook: 1. ayetteki 'çoğunluk olmak iddiası' ile örtüşen somut an (kıyaslama); zenginlik/rızık vaadi yok, cehennem ayetleri hook'ta kullanılmadı. vidIQ TR 27 Ekim: 'tekasür suresi' ~8.024/ay (rekabet 56)."
+  "not": "AKŞAM 27 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 1. ayet (Diyanet'te 1-2 birleşik meal; 24 harf) — ilk render 62 sn çıktı, 2. ayet tilaveti süre için çıkarıldı. Hook: 1. ayetteki 'çoğunluk olmak iddiası' ile örtüşen somut an (kıyaslama); zenginlik/rızık vaadi yok, cehennem ayetleri hook'ta kullanılmadı. vidIQ TR 27 Ekim: 'tekasür suresi' ~8.024/ay (rekabet 56)."
  }
 ]
