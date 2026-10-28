@@ -2623,7 +2623,7 @@
    99
   ],
   "hook": "Her şeyi geride bırakmak zorunda mı kaldın?",
-  "kapanis": "Her şeyi geride bıraksan da yol gösteren Rabbindir.",
+  "kapanis": "Bu gece her şeyi geride bıraksan da, yol gösteren Rabbindir.",
   "bg": "safak",
   "sahne": "yol",
   "aciklama": "Saffat Suresi 99. ayette Hz. İbrahim 'Doğrusu ben Rabbim uğrunda sizi bırakıp gidiyorum; O beni doğru yola eriştirir' der. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -2663,7 +2663,13 @@
    ]
   },
   "kalip": "A-kissa-koprusu",
-  "kopru_kaynak": "Saffat 99: İbrahim: Doğrusu ben Rabbim uğrunda sizi bırakıp gidiyorum"
+  "kopru_kaynak": "Saffat 99: İbrahim: Doğrusu ben Rabbim uğrunda sizi bırakıp gidiyorum",
+  "platform": {
+   "youtube": "23:30 tilavetli anlatımlı",
+   "tiktok": "23:30",
+   "instagram": "gönderilmez — 23:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 28 Ekim 23:30 — tilavetli anlatımlı (kıssa köprüsü, Hz. İbrahim), gece hitabı yalnız kapanışta. Hâl ayette: Saffat 99 'sizi bırakıp gidiyorum'."
  },
  {
   "id": "v078",
@@ -4670,5 +4676,65 @@
   },
   "not": "SABAH 28 Ekim 10:00 — tilavetli anlatımlı (teselli: tövbe/af; v021/v066 sonrası haftanın tövbe videosu). Tilavet 105 harf.",
   "kopru_kaynak": "Nisa 110: Kim kötülük işler veya kendine yazık eder de sonra Allah'tan bağışlanma dilerse"
+ },
+ {
+  "id": "v122",
+  "tema": "Karia Suresi Anlamı",
+  "sure": 101,
+  "ayet": [
+   1,
+   11
+  ],
+  "hook": "İyiliklerin boşa gitti sanınca ne dersin?",
+  "kapanis": "Yaptığın iyiliği küçük gördüğünde, tartıyı hatırla.",
+  "bg": "kum",
+  "sahne": "kum",
+  "aciklama": "Karia Suresi, insanların pervaneye döneceği, dağların atılmış renkli yüne benzeyeceği günü anlatır ve tartıları ağır gelen kimsenin hoş bir hayat içinde olacağını bildirir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "karia suresi",
+   "tilavet",
+   "kısa sureler"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    6
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Karia Suresi'nde. On bir kısa ayet; sonunda tartılardan söz ediyor."
+  },
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "İyiliklerin boşa gitti sanınca ne dersin? Karia Suresi anlamı",
+   "ilk_satir": "İyiliklerin boşa gitti sanınca ne dersin? Karia Suresi anlamı ve meali (1-11)",
+   "aciklama": "Karia Suresi'nde insanların pervaneye döneceği, dağların atılmış renkli yüne benzeyeceği gün anlatılır; tartıları ağır gelen kimsenin hoş bir hayat içinde olacağı bildirilir. Diyanet meali ile Karia Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "karia suresi",
+    "karia suresi anlamı",
+    "karia suresi meali",
+    "kısa sureler",
+    "kuran tilaveti"
+   ]
+  },
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "20:30 kısa sure anlamı",
+   "tiktok": "20:30",
+   "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 28 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 6. ayet (Diyanet'te 6-7 birleşik meal; 35 harf — 11 mealle süre 55 sn'yi aşmasın). Hook: 6-7. ayetteki tartıların ağır gelmesi ile örtüşen somut an; kişiye sonuç garantisi yok, ateş ayetleri hook/kapanışta kullanılmadı. vidIQ TR 28 Ekim: 'karia suresi' ~9.465/ay (rekabet 60)."
  }
 ]
