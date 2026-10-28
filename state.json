@@ -1004,12 +1004,20 @@
    "youtube": {
     "tarih": "2026-10-28T20:30:00+04:00",
     "kervly_id": "p_zIhqKiJXCo5p"
+   },
+   "tiktok": {
+    "tarih": "2026-10-28T20:30:00+04:00",
+    "zernio_id": "6ae1e5d9c2b6604c4cabe169"
    }
   },
   "v077": {
    "youtube": {
     "tarih": "2026-10-28T23:30:00+04:00",
     "kervly_id": "p_XvdbePe-kvhg"
+   },
+   "tiktok": {
+    "tarih": "2026-10-28T23:30:00+04:00",
+    "zernio_id": "6ae1e5dec2b6604c4cabe18d"
    }
   }
  }

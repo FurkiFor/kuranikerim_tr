@@ -1035,13 +1035,17 @@
   "at": "2026-10-28T20:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6ae1e5d9c2b6604c4cabe169",
+  "status": "scheduled"
  },
  {
   "id": "v077",
   "at": "2026-10-28T23:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6ae1e5dec2b6604c4cabe18d",
+  "status": "scheduled"
  }
 ]
