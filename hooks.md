@@ -87,6 +87,8 @@
 | 44 | Anne baban yaşlandıkça için mi sızlıyor? | — | İsra 24: "Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et!" (yaşlılık hâli İsra 23'te) | v071; açık adlı dua (anne baba duası), 27 Ekim 18:00; v080 anne baba YouTube 2.394 |
 | 45 | Sahip olduklarını başkalarıyla kıyaslayınca ne dersin? | — | Tekasür 1-8: "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki…" | v120; deney 8, 27 Ekim 20:30; somut an (kıyaslama); zenginlik vaadi yok; arama: tekasür suresi ~8.024/ay |
 | 46 | Sabrın tükendi mi? | — | Mearic 5: "Güzel güzel sabret" | v072; 27 Ekim 23:30, gece yalnız kapanışta; Peygambere hitap girişte söylenir; vidIQ 27 Ekim: sabır teması 3 IG outlier'da |
+| 47 | Yaptığın bir hata içini mi kemiriyor? | — | Nisa 110: "Kim kötülük işler veya kendine yazık eder de sonra Allah'tan bağışlanma dilerse…" | v121; 28 Ekim 10:00; tövbe/af (haftalık hedef); hâl ayette: kötülük işlemek / kendine yazık etmek |
+| 48 | Çocuklarının geleceği için mi endişelisin? | — | İbrahim 40: "Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle" | v079; 28 Ekim 18:00; açık adlı dua (Hz. İbrahim), köprü girişte |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
