@@ -442,8 +442,8 @@
     "kervly_id": "p_2wWC0FqHHi5n"
    },
    "tiktok": {
-    "tarih": "2026-10-20T10:00:00+04:00",
-    "zernio_id": "6ad6e129b3d3065037928309"
+    "tarih": "2026-10-28T13:00:00+04:00",
+    "zernio_id": "6ae16c47fdf9d6c5624829ce"
    },
    "instagram": {
     "tarih": "2026-10-20T10:00:00+04:00",
@@ -948,6 +948,24 @@
    "instagram": {
     "tarih": "2026-10-27T23:30:00+04:00",
     "zernio_id": "6ae09db2da2148972b8ec313"
+   }
+  },
+  "v059": {
+   "instagram": {
+    "tarih": "2026-10-28T10:00:00+04:00",
+    "zernio_id": "6ae16c45854be490daa415be"
+   }
+  },
+  "v057": {
+   "instagram": {
+    "tarih": "2026-10-28T13:00:00+04:00",
+    "zernio_id": "6ae16c46198b280b3bf196cf"
+   }
+  },
+  "v089": {
+   "instagram": {
+    "tarih": "2026-10-28T18:00:00+04:00",
+    "zernio_id": "6ae16c494e0ce730c5b437a4"
    }
   }
  }

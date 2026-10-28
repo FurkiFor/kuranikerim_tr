@@ -435,30 +435,40 @@
   "postId": "17995131666041480",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18230505586333558",
-  "message": "Âmin, lâ ilâhe illallah 🤍 Rabbim tevekkülünü artırsın, kalbine huzur versin."
+  "message": "Âmin, lâ ilâhe illallah 🤍 Rabbim tevekkülünü artırsın, kalbine huzur versin.",
+  "sent": true,
+  "replyId": "18118208953805049"
  },
  {
   "postId": "7701386045253881109",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7701397274047873812",
-  "message": "Elhamdülillah 🤍 Rabbim elimizdekilere şükretmeyi nasip etsin."
+  "message": "Elhamdülillah 🤍 Rabbim elimizdekilere şükretmeyi nasip etsin.",
+  "sent": true,
+  "replyId": "7701527997413212949"
  },
  {
   "postId": "18117801737091754",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18088125419328097",
-  "message": "Hasbünallahu ve ni'mel vekil 🤍 Rabbim seni her türlü kötülükten korusun."
+  "message": "Hasbünallahu ve ni'mel vekil 🤍 Rabbim seni her türlü kötülükten korusun.",
+  "sent": true,
+  "replyId": "18141740239723554"
  },
  {
   "postId": "18134776651673976",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18119775110001745",
-  "message": "Sadakallahülazim 🤍 Rabbim kalbini hiç sönmeyen bir umutla doldursun."
+  "message": "Sadakallahülazim 🤍 Rabbim kalbini hiç sönmeyen bir umutla doldursun.",
+  "sent": true,
+  "replyId": "18009095564785523"
  },
  {
   "postId": "17995131666041480",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18107602817195204",
-  "message": "Elhamdülillah 🤍 Rabbine güvenen kalbin hep huzurlu olsun."
+  "message": "Elhamdülillah 🤍 Rabbine güvenen kalbin hep huzurlu olsun.",
+  "sent": true,
+  "replyId": "17899803018393970"
  }
 ]
