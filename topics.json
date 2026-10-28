@@ -1674,7 +1674,7 @@
   "kapanis": "Artık Beni anın, Ben de sizi anayım",
   "seo": {
    "yt_baslik": "Allah Bu Ayette Sana Bir Söz Veriyor | Bakara 152",
-   "ilk_satir": "Allah bu ayette sana bir söz veriyor — Artık Beni anın, Ben de sizi anayım",
+   "ilk_satir": "Zikir ayeti | Bakara 152 — Artık Beni anın, Ben de sizi anayım",
    "aciklama": "Bakara Suresi 152. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "beni anın ben de sizi anayım ayeti",
@@ -1738,7 +1738,7 @@
   ],
   "kart_metin": "Gevşemeyin, üzülmeyin, inanmışsanız, mutlaka siz en üstünsünüzdür",
   "sahne": "firtina",
-  "hook": "Pes etmek üzereysen bu ayeti dinle",
+  "hook": "Bazen pes etmek üzere olursun",
   "tema": "Umut",
   "etiketler": [
    "umut",
@@ -1748,12 +1748,14 @@
   "aciklama": "Âl-i İmrân Suresi 139. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Gevşemeyin, üzülmeyin, inanmışsanız, mutlaka siz en üstünsünüzdür",
   "seo": {
-   "yt_baslik": "Pes Etmek Üzereysen Bu Ayeti Dinle | Âl-i İmran 139",
-   "ilk_satir": "Pes etmek üzereysen bu ayeti dinle — Gevşemeyin, üzülmeyin, inanmışsanız, mutlaka siz en üstünsünüzdür",
+   "yt_baslik": "Bazen Pes Etmek Üzere Olursun | Âl-i İmran 139",
+   "ilk_satir": "Umut ayeti | Âl-i İmran 139 — Gevşemeyin, üzülmeyin, inanmışsanız, mutlaka siz en üstünsünüzdür",
    "aciklama": "Âl-i İmrân Suresi 139. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "umut ayeti",
     "gevşemeyin üzülmeyin ayeti",
-    "ali imran 139"
+    "ali imran 139",
+    "kuran meali"
    ]
   },
   "ses": "tilavet",
@@ -1763,7 +1765,7 @@
     "metin": "Gevşemeyin, üzülmeyin, inanmışsanız, mutlaka siz en üstünsünüzdür"
    }
   ],
-  "ust": "Pes etmek üzereysen bu ayeti dinle"
+  "ust": "Bazen pes etmek üzere olursun"
  },
  {
   "id": "v060",
@@ -2724,7 +2726,7 @@
   "hook": "Çocuklarının geleceği için mi endişelisin?",
   "kapanis": "Çocukların için endişelendiğinde bu duayı et.",
   "bg": "safak",
-  "sahne": "kapi",
+  "sahne": "tohum",
   "aciklama": "İbrahim Suresi 40. ayette Hz. İbrahim'in duası: Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
    "çocuk",
@@ -2742,12 +2744,12 @@
   "kurgu": {
    "kamera": [
     "sabit",
-    "vurgu",
+    "it",
     "cek"
    ],
    "gecis": [
-    "kesme",
-    "kararma"
+    "kararma",
+    "kesme"
    ]
   },
   "seo": {
@@ -2761,7 +2763,8 @@
     "rabbic alni duası"
    ]
   },
-  "kopru_kaynak": "İbrahim 35: İbrahim şöyle demişti: Rabbim! ..."
+  "kopru_kaynak": "İbrahim 35: İbrahim şöyle demişti: Rabbim! ...",
+  "not": "SABAH 28 Ekim 18:00 — tilavetli anlatımlı (açık adlı dua: Hz. İbrahim'in çocuklar için duası). Tilavet 85 harf."
  },
  {
   "id": "v080",
@@ -3150,7 +3153,7 @@
   ],
   "kart_metin": "Rabbim! Beni zalim milletten kurtar",
   "sahne": "firtina",
-  "hook": "Korku içindeysen Hz. Musa'nın bu duasını dinle",
+  "hook": "Rabbim! Hz. Musa'nın korku içindeki duası",
   "tema": "Dua",
   "etiketler": [
    "korku",
@@ -3161,14 +3164,14 @@
   "aciklama": "Kasas Suresi 21. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Rabbim! Beni zalim milletten kurtar",
   "seo": {
-   "yt_baslik": "Korku içindeysen Hz. Musa'nın bu duasını dinle | Kasas 21",
-   "ilk_satir": "Korku anında dua | Kasas 21: Rabbim! Beni zalim milletten kurtar",
+   "yt_baslik": "Hz. Musa'nın duası | Kasas 21 · Rabbim beni zalim milletten kurtar",
+   "ilk_satir": "Hz. Musa'nın duası | Kasas 21: Rabbim! Beni zalim milletten kurtar",
    "aciklama": "Kasas Suresi 21. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
-    "korku anında okunacak ayet",
     "hz musa duası",
+    "korku duası",
     "kasas suresi 21",
-    "kuran duaları"
+    "peygamber duaları"
    ]
   },
   "ses": "tilavet",
@@ -3178,7 +3181,7 @@
     "metin": "Rabbim! Beni zalim milletten kurtar"
    }
   ],
-  "ust": "Korku içindeysen Hz. Musa'nın bu duasını dinle"
+  "ust": "Rabbim! Hz. Musa'nın korku içindeki duası"
  },
  {
   "id": "v090",
@@ -4616,5 +4619,56 @@
    "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
   },
   "not": "AKŞAM 27 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet yalnız 1. ayet (Diyanet'te 1-2 birleşik meal; 24 harf) — ilk render 62 sn çıktı, 2. ayet tilaveti süre için çıkarıldı. Hook: 1. ayetteki 'çoğunluk olmak iddiası' ile örtüşen somut an (kıyaslama); zenginlik/rızık vaadi yok, cehennem ayetleri hook'ta kullanılmadı. vidIQ TR 27 Ekim: 'tekasür suresi' ~8.024/ay (rekabet 56)."
+ },
+ {
+  "id": "v121",
+  "tema": "Tövbe ayeti",
+  "sure": 4,
+  "ayet": [
+   110,
+   110
+  ],
+  "hook": "Yaptığın bir hata içini mi kemiriyor?",
+  "kapanis": "Bir hata içini kemiriyorsa Rabbinden bağışlanma dile.",
+  "bg": "safak",
+  "sahne": "kapi",
+  "aciklama": "Nisa Suresi 110. ayette Allah, kötülük işleyen ya da kendine yazık eden kimsenin sonra bağışlanma dilerse Allah'ı mağfiret ve merhamet sahibi olarak bulacağını bildiriyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "tövbe",
+   "af",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Bu bir tövbe ayeti. Dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "vurgu",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Yaptığın bir hata içini mi kemiriyor? | Nisa 110 · Tövbe ayeti",
+   "ilk_satir": "Tövbe ayeti | Nisa 110: Allah'tan bağışlanma dileyen, Allah'ı mağfiret ve merhamet sahibi bulur",
+   "aciklama": "Nisa Suresi 110. ayette Allah, kötülük işleyen ya da kendine yazık eden kimsenin sonra bağışlanma dilerse Allah'ı mağfiret ve merhamet sahibi olarak bulacağını bildiriyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe ayeti",
+    "tövbe",
+    "nisa suresi 110",
+    "bağışlanma dileme"
+   ]
+  },
+  "not": "SABAH 28 Ekim 10:00 — tilavetli anlatımlı (teselli: tövbe/af; v021/v066 sonrası haftanın tövbe videosu). Tilavet 105 harf.",
+  "kopru_kaynak": "Nisa 110: Kim kötülük işler veya kendine yazık eder de sonra Allah'tan bağışlanma dilerse"
  }
 ]
