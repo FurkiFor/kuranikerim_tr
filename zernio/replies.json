@@ -523,42 +523,56 @@
   "postId": "7699910196281249044",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7701809850343260946",
-  "message": "Tövbe kapısı hep açık. Rabbim pişmanlığımızı kabul etsin 🤍"
+  "message": "Tövbe kapısı hep açık. Rabbim pişmanlığımızı kabul etsin 🤍",
+  "sent": true,
+  "replyId": "7701904488479015681"
  },
  {
   "postId": "7701757198782844167",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7701782697798959880",
-  "message": "Teşekkürler 🤍 Tartısı ağır gelenlerden olmayı Rabbim nasip etsin."
+  "message": "Teşekkürler 🤍 Tartısı ağır gelenlerden olmayı Rabbim nasip etsin.",
+  "sent": true,
+  "replyId": "7701910281655436052"
  },
  {
   "postId": "17926418484204859",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18106226231217828",
-  "message": "Amin, Rabbim kabul etsin 🤍"
+  "message": "Amin, Rabbim kabul etsin 🤍",
+  "sent": true,
+  "replyId": "17980156079917552"
  },
  {
   "postId": "17926418484204859",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18006557393793561",
-  "message": "Rabbim hepimizi zalimlerden korusun 🤍"
+  "message": "Rabbim hepimizi zalimlerden korusun 🤍",
+  "sent": true,
+  "replyId": "17916393084521978"
  },
  {
   "postId": "7701432684345691398",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7701713321330311988",
-  "message": "Rabbim sabrını güzel eylesin 🤍"
+  "message": "Rabbim sabrını güzel eylesin 🤍",
+  "sent": true,
+  "replyId": "7701907698224939794"
  },
  {
   "postId": "7701595137776045333",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7701677559364469512",
-  "message": "Rabbim bağışlanma dileyenlerden eylesin 🤍"
+  "message": "Rabbim bağışlanma dileyenlerden eylesin 🤍",
+  "sent": true,
+  "replyId": "7701909556862976775"
  },
  {
   "postId": "18452662780121159",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18089027153282637",
-  "message": "Sadakallahülazim 🤍 Rabbin seni bırakmadı, unutma."
+  "message": "Sadakallahülazim 🤍 Rabbin seni bırakmadı, unutma.",
+  "sent": true,
+  "replyId": "18109467827351922"
  }
 ]
