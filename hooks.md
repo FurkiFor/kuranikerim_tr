@@ -93,6 +93,8 @@
 | 50 | Her şeyi geride bırakmak zorunda mı kaldın? | — | Saffat 99: "Doğrusu ben Rabbim uğrunda sizi bırakıp gidiyorum; O beni doğru yola eriştirir" | v077; 28 Ekim 23:30, kıssa köprüsü (Hz. İbrahim), gece yalnız kapanışta |
 | 51 | Elindekileri kaybetmekten mi korkuyorsun? | — | Rahman 26-27: "Yeryüzünde bulunan her şey fanidir. Ancak, yüce ve cömert olan Rabbinin varlığı bakidir" | v138; 29 Ekim 10:00; kayıp korkusu (yeni dert); arama: rahman suresi ~24.519/ay (+%42,5) |
 | 52 | Söylenen sözler seni üzüyor mu? | — | Yunus 65: "İnkarcıların sözleri seni üzmesin, çünkü bütün kudret Allah'ındır" | v139; 29 Ekim 18:00; kötülük görmek ailesi; Peygambere hitap girişte söylenir |
+| 53 | Biri seninle alay edince ne dersin? | — | Humeze 1-2: "diliyle çekiştirip alay eden kimsenin vay haline" | v144; deney 8, 29 Ekim 20:30; somut an; Hutame/ateş ayetleri hook'ta yok; arama: humeze ~5,0 B/ay, hümeze ~5,3 B/ay |
+| 54 | Sıkıntıda kime sığınacağını bilemiyor musun? | — | Nahl 53: "bir sıkıntıya uğradığınızda yalnız O'na sığınırsınız" | v140; 29 Ekim 23:30, gece yalnız kapanışta |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
