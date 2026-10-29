@@ -579,42 +579,56 @@
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18132409882753160",
-  "message": "Amin, Rabbim kabul etsin 🤍"
+  "message": "Amin, Rabbim kabul etsin 🤍",
+  "sent": true,
+  "replyId": "18097220837445714"
  },
  {
   "postId": "17918070711525674",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18078912251726289",
-  "message": "Rabbim tevbelerimizi kabul etsin 🤍"
+  "message": "Rabbim tevbelerimizi kabul etsin 🤍",
+  "sent": true,
+  "replyId": "18002009441813515"
  },
  {
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18466678432185307",
-  "message": "Amin 🤍 Rabbim gönlünü ferah eylesin."
+  "message": "Amin 🤍 Rabbim gönlünü ferah eylesin.",
+  "sent": true,
+  "replyId": "18147991459574034"
  },
  {
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17959416804248947",
-  "message": "Amin amin 🤍 Rabbim üzüntülerini gidersin."
+  "message": "Amin amin 🤍 Rabbim üzüntülerini gidersin.",
+  "sent": true,
+  "replyId": "17899688778399225"
  },
  {
   "postId": "7701641538513734913",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7701943428649190164",
-  "message": "Amin 🤍 Rabbim sabrını artırsın."
+  "message": "Amin 🤍 Rabbim sabrını artırsın.",
+  "sent": true,
+  "replyId": "7702046612386251540"
  },
  {
   "postId": "7701803550992534792",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7701935784609907464",
-  "message": "Çok teşekkürler 🤍 Rabbim yolunu hayırlı eylesin."
+  "message": "Çok teşekkürler 🤍 Rabbim yolunu hayırlı eylesin.",
+  "sent": true,
+  "replyId": "7702048302300463892"
  },
  {
   "postId": "18145239334606505",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17992531656098840",
-  "message": "Sadakallahülazim 🤍 Rabbim göğsümüzü genişletsin."
+  "message": "Sadakallahülazim 🤍 Rabbim göğsümüzü genişletsin.",
+  "sent": true,
+  "replyId": "18110106743616354"
  }
 ]
