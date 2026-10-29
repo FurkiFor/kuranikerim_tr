@@ -5434,7 +5434,7 @@
    53
   ],
   "hook": "Sıkıntıda kime sığınacağını bilemiyor musun?",
-  "kapanis": "Sıkıntıya düştüğünde yalnız O'na sığın.",
+  "kapanis": "Bu gece sıkıntını yalnız O'na aç.",
   "bg": "fener",
   "sahne": "fener",
   "aciklama": "Nahl Suresi 53. ayette size gelen her nimetin Allah'tan olduğu ve bir sıkıntıya uğrandığında yalnız O'na sığınıldığı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -5474,7 +5474,7 @@
    ]
   },
   "kopru_kaynak": "Nahl 53: bir sıkıntıya uğradığınızda yalnız O'na sığınırsınız",
-  "not": "Stok 29 Ekim SABAH. Tilavet 97 harf."
+  "not": "Stok 29 Ekim SABAH. Tilavet 97 harf. AKŞAM 29 Ekim 23:30: gece hitabı yalnız kapanışta."
  },
  {
   "id": "v141",
@@ -5628,5 +5628,67 @@
   },
   "kopru_kaynak": "Nisa 147: Şükreder ve inanırsanız",
   "not": "Stok 29 Ekim SABAH. Tilavet 98 harf."
+ },
+ {
+  "id": "v144",
+  "tema": "Humeze Suresi Anlamı",
+  "sure": 104,
+  "ayet": [
+   1,
+   9
+  ],
+  "hook": "Biri seninle alay edince ne dersin?",
+  "kapanis": "Biri seninle alay ettiğinde, bu sureyi hatırla.",
+  "bg": "deniz",
+  "sahne": "deniz",
+  "aciklama": "Humeze Suresi, diliyle çekiştirip alay eden ve mal toplayıp onu tekrar tekrar sayan kimseyi anlatır; o kimse malının kendisini ölümsüz kılacağını sanır. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "humeze suresi",
+   "tilavet",
+   "kısa sureler"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    1,
+    2
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Humeze Suresi'nde. Dokuz kısa ayet; ilki tam bunu anlatıyor."
+  },
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Biri seninle alay edince ne dersin? Humeze Suresi anlamı",
+   "ilk_satir": "Biri seninle alay edince ne dersin? Humeze Suresi anlamı ve meali (1-9)",
+   "aciklama": "Humeze Suresi'nde diliyle çekiştirip alay eden, mal toplayıp onu tekrar tekrar sayan ve malının kendisini ölümsüz kılacağını sanan kimse anlatılır. Diyanet meali ile Humeze Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "humeze suresi",
+    "hümeze suresi",
+    "humeze suresi anlamı",
+    "humeze suresi meali",
+    "kısa sureler"
+   ]
+  },
+  "kopru_kaynak": "Humeze 1: diliyle çekiştirip alay eden kimsenin vay haline",
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "20:30 kısa sure anlamı",
+   "tiktok": "20:30",
+   "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 29 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet 1-2. ayet (Diyanet'te 1-2 birleşik meal; 65 harf). Hook: 1. ayetteki 'alay eden' ile örtüşen somut an; Hutame/ateş ayetleri hook ve kapanışta yok, kişiye sonuç garantisi yok. vidIQ TR 29 Ekim: 'humeze suresi' ~4.985/ay, 'hümeze suresi' ~5.262/ay (rekabet 55-57), ilgili 'dedikodu' ~8.001, 'gıybet' ~5.446."
  }
 ]
