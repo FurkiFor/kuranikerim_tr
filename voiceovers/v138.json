@@ -1,0 +1,44 @@
+{
+ "id": "v138",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "2LwDBoAQCKWQgHt8mtTV",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Elindekileri kaybetmekten mi korkuyorsun?",
+   "prompt": "[deep voice] [slowly] Elindekileri kaybetmekten mi korkuyorsun?",
+   "generation_id": "4vHIJBtbr6xrlLNDBUZ6",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/iAobK6FxXjFB9VWNd8Hx/4vHIJBtbr6xrlLNDBUZ6/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261029%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261029T031934Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2571507935d35a73c6bdbe4b4107297061c7c8297bddb99ca1ec4d1ef8e98b5c0065006d87be338cc16b7f1f33b333ac0521b18fe60e67f6731d68267844bbeae37c50158bc4e49854fa6c95e67c3f5fd01ca7fb7e78f7ad5887ed91d4f37403a669715133345fbc341c01fd62b7867b5ddefe6672ea84748de3dbf242fe9ff1b3e734b3800d71fd8f150b0b73cb3ba2fddc5438e4dab56087a2e351025353445a947d04d737b48f0ee6f4f908d1c7fb7d8d2199ed12ffe482b022f73e67d33215ab1bc932616822b4eed79622c6cb0bedfb3ad426493e172cad2843f5283b07f454eb4a6366343e6c98bdf005ff151bc7b0ac89e8fea7c981c49691596ccb6d"
+  },
+  {
+   "kind": "giris",
+   "text": "Rahman Suresi'nde kalıcı olanı söyleyen iki ayet var. Dinle.",
+   "prompt": "[deep voice] [slowly] Rahman Suresi'nde kalıcı olanı söyleyen iki ayet var. Dinle.",
+   "generation_id": "eTdYX5Dp8TSbcMd1AWY0",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/lhwlxxlx0Ehcbqnq0xN6/eTdYX5Dp8TSbcMd1AWY0/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261029%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261029T031935Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=afc86cdf8d156c109d42e7494ad709ad0181711ed59987e7eb09c43e32e080de7851d5335986063fd5ecc313de18adc42584cde4fe3960256754857475b0e881704a07a962603e3a87383863c1a3505ff3c023b4e4ba8ad316a7ef951daa9cfa7e5be4ff151002180522020d56a5c21dcba5db758c9a5ad8aedacd19bbd207c91ebac03aa71294ea37631d3a517d32f016b02f78b13195dc3c3278aa4dd3ec9442fb019ac3864732c110fcedce776f2b25dff45893f9d0cc0e4c646908fe0002f191e753df00f21fc8914600fe9a221c76f609aa8232cccebf08cbc243691efbed43f5b9d24bf1f4e35a089d84adbf31f54042b1073d2fad6250eac9667bc70b"
+  },
+  {
+   "kind": "meal",
+   "text": "Yeryüzünde bulunan her şey fanidir.",
+   "prompt": "[softly] [slowly] Yeryüzünde bulunan her şey fanidir.",
+   "generation_id": "g8KiSht8bh3g4G99ff32",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/1qGgvTXIKN20nazTV6p8/g8KiSht8bh3g4G99ff32/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261029%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261029T031935Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=a7921788a36a37b2f0f0b8b365b174733a26d8e7bc69023f82e225daf73e9c59f28c78d572a73d0e3f8587505dd3eae3da6a595406cbcd04e44c6f7d216c333e99a5d701882fb636e4dbb3bc7c7c6f3b9eeb05062dc027e874f2adb0770267c3e73623e98d99e9f6f6b154dcb8abe002c680cdcea0da11e156bcfc457fec3ff805357acd2408f8a20241ce0d8ec6eacd9d6ff23606527516b1dca07bd01e95b672f0ce3bf6b69e43d1fbe98458eecde279e4366141590ee89d95f93f23564b24c146a58d6057aba32fd8bcd04c7dc9df24ddaea690d2f6e77c698abdcde3eb6bf9f5fed61dd7f6d33f95a22cd91fb9b74e9267bbf773a69bb67165b6bc335db1"
+  },
+  {
+   "kind": "meal",
+   "text": "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+   "prompt": "[softly] [slowly] Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+   "generation_id": "uKuRojRmtK0ilOzMvh1E",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Ux9HiNwbZzt9cUEY7WeK/uKuRojRmtK0ilOzMvh1E/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261029%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261029T031936Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5b6193f06ae389e36a5a9bede17245536d9ffd90525868a92ba56ef719348739aae64a0be9b6fcefee4beef3deec0e168e7e2f9938d334e5e86d2a6e56ce8a57b548a2f10a29d972c24839d88225dd76037115b10803f863aa740c5efdc234b6a63e3cf5b6f4bad0cfd66439ac72c8dce6ad66623dc75c7c10981f8cb53e5fab7c7143529dd150e2504ff258023da54992b65c18c7af1648527dddca36534a65ee60ce34a885bc0ede1dd7f78f15f725aab00adfcb13b94a4b3c527e2a86e8137f2750e43c9d5259c0767be61c110f2e0e0b4a36da3b53e603882ae6f9faa7611654bd24c0c9102c7626bfa5fc74e7592112e928169156cd7f4011ed4d1d14ce"
+  },
+  {
+   "kind": "cta",
+   "text": "Kaybetmekten korktuğunda baki olan Rabbine dön. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Kaybetmekten korktuğunda baki olan Rabbine dön. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "sZ1iFV6uetl25g1TK0n3",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/0kmfyMySXrWXuQHJc1vI/sZ1iFV6uetl25g1TK0n3/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261029%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261029T031936Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5abc3093c4b75c581b09c2df3b78300066058f380d0ed915abf6e667f610636294786a776bef53dbec6dc3a170544373f47d2710a0baa73e4e7b6e2f6f6fa789a5ce3001b0828e3aa2f67cd5ca6414c9d7f1a43637389d35c57906f61aaf00b6426a40bf6478dd784518ae3f256e361209951688f1da931fabc4566ac3c1e03adda148b93b57f8f0aeb6561ef0349280ad74ef073822f8fcc65b1565758773a4a10e32f3f046d36f75682f9f51e38c989cb63bc79e3f0b03f69d8ee58cfb3ffb6b68187e52c181daeea619c0bf6f470ed47c596dfcf71ae0b423677e45283fcb100983d23c168c9d7e0cc45a7033f2a82ed3cc737dd739eb39761bde685d256d"
+  }
+ ]
+}

@@ -5321,5 +5321,312 @@
   ],
   "ust": "Rabbim! Peygamberimizin haksız sözler karşısındaki duası",
   "not": "AKŞAM 28 Ekim stok: 15 yeni kart (hâl/teselli, peygamber sözü, açık adlı dua); tek ayet, ≤113 Arapça harf, birleşik olmayan meal."
+ },
+ {
+  "id": "v138",
+  "tema": "Kaybetme korkusu",
+  "sure": 55,
+  "ayet": [
+   26,
+   27
+  ],
+  "hook": "Elindekileri kaybetmekten mi korkuyorsun?",
+  "kapanis": "Kaybetmekten korktuğunda baki olan Rabbine dön.",
+  "bg": "kum",
+  "sahne": "kum",
+  "aciklama": "Rahman Suresi 26-27. ayetlerde yeryüzünde bulunan her şeyin fani olduğu, yüce ve cömert olan Rabbin varlığının ise baki olduğu bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "kayıp",
+   "teselli",
+   "rahman suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Rahman Suresi'nde kalıcı olanı söyleyen iki ayet var. Dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "vurgu",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Elindekileri kaybetmekten mi korkuyorsun? Rahman Suresi 26-27",
+   "ilk_satir": "Kaybetme korkusu | Rahman Suresi 26-27: Her şey fanidir, Rabbinin varlığı bakidir",
+   "aciklama": "Rahman Suresi 26-27. ayetlerde yeryüzünde bulunan her şeyin fani olduğu, yüce ve cömert olan Rabbin varlığının ise baki olduğu bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "rahman suresi",
+    "rahman suresi 26 27",
+    "her şey fanidir ayeti",
+    "kaybetme korkusu"
+   ]
+  },
+  "kopru_kaynak": "Rahman 26: Yeryüzünde bulunan her şey fanidir",
+  "not": "SABAH 29 Ekim 10:00 — tilavetli anlatımlı (teselli: kayıp korkusu). Tilavet 81 harf. vidIQ: rahman suresi ~24.519/ay (+%42,5)."
+ },
+ {
+  "id": "v139",
+  "tema": "Üzülme ayeti",
+  "sure": 10,
+  "ayet": [
+   65,
+   65
+  ],
+  "hook": "Söylenen sözler seni üzüyor mu?",
+  "kapanis": "Sözler seni üzdüğünde bütün kudretin Allah'ın olduğunu hatırla.",
+  "bg": "gece",
+  "sahne": "kalp",
+  "aciklama": "Yunus Suresi 65. ayette Allah, Peygamberine inkarcıların sözlerinin onu üzmemesini söylüyor; çünkü bütün kudret Allah'ındır, O işitir ve bilir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "üzüntü",
+   "kırgınlık",
+   "yunus suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Allah, Peygamberini üzen sözler için ona şunu söyledi. Dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "it",
+    "kay",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Söylenen sözler seni üzüyor mu? | Yunus 65 · Üzülme ayeti",
+   "ilk_satir": "Üzülme ayeti | Yunus 65: Sözleri seni üzmesin, çünkü bütün kudret Allah'ındır",
+   "aciklama": "Yunus Suresi 65. ayette Allah, Peygamberine inkarcıların sözlerinin onu üzmemesini söylüyor; çünkü bütün kudret Allah'ındır, O işitir ve bilir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "üzülme ayeti",
+    "yunus suresi 65",
+    "kırgınlık ayeti"
+   ]
+  },
+  "kopru_kaynak": "Yunus 65: İnkarcıların sözleri seni üzmesin",
+  "not": "SABAH 29 Ekim 18:00 — tilavetli anlatımlı (teselli: kötülük görmek / sözler). Tilavet 92 harf. Peygambere hitap girişte söylenir."
+ },
+ {
+  "id": "v140",
+  "tema": "Sığınma ayeti",
+  "sure": 16,
+  "ayet": [
+   53,
+   53
+  ],
+  "hook": "Sıkıntıda kime sığınacağını bilemiyor musun?",
+  "kapanis": "Sıkıntıya düştüğünde yalnız O'na sığın.",
+  "bg": "fener",
+  "sahne": "fener",
+  "aciklama": "Nahl Suresi 53. ayette size gelen her nimetin Allah'tan olduğu ve bir sıkıntıya uğrandığında yalnız O'na sığınıldığı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "sıkıntı",
+   "sığınma",
+   "nahl suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Bu ayet sıkıntı anını anlatıyor. Dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Sıkıntıda kime sığınacağını bilemiyor musun? | Nahl 53",
+   "ilk_satir": "Sıkıntı ayeti | Nahl 53: Size gelen her nimet Allah'tandır",
+   "aciklama": "Nahl Suresi 53. ayette size gelen her nimetin Allah'tan olduğu ve bir sıkıntıya uğrandığında yalnız O'na sığınıldığı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "sıkıntı ayeti",
+    "nahl suresi 53",
+    "sıkıntı anında"
+   ]
+  },
+  "kopru_kaynak": "Nahl 53: bir sıkıntıya uğradığınızda yalnız O'na sığınırsınız",
+  "not": "Stok 29 Ekim SABAH. Tilavet 97 harf."
+ },
+ {
+  "id": "v141",
+  "tema": "Rızık ayeti",
+  "sure": 42,
+  "ayet": [
+   19,
+   19
+  ],
+  "hook": "Rızkın daralınca umudun da mı daralıyor?",
+  "kapanis": "Rızkın daraldığında lütfu bol olan Rabbini hatırla.",
+  "bg": "tohum",
+  "sahne": "tohum",
+  "aciklama": "Şura Suresi 19. ayette Allah'ın kullarına lütufta bulunan olduğu, dilediğini rızıklandırdığı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "rızık",
+   "umut",
+   "şura suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Bu ayet rızkı kimin verdiğini söylüyor. Dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Rızkın daralınca umudun da mı daralıyor? | Şura 19",
+   "ilk_satir": "Rızık ayeti | Şura 19: Allah kullarına lütufta bulunandır, dilediğini rızıklandırır",
+   "aciklama": "Şura Suresi 19. ayette Allah'ın kullarına lütufta bulunan olduğu, dilediğini rızıklandırdığı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "rızık ayeti",
+    "şura suresi 19",
+    "rızık"
+   ]
+  },
+  "kopru_kaynak": "Şura 19: Dilediğini rızıklandırır",
+  "not": "Stok 29 Ekim SABAH. Tilavet 80 harf. Rızık vaadi yok."
+ },
+ {
+  "id": "v142",
+  "tema": "Ölüm ayeti",
+  "sure": 29,
+  "ayet": [
+   57,
+   57
+  ],
+  "hook": "Ölümü düşününce için mi daralıyor?",
+  "kapanis": "Ölümü düşündüğünde döneceğin yerin Rabbin olduğunu hatırla.",
+  "bg": "safak",
+  "sahne": "kapi",
+  "aciklama": "Ankebut Suresi 57. ayette her canın ölümü tadacağı ve sonunda Allah'a dönüleceği bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "ölüm",
+   "teselli",
+   "ankebut suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Bu ayet kısa ama her şeyi söylüyor. Dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Ölümü düşününce için mi daralıyor? | Ankebut 57",
+   "ilk_satir": "Ölüm ayeti | Ankebut 57: Her can ölümü tadacaktır. Sonunda Bize döneceksiniz",
+   "aciklama": "Ankebut Suresi 57. ayette her canın ölümü tadacağı ve sonunda Allah'a dönüleceği bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "ölüm ayeti",
+    "ankebut suresi 57",
+    "her nefis ölümü tadacaktır"
+   ]
+  },
+  "kopru_kaynak": "Ankebut 57: Her can ölümü tadacaktır",
+  "not": "Stok 29 Ekim SABAH. Tilavet 62 harf. Korkutma yok; teselli dönüşte."
+ },
+ {
+  "id": "v143",
+  "tema": "Şükür ayeti",
+  "sure": 4,
+  "ayet": [
+   147,
+   147
+  ],
+  "hook": "Elindekilere şükretmekte zorlanıyor musun?",
+  "kapanis": "Bugün elindeki bir nimet için şükret.",
+  "bg": "yildiz",
+  "sahne": "yildiz",
+  "aciklama": "Nisa Suresi 147. ayette Allah'ın şükrün karşılığını verdiği ve bildiği söyleniyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "şükür",
+   "nimet",
+   "nisa suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Bu ayet şükrün karşılıksız kalmadığını söylüyor. Dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "vurgu",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Elindekilere şükretmekte zorlanıyor musun? | Nisa 147",
+   "ilk_satir": "Şükür ayeti | Nisa 147: Allah şükrün karşılığını verir ve bilir",
+   "aciklama": "Nisa Suresi 147. ayette Allah'ın şükrün karşılığını verdiği ve bildiği söyleniyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "şükür ayeti",
+    "nisa suresi 147",
+    "şükretmek"
+   ]
+  },
+  "kopru_kaynak": "Nisa 147: Şükreder ve inanırsanız",
+  "not": "Stok 29 Ekim SABAH. Tilavet 98 harf."
  }
 ]

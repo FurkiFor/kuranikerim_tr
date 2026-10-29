@@ -91,6 +91,8 @@
 | 48 | Çocuklarının geleceği için mi endişelisin? | — | İbrahim 40: "Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle" | v079; 28 Ekim 18:00; açık adlı dua (Hz. İbrahim), köprü girişte |
 | 49 | İyiliklerin boşa gitti sanınca ne dersin? | — | Karia 6-7: "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır" | v122; deney 8, 28 Ekim 20:30; somut an; kişiye sonuç garantisi yok, ateş ayetleri hook'ta yok; arama: karia suresi ~9.465/ay |
 | 50 | Her şeyi geride bırakmak zorunda mı kaldın? | — | Saffat 99: "Doğrusu ben Rabbim uğrunda sizi bırakıp gidiyorum; O beni doğru yola eriştirir" | v077; 28 Ekim 23:30, kıssa köprüsü (Hz. İbrahim), gece yalnız kapanışta |
+| 51 | Elindekileri kaybetmekten mi korkuyorsun? | — | Rahman 26-27: "Yeryüzünde bulunan her şey fanidir. Ancak, yüce ve cömert olan Rabbinin varlığı bakidir" | v138; 29 Ekim 10:00; kayıp korkusu (yeni dert); arama: rahman suresi ~24.519/ay (+%42,5) |
+| 52 | Söylenen sözler seni üzüyor mu? | — | Yunus 65: "İnkarcıların sözleri seni üzmesin, çünkü bütün kudret Allah'ındır" | v139; 29 Ekim 18:00; kötülük görmek ailesi; Peygambere hitap girişte söylenir |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
