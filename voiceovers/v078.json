@@ -1,0 +1,44 @@
+{
+ "id": "v078",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "8m8xaUX0IRzi0CF5l4fS",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Evlat hasreti mi çekiyorsun?",
+   "prompt": "[deep voice] [slowly] Evlat hasreti mi çekiyorsun?",
+   "generation_id": "xx5bxiq7j5DW3cUsSyVm",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/L3XJXF76OtLN0ZPQ5k5x/xx5bxiq7j5DW3cUsSyVm/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T031903Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9a4af180960467c96f33a80a6614de97bef08acd9ae4a3a283d1e7d80c46266141b00d49e41a04d4085614c34993f65dee794738f65de63025d24dee6723796ebf4b8cb6138ee26e66567eb77f303e8438ad8f4719760035bd61c6b332f41b2f1d391133079e2cff6f7fe30c42abf8df1b2f8f81b8e99d53d0defcad6dc70f9e57c2dbe2a1c61d1860ec5308285db191c0534cece7ca70a6e269e214b62d6a542bc51c3323bf0ab1d8040880c3ee0f2431ed4d84086d3fa1c1d38c2ee117d4280eb01ed378442df2c19e141df79a50fe670184da65421078420098ad104cf9450ef0c6d2a8e4b356f4dd8dfa70d2c2e435c0b38cd533b0c480d86876f793a01c"
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti İbrahim de bir evlat için Rabbine yalvarmıştı. Dinle.",
+   "prompt": "[deep voice] [slowly] Hazreti İbrahim de bir evlat için Rabbine yalvarmıştı. Dinle.",
+   "generation_id": "F9YQRTyInuQIg2Uk4p9N",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/zQGNKsYl65wMiwSmSoIJ/F9YQRTyInuQIg2Uk4p9N/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T031904Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b3a8051520ddf322165a15e6a87115b191bafb0b1f77e1b30086807fee5269b9f0c4aef5fd09166b030f1f167f4139a17c629ee6698bd75901040ae513c04452d3021c0cede35e8164720470eaabf67ef6a7d4c42d45405d74f3ed609510bb265dae41017c0cdaed5b35310c41a56435e0d6d6b34e9870276fcb0c17927123fa04355b1a0ab36283aac8bebca8738c5b57e0fcf8379e096888bb588718e45370436d6a72a32be45fa97d7a53f16abccb6f6a6b707ac5b46c7fec2615f286c81e19bd45a253ad75a11cde5aa02514c967f4c7fe19d99bd1f02e1b8771d823ca603f1a5bf3315c336200c398599ec020416cf9e81e585a7383b6ddf97ff10adda2"
+  },
+  {
+   "kind": "meal",
+   "text": "Rabbim! Bana iyilerden olacak bir çocuk ver\" diye yalvardı.",
+   "prompt": "[softly] [slowly] Rabbim! Bana iyilerden olacak bir çocuk ver diye yalvardı.",
+   "generation_id": "EdZ3G3rf6C8MDTejnsk0",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/aP0Lt4QlERBJagCNgR3V/EdZ3G3rf6C8MDTejnsk0/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T031904Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8556820ea475d2cfc4d81b20d25b318be2262034b82fb7454944e2afe05f6fc48ab9d67dc49f1763f5fca68c7eac243cdb384c9df99086195182b352625bb10f8ef5b373988f6df3745d541a108b2a9c4242a3ed7a25256bfcc4709f91f70fe0981e61d1188b57d882e46a0edc4158f773d58d19212efef172385d67bde1cbfb519fcaca1a7dd63f899613073b49fe32b6716ad1fbe6c170fee9bad4bf6d6264e6c292284f4fafe398fda8d5e03a8ddaf654c802c777af1e4f1d4ad43748baeec962fb924b583fb5f70976bf3992a8e21a960a1ba9f41a362600b0121a3384298083695aad88338717d8fb912cc8b9a16e09a0850dc85e70cbced02147f890f7"
+  },
+  {
+   "kind": "meal",
+   "text": "Biz de ona yumuşak huylu bir oğlan müjdeledik.",
+   "prompt": "[softly] [slowly] Biz de ona yumuşak huylu bir oğlan müjdeledik.",
+   "generation_id": "NYnF5kW2Qp8D77ZIpzs6",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/o6fwGnSP3gSj1EFOt92m/NYnF5kW2Qp8D77ZIpzs6/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T031905Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0e495974972a0358a27b469debe975d7229d9e95f7d818e78ab78c86d3a06c84d418c2a5c329e7921e0b8791339b4bd861e7fca123c37a20a0bf38846b8d819c8fde4ed007be348c03df91777dcf483dfb70d58a384f3ad50ec05fc381ef6bcbec4206fe4a5b280de98863e6432b00351aaf11128f2ae4f69ad4c7ba0600076f583d95136958bdf5591b663995215df28154da76677096da4a8fd9485c292a0fe99a6c956557fbce0bf16082041759efbc96b1e7f31f92a3eddcdd7b50af6c1c629a8515df64d6bd3137d529dbad3c32bcbf4db51bfe00fec6ec4977442fb757d699d4464bf644890e997db0961303bb1e5cbbd787b519b9fcc1bc6bbcbfa539"
+  },
+  {
+   "kind": "cta",
+   "text": "Hazreti İbrahim gibi derdini Rabbine aç. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Hazreti İbrahim gibi derdini Rabbine aç. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "BQaH0J1ApLwDMyDesAgO",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/N72QjUF5ug5kudZlKegn/BQaH0J1ApLwDMyDesAgO/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T031906Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=65dfe0c95e48f58c7edc3f7e06e648f900d423bd6d9783668466b5fa76d425196f14816372ca9355a751292432d0dcf11f0d0cbd3e173045edbf15be03eb7a5c6ea2110494e7395ab19c20a1aaad1f1aa475f0b30c96ab81c436c97fb098fb22b5f0883b087c50bd554a1de19e29218feafad24384fa49b4f7b1c4390bd6219c00db069c6b9801163b14988d72365597553082da2f5208242120302d7d6e849d44a3466cd0aeaccf6ee998a255c550a90fdaad25766d12a9934fcfaeb4ce8f1d1c0a82a9d03e1a5d89aa7ad7a985f5675673930da03494fb87862f6da39eeccb0da4425589ef6317822d419547d0a236f437e1f6da1dc30bb07bdcab2dd93f6d"
+  }
+ ]
+}
