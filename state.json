@@ -886,8 +886,8 @@
     "kervly_id": "p_ML6ww3ljw9DG"
    },
    "tiktok": {
-    "tarih": "2026-10-27T10:00:00+04:00",
-    "zernio_id": "6ae01e566ff54fb2d87695be"
+    "tarih": "2026-10-30T13:00:00+04:00",
+    "zernio_id": "6ae4140cf0eb256ee652b175"
    }
   },
   "v071": {
@@ -1094,12 +1094,38 @@
    "youtube": {
     "tarih": "2026-10-30T10:00:00+04:00",
     "kervly_id": "p_txXQ_PK6fEu-"
+   },
+   "tiktok": {
+    "tarih": "2026-10-30T10:00:00+04:00",
+    "zernio_id": "6ae4140be3466f7fd00dbdab"
    }
   },
   "v078": {
    "youtube": {
     "tarih": "2026-10-30T18:00:00+04:00",
     "kervly_id": "p_fUtcnwwNSjt4"
+   },
+   "tiktok": {
+    "tarih": "2026-10-30T18:00:00+04:00",
+    "zernio_id": "6ae4140df50892676d1a6dc4"
+   }
+  },
+  "v125": {
+   "instagram": {
+    "tarih": "2026-10-30T10:00:00+04:00",
+    "zernio_id": "6ae4140bf0eb256ee652b16f"
+   }
+  },
+  "v128": {
+   "instagram": {
+    "tarih": "2026-10-30T13:00:00+04:00",
+    "zernio_id": "6ae4140df0eb256ee652b182"
+   }
+  },
+  "v111": {
+   "instagram": {
+    "tarih": "2026-10-30T18:00:00+04:00",
+    "zernio_id": "6ae4140ef50892676d1a6dca"
    }
   }
  }
