@@ -1804,7 +1804,7 @@
    }
   ],
   "ust": "Rabbimiz! Dünya ve ahiret duası",
-  "not": "SABAH 30 Ekim IG 18:00 — deney 7 (ayetin kendi hitabı \"Rabbimiz!\" + açık ad). Eski müzik kartı ust'u değişti, yeniden render."
+  "not": "SABAH 30 Ekim IG 18:00 — deney 7 (ayetin kendi hitabı \"Rabbimiz!\" + açık ad). Eski müzik kartı ust'u değişti, yeniden render. Render 20,6 sn — IG 7–17 sn önlemini aşıyor; 1 Kasım kart süresi değerlendirmesine kadar kullanılmaz."
  },
  {
   "id": "v061",
@@ -4192,7 +4192,7 @@
   ],
   "kart_metin": "Ben yenildim, bana yardım et",
   "sahne": "firtina",
-  "hook": "Bazen 'yenildim' dediğin olur",
+  "hook": "Yenildiğini hissettiğinde Hz. Nuh'un duası",
   "tema": "Dua",
   "etiketler": [
    "dua",
@@ -4202,14 +4202,13 @@
   "aciklama": "Kamer Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Ben yenildim, bana yardım et",
   "seo": {
-   "yt_baslik": "Bazen 'yenildim' dediğin olur | Kamer 10",
+   "yt_baslik": "Hz. Nuh'un duası: Ben yenildim, bana yardım et | Kamer 10",
    "ilk_satir": "Hz. Nuh'un duası | Kamer 10: Ben yenildim, bana yardım et",
    "aciklama": "Kamer Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "hz nuh duası",
-    "kamer suresi 10",
     "peygamber duaları",
-    "kuran duaları"
+    "kamer suresi 10"
    ]
   },
   "ses": "tilavet",
@@ -4219,8 +4218,8 @@
     "metin": "Ben yenildim, bana yardım et"
    }
   ],
-  "ust": "Bazen 'yenildim' dediğin olur",
-  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+  "ust": "Yenildiğini hissettiğinde Hz. Nuh'un duası",
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü). SABAH 30 Ekim IG 18:00 — açık adlı dua kartı (v060 20,6 sn çıktı, 17 sn önlemi yüzünden yerine)."
  },
  {
   "id": "v112",
