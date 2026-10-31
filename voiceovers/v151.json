@@ -1,0 +1,37 @@
+{
+ "id": "v151",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "AVi6LexPZVXmfTkMzRWA",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Geleceğe dair içinde bir korku mu var?",
+   "prompt": "[deep voice] [slowly] Geleceğe dair içinde bir korku mu var?",
+   "generation_id": "Zwrxp8ZGpe72Bv2Wg1So",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/xtIzVWkfpAPl8D1PV9j6/Zwrxp8ZGpe72Bv2Wg1So/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114813Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=a3c5aebe90c1fe5ec08dfad2e1c82d370f387520f4b4a407fd85f9f2800730436ada5aa914a78527ab4d1f65721e5ada62e3d11af926a437571c340d76807fc60e6fced1a66a3d0106c8d76d527b45c7cf3dad11ad49fb756a88f65f98ece5ca06ba55da1dbc0e98f667ee6c635b2a690a6fc4cfcfda1dcffe56fc1c803ab051a822508b02fec40cb422b4a451ff4f697da1728ac3fa456822e36cba9832c526e1560d46d29b67fbc8e7ea42b81f2e969b485c393450cdb5e4233a57d176cc79a0e7291ea1e5f6b0d61175bac05793d186e8f62914d89b2b92c03f3f5e4ce3488739a379cc9d8a9b08075e414178f23250815ed3fb89833c73a56f1992fb3724"
+  },
+  {
+   "kind": "giris",
+   "text": "Bu ayet kimlere korku olmadığını söylüyor. Dinle.",
+   "prompt": "[deep voice] [slowly] Bu ayet kimlere korku olmadığını söylüyor. Dinle.",
+   "generation_id": "VyFGt0xPf51w5AkEAEfQ",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/EyJoUq7vy5HWbWDFV15F/VyFGt0xPf51w5AkEAEfQ/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114814Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1b2d801771ec9de35dd10660db866ec8429eac62bf77af12e1300059a41298d253c8e70d044b35cd8779b0e7276a8f2432a1d04a82b3df6f228095651a73edb7a598fb792b4766122f4d60cca8e89429b73d6545efc541b07de372da3dc6fb452b8a218754ba9e0470508ae8611a4978e7d133fc18f22ddd9430b322b0dd05ec7cd8d9d6a3e85e6c665a593cdf138e616e5baadf4b731d4ca5c6b5de68a746642370f5fd5a8d52d466d849ab23b651f5fc963c2414908001e867179148f75605210616543216d01c71e8eae2fad7e49187a1f3ade1e86a81ae69b21bbdf5220d521dd9ae301126f65b05c986a25061bc8ba22a85c396621b4b6f558ca1cea496"
+  },
+  {
+   "kind": "meal",
+   "text": "Doğrusu, \"Rabbimiz Allah'tır\" deyip, sonra da dosdoğru gidenlere korku yoktur, onlar üzülmeyeceklerdir.",
+   "prompt": "[softly] [slowly] Doğrusu, Rabbimiz Allah'tır deyip, sonra da dosdoğru gidenlere korku yoktur, onlar üzülmeyeceklerdir.",
+   "generation_id": "PXjyMgzXXTzjDKIce9b5",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/DNTVnQEvInmCAeBmkY2w/PXjyMgzXXTzjDKIce9b5/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114816Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=a5de974f551f7085441bd693cd745b10b81fab9ca7eba605d28133da3d4403f95babcf6924133ad3c692dd88754e25e9d49e3bf3c695fb032b4bd0d93cbf38cf72ae7b78de38b43ceeb9db857a163eab8d0a054295e6921518a6e97bdb50293149c02a3854c974599cb48d1263f2aa872fb693309c01eac60ab4f0822d5eccbbfa6341621facb17e514151a3434058f3b34350626b9da703889722be90fe2c0a746214a7473db988e5ecdd00cf4f54a8050af62c32d79d0b1fa8aa4998d673d0f2bb92c89fe5b21fe2ad2372b0eec12b242cbf1520e74b7f1ef75582cc07a07c0d280a48ae9f6fe81611573380764f1b50351fe250e43ca3b55591388fab88d1"
+  },
+  {
+   "kind": "cta",
+   "text": "Bu gece de Rabbim Allah'tır de ve dosdoğru yürü. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bu gece de Rabbim Allah'tır de ve dosdoğru yürü. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "v4PIqRE1IMr8B2YXw13r",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ujaXlJgGigRK9abspOps/v4PIqRE1IMr8B2YXw13r/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114815Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7740efcf2839719aaf1e3874cd52509304cb7fbe77bb79cd54768a47cb83dff42e0610ea781ddf6cb3017d2fd72cdad3045f400c70835d3f02fd0794b4c8f2b19cc99b7a6bea7b5bcf241b963360d2855cbf50af6f264a07f53d0108d30c41e4f67806c630fad3175b9cb2c610a1bcffcb5cff5e289ee77c589757c775de95ea2b792971acdebb5236574aa70abf9277dfecb1f4f9d2b2163871be6c2020e73ec787835d57b55bee1fcfec8dba77e8895aca3026e39b977b564ddd89b1f9fbfa9504d4288fd32478f44ee75971c17019fc15adaca3a5422a1f0aa53b906c1b8cd7e1d40313cc22167924a4cde48f63852e95728b3b3aa438a4b62072e7fcc858"
+  }
+ ]
+}

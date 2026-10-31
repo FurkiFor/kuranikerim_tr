@@ -1,0 +1,65 @@
+{
+ "id": "v166",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "3q9wcAgxdKB4qGI1gxSa",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Bin aydan hayırlı bir gece olsa ne yapardın?",
+   "prompt": "[deep voice] [slowly] Bin aydan hayırlı bir gece olsa ne yapardın?",
+   "generation_id": "n4fzboQVTQbK94UmJFzW",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/sPWKvpmikPsaMsuIWj45/n4fzboQVTQbK94UmJFzW/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114809Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=005640dfc5d9bb63e863b2bc9aade3faacdd9895e0ac9429db8eb33ae9b708516501653988b016eddd60bc5edb93771b732bd64ceced3b26b5c7e6a93ba9a3f3fa5c93c6a1ddb504c731c0af7fda5e0ff0bca754f5e9a02b03d57e3a00bb56f85f362801eaca7303be79ce73a7c552122735000e428a9e797840ceed904ce3ec1f5b6d1c63b00cfc6b77e7ebf058242180dd2fa05e57ee6051390ec1117c48a708410019a0a6799e7a2e8e1eaf8426e537a8dbc981879b449bd75606d73108dcb70b75cfbe13204fb81764357c6950de429f153c651ed67b475899d0118bab66a3f0d16ee676844e73b73fb4609460ddb3136d45ac06d745f17c9206ac5599d5"
+  },
+  {
+   "kind": "giris",
+   "text": "Cevap, Kadir Suresi'nde. Beş kısa ayet; üçüncüsü tam bunu söylüyor.",
+   "prompt": "[deep voice] [slowly] Cevap, Kadir Suresi'nde. Beş kısa ayet; üçüncüsü tam bunu söylüyor.",
+   "generation_id": "AaO4cnMUwVBqblvvUmCp",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/jgUPmq5SJwM7Hchzjtnn/AaO4cnMUwVBqblvvUmCp/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114809Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3e45896098183d1ad47b0a3feaaa6b2d4c4a03714b0e7374716df8e87e900543fbddb65294ca81ea131d30cb9e99bebe357064067e6b1e03348e0690015067bfa967c52346af901013abc0a735ac7446dba2a1661ab6b6cc2b37e19b258051c4cf3240f222887b764e5131a46624752be0817d37a0e52dc9f03538662ff86fe1c56d6f4f6791f0c1dab72c1ef24c24e811b19e0057a547554e492146602fd60618ca312a695b18aee1a670c6004a4da3b1cc16eb4f28a7405288330fcd5e5c829517b66db3d342bc3e1570f3af3b3ab34f227f035349699cf0cc061a111a696d0bf016e011d7a6d98e2564a24dde81e10cfc2c01a41285e24d392fe2fa1ae043"
+  },
+  {
+   "kind": "meal",
+   "text": "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir.",
+   "prompt": "[softly] [slowly] Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir.",
+   "generation_id": "Dz4X1oQDAutnlmtrIV3j",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/2Sb9WRdyr9jNteiqCHEn/Dz4X1oQDAutnlmtrIV3j/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114809Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=69c2b2ad1102827a5fc1f90ec921663f6d781b77728a6baa27a228906b84de6784035d8b76c5f70e14ae3ba5e2e5c9d802f04a455f37156ae7b1b235ff06462c007265ca4b11365de8409015037c34b5e874c0e6602d2a6c6b5963d91175eb4b2f83885b72579c908685d9d9b0ba9d7c5c68457c59c8d2db13563b618b578bc96233c25abe315e621c9e9c7c83074ad6bdc0eecd5c3e2f56570aa155d6214b55742d4ca30d273d020412af466ccb1faa258fde183ab1b24eeb68f34cc7a65d2152266f3a21f7a8763d2c33b644fefc46195ad93749a19b44969818abb7d0631372f37e487df8696cd64a17694410861f383d78b1efca92d4fd1fd097b5fa9790"
+  },
+  {
+   "kind": "meal",
+   "text": "Kadir gecesinin ne olduğunu sen bilir misin.",
+   "prompt": "[softly] [slowly] Kadir gecesinin ne olduğunu sen bilir misin.",
+   "generation_id": "XgwE0Sw5Ibro5RxAS8hp",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/9MgZ0zLQpw5rNQZ57R6n/XgwE0Sw5Ibro5RxAS8hp/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114810Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5cac89690a85cc29144caafe8d45dd085f6a387de0d5779a1611a5990373ab5dd639eac2c7948e6c6860a391908fbfd9b01c140894184d742dff7dc7352cd4abb455f1c4a085c00e9889a12b7ba41df9019a7042fcbba977f6635e63c44530f04b0c474b2f66691d3347de786af2689993d1c929792df29fe86fa0495d273d0d4e2dd7ac6680b228bc73fb52db3a7a5fa9d5d8e26a68919813193dd531e9ccfa43720599c9efa9d6ba2e8fd91849a48d18e36cc009ca5c5af5270d36f5b0e60c81d470204a262a89163e4f2fab5dd8424616ce09ae0fc3ae6b780ec14465704022fc4fb7c677c9f314a69662beaa109631819f002d237fdb5880b73e21a8ca8c"
+  },
+  {
+   "kind": "meal",
+   "text": "Kadir gecesi bin aydan hayırlıdır.",
+   "prompt": "[softly] [slowly] Kadir gecesi bin aydan hayırlıdır.",
+   "generation_id": "BqtugOInQP45ni56hwpB",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/sL7mEKImfdduz3HKshSy/BqtugOInQP45ni56hwpB/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114810Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=60b66ad42e3e199861c81c78570c7465df319f2d8d6b2cbda7b07d6efc2e44dd9178bb9e4b594b3ef4ddcd80c986633f4dc43fc1a513bf0f56f584a38d93ea1e651396946a97ddd3ad41788fd8e489616303c39621cb0dd4768d6daa40f396c79b482a6ae9b4dd6adc895b478273ac5d70494344749d63f6e8770555a2387be3dabf9578e2b57acb23c557d4c652156e096a339e523643cb0569dcd3bade44ba279c2d8efba15a2054e8fadc9f0b231a2347dc04028a87d7af68973dccb0f6b74dc98d855a712c09c83f8066602c56006e20340702de75fab2a1b6b9a98ed1c27c9cba682c9796ad6c1692ef43341115d8940c0ce0d5b2cb25f8e11a175a6cf3"
+  },
+  {
+   "kind": "meal",
+   "text": "Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler.",
+   "prompt": "[softly] [slowly] Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler.",
+   "generation_id": "WMCsRTa5FnOE0sfzrkBd",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Dr9uAJ32Xy4QUljBP9GY/WMCsRTa5FnOE0sfzrkBd/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114812Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2dda117ec71b8374431c55b2b2100351569ad77f90c38bfe73495d9e167c0629b0d507e3a36c90bfbc3172f18dcc34be4e81c1526dba86989c8af0affb85dd22fccaeba1087521a0322d8bb6c76e675248a17ff3302a53858e72858bafba2b56d1b847522f86b792b8482f802c504abece9213f4ebb00446a8955c776364ae583efdf43dae8093a5e5a8970a7e3597cda5d2825acb5a39862c92686f7f161105074d6133b89cae2c4d911034095a89ff32854f7a1ee40ccf7c2b5d82bf38286bded0bef91ca9a999e622dcf0014f456ee99677057494a42abb1a639ee0f9baeb791e029df8d26ba19d1e074627da3d837cf40a1f7f653c770305a582429337eb"
+  },
+  {
+   "kind": "meal",
+   "text": "O gece, tan yerinin ağarmasına kadar bir esenliktir.",
+   "prompt": "[softly] [slowly] O gece, tan yerinin ağarmasına kadar bir esenliktir.",
+   "generation_id": "1VTFm5yiGnwZH1WPL3ee",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/dsm35ctLeP70S3a0wf2u/1VTFm5yiGnwZH1WPL3ee/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114814Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0bb370a9c817d243715ab8aa879555099791b570a69317286565d639b62ca5fd1e020e8f966e293fd797cf2dc7f2b763342161a951025ff52ab9075d6a124869331ca07de5ffe439ed3cde36f575decc038b33a7c43dd1db94b891b23abaa48d28c4a9068659a3ab47b38b4955083bfe460c5c5be76bbc5a64d4c40be3642232302beacc40d561d7f6415a9bf394962932197be0b9893a949ce88abdf557878971c1dd483e53943c733af8edf122bc92cef1d30f3a85ca7fcee79da2643275d1a673a9da9a3d9954d84da391849d1598b07c8adfd02c823db5878d3f14516ecfb2354089fc6268ffb7af3ab79675608691350e293bc0b1d3eadea89732440179"
+  },
+  {
+   "kind": "cta",
+   "text": "Bin aydan hayırlı o geceyi, Kadir Suresi'yle hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bin aydan hayırlı o geceyi, Kadir Suresi'yle hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "AoGjj6t0LVUKFido2ehx",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/egbqDHdbPptoXJJpgkNe/AoGjj6t0LVUKFido2ehx/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T114814Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9f12bacea5f9663a9de775393de3e4605a02317f6448f4c3c00fa79cbd62a788ee4279794b5d24f5e6ad3f90dc85d23d34370532e0d85c013392bebe038b38d911c98e1db441f3a2c50543cf43921499c599cf155198b3f86dfdc1158777ef16d626cc19835a1860ceb03750c15f3b74f4f341837ae17bd986c29226d3a27932fe1e6bfaf4f4aea83173a4a171fb369b5a741b791dd0a5f89c9cd330ea279d4e08e1ec6aa3980b96558ced8d28ad8824801c9035ac0282e0f157405a7cdd0cc57601a91f09efbfd4bc709b42025b7936f31a94aaefbeefcacdab7dd9429c40fccdf02d26a996c450b57dda6c6fa7d611f70c956386330eb13d88af6dbde193e0"
+  }
+ ]
+}
