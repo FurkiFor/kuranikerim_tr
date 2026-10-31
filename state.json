@@ -1170,12 +1170,32 @@
    "youtube": {
     "tarih": "2026-10-31T20:30:00+04:00",
     "kervly_id": "p_zK9grqiksJ0j"
+   },
+   "tiktok": {
+    "tarih": "2026-10-31T20:30:00+04:00",
+    "zernio_id": "6ae5da3dedcafcd180656ec5"
    }
   },
   "v151": {
    "youtube": {
     "tarih": "2026-10-31T23:30:00+04:00",
     "kervly_id": "p_vETg0C9uk0Xx"
+   },
+   "tiktok": {
+    "tarih": "2026-10-31T23:30:00+04:00",
+    "zernio_id": "6ae5da3eedcafcd180656ecd"
+   }
+  },
+  "v123": {
+   "instagram": {
+    "tarih": "2026-10-31T20:30:00+04:00",
+    "zernio_id": "6ae5da3eedcafcd180656ec9"
+   }
+  },
+  "v133": {
+   "instagram": {
+    "tarih": "2026-10-31T23:30:00+04:00",
+    "zernio_id": "6ae5da3fedcafcd180656ed1"
    }
   }
  }
