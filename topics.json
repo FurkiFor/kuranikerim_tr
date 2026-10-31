@@ -5088,7 +5088,7 @@
    }
   ],
   "ust": "Doğru bildiğin yolda yalnız kaldıysan",
-  "not": "AKŞAM 28 Ekim stok: 15 yeni kart (hâl/teselli, peygamber sözü, açık adlı dua); tek ayet, ≤113 Arapça harf, birleşik olmayan meal."
+  "not": "AKŞAM 28 Ekim stok: 15 yeni kart (hâl/teselli, peygamber sözü, açık adlı dua); tek ayet, ≤113 Arapça harf, birleşik olmayan meal. SABAH 31 Ekim IG 10:00."
  },
  {
   "id": "v132",
@@ -5178,7 +5178,7 @@
   ],
   "kart_metin": "Doğrusu şeytanın, inananlar ve yalnız Rablerine güvenenler üzerinde bir nüfuzu yoktur",
   "sahne": "fener",
-  "hook": "Kötü düşünceler peşini bırakmıyorsa",
+  "hook": "Bazen kötü düşünceler peşini bırakmaz",
   "tema": "Vesvese",
   "etiketler": [
    "vesvese",
@@ -5188,7 +5188,7 @@
   "aciklama": "Nahl Suresi 99. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Doğrusu şeytanın, inananlar ve yalnız Rablerine güvenenler üzerinde bir nüfuzu yoktur",
   "seo": {
-   "yt_baslik": "Kötü düşünceler peşini bırakmıyorsa | Nahl 99",
+   "yt_baslik": "Bazen kötü düşünceler peşini bırakmaz | Nahl 99",
    "ilk_satir": "Vesvese ayeti | Nahl 99: Doğrusu şeytanın, inananlar ve yalnız Rablerine güvenenler üzerinde bir nüfuzu yoktur",
    "aciklama": "Nahl Suresi 99. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
@@ -5204,8 +5204,8 @@
     "metin": "Doğrusu şeytanın, inananlar ve yalnız Rablerine güvenenler üzerinde bir nüfuzu yoktur"
    }
   ],
-  "ust": "Kötü düşünceler peşini bırakmıyorsa",
-  "not": "AKŞAM 28 Ekim stok: 15 yeni kart (hâl/teselli, peygamber sözü, açık adlı dua); tek ayet, ≤113 Arapça harf, birleşik olmayan meal."
+  "ust": "Bazen kötü düşünceler peşini bırakmaz",
+  "not": "AKŞAM 28 Ekim stok: 15 yeni kart (hâl/teselli, peygamber sözü, açık adlı dua); tek ayet, ≤113 Arapça harf, birleşik olmayan meal. SABAH 31 Ekim IG 13:00 — ust deney 9 gözlemine çevrildi ('…bırakmıyorsa' → 'Bazen …')."
  },
  {
   "id": "v135",
@@ -6712,5 +6712,49 @@
   },
   "kopru_kaynak": "Maide 25: Rabbim! Ben ancak kendime ve kardeşime söz geçirebiliyorum",
   "not": "Stok 30 Ekim SABAH. Tilavet 109 harf."
+ },
+ {
+  "id": "v165",
+  "tur": "kart",
+  "sure": 26,
+  "ayet": [
+   169,
+   170
+  ],
+  "kart_metin": "Rabbim! Beni ve ailemi bunların yapageldiği kötülükten kurtar",
+  "sahne": "kalp",
+  "hook": "Rabbim! Hz. Lut'un ailesi için duası",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "aile",
+   "tilavet"
+  ],
+  "aciklama": "Şuara Suresi 169-170. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Beni ve ailemi bunların yapageldiği kötülükten kurtar",
+  "seo": {
+   "yt_baslik": "Hz. Lut'un duası: Beni ve ailemi kurtar | Şuara 169-170",
+   "ilk_satir": "Hz. Lut'un duası | Şuara 169: Rabbim! Beni ve ailemi bunların yapageldiği kötülükten kurtar",
+   "aciklama": "Şuara Suresi 169-170. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "peygamber duaları",
+    "hz lut duası",
+    "şuara suresi 169",
+    "dua"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 169,
+    "metin": "Rabbim! Beni ve ailemi bunların yapageldiği kötülükten kurtar"
+   },
+   {
+    "ayet": 170,
+    "metin": "Bunun üzerine geride kalan yaşlı bir kadın dışında, onu ve ailesini, hepsini kurtardık"
+   }
+  ],
+  "ust": "Rabbim! Hz. Lut'un ailesi için duası",
+  "not": "SABAH 31 Ekim IG 18:00 — açık adlı dua kartı, deney 7 (ayetin kendi hitabı). 80 Arapça harf (tahmin ~15 sn, gerçek ~10–11 sn). 'aile için dua' <750/ay (vidIQ)."
  }
 ]
