@@ -95,6 +95,8 @@
 | 52 | Söylenen sözler seni üzüyor mu? | — | Yunus 65: "İnkarcıların sözleri seni üzmesin, çünkü bütün kudret Allah'ındır" | v139; 29 Ekim 18:00; kötülük görmek ailesi; Peygambere hitap girişte söylenir |
 | 53 | Biri seninle alay edince ne dersin? | — | Humeze 1-2: "diliyle çekiştirip alay eden kimsenin vay haline" | v144; deney 8, 29 Ekim 20:30; somut an; Hutame/ateş ayetleri hook'ta yok; arama: humeze ~5,0 B/ay, hümeze ~5,3 B/ay |
 | 54 | Sıkıntıda kime sığınacağını bilemiyor musun? | — | Nahl 53: "bir sıkıntıya uğradığınızda yalnız O'na sığınırsınız" | v140; 29 Ekim 23:30, gece yalnız kapanışta |
+| 55 | Elindekiler hiç yetmiyor gibi mi geliyor? | — | Adiyat 6, 8: "İnsan gerçekten Rabbine karşı pek nankördür" · "Gerçekten mala da pek düşkündür" | v180; deney 8, 1 Kasım 20:30 (kısa sure havuzunun sonu); meal 1 "atlar" demiyor → metinde at yok; arama: adiyat suresi ~4.226/ay, surah adiyat ~14.521/ay |
+| 56 | Yalnızken de doğru kalmaya mı çalışıyorsun? | — | Mülk 12: "görünmediği halde Rablerinden korkanlara … bağışlanma ve büyük ecir vardır" | v163; 1 Kasım 23:30, gece yalnız kapanışta |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
