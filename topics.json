@@ -5793,7 +5793,7 @@
    ]
   },
   "kopru_kaynak": "Nisa 132: Vekil olarak Allah yeter",
-  "not": "Stok 30 Ekim SABAH. Tilavet 81 harf."
+  "not": "Stok 30 Ekim SABAH. Tilavet 81 harf. SABAH 1 Kasım 13:00 — yalnız TikTok (1 Kasım kararı: 13:00 TikTok tekrar yerine yeni üretim; tekrarlar <150)."
  },
  {
   "id": "v147",
@@ -6818,5 +6818,527 @@
    "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
   },
   "not": "AKŞAM 31 Ekim 20:30 — kısa sure anlamı (deney 8). Tilavet 1 ve 3. ayet (43+44 = 87 harf). Hook 3. ayetin kendi sözü (bin aydan hayırlı); Kadir gecesinin tarihi, ibadet sevabı vb. tefsir/hadis ayrıntısı yok. vidIQ TR 31 Ekim: 'kadir suresi' ~4.334/ay (rekabet 54), 'kadr' ~20.523/ay (+%40,6)."
+ },
+ {
+  "id": "v167",
+  "tema": "Ashab-ı Kehf duası",
+  "sure": 18,
+  "ayet": [
+   10,
+   10
+  ],
+  "hook": "Ne yapacağını bilemiyor musun?",
+  "kapanis": "Sen de Rabbinden rahmet ve doğru yolu iste.",
+  "bg": "yol",
+  "sahne": "yol",
+  "aciklama": "Kehf Suresi 10. ayette mağaraya sığınan gençlerin 'Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster' duası bildirilir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "dua",
+   "rahmet",
+   "kehf suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Mağaraya sığınan gençler Rabbine böyle dua etmişti. Dinle."
+  },
+  "kurgu": {
+   "kamera": [
+    "it",
+    "sabit",
+    "vurgu"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Ashab-ı Kehf'in rahmet duası | Kehf Suresi 10",
+   "ilk_satir": "Ne yapacağını bilemiyor musun? Ashab-ı Kehf duası | Kehf 10: Rabbimiz! Katından bize rahmet ver",
+   "aciklama": "Kehf Suresi 10. ayette mağaraya sığınan gençlerin 'Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster' duası bildirilir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "ashabı kehf",
+    "ashabı kehf duası",
+    "rahmet duası",
+    "kehf suresi 10"
+   ]
+  },
+  "kopru_kaynak": "Kehf 10: Birkaç genç mağaraya sığınmış: Rabbimiz! ... işimizde doğruyu göster demişlerdi",
+  "not": "SABAH 1 Kasım 18:00 — tilavetli anlatımlı, açık adlı dua. Tilavet 126 harf (1 Kasım kararı: açık adlı dua ayetlerinde sınır 130). vidIQ TR: 'ashabı kehf' ~8.112/ay, 'rahmet duası' ~6.751 (+%84,6, rekabet 15), 'ashabı kehf duası' <750."
+ },
+ {
+  "id": "v168",
+  "tur": "kart",
+  "sure": 36,
+  "ayet": [
+   76,
+   76
+  ],
+  "kart_metin": "Bunların sözü seni üzmesin. Biz onların gizlediklerini de, açığa vurduklarını da şüphesiz biliriz",
+  "sahne": "kalp",
+  "hook": "Sözleri seni üzmesin; Allah gizlediklerini de bilir",
+  "tema": "Teselli",
+  "etiketler": [
+   "teselli",
+   "kırgınlık",
+   "tilavet"
+  ],
+  "aciklama": "Yâsîn Suresi 76. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Bunların sözü seni üzmesin. Biz onların gizlediklerini de, açığa vurduklarını da şüphesiz biliriz",
+  "seo": {
+   "yt_baslik": "Sözleri seni üzmesin; Allah gizlediklerini de bilir | Yasin 76",
+   "ilk_satir": "Söz ayeti | Yasin 76: Bunların sözü seni üzmesin. Biz onların gizlediklerini de, açığa vurduklarını da şüphesiz biliriz",
+   "aciklama": "Yâsîn Suresi 76. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "söz ayeti",
+    "yasin suresi 76",
+    "teselli"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 76,
+    "metin": "Bunların sözü seni üzmesin. Biz onların gizlediklerini de, açığa vurduklarını da şüphesiz biliriz"
+   }
+  ],
+  "ust": "Sözleri seni üzmesin; Allah gizlediklerini de bilir",
+  "not": "SABAH 1 Kasım stok: deney 10; 78 Arapça harf (tahmin 14.8 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v169",
+  "tur": "kart",
+  "sure": 21,
+  "ayet": [
+   4,
+   4
+  ],
+  "kart_metin": "Peygamber: \"Benim Rabbim gökte ve yerde söyleneni bilir. O, işitendir, bilendir\" dedi",
+  "sahne": "yildiz",
+  "hook": "Gökte ve yerde söyleneni Rabbin bilir",
+  "tema": "Teselli",
+  "etiketler": [
+   "teselli",
+   "dedikodu",
+   "tilavet"
+  ],
+  "aciklama": "Enbiyâ Suresi 4. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Peygamber: \"Benim Rabbim gökte ve yerde söyleneni bilir. O, işitendir, bilendir\" dedi",
+  "seo": {
+   "yt_baslik": "Gökte ve yerde söyleneni Rabbin bilir | Enbiya 4",
+   "ilk_satir": "Teselli ayeti | Enbiya 4: Peygamber: \"Benim Rabbim gökte ve yerde söyleneni bilir. O, işitendir, bilendir\" dedi",
+   "aciklama": "Enbiyâ Suresi 4. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "teselli ayeti",
+    "enbiya suresi 4",
+    "teselli"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 4,
+    "metin": "Peygamber: \"Benim Rabbim gökte ve yerde söyleneni bilir. O, işitendir, bilendir\" dedi"
+   }
+  ],
+  "ust": "Gökte ve yerde söyleneni Rabbin bilir",
+  "not": "SABAH 1 Kasım stok: deney 10; 89 Arapça harf (tahmin 16.8 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v170",
+  "tur": "kart",
+  "sure": 6,
+  "ayet": [
+   117,
+   117
+  ],
+  "kart_metin": "Doğrusu Rabbin, yolundan kimin saptığını daha iyi bilir. Doğru yolda olanları da en iyi O bilir",
+  "sahne": "yol",
+  "hook": "Kim doğru yolda, en iyi Rabbin bilir",
+  "tema": "Hidayet",
+  "etiketler": [
+   "hidayet",
+   "doğru yol",
+   "tilavet"
+  ],
+  "aciklama": "En'âm Suresi 117. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Doğrusu Rabbin, yolundan kimin saptığını daha iyi bilir. Doğru yolda olanları da en iyi O bilir",
+  "seo": {
+   "yt_baslik": "Kim doğru yolda, en iyi Rabbin bilir | En'am 117",
+   "ilk_satir": "Doğru yol ayeti | En'am 117: Doğrusu Rabbin, yolundan kimin saptığını daha iyi bilir. Doğru yolda olanları da en iyi O bilir",
+   "aciklama": "En'âm Suresi 117. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "doğru yol ayeti",
+    "en'am suresi 117",
+    "hidayet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 117,
+    "metin": "Doğrusu Rabbin, yolundan kimin saptığını daha iyi bilir. Doğru yolda olanları da en iyi O bilir"
+   }
+  ],
+  "ust": "Kim doğru yolda, en iyi Rabbin bilir",
+  "not": "SABAH 1 Kasım stok: deney 10; 90 Arapça harf (tahmin 17.0 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v171",
+  "tur": "kart",
+  "sure": 27,
+  "ayet": [
+   73,
+   73
+  ],
+  "kart_metin": "Doğrusu Rabbin, insanlara karşı lütuf sahibidir. Fakat onların çoğu şükretmezler",
+  "sahne": "tohum",
+  "hook": "Rabbin, insanlara karşı lütuf sahibidir",
+  "tema": "Şükür",
+  "etiketler": [
+   "şükür",
+   "nimet",
+   "tilavet"
+  ],
+  "aciklama": "Neml Suresi 73. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Doğrusu Rabbin, insanlara karşı lütuf sahibidir. Fakat onların çoğu şükretmezler",
+  "seo": {
+   "yt_baslik": "Rabbin, insanlara karşı lütuf sahibidir | Neml 73",
+   "ilk_satir": "Şükür ayeti | Neml 73: Doğrusu Rabbin, insanlara karşı lütuf sahibidir. Fakat onların çoğu şükretmezler",
+   "aciklama": "Neml Suresi 73. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "şükür ayeti",
+    "neml suresi 73",
+    "şükür"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 73,
+    "metin": "Doğrusu Rabbin, insanlara karşı lütuf sahibidir. Fakat onların çoğu şükretmezler"
+   }
+  ],
+  "ust": "Rabbin, insanlara karşı lütuf sahibidir",
+  "not": "SABAH 1 Kasım stok: deney 10; 83 Arapça harf (tahmin 15.7 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v172",
+  "tur": "kart",
+  "sure": 34,
+  "ayet": [
+   48,
+   48
+  ],
+  "kart_metin": "De ki: \"Görünmeyenleri en iyi bilen Rabbim, batılı hak ile ortadan kaldırır",
+  "sahne": "firtina",
+  "hook": "Bazen haksızlık hiç bitmeyecek sanırsın",
+  "tema": "Adalet",
+  "etiketler": [
+   "haksızlık",
+   "sabır",
+   "tilavet"
+  ],
+  "aciklama": "Sebe' Suresi 48. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "De ki: \"Görünmeyenleri en iyi bilen Rabbim, batılı hak ile ortadan kaldırır",
+  "seo": {
+   "yt_baslik": "Bazen haksızlık hiç bitmeyecek sanırsın | Sebe' 48",
+   "ilk_satir": "Haksızlık ayeti | Sebe' 48: De ki: \"Görünmeyenleri en iyi bilen Rabbim, batılı hak ile ortadan kaldırır",
+   "aciklama": "Sebe' Suresi 48. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "haksızlık ayeti",
+    "sebe' suresi 48",
+    "haksızlık"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 48,
+    "metin": "De ki: \"Görünmeyenleri en iyi bilen Rabbim, batılı hak ile ortadan kaldırır"
+   }
+  ],
+  "ust": "Bazen haksızlık hiç bitmeyecek sanırsın",
+  "not": "SABAH 1 Kasım stok: deney 9; 57 Arapça harf (tahmin 11.0 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v173",
+  "tur": "kart",
+  "sure": 20,
+  "ayet": [
+   52,
+   52
+  ],
+  "kart_metin": "Musa: \"Onların bilgisi Rabbimin katında yazılıdır. Rabbim şaşırmaz ve unutmaz.\" dedi",
+  "sahne": "deniz",
+  "hook": "Hz. Musa: Rabbim şaşırmaz ve unutmaz",
+  "tema": "Tevekkül",
+  "etiketler": [
+   "tevekkül",
+   "hz musa",
+   "tilavet"
+  ],
+  "aciklama": "Tâhâ Suresi 52. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Musa: \"Onların bilgisi Rabbimin katında yazılıdır. Rabbim şaşırmaz ve unutmaz.\" dedi",
+  "seo": {
+   "yt_baslik": "Hz. Musa: Rabbim şaşırmaz ve unutmaz | Taha 52",
+   "ilk_satir": "Hz. Musa sözü | Taha 52: Musa: \"Onların bilgisi Rabbimin katında yazılıdır. Rabbim şaşırmaz ve unutmaz.\" dedi",
+   "aciklama": "Tâhâ Suresi 52. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz. musa sözü",
+    "taha suresi 52",
+    "tevekkül"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 52,
+    "metin": "Musa: \"Onların bilgisi Rabbimin katında yazılıdır. Rabbim şaşırmaz ve unutmaz.\" dedi"
+   }
+  ],
+  "ust": "Hz. Musa: Rabbim şaşırmaz ve unutmaz",
+  "not": "SABAH 1 Kasım stok: peygamber sözü; 76 Arapça harf (tahmin 14.4 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v174",
+  "tur": "kart",
+  "sure": 43,
+  "ayet": [
+   68,
+   68
+  ],
+  "kart_metin": "Allah: \"Ey kullarım! Bugün size korku yoktur, siz üzülmeyeceksiniz\" der",
+  "sahne": "kapi",
+  "hook": "Ey kullarım! Bugün size korku yoktur",
+  "tema": "Müjde",
+  "etiketler": [
+   "müjde",
+   "korku",
+   "tilavet"
+  ],
+  "aciklama": "Zuhruf Suresi 68. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Allah: \"Ey kullarım! Bugün size korku yoktur, siz üzülmeyeceksiniz\" der",
+  "seo": {
+   "yt_baslik": "Ey kullarım! Bugün size korku yoktur | Zuhruf 68",
+   "ilk_satir": "Müjde ayeti | Zuhruf 68: Allah: \"Ey kullarım! Bugün size korku yoktur, siz üzülmeyeceksiniz\" der",
+   "aciklama": "Zuhruf Suresi 68. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "müjde ayeti",
+    "zuhruf suresi 68",
+    "müjde"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 68,
+    "metin": "Allah: \"Ey kullarım! Bugün size korku yoktur, siz üzülmeyeceksiniz\" der"
+   }
+  ],
+  "ust": "Ey kullarım! Bugün size korku yoktur",
+  "not": "SABAH 1 Kasım stok: deney 7 hitap; 70 Arapça harf (tahmin 13.3 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v175",
+  "tur": "kart",
+  "sure": 68,
+  "ayet": [
+   32,
+   32
+  ],
+  "kart_metin": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
+  "sahne": "tohum",
+  "hook": "Bazen elindekini kaybedersin",
+  "tema": "Umut",
+  "etiketler": [
+   "kayıp",
+   "umut",
+   "tilavet"
+  ],
+  "aciklama": "Kalem Suresi 32. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
+  "seo": {
+   "yt_baslik": "Bazen elindekini kaybedersin | Kalem 32",
+   "ilk_satir": "Umut ayeti | Kalem 32: Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
+   "aciklama": "Kalem Suresi 32. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "umut ayeti",
+    "kalem suresi 32",
+    "kayıp"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 32,
+    "metin": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz"
+   }
+  ],
+  "ust": "Bazen elindekini kaybedersin",
+  "not": "SABAH 1 Kasım stok: deney 9; 82 Arapça harf (tahmin 15.5 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v176",
+  "tur": "kart",
+  "sure": 17,
+  "ayet": [
+   65,
+   65
+  ],
+  "kart_metin": "Doğrusu Benim mümin kullarım üzerinde senin bir hakimiyetin olamaz. Rabbin vekil olarak yeter",
+  "sahne": "fener",
+  "hook": "Bazen şeytan peşini bırakmıyor gibi gelir",
+  "tema": "Vesvese",
+  "etiketler": [
+   "şeytan",
+   "vesvese",
+   "tevekkül",
+   "tilavet"
+  ],
+  "aciklama": "İsrâ Suresi 65. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Doğrusu Benim mümin kullarım üzerinde senin bir hakimiyetin olamaz. Rabbin vekil olarak yeter",
+  "seo": {
+   "yt_baslik": "Bazen şeytan peşini bırakmıyor gibi gelir | İsra 65",
+   "ilk_satir": "Şeytandan korunma ayeti | İsra 65: Doğrusu Benim mümin kullarım üzerinde senin bir hakimiyetin olamaz. Rabbin vekil olarak ye",
+   "aciklama": "İsrâ Suresi 65. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "şeytandan korunma ayeti",
+    "i̇sra suresi 65",
+    "şeytan"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 65,
+    "metin": "Doğrusu Benim mümin kullarım üzerinde senin bir hakimiyetin olamaz. Rabbin vekil olarak yeter"
+   }
+  ],
+  "ust": "Bazen şeytan peşini bırakmıyor gibi gelir",
+  "not": "SABAH 1 Kasım stok: deney 9; 77 Arapça harf (tahmin 14.6 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v177",
+  "tur": "kart",
+  "sure": 20,
+  "ayet": [
+   50,
+   50
+  ],
+  "kart_metin": "Musa: \"Rabbimiz, her şeye ayrı bir özellik veren, sonra doğru yola eriştirendir\" dedi",
+  "sahne": "yol",
+  "hook": "Hz. Musa, Firavun'a Rabbini böyle anlattı",
+  "tema": "İman",
+  "etiketler": [
+   "iman",
+   "hz musa",
+   "tilavet"
+  ],
+  "aciklama": "Tâhâ Suresi 50. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Musa: \"Rabbimiz, her şeye ayrı bir özellik veren, sonra doğru yola eriştirendir\" dedi",
+  "seo": {
+   "yt_baslik": "Hz. Musa, Firavun'a Rabbini böyle anlattı | Taha 50",
+   "ilk_satir": "Hz. Musa sözü | Taha 50: Musa: \"Rabbimiz, her şeye ayrı bir özellik veren, sonra doğru yola eriştirendir\" dedi",
+   "aciklama": "Tâhâ Suresi 50. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz. musa sözü",
+    "taha suresi 50",
+    "iman"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 50,
+    "metin": "Musa: \"Rabbimiz, her şeye ayrı bir özellik veren, sonra doğru yola eriştirendir\" dedi"
+   }
+  ],
+  "ust": "Hz. Musa, Firavun'a Rabbini böyle anlattı",
+  "not": "SABAH 1 Kasım stok: peygamber sözü; 66 Arapça harf (tahmin 12.6 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v178",
+  "tur": "kart",
+  "sure": 20,
+  "ayet": [
+   45,
+   45
+  ],
+  "kart_metin": "Rabbimiz! Onun bize kötülük etmesinden veya azgınlığının artmasından korkarız",
+  "sahne": "kum",
+  "hook": "Rabbimiz! Hz. Musa ile Harun korktuğunda",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "korku",
+   "hz musa",
+   "tilavet"
+  ],
+  "aciklama": "Tâhâ Suresi 45. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbimiz! Onun bize kötülük etmesinden veya azgınlığının artmasından korkarız",
+  "seo": {
+   "yt_baslik": "Rabbimiz! Hz. Musa ile Harun korktuğunda | Taha 45",
+   "ilk_satir": "Hz. Musa duası | Taha 45: Rabbimiz! Onun bize kötülük etmesinden veya azgınlığının artmasından korkarız",
+   "aciklama": "Tâhâ Suresi 45. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz. musa duası",
+    "taha suresi 45",
+    "dua"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 45,
+    "metin": "Rabbimiz! Onun bize kötülük etmesinden veya azgınlığının artmasından korkarız"
+   }
+  ],
+  "ust": "Rabbimiz! Hz. Musa ile Harun korktuğunda",
+  "not": "SABAH 1 Kasım stok: deney 7; 75 Arapça harf (tahmin 14.2 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v179",
+  "tur": "kart",
+  "sure": 20,
+  "ayet": [
+   84,
+   84
+  ],
+  "kart_metin": "Rabbim! Hoşnut olman için Sana acele geldim",
+  "sahne": "yildiz",
+  "hook": "Rabbim! Hoşnut olman için Sana acele geldim",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "hz musa",
+   "tilavet"
+  ],
+  "aciklama": "Tâhâ Suresi 84. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Hoşnut olman için Sana acele geldim",
+  "seo": {
+   "yt_baslik": "Rabbim! Hoşnut olman için Sana acele geldim | Taha 84",
+   "ilk_satir": "Hz. Musa duası | Taha 84: Rabbim! Hoşnut olman için Sana acele geldim",
+   "aciklama": "Tâhâ Suresi 84. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz. musa duası",
+    "taha suresi 84",
+    "dua"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 84,
+    "metin": "Rabbim! Hoşnut olman için Sana acele geldim"
+   }
+  ],
+  "ust": "Rabbim! Hoşnut olman için Sana acele geldim",
+  "not": "SABAH 1 Kasım stok: deney 7; 71 Arapça harf (tahmin 13.5 sn), birleşik olmayan meal."
  }
 ]
