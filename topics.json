@@ -6620,7 +6620,7 @@
    12
   ],
   "hook": "Yalnızken de doğru kalmaya mı çalışıyorsun?",
-  "kapanis": "Kimse görmezken de doğru kal; bağışlanma ve büyük ecir onlar için.",
+  "kapanis": "Bu gece kimse görmese de doğru kal; bağışlanma ve büyük ecir onlar için.",
   "bg": "kum",
   "sahne": "kum",
   "aciklama": "Mülk Suresi 12. ayette görünmediği halde Rablerinden korkanlara bağışlanma ve büyük ecir olduğu bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -6660,7 +6660,12 @@
    ]
   },
   "kopru_kaynak": "Mülk 12: Görünmediği halde Rablerinden korkanlara bağışlanma vardır",
-  "not": "Stok 30 Ekim SABAH. Tilavet 83 harf."
+  "not": "Stok 30 Ekim SABAH. Tilavet 83 harf. AKŞAM 1 Kasım 23:30: kapanışa gece hitabı eklendi.",
+  "platform": {
+   "youtube": "23:30 tilavetli anlatımlı (gece yalnız kapanışta)",
+   "tiktok": "23:30",
+   "instagram": "gönderilmez"
+  }
  },
  {
   "id": "v164",
@@ -7340,5 +7345,67 @@
   ],
   "ust": "Rabbim! Hoşnut olman için Sana acele geldim",
   "not": "SABAH 1 Kasım stok: deney 7; 71 Arapça harf (tahmin 13.5 sn), birleşik olmayan meal."
+ },
+ {
+  "id": "v180",
+  "tema": "Adiyat Suresi Anlamı",
+  "sure": 100,
+  "ayet": [
+   1,
+   11
+  ],
+  "hook": "Elindekiler hiç yetmiyor gibi mi geliyor?",
+  "kapanis": "Elindekiler yetmiyor gibi geldiğinde Adiyat Suresi'ni hatırla.",
+  "bg": "firtina",
+  "sahne": "firtina",
+  "aciklama": "Adiyat Suresi'nde Allah yolunda koşanlar üzerine yemin edilerek insanın Rabbine karşı pek nankör ve mala pek düşkün olduğu, kabirlerdekilerin çıkarılacağı ve kalplerdekinin ortaya konulacağı gün Rablerinin onların her şeyinden haberdar olduğu bildirilir. Diyanet meali ile Adiyat Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "adiyat suresi",
+   "tilavet",
+   "kısa sureler"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify",
+   "ayetler": [
+    6,
+    8
+   ]
+  },
+  "seslendirme": {
+   "giris": "Cevap, Adiyat Suresi'nde. Altıncı ve sekizinci ayetler tam bu hâli anlatıyor."
+  },
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Elindekiler hiç yetmiyor gibi mi geliyor? Adiyat Suresi anlamı",
+   "ilk_satir": "Elindekiler hiç yetmiyor gibi mi geliyor? Adiyat Suresi anlamı ve meali (1-11)",
+   "aciklama": "Adiyat Suresi'nde Allah yolunda koşanlar üzerine yemin edilerek insanın Rabbine karşı pek nankör ve mala pek düşkün olduğu, kabirlerdekilerin çıkarılacağı ve kalplerdekinin ortaya konulacağı gün Rablerinin onların her şeyinden haberdar olduğu bildirilir. Diyanet meali ile Adiyat Suresi anlamı. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "adiyat suresi",
+    "adiyat suresi anlamı",
+    "adiyat suresi meali",
+    "surah adiyat",
+    "kısa sureler"
+   ]
+  },
+  "kopru_kaynak": "Adiyat 6: İnsan gerçekten Rabbine karşı pek nankördür · Adiyat 8: Gerçekten mala da pek düşkündür",
+  "kalip": "deney8-somut-an-sure-adi",
+  "platform": {
+   "youtube": "20:30 kısa sure anlamı",
+   "tiktok": "20:30",
+   "instagram": "gönderilmez — 20:30 IG slotu tilavet kartı"
+  },
+  "not": "AKŞAM 1 Kasım 20:30 — kısa sure anlamı (deney 8), havuzun son suresi. Tilavet 6 ve 8. ayet (38+37 = 75 harf); 9-10 Diyanet'te birleşik, meal bir kez okunur. Meal 1 'atlar' demiyor → metinde at yok. vidIQ TR 1 Kasım: 'adiyat suresi' ~4.226/ay (rekabet 60), 'surah adiyat' ~14.521/ay (+%29,1)."
  }
 ]
