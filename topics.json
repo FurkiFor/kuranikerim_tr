@@ -5905,7 +5905,7 @@
    26,
    26
   ],
-  "hook": "Kimse sana inanmıyor mu?",
+  "hook": "Doğruyu söylüyorsun ama kimse inanmıyor mu?",
   "kapanis": "Sana inanmasalar da Hazreti Nuh gibi Rabbinden yardım iste.",
   "bg": "deniz",
   "sahne": "deniz",
@@ -5937,7 +5937,7 @@
   },
   "seo": {
    "yt_baslik": "Hz. Nuh'un duası | Mü'minun 26 · Rabbim bana yardım et",
-   "ilk_satir": "Kimse sana inanmıyor mu? Hz. Nuh'un duası | Mü'minûn 26",
+   "ilk_satir": "Doğruyu söylüyorsun ama kimse inanmıyor mu? Hz. Nuh'un duası | Mü'minûn 26",
    "aciklama": "Mü'minûn Suresi 26. ayette Hz. Nuh, kavmi kendisini yalanlayınca Rabbinden yardım istiyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "hz nuh duası",
@@ -5946,7 +5946,7 @@
    ]
   },
   "kopru_kaynak": "Mü'minun 26: Rabbim! Beni yalanlamalarına karşılık bana yardım et",
-  "not": "Stok 30 Ekim SABAH. Tilavet 39 harf."
+  "not": "Stok 30 Ekim SABAH. Tilavet 39 harf. 2 Kasım AKŞAM: 20:30 açık adlı dua; hook somut an."
  },
  {
   "id": "v150",
@@ -6110,9 +6110,9 @@
    48
   ],
   "hook": "Sabrın taşmak üzere mi?",
-  "kapanis": "Sabrın taşacakken Rabbinin hükmünü bekle.",
-  "bg": "deniz",
-  "sahne": "deniz",
+  "kapanis": "Bu gece sabrın taşacakken Rabbinin hükmünü bekle.",
+  "bg": "firtina",
+  "sahne": "firtina",
   "aciklama": "Kalem Suresi 48. ayette Allah Peygamberine Rabbinin hükmüne kadar sabretmesini ve pek üzgün hâlde Rabbine seslenen balık sahibi Yunus gibi olmamasını söylüyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
    "sabır",
@@ -6150,7 +6150,7 @@
    ]
   },
   "kopru_kaynak": "Kalem 48: Rabbinin hükmüne kadar sabret; balık sahibi gibi olma",
-  "not": "Stok 30 Ekim SABAH. Tilavet 88 harf."
+  "not": "Stok 30 Ekim SABAH. Tilavet 88 harf. 2 Kasım AKŞAM: 23:30, gece yalnız kapanışta; sahne deniz→firtina (20:30 v149 deniz)."
  },
  {
   "id": "v154",
