@@ -1378,7 +1378,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "10:00 tilavetli anlatımlı, tövbe (A'râf 153)"
+  "not": "10:00 tilavetli anlatımlı, tövbe (A'râf 153)",
+  "zernio_id": "6ae8079ab4dba486da461e53",
+  "status": "scheduled"
  },
  {
   "id": "v171",
@@ -1386,7 +1388,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG kart, deney 10 (Neml 73), normal Reel"
+  "not": "IG kart, deney 10 (Neml 73), normal Reel",
+  "zernio_id": "6ae8079bb4dba486da461e5c",
+  "status": "scheduled"
  },
  {
   "id": "v150",
@@ -1394,7 +1398,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "13:00 yalnız TikTok yeni tilavetli anlatımlı (A'râf 199)"
+  "not": "13:00 yalnız TikTok yeni tilavetli anlatımlı (A'râf 199)",
+  "zernio_id": "6ae8079bb4dba486da461e60",
+  "status": "scheduled"
  },
  {
   "id": "v176",
@@ -1402,7 +1408,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG kart, deney 9 (İsra 65), normal Reel"
+  "not": "IG kart, deney 9 (İsra 65), normal Reel",
+  "zernio_id": "6ae8079cb4dba486da461e64",
+  "status": "scheduled"
  },
  {
   "id": "v164",
@@ -1410,7 +1418,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "18:00 tilavetli anlatımlı, Hz. Musa duası (Mâide 25)"
+  "not": "18:00 tilavetli anlatımlı, Hz. Musa duası (Mâide 25)",
+  "zernio_id": "6ae8079cb4dba486da461e68",
+  "status": "scheduled"
  },
  {
   "id": "v179",
@@ -1418,6 +1428,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG dua kartı, deney 7 (Taha 84, Hz. Musa), normal Reel"
+  "not": "IG dua kartı, deney 7 (Taha 84, Hz. Musa), normal Reel",
+  "zernio_id": "6ae8079cb4dba486da461e6c",
+  "status": "scheduled"
  }
 ]
