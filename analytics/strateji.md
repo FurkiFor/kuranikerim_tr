@@ -402,3 +402,26 @@ Bulgular → kararlar:
 Tekrar paylaşım adayları: YouTube verisi olmadan güncellenmedi (son liste 26 Ekim).
 
 Planlanan (SABAH 2 Kasım): 10:00 v162 A'râf 153 "Yaptığın bir kötülükten pişman mısın?" (tövbe, YT + TikTok) · 13:00 v150 A'râf 199 "Biri cahilce seni mi kızdırdı?" (yalnız TikTok) · 18:00 v164 Mâide 25 "Kimseye sözünü geçiremiyor musun?" (Hz. Musa'nın duası, YT + TikTok) · IG 10:00 v171 Neml 73 (deney 10), 13:00 v176 İsra 65 (deney 9), 18:00 v179 Taha 84 (deney 7, Hz. Musa). YouTube gönderileri Kervly'de planlı; token gelmezse düşer.
+
+
+### 2 Kasım 2026 ÖĞLE — YouTube geri geldi, düşen gönderiler, IG geç kart (Furkan: "istatistiklere bakış, yeni kararlar, durum")
+Kaynak: Kervly `get_youtube_stats` 14:41 + `connection_status` (YouTube 2 Kasım 14:00'te yeniden bağlanmış) · Zernio 14:04.
+
+**YouTube (token düşükken bile büyüdü):** 528 abone (31 Ekim sabah 486 → +42, 2 gün yayınsız), 143.364 toplam izlenme (122.554 → +20.810). 24–30 Ekim'in ≥3 günlük 24 videosu:
+| Ayrım | Video | Medyan izlenme |
+|---|---|---|
+| Açık adlı dua (başlık duanın adıyla başlar) | 6 | **4.206** (v073 vesvese 13.468 · v079 çocuklar 9.470 · v071 anne baba 5.674 · v080 2.739 · v066 2.411 · v078 1.597) |
+| Kısa sure anlamı | 7 | 2.357 (v144 Humeze 5.843 en iyi) |
+| Teselli tilavetli anlatımlı (soru başlık) | 13 | 2.288 (v121 tövbe Nisa 110 5.416 en iyi) |
+| Slot 10:00 / 18:00 / 20:30 / 23:30 | 7 / 7 / 5 / 5 | 2.480 / **2.739** / 2.357 / **1.987** |
+
+**Instagram:** 471 takipçi (1 Kasım 410, 18 Ekim 9). v107 27.943 · 769 kaydetme; v125 7.149; v165 Hz. Lut duası 5.481; v168 deney 10 3.160. IG geç kartlar: 23:30'da son 4 kartın 3'ü çöktü (v108 277, v133 250, v172 ~15 saatte 106); 13:00–20:30 slotlarında aynı dönemde 2 çöküş (v111, v123).
+**TikTok:** 1.777 takipçi (+4/gün); son 4 günün 20 videosu 120–187 bandında, bandı kıran yok.
+
+Kararlar:
+1. **Düşen 9 YouTube gönderisi yeniden kuyruğa alındı — 13:00 YouTube slotunda, günde 1** (retry_post, publish_at): 3 Kas v167 Kehf 10 duası · 4 v162 tövbe · 5 v155 tövbe · 6 v152 sabır · 7 v180 Adiyat · 8 v145 · 9 v166 Kadir · 10 v151 · 11 v163. Bu videolar yalnız TikTok'ta çıktı; YouTube kanalın büyüme motoru olduğu için toplu retry yerine slot slot (24 Ekim'de 7 videoyu aynı anda yayınlamak kanalı boğmuştu). AKŞAM partisi bunları retry ETMEZ (artık `error` değiller).
+2. **12 Kasım'dan 13:00 yeni tilavetli anlatımlı YouTube'a da gider** (üretim maliyeti yok; YouTube günde 5 = Kervly sınırı). 13 Kasım'da kontrol: 13:00 eklendikten sonra 10:00/18:00 YouTube medyanı düşerse (kanal içi yamyamlık) 13:00 YouTube kaldırılır.
+3. **IG geç kartı 23:30 → 22:00** (1 Kasım haftalık tetikleyicisi beklenmeden: v172'nin ~15 saatte 106'da kalmasıyla 23:30'da 4 karttan 3 çöküş). İlk uygulama 2 Kasım AKŞAM. 9 Kasım'da 22:00 kartları diğer slotların medyanıyla karşılaştırılır; çöküş sürerse kart 21:00'e değil 20:30'un yanına (19:30) alınır.
+4. **YouTube 23:30 en zayıf slot (medyan 1.987, 5 video) ama kaldırılmıyor** — 1.987 hâlâ TikTok ve IG'nin çoğundan yüksek ve kanal büyüyor. 20:30 artık açık adlı dua (en güçlü format); 9 Kasım'da 23:30'a da açık adlı dua koymak değerlendirilir.
+5. **Açık adlı dua YouTube'da kanıtlandı (6 video, medyan teselliden %84 yüksek).** 18:00 ve 20:30 açık adlı dua; başlık duanın adıyla başlar ("X duası | Sure Ayet · …"), soru başlığı yalnız teselli/tövbe için. Tövbe teselli içinde öncelikli kalır (v121 5.416).
+6. **Token yine 9 Kasım ~14:00'te düşecek** (Google uygulaması "Testing" modunda, 7 gün). Kalıcı çözüm Furkan'da: Google Cloud → OAuth consent screen → "Publish app". Düşerse 9–11 Kasım'ın 13:00 gönderileri de etkilenir.
