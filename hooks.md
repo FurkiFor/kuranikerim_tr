@@ -100,6 +100,8 @@
 | 57 | Yaptığın bir kötülükten pişman mısın? | — | A'râf 153: "Kötülük işleyip ardından tevbe edenler … Rabbin … onları şüphesiz bağışlar ve merhamet eder" | v162; 2 Kasım 10:00; tövbe/af (haftalık hedef); "tövbe ayeti" <750/ay |
 | 58 | Biri cahilce seni mi kızdırdı? | — | A'râf 199: "Sen af yolunu tut … bilgisizlere aldırış etme" | v150; 2 Kasım 13:00 yalnız TikTok; kötülük görmek ailesi; Peygambere hitap girişte söylenir |
 | 59 | Kimseye sözünü geçiremiyor musun? | — | Mâide 25: Musa: "Rabbim! Ben ancak kendime ve kardeşime söz geçirebiliyorum…" | v164; 2 Kasım 18:00; açık adlı dua (Hz. Musa), köprü girişte |
+| 60 | Doğruyu söylüyorsun ama kimse inanmıyor mu? | — | Mü'minûn 26: Nuh: "Rabbim! Beni yalanlamalarına karşılık bana yardım et" | v149; 2 Kasım 20:30; açık adlı dua (Hz. Nuh), somut an; köprü girişte |
+| 61 | Sabrın taşmak üzere mi? | — | Kalem 48: "Sen Rabbinin hükmüne kadar sabret; balık sahibi (Yunus) gibi olma…" | v153; 2 Kasım 23:30; sabır ailesi (v072 Mearic 5 TikTok 424), gece yalnız kapanışta |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
