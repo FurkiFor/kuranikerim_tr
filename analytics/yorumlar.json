@@ -1,5 +1,31 @@
 [
  {
+  "platform": "instagram",
+  "accountId": "6ad42eb0a87940951247b3ea",
+  "postId": "17963931177234455",
+  "gonderi": "Üzülme ayeti | Neml 70: Onlara üzülme. Hilelerine karşı da sıkılma 🤍\n\nNeml Sures",
+  "commentId": "18100689107444850",
+  "yazan": "orcun.2347",
+  "metin": "Amin 🤲🤲🤲",
+  "tarih": "2026-11-02T08:59:37+0000",
+  "begeni": 1,
+  "yanitlanabilir": true,
+  "yanitlandi": false
+ },
+ {
+  "platform": "instagram",
+  "accountId": "6ad42eb0a87940951247b3ea",
+  "postId": "17963931177234455",
+  "gonderi": "Üzülme ayeti | Neml 70: Onlara üzülme. Hilelerine karşı da sıkılma 🤍\n\nNeml Sures",
+  "commentId": "18110559797579859",
+  "yazan": "y.muratbozak",
+  "metin": "@kuranikerim_tr amin",
+  "tarih": "2026-11-02T08:25:24+0000",
+  "begeni": 0,
+  "yanitlanabilir": true,
+  "yanitlandi": false
+ },
+ {
   "platform": "tiktok",
   "accountId": "6ad42f22301325504552e868",
   "postId": "7703287238091689268",
@@ -10,7 +36,7 @@
   "tarih": "2026-11-01T20:13:34.000Z",
   "begeni": 2,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "tiktok",
@@ -36,7 +62,7 @@
   "tarih": "2026-11-01T19:51:36.000Z",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -49,7 +75,7 @@
   "tarih": "2026-11-01T18:36:46+0000",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "tiktok",
@@ -62,7 +88,7 @@
   "tarih": "2026-11-01T16:30:36.000Z",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "tiktok",
@@ -75,7 +101,7 @@
   "tarih": "2026-11-01T15:35:02.000Z",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -88,7 +114,7 @@
   "tarih": "2026-11-01T15:08:17+0000",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -101,7 +127,7 @@
   "tarih": "2026-11-01T13:52:28+0000",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -166,7 +192,7 @@
   "tarih": "2026-10-31T20:06:23+0000",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -335,7 +361,7 @@
   "tarih": "2026-10-31T17:57:49+0000",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -815,45 +841,6 @@
   "metin": "Amin",
   "tarih": "2026-10-29T21:31:20+0000",
   "begeni": 0,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "instagram",
-  "accountId": "6ad42eb0a87940951247b3ea",
-  "postId": "17963931177234455",
-  "gonderi": "Üzülme ayeti | Neml 70: Onlara üzülme. Hilelerine karşı da sıkılma 🤍\n\nNeml Sures",
-  "commentId": "17895266013432798",
-  "yazan": "kerimsaltuk3434",
-  "metin": "Amin",
-  "tarih": "2026-10-29T20:15:05+0000",
-  "begeni": 1,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "instagram",
-  "accountId": "6ad42eb0a87940951247b3ea",
-  "postId": "17963931177234455",
-  "gonderi": "Üzülme ayeti | Neml 70: Onlara üzülme. Hilelerine karşı da sıkılma 🤍\n\nNeml Sures",
-  "commentId": "18042345797836507",
-  "yazan": "soleil77738",
-  "metin": "Amin 🙏🏻",
-  "tarih": "2026-10-29T19:43:33+0000",
-  "begeni": 1,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "instagram",
-  "accountId": "6ad42eb0a87940951247b3ea",
-  "postId": "17963931177234455",
-  "gonderi": "Üzülme ayeti | Neml 70: Onlara üzülme. Hilelerine karşı da sıkılma 🤍\n\nNeml Sures",
-  "commentId": "17988007419093379",
-  "yazan": "nurcan.kesinli",
-  "metin": "Sen ne dersen odur ALLAH",
-  "tarih": "2026-10-29T19:35:56+0000",
-  "begeni": 1,
   "yanitlanabilir": true,
   "yanitlandi": true
  },
@@ -1347,45 +1334,6 @@
   "yazan": "bus_ra9268",
   "metin": "Estağfurullah estağfurullah estağfurullah Allahım ne kınadıysam içimdeki veseveye her şeye tövbe estagfurullah aminn ecmain",
   "tarih": "2026-10-26T11:07:11+0000",
-  "begeni": 1,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "tiktok",
-  "accountId": "6ad42f22301325504552e868",
-  "postId": "7699577574716116244",
-  "gonderi": "Aklına kötü düşünceler gelince ne dersin? Nas Suresi anlamı ve meali (1-6) 🤍 Nas",
-  "commentId": "7700923233466483463",
-  "yazan": "_..........._32",
-  "metin": "Bakara sürəsi\nSiz cansız (henüz yok) iken sizi dirilten (dünyaya getiren) Allah'ı nasıl inkâr ediyorsunuz? Sonra sizleri öldürecek, sonra yine diriltecektir. En sonunda O'na döndürüleceksiniz.",
-  "tarih": "2026-10-26T10:35:31.000Z",
-  "begeni": 1,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "instagram",
-  "accountId": "6ad42eb0a87940951247b3ea",
-  "postId": "18452662780121159",
-  "gonderi": "Herkes seni bıraktı sanıyorsan — Rabbin seni ne bıraktı ve ne de sana darıldı … ",
-  "commentId": "17954786028279722",
-  "yazan": "ozerr0101",
-  "metin": "Elhamdülillah",
-  "tarih": "2026-10-26T07:16:33+0000",
-  "begeni": 0,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "instagram",
-  "accountId": "6ad42eb0a87940951247b3ea",
-  "postId": "18452662780121159",
-  "gonderi": "Herkes seni bıraktı sanıyorsan — Rabbin seni ne bıraktı ve ne de sana darıldı … ",
-  "commentId": "18052838843601245",
-  "yazan": "belis34_dnz",
-  "metin": "Ya Erhamerrahimin Ya Erhamerrahimin Ya Erhamerrahimin Amin Amin Amin Hayırlısı ile tez zamanda Ecmain Ecmain Ecmain🤲🏻🤲🏻🤲🏻💕💕💕🌹🌹🌹",
-  "tarih": "2026-10-26T06:56:53+0000",
   "begeni": 1,
   "yanitlanabilir": true,
   "yanitlandi": true
