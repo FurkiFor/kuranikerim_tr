@@ -1,0 +1,37 @@
+{
+ "id": "v164",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "YDm9QQ2MbZFhlVyb5Las",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Kimseye sözünü geçiremiyor musun?",
+   "prompt": "[deep voice] [slowly] Kimseye sözünü geçiremiyor musun?",
+   "generation_id": "iaFQFq1HPo4uyza3PTYM",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/xOiBXngM0Uzb8IdHhIFp/iaFQFq1HPo4uyza3PTYM/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261102%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261102T031800Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5a3a2717c2c7610ef4c558e6ecdbc5ab23a9f70de370f9386cf597a4c8ca63f1db01e33f1fe10f3dfdcb20c6ee1fec07575243da06ff4faa922be924d8f88baed5bef27ea4bdd3a8bb4d4b32e97e90aa93786316128ff12fe43f7c2f1952168877d1a8bcb786e65fc892cb2edf5b866ba4d1a91323b273bcd703e8235f3b4602d3cd77c6fb5dfd7f671b370c494d62da6bfb09426707617b8d175691af42a8f69eca043df6ee89a98ea45fdc205d2290c18a60e23e26124dec63842cc8b085f0c7d64cb548809867b83dfbcb063fcf63c630334dfcaca72a7b07c0a359f4967f7eb139b4b54706b45c2d416d0913508416f0acf2dfeb6d45eb2526ed1f0039bc"
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Musa da kavmine söz geçirememişti. Ama o, derdini Rabbine söyledi.",
+   "prompt": "[deep voice] [slowly] Hazreti Musa da kavmine söz geçirememişti. Ama o, derdini Rabbine söyledi.",
+   "generation_id": "ljmkaB5lwEA0y3BYuc7h",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/QsRYxaxTYDfsPCN1F8GJ/ljmkaB5lwEA0y3BYuc7h/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261102%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261102T031803Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e3da579f9942db27247294188c70b24b2c434f0ea9d467974a4cb37ea719f3eeaa6dc632e3f0301a8517acbe2563d3f76e140bb6cd8a3f72e3f27ccbc1cc366d4fae0d1ab5d20273fc64f7c5b0e61b7239310d95812bbe6c815b50f462fd3b1eb883f0fd1ecadcd837d28e0a21c05a34e01243605e353a42ee032b68866622fdbe7cb621f08ff4cc4f67292b31d38f241c221fa79743dd9db0ad1b93824aebf372ecdabe685d94e37931422c2d985a8676ecc22e299ce870ad431acebe2289893ad85d85d54de583920b3007e641a8968fbeb60a91be676ab205c35ab0e7d1205e245ebc3168a5191781deebb4de29829ec030e79b690c0463b126f87664582"
+  },
+  {
+   "kind": "meal",
+   "text": "Musa: \"Rabbim! Ben ancak kendime ve kardeşime söz geçirebiliyorum; artık bizimle bu yoldan çıkmış milletin arasını ayır\" dedi.",
+   "prompt": "[softly] [slowly] Musa: Rabbim! Ben ancak kendime ve kardeşime söz geçirebiliyorum; artık bizimle bu yoldan çıkmış milletin arasını ayır dedi.",
+   "generation_id": "6oKBQ2Id0cCj5t0bHUTa",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/uahIfP7YPxlWtRIioIhS/6oKBQ2Id0cCj5t0bHUTa/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261102%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261102T031803Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9cc648f8cf49ce0cd077afcd086467594216ed24b75f154b72585188541a089767b28ff8ddc85828d0fe2eeada757bc9b385d1332b7fb227d40ce8a2c547c9fea741b3cc5dd662170637ed4ea5aadd821d4a675747bb3ce2af1f14e08dca6804ce6344e6c81c9c60c206457e6d98fab414d8cdfe2dc52acde11d61e105ddf947c8276e8a44360ec38c42de763a5ba932b6304aa583e0f207b5caafd17faf488919731e3a44f822c70ddce26318bb4d2fce15c97bd1cd5df8f4c0aa343ee64319569ba755ceea8007008c0f403560457e5ef222bdcec0dd4775187be7b8dde9766f46d3bd055c8025df9ebe6010bab4faf362ab587bfc6720533288b319ef9e8c"
+  },
+  {
+   "kind": "cta",
+   "text": "Söz geçiremediğinde Hazreti Musa gibi derdini Rabbine aç. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Söz geçiremediğinde Hazreti Musa gibi derdini Rabbine aç. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "AvHGY8S6nSO8aRumk5Kz",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/znUQUgRF5zL7yrlCl3ZF/AvHGY8S6nSO8aRumk5Kz/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261102%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261102T031804Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=97ebb08b7f36157b71dd8aead9d735247e72495d8bdb39d12bf26c9bf4ac8880d33fe0075a963dde6ce8af01c6c4d6251fc3d6961e9af3416354b527699c00a41f6180d97f513e3f9587cb52d15f444c079a103a6be6941a9265e76d4bfb062c716058506515392dffae5b869ac70f184c902c2f9b91cccd06ca286100f6ca5380d8b64d18968acc8ed5bfa50c394691a982780acb27a820c7bcfc0ee63c3acade1a2e5d083b6b86a121bf8186c2c2f4716f2ff660e3f363f438cd52d71a0610f952c140e1218f585b7bf3da9fc197a17621742ce197aeba33042a9c4bfa479036c1939536540b38cf2caf5e0f9dd572074fddadfb0d81ce5a8f277e5c079096"
+  }
+ ]
+}
