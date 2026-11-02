@@ -370,3 +370,35 @@ Kararlar:
 Planlanan (SABAH 1 Kasım): 10:00 v152 Mü'min 55 "Beklediğin şey bir türlü gelmiyor mu?" (sabır/bekleyiş, YT + TikTok, 44,8 sn) · 13:00 v146 Nisa 132 (yalnız TikTok) · 18:00 v167 Kehf 10 "Ne yapacağını bilemiyor musun?" (Ashab-ı Kehf duası, YT + TikTok) · IG 10:00 v168 (deney 10, 12,2 sn), 13:00 v173 (Hz. Musa sözü, 10,2 sn — v175 render'da 20,2 sn çıktı, 17 sn kuralı yüzünden ayrıldı), 18:00 v178 (deney 7, 14,8 sn). YouTube gönderileri Kervly'de planlı; token gelmezse düşer.
 
 Ek not — 1 Kasım AKŞAM (Kervly 15:47 + Zernio 13:48): **Kervly/YouTube token hâlâ düşük** — 31 Ekim 10:00 v155, 18:00 v145, 20:30 v166, 23:30 v151 ve 1 Kasım 10:00 v152 "invalid_grant" ile yayınlanmadı; `get_youtube_stats` aynı hata. Furkan'a yeniden bağlama bildirimi tekrar gitti; kural gereği retry yok (bağlantı gelince düşen 5 gönderiden en fazla 2'si, aynı saate düşmeden). 18:00 v167 ve bu partinin YouTube gönderileri Kervly'de planlı; bağlantı gelmezse onlar da düşer. Zernio 13:48: IG **410 takipçi** (31 Ekim 318 → +92), TikTok 1.773 (+7). Planlanan: 20:30 v180 **Adiyat Suresi** "Elindekiler hiç yetmiyor gibi mi geliyor?" (kısa sure anlamı — havuzun son suresi; tilavet 6 ve 8. ayet; **74,6 sn**, hedef 40–55'in üstünde: 11 ayetin meali tam okunuyor; render 64 MB çıktı → libx264 4,5 Mbit ile 43,5 MB'a sıkıştırıldı) · 23:30 v163 Mülk 12 "Yalnızken de doğru kalmaya mı çalışıyorsun?" (tilavetli anlatımlı, 40,2 sn; gece yalnız kapanışta) · IG 20:30 v169 Enbiya 4 "Gökte ve yerde söyleneni Rabbin bilir" (deney 10, 10,5 sn), 23:30 v172 Sebe 48 "Bazen haksızlık hiç bitmeyecek sanırsın" (deney 9, 8,2 sn). vidIQ (YouTube TR, "ayet shorts tilavet meal", son 30 gün): ilk 10'un 7'si bizim kanal — bu arama alanında rakip zayıf. 2 Kasım'dan itibaren 20:30 = açık adlı dua anlatımlısı (1 Kasım SABAH kararı 5).
+
+
+### Haftalık güncelleme — 2 Kasım 2026 (Pazartesi, SABAH)
+Kaynak: Zernio stats 2 Kasım 07:18 (IG 69, TikTok 94 gönderi) · 26 Ekim–1 Kasım gönderileri (TikTok ≥20 saat, Instagram ≥30 saat). **YouTube verisi yok:** Kervly token'ı 31 Ekim'den beri düşük (`get_youtube_stats` "invalid_grant"; 31 Ekim–1 Kasım'ın 8 YouTube gönderisi yayınlanmadı: v155, v145, v166, v151, v152, v167, v180, v163). Furkan'a 2 Kasım SABAH yine bildirim gitti. YouTube bölümü (açık adlı dua / teselli / 23:30 slotu) token gelince yapılır.
+
+**Instagram (kart, normal Reel; 28 kart, medyan 1.716)**
+| Ayrım | Kart | Medyan | <700 (çöken) |
+|---|---|---|---|
+| Slot 10:00 / 13:00 / 18:00 / 20:30 / 23:30 | 6 / 6 / 6 / 5 / 5 | 2.117 / 1.775 / 1.882 / 1.604 / 1.680 | 0 / 0 / 1 / 1 / 2 |
+| Deney 9 "Bazen…" | 11 | 1.736 | 1 (v108 277) |
+| Deney 7 "Rabbim!/Rabbimiz!" dua | 6 | 1.548 | 0 |
+| Deney 10 "Allah + sen" | 2 (+v168 2.872 / 21 sa, v169 1.539 / 11 sa) | v125 7.077 · v123 368 | 1 |
+| Açık adlı "Hz. Lut" duası | 2 | v092 3.184 · v165 5.344 | 0 |
+Uçlar: v107 (deney 9) 27.277 · 759 kaydetme · 333 paylaşım; v125 7.077 · 151; v165 5.344 · 127. Çökenler: v108 (23:30) 277, v133 (23:30) 239, v111 (18:00) 401, v123 (20:30) 368; v172 (1 Kasım 23:30) 8 saatte 76 — 23:30'da 6 kartın 3'ü çökmüş/çöküyor. Takipçi 410 (Zernio 1 → 2 Kasım aynı; hesap metriği gecikmeli).
+
+**TikTok (29 video, medyan 148)**
+| Slot | Video | Medyan · 2. sn · ort. izleme |
+|---|---|---|
+| 10:00 tilavetli anlatımlı | 7 | 147 · %44 · 6,4 sn |
+| 13:00 tekrar (+v146 yeni, 18 sa) | 6 | 148 · %43 · 5,9 sn |
+| 18:00 tilavetli anlatımlı | 6 | 137 · %43 · 5,4 sn |
+| 20:30 kısa sure anlamı | 5 | **160 · %46 · 7,2 sn** (+v180 Adiyat 179 · %55 · 11,5 sn / 11 sa) |
+| 23:30 tilavetli anlatımlı | 5 | 154 · %40 · 7,4 sn |
+Bandı (≈120–190) kıran tek video v072 Mearic 5 "Sabrın tükendi mi?" 424 · %51 · 3 takip. Takipçi 1.773 (26 Ekim 1.726 → +47/hafta).
+
+Bulgular → kararlar:
+1. **Instagram 23:30 kartı:** 23:30'da 6 kartın 3'ü çöktü (v108, v133, v172 erken), diğer slotlarda 22 kartın 2'si. 5 tam veriyle 2 çöküş (≥5 video şartı sınırda) → karar değil, **tetikleyici**: 9 Kasım'da v172 son değeri <700 ve 2–8 Kasım 23:30 kartlarından en az biri daha çökmüşse IG geç kartı 23:30'dan **22:00**'a alınır (AKŞAM partisi). 1 Kasım "slot değişikliği yok" kararı o zamana kadar geçerli.
+2. **Instagram kanca aileleri:** medyanlar 1.548–1.736, fark küçük; uçlar deney 9 (v107), deney 10 (v125) ve açık adlı Hz. Lut duası (2 kart, 3.184–5.344). Karışım değişmiyor (~%50 hâl/teselli, ~%35 açık adlı dua, ~%15 peygamber sözü); 18:00 dua kartında, ayet izin veriyorsa, açık ad + zor an (v092 "Etrafın kötülükle doluysa Hz. Lut'un duası") öncelikli.
+3. **TikTok:** 29 videonun 28'i 120–190 bandında; 20:30 kısa sure / Adiyat ve sabır ayeti (v072) dışında format farkı yok. 20:30 artık açık adlı dua anlatımlısı (1 Kasım kararı 5) — 8 Kasım'da TikTok 20:30 medyanı (160) ile karşılaştırılır. 13:00 yeni anlatımlı (1 Kasım kararı 3) yalnız 1 video (v146 119/18 sa) → 8 Kasım'da 5+ videoyla bakılır.
+Tekrar paylaşım adayları: YouTube verisi olmadan güncellenmedi (son liste 26 Ekim).
+
+Planlanan (SABAH 2 Kasım): 10:00 v162 A'râf 153 "Yaptığın bir kötülükten pişman mısın?" (tövbe, YT + TikTok) · 13:00 v150 A'râf 199 "Biri cahilce seni mi kızdırdı?" (yalnız TikTok) · 18:00 v164 Mâide 25 "Kimseye sözünü geçiremiyor musun?" (Hz. Musa'nın duası, YT + TikTok) · IG 10:00 v171 Neml 73 (deney 10), 13:00 v176 İsra 65 (deney 9), 18:00 v179 Taha 84 (deney 7, Hz. Musa). YouTube gönderileri Kervly'de planlı; token gelmezse düşer.
