@@ -1431,5 +1431,37 @@
   "not": "IG dua kartı, deney 7 (Taha 84, Hz. Musa), normal Reel",
   "zernio_id": "6ae8079cb4dba486da461e6c",
   "status": "scheduled"
+ },
+ {
+  "id": "v149",
+  "at": "2026-11-02T20:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "20:30 açık adlı dua anlatımlısı, Hz. Nuh'un duası (Mü'minûn 26)"
+ },
+ {
+  "id": "v153",
+  "at": "2026-11-02T23:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "23:30 tilavetli anlatımlı, sabır (Kalem 48), gece yalnız kapanışta"
+ },
+ {
+  "id": "v170",
+  "at": "2026-11-02T20:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG kart, deney 10 (En'âm 117), normal Reel, 12,3 sn"
+ },
+ {
+  "id": "v117",
+  "at": "2026-11-02T22:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG geç kart 22:00 (2 Kasım öğle kararı), Hz. Yakub sözü (Yusuf 98), normal Reel, 10,7 sn"
  }
 ]
