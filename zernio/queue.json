@@ -1438,7 +1438,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "20:30 açık adlı dua anlatımlısı, Hz. Nuh'un duası (Mü'minûn 26)"
+  "not": "20:30 açık adlı dua anlatımlısı, Hz. Nuh'un duası (Mü'minûn 26)",
+  "zernio_id": "6ae87de9529adb23a02e75b1",
+  "status": "scheduled"
  },
  {
   "id": "v153",
@@ -1446,7 +1448,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "23:30 tilavetli anlatımlı, sabır (Kalem 48), gece yalnız kapanışta"
+  "not": "23:30 tilavetli anlatımlı, sabır (Kalem 48), gece yalnız kapanışta",
+  "zernio_id": "6ae87de905885f375b643fb3",
+  "status": "scheduled"
  },
  {
   "id": "v170",
@@ -1454,7 +1458,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG kart, deney 10 (En'âm 117), normal Reel, 12,3 sn"
+  "not": "IG kart, deney 10 (En'âm 117), normal Reel, 12,3 sn",
+  "zernio_id": "6ae87dea05885f375b643fbb",
+  "status": "scheduled"
  },
  {
   "id": "v117",
@@ -1462,6 +1468,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG geç kart 22:00 (2 Kasım öğle kararı), Hz. Yakub sözü (Yusuf 98), normal Reel, 10,7 sn"
+  "not": "IG geç kart 22:00 (2 Kasım öğle kararı), Hz. Yakub sözü (Yusuf 98), normal Reel, 10,7 sn",
+  "zernio_id": "6ae87dea05885f375b643fc7",
+  "status": "scheduled"
  }
 ]
