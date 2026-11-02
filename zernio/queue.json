@@ -1371,5 +1371,53 @@
   ],
   "zernio_id": "6ae72c3e11c81b9361604f8f",
   "status": "scheduled"
+ },
+ {
+  "id": "v162",
+  "at": "2026-11-02T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "10:00 tilavetli anlatımlı, tövbe (A'râf 153)"
+ },
+ {
+  "id": "v171",
+  "at": "2026-11-02T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG kart, deney 10 (Neml 73), normal Reel"
+ },
+ {
+  "id": "v150",
+  "at": "2026-11-02T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "13:00 yalnız TikTok yeni tilavetli anlatımlı (A'râf 199)"
+ },
+ {
+  "id": "v176",
+  "at": "2026-11-02T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG kart, deney 9 (İsra 65), normal Reel"
+ },
+ {
+  "id": "v164",
+  "at": "2026-11-02T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "18:00 tilavetli anlatımlı, Hz. Musa duası (Mâide 25)"
+ },
+ {
+  "id": "v179",
+  "at": "2026-11-02T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG dua kartı, deney 7 (Taha 84, Hz. Musa), normal Reel"
  }
 ]
