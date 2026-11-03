@@ -8479,5 +8479,50 @@
   },
   "kopru_kaynak": "Yûnus 58: Bunlar Allah'ın bol nimeti ve rahmetiyledir; buna sevinsinler",
   "not": "Stok 2 Kasım AKŞAM. Tilavet 94 harf."
+ },
+ {
+  "id": "v202",
+  "tur": "kart",
+  "sure": 26,
+  "ayet": [
+   83,
+   84
+  ],
+  "kart_metin": "Rabbim! Bana hikmet ver ve beni iyiler arasına kat",
+  "sahne": "yildiz",
+  "hook": "Rabbim! Hz. İbrahim'in hikmet duası",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "hz ibrahim",
+   "peygamber duaları",
+   "tilavet"
+  ],
+  "aciklama": "Şuarâ Suresi 83-84. ayetler, Hz. İbrahim'in duası. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Bana hikmet ver ve beni iyiler arasına kat",
+  "seo": {
+   "yt_baslik": "Rabbim! Hz. İbrahim'in hikmet duası | Şuara 83-84",
+   "ilk_satir": "Hz. İbrahim'in duası | Şuara 83-84: Rabbim! Bana hikmet ver ve beni iyiler arasına kat",
+   "aciklama": "Şuarâ Suresi 83-84. ayetler, Hz. İbrahim'in duası. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim duası",
+    "peygamber duaları",
+    "şuara suresi 83",
+    "hikmet duası"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 83,
+    "metin": "Rabbim! Bana hikmet ver ve beni iyiler arasına kat"
+   },
+   {
+    "ayet": 84,
+    "metin": "Sonrakilerin beni güzel şekilde anmalarını sağla"
+   }
+  ],
+  "ust": "Rabbim! Hz. İbrahim'in hikmet duası",
+  "not": "SABAH 3 Kasım: deney 7 açık adlı dua kartı; 96 Arapça harf (tahmin 18,1 sn, gerçek ~%30 kısa beklenir). Mealler Diyanet'te birleşik bloklar (75-83, 84-89); her sayfa kendi ayetine düşen cümle."
  }
 ]
