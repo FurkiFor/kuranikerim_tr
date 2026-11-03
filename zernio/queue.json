@@ -1538,7 +1538,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "20:30 açık adlı dua anlatımlısı, Hz. İbrahim'in duası (İbrahim 38), 44,0 sn"
+  "not": "20:30 açık adlı dua anlatımlısı, Hz. İbrahim'in duası (İbrahim 38), 44,0 sn",
+  "zernio_id": "6ae9cf6ab292c0c8134e41a4",
+  "status": "scheduled"
  },
  {
   "id": "v207",
@@ -1546,7 +1548,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG kart, deney 10 (Fâtır 38 'Allah kalbinde olanı bilir'), normal Reel, 14,1 sn"
+  "not": "IG kart, deney 10 (Fâtır 38 'Allah kalbinde olanı bilir'), normal Reel, 14,1 sn",
+  "zernio_id": "6ae9cf6a10cd558e5a43bea7",
+  "status": "scheduled"
  },
  {
   "id": "v205",
@@ -1554,7 +1558,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG geç kart 22:00, deney 9 (Mü'minûn 96), normal Reel, 9,8 sn"
+  "not": "IG geç kart 22:00, deney 9 (Mü'minûn 96), normal Reel, 9,8 sn",
+  "zernio_id": "6ae9cf6ab292c0c8134e41ac",
+  "status": "scheduled"
  },
  {
   "id": "v189",
@@ -1562,6 +1568,8 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "23:30 tilavetli anlatımlı, kaygı (Zümer 61), gece yalnız kapanışta, 39,1 sn"
+  "not": "23:30 tilavetli anlatımlı, kaygı (Zümer 61), gece yalnız kapanışta, 39,1 sn",
+  "zernio_id": "6ae9cf6bb292c0c8134e41b3",
+  "status": "scheduled"
  }
 ]
