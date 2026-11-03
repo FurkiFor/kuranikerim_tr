@@ -1471,5 +1471,53 @@
   "not": "IG geç kart 22:00 (2 Kasım öğle kararı), Hz. Yakub sözü (Yusuf 98), normal Reel, 10,7 sn",
   "zernio_id": "6ae87dea05885f375b643fc7",
   "status": "scheduled"
+ },
+ {
+  "id": "v192",
+  "at": "2026-11-03T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "10:00 tilavetli anlatımlı, umut (Şûrâ 28)"
+ },
+ {
+  "id": "v174",
+  "at": "2026-11-03T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG kart, Allah'ın hitabı 'Ey kullarım!' (Zuhruf 68), normal Reel, 12,2 sn"
+ },
+ {
+  "id": "v190",
+  "at": "2026-11-03T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "13:00 yalnız TikTok yeni tilavetli anlatımlı, kayıp (Hadîd 23)"
+ },
+ {
+  "id": "v132",
+  "at": "2026-11-03T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG kart, hâl + dinle (Sâd 17), normal Reel, 12,8 sn"
+ },
+ {
+  "id": "v181",
+  "at": "2026-11-03T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "18:00 açık adlı dua anlatımlısı, Hz. Süleyman'ın duası (Sâd 35)"
+ },
+ {
+  "id": "v202",
+  "at": "2026-11-03T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG dua kartı, deney 7 (Şuarâ 83-84, Hz. İbrahim), normal Reel, 15,4 sn"
  }
 ]
