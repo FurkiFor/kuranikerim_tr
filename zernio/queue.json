@@ -1478,7 +1478,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "10:00 tilavetli anlatımlı, umut (Şûrâ 28)"
+  "not": "10:00 tilavetli anlatımlı, umut (Şûrâ 28)",
+  "zernio_id": "6ae958d97f40abfb769c47ae",
+  "status": "scheduled"
  },
  {
   "id": "v174",
@@ -1486,7 +1488,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG kart, Allah'ın hitabı 'Ey kullarım!' (Zuhruf 68), normal Reel, 12,2 sn"
+  "not": "IG kart, Allah'ın hitabı 'Ey kullarım!' (Zuhruf 68), normal Reel, 12,2 sn",
+  "zernio_id": "6ae958d97f40abfb769c47b2",
+  "status": "scheduled"
  },
  {
   "id": "v190",
@@ -1494,7 +1498,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "13:00 yalnız TikTok yeni tilavetli anlatımlı, kayıp (Hadîd 23)"
+  "not": "13:00 yalnız TikTok yeni tilavetli anlatımlı, kayıp (Hadîd 23)",
+  "zernio_id": "6ae958da7f40abfb769c47b6",
+  "status": "scheduled"
  },
  {
   "id": "v132",
@@ -1502,7 +1508,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG kart, hâl + dinle (Sâd 17), normal Reel, 12,8 sn"
+  "not": "IG kart, hâl + dinle (Sâd 17), normal Reel, 12,8 sn",
+  "zernio_id": "6ae958da7f40abfb769c47c4",
+  "status": "scheduled"
  },
  {
   "id": "v181",
@@ -1510,7 +1518,9 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "18:00 açık adlı dua anlatımlısı, Hz. Süleyman'ın duası (Sâd 35)"
+  "not": "18:00 açık adlı dua anlatımlısı, Hz. Süleyman'ın duası (Sâd 35)",
+  "zernio_id": "6ae958db3a3842025a6ea1a7",
+  "status": "scheduled"
  },
  {
   "id": "v202",
@@ -1518,6 +1528,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "IG dua kartı, deney 7 (Şuarâ 83-84, Hz. İbrahim), normal Reel, 15,4 sn"
+  "not": "IG dua kartı, deney 7 (Şuarâ 83-84, Hz. İbrahim), normal Reel, 15,4 sn",
+  "zernio_id": "6ae958db7f40abfb769c47c9",
+  "status": "scheduled"
  }
 ]
