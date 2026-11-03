@@ -102,6 +102,8 @@
 | 59 | Kimseye sözünü geçiremiyor musun? | — | Mâide 25: Musa: "Rabbim! Ben ancak kendime ve kardeşime söz geçirebiliyorum…" | v164; 2 Kasım 18:00; açık adlı dua (Hz. Musa), köprü girişte |
 | 60 | Doğruyu söylüyorsun ama kimse inanmıyor mu? | — | Mü'minûn 26: Nuh: "Rabbim! Beni yalanlamalarına karşılık bana yardım et" | v149; 2 Kasım 20:30; açık adlı dua (Hz. Nuh), somut an; köprü girişte |
 | 61 | Sabrın taşmak üzere mi? | — | Kalem 48: "Sen Rabbinin hükmüne kadar sabret; balık sahibi (Yunus) gibi olma…" | v153; 2 Kasım 23:30; sabır ailesi (v072 Mearic 5 TikTok 424), gece yalnız kapanışta |
+| 62 | İçindekini kimseye anlatamıyor musun? | — | İbrahim 38: "Rabbimiz! Doğrusu Sen gizlediğimizi de, açığa vurduğumuzu da bilirsin" | v182; 3 Kasım 20:30; açık adlı dua (Hz. İbrahim); vidIQ: "Allah hâlimizi biliyor" kalıbı (deney 10 ailesi); arama: ibrahim suresi ~10,4 B/ay |
+| 63 | Hep bir kötülük gelecek diye mi bekliyorsun? | — | Zümer 61: "Onlara hiçbir kötülük gelmez; onlar üzülmezler" (sakınma koşulu girişte) | v189; 3 Kasım 23:30, gece yalnız kapanışta; kaygı |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

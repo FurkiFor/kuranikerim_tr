@@ -1531,5 +1531,37 @@
   "not": "IG dua kartı, deney 7 (Şuarâ 83-84, Hz. İbrahim), normal Reel, 15,4 sn",
   "zernio_id": "6ae958db7f40abfb769c47c9",
   "status": "scheduled"
+ },
+ {
+  "id": "v182",
+  "at": "2026-11-03T20:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "20:30 açık adlı dua anlatımlısı, Hz. İbrahim'in duası (İbrahim 38), 44,0 sn"
+ },
+ {
+  "id": "v207",
+  "at": "2026-11-03T20:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG kart, deney 10 (Fâtır 38 'Allah kalbinde olanı bilir'), normal Reel, 14,1 sn"
+ },
+ {
+  "id": "v205",
+  "at": "2026-11-03T22:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "IG geç kart 22:00, deney 9 (Mü'minûn 96), normal Reel, 9,8 sn"
+ },
+ {
+  "id": "v189",
+  "at": "2026-11-03T23:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "23:30 tilavetli anlatımlı, kaygı (Zümer 61), gece yalnız kapanışta, 39,1 sn"
  }
 ]
