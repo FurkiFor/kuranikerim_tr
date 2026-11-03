@@ -1,0 +1,37 @@
+{
+ "id": "v181",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "9Ms6gbgKhYLX09UkDljx",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Allah'tan büyük bir şey istemekten çekiniyor musun?",
+   "prompt": "[deep voice] [slowly] Allah'tan büyük bir şey istemekten çekiniyor musun?",
+   "generation_id": "DNMTrhgQioTyvGFueeKY",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/8vjjtuQuLr4crUMDXQ8o/DNMTrhgQioTyvGFueeKY/content.mp3?Expires=1793685600&KeyName=assets-cdn-key-1&Signature=0i8c1BMwBFnbBqrQ_FyZfQbb28M="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Süleyman çekinmedi. Önce bağışlanmayı, sonra büyük bir lütfu istedi.",
+   "prompt": "[deep voice] [slowly] Hazreti Süleyman çekinmedi. Önce bağışlanmayı, sonra büyük bir lütfu istedi.",
+   "generation_id": "vgAg1WTTM4qhVDWt9AiV",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/yYOw4VpPbESNe3OYVHRX/vgAg1WTTM4qhVDWt9AiV/content.mp3?Expires=1793685600&KeyName=assets-cdn-key-1&Signature=V7F9RsGWHIGbH63odpC02XvawJc="
+  },
+  {
+   "kind": "meal",
+   "text": "Süleyman: \"Rabbim! Beni bağışla, bana benden sonra kimsenin ulaşamayacağı bir hükümranlık ver; Sen şüphesiz, daima bağışta bulunansın\" dedi.",
+   "prompt": "[softly] [slowly] Süleyman: Rabbim! Beni bağışla, bana benden sonra kimsenin ulaşamayacağı bir hükümranlık ver; Sen şüphesiz, daima bağışta bulunansın dedi.",
+   "generation_id": "VkLexRUbxHN8tLgofm40",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/UAW0KfoIQeXD7XCZrzrm/VkLexRUbxHN8tLgofm40/content.mp3?Expires=1793685600&KeyName=assets-cdn-key-1&Signature=Hcpj_VSrLaN0iXyZiftTfCov-hY="
+  },
+  {
+   "kind": "cta",
+   "text": "İstemekten çekinme; O daima bağışta bulunandır. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] İstemekten çekinme; O daima bağışta bulunandır. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "a7BkbayQQZzjnTCwpvPl",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/mIijNKPbfk7mJk05AVkO/a7BkbayQQZzjnTCwpvPl/content.mp3?Expires=1793685600&KeyName=assets-cdn-key-1&Signature=l10m1NsP6_lRHy6Efc8zPyxVdHc="
+  }
+ ]
+}

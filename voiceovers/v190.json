@@ -1,0 +1,37 @@
+{
+ "id": "v190",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "ChgJyJ99vDpSE28H4lEK",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Kaybettiğin bir şeye hâlâ üzülüyor musun?",
+   "prompt": "[deep voice] [slowly] Kaybettiğin bir şeye hâlâ üzülüyor musun?",
+   "generation_id": "JF2ncJusIu0FF0BcOEFc",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/5AJwh7kNhCmCAobGlevg/JF2ncJusIu0FF0BcOEFc/content.mp3?Expires=1793685600&KeyName=assets-cdn-key-1&Signature=q-Fr6pMueZzgsyRlJ9YYIqC-Ueo="
+  },
+  {
+   "kind": "giris",
+   "text": "Allah, başa gelen her musibetin önceden yazıldığını bildirdi ve sebebini söyledi.",
+   "prompt": "[deep voice] [slowly] Allah, başa gelen her musibetin önceden yazıldığını bildirdi ve sebebini söyledi.",
+   "generation_id": "Z9if0o1gOrogT1qQjO1n",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/fnR0wPCxV12VF5EfK95a/Z9if0o1gOrogT1qQjO1n/content.mp3?Expires=1793685600&KeyName=assets-cdn-key-1&Signature=EC1k3321J8LMTYuz6j2_2RirVHk="
+  },
+  {
+   "kind": "meal",
+   "text": "Bu, kaybettiğinize üzülmemeniz ve Allah'ın size verdiği nimetlerle şımarmamanız içindir. Allah, kendini beğenip öğünen hiç kimseyi sevmez.",
+   "prompt": "[softly] [slowly] Bu, kaybettiğinize üzülmemeniz ve Allah'ın size verdiği nimetlerle şımarmamanız içindir. Allah, kendini beğenip öğünen hiç kimseyi sevmez.",
+   "generation_id": "Z16j83pDAeXqpRfLIxm7",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/wxT2RZNxLtR9is1ZTL1q/Z16j83pDAeXqpRfLIxm7/content.mp3?Expires=1793685600&KeyName=assets-cdn-key-1&Signature=Qm3fUSylxqSJFE2kxxOJWmdATu8="
+  },
+  {
+   "kind": "cta",
+   "text": "Kaybettiğine üzülürken bunun neden bildirildiğini hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Kaybettiğine üzülürken bunun neden bildirildiğini hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "OkWrKx4hvedeAZYuf6y7",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/oxiuqFBw9KFVtY9blviq/OkWrKx4hvedeAZYuf6y7/content.mp3?Expires=1793685600&KeyName=assets-cdn-key-1&Signature=Ue0KB_vA2fZSfTR7GjGGdKrtdQ8="
+  }
+ ]
+}
