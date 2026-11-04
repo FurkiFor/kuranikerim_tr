@@ -1,0 +1,37 @@
+{
+ "id": "v191",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "ROvaJNNnQyxZpfMEzf7s",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Yarın ne olacak diye uykun mu kaçıyor?",
+   "prompt": "[deep voice] [slowly] Yarın ne olacak diye uykun mu kaçıyor?",
+   "generation_id": "Y5lPb0ddRGyFsWelRTGM",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Z4r1vdqYPbgQm4vUnC9p/Y5lPb0ddRGyFsWelRTGM/content.mp3?Expires=1793772000&KeyName=assets-cdn-key-1&Signature=d3sSyZs4Xe0YDrflHD2ESOj8ih8="
+  },
+  {
+   "kind": "giris",
+   "text": "Etrafındaki canlılara bir bak. Kur'an onları anlatıyor.",
+   "prompt": "[deep voice] [slowly] Etrafındaki canlılara bir bak. Kur'an onları anlatıyor.",
+   "generation_id": "Y1wfC1x6pu2deAaXTk1B",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/9N4iStUX8pxNaVTWoYjS/Y1wfC1x6pu2deAaXTk1B/content.mp3?Expires=1793772000&KeyName=assets-cdn-key-1&Signature=g_E-4xeBpetabVS7sFfIbOPI7ow="
+  },
+  {
+   "kind": "meal",
+   "text": "Nice canlılar vardır ki, rızıklarını kendileri elde edemezler. Sizin de onların da rızkını Allah verir. O, işitir ve bilir.",
+   "prompt": "[softly] [slowly] Nice canlılar vardır ki, rızıklarını kendileri elde edemezler. Sizin de onların da rızkını Allah verir. O, işitir ve bilir.",
+   "generation_id": "oEo7TakO6IiL1OAfsfO8",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/HKyODoUmJSpavtx2YZem/oEo7TakO6IiL1OAfsfO8/content.mp3?Expires=1793772000&KeyName=assets-cdn-key-1&Signature=lvO_6geqK9gooVj2H_YYyPW7kEo="
+  },
+  {
+   "kind": "cta",
+   "text": "Onlara rızık veren seni de unutmaz. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Onlara rızık veren seni de unutmaz. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "mKKVuw2xB7Ww2Jkad3DT",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/NXYq4H7uZq53ElbPSuSb/mKKVuw2xB7Ww2Jkad3DT/content.mp3?Expires=1793772000&KeyName=assets-cdn-key-1&Signature=ILKEQdOVbUg3EPBSHQz_Etgc-kk="
+  }
+ ]
+}

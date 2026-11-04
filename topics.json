@@ -7674,7 +7674,7 @@
    45,
    45
   ],
-  "hook": "Evladın için için için mi yanıyorsun?",
+  "hook": "Evladın için içten içe mi yanıyorsun?",
   "kapanis": "Evladın için yandığında Rabbine sığın; O hükmedenlerin en iyisidir.",
   "bg": "firtina",
   "sahne": "firtina",
@@ -7706,7 +7706,7 @@
   },
   "seo": {
    "yt_baslik": "Hz. Nuh'un oğlu için seslenişi | Hûd 45",
-   "ilk_satir": "Evladın için için için mi yanıyorsun? Hz. Nuh'un oğlu için seslenişi | Hûd 45",
+   "ilk_satir": "Evladın için içten içe mi yanıyorsun? Hz. Nuh'un oğlu için seslenişi | Hûd 45",
    "aciklama": "Hûd Suresi 45. ayette Hz. Nuh oğlu için Rabbine sesleniyor; Allah'ın vadinin hak olduğunu ve O'nun hükmedenlerin en iyisi olduğunu söylüyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "hz nuh oğlu",
@@ -7746,13 +7746,13 @@
   },
   "kurgu": {
    "kamera": [
-    "cek",
-    "vurgu",
-    "kay"
+    "sabit",
+    "it",
+    "cek"
    ],
    "gecis": [
-    "kesme",
-    "kararma"
+    "kararma",
+    "kesme"
    ]
   },
   "seo": {

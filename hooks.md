@@ -104,6 +104,9 @@
 | 61 | Sabrın taşmak üzere mi? | — | Kalem 48: "Sen Rabbinin hükmüne kadar sabret; balık sahibi (Yunus) gibi olma…" | v153; 2 Kasım 23:30; sabır ailesi (v072 Mearic 5 TikTok 424), gece yalnız kapanışta |
 | 62 | İçindekini kimseye anlatamıyor musun? | — | İbrahim 38: "Rabbimiz! Doğrusu Sen gizlediğimizi de, açığa vurduğumuzu da bilirsin" | v182; 3 Kasım 20:30; açık adlı dua (Hz. İbrahim); vidIQ: "Allah hâlimizi biliyor" kalıbı (deney 10 ailesi); arama: ibrahim suresi ~10,4 B/ay |
 | 63 | Hep bir kötülük gelecek diye mi bekliyorsun? | — | Zümer 61: "Onlara hiçbir kötülük gelmez; onlar üzülmezler" (sakınma koşulu girişte) | v189; 3 Kasım 23:30, gece yalnız kapanışta; kaygı |
+| 64 | Yarın ne olacak diye uykun mu kaçıyor? | — | Ankebût 60: "Sizin de onların da rızkını Allah verir" | v191; 4 Kasım 10:00; rızık; rızık vaadi yok, meal birebir |
+| 65 | Hakkında söylenenler seni mi yıkıyor? | — | Fussilet 43: "Senin için söylenenler, senden önceki peygamberler için de söylenmişti" | v193; 4 Kasım 13:00 yalnız TikTok; kötülük görmek ailesi; Peygambere hitap girişte söylenir |
+| 66 | Kimse senin için dua etmiyor mu sanıyorsun? | — | Mü'min 9: meleklerin müminler için duası ("Onları kötülüklerden koru!") — dua 7. ayette başlar | v187; 4 Kasım 18:00; açık adlı dua (meleklerin duası); kapanışta "müminler için" koşulu |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

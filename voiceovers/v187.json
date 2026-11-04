@@ -1,0 +1,37 @@
+{
+ "id": "v187",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "T4xDKrYTc48xVOyRSalF",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Kimse senin için dua etmiyor mu sanıyorsun?",
+   "prompt": "[deep voice] [slowly] Kimse senin için dua etmiyor mu sanıyorsun?",
+   "generation_id": "dlfZudXybnfAkwjGIb4R",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/l9bGCVV1Bqfbge5kbRXm/dlfZudXybnfAkwjGIb4R/content.mp3?Expires=1793772000&KeyName=assets-cdn-key-1&Signature=zrjgX6yQHgYZ8x0dnoIGoOVIWBk="
+  },
+  {
+   "kind": "giris",
+   "text": "Arşı taşıyan melekler, müminler için Rablerine böyle dua ediyor.",
+   "prompt": "[deep voice] [slowly] Arşı taşıyan melekler, müminler için Rablerine böyle dua ediyor.",
+   "generation_id": "R6KRczT6PTgGCzSy7FBm",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/bPjzwv06dSkvu3MhdV3W/R6KRczT6PTgGCzSy7FBm/content.mp3?Expires=1793772000&KeyName=assets-cdn-key-1&Signature=DUAbDl-YCYss7jn1K28_kCa24Xc="
+  },
+  {
+   "kind": "meal",
+   "text": "Onları kötülüklerden koru! O gün kötülüklerden kimi korursan, ona şüphesiz rahmet etmiş olursun. Bu büyük kurtuluştur.",
+   "prompt": "[softly] [slowly] Onları kötülüklerden koru! O gün kötülüklerden kimi korursan, ona şüphesiz rahmet etmiş olursun. Bu büyük kurtuluştur.",
+   "generation_id": "wIz2AcmziQZauC4qcWpp",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/jZDHwNb4AtppgfPlDyLO/wIz2AcmziQZauC4qcWpp/content.mp3?Expires=1793772000&KeyName=assets-cdn-key-1&Signature=koN3Jz3Opl0h4EB0vdYgXq-0EYw="
+  },
+  {
+   "kind": "cta",
+   "text": "Kimse etmiyor sansan da melekler müminler için dua ediyor. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Kimse etmiyor sansan da melekler müminler için dua ediyor. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "Gduug7RsKeBbe92hUFzP",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/0jXchNgKyrTkw7yo1ziP/Gduug7RsKeBbe92hUFzP/content.mp3?Expires=1793772000&KeyName=assets-cdn-key-1&Signature=rBeqABWFkY2nlx_k0N5NVh9GAuQ="
+  }
+ ]
+}
