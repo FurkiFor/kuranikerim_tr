@@ -1,0 +1,37 @@
+{
+ "id": "v195",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "ITy2BZPrLaqXiaU1bMrs",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Sevdiklerinden ayrı mı düştün?",
+   "prompt": "[deep voice] [slowly] Sevdiklerinden ayrı mı düştün?",
+   "generation_id": "mjDYkyG2bJ4y5K2YFAoL",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/C30LIz2fVuKONywh4aGc/mjDYkyG2bJ4y5K2YFAoL/content.mp3?Expires=1793800800&KeyName=assets-cdn-key-1&Signature=2-wCefFyi5EJfKuE0lPCKAXfJAQ="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Yusuf da ailesinden ayrı düşmüştü. Sonra şu an geldi.",
+   "prompt": "[deep voice] [slowly] Hazreti Yusuf da ailesinden ayrı düşmüştü. Sonra şu an geldi.",
+   "generation_id": "mgCIgBoPQbjJ0dX5En09",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/6cksQrGsEMGeXQPBKHPX/mgCIgBoPQbjJ0dX5En09/content.mp3?Expires=1793800800&KeyName=assets-cdn-key-1&Signature=DeERtBboh7R7LQGDav2BC0l5qvo="
+  },
+  {
+   "kind": "meal",
+   "text": "Yusuf'un yanına geldiklerinde, o, anasını babasını bağrına bastı, \"Allah'ın dileğince, güven içinde Mısır'da yerleşin\" dedi.",
+   "prompt": "[softly] [slowly] Yusuf'un yanına geldiklerinde, o, anasını babasını bağrına bastı, Allah'ın dileğince, güven içinde Mısır'da yerleşin dedi.",
+   "generation_id": "GD07rh2MFdDimbBrnf1j",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Z4WMArqM8lLPZu2u2yUZ/GD07rh2MFdDimbBrnf1j/content.mp3?Expires=1793800800&KeyName=assets-cdn-key-1&Signature=3XQ4r3sWtI-4Fj-Hv3uq2WgBg7E="
+  },
+  {
+   "kind": "cta",
+   "text": "Bu gece hasretini Rabbine aç; her şey O'nun dileğiyle olur. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bu gece hasretini Rabbine aç; her şey O'nun dileğiyle olur. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "zyw8LwIU7WOKe1ja98m8",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/lQx2xvOviueLW7OmZC4b/zyw8LwIU7WOKe1ja98m8/content.mp3?Expires=1793800800&KeyName=assets-cdn-key-1&Signature=xu97FgN1fHacexncIB3cu3VfTSE="
+  }
+ ]
+}

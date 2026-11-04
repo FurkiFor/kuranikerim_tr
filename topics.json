@@ -7777,13 +7777,14 @@
    34
   ],
   "hook": "Üzüntün hiç bitmeyecek mi sanıyorsun?",
-  "kapanis": "Bir gün üzüntüyü gideren Allah'a hamdedeceksin.",
+  "kapanis": "Üzüntüyü gideren Allah'tır; hamd O'nadır.",
   "bg": "tohum",
   "sahne": "tohum",
   "aciklama": "Fâtır Suresi 34. ayette cennete girenlerin, üzüntülerini gideren Allah'a hamdettikleri bildiriliyor; Rabbimiz bağışlayandır, şükrün karşılığını verendir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
-   "üzüntü",
    "hamd",
+   "dua",
+   "üzüntü",
    "fatır suresi",
    "tilavet"
   ],
@@ -7793,7 +7794,7 @@
    "klasor": "recitations/hudhaify"
   },
   "seslendirme": {
-   "giris": "Kur'an, bir gün şöyle diyecek olanları anlatıyor."
+   "giris": "Kur'an, cennete girenlerin şöyle diyeceğini anlatıyor."
   },
   "kurgu": {
    "kamera": [
@@ -7807,17 +7808,18 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Üzüntü ayeti | Fâtır 34 · Bizden üzüntüyü gideren Allah'a hamd",
+   "yt_baslik": "Hamd duası | Fâtır 34 · Bizden üzüntüyü gideren Allah'a hamd",
    "ilk_satir": "Üzüntün hiç bitmeyecek mi sanıyorsun? Hamd duası | Fâtır 34",
    "aciklama": "Fâtır Suresi 34. ayette cennete girenlerin, üzüntülerini gideren Allah'a hamdettikleri bildiriliyor; Rabbimiz bağışlayandır, şükrün karşılığını verendir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "hamd duası",
     "üzüntü ayeti",
     "fatır suresi 34",
-    "hamd"
+    "sabır duası"
    ]
   },
   "kopru_kaynak": "Fâtır 34: Bizden üzüntüyü gideren Allah'a hamdolsun",
-  "not": "Stok 2 Kasım AKŞAM. Tilavet 96 harf."
+  "not": "Stok 2 Kasım AKŞAM. Tilavet 96 harf. 4 Kasım AKŞAM: 20:30 açık adlı dua; kapanış vaat içermeyecek şekilde değişti (cennet vaadi izleyiciye atfedilmez). vidIQ 'hamd duası' <750/ay, 'sabır duası' ~4.845."
  },
  {
   "id": "v189",
@@ -8134,7 +8136,7 @@
    99
   ],
   "hook": "Sevdiklerinden ayrı mı düştün?",
-  "kapanis": "Ayrılık uzun sürse de kavuşma Allah'ın dileğiyle gelir.",
+  "kapanis": "Bu gece hasretini Rabbine aç; her şey O'nun dileğiyle olur.",
   "bg": "kapi",
   "sahne": "kapi",
   "aciklama": "Yûsuf Suresi 99. ayette Hz. Yusuf'un yanına gelen anasını babasını bağrına bastığı ve onları güven içinde Mısır'a yerleştirdiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -8150,7 +8152,7 @@
    "klasor": "recitations/hudhaify"
   },
   "seslendirme": {
-   "giris": "Hazreti Yusuf da yıllarca ailesinden ayrı kaldı. Sonra şu an geldi."
+   "giris": "Hazreti Yusuf da ailesinden ayrı düşmüştü. Sonra şu an geldi."
   },
   "kurgu": {
    "kamera": [
@@ -8174,7 +8176,7 @@
    ]
   },
   "kopru_kaynak": "Yûsuf 99: anasını babasını bağrına bastı",
-  "not": "Stok 2 Kasım AKŞAM. Tilavet 111 harf."
+  "not": "Stok 2 Kasım AKŞAM. Tilavet 111 harf. 4 Kasım AKŞAM: 23:30 gece kapanışlı; 'yıllarca' ve kesin kavuşma vaadi çıkarıldı."
  },
  {
   "id": "v196",
