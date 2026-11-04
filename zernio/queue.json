@@ -1571,5 +1571,47 @@
   "not": "23:30 tilavetli anlatımlı, kaygı (Zümer 61), gece yalnız kapanışta, 39,1 sn",
   "zernio_id": "6ae9cf6bb292c0c8134e41b3",
   "status": "scheduled"
+ },
+ {
+  "id": "v191",
+  "at": "2026-11-04T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v209",
+  "at": "2026-11-04T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v193",
+  "at": "2026-11-04T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v204",
+  "at": "2026-11-04T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v187",
+  "at": "2026-11-04T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v214",
+  "at": "2026-11-04T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
  }
 ]
