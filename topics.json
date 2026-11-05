@@ -7558,7 +7558,8 @@
    "anahtar": [
     "hz ibrahim duası",
     "mümtehine suresi 5",
-    "bağışlanma duası"
+    "bağışlanma duası",
+    "peygamber duaları"
    ]
   },
   "kopru_kaynak": "Mümtehine 4-5: İbrahim ve beraberindekiler: Rabbimiz! Bizi inkar edenlerle deneme; bizi bağışla",
@@ -8659,7 +8660,7 @@
    39
   ],
   "kart_metin": "Söylediklerine sabret; Rabbini, güneşin doğmasından önce ve batışından önce överek tesbih et",
-  "sahne": "firtina",
+  "sahne": "kalp",
   "hook": "Bazen söylenenler insanın içini yakar",
   "tema": "Sabır ayeti",
   "etiketler": [
@@ -8688,7 +8689,7 @@
    }
   ],
   "ust": "Bazen söylenenler insanın içini yakar",
-  "not": "Stok SABAH 3 Kasım: deney 9; 103 Arapça harf (tahmin 19.3 sn, gerçek ~%30 kısa)."
+  "not": "Stok SABAH 3 Kasım: deney 9; 103 Arapça harf (tahmin 19.3 sn, gerçek ~%30 kısa). 5 Kasım AKŞAM: firtina sahnesinde figürün başı sure etiketine bindi → kalp sahnesiyle yeniden render."
  },
  {
   "id": "v207",
