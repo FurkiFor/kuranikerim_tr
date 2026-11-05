@@ -1,0 +1,37 @@
+{
+ "id": "v198",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "XCWOocly1pUQzp3giLqI",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Sabrının karşılığını hiç göremiyor musun?",
+   "prompt": "[deep voice] [slowly] Sabrının karşılığını hiç göremiyor musun?",
+   "generation_id": "pl1ToeQ7HLOQvldLBA0u",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/0roxG6iN9UTDFUq8C7xX/pl1ToeQ7HLOQvldLBA0u/content.mp3?Expires=1793858400&KeyName=assets-cdn-key-1&Signature=WfWQGR-quryJpA8J9yOZlmKIiQg="
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an, sabredenlere neyin hazırlandığını anlatıyor.",
+   "prompt": "[deep voice] [slowly] Kur'an, sabredenlere neyin hazırlandığını anlatıyor.",
+   "generation_id": "q2irv6cx1JXKqUi29TIO",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/2o645aZR5O0IharabNa7/q2irv6cx1JXKqUi29TIO/content.mp3?Expires=1793858400&KeyName=assets-cdn-key-1&Signature=fIoMlV5IvIyZsz-QV17qFHN0o1E="
+  },
+  {
+   "kind": "meal",
+   "text": "İşte onlar, sabrettiklerinden ötürü cennetin en yüksek dereceleriyle mükafatlandırılırlar. Orada esenlik ve dirlik dilekleriyle karşılanırlar.",
+   "prompt": "[softly] [slowly] İşte onlar, sabrettiklerinden ötürü cennetin en yüksek dereceleriyle mükafatlandırılırlar. Orada esenlik ve dirlik dilekleriyle karşılanırlar.",
+   "generation_id": "3LXua6n08FQHvPQByf3M",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/nrFRYGUSsT2bXOQ7cC83/3LXua6n08FQHvPQByf3M/content.mp3?Expires=1793858400&KeyName=assets-cdn-key-1&Signature=GNhGcWgeIDWgCrVdxVRfpiPN5xM="
+  },
+  {
+   "kind": "cta",
+   "text": "Bugün göremesen de sabrın karşılığı en yüksek derecelerde. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bugün göremesen de sabrın karşılığı en yüksek derecelerde. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "ET8xc6HeTENCJPVNdl6C",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ul0Ux0q33AC7MMx1rJE4/ET8xc6HeTENCJPVNdl6C/content.mp3?Expires=1793858400&KeyName=assets-cdn-key-1&Signature=Ev53VVkKvbHAoHizQaBThXJcqMk="
+  }
+ ]
+}

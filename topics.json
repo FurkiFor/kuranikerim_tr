@@ -8421,13 +8421,14 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Ailenle büyük bir sıkıntıda mısın? | Hz. Nuh · Enbiya 76",
-   "ilk_satir": "Ailenle birlikte büyük bir sıkıntıda mısın? Hz. Nuh'un kabul edilen duası | Enbiya 76",
+   "yt_baslik": "Hz. Nuh'un kabul edilen duası | Enbiyâ 76 · Ailesiyle kurtuluş",
+   "ilk_satir": "Hz. Nuh'un kabul edilen duası | Enbiyâ 76: Ailenle birlikte büyük bir sıkıntıda mısın?",
    "aciklama": "Enbiyâ Suresi 76. ayette Hz. Nuh'un Rabbine yalvardığı, duasının kabul edildiği ve kendisinin ailesiyle birlikte büyük sıkıntıdan kurtarıldığı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
-    "hz nuh",
+    "hz nuh duası",
     "enbiya suresi 76",
-    "sıkıntı ayeti"
+    "sıkıntı ayeti",
+    "aile için dua"
    ]
   },
   "kopru_kaynak": "Enbiyâ 76: duasını kabul edip kendisini ve ailesini büyük sıkıntıdan kurtardık",
@@ -8899,7 +8900,7 @@
   ],
   "kart_metin": "Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru",
   "sahne": "fener",
-  "hook": "Rabbimiz! Sabredenlerin bağışlanma duası",
+  "hook": "Bağışlanma duası",
   "tema": "Dua",
   "etiketler": [
    "dua",
@@ -8910,8 +8911,8 @@
   "aciklama": "Âl-i İmrân Suresi 16. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru",
   "seo": {
-   "yt_baslik": "Rabbimiz! Sabredenlerin bağışlanma duası | Âl-i İmrân 16",
-   "ilk_satir": "Dua | Âl-i İmrân 16: Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru",
+   "yt_baslik": "Bağışlanma duası | Âl-i İmrân 16",
+   "ilk_satir": "Bağışlanma duası | Âl-i İmrân 16: Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru",
    "aciklama": "Âl-i İmrân Suresi 16. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "bağışlanma duası",
@@ -8926,8 +8927,8 @@
     "metin": "Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru"
    }
   ],
-  "ust": "Rabbimiz! Sabredenlerin bağışlanma duası",
-  "not": "Stok SABAH 3 Kasım: deney 7; 98 Arapça harf (tahmin 18.4 sn, gerçek ~%30 kısa)."
+  "ust": "BAĞIŞLANMA DUASI",
+  "not": "Stok SABAH 3 Kasım: deney 7; 98 Arapça harf (tahmin 18.4 sn, gerçek ~%30 kısa). 5 Kasım SABAH: deney 11 ilk uygulama (ust duanın açık adı, mealdeki 'bağışla' isteğinden)."
  },
  {
   "id": "v213",
