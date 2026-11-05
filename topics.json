@@ -8928,7 +8928,7 @@
    }
   ],
   "ust": "BAĞIŞLANMA DUASI",
-  "not": "Stok SABAH 3 Kasım: deney 7; 98 Arapça harf (tahmin 18.4 sn, gerçek ~%30 kısa). 5 Kasım SABAH: deney 11 ilk uygulama (ust duanın açık adı, mealdeki 'bağışla' isteğinden)."
+  "not": "Stok SABAH 3 Kasım: deney 7; 98 Arapça harf (tahmin 18.4 sn, gerçek ~%30 kısa). 5 Kasım SABAH: deney 11 ilk uygulama (ust duanın açık adı, mealdeki 'bağışla' isteğinden). Render 17,6 sn (>17 sn kuralı) — kullanılmadı; deney 11 v217 ile başladı."
  },
  {
   "id": "v213",
@@ -9093,5 +9093,47 @@
   ],
   "ust": "Hz. Musa öğrenmek için yola çıktı",
   "not": "Stok SABAH 3 Kasım: peygamber sözü; 84 Arapça harf (tahmin 15.9 sn, gerçek ~%30 kısa)."
+ },
+ {
+  "id": "v217",
+  "tur": "kart",
+  "sure": 26,
+  "ayet": [
+   118,
+   118
+  ],
+  "kart_metin": "Benimle onların arasında Sen hüküm ver. Beni ve beraberimdeki inananları kurtar",
+  "sahne": "deniz",
+  "hook": "Kurtuluş duası",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "kurtuluş duası",
+   "hz nuh",
+   "şuara suresi",
+   "tilavet"
+  ],
+  "aciklama": "Şuarâ Suresi 118. ayet, Hz. Nuh'un duası. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Benimle onların arasında Sen hüküm ver. Beni ve beraberimdeki inananları kurtar",
+  "seo": {
+   "yt_baslik": "Kurtuluş duası | Hz. Nuh · Şuarâ 118",
+   "ilk_satir": "Kurtuluş duası | Hz. Nuh'un duası, Şuarâ 118: Benimle onların arasında Sen hüküm ver. Beni ve beraberimdeki inananları kurtar",
+   "aciklama": "Şuarâ Suresi 118. ayet, Hz. Nuh'un duası. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "kurtuluş duası",
+    "hz nuh duası",
+    "şuara 118",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 118,
+    "metin": "Benimle onların arasında Sen hüküm ver. Beni ve beraberimdeki inananları kurtar"
+   }
+  ],
+  "ust": "KURTULUŞ DUASI",
+  "not": "SABAH 5 Kasım: deney 11 ilk uygulama (ust duanın açık adı, mealdeki 'kurtar' isteğinden). 83 Arapça harf. Diyanet 117-118'i tek mealde birleştirmiş; kartta 118'in karşılığı olan kısım. v212 render'da 17,6 sn çıktığı için (17 sn kuralı) yerine bu kart üretildi."
  }
 ]
