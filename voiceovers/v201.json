@@ -1,0 +1,37 @@
+{
+ "id": "v201",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "kSSpzaGYVLlMGQEsnVKB",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Sevinmeyi unuttun mu?",
+   "prompt": "[deep voice] [slowly] Sevinmeyi unuttun mu?",
+   "generation_id": "NpgCyd2IlViJmrESuhY8",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/6hUiOvHDkWQrp4OU1qx7/NpgCyd2IlViJmrESuhY8/content.mp3?Expires=1793887200&KeyName=assets-cdn-key-1&Signature=DkbM8BnU69_0vVM9bhXpvbdkZeE="
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an, neye sevinmek gerektiğini söylüyor.",
+   "prompt": "[deep voice] [slowly] Kur'an, neye sevinmek gerektiğini söylüyor.",
+   "generation_id": "TXN6cB6iLwDxHoFDKnR7",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/AZzZq7NHP0Y522rnIlnW/TXN6cB6iLwDxHoFDKnR7/content.mp3?Expires=1793887200&KeyName=assets-cdn-key-1&Signature=NX0Gg-vzJdy-fzxpzsF_kT7_Ig4="
+  },
+  {
+   "kind": "meal",
+   "text": "De ki: \"Bunlar, Allah'ın bol nimeti ve rahmetiyledir.\" Buna sevinsinler. O, onların topladıklarından daha hayırlıdır.",
+   "prompt": "[softly] [slowly] De ki: Bunlar, Allah'ın bol nimeti ve rahmetiyledir. Buna sevinsinler. O, onların topladıklarından daha hayırlıdır.",
+   "generation_id": "vUlswCE6sldzMg3xk7Fh",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/mf6LSKanBjUrvJ1twyk6/vUlswCE6sldzMg3xk7Fh/content.mp3?Expires=1793887200&KeyName=assets-cdn-key-1&Signature=yjw6VbxSQVe3cwz1D6A7pmVEFKk="
+  },
+  {
+   "kind": "cta",
+   "text": "Sevinmeyi unuttuysan bu gece Allah'ın rahmetiyle sevin. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Sevinmeyi unuttuysan bu gece Allah'ın rahmetiyle sevin. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "7jq7c7KZIn7yQb37LiLi",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/zIlhYXkIzGxv73Tfq0V6/7jq7c7KZIn7yQb37LiLi/content.mp3?Expires=1793887200&KeyName=assets-cdn-key-1&Signature=1-rxbGYbdXZBmHa7Whbp-b5SwP0="
+  }
+ ]
+}
