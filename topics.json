@@ -7538,7 +7538,7 @@
    "klasor": "recitations/hudhaify"
   },
   "seslendirme": {
-   "giris": "Hazreti İbrahim ve yanındakiler, kavimlerinden ayrılırken böyle dua ettiler."
+   "giris": "Hazreti İbrahim ve yanındakiler, inkâr eden kavimlerine karşı Rablerine böyle dua ettiler."
   },
   "kurgu": {
    "kamera": [
@@ -8443,7 +8443,7 @@
    58
   ],
   "hook": "Sevinmeyi unuttun mu?",
-  "kapanis": "Sevinmeyi unuttuysan Allah'ın rahmetiyle sevin.",
+  "kapanis": "Sevinmeyi unuttuysan bu gece Allah'ın rahmetiyle sevin.",
   "bg": "yildiz",
   "sahne": "yildiz",
   "aciklama": "Yûnus Suresi 58. ayette Allah'ın bol nimeti ve rahmetine sevinilmesi gerektiği, bunun toplanan her şeyden daha hayırlı olduğu bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -8463,12 +8463,12 @@
   },
   "kurgu": {
    "kamera": [
-    "sabit",
-    "vurgu",
+    "it",
+    "kay",
     "cek"
    ],
    "gecis": [
-    "kararma",
+    "kesme",
     "kararma"
    ]
   },
@@ -8940,8 +8940,8 @@
   ],
   "kart_metin": "Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama",
   "sahne": "deniz",
-  "hook": "Rabbimiz! Hz. Musa'nın kavminin tevekkül duası",
-  "tema": "Dua",
+  "hook": "TEVEKKÜL DUASI",
+  "tema": "Tevekkül duası",
   "etiketler": [
    "dua",
    "tevekkül",
@@ -8951,8 +8951,8 @@
   "aciklama": "Yûnus Suresi 85. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "kapanis": "Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama",
   "seo": {
-   "yt_baslik": "Rabbimiz! Hz. Musa'nın kavminin tevekkül duası | Yûnus 85",
-   "ilk_satir": "Dua | Yûnus 85: Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama",
+   "yt_baslik": "Tevekkül duası | Yûnus 85 · Allah'a güvendik",
+   "ilk_satir": "Tevekkül duası | Yûnus 85: Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama",
    "aciklama": "Yûnus Suresi 85. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "tevekkül duası",
@@ -8967,8 +8967,8 @@
     "metin": "Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama"
    }
   ],
-  "ust": "Rabbimiz! Hz. Musa'nın kavminin tevekkül duası",
-  "not": "Stok SABAH 3 Kasım: deney 7; 95 Arapça harf (tahmin 17.9 sn, gerçek ~%30 kısa)."
+  "ust": "TEVEKKÜL DUASI",
+  "not": "Stok SABAH 3 Kasım: deney 7; 95 Arapça harf (tahmin 17.9 sn, gerçek ~%30 kısa). 5 Kasım AKŞAM: deney 11 (2. kart) — ad mealdeki \"Allah'a güvendik\"ten; önceki ust \"Rabbimiz! Hz. Musa'nın kavminin tevekkül duası\"."
  },
  {
   "id": "v214",
