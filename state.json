@@ -1608,12 +1608,20 @@
    "youtube": {
     "tarih": "2026-11-06T20:30:00+04:00",
     "kervly_id": "p_5mWIfusuyk0w"
+   },
+   "tiktok": {
+    "tarih": "2026-11-06T20:30:00+04:00",
+    "zernio_id": "6aedc7a48b16944614792f26"
    }
   },
   "v199": {
    "youtube": {
     "tarih": "2026-11-06T23:30:00+04:00",
     "kervly_id": "p_qFWS29Nj0U6i"
+   },
+   "tiktok": {
+    "tarih": "2026-11-06T23:30:00+04:00",
+    "zernio_id": "6aedc7a58b16944614792f2e"
    }
   }
  }

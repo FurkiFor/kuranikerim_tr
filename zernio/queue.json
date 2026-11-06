@@ -1784,13 +1784,17 @@
   "at": "2026-11-06T20:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6aedc7a48b16944614792f26",
+  "status": "scheduled"
  },
  {
   "id": "v199",
   "at": "2026-11-06T23:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6aedc7a58b16944614792f2e",
+  "status": "scheduled"
  }
 ]
