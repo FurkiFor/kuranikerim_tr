@@ -9136,5 +9136,605 @@
   ],
   "ust": "KURTULUŞ DUASI",
   "not": "SABAH 5 Kasım: deney 11 ilk uygulama (ust duanın açık adı, mealdeki 'kurtar' isteğinden). 83 Arapça harf. Diyanet 117-118'i tek mealde birleştirmiş; kartta 118'in karşılığı olan kısım. v212 render'da 17,6 sn çıktığı için (17 sn kuralı) yerine bu kart üretildi."
+ },
+ {
+  "id": "v218",
+  "tur": "kart",
+  "sure": 22,
+  "ayet": [
+   76,
+   76
+  ],
+  "kart_metin": "O, geçmişlerini geleceklerini bilir. Bütün işler Allah'a döner",
+  "sahne": "yol",
+  "hook": "Bazen yarın ne olacak diye düşünürsün",
+  "tema": "Gelecek ayeti",
+  "etiketler": [
+   "gelecek kaygısı",
+   "tevekkül",
+   "hac suresi",
+   "tilavet"
+  ],
+  "aciklama": "Hac Suresi 76. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "O, geçmişlerini geleceklerini bilir. Bütün işler Allah'a döner",
+  "seo": {
+   "yt_baslik": "Bazen yarın ne olacak diye düşünürsün | Hac 76",
+   "ilk_satir": "Gelecek ayeti | Hac 76: O, geçmişlerini geleceklerini bilir. Bütün işler Allah'a döner",
+   "aciklama": "Hac Suresi 76. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "gelecek kaygısı",
+    "hac suresi 76",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 76,
+    "metin": "O, geçmişlerini geleceklerini bilir. Bütün işler Allah'a döner"
+   }
+  ],
+  "ust": "Bazen yarın ne olacak diye düşünürsün",
+  "not": "Stok SABAH 6 Kasım: deney 9; 86 Arapça harf (tahmin 16.2 sn)."
+ },
+ {
+  "id": "v219",
+  "tur": "kart",
+  "sure": 67,
+  "ayet": [
+   13,
+   13
+  ],
+  "kart_metin": "Sizler, sözlerinizi gizleseniz de açıklasanız da birdir; O, kalblerde olanı bilir",
+  "sahne": "kalp",
+  "hook": "Söylesen de söylemesen de Allah bilir",
+  "tema": "Allah bilir ayeti",
+  "etiketler": [
+   "allah bilir",
+   "kalp",
+   "mülk suresi",
+   "tilavet"
+  ],
+  "aciklama": "Mülk Suresi 13. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Sizler, sözlerinizi gizleseniz de açıklasanız da birdir; O, kalblerde olanı bilir",
+  "seo": {
+   "yt_baslik": "Söylesen de söylemesen de Allah bilir | Mülk 13",
+   "ilk_satir": "Allah bilir ayeti | Mülk 13: Sizler, sözlerinizi gizleseniz de açıklasanız da birdir; O, kalblerde olanı bilir",
+   "aciklama": "Mülk Suresi 13. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "allah bilir",
+    "mülk suresi 13",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 13,
+    "metin": "Sizler, sözlerinizi gizleseniz de açıklasanız da birdir; O, kalblerde olanı bilir"
+   }
+  ],
+  "ust": "Söylesen de söylemesen de Allah bilir",
+  "not": "Stok SABAH 6 Kasım: deney 10; 79 Arapça harf (tahmin 15.0 sn)."
+ },
+ {
+  "id": "v220",
+  "tur": "kart",
+  "sure": 49,
+  "ayet": [
+   18,
+   18
+  ],
+  "kart_metin": "Doğrusu Allah, göklerin ve yerin gaybını bilir. Allah, yaptıklarınızı görendir",
+  "sahne": "yildiz",
+  "hook": "Bazen yaptıklarını kimse görmüyor sanırsın",
+  "tema": "Allah görür ayeti",
+  "etiketler": [
+   "allah görür",
+   "emek",
+   "hucurat suresi",
+   "tilavet"
+  ],
+  "aciklama": "Hucurât Suresi 18. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Doğrusu Allah, göklerin ve yerin gaybını bilir. Allah, yaptıklarınızı görendir",
+  "seo": {
+   "yt_baslik": "Bazen yaptıklarını kimse görmüyor sanırsın | Hucurât 18",
+   "ilk_satir": "Allah görür ayeti | Hucurât 18: Doğrusu Allah, göklerin ve yerin gaybını bilir. Allah, yaptıklarınızı görendir",
+   "aciklama": "Hucurât Suresi 18. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "allah görür",
+    "hucurat suresi 18",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 18,
+    "metin": "Doğrusu Allah, göklerin ve yerin gaybını bilir. Allah, yaptıklarınızı görendir"
+   }
+  ],
+  "ust": "Bazen yaptıklarını kimse görmüyor sanırsın",
+  "not": "Stok SABAH 6 Kasım: deney 9; 93 Arapça harf (tahmin 17.5 sn)."
+ },
+ {
+  "id": "v221",
+  "tur": "kart",
+  "sure": 21,
+  "ayet": [
+   110,
+   110
+  ],
+  "kart_metin": "Doğrusu O, açığa vurulan sözü de bilir, gizlediklerinizi de bilir",
+  "sahne": "fener",
+  "hook": "Allah, içinde sakladığını da bilir",
+  "tema": "Allah bilir ayeti",
+  "etiketler": [
+   "allah bilir",
+   "içini dökmek",
+   "enbiya suresi",
+   "tilavet"
+  ],
+  "aciklama": "Enbiyâ Suresi 110. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Doğrusu O, açığa vurulan sözü de bilir, gizlediklerinizi de bilir",
+  "seo": {
+   "yt_baslik": "Allah, içinde sakladığını da bilir | Enbiyâ 110",
+   "ilk_satir": "Allah bilir ayeti | Enbiyâ 110: Doğrusu O, açığa vurulan sözü de bilir, gizlediklerinizi de bilir",
+   "aciklama": "Enbiyâ Suresi 110. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "allah bilir",
+    "enbiya suresi 110",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 110,
+    "metin": "Doğrusu O, açığa vurulan sözü de bilir, gizlediklerinizi de bilir"
+   }
+  ],
+  "ust": "Allah, içinde sakladığını da bilir",
+  "not": "Stok SABAH 6 Kasım: deney 10; 68 Arapça harf (tahmin 13.0 sn)."
+ },
+ {
+  "id": "v222",
+  "tur": "kart",
+  "sure": 9,
+  "ayet": [
+   27,
+   27
+  ],
+  "kart_metin": "Allah bundan sonra da dilediğinin tevbesini kabul eder. Allah bağışlar ve merhamet eder",
+  "sahne": "kapi",
+  "hook": "Bazen tövbe için çok geç sanırsın",
+  "tema": "Tövbe ayeti",
+  "etiketler": [
+   "tövbe",
+   "pişmanlık",
+   "tevbe suresi",
+   "tilavet"
+  ],
+  "aciklama": "Tevbe Suresi 27. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Allah bundan sonra da dilediğinin tevbesini kabul eder. Allah bağışlar ve merhamet eder",
+  "seo": {
+   "yt_baslik": "Bazen tövbe için çok geç sanırsın | Tevbe 27",
+   "ilk_satir": "Tövbe ayeti | Tevbe 27: Allah bundan sonra da dilediğinin tevbesini kabul eder. Allah bağışlar ve merhamet eder",
+   "aciklama": "Tevbe Suresi 27. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe",
+    "tevbe suresi 27",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 27,
+    "metin": "Allah bundan sonra da dilediğinin tevbesini kabul eder. Allah bağışlar ve merhamet eder"
+   }
+  ],
+  "ust": "Bazen tövbe için çok geç sanırsın",
+  "not": "Stok SABAH 6 Kasım: deney 9; 89 Arapça harf (tahmin 16.8 sn)."
+ },
+ {
+  "id": "v223",
+  "tur": "kart",
+  "sure": 4,
+  "ayet": [
+   99,
+   99
+  ],
+  "kart_metin": "Allah Affedendir, Bağışlayan'dır",
+  "sahne": "tohum",
+  "hook": "Bazen affedilmeyeceğini düşünürsün",
+  "tema": "Af ayeti",
+  "etiketler": [
+   "af",
+   "bağışlanma",
+   "nisa suresi",
+   "tilavet"
+  ],
+  "aciklama": "Nisâ Suresi 99. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Allah Affedendir, Bağışlayan'dır",
+  "seo": {
+   "yt_baslik": "Bazen affedilmeyeceğini düşünürsün | Nisâ 99",
+   "ilk_satir": "Af ayeti | Nisâ 99: Allah Affedendir, Bağışlayan'dır",
+   "aciklama": "Nisâ Suresi 99. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "af",
+    "nisa suresi 99",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 99,
+    "metin": "Allah Affedendir, Bağışlayan'dır"
+   }
+  ],
+  "ust": "Bazen affedilmeyeceğini düşünürsün",
+  "not": "Stok SABAH 6 Kasım: deney 9; 85 Arapça harf (tahmin 16.1 sn)."
+ },
+ {
+  "id": "v224",
+  "tur": "kart",
+  "sure": 12,
+  "ayet": [
+   34,
+   34
+  ],
+  "kart_metin": "Rabbi onun duasını kabul etti ve kadınların tuzağına engel oldu. Zira O, işitir ve bilir",
+  "sahne": "kalp",
+  "hook": "Hz. Yusuf'un duası kabul oldu",
+  "tema": "Duanın kabulü",
+  "etiketler": [
+   "dua",
+   "hz yusuf",
+   "yusuf suresi",
+   "tilavet"
+  ],
+  "aciklama": "Yûsuf Suresi 34. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbi onun duasını kabul etti ve kadınların tuzağına engel oldu. Zira O, işitir ve bilir",
+  "seo": {
+   "yt_baslik": "Hz. Yusuf'un duası kabul oldu | Yûsuf 34",
+   "ilk_satir": "Duanın kabulü | Yûsuf 34: Rabbi onun duasını kabul etti ve kadınların tuzağına engel oldu. Zira O, işitir ve bilir",
+   "aciklama": "Yûsuf Suresi 34. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "dua",
+    "yusuf suresi 34",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 34,
+    "metin": "Rabbi onun duasını kabul etti ve kadınların tuzağına engel oldu. Zira O, işitir ve bilir"
+   }
+  ],
+  "ust": "Hz. Yusuf'un duası kabul oldu",
+  "not": "Stok SABAH 6 Kasım: peygamber; 90 Arapça harf (tahmin 17.0 sn)."
+ },
+ {
+  "id": "v225",
+  "tur": "kart",
+  "sure": 10,
+  "ayet": [
+   89,
+   89
+  ],
+  "kart_metin": "İkinizin duası kabul olundu. Dürüst hareket edin; bilmeyenlerin yoluna asla uymayın",
+  "sahne": "deniz",
+  "hook": "Hz. Musa ile Harun'un duası kabul oldu",
+  "tema": "Duanın kabulü",
+  "etiketler": [
+   "dua",
+   "hz musa",
+   "yunus suresi",
+   "tilavet"
+  ],
+  "aciklama": "Yûnus Suresi 89. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "İkinizin duası kabul olundu. Dürüst hareket edin; bilmeyenlerin yoluna asla uymayın",
+  "seo": {
+   "yt_baslik": "Hz. Musa ile Harun'un duası kabul oldu | Yûnus 89",
+   "ilk_satir": "Duanın kabulü | Yûnus 89: İkinizin duası kabul olundu. Dürüst hareket edin; bilmeyenlerin yoluna asla uymayın",
+   "aciklama": "Yûnus Suresi 89. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "dua",
+    "yunus suresi 89",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 89,
+    "metin": "İkinizin duası kabul olundu. Dürüst hareket edin; bilmeyenlerin yoluna asla uymayın"
+   }
+  ],
+  "ust": "Hz. Musa ile Harun'un duası kabul oldu",
+  "not": "Stok SABAH 6 Kasım: peygamber; 102 Arapça harf (tahmin 19.1 sn)."
+ },
+ {
+  "id": "v226",
+  "tur": "kart",
+  "sure": 16,
+  "ayet": [
+   121,
+   121
+  ],
+  "kart_metin": "Rabbinin nimetlerine şükrederdi; Rabbi de onu seçti ve doğru yola eriştirdi",
+  "sahne": "tohum",
+  "hook": "Hz. İbrahim nimetlere şükrederdi",
+  "tema": "Şükür ayeti",
+  "etiketler": [
+   "şükür",
+   "hz ibrahim",
+   "nahl suresi",
+   "tilavet"
+  ],
+  "aciklama": "Nahl Suresi 121. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbinin nimetlerine şükrederdi; Rabbi de onu seçti ve doğru yola eriştirdi",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim nimetlere şükrederdi | Nahl 121",
+   "ilk_satir": "Şükür ayeti | Nahl 121: Rabbinin nimetlerine şükrederdi; Rabbi de onu seçti ve doğru yola eriştirdi",
+   "aciklama": "Nahl Suresi 121. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "şükür",
+    "nahl suresi 121",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 121,
+    "metin": "Rabbinin nimetlerine şükrederdi; Rabbi de onu seçti ve doğru yola eriştirdi"
+   }
+  ],
+  "ust": "Hz. İbrahim nimetlere şükrederdi",
+  "not": "Stok SABAH 6 Kasım: peygamber; 71 Arapça harf (tahmin 13.5 sn)."
+ },
+ {
+  "id": "v227",
+  "tur": "kart",
+  "sure": 38,
+  "ayet": [
+   25,
+   25
+  ],
+  "kart_metin": "Böylece onu bağışlamıştık. Katımızda onun yakınlığı ve güzel bir geleceği vardır",
+  "sahne": "kapi",
+  "hook": "Hz. Davud'un tövbesi böyle kabul oldu",
+  "tema": "Tövbe ayeti",
+  "etiketler": [
+   "tövbe",
+   "hz davud",
+   "sad suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sâd Suresi 25. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Böylece onu bağışlamıştık. Katımızda onun yakınlığı ve güzel bir geleceği vardır",
+  "seo": {
+   "yt_baslik": "Hz. Davud'un tövbesi böyle kabul oldu | Sâd 25",
+   "ilk_satir": "Tövbe ayeti | Sâd 25: Böylece onu bağışlamıştık. Katımızda onun yakınlığı ve güzel bir geleceği vardır",
+   "aciklama": "Sâd Suresi 25. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe",
+    "sad suresi 25",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 25,
+    "metin": "Böylece onu bağışlamıştık. Katımızda onun yakınlığı ve güzel bir geleceği vardır"
+   }
+  ],
+  "ust": "Hz. Davud'un tövbesi böyle kabul oldu",
+  "not": "Stok SABAH 6 Kasım: peygamber (Sâd 24: Davud mağfiret diledi, tevbe etti); 75 Arapça harf (tahmin 14.2 sn)."
+ },
+ {
+  "id": "v228",
+  "tur": "kart",
+  "sure": 19,
+  "ayet": [
+   47,
+   47
+  ],
+  "kart_metin": "Senin için Rabbim'den mağfiret dileyeceğim, çünkü O, bana karşı çok lütufkardır",
+  "sahne": "yol",
+  "hook": "Hz. İbrahim, onu kovan babasına böyle dedi",
+  "tema": "Hz. İbrahim'in sözü",
+  "etiketler": [
+   "hz ibrahim",
+   "anne baba",
+   "meryem suresi",
+   "tilavet"
+  ],
+  "aciklama": "Meryem Suresi 47. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Senin için Rabbim'den mağfiret dileyeceğim, çünkü O, bana karşı çok lütufkardır",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim, onu kovan babasına böyle dedi | Meryem 47",
+   "ilk_satir": "Hz. İbrahim'in sözü | Meryem 47: Senin için Rabbim'den mağfiret dileyeceğim, çünkü O, bana karşı çok lütufkardır",
+   "aciklama": "Meryem Suresi 47. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "meryem suresi 47",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 47,
+    "metin": "Senin için Rabbim'den mağfiret dileyeceğim, çünkü O, bana karşı çok lütufkardır"
+   }
+  ],
+  "ust": "Hz. İbrahim, onu kovan babasına böyle dedi",
+  "not": "Stok SABAH 6 Kasım: peygamber sözü (Meryem 46: babası 'uzaklaş git' dedi); 80 Arapça harf (tahmin 15.1 sn)."
+ },
+ {
+  "id": "v229",
+  "tur": "kart",
+  "sure": 34,
+  "ayet": [
+   36,
+   36
+  ],
+  "kart_metin": "Şüphesiz Rabbim rızkı dilediğine genişletir ve bir ölçüye göre verir",
+  "sahne": "tohum",
+  "hook": "Bazen rızkın daralınca içine dert olur",
+  "tema": "Rızık ayeti",
+  "etiketler": [
+   "rızık",
+   "geçim",
+   "sebe suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sebe' Suresi 36. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Şüphesiz Rabbim rızkı dilediğine genişletir ve bir ölçüye göre verir",
+  "seo": {
+   "yt_baslik": "Bazen rızkın daralınca içine dert olur | Sebe' 36",
+   "ilk_satir": "Rızık ayeti | Sebe' 36: Şüphesiz Rabbim rızkı dilediğine genişletir ve bir ölçüye göre verir",
+   "aciklama": "Sebe' Suresi 36. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "rızık",
+    "sebe suresi 36",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 36,
+    "metin": "Şüphesiz Rabbim rızkı dilediğine genişletir ve bir ölçüye göre verir"
+   }
+  ],
+  "ust": "Bazen rızkın daralınca içine dert olur",
+  "not": "Stok SABAH 6 Kasım: deney 9; 107 Arapça harf (tahmin 20.1 sn)."
+ },
+ {
+  "id": "v230",
+  "tur": "kart",
+  "sure": 6,
+  "ayet": [
+   13,
+   13
+  ],
+  "kart_metin": "Gecede ve gündüzde bulunan O'nundur. O işitendir, Bilen'dir",
+  "sahne": "yildiz",
+  "hook": "Gece de gündüz de O işitir, O bilir",
+  "tema": "Allah işitir ayeti",
+  "etiketler": [
+   "allah işitir",
+   "dua",
+   "enam suresi",
+   "tilavet"
+  ],
+  "aciklama": "En'âm Suresi 13. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Gecede ve gündüzde bulunan O'nundur. O işitendir, Bilen'dir",
+  "seo": {
+   "yt_baslik": "Gece de gündüz de O işitir, O bilir | En'âm 13",
+   "ilk_satir": "Allah işitir ayeti | En'âm 13: Gecede ve gündüzde bulunan O'nundur. O işitendir, Bilen'dir",
+   "aciklama": "En'âm Suresi 13. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "allah işitir",
+    "enam suresi 13",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 13,
+    "metin": "Gecede ve gündüzde bulunan O'nundur. O işitendir, Bilen'dir"
+   }
+  ],
+  "ust": "Gece de gündüz de O işitir, O bilir",
+  "not": "Stok SABAH 6 Kasım: deney 10; 77 Arapça harf (tahmin 14.6 sn)."
+ },
+ {
+  "id": "v231",
+  "tur": "kart",
+  "sure": 29,
+  "ayet": [
+   26,
+   26
+  ],
+  "kart_metin": "Doğrusu ben Rabbimin dilediği yere hicret ediyorum, O şüphesiz güçlüdür, Hakim'dir",
+  "sahne": "yol",
+  "hook": "Hz. İbrahim her şeyi bırakırken böyle dedi",
+  "tema": "Hz. İbrahim'in sözü",
+  "etiketler": [
+   "hz ibrahim",
+   "hicret",
+   "ankebut suresi",
+   "tilavet"
+  ],
+  "aciklama": "Ankebût Suresi 26. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Doğrusu ben Rabbimin dilediği yere hicret ediyorum, O şüphesiz güçlüdür, Hakim'dir",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim her şeyi bırakırken böyle dedi | Ankebût 26",
+   "ilk_satir": "Hz. İbrahim'in sözü | Ankebût 26: Doğrusu ben Rabbimin dilediği yere hicret ediyorum, O şüphesiz güçlüdür, Hakim'dir",
+   "aciklama": "Ankebût Suresi 26. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "ankebut suresi 26",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 26,
+    "metin": "Doğrusu ben Rabbimin dilediği yere hicret ediyorum, O şüphesiz güçlüdür, Hakim'dir"
+   }
+  ],
+  "ust": "Hz. İbrahim her şeyi bırakırken böyle dedi",
+  "not": "Stok SABAH 6 Kasım: peygamber sözü; 98 Arapça harf (tahmin 18.4 sn)."
+ },
+ {
+  "id": "v232",
+  "tur": "kart",
+  "sure": 34,
+  "ayet": [
+   26,
+   26
+  ],
+  "kart_metin": "Rabbimiz sonunda hepimizi toplar, sonra aramızda adaletle hükmeder",
+  "sahne": "kum",
+  "hook": "Bazen haklı olduğunu kimse anlamaz",
+  "tema": "Adalet ayeti",
+  "etiketler": [
+   "adalet",
+   "haklılık",
+   "sebe suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sebe' Suresi 26. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbimiz sonunda hepimizi toplar, sonra aramızda adaletle hükmeder",
+  "seo": {
+   "yt_baslik": "Bazen haklı olduğunu kimse anlamaz | Sebe' 26",
+   "ilk_satir": "Adalet ayeti | Sebe' 26: Rabbimiz sonunda hepimizi toplar, sonra aramızda adaletle hükmeder",
+   "aciklama": "Sebe' Suresi 26. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "adalet",
+    "sebe suresi 26",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 26,
+    "metin": "Rabbimiz sonunda hepimizi toplar, sonra aramızda adaletle hükmeder"
+   }
+  ],
+  "ust": "Bazen haklı olduğunu kimse anlamaz",
+  "not": "Stok SABAH 6 Kasım: deney 9; 98 Arapça harf (tahmin 18.4 sn)."
  }
 ]
