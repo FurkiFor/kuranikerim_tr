@@ -1,30 +1,30 @@
-# Zernio özeti — 2026-11-06T07:25+04:00
+# Zernio özeti — 2026-11-06T13:59+04:00
 
-## instagram @kuranikerim_tr — 548 takipçi, 87 gönderi (son 90 gün)
-- Takipçi değişimi (kayıtlı ilk gün → bugün): 9 → 548 (+539, 20 gün)
-- Ortalama: 1786.161 izlenme, 88.747 beğeni, 26.793 kaydetme, 11.713 paylaşım, 0.0 takip/video, ort. izleme 7.33 sn
-- Saat (Dubai) → ort. izlenme [gönderi]: 05:00 → 110 [1], 10:00 → 1962 [16], 12:00 → 46 [2], 13:00 → 1449 [16], 15:00 → 62 [1], 16:00 → 1740 [2], 18:00 → 2171 [16], 19:00 → 24 [1], 20:00 → 3149 [15], 21:00 → 58 [3], 22:00 → 236 [2], 23:00 → 1203 [12]
+## instagram @kuranikerim_tr — 598 takipçi, 88 gönderi (son 90 gün)
+- Takipçi değişimi (kayıtlı ilk gün → bugün): 9 → 598 (+589, 20 gün)
+- Ortalama: 1772.523 izlenme, 88.068 beğeni, 26.534 kaydetme, 11.909 paylaşım, 0.0 takip/video, ort. izleme 7.383 sn
+- Saat (Dubai) → ort. izlenme [gönderi]: 05:00 → 110 [1], 10:00 → 1854 [17], 12:00 → 46 [2], 13:00 → 1455 [16], 15:00 → 62 [1], 16:00 → 1758 [2], 18:00 → 2184 [16], 19:00 → 24 [1], 20:00 → 3155 [15], 21:00 → 58 [3], 22:00 → 244 [2], 23:00 → 1204 [12]
 
 | id | tarih | izl. | beğ. | kay. | paylş | 2sn | ilk satır |
 |---|---|---|---|---|---|---|---|
 | v107 | 2026-10-28 | 32631 | 1598 | 915 | 402 |  | Üzülme ayeti | Neml 70: Onlara üzülme. Hilelerine  |
-| v125 | 2026-10-30 | 8093 | 510 | 169 | 77 |  | Allah yeter ayeti | Nisa 45: Allah, düşmanlarınızı |
-| v165 | 2026-10-31 | 5730 | 357 | 138 | 82 |  | Hz. Lut'un duası | Şuara 169: Rabbim! Beni ve aile |
-| v168 | 2026-11-01 | 3563 | 174 | 54 | 10 |  | Söz ayeti | Yasin 76: Bunların sözü seni üzmesin.  |
+| v125 | 2026-10-30 | 8105 | 511 | 170 | 77 |  | Allah yeter ayeti | Nisa 45: Allah, düşmanlarınızı |
+| v165 | 2026-10-31 | 5738 | 357 | 136 | 82 |  | Hz. Lut'un duası | Şuara 169: Rabbim! Beni ve aile |
+| v168 | 2026-11-01 | 3574 | 174 | 53 | 11 |  | Söz ayeti | Yasin 76: Bunların sözü seni üzmesin.  |
 | v092 | 2026-10-26 | 3256 | 159 | 72 | 21 |  | Kötülükten korunma duası | Ankebut 30: Rabbim! Boz |
-| v214 | 2026-11-04 | 3014 | 158 | 52 | 13 |  | Dua | Mü'minûn 39-40: Rabbim! Beni yalancı saymala |
-| v131 | 2026-10-31 | 2924 | 189 | 42 | 19 |  | Tevekkül ayeti | Neml 79: Allah'a güven, şüphesiz  |
+| v214 | 2026-11-04 | 3072 | 162 | 53 | 14 |  | Dua | Mü'minûn 39-40: Rabbim! Beni yalancı saymala |
+| v131 | 2026-10-31 | 2930 | 189 | 42 | 20 |  | Tevekkül ayeti | Neml 79: Allah'a güven, şüphesiz  |
 | v054 | 2026-10-23 | 2697 | 145 | 29 | 14 |  | Rabbişrahli duası | Taha 25-28: Hz. Musa'nın duası |
-| v134 | 2026-10-31 | 2674 | 116 | 40 | 20 |  | Vesvese ayeti | Nahl 99: Doğrusu şeytanın, inananl |
-| v047 | 2026-10-26 | 2511 | 215 | 23 | 5 |  | Herkes seni bıraktı sanıyorsan — Rabbin seni ne bı |
-| v128 | 2026-10-30 | 2261 | 97 | 21 | 10 |  | Sabır ve tevekkül ayeti | Nahl 42: Onlar sabreden  |
-| v132 | 2026-11-03 | 2227 | 106 | 37 | 11 |  | Sabır ayeti — Hz. Davud | Sad 17: Onların söyledik |
+| v134 | 2026-10-31 | 2678 | 116 | 40 | 21 |  | Vesvese ayeti | Nahl 99: Doğrusu şeytanın, inananl |
+| v047 | 2026-10-26 | 2515 | 215 | 23 | 5 |  | Herkes seni bıraktı sanıyorsan — Rabbin seni ne bı |
+| v128 | 2026-10-30 | 2265 | 97 | 21 | 11 |  | Sabır ve tevekkül ayeti | Nahl 42: Onlar sabreden  |
+| v132 | 2026-11-03 | 2238 | 107 | 37 | 12 |  | Sabır ayeti — Hz. Davud | Sad 17: Onların söyledik |
 
-## tiktok @kuranikerim_tr — 1796 takipçi, 112 gönderi (son 90 gün)
-- Takipçi değişimi (kayıtlı ilk gün → bugün): 1660 → 1796 (+136, 20 gün)
-- Ortalama: 294.634 izlenme, 39.036 beğeni, 9.161 kaydetme, 1.804 paylaşım, 1.411 takip/video, ort. izleme 5.602 sn
+## tiktok @kuranikerim_tr — 1802 takipçi, 112 gönderi (son 90 gün)
+- Takipçi değişimi (kayıtlı ilk gün → bugün): 1660 → 1802 (+142, 20 gün)
+- Ortalama: 294.938 izlenme, 39.036 beğeni, 9.179 kaydetme, 1.804 paylaşım, 1.411 takip/video, ort. izleme 5.595 sn
 - 2. saniyede kalan izleyici: %42 · 6. saniyede: %18 · aramadan gelen pay: %6
-- Saat (Dubai) → ort. izlenme [gönderi]: 03:00 → 189 [3], 04:00 → 167 [1], 05:00 → 176 [1], 10:00 → 222 [22], 12:00 → 254 [5], 13:00 → 160 [16], 15:00 → 168 [3], 18:00 → 241 [20], 19:00 → 186 [1], 20:00 → 208 [17], 21:00 → 1651 [6], 22:00 → 197 [1], 23:00 → 264 [16]
+- Saat (Dubai) → ort. izlenme [gönderi]: 03:00 → 189 [3], 04:00 → 167 [1], 05:00 → 176 [1], 10:00 → 223 [22], 12:00 → 254 [5], 13:00 → 160 [16], 15:00 → 168 [3], 18:00 → 241 [20], 19:00 → 186 [1], 20:00 → 208 [17], 21:00 → 1651 [6], 22:00 → 197 [1], 23:00 → 265 [16]
 
 | id | tarih | izl. | beğ. | kay. | paylş | 2sn | ilk satır |
 |---|---|---|---|---|---|---|---|
