@@ -107,6 +107,9 @@
 | 64 | Yarın ne olacak diye uykun mu kaçıyor? | — | Ankebût 60: "Sizin de onların da rızkını Allah verir" | v191; 4 Kasım 10:00; rızık; rızık vaadi yok, meal birebir |
 | 65 | Hakkında söylenenler seni mi yıkıyor? | — | Fussilet 43: "Senin için söylenenler, senden önceki peygamberler için de söylenmişti" | v193; 4 Kasım 13:00 yalnız TikTok; kötülük görmek ailesi; Peygambere hitap girişte söylenir |
 | 66 | Kimse senin için dua etmiyor mu sanıyorsun? | — | Mü'min 9: meleklerin müminler için duası ("Onları kötülüklerden koru!") — dua 7. ayette başlar | v187; 4 Kasım 18:00; açık adlı dua (meleklerin duası); kapanışta "müminler için" koşulu |
+| 67 | Kibirli biri seni ezmeye mi çalışıyor? | — | Mü'min 27: Musa: "…böbürlenenlerin hepsinden, benim de Rabbim sizin de Rabbiniz olan Allah'a sığınırım" | v161; 6 Kasım 20:30; açık adlı dua (Hz. Musa'nın sığınma duası); köprü (Firavun'un tehdidi, Mü'min 26) girişte |
+| 68 | Yaptığın iyilik karşılıksız mı kaldı? | — | Neml 89: "Kim bir iyilik getirirse, ona daha iyisi verilir" | v199; 6 Kasım 23:30; iyilik; gece yalnız kapanışta |
+| 69 | Kimse görmese de Allah yaptığını görür (kart `ust`) | — | Hucurât 18: "Allah, yaptıklarınızı görendir" | v220; 6 Kasım 20:30 IG; deney 10 "Allah + sen" |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
