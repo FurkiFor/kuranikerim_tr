@@ -1,0 +1,37 @@
+{
+ "id": "v161",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "kqOMhS88OFEBcKuEPwBX",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Kibirli biri seni ezmeye mi çalışıyor?",
+   "prompt": "[deep voice] [slowly] Kibirli biri seni ezmeye mi çalışıyor?",
+   "generation_id": "3FIdas7ZXGnvPXY8ZdQc",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/CPX8lDTngi5BFpxxOIZ9/3FIdas7ZXGnvPXY8ZdQc/content.mp3?Expires=1793973600&KeyName=assets-cdn-key-1&Signature=-o05TB6Msi9DR5OLl2WlTjP-fYo="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Musa'yı da böyle biri tehdit etmişti. Ama o, tek bir söz söyledi.",
+   "prompt": "[deep voice] [slowly] Hazreti Musa'yı da böyle biri tehdit etmişti. Ama o, tek bir söz söyledi.",
+   "generation_id": "EtisOAZH6fm2ZlCeYkOM",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/NajqcWvw6jb9igN07Xhd/EtisOAZH6fm2ZlCeYkOM/content.mp3?Expires=1793973600&KeyName=assets-cdn-key-1&Signature=8qGDj9nfkuQGkfPfnySm6AB6Zes="
+  },
+  {
+   "kind": "meal",
+   "text": "Musa: \"Doğrusu ben, hesap görülecek güne inanmayan böbürlenenlerin hepsinden, benim de Rabbim sizin de Rabbiniz olan Allah'a sığınırım\" dedi.",
+   "prompt": "[softly] [slowly] Musa: Doğrusu ben, hesap görülecek güne inanmayan böbürlenenlerin hepsinden, benim de Rabbim sizin de Rabbiniz olan Allah'a sığınırım dedi.",
+   "generation_id": "OH7dkW1lJAwb8Xs84WJt",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/zoJUH16kzEdvHg2lLyfS/OH7dkW1lJAwb8Xs84WJt/content.mp3?Expires=1793973600&KeyName=assets-cdn-key-1&Signature=CST24A_7Rpv2Bl7UZH9RTrQNo4E="
+  },
+  {
+   "kind": "cta",
+   "text": "Seni ezmeye çalışan böbürlenenlerden Rabbine sığın. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Seni ezmeye çalışan böbürlenenlerden Rabbine sığın. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "dsmGpbda84s67KfqlNUJ",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/BTPA0ga1IGALfNx2ftsJ/dsmGpbda84s67KfqlNUJ/content.mp3?Expires=1793973600&KeyName=assets-cdn-key-1&Signature=BJ_imbj6jTDQs7kCx_2zvciqJbw="
+  }
+ ]
+}

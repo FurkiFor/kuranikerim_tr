@@ -6519,10 +6519,11 @@
   ],
   "hook": "Kibirli biri seni ezmeye mi çalışıyor?",
   "kapanis": "Seni ezmeye çalışan böbürlenenlerden Rabbine sığın.",
-  "bg": "firtina",
-  "sahne": "firtina",
+  "bg": "fener",
+  "sahne": "fener",
   "aciklama": "Mü'min Suresi 27. ayette Hz. Musa'nın, hesap gününe inanmayan böbürlenenlerden Rabbi olan Allah'a sığındığı anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
+   "hz musa duası",
    "sığınma",
    "hz musa",
    "mümin suresi",
@@ -6548,17 +6549,17 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Kibirli biri seni ezmeye mi çalışıyor? | Hz. Musa · Mü'min 27",
-   "ilk_satir": "Kibirli biri seni ezmeye mi çalışıyor? Sığınma ayeti | Mü'min 27",
+   "yt_baslik": "Hz. Musa'nın sığınma duası | Mü'min 27 · Kibirliden Allah'a sığınmak",
+   "ilk_satir": "Kibirli biri seni ezmeye mi çalışıyor? Hz. Musa'nın sığınma duası | Mü'min 27",
    "aciklama": "Mü'min Suresi 27. ayette Hz. Musa'nın, hesap gününe inanmayan böbürlenenlerden Rabbi olan Allah'a sığındığı anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "hz musa duası",
     "sığınma duası",
-    "mümin suresi 27",
-    "hz musa"
+    "mümin suresi 27"
    ]
   },
   "kopru_kaynak": "Mü'min 26: Firavun 'Bırakın beni, Musa'yı öldüreyim' dedi",
-  "not": "Stok 30 Ekim SABAH. Tilavet 106 harf."
+  "not": "Stok 30 Ekim SABAH. Tilavet 106 harf. 6 Kasım AKŞAM: 20:30 açık adlı dua; sahne firtina→fener (18:00 v184 firtina)."
  },
  {
   "id": "v162",
@@ -8341,7 +8342,7 @@
    89
   ],
   "hook": "Yaptığın iyilik karşılıksız mı kaldı?",
-  "kapanis": "Karşılıksız sandığın iyiliğin daha iyisiyle döner.",
+  "kapanis": "Bu gece, karşılıksız sandığın iyiliği Rabbine bırak; ona daha iyisi verilir.",
   "bg": "tohum",
   "sahne": "tohum",
   "aciklama": "Neml Suresi 89. ayette bir iyilik getirene daha iyisinin verileceği ve onların o günün korkusundan güvende olacağı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -8381,7 +8382,7 @@
    ]
   },
   "kopru_kaynak": "Neml 89: Kim bir iyilik getirirse ona daha iyisi verilir",
-  "not": "Stok 2 Kasım AKŞAM. Tilavet 85 harf."
+  "not": "Stok 2 Kasım AKŞAM. Tilavet 85 harf. 6 Kasım AKŞAM: 23:30, gece yalnız kapanışta."
  },
  {
   "id": "v200",
