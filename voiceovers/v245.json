@@ -1,0 +1,37 @@
+{
+ "id": "v245",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "bBPtZvTtrwek9VBEJW8N",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Her şeyi tek başına mı taşıyorsun?",
+   "prompt": "[deep voice] [slowly] Her şeyi tek başına mı taşıyorsun?",
+   "generation_id": "QHVAjXwzqt5nTC0Sa1G2",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/tdeThhD9sm15Qxp1YPeI/QHVAjXwzqt5nTC0Sa1G2/content.mp3?Expires=1794060000&KeyName=assets-cdn-key-1&Signature=xGucuAUHOY8lWEf8ByWUF_ojebU="
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an yükü kime bırakacağını söylüyor.",
+   "prompt": "[deep voice] [slowly] Kur'an yükü kime bırakacağını söylüyor.",
+   "generation_id": "Kb56Oi0Jx89GKuqNQ4V3",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/tLbWe39YKW1M08Y6PcGA/Kb56Oi0Jx89GKuqNQ4V3/content.mp3?Expires=1794060000&KeyName=assets-cdn-key-1&Signature=zEbWYNFuNd2--uV8UPJVIeczo8Q="
+  },
+  {
+   "kind": "meal",
+   "text": "O, doğunun ve batının Rabbidir; O'ndan başka tanrı yoktur. Öyleyse O'nu vekil tut.",
+   "prompt": "[softly] [slowly] O, doğunun ve batının Rabbidir; O'ndan başka tanrı yoktur. Öyleyse O'nu vekil tut.",
+   "generation_id": "tgeqRwMv16E8UsqcC5Im",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Iowy844S0SxOUKqzHCfv/tgeqRwMv16E8UsqcC5Im/content.mp3?Expires=1794060000&KeyName=assets-cdn-key-1&Signature=sgUBZb55NwWg91EEHGfrYrT0Yig="
+  },
+  {
+   "kind": "cta",
+   "text": "Bu gece yükünü tek başına taşıma; O'nu vekil tut. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bu gece yükünü tek başına taşıma; O'nu vekil tut. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "xDaYuxYV0SzX7B2EqWzq",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/7x2Bmwk7vrGst4kt4Mic/xDaYuxYV0SzX7B2EqWzq/content.mp3?Expires=1794060000&KeyName=assets-cdn-key-1&Signature=RmDmg8w6NMf0ax-u8veo2CCz3WA="
+  }
+ ]
+}
