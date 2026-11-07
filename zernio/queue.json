@@ -1874,20 +1874,26 @@
   "at": "2026-11-07T20:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6aef148302b3c7761b7de5b6",
+  "status": "scheduled"
  },
  {
   "id": "v232",
   "at": "2026-11-07T20:30:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6aef148302b3c7761b7de5ba",
+  "status": "scheduled"
  },
  {
   "id": "v245",
   "at": "2026-11-07T23:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6aef14841f7edebfc3ba802c",
+  "status": "scheduled"
  }
 ]
