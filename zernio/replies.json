@@ -1651,36 +1651,48 @@
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18118394561087668",
-  "message": "Rabbim içini rahatlatsın, hakkını korusun 🤍 Neml 70'teki gibi: üzülme, sıkılma."
+  "message": "Rabbim içini rahatlatsın, hakkını korusun 🤍 Neml 70'teki gibi: üzülme, sıkılma.",
+  "sent": true,
+  "replyId": "17984243736127163"
  },
  {
   "postId": "18112002542238392",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18083019344556166",
-  "message": "Amin, Rabbim kabul etsin 🤍"
+  "message": "Amin, Rabbim kabul etsin 🤍",
+  "sent": true,
+  "replyId": "17918729112469283"
  },
  {
   "postId": "18065746772525457",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18343632217259215",
-  "message": "Allah razı olsun, güzel paylaşımın için teşekkürler 🤍"
+  "message": "Allah razı olsun, güzel paylaşımın için teşekkürler 🤍",
+  "sent": true,
+  "replyId": "18068004191786399"
  },
  {
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18136971040742853",
-  "message": "Amin, Rabbim dualarını kabul eylesin 🤍"
+  "message": "Amin, Rabbim dualarını kabul eylesin 🤍",
+  "sent": true,
+  "replyId": "18100897172419695"
  },
  {
   "postId": "7704934932375702792",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7705064591232090901",
-  "message": "Amin, Rabbim yardımını yakın etsin 🤍"
+  "message": "Amin, Rabbim yardımını yakın etsin 🤍",
+  "sent": true,
+  "replyId": "7705268970366632722"
  },
  {
   "postId": "18144939403609124",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18095064623278304",
-  "message": "Allahümme salli ala Muhammed. Rabbim razı olsun 🤍"
+  "message": "Allahümme salli ala Muhammed. Rabbim razı olsun 🤍",
+  "sent": true,
+  "replyId": "18135544745495091"
  }
 ]
