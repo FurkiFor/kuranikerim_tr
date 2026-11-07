@@ -110,6 +110,9 @@
 | 67 | Kibirli biri seni ezmeye mi çalışıyor? | — | Mü'min 27: Musa: "…böbürlenenlerin hepsinden, benim de Rabbim sizin de Rabbiniz olan Allah'a sığınırım" | v161; 6 Kasım 20:30; açık adlı dua (Hz. Musa'nın sığınma duası); köprü (Firavun'un tehdidi, Mü'min 26) girişte |
 | 68 | Yaptığın iyilik karşılıksız mı kaldı? | — | Neml 89: "Kim bir iyilik getirirse, ona daha iyisi verilir" | v199; 6 Kasım 23:30; iyilik; gece yalnız kapanışta |
 | 69 | Kimse görmese de Allah yaptığını görür (kart `ust`) | — | Hucurât 18: "Allah, yaptıklarınızı görendir" | v220; 6 Kasım 20:30 IG; deney 10 "Allah + sen" |
+| 70 | Ölümü düşününce için mi daralıyor? | — | Ankebût 57: "Her can ölümü tadacaktır. Sonunda Bize döneceksiniz" | v142; 7 Kasım 10:00; ölüm korkusu ailesi (eski "Ölümü düşününce korkuyorsan" 1.981) |
+| 71 | Haklı olduğunu kimse görmüyor mu? | — | İsrâ 96: "Benimle sizin aranızda şahit olarak Allah yeter. Doğrusu O, kullarını görür" | v157; 7 Kasım 13:00 yalnız TikTok; kötülük görmek / görülmemek ailesi |
+| 72 | Evladın için içten içe mi yanıyorsun? | — | Hûd 45: Nuh: "Rabbim! Oğlum benim ailemdendi…" | v186; 7 Kasım 18:00; açık adlı sesleniş (Hz. Nuh), başlık "Hz. Nuh'un oğlu için seslenişi" |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
