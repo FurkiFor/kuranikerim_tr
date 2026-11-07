@@ -1,0 +1,37 @@
+{
+ "id": "v142",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "whTdkhDVuh8N4fRU5Du7",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Ölümü düşününce için mi daralıyor?",
+   "prompt": "[deep voice] [slowly] Ölümü düşününce için mi daralıyor?",
+   "generation_id": "ttSeQJCV940G8j7BYcyh",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/9iiWsgL4DJfgOzgdUv2r/ttSeQJCV940G8j7BYcyh/content.mp3?Expires=1794031200&KeyName=assets-cdn-key-1&Signature=1srBeKbaxTGukxM74shCX1ADPq8="
+  },
+  {
+   "kind": "giris",
+   "text": "Bu ayet kısa ama her şeyi söylüyor. Dinle.",
+   "prompt": "[deep voice] [slowly] Bu ayet kısa ama her şeyi söylüyor. Dinle.",
+   "generation_id": "oUA8oQrgfegtTPijYZy5",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/4ybgT5CAMzjDk5nXRTbt/oUA8oQrgfegtTPijYZy5/content.mp3?Expires=1794031200&KeyName=assets-cdn-key-1&Signature=Mit_u0LgDYpX6ZFbKzxz9AUlZ7w="
+  },
+  {
+   "kind": "meal",
+   "text": "Her can ölümü tadacaktır. Sonunda Bize döneceksiniz.",
+   "prompt": "[softly] [slowly] Her can ölümü tadacaktır. Sonunda Bize döneceksiniz.",
+   "generation_id": "fRT8dYAYNf5A826Bzfaj",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/hx4b285AbWduwirzSJAC/fRT8dYAYNf5A826Bzfaj/content.mp3?Expires=1794031200&KeyName=assets-cdn-key-1&Signature=pbI5qN9cIdPVbCfGlO36TrY8mTQ="
+  },
+  {
+   "kind": "cta",
+   "text": "Ölümü düşündüğünde döneceğin yerin Rabbin olduğunu hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Ölümü düşündüğünde döneceğin yerin Rabbin olduğunu hatırla. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "tmZEmCvBTxm9V94J7sFL",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/hO063UBg6YZbIQPoXMIO/tmZEmCvBTxm9V94J7sFL/content.mp3?Expires=1794031200&KeyName=assets-cdn-key-1&Signature=v15tDnYsv1V8xPpjRE7wTv0m3w4="
+  }
+ ]
+}
