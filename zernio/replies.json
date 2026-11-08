@@ -1755,30 +1755,40 @@
   "postId": "7705722738677206273",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7705725995110499093",
-  "message": "Allah razı olsun 🤍 Rabbim evlatlarımızı namaz kılanlardan eylesin."
+  "message": "Allah razı olsun 🤍 Rabbim evlatlarımızı namaz kılanlardan eylesin.",
+  "sent": true,
+  "replyId": "7705863113731900181"
  },
  {
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17879695158566584",
-  "message": "Çok teşekkürler, Allah razı olsun 🤍"
+  "message": "Çok teşekkürler, Allah razı olsun 🤍",
+  "sent": true,
+  "replyId": "18111983761929674"
  },
  {
   "postId": "18117073745331864",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18126490364471462",
-  "message": "Sadakallahülazim. Allah razı olsun 🤍"
+  "message": "Sadakallahülazim. Allah razı olsun 🤍",
+  "sent": true,
+  "replyId": "17961481455270531"
  },
  {
   "postId": "18112002542238392",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18126987005473688",
-  "message": "Amin, Rabbim kabul etsin 🤲"
+  "message": "Amin, Rabbim kabul etsin 🤲",
+  "sent": true,
+  "replyId": "18119917909804069"
  },
  {
   "postId": "7705058832120302868",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7705636720876045074",
-  "message": "Allah razı olsun, takipte kal 🤍"
+  "message": "Allah razı olsun, takipte kal 🤍",
+  "sent": true,
+  "replyId": "7705863024951083783"
  }
 ]
