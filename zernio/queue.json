@@ -1950,5 +1950,19 @@
   ],
   "zernio_id": "6aefefd3a21a0f867c64afa7",
   "status": "scheduled"
+ },
+ {
+  "id": "v234",
+  "at": "2026-11-08T23:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v246",
+  "at": "2026-11-09T20:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
  }
 ]
