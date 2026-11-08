@@ -1731,18 +1731,24 @@
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17965087740212625",
-  "message": "Rabbim hepimizi fitneden ve kötülüklerden korusun 🤍"
+  "message": "Rabbim hepimizi fitneden ve kötülüklerden korusun 🤍",
+  "sent": true,
+  "replyId": "17967212262202571"
  },
  {
   "postId": "18132753016694436",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18497270800110050",
-  "message": "Amin, Rabbim kabul etsin 🤍 Sadakallahülazim."
+  "message": "Amin, Rabbim kabul etsin 🤍 Sadakallahülazim.",
+  "sent": true,
+  "replyId": "17921501586525687"
  },
  {
   "postId": "18132753016694436",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18120509125950939",
-  "message": "Amin, Rabbim dualarını kabul eylesin 🤲"
+  "message": "Amin, Rabbim dualarını kabul eylesin 🤲",
+  "sent": true,
+  "replyId": "18290051968294201"
  }
 ]
