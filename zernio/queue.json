@@ -1956,13 +1956,17 @@
   "at": "2026-11-08T23:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af0bf99da058fbe307f989f",
+  "status": "scheduled"
  },
  {
   "id": "v246",
   "at": "2026-11-09T20:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af0bf9ada058fbe307f98b1",
+  "status": "scheduled"
  }
 ]
