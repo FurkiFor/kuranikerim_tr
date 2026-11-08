@@ -1895,5 +1895,48 @@
   ],
   "zernio_id": "6aef14841f7edebfc3ba802c",
   "status": "scheduled"
+ },
+ {
+  "id": "v235",
+  "at": "2026-11-08T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v219",
+  "at": "2026-11-08T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v079",
+  "at": "2026-11-08T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tekrar paylaşım (8 Kasım kararı: 13:00 yeni anlatımlı TikTok medyanı 142 < 148); YouTube 9.708, TikTok 28 Ekim 148"
+ },
+ {
+  "id": "v227",
+  "at": "2026-11-08T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v247",
+  "at": "2026-11-08T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v225",
+  "at": "2026-11-08T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
  }
 ]
