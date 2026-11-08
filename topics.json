@@ -9798,7 +9798,7 @@
    149
   ],
   "hook": "Sana yapılanı affetmek zor mu geliyor?",
-  "kapanis": "Affetmek zor geliyorsa hatırla; Allah da Affeden'dir.",
+  "kapanis": "Bu gece affetmek zor geliyorsa hatırla; Allah da Affeden'dir.",
   "bg": "kalp",
   "sahne": "kalp",
   "aciklama": "Nisâ Suresi 149. ayetde bir kötülüğü affedenlere Allah'ın da Affeden ve Güçlü olduğu hatırlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -9818,19 +9818,19 @@
   },
   "kurgu": {
    "kamera": [
-    "sabit",
+    "cek",
     "vurgu",
-    "cek"
+    "kay"
    ],
    "gecis": [
-    "kesme",
-    "kararma"
+    "kararma",
+    "kesme"
    ]
   },
   "seo": {
    "yt_baslik": "Sana yapılanı affetmek zor mu geliyor? | Nisâ 149 · Affetmek",
    "ilk_satir": "Sana yapılanı affetmek zor mu geliyor? Affetmek ayeti | Nisâ 149",
-   "aciklama": "Nisâ Suresi 149. ayetde bir kötülüğü affedenlere Allah'ın da Affeden ve Güçlü olduğu hatırlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "aciklama": "Nisâ Suresi 149. ayetinde bir kötülüğü affedenlere Allah'ın da Affeden ve Güçlü olduğu hatırlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "affetmek ayeti",
     "nisa suresi 149",
@@ -10442,7 +10442,7 @@
   "seo": {
    "yt_baslik": "Hz. Zekeriya'nın duası | Âl-i İmrân 38",
    "ilk_satir": "Evlat hasretiyle mi bekliyorsun? Hz. Zekeriya'nın duası | Âl-i İmrân 38",
-   "aciklama": "Âl-i İmrân Suresi 38. ayetde Hz. Zekeriya'nın Rabbinden temiz bir soy istediği ve O'nun duayı işittiğini söylediği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "aciklama": "Âl-i İmrân Suresi 38. ayetinde Hz. Zekeriya'nın Rabbinden temiz bir soy istediği ve O'nun duayı işittiğini söylediği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "hz zekeriya duası",
     "evlat duası",
