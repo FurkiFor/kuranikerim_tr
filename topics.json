@@ -9852,7 +9852,7 @@
   "kapanis": "Dönüş yok sanma; tövbe edip düzelene kapı açık.",
   "bg": "kapi",
   "sahne": "kapi",
-  "aciklama": "Mâide Suresi 39. ayetde zulmünden sonra tövbe edip düzelenin tövbesini Allah'ın kabul ettiği bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "aciklama": "Mâide Suresi 39. ayetinde zulmünden sonra tövbe edip düzelenin tövbesini Allah'ın kabul ettiği bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
    "tövbe",
    "af",
@@ -9869,19 +9869,19 @@
   },
   "kurgu": {
    "kamera": [
-    "kay",
-    "it",
-    "cek"
+    "cek",
+    "vurgu",
+    "kay"
    ],
    "gecis": [
     "kararma",
-    "kararma"
+    "kesme"
    ]
   },
   "seo": {
    "yt_baslik": "Yaptığın bir haksızlıktan dönüş yok mu sanıyorsun? | Mâide 39",
    "ilk_satir": "Yaptığın bir haksızlıktan dönüş yok mu sanıyorsun? Tövbe ayeti | Mâide 39",
-   "aciklama": "Mâide Suresi 39. ayetde zulmünden sonra tövbe edip düzelenin tövbesini Allah'ın kabul ettiği bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "aciklama": "Mâide Suresi 39. ayetinde zulmünden sonra tövbe edip düzelenin tövbesini Allah'ın kabul ettiği bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "tövbe ayeti",
     "maide suresi 39",
@@ -10158,7 +10158,7 @@
   "kapanis": "Daraldıysan hatırla; Allah'ın yeryüzü geniştir.",
   "bg": "yol",
   "sahne": "yol",
-  "aciklama": "Ankebût Suresi 56. ayetde Allah'ın inanan kullarına, yarattığı yeryüzünün geniş olduğunu ve güven içinde olacakları yere gitmelerini bildirdiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "aciklama": "Ankebût Suresi 56. ayetinde Allah'ın inanan kullarına, yarattığı yeryüzünün geniş olduğunu ve güven içinde olacakları yere gitmelerini bildirdiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
    "daralmak",
    "umut",
@@ -10175,8 +10175,8 @@
   },
   "kurgu": {
    "kamera": [
-    "kay",
     "it",
+    "kay",
     "cek"
    ],
    "gecis": [
@@ -10187,7 +10187,7 @@
   "seo": {
    "yt_baslik": "Bulunduğun yer seni daraltıyor mu? | Ankebût 56 · Yeryüzü geniştir",
    "ilk_satir": "Bulunduğun yer seni daraltıyor mu? Genişlik ayeti | Ankebût 56",
-   "aciklama": "Ankebût Suresi 56. ayetde Allah'ın inanan kullarına, yarattığı yeryüzünün geniş olduğunu ve güven içinde olacakları yere gitmelerini bildirdiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "aciklama": "Ankebût Suresi 56. ayetinde Allah'ın inanan kullarına, yarattığı yeryüzünün geniş olduğunu ve güven içinde olacakları yere gitmelerini bildirdiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "ankebut suresi 56",
     "daralmak",
@@ -10461,10 +10461,10 @@
    43
   ],
   "hook": "Kaybettiklerin hiç geri gelmeyecek mi sanıyorsun?",
-  "kapanis": "Kaybettiğin her şey kaybolmuş değil; Allah'ın rahmeti geniştir.",
+  "kapanis": "Kaybettiklerini düşünürken Hazreti Eyyub'u hatırla; o sabretti ve rahmete erdi.",
   "bg": "tohum",
   "sahne": "tohum",
-  "aciklama": "Sâd Suresi 43. ayetde Hz. Eyyub'a katından bir rahmet olarak ailesinin ve bir mislinin daha verildiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "aciklama": "Sâd Suresi 43. ayetinde Hz. Eyyub'a katından bir rahmet olarak ailesinin ve bir mislinin daha verildiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
    "sabır",
    "hz eyyub",
@@ -10477,7 +10477,7 @@
    "klasor": "recitations/hudhaify"
   },
   "seslendirme": {
-   "giris": "Hazreti Eyyub'a sabrından sonra ne verildiğini dinle."
+   "giris": "Hazreti Eyyub da sınandı ve sabretti. Ona ne verildiğini Kur'an anlatıyor."
   },
   "kurgu": {
    "kamera": [
@@ -10491,16 +10491,17 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Kaybettiklerin hiç geri gelmeyecek mi sanıyorsun? | Sâd 43",
+   "yt_baslik": "Kaybettiklerin geri gelmeyecek mi sanıyorsun? | Hz. Eyyub · Sâd 43",
    "ilk_satir": "Kaybettiklerin hiç geri gelmeyecek mi sanıyorsun? Hz. Eyyub ayeti | Sâd 43",
-   "aciklama": "Sâd Suresi 43. ayetde Hz. Eyyub'a katından bir rahmet olarak ailesinin ve bir mislinin daha verildiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "aciklama": "Sâd Suresi 43. ayetinde Hz. Eyyub'a katından bir rahmet olarak ailesinin ve bir mislinin daha verildiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "hz eyyub",
+    "hz eyüp hayatı",
     "sad suresi 43",
     "sabır"
    ]
   },
-  "kopru_kaynak": "Sâd 43: Katımızdan bir rahmet ve akıl sahiplerine bir öğüt olmak üzere, ona tekrar ailesini ve geçmiş olanlarla bir mi",
+  "kopru_kaynak": "Sâd 41: Doğrusu şeytan bana yorgunluk ve azap verdi · Sâd 44: Doğrusu Biz onu sabırlı bulmuştuk · Sâd 43: ona tekrar ailesini ve ... bir mislini daha vermiştik",
   "not": "Stok 7 Kasım SABAH. Tilavet 96 harf. Tür: kıssa."
  },
  {

@@ -113,6 +113,8 @@
 | 70 | Ölümü düşününce için mi daralıyor? | — | Ankebût 57: "Her can ölümü tadacaktır. Sonunda Bize döneceksiniz" | v142; 7 Kasım 10:00; ölüm korkusu ailesi (eski "Ölümü düşününce korkuyorsan" 1.981) |
 | 71 | Haklı olduğunu kimse görmüyor mu? | — | İsrâ 96: "Benimle sizin aranızda şahit olarak Allah yeter. Doğrusu O, kullarını görür" | v157; 7 Kasım 13:00 yalnız TikTok; kötülük görmek / görülmemek ailesi |
 | 72 | Evladın için içten içe mi yanıyorsun? | — | Hûd 45: Nuh: "Rabbim! Oğlum benim ailemdendi…" | v186; 7 Kasım 18:00; açık adlı sesleniş (Hz. Nuh), başlık "Hz. Nuh'un oğlu için seslenişi" |
+| 73 | Yaptığın bir haksızlıktan dönüş yok mu sanıyorsun? | — | Mâide 39: "Ettiği zulümden sonra tevbe edip düzelen kimse, bilsin ki Allah onun tevbesini kabul eder" | v235; 8 Kasım 10:00; tövbe/af (YouTube'da en güçlü teselli türü) |
+| 74 | Kaybettiklerin hiç geri gelmeyecek mi sanıyorsun? | — | Sâd 43: "ona tekrar ailesini ve geçmiş olanlarla bir mislini daha vermiştik" (sabır Sâd 44, sıkıntı Sâd 41) | v247; 8 Kasım 18:00; kıssa köprüsü (Hz. Eyyub) girişte; sonuç garantisi yok |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı
