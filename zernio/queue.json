@@ -1901,14 +1901,18 @@
   "at": "2026-11-08T10:00:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6aefefd0a21a0f867c64af96",
+  "status": "scheduled"
  },
  {
   "id": "v219",
   "at": "2026-11-08T10:00:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6aefefd18936ce27219446d1",
+  "status": "scheduled"
  },
  {
   "id": "v079",
@@ -1916,27 +1920,35 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tekrar paylaşım (8 Kasım kararı: 13:00 yeni anlatımlı TikTok medyanı 142 < 148); YouTube 9.708, TikTok 28 Ekim 148"
+  "not": "tekrar paylaşım (8 Kasım kararı: 13:00 yeni anlatımlı TikTok medyanı 142 < 148); YouTube 9.708, TikTok 28 Ekim 148",
+  "zernio_id": "6aefefd10edf5e6fc868454c",
+  "status": "scheduled"
  },
  {
   "id": "v227",
   "at": "2026-11-08T13:00:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6aefefd2a21a0f867c64afa3",
+  "status": "scheduled"
  },
  {
   "id": "v247",
   "at": "2026-11-08T18:00:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6aefefd28936ce27219446da",
+  "status": "scheduled"
  },
  {
   "id": "v225",
   "at": "2026-11-08T18:00:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6aefefd3a21a0f867c64afa7",
+  "status": "scheduled"
  }
 ]
