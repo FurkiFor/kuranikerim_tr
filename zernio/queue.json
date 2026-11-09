@@ -1986,5 +1986,41 @@
   ],
   "zernio_id": "6af0c0e46be05fe8708391eb",
   "status": "scheduled"
+ },
+ {
+  "id": "v233",
+  "at": "2026-11-09T10:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v121",
+  "at": "2026-11-09T13:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tekrar paylaşım (8 Kasım kararı); YouTube 5.626, TikTok 28 Ekim"
+ },
+ {
+  "id": "v118",
+  "at": "2026-11-09T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v237",
+  "at": "2026-11-09T18:00:00+04:00",
+  "platforms": [
+   "tiktok"
+  ]
+ },
+ {
+  "id": "v253",
+  "at": "2026-11-09T18:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
  }
 ]
