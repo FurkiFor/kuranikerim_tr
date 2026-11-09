@@ -1795,12 +1795,16 @@
   "postId": "17899954935418774",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18099697862536929",
-  "message": "Amin, Rabbim tövbelerimizi kabul etsin 🤍"
+  "message": "Amin, Rabbim tövbelerimizi kabul etsin 🤍",
+  "sent": true,
+  "replyId": "18136781410577992"
  },
  {
   "postId": "18154334845531790",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17955148446315307",
-  "message": "Elhamdülillah, sana da güzel gelmesine sevindik. Rabbim gününü hayırla doldursun 🤍"
+  "message": "Elhamdülillah, sana da güzel gelmesine sevindik. Rabbim gününü hayırla doldursun 🤍",
+  "sent": true,
+  "replyId": "17904668376607050"
  }
 ]
