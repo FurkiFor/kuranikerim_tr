@@ -3319,7 +3319,7 @@
    80
   ],
   "kart_metin": "Beni yaratan da, doğru yola eriştiren de O'dur",
-  "sahne": "fener",
+  "sahne": "yildiz",
   "hook": "Hastalık içini daraltıyorsa Hz. İbrahim'in bu sözünü dinle",
   "tema": "Şifa",
   "etiketler": [
@@ -3355,7 +3355,8 @@
     "metin": "Hasta olduğumda bana O şifa verir"
    }
   ],
-  "ust": "Hastalık içini daraltıyorsa Hz. İbrahim'in bu sözünü dinle"
+  "ust": "Hastalık içini daraltıyorsa Hz. İbrahim'in bu sözünü dinle",
+  "bg": "yildiz"
  },
  {
   "id": "v094",
@@ -4476,7 +4477,7 @@
    90
   ],
   "kart_metin": "Rabbinizden mağfiret dileyin; O'na tevbe edin; doğrusu Rabbim merhamet eder ve çok sever",
-  "sahne": "kapi",
+  "sahne": "kum",
   "hook": "Hz. Şuayb'ın kavmine tövbe çağrısı",
   "tema": "Tövbe",
   "etiketler": [
@@ -4506,7 +4507,8 @@
    }
   ],
   "ust": "Hz. Şuayb'ın kavmine tövbe çağrısı",
-  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü)."
+  "not": "AKŞAM 25 Ekim stok: 15 yeni kart (deney 9 gözlem / deney 7 hitap / peygamber sözü).",
+  "bg": "kum"
  },
  {
   "id": "v119",
@@ -9777,7 +9779,7 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Bir hatan yüzünden kendini affedemiyor musun? | Bakara 37",
+   "yt_baslik": "Hz. Âdem'in tövbesi | Bakara 37 · Kendini affedemiyor musun?",
    "ilk_satir": "Bir hatan yüzünden kendini affedemiyor musun? Tövbe ayeti | Bakara 37",
    "aciklama": "Bakara Suresi 37. ayetde Hz. Âdem'in Rabbinden emirler alıp yerine getirdiği ve Allah'ın tövbesini kabul ettiği bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
@@ -9787,7 +9789,7 @@
    ]
   },
   "kopru_kaynak": "Bakara 37: Adem, Rabbi'nden emirler aldı; onları yerine getirdi. Rabb'i de bunun üzerine tevbesini kabul etti. Şüphesiz o",
-  "not": "Stok 7 Kasım SABAH. Tilavet 95 harf. Tür: kıssa."
+  "not": "Stok 7 Kasım SABAH. Tilavet 95 harf. Tür: kıssa. 9 Kasım SABAH: açık adlı başlık (haftalık analiz: açık ad başlıklı medyan 4.185 > soru başlıklı 2.221)."
  },
  {
   "id": "v234",
@@ -9981,7 +9983,7 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Güvenecek kimse bulamıyor musun? | Yûnus 84 · Hz. Musa: O'na güvenin",
+   "yt_baslik": "Hz. Musa'nın tevekkül öğüdü | Yûnus 84 · Allah'a güvenin",
    "ilk_satir": "Güvenecek kimse bulamıyor musun? Tevekkül ayeti | Yûnus 84",
    "aciklama": "Yûnus Suresi 84. ayetde Hz. Musa'nın milletine, Allah'a inanıyorlarsa O'na güvenmelerini söylediği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
@@ -9990,8 +9992,8 @@
     "allaha güven"
    ]
   },
-  "kopru_kaynak": "Yûnus 84: Musa: \"Ey milletim! Allah'a inanıyorsanız ve teslim olmuşsanız O'na güvenin\" dedi",
-  "not": "Stok 7 Kasım SABAH. Tilavet 109 harf. Tür: kıssa."
+  "kopru_kaynak": "Yûnus 83: Firavun ve erkanının kendilerine fenalık yapmasından korktuklarından... · Yûnus 84: Musa: \"Ey milletim! Allah'a inanıyorsanız ve teslim olmuşsanız O'na güvenin\" dedi",
+  "not": "Stok 7 Kasım SABAH. Tilavet 109 harf. Tür: kıssa. 9 Kasım SABAH: açık adlı başlık."
  },
  {
   "id": "v238",
@@ -10758,5 +10760,46 @@
   },
   "kopru_kaynak": "Enfâl 61: Eğer onlar barışa yanaşırlarsa, sen de yanaş ve Allah'a güven. O, şüphesiz işitir ve bilir",
   "not": "Stok 7 Kasım SABAH. Tilavet 107 harf. Tür: teselli."
+ },
+ {
+  "id": "v253",
+  "tur": "kart",
+  "sure": 3,
+  "ayet": [
+   194,
+   194
+  ],
+  "kart_metin": "Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme",
+  "sahne": "deniz",
+  "hook": "AKIL SAHİPLERİNİN DUASI",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "rabbimiz duası",
+   "ali imran suresi",
+   "tilavet"
+  ],
+  "aciklama": "Âl-i İmrân Suresi 194. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme",
+  "seo": {
+   "yt_baslik": "Akıl sahiplerinin duası | Âl-i İmrân 194",
+   "ilk_satir": "Akıl sahiplerinin duası | Âl-i İmrân 194: Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme",
+   "aciklama": "Âl-i İmrân Suresi 194. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "rabbimiz duası",
+    "ali imran 194",
+    "dua"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 194,
+    "metin": "Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme"
+   }
+  ],
+  "ust": "AKIL SAHİPLERİNİN DUASI",
+  "kopru_kaynak": "Âl-i İmrân 190: akıl sahipleri için ibretler vardır · 191: onlar ... 'Rabbimiz...' derler · 193-194 duanın devamı",
+  "not": "SABAH 9 Kasım: deney 11 (büyük harf dua adı) — 18:00 dua kartı; 120 Arapça harf (tahmin 22.4 sn, gerçek ~%30 kısa)."
  }
 ]

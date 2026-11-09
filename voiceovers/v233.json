@@ -1,0 +1,37 @@
+{
+ "id": "v233",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "3Onr3RiA4Qj89OguprG8",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Bir hatan yüzünden kendini affedemiyor musun?",
+   "prompt": "[deep voice] [slowly] Bir hatan yüzünden kendini affedemiyor musun?",
+   "generation_id": "rG5n56n0L5bP9lt35wo4",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/94MIykvlV6ShN93XCmA9/rG5n56n0L5bP9lt35wo4/content.mp3?Expires=1794204000&KeyName=assets-cdn-key-1&Signature=Z-sRNaCtkrWiUheC2oukOOm9eAU="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Âdem de hata etti. Kur'an sonrasını anlatıyor.",
+   "prompt": "[deep voice] [slowly] Hazreti Âdem de hata etti. Kur'an sonrasını anlatıyor.",
+   "generation_id": "Uh4AFMjJFsBy80mwhoTC",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/AGHGNPAdOGC56H2sFCvl/Uh4AFMjJFsBy80mwhoTC/content.mp3?Expires=1794204000&KeyName=assets-cdn-key-1&Signature=49PGfjsAlWwYf8kv8bDoqzI-Ty8="
+  },
+  {
+   "kind": "meal",
+   "text": "Adem, Rabbi'nden emirler aldı; onları yerine getirdi. Rabb'i de bunun üzerine tevbesini kabul etti. Şüphesiz o tevbeleri daima kabul edendir, merhametli olandır.",
+   "prompt": "[softly] [slowly] Adem, Rabbi'nden emirler aldı; onları yerine getirdi. Rabb'i de bunun üzerine tevbesini kabul etti. Şüphesiz o tevbeleri daima kabul edendir, merhametli olandır.",
+   "generation_id": "AVInAmfjcbkMLNJCnDrN",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/NSNqi1Irf0bdiynHJZWW/AVInAmfjcbkMLNJCnDrN/content.mp3?Expires=1794204000&KeyName=assets-cdn-key-1&Signature=L50q4uy3VVEMEmOhBpYAyTNPM4o="
+  },
+  {
+   "kind": "cta",
+   "text": "Hata ettiysen dön; O tövbeleri kabul edendir. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Hata ettiysen dön; O tövbeleri kabul edendir. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "dk0Z4aDm64AkMTgnkyJp",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/sylcLoeE1XWGwwOTg69F/dk0Z4aDm64AkMTgnkyJp/content.mp3?Expires=1794204000&KeyName=assets-cdn-key-1&Signature=Du0fHisPTttvUV7SB0wJJVpLLUQ="
+  }
+ ]
+}

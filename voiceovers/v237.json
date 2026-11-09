@@ -1,0 +1,37 @@
+{
+ "id": "v237",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "ElUz01POW0hKRSPxKMm5",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Güvenecek kimse bulamıyor musun?",
+   "prompt": "[deep voice] [slowly] Güvenecek kimse bulamıyor musun?",
+   "generation_id": "4kEONiqBbdtt3dwREdCO",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/NgQfHENhmbfy61GMjoNn/4kEONiqBbdtt3dwREdCO/content.mp3?Expires=1794204000&KeyName=assets-cdn-key-1&Signature=_QIpHT3MoOlkWy18XXp94MURRQY="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Musa, korku içindeki milletine şöyle dedi.",
+   "prompt": "[deep voice] [slowly] Hazreti Musa, korku içindeki milletine şöyle dedi.",
+   "generation_id": "RQPuBXHypYyozluXboJF",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/swhcL6ymhem6UNPmT7W0/RQPuBXHypYyozluXboJF/content.mp3?Expires=1794204000&KeyName=assets-cdn-key-1&Signature=4c8CTPmGiQxgJ__q4J3iZSzZFzs="
+  },
+  {
+   "kind": "meal",
+   "text": "Musa: \"Ey milletim! Allah'a inanıyorsanız ve teslim olmuşsanız O'na güvenin\" dedi.",
+   "prompt": "[softly] [slowly] Musa: Ey milletim! Allah'a inanıyorsanız ve teslim olmuşsanız O'na güvenin dedi.",
+   "generation_id": "Zc2loVNx6AOwWpMk37l2",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/vZ4zvuFGm7Ik3MCbieSu/Zc2loVNx6AOwWpMk37l2/content.mp3?Expires=1794204000&KeyName=assets-cdn-key-1&Signature=qwov0vmV62swD6n3Cvx6y5JMP7M="
+  },
+  {
+   "kind": "cta",
+   "text": "Kimse kalmadıysa, Allah'a güven. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Kimse kalmadıysa, Allah'a güven. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "Wk8QKapVKjK2WbBtSiET",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/GBm4ANor5B7giYNczZhp/Wk8QKapVKjK2WbBtSiET/content.mp3?Expires=1794204000&KeyName=assets-cdn-key-1&Signature=mN--L5rAM2J8UzOS1QEPFK1qk4Y="
+  }
+ ]
+}
