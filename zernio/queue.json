@@ -2056,34 +2056,44 @@
   "at": "2026-11-10T10:00:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af2933b66eba159433dc77f",
+  "status": "scheduled"
  },
  {
   "id": "v216",
   "at": "2026-11-10T10:00:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6af2933c3c3f58c081a94a01",
+  "status": "scheduled"
  },
  {
   "id": "v187",
   "at": "2026-11-10T13:00:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af2933c66eba159433dc788",
+  "status": "scheduled"
  },
  {
   "id": "v239",
   "at": "2026-11-10T18:00:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af2933d3c3f58c081a94a06",
+  "status": "scheduled"
  },
  {
   "id": "v254",
   "at": "2026-11-10T18:00:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6af2933d4a9c06770677a0f7",
+  "status": "scheduled"
  }
 ]
