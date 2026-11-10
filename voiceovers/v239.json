@@ -1,0 +1,37 @@
+{
+ "id": "v239",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "xlWJbYNz6BEnP0fTaviu",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Ailene karşı yaptığın bir hata içini mi yakıyor?",
+   "prompt": "[deep voice] [slowly] Ailene karşı yaptığın bir hata içini mi yakıyor?",
+   "generation_id": "Hvjy6s41xlw2wryolm4N",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ASk5zAphGGLSzPeQCw2S/Hvjy6s41xlw2wryolm4N/content.mp3?Expires=1794290400&KeyName=assets-cdn-key-1&Signature=nbgPL-Q5bV2gA7xG8QlrxnXtC1U="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Yusuf'un kardeşleri de babalarına döndü.",
+   "prompt": "[deep voice] [slowly] Hazreti Yusuf'un kardeşleri de babalarına döndü.",
+   "generation_id": "TyCRLU8HL2OWYc9AXug6",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/vUMotlB6yRJFqXsmAnck/TyCRLU8HL2OWYc9AXug6/content.mp3?Expires=1794290400&KeyName=assets-cdn-key-1&Signature=3FJfsJ9BYOy3Ceso-UG9wjmwtho="
+  },
+  {
+   "kind": "meal",
+   "text": "Oğulları: \"Ey Babamız! Suçlarımızın bağışlanmasını dile, bizler hiç şüphesiz suçluyuz\" dediler.",
+   "prompt": "[softly] [slowly] Oğulları: Ey Babamız! Suçlarımızın bağışlanmasını dile, bizler hiç şüphesiz suçluyuz dediler.",
+   "generation_id": "zuEEuxB9uxFoXsKPslhT",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/E8VVM9N67o8uBLN17RFC/zuEEuxB9uxFoXsKPslhT/content.mp3?Expires=1794290400&KeyName=assets-cdn-key-1&Signature=4gp6TALoj9Kl85qiOevAICs3OiQ="
+  },
+  {
+   "kind": "cta",
+   "text": "Hatanı kabul etmek, dönüşün ilk adımıdır. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Hatanı kabul etmek, dönüşün ilk adımıdır. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "7XoPB5u2Wn6VKGFF8b8z",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/N6N8XCQ2CoRYPt3Gn8Q9/7XoPB5u2Wn6VKGFF8b8z/content.mp3?Expires=1794290400&KeyName=assets-cdn-key-1&Signature=LmLyJqh1WiyHsPSnmUXkd4nebEw="
+  }
+ ]
+}

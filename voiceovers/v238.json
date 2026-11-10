@@ -1,0 +1,37 @@
+{
+ "id": "v238",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "xlU9pjYiUDCtXaPV1JLv",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Yeni bir yola çıkmaktan mı korkuyorsun?",
+   "prompt": "[deep voice] [slowly] Yeni bir yola çıkmaktan mı korkuyorsun?",
+   "generation_id": "7n9xJNtOWuMzU7lueJW7",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/FNHH6bFeYHjGvWgmeGLG/7n9xJNtOWuMzU7lueJW7/content.mp3?Expires=1794290400&KeyName=assets-cdn-key-1&Signature=9zR2ivG6-Bad7QCYIkYgw5cQcvc="
+  },
+  {
+   "kind": "giris",
+   "text": "Gemiye binilirken şöyle buyruldu.",
+   "prompt": "[deep voice] [slowly] Gemiye binilirken şöyle buyruldu.",
+   "generation_id": "ivuH0xgfS6LCaY37WcTF",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Ba52NG2VRMwciPcEjaPL/ivuH0xgfS6LCaY37WcTF/content.mp3?Expires=1794290400&KeyName=assets-cdn-key-1&Signature=M8-ES7YMGX8qalLuVhb70iW0zHA="
+  },
+  {
+   "kind": "meal",
+   "text": "Allah \"Oraya binin; yürümesi ve durması Allah'ın ismiyledir, Rabbin bağışlar ve merhamet eder\" dedi.",
+   "prompt": "[softly] [slowly] Allah Oraya binin; yürümesi ve durması Allah'ın ismiyledir, Rabbin bağışlar ve merhamet eder dedi.",
+   "generation_id": "diRRCtxvbNDN9Jk2IE9u",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/3q9TrxEOxMwwIWJSjaRj/diRRCtxvbNDN9Jk2IE9u/content.mp3?Expires=1794290400&KeyName=assets-cdn-key-1&Signature=4b4uyWnQBjOzp6A88FPPYnqEhv0="
+  },
+  {
+   "kind": "cta",
+   "text": "Yolun da durağın da Allah'ın adıyla olsun. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Yolun da durağın da Allah'ın adıyla olsun. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "zMLSXIOwl9Hj0uQ2xBUT",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/56sOrOAkTWlkbZpCNBCk/zMLSXIOwl9Hj0uQ2xBUT/content.mp3?Expires=1794290400&KeyName=assets-cdn-key-1&Signature=fmP0zgzEqxvl91n4srWe3QynB5Q="
+  }
+ ]
+}
