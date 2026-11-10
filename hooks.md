@@ -115,6 +115,8 @@
 | 72 | Evladın için içten içe mi yanıyorsun? | — | Hûd 45: Nuh: "Rabbim! Oğlum benim ailemdendi…" | v186; 7 Kasım 18:00; açık adlı sesleniş (Hz. Nuh), başlık "Hz. Nuh'un oğlu için seslenişi" |
 | 73 | Yaptığın bir haksızlıktan dönüş yok mu sanıyorsun? | — | Mâide 39: "Ettiği zulümden sonra tevbe edip düzelen kimse, bilsin ki Allah onun tevbesini kabul eder" | v235; 8 Kasım 10:00; tövbe/af (YouTube'da en güçlü teselli türü) |
 | 74 | Kaybettiklerin hiç geri gelmeyecek mi sanıyorsun? | — | Sâd 43: "ona tekrar ailesini ve geçmiş olanlarla bir mislini daha vermiştik" (sabır Sâd 44, sıkıntı Sâd 41) | v247; 8 Kasım 18:00; kıssa köprüsü (Hz. Eyyub) girişte; sonuç garantisi yok |
+| 75 | Ettiğin dualar boşa mı gidiyor sanıyorsun? | — | Meryem 48: "Rabbime yalvarırım. Rabbime yalvarışımda mahrum kalmayacağımı umarım" | v270; 10 Kasım 20:30; açık adlı dua (Hz. İbrahim), köprü Meryem 46 (babası uzaklaştırdı); sonuç garantisi yok ("umarım") |
+| 76 | Verdiğin şeyin eksileceğinden mi korkuyorsun? | — | Teğâbün 17: "onu sizin için kat kat yapar ve sizi bağışlar" | v244; 10 Kasım 23:30; infak/rızık teselli, gece yalnız kapanışta |
 | 14 | Moralin mi bozuk? | Allah'ın sana "gevşeme" dediğini biliyor musun? | Al-i İmran 139: "Gevşemeyin, üzülmeyin" | v006 ile aynı ayet |
 
 ## Veri uyarısı

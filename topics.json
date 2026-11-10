@@ -11208,7 +11208,7 @@
    85
   ],
   "kart_metin": "İsmail, İdris ve Zülkifl hakkında anlattığımızı da an; onların her biri sabredenlerdendi",
-  "sahne": "firtina",
+  "sahne": "deniz",
   "hook": "Hz. İsmail, İdris ve Zülkifl sabrettiler",
   "tema": "Sabır",
   "etiketler": [
@@ -11236,7 +11236,8 @@
    }
   ],
   "ust": "Hz. İsmail, İdris ve Zülkifl sabrettiler",
-  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 69 Arapça harf (tahmin 13.1 sn)."
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 69 Arapça harf (tahmin 13.1 sn). AKŞAM 10 Kasım: firtina sahnesinde figürün başı meale ve sure etiketine bindi (9,5 sn) → deniz; yeniden render gerekir.",
+  "bg": "deniz"
  },
  {
   "id": "v265",
