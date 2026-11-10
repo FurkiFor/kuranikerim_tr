@@ -10315,10 +10315,10 @@
    17
   ],
   "hook": "Verdiğin şeyin eksileceğinden mi korkuyorsun?",
-  "kapanis": "Allah için verdiğin eksilmez; O kat kat yapar.",
+  "kapanis": "Bu gece hatırla; Allah için verdiğini O, senin için kat kat yapar.",
   "bg": "tohum",
   "sahne": "tohum",
-  "aciklama": "Teğâbün Suresi 17. ayetde Allah'a güzel bir ödünç verenin karşılığının kat kat yapılacağı ve bağışlanacağı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "aciklama": "Teğâbün Suresi 17. ayetinde Allah'a güzel bir ödünç verenin karşılığının kat kat yapılacağı ve bağışlanacağı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
    "infak",
    "sadaka",
@@ -10335,19 +10335,19 @@
   },
   "kurgu": {
    "kamera": [
-    "sabit",
     "it",
+    "sabit",
     "cek"
    ],
    "gecis": [
-    "kesme",
-    "kararma"
+    "kararma",
+    "kesme"
    ]
   },
   "seo": {
    "yt_baslik": "Verdiğin şeyin eksileceğinden mi korkuyorsun? | Teğâbün 17",
    "ilk_satir": "Verdiğin şeyin eksileceğinden mi korkuyorsun? İnfak ayeti | Teğâbün 17",
-   "aciklama": "Teğâbün Suresi 17. ayetde Allah'a güzel bir ödünç verenin karşılığının kat kat yapılacağı ve bağışlanacağı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "aciklama": "Teğâbün Suresi 17. ayetinde Allah'a güzel bir ödünç verenin karşılığının kat kat yapılacağı ve bağışlanacağı bildiriliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
     "infak ayeti",
     "teğabün suresi 17",
@@ -10355,7 +10355,7 @@
    ]
   },
   "kopru_kaynak": "Teğâbün 17: Eğer Allah'a güzel bir ödünç takdiminde bulunursanız, onu sizin için kat kat yapar ve sizi bağışlar; Allah, şü",
-  "not": "Stok 7 Kasım SABAH. Tilavet 104 harf. Tür: teselli."
+  "not": "Stok 7 Kasım SABAH. Tilavet 104 harf. Tür: teselli. AKŞAM 10 Kasım: 23:30 gece kapanışı eklendi."
  },
  {
   "id": "v245",
@@ -11432,5 +11432,57 @@
   ],
   "ust": "Bağışlanma dilediğinde Allah bağışlar",
   "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 100 Arapça harf (tahmin 18.8 sn)."
+ },
+ {
+  "id": "v270",
+  "tema": "Hz. İbrahim'in duası",
+  "sure": 19,
+  "ayet": [
+   48,
+   48
+  ],
+  "hook": "Ettiğin dualar boşa mı gidiyor sanıyorsun?",
+  "kapanis": "Sen de Hazreti İbrahim gibi Rabbine yalvarmayı bırakma.",
+  "bg": "yol",
+  "sahne": "yol",
+  "aciklama": "Meryem Suresi 48. ayetinde Hz. İbrahim'in, Allah'tan başka tapılanlardan çekilip Rabbine yalvaracağını ve yalvarışında mahrum kalmayacağını umduğunu söylediği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "dua",
+   "hz ibrahim",
+   "meryem suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "seslendirme": {
+   "giris": "Hazreti İbrahim, babası onu yanından uzaklaştırınca Rabbine şöyle yöneldi."
+  },
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'in duası | Meryem 48 · Rabbime yalvarırım",
+   "ilk_satir": "Ettiğin dualar boşa mı gidiyor sanıyorsun? Hz. İbrahim'in duası | Meryem 48",
+   "aciklama": "Meryem Suresi 48. ayetinde Hz. İbrahim'in, Allah'tan başka tapılanlardan çekilip Rabbine yalvaracağını ve yalvarışında mahrum kalmayacağını umduğunu söylediği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim duası",
+    "hz ibrahim",
+    "meryem suresi 48",
+    "peygamber duaları"
+   ]
+  },
+  "kopru_kaynak": "Meryem 41-48: İbrahim'e dair anlattıklarımızı da an (41); babası 'uzun bir süre benden uzak dur' dedi (46); 'Rabbime yalvarırım. Rabbime yalvarışımda mahrum kalmayacağımı umarım' (48)",
+  "not": "AKŞAM 10 Kasım. 20:30 açık adlı dua anlatımlısı. Tilavet 116 harf. Tür: dua."
  }
 ]

@@ -1,0 +1,37 @@
+{
+ "id": "v244",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "vdrWui36xeXdxtRCrQf2",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Verdiğin şeyin eksileceğinden mi korkuyorsun?",
+   "prompt": "[deep voice] [slowly] Verdiğin şeyin eksileceğinden mi korkuyorsun?",
+   "generation_id": "IA8o7fpYsmWuBHhXLxQX",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/PrrsVs7yOMfztR85cTLd/IA8o7fpYsmWuBHhXLxQX/content.mp3?Expires=1794319200&KeyName=assets-cdn-key-1&Signature=bjNZQ2gN8EOOvAcy7U30_EahcCw="
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an Allah için verileni böyle anlatıyor.",
+   "prompt": "[deep voice] [slowly] Kur'an Allah için verileni böyle anlatıyor.",
+   "generation_id": "ANtKhfCswnMQnFJkZcDD",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/4MI7D7Gz9VowIlqTxoVd/ANtKhfCswnMQnFJkZcDD/content.mp3?Expires=1794319200&KeyName=assets-cdn-key-1&Signature=_tpjO9om9HI7oXxOTiYWgiq0Rgo="
+  },
+  {
+   "kind": "meal",
+   "text": "Eğer Allah'a güzel bir ödünç takdiminde bulunursanız, onu sizin için kat kat yapar ve sizi bağışlar; Allah, şükrün karşılığını verendir; Halim'dir.",
+   "prompt": "[softly] [slowly] Eğer Allah'a güzel bir ödünç takdiminde bulunursanız, onu sizin için kat kat yapar ve sizi bağışlar; Allah, şükrün karşılığını verendir; Halim'dir.",
+   "generation_id": "IRZOaC9m4TGiRzYg3Sl1",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/zuTXQFXvs51FovJM3s7Z/IRZOaC9m4TGiRzYg3Sl1/content.mp3?Expires=1794319200&KeyName=assets-cdn-key-1&Signature=CSjAr14-G9HrXjxzT92z7AV4ONM="
+  },
+  {
+   "kind": "cta",
+   "text": "Bu gece hatırla; Allah için verdiğini O, senin için kat kat yapar. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Bu gece hatırla; Allah için verdiğini O, senin için kat kat yapar. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "RcK80Ng9aYbidVR7nE0z",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/DftAkX0YgDHg47VH2J7W/RcK80Ng9aYbidVR7nE0z/content.mp3?Expires=1794319200&KeyName=assets-cdn-key-1&Signature=ElDBAsNVXFBBnTb1t-ETxzcr3LQ="
+  }
+ ]
+}

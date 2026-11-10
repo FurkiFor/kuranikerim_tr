@@ -1,0 +1,37 @@
+{
+ "id": "v270",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "gCAWLf8aKVJNUor7ncJc",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Ettiğin dualar boşa mı gidiyor sanıyorsun?",
+   "prompt": "[deep voice] [slowly] Ettiğin dualar boşa mı gidiyor sanıyorsun?",
+   "generation_id": "fHE7vIPRT6vwRlp7BVs3",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/dnvVDU5d9m6ApdLFxMc9/fHE7vIPRT6vwRlp7BVs3/content.mp3?Expires=1794319200&KeyName=assets-cdn-key-1&Signature=GSBFFaXPWfIZL0I9hSrYyF3mDvo="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti İbrahim, babası onu yanından uzaklaştırınca Rabbine şöyle yöneldi.",
+   "prompt": "[deep voice] [slowly] Hazreti İbrahim, babası onu yanından uzaklaştırınca Rabbine şöyle yöneldi.",
+   "generation_id": "Y1Cne8VjyL7ErJ7ylph0",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Z4YFN5bAf0tTTg60o1jF/Y1Cne8VjyL7ErJ7ylph0/content.mp3?Expires=1794319200&KeyName=assets-cdn-key-1&Signature=oElFl2D7MLKpZBhTkC9nfqQrwDw="
+  },
+  {
+   "kind": "meal",
+   "text": "Sizi Allah'tan başka taptıklarınızla bırakıp çekilir, Rabbime yalvarırım. Rabbime yalvarışımda mahrum kalmayacağımı umarım.",
+   "prompt": "[softly] [slowly] Sizi Allah'tan başka taptıklarınızla bırakıp çekilir, Rabbime yalvarırım. Rabbime yalvarışımda mahrum kalmayacağımı umarım.",
+   "generation_id": "iD3YYNfwqXS6K8gBVGRh",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/ijXq1NwbvwRjP1uaSpKl/iD3YYNfwqXS6K8gBVGRh/content.mp3?Expires=1794319200&KeyName=assets-cdn-key-1&Signature=QYaMhue8FKak55F20FDTOWJYEUI="
+  },
+  {
+   "kind": "cta",
+   "text": "Sen de Hazreti İbrahim gibi Rabbine yalvarmayı bırakma. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Sen de Hazreti İbrahim gibi Rabbine yalvarmayı bırakma. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "aQSFOtUSIK0mBSBoVj9a",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/HUGbRX0pLXO0mcUOE0YL/aQSFOtUSIK0mBSBoVj9a/content.mp3?Expires=1794319200&KeyName=assets-cdn-key-1&Signature=NYRyD6XsFfHVCxpo-xOXQq4bBkM="
+  }
+ ]
+}
