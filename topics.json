@@ -9070,7 +9070,7 @@
    66
   ],
   "kart_metin": "Sana öğretileni bana hayra götüren bir bilgi olarak öğretmen için peşinden gelebilir miyim",
-  "sahne": "yol",
+  "sahne": "deniz",
   "hook": "Hz. Musa öğrenmek için yola çıktı",
   "tema": "İlim ayeti",
   "etiketler": [
@@ -9099,7 +9099,7 @@
    }
   ],
   "ust": "Hz. Musa öğrenmek için yola çıktı",
-  "not": "Stok SABAH 3 Kasım: peygamber sözü; 84 Arapça harf (tahmin 15.9 sn, gerçek ~%30 kısa)."
+  "not": "Stok SABAH 3 Kasım: peygamber sözü; 84 Arapça harf (tahmin 15.9 sn, gerçek ~%30 kısa). 10 Kasım SABAH: sahne yol → deniz (Kehf 60: iki denizin birleştiği yer; v177 yol ile art arda olmasın)."
  },
  {
   "id": "v217",
@@ -10804,5 +10804,46 @@
   "ust": "AKIL SAHİPLERİNİN DUASI",
   "kopru_kaynak": "Âl-i İmrân 190: akıl sahipleri için ibretler vardır · 191: onlar ... 'Rabbimiz...' derler · 193-194 duanın devamı",
   "not": "SABAH 9 Kasım: deney 11 (büyük harf dua adı) — 18:00 dua kartı; 120 Arapça harf (tahmin 22.4 sn, gerçek ~%30 kısa)."
+ },
+ {
+  "id": "v254",
+  "tur": "kart",
+  "sure": 72,
+  "ayet": [
+   20,
+   20
+  ],
+  "kart_metin": "Ben sadece Rabbime yalvarırım ve O'na kimseyi ortak koşmam",
+  "sahne": "yildiz",
+  "hook": "Hz. Muhammed'in diliyle: Yalnız Rabbime yalvarırım",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "tevhid",
+   "cin suresi",
+   "tilavet"
+  ],
+  "aciklama": "Cin Suresi 20. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Ben sadece Rabbime yalvarırım ve O'na kimseyi ortak koşmam",
+  "seo": {
+   "yt_baslik": "Yalnız Rabbime yalvarırım | Cin 20",
+   "ilk_satir": "Yalnız Rabbime yalvarırım | Cin 20: Ben sadece Rabbime yalvarırım ve O'na kimseyi ortak koşmam",
+   "aciklama": "Cin Suresi 20. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "dua ayeti",
+    "cin suresi 20",
+    "tevhid"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 20,
+    "metin": "Ben sadece Rabbime yalvarırım ve O'na kimseyi ortak koşmam"
+   }
+  ],
+  "ust": "Hz. Muhammed'in diliyle: Yalnız Rabbime yalvarırım",
+  "kopru_kaynak": "Cin 19: Allah'ın kulu Muhammed, O'na yalvarmak, namaz kılmak için kalkınca... · 20: De ki: \"Ben sadece Rabbime yalvarırım...\"",
+  "not": "SABAH 10 Kasım: 18:00 açık adlı dua kartı (peygamber sözü/dua; ad Cin 19 mealinden). 56 Arapça harf (tahmin 10.8 sn)."
  }
 ]
