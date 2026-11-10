@@ -10063,6 +10063,7 @@
   "sahne": "kalp",
   "aciklama": "Yûsuf Suresi 97. ayette Hz. Yusuf'un kardeşlerinin suçlarını kabul edip babalarından bağışlanma dilemesini istedikleri anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
   "etiketler": [
+   "hz yusuf",
    "bağışlanma",
    "aile",
    "yusuf suresi",
@@ -10092,6 +10093,7 @@
    "ilk_satir": "Ailene karşı yaptığın bir hata içini mi yakıyor? Hz. Yusuf'un kardeşleri | Yûsuf 97",
    "aciklama": "Yûsuf Suresi 97. ayette Hz. Yusuf'un kardeşlerinin suçlarını kabul edip babalarından bağışlanma dilemesini istedikleri anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
+    "hz yusuf",
     "hz yusuf kardeşleri",
     "yusuf suresi 97",
     "bağışlanma"
@@ -10845,5 +10847,590 @@
   "ust": "Hz. Muhammed'in diliyle: Yalnız Rabbime yalvarırım",
   "kopru_kaynak": "Cin 19: Allah'ın kulu Muhammed, O'na yalvarmak, namaz kılmak için kalkınca... · 20: De ki: \"Ben sadece Rabbime yalvarırım...\"",
   "not": "SABAH 10 Kasım: 18:00 açık adlı dua kartı (peygamber sözü/dua; ad Cin 19 mealinden). 56 Arapça harf (tahmin 10.8 sn)."
+ },
+ {
+  "id": "v255",
+  "tur": "kart",
+  "sure": 38,
+  "ayet": [
+   41,
+   41
+  ],
+  "kart_metin": "Kulumuz Eyyub'u da an; Rabbine: \"Doğrusu şeytan bana yorgunluk ve azap verdi\" diye seslenmişti",
+  "sahne": "deniz",
+  "hook": "Hz. Eyyub Rabbine böyle seslendi",
+  "tema": "Sabır",
+  "etiketler": [
+   "hz eyyub",
+   "sad suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sâd Suresi 41. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Kulumuz Eyyub'u da an; Rabbine: \"Doğrusu şeytan bana yorgunluk ve azap verdi\" diye seslenmişti",
+  "seo": {
+   "yt_baslik": "Hz. Eyyub'un seslenişi | Sâd 41",
+   "ilk_satir": "Hz. Eyyub'un seslenişi | Sâd 41: Kulumuz Eyyub'u da an; Rabbine: \"Doğrusu şeytan bana yorgunluk ve azap verdi\" diye seslenmişti",
+   "aciklama": "Sâd Suresi 41. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz eyyub duası",
+    "sad suresi 41",
+    "hz eyyub"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 41,
+    "metin": "Kulumuz Eyyub'u da an; Rabbine: \"Doğrusu şeytan bana yorgunluk ve azap verdi\" diye seslenmişti"
+   }
+  ],
+  "ust": "Hz. Eyyub Rabbine böyle seslendi",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 98 Arapça harf (tahmin 18.4 sn)."
+ },
+ {
+  "id": "v256",
+  "tur": "kart",
+  "sure": 21,
+  "ayet": [
+   75,
+   75
+  ],
+  "kart_metin": "Lut'u rahmetimizin içine aldık; doğrusu o iyilerdendi",
+  "sahne": "yildiz",
+  "hook": "Allah, Hz. Lut'u rahmetine aldı",
+  "tema": "Rahmet",
+  "etiketler": [
+   "hz lut",
+   "enbiya suresi",
+   "tilavet"
+  ],
+  "aciklama": "Enbiyâ Suresi 75. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Lut'u rahmetimizin içine aldık; doğrusu o iyilerdendi",
+  "seo": {
+   "yt_baslik": "Hz. Lut'a rahmet | Enbiyâ 75",
+   "ilk_satir": "Hz. Lut'a rahmet | Enbiyâ 75: Lut'u rahmetimizin içine aldık; doğrusu o iyilerdendi",
+   "aciklama": "Enbiyâ Suresi 75. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "rahmet ayeti",
+    "enbiya suresi 75",
+    "hz lut"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 75,
+    "metin": "Lut'u rahmetimizin içine aldık; doğrusu o iyilerdendi"
+   }
+  ],
+  "ust": "Allah, Hz. Lut'u rahmetine aldı",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 60 Arapça harf (tahmin 11.5 sn)."
+ },
+ {
+  "id": "v257",
+  "tur": "kart",
+  "sure": 29,
+  "ayet": [
+   15,
+   15
+  ],
+  "kart_metin": "Ama Biz, Nuh'u ve gemide bulunanları kurtardık ve bunu dünyalara bir ibret kıldık",
+  "sahne": "deniz",
+  "hook": "Hz. Nuh ve gemidekiler böyle kurtuldu",
+  "tema": "Kurtuluş",
+  "etiketler": [
+   "hz nuh",
+   "ankebut suresi",
+   "tilavet"
+  ],
+  "aciklama": "Ankebût Suresi 15. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Ama Biz, Nuh'u ve gemide bulunanları kurtardık ve bunu dünyalara bir ibret kıldık",
+  "seo": {
+   "yt_baslik": "Hz. Nuh'un kurtuluşu | Ankebût 15",
+   "ilk_satir": "Hz. Nuh'un kurtuluşu | Ankebût 15: Ama Biz, Nuh'u ve gemide bulunanları kurtardık ve bunu dünyalara bir ibret kıldık",
+   "aciklama": "Ankebût Suresi 15. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz nuh gemisi",
+    "ankebut suresi 15",
+    "hz nuh"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 15,
+    "metin": "Ama Biz, Nuh'u ve gemide bulunanları kurtardık ve bunu dünyalara bir ibret kıldık"
+   }
+  ],
+  "ust": "Hz. Nuh ve gemidekiler böyle kurtuldu",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 76 Arapça harf (tahmin 14.4 sn)."
+ },
+ {
+  "id": "v258",
+  "tur": "kart",
+  "sure": 21,
+  "ayet": [
+   72,
+   72
+  ],
+  "kart_metin": "İbrahim'e, buna ilaveten İshak ve Yakub'u da verdik, her birini iyi kimseler kıldık",
+  "sahne": "tohum",
+  "hook": "Allah, Hz. İbrahim'e İshak ve Yakub'u verdi",
+  "tema": "Evlat",
+  "etiketler": [
+   "hz ibrahim",
+   "enbiya suresi",
+   "tilavet"
+  ],
+  "aciklama": "Enbiyâ Suresi 72. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "İbrahim'e, buna ilaveten İshak ve Yakub'u da verdik, her birini iyi kimseler kıldık",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'e verilen evlatlar | Enbiyâ 72",
+   "ilk_satir": "Hz. İbrahim'e verilen evlatlar | Enbiyâ 72: İbrahim'e, buna ilaveten İshak ve Yakub'u da verdik, her birini iyi kimseler kıldık",
+   "aciklama": "Enbiyâ Suresi 72. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "enbiya suresi 72",
+    "hz ibrahim"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 72,
+    "metin": "İbrahim'e, buna ilaveten İshak ve Yakub'u da verdik, her birini iyi kimseler kıldık"
+   }
+  ],
+  "ust": "Allah, Hz. İbrahim'e İshak ve Yakub'u verdi",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 80 Arapça harf (tahmin 15.1 sn)."
+ },
+ {
+  "id": "v259",
+  "tur": "kart",
+  "sure": 38,
+  "ayet": [
+   30,
+   30
+  ],
+  "kart_metin": "Davud'a Süleyman'ı bahşettik; o ne güzel bir kuldu! Doğrusu o daima Allah'a yönelirdi",
+  "sahne": "yildiz",
+  "hook": "Hz. Süleyman: O ne güzel bir kuldu!",
+  "tema": "Yöneliş",
+  "etiketler": [
+   "hz süleyman",
+   "sad suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sâd Suresi 30. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Davud'a Süleyman'ı bahşettik; o ne güzel bir kuldu! Doğrusu o daima Allah'a yönelirdi",
+  "seo": {
+   "yt_baslik": "Hz. Süleyman ne güzel kul | Sâd 30",
+   "ilk_satir": "Hz. Süleyman ne güzel kul | Sâd 30: Davud'a Süleyman'ı bahşettik; o ne güzel bir kuldu! Doğrusu o daima Allah'a yönelirdi",
+   "aciklama": "Sâd Suresi 30. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz süleyman",
+    "sad suresi 30",
+    "hz süleyman"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 30,
+    "metin": "Davud'a Süleyman'ı bahşettik; o ne güzel bir kuldu! Doğrusu o daima Allah'a yönelirdi"
+   }
+  ],
+  "ust": "Hz. Süleyman: O ne güzel bir kuldu!",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 72 Arapça harf (tahmin 13.7 sn)."
+ },
+ {
+  "id": "v260",
+  "tur": "kart",
+  "sure": 19,
+  "ayet": [
+   54,
+   54
+  ],
+  "kart_metin": "Kitap'da İsmail'e dair anlattıklarımızı da an. Çünkü o sözünde doğru bir kimse idi",
+  "sahne": "yol",
+  "hook": "Hz. İsmail sözünün eri idi",
+  "tema": "Sadakat",
+  "etiketler": [
+   "hz ismail",
+   "meryem suresi",
+   "tilavet"
+  ],
+  "aciklama": "Meryem Suresi 54. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Kitap'da İsmail'e dair anlattıklarımızı da an. Çünkü o sözünde doğru bir kimse idi",
+  "seo": {
+   "yt_baslik": "Hz. İsmail sözünde doğruydu | Meryem 54",
+   "ilk_satir": "Hz. İsmail sözünde doğruydu | Meryem 54: Kitap'da İsmail'e dair anlattıklarımızı da an. Çünkü o sözünde doğru bir kimse idi",
+   "aciklama": "Meryem Suresi 54. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ismail",
+    "meryem suresi 54",
+    "hz ismail"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 54,
+    "metin": "Kitap'da İsmail'e dair anlattıklarımızı da an. Çünkü o sözünde doğru bir kimse idi"
+   }
+  ],
+  "ust": "Hz. İsmail sözünün eri idi",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 97 Arapça harf (tahmin 18.2 sn)."
+ },
+ {
+  "id": "v261",
+  "tur": "kart",
+  "sure": 16,
+  "ayet": [
+   120,
+   120
+  ],
+  "kart_metin": "İbrahim, şüphesiz Allah'a boyun eğen ve O'na yönelen bir önderdi; puta tapanlardan değildi",
+  "sahne": "yol",
+  "hook": "Hz. İbrahim, Allah'a yönelen bir önderdi",
+  "tema": "Teslimiyet",
+  "etiketler": [
+   "hz ibrahim",
+   "nahl suresi",
+   "tilavet"
+  ],
+  "aciklama": "Nahl Suresi 120. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "İbrahim, şüphesiz Allah'a boyun eğen ve O'na yönelen bir önderdi; puta tapanlardan değildi",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'in teslimiyeti | Nahl 120",
+   "ilk_satir": "Hz. İbrahim'in teslimiyeti | Nahl 120: İbrahim, şüphesiz Allah'a boyun eğen ve O'na yönelen bir önderdi; puta tapanlardan değildi",
+   "aciklama": "Nahl Suresi 120. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "nahl suresi 120",
+    "hz ibrahim"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 120,
+    "metin": "İbrahim, şüphesiz Allah'a boyun eğen ve O'na yönelen bir önderdi; puta tapanlardan değildi"
+   }
+  ],
+  "ust": "Hz. İbrahim, Allah'a yönelen bir önderdi",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 90 Arapça harf (tahmin 17.0 sn)."
+ },
+ {
+  "id": "v262",
+  "tur": "kart",
+  "sure": 18,
+  "ayet": [
+   73,
+   73
+  ],
+  "kart_metin": "Musa: \"Unuttuğum için bana çıkışma, gücümün yetmediği şeyden beni sorumlu tutma\" dedi",
+  "sahne": "deniz",
+  "hook": "Hz. Musa: Unuttuğum için bana çıkışma",
+  "tema": "Hoşgörü",
+  "etiketler": [
+   "hz musa",
+   "kehf suresi",
+   "tilavet"
+  ],
+  "aciklama": "Kehf Suresi 73. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Musa: \"Unuttuğum için bana çıkışma, gücümün yetmediği şeyden beni sorumlu tutma\" dedi",
+  "seo": {
+   "yt_baslik": "Hz. Musa ve Hızır | Kehf 73",
+   "ilk_satir": "Hz. Musa ve Hızır | Kehf 73: Musa: \"Unuttuğum için bana çıkışma, gücümün yetmediği şeyden beni sorumlu tutma\" dedi",
+   "aciklama": "Kehf Suresi 73. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz musa ve hızır",
+    "kehf suresi 73",
+    "hz musa"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 73,
+    "metin": "Musa: \"Unuttuğum için bana çıkışma, gücümün yetmediği şeyden beni sorumlu tutma\" dedi"
+   }
+  ],
+  "ust": "Hz. Musa: Unuttuğum için bana çıkışma",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 75 Arapça harf (tahmin 14.2 sn)."
+ },
+ {
+  "id": "v263",
+  "tur": "kart",
+  "sure": 38,
+  "ayet": [
+   45,
+   45
+  ],
+  "kart_metin": "Güçlü ve anlayışlı olan kullarımız İbrahim, İshak ve Yakub'u da an",
+  "sahne": "kum",
+  "hook": "Hz. İbrahim, İshak ve Yakub: güçlü kullar",
+  "tema": "Peygamberler",
+  "etiketler": [
+   "hz ibrahim",
+   "sad suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sâd Suresi 45. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Güçlü ve anlayışlı olan kullarımız İbrahim, İshak ve Yakub'u da an",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim, İshak ve Yakub | Sâd 45",
+   "ilk_satir": "Hz. İbrahim, İshak ve Yakub | Sâd 45: Güçlü ve anlayışlı olan kullarımız İbrahim, İshak ve Yakub'u da an",
+   "aciklama": "Sâd Suresi 45. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "peygamber kıssaları",
+    "sad suresi 45",
+    "hz ibrahim"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 45,
+    "metin": "Güçlü ve anlayışlı olan kullarımız İbrahim, İshak ve Yakub'u da an"
+   }
+  ],
+  "ust": "Hz. İbrahim, İshak ve Yakub: güçlü kullar",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 90 Arapça harf (tahmin 17.0 sn)."
+ },
+ {
+  "id": "v264",
+  "tur": "kart",
+  "sure": 21,
+  "ayet": [
+   85,
+   85
+  ],
+  "kart_metin": "İsmail, İdris ve Zülkifl hakkında anlattığımızı da an; onların her biri sabredenlerdendi",
+  "sahne": "firtina",
+  "hook": "Hz. İsmail, İdris ve Zülkifl sabrettiler",
+  "tema": "Sabır",
+  "etiketler": [
+   "sabır",
+   "enbiya suresi",
+   "tilavet"
+  ],
+  "aciklama": "Enbiyâ Suresi 85. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "İsmail, İdris ve Zülkifl hakkında anlattığımızı da an; onların her biri sabredenlerdendi",
+  "seo": {
+   "yt_baslik": "Sabreden peygamberler | Enbiyâ 85",
+   "ilk_satir": "Sabreden peygamberler | Enbiyâ 85: İsmail, İdris ve Zülkifl hakkında anlattığımızı da an; onların her biri sabredenlerdendi",
+   "aciklama": "Enbiyâ Suresi 85. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "sabır ayeti",
+    "enbiya suresi 85",
+    "sabır"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 85,
+    "metin": "İsmail, İdris ve Zülkifl hakkında anlattığımızı da an; onların her biri sabredenlerdendi"
+   }
+  ],
+  "ust": "Hz. İsmail, İdris ve Zülkifl sabrettiler",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 69 Arapça harf (tahmin 13.1 sn)."
+ },
+ {
+  "id": "v265",
+  "tur": "kart",
+  "sure": 21,
+  "ayet": [
+   51,
+   51
+  ],
+  "kart_metin": "And olsun ki, daha önce İbrahim'e de akla uygun olanı göstermiştik. Biz onu biliyorduk",
+  "sahne": "yildiz",
+  "hook": "Allah, Hz. İbrahim'e doğruyu gösterdi",
+  "tema": "Hidayet",
+  "etiketler": [
+   "hz ibrahim",
+   "enbiya suresi",
+   "tilavet"
+  ],
+  "aciklama": "Enbiyâ Suresi 51. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "And olsun ki, daha önce İbrahim'e de akla uygun olanı göstermiştik. Biz onu biliyorduk",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'e verilen akıl | Enbiyâ 51",
+   "ilk_satir": "Hz. İbrahim'e verilen akıl | Enbiyâ 51: And olsun ki, daha önce İbrahim'e de akla uygun olanı göstermiştik. Biz onu biliyorduk",
+   "aciklama": "Enbiyâ Suresi 51. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "enbiya suresi 51",
+    "hz ibrahim"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 51,
+    "metin": "And olsun ki, daha önce İbrahim'e de akla uygun olanı göstermiştik. Biz onu biliyorduk"
+   }
+  ],
+  "ust": "Allah, Hz. İbrahim'e doğruyu gösterdi",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 78 Arapça harf (tahmin 14.8 sn)."
+ },
+ {
+  "id": "v266",
+  "tur": "kart",
+  "sure": 43,
+  "ayet": [
+   28,
+   28
+  ],
+  "kart_metin": "İbrahim ardından geleceklere bu sözü, devamlı kalacak bir miras olarak bıraktı",
+  "sahne": "kum",
+  "hook": "Hz. İbrahim'in ardında bıraktığı miras",
+  "tema": "Tevhid",
+  "etiketler": [
+   "hz ibrahim",
+   "zuhruf suresi",
+   "tilavet"
+  ],
+  "aciklama": "Zuhruf Suresi 28. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "İbrahim ardından geleceklere bu sözü, devamlı kalacak bir miras olarak bıraktı",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'in mirası | Zuhruf 28",
+   "ilk_satir": "Hz. İbrahim'in mirası | Zuhruf 28: İbrahim ardından geleceklere bu sözü, devamlı kalacak bir miras olarak bıraktı",
+   "aciklama": "Zuhruf Suresi 28. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "zuhruf suresi 28",
+    "hz ibrahim"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 28,
+    "metin": "İbrahim ardından geleceklere bu sözü, devamlı kalacak bir miras olarak bıraktı"
+   }
+  ],
+  "ust": "Hz. İbrahim'in ardında bıraktığı miras",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 67 Arapça harf (tahmin 12.8 sn)."
+ },
+ {
+  "id": "v267",
+  "tur": "kart",
+  "sure": 68,
+  "ayet": [
+   7,
+   7
+  ],
+  "kart_metin": "Doğrusu senin Rabbin, yolundan sapıtanları çok iyi bilir; O, doğru yolda olanları da çok iyi bilir",
+  "sahne": "yol",
+  "hook": "Rabbin, doğru yolda olduğunu çok iyi bilir",
+  "tema": "Hidayet",
+  "etiketler": [
+   "doğru yol",
+   "kalem suresi",
+   "tilavet"
+  ],
+  "aciklama": "Kalem Suresi 7. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Doğrusu senin Rabbin, yolundan sapıtanları çok iyi bilir; O, doğru yolda olanları da çok iyi bilir",
+  "seo": {
+   "yt_baslik": "Rabbin doğru yolda olanı bilir | Kalem 7",
+   "ilk_satir": "Rabbin doğru yolda olanı bilir | Kalem 7: Doğrusu senin Rabbin, yolundan sapıtanları çok iyi bilir; O, doğru yolda olanları da çok iyi bilir",
+   "aciklama": "Kalem Suresi 7. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "doğru yol ayeti",
+    "kalem suresi 7",
+    "doğru yol"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 7,
+    "metin": "Doğrusu senin Rabbin, yolundan sapıtanları çok iyi bilir; O, doğru yolda olanları da çok iyi bilir"
+   }
+  ],
+  "ust": "Rabbin, doğru yolda olduğunu çok iyi bilir",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 88 Arapça harf (tahmin 16.6 sn)."
+ },
+ {
+  "id": "v268",
+  "tur": "kart",
+  "sure": 33,
+  "ayet": [
+   54,
+   54
+  ],
+  "kart_metin": "Bir şeyi açıklasanız de gizleseniz de Allah şüphesiz hepsini bilir",
+  "sahne": "yildiz",
+  "hook": "Gizlesen de açıklasan da Allah hepsini bilir",
+  "tema": "Allah bilir",
+  "etiketler": [
+   "allah bilir",
+   "ahzab suresi",
+   "tilavet"
+  ],
+  "aciklama": "Ahzâb Suresi 54. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Bir şeyi açıklasanız de gizleseniz de Allah şüphesiz hepsini bilir",
+  "seo": {
+   "yt_baslik": "Allah hepsini bilir | Ahzâb 54",
+   "ilk_satir": "Allah hepsini bilir | Ahzâb 54: Bir şeyi açıklasanız de gizleseniz de Allah şüphesiz hepsini bilir",
+   "aciklama": "Ahzâb Suresi 54. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "allah her şeyi bilir",
+    "ahzab suresi 54",
+    "allah bilir"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 54,
+    "metin": "Bir şeyi açıklasanız de gizleseniz de Allah şüphesiz hepsini bilir"
+   }
+  ],
+  "ust": "Gizlesen de açıklasan da Allah hepsini bilir",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 82 Arapça harf (tahmin 15.5 sn)."
+ },
+ {
+  "id": "v269",
+  "tur": "kart",
+  "sure": 2,
+  "ayet": [
+   199,
+   199
+  ],
+  "kart_metin": "Allah'tan mağfiret dileyin. Allah bağışlar ve merhamet eder",
+  "sahne": "tohum",
+  "hook": "Bağışlanma dilediğinde Allah bağışlar",
+  "tema": "Bağışlanma",
+  "etiketler": [
+   "istiğfar",
+   "bakara suresi",
+   "tilavet"
+  ],
+  "aciklama": "Bakara Suresi 199. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Allah'tan mağfiret dileyin. Allah bağışlar ve merhamet eder",
+  "seo": {
+   "yt_baslik": "Allah bağışlar ve merhamet eder | Bakara 199",
+   "ilk_satir": "Allah bağışlar ve merhamet eder | Bakara 199: Allah'tan mağfiret dileyin. Allah bağışlar ve merhamet eder",
+   "aciklama": "Bakara Suresi 199. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "istiğfar ayeti",
+    "bakara suresi 199",
+    "istiğfar"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 199,
+    "metin": "Allah'tan mağfiret dileyin. Allah bağışlar ve merhamet eder"
+   }
+  ],
+  "ust": "Bağışlanma dilediğinde Allah bağışlar",
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 100 Arapça harf (tahmin 18.8 sn)."
  }
 ]
