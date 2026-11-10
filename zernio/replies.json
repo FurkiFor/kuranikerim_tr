@@ -1859,12 +1859,16 @@
   "postId": "18131413925511160",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18132504412793826",
-  "message": "Amin, Rabbim kabul etsin 🤍 Elhamdülillah her hâlimize."
+  "message": "Amin, Rabbim kabul etsin 🤍 Elhamdülillah her hâlimize.",
+  "sent": true,
+  "replyId": "18431554978196247"
  },
  {
   "postId": "18131413925511160",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18102095462359544",
-  "message": "Amin 🤍 Rabbim gönlünü huzurla doldursun."
+  "message": "Amin 🤍 Rabbim gönlünü huzurla doldursun.",
+  "sent": true,
+  "replyId": "18037793504893759"
  }
 ]
