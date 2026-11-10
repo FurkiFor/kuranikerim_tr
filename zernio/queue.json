@@ -2119,20 +2119,26 @@
   "at": "2026-11-10T20:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af31030127e73d09c6be05e",
+  "status": "scheduled"
  },
  {
   "id": "v257",
   "at": "2026-11-10T20:30:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6af31030cf5c88300202f55c",
+  "status": "scheduled"
  },
  {
   "id": "v244",
   "at": "2026-11-10T23:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af310316ee091558171c767",
+  "status": "scheduled"
  }
 ]
