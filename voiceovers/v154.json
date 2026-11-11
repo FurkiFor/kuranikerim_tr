@@ -1,0 +1,37 @@
+{
+ "id": "v154",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "92N0AT6Lwi1ssVvsAl2Y",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Emeğinin karşılıksız kalmasından mı korkuyorsun?",
+   "prompt": "[deep voice] [slowly] Emeğinin karşılıksız kalmasından mı korkuyorsun?",
+   "generation_id": "ExoduadDsjOT1AqRyrdr",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/8nntPukU1pJ7kdwk0Cda/ExoduadDsjOT1AqRyrdr/content.mp3?Expires=1794376800&KeyName=assets-cdn-key-1&Signature=cub3Of_M4qyc_qpz6qGLiNY_S5g="
+  },
+  {
+   "kind": "giris",
+   "text": "Kur'an'ı dinleyip inananların şu sözü Kur'an'da geçer. Dinle.",
+   "prompt": "[deep voice] [slowly] Kur'an'ı dinleyip inananların şu sözü Kur'an'da geçer. Dinle.",
+   "generation_id": "fRRQ76kDVP2zM6TPNGFn",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/mZ6PklV5TyXKKfGo5DnK/fRRQ76kDVP2zM6TPNGFn/content.mp3?Expires=1794376800&KeyName=assets-cdn-key-1&Signature=QdwXedSwnTGkKwxmQnvmaCzni08="
+  },
+  {
+   "kind": "meal",
+   "text": "Şüphesiz, doğruluk rehberi olan Kuran'ı dinlediğimizde ona inandık; kim Rabbine inanırsa, o, ecrinin eksiltileceğinden ve kendisine haksızlık edileceğinden korkmaz.",
+   "prompt": "[softly] [slowly] Şüphesiz, doğruluk rehberi olan Kuran'ı dinlediğimizde ona inandık; kim Rabbine inanırsa, o, ecrinin eksiltileceğinden ve kendisine haksızlık edileceğinden korkmaz.",
+   "generation_id": "RLf0o6O3VW0n6vjPEXvN",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/GOud8E2dn7z46aj9rlQd/RLf0o6O3VW0n6vjPEXvN/content.mp3?Expires=1794376800&KeyName=assets-cdn-key-1&Signature=a-23GtQ7WgFBbym-remDof8aBus="
+  },
+  {
+   "kind": "cta",
+   "text": "Rabbine inanan, emeğinin eksiltilmesinden korkmaz. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Rabbine inanan, emeğinin eksiltilmesinden korkmaz. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "fgo5scqRZDF3HeSgK1FL",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/xp4B2tjRiRQzhCUJICGe/fgo5scqRZDF3HeSgK1FL/content.mp3?Expires=1794376800&KeyName=assets-cdn-key-1&Signature=-VnL6Ro8aeaDaQS8G2NRVgxWnKo="
+  }
+ ]
+}

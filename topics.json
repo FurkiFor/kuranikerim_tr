@@ -6472,7 +6472,7 @@
    17
   ],
   "hook": "Bir hatadan sonra kendine söz mü verdin?",
-  "kapanis": "Hatandan sonra Hazreti Musa gibi Rabbine söz ver.",
+  "kapanis": "Hazreti Musa hatasından sonra Rabbine döndü ve söz verdi.",
   "bg": "yol",
   "sahne": "yol",
   "aciklama": "Kasas Suresi 17. ayette Hz. Musa'nın, Rabbinin verdiği nimete and içerek suçlulara asla yardımcı olmayacağını söylediği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
@@ -6492,9 +6492,9 @@
   },
   "kurgu": {
    "kamera": [
-    "it",
-    "kay",
-    "cek"
+    "cek",
+    "vurgu",
+    "kay"
    ],
    "gecis": [
     "kesme",
@@ -6502,7 +6502,7 @@
    ]
   },
   "seo": {
-   "yt_baslik": "Bir hatadan sonra kendine söz mü verdin? | Hz. Musa · Kasas 17",
+   "yt_baslik": "Hz. Musa'nın Rabbine sözü | Kasas 17 · Hatadan sonra",
    "ilk_satir": "Bir hatadan sonra kendine söz mü verdin? Hz. Musa'nın sözü | Kasas 17",
    "aciklama": "Kasas Suresi 17. ayette Hz. Musa'nın, Rabbinin verdiği nimete and içerek suçlulara asla yardımcı olmayacağını söylediği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
@@ -6512,7 +6512,7 @@
    ]
   },
   "kopru_kaynak": "Kasas 15-16: Hz. Musa 'Rabbim! Ben kendime yazık ettim, beni bağışla' dedi",
-  "not": "Stok 30 Ekim SABAH. Tilavet 76 harf."
+  "not": "Stok 30 Ekim SABAH. Tilavet 76 harf. 11 Kasım SABAH: başlık açık adla (9 Kasım kararı 3), kapanıştaki emir kaldırıldı."
  },
  {
   "id": "v161",

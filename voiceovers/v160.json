@@ -1,0 +1,37 @@
+{
+ "id": "v160",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "uvaG7dgRwnJ88zeA2eDx",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Bir hatadan sonra kendine söz mü verdin?",
+   "prompt": "[deep voice] [slowly] Bir hatadan sonra kendine söz mü verdin?",
+   "generation_id": "AFIqPIV2hWdwESHJHBvm",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/jC29p9HxqWWbfMLuVNRk/AFIqPIV2hWdwESHJHBvm/content.mp3?Expires=1794376800&KeyName=assets-cdn-key-1&Signature=n1RgZnGMd4TDLNM_a1MCq3AHI-Y="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Musa da bir hatadan sonra bağışlanma dilemişti. Ardından şunu söyledi.",
+   "prompt": "[deep voice] [slowly] Hazreti Musa da bir hatadan sonra bağışlanma dilemişti. Ardından şunu söyledi.",
+   "generation_id": "kxpeaHDh2xH38WW76OY0",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/k8qojuOQoWoaLhmHnBRF/kxpeaHDh2xH38WW76OY0/content.mp3?Expires=1794376800&KeyName=assets-cdn-key-1&Signature=-uk2YSTbDuboaTee9SuLSYzExic="
+  },
+  {
+   "kind": "meal",
+   "text": "Musa: \"Rabbim! Bana verdiğin nimete and olsun ki, suçlulara asla yardımcı olmayacağım\" dedi.",
+   "prompt": "[softly] [slowly] Musa: Rabbim! Bana verdiğin nimete and olsun ki, suçlulara asla yardımcı olmayacağım dedi.",
+   "generation_id": "iLJSie04xrEIk8Qp7HA6",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/OGjHffs4Z33bqxvOT5aD/iLJSie04xrEIk8Qp7HA6/content.mp3?Expires=1794376800&KeyName=assets-cdn-key-1&Signature=9-KZS1ZO2cDG-Cgw2mIvwRJSotg="
+  },
+  {
+   "kind": "cta",
+   "text": "Hazreti Musa hatasından sonra Rabbine döndü ve söz verdi. Kaydet ve ihtiyacı olana gönder.",
+   "prompt": "[deep voice] Hazreti Musa hatasından sonra Rabbine döndü ve söz verdi. Kaydet ve ihtiyacı olana gönder.",
+   "generation_id": "Zh9znwklJDQkMJlK2zz7",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/935bfMZnY6ivNt4FRWSt/Zh9znwklJDQkMJlK2zz7/content.mp3?Expires=1794376800&KeyName=assets-cdn-key-1&Signature=jwsd3UNox4zGxaqEvPxf5o5RjBc="
+  }
+ ]
+}
