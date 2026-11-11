@@ -1891,12 +1891,16 @@
   "postId": "18129388298489187",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18342164524258616",
-  "message": "Sadakallâhü'l-azîm 🤍 Güzel yorumun için teşekkürler, Rabbim kalbine huzur versin."
+  "message": "Sadakallâhü'l-azîm 🤍 Güzel yorumun için teşekkürler, Rabbim kalbine huzur versin.",
+  "sent": true,
+  "replyId": "17900232603405944"
  },
  {
   "postId": "18108550745249279",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17999041818104948",
-  "message": "Allah doğru söylemiştir 🤍 Bu ayeti seninle paylaşmak güzeldi, dualarındayız."
+  "message": "Allah doğru söylemiştir 🤍 Bu ayeti seninle paylaşmak güzeldi, dualarındayız.",
+  "sent": true,
+  "replyId": "18139484788634864"
  }
 ]
