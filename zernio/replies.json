@@ -1875,12 +1875,16 @@
   "postId": "7706580931108179252",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7706582536654308117",
-  "message": "Rabbim bütün dualarını hayırlısıyla kabul etsin 🤍"
+  "message": "Rabbim bütün dualarını hayırlısıyla kabul etsin 🤍",
+  "sent": true,
+  "replyId": "7706756164025008903"
  },
  {
   "postId": "7706543074268171527",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7706544412709880577",
-  "message": "Güzel kalbine selam olsun, izlediğin için teşekkürler 🤍"
+  "message": "Güzel kalbine selam olsun, izlediğin için teşekkürler 🤍",
+  "sent": true,
+  "replyId": "7706756160439370514"
  }
 ]
