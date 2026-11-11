@@ -11486,5 +11486,302 @@
   },
   "kopru_kaynak": "Meryem 41-48: İbrahim'e dair anlattıklarımızı da an (41); babası 'uzun bir süre benden uzak dur' dedi (46); 'Rabbime yalvarırım. Rabbime yalvarışımda mahrum kalmayacağımı umarım' (48)",
   "not": "AKŞAM 10 Kasım. 20:30 açık adlı dua anlatımlısı. Tilavet 116 harf. Tür: dua."
+ },
+ {
+  "id": "v271",
+  "tema": "Acele",
+  "sure": 75,
+  "ayet": [
+   16,
+   17
+  ],
+  "hook": "Sürekli bir şeylere geç kalmış gibi mi hissediyorsun?",
+  "kapanis": "Acele etme; yalnız dinle.",
+  "bg": "kum",
+  "sahne": "kum",
+  "aciklama": "Kıyâme Suresi 16-17. ayetlerde Hz. Peygamber'e, vahiy gelirken unutmamak için acele etmemesi ve yalnız dinlemesi; vahyi kalbine yerleştirmenin Allah'a ait olduğu bildiriliyor. İniş sebebi İbn Abbâs rivayetine dayanır (Buhârî, Müslim). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "acele",
+   "kıyame suresi",
+   "nüzul sebebi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "firtina",
+   "yildiz",
+   "kalp"
+  ],
+  "seslendirme": {
+   "baglam": "Vahiy gelirken Peygamberimiz, ayetleri unutmamak için Cebrail ile birlikte aceleyle tekrar ederdi. Bunun üzerine Kıyâme Suresi'nin şu ayetleri indi.",
+   "kapanis": "Peygamberimize, acele etme, yalnız dinle buyuruldu; gerisini Rabbi üstlendi. Şimdi kendine bir daha sor:"
+  },
+  "baglam_kaynak": "İbn Abbâs rivayeti (Buhârî ve Müslim; hadeethenc.com/tr/browse/hadith/10843): vahiy gelirken unutmamak için dudaklarını kıpırdatır, Cebrail'le birlikte söylemeye çalışırdı; bunun üzerine Kıyâme 16-17 indi, sonrasında yalnız dinledi. 'Gerisini Rabbi üstlendi' = Kıyâme 17 meali ('kalbine yerleştirmek ve okutturmak Bize düşer').",
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "it",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Acele Etme Ayetinin İniş Hikâyesi | Kıyâme 16-17",
+   "ilk_satir": "Sürekli bir şeylere geç kalmış gibi mi hissediyorsun? Acele etme ayeti ve iniş hikâyesi | Kıyâme 16-17",
+   "aciklama": "Kıyâme Suresi 16-17. ayetlerde Hz. Peygamber'e, vahiy gelirken unutmamak için acele etmemesi ve yalnız dinlemesi; vahyi kalbine yerleştirmenin Allah'a ait olduğu bildiriliyor. İniş sebebi İbn Abbâs rivayetine dayanır (Buhârî, Müslim). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "acele etme ayeti",
+    "ayetin nüzul sebebi",
+    "kıyame suresi 16",
+    "ayetin iniş hikayesi"
+   ]
+  },
+  "not": "11 Kasım. Nüzul formatının ilk videosu (kullanıcının örnek kancası). Tilavet 80 harf. Tür: teselli/acele."
+ },
+ {
+  "id": "v272",
+  "tema": "Hidayet",
+  "sure": 28,
+  "ayet": [
+   56,
+   56
+  ],
+  "hook": "Sevdiğin biri için elinden hiçbir şey gelmiyor mu?",
+  "kapanis": "Doğru yola girecekleri en iyi O bilir.",
+  "bg": "kalp",
+  "sahne": "kalp",
+  "aciklama": "Kasas Suresi 56. ayette Hz. Peygamber'e, sevdiğini doğru yola eriştiremeyeceği, doğru yola eriştirenin Allah olduğu ve doğru yola girecekleri en iyi O'nun bildiği bildiriliyor. Rivayete göre ayet, amcası Ebû Tâlib'in vefatı üzerine indi (Buhârî, Müslim). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "hidayet",
+   "ebu talib",
+   "kasas suresi",
+   "nüzul sebebi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "kapi",
+   "yol",
+   "yildiz"
+  ],
+  "seslendirme": {
+   "baglam": "Peygamberimiz, amcası Ebû Tâlib'in ölüm döşeğinde iman etmesini çok istedi. Amcası bunu söylemeden vefat etti; rivayete göre şu ayet bunun üzerine indi.",
+   "kapanis": "Doğru yola eriştiren Allah'tır; kimin gireceğini en iyi O bilir. Yükü tek başına taşıdığını sanıyorsan kendine bir daha sor:"
+  },
+  "baglam_kaynak": "Buhârî (Cenâiz 80), Müslim (Îmân 41-42) — islamveihsan.com/ebu-talip-hakkinda-nazil-olan-ayet.html: Hz. Peygamber vefat etmek üzere olan amcası Ebû Tâlib'den kelime-i tevhidi söylemesini istedi, o söylemedi; Kasas 56 bu olayla ilişkilendirilir. Kapanış = Kasas 56 meali.",
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "sabit",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Ebû Tâlib İçin İnen Ayet | Kasas 56 · Sevdiğine hidayet",
+   "ilk_satir": "Sevdiğin biri için elinden hiçbir şey gelmiyor mu? Ebû Tâlib için inen hidayet ayeti | Kasas 56",
+   "aciklama": "Kasas Suresi 56. ayette Hz. Peygamber'e, sevdiğini doğru yola eriştiremeyeceği, doğru yola eriştirenin Allah olduğu ve doğru yola girecekleri en iyi O'nun bildiği bildiriliyor. Rivayete göre ayet, amcası Ebû Tâlib'in vefatı üzerine indi (Buhârî, Müslim). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hidayet ayeti",
+    "ebu talib ayeti",
+    "kasas 56",
+    "ayetin nüzul sebebi"
+   ]
+  },
+  "not": "11 Kasım. Nüzul formatı. Tilavet 110 harf. Açık adlı başlık. Tür: teselli."
+ },
+ {
+  "id": "v273",
+  "tema": "Üzüntü",
+  "sure": 18,
+  "ayet": [
+   6,
+   6
+  ],
+  "hook": "Başkaları için üzülmekten kendini mi tüketiyorsun?",
+  "kapanis": "Rabbin üzüntünü biliyor.",
+  "bg": "deniz",
+  "sahne": "deniz",
+  "aciklama": "Kehf Suresi 6. ayette Hz. Peygamber'e, inanmayanların ardından üzülerek neredeyse kendini mahvedeceği söyleniyor. Ayet, kavminin inanmamasına derinden üzülen Peygamber'e bir tesellidir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "üzüntü",
+   "kehf suresi",
+   "teselli",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "kalp",
+   "firtina",
+   "yol"
+  ],
+  "seslendirme": {
+   "baglam": "Mekke'de Peygamberimiz, kavmi Kur'an'a inanmıyor diye derin bir üzüntü içindeydi. Kehf Suresi'nin başında Rabbi ona şöyle seslendi.",
+   "kapanis": "Rabbi, Peygamberine üzüntüden kendini mahvetmek üzere olduğunu söyledi. Bu gece aynı düşünceler seni de uyutmuyorsa kendine yeniden sor:"
+  },
+  "baglam_kaynak": "Kehf 6 meali (inanmayanların ardından üzülmek) + tefsir özeti (islamveihsan.com/kehf-suresi-6-ayet-meali-arapca-yazilisi-anlami-ve-tefsiri.html, Ömer Çelik tefsiri): Hz. Peygamber kavminin inanmamakta ısrarına üzülüyordu; ayet onu teselli eder. Belirli bir nüzul olayı yok — 'nüzul sebebi' denmez, bağlam olarak anlatılır.",
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Gece Uyutmayan Üzüntüye Karşı Tek Bir Ayet | Kehf 6",
+   "ilk_satir": "Başkaları için üzülmekten kendini mi tüketiyorsun? Üzüntü ayeti | Kehf 6",
+   "aciklama": "Kehf Suresi 6. ayette Hz. Peygamber'e, inanmayanların ardından üzülerek neredeyse kendini mahvedeceği söyleniyor. Ayet, kavminin inanmamasına derinden üzülen Peygamber'e bir tesellidir. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "üzüntü ayeti",
+    "üzülme ayeti",
+    "kehf suresi 6",
+    "teselli ayeti"
+   ]
+  },
+  "not": "11 Kasım. Nüzul formatı (bağlam; belirli nüzul olayı yok). Tilavet 95 harf. Gece hitabı kapanışta → yalnız 23:30. Tür: teselli."
+ },
+ {
+  "id": "v274",
+  "tema": "Yardım",
+  "sure": 8,
+  "ayet": [
+   9,
+   9
+  ],
+  "hook": "Yardım istedin de cevap gelmedi mi sanıyorsun?",
+  "kapanis": "Yardım isteyene cevap verilmişti.",
+  "bg": "firtina",
+  "sahne": "firtina",
+  "aciklama": "Enfâl Suresi 9. ayette, Bedir'de Rablerinin yardımına sığınan müminlere, birbiri peşinden bin melekle yardım edileceği cevabının verildiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "yardım",
+   "bedir",
+   "enfal suresi",
+   "dua",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "fener",
+   "yildiz",
+   "yol"
+  ],
+  "seslendirme": {
+   "baglam": "Bedir'de Müslümanlar güçsüz bir durumdaydı ve Rablerinden yardım istiyorlardı. Enfâl Suresi o günü şöyle anlatır.",
+   "kapanis": "O gün yardım isteyenlere cevap verilmişti. Duan karşılıksız kalıyor gibi geliyorsa kendine bir daha sor:"
+  },
+  "baglam_kaynak": "Âl-i İmrân 123 meali ('siz düşkün bir durumda iken, Bedir'de, Allah size yardım etmişti') + Enfâl 9 meali ('Rabbinizin yardımına sığınıyordunuz … cevap vermişti'). Sayı ve dua ayrıntısı (hadis) kullanılmadı.",
+  "kurgu": {
+   "kamera": [
+    "it",
+    "kay",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Bedir'de Gelen Cevap | Enfâl 9 · Yardım ayetinin iniş hikâyesi",
+   "ilk_satir": "Yardım istedin de cevap gelmedi mi sanıyorsun? Bedir'de inen yardım ayeti | Enfâl 9",
+   "aciklama": "Enfâl Suresi 9. ayette, Bedir'de Rablerinin yardımına sığınan müminlere, birbiri peşinden bin melekle yardım edileceği cevabının verildiği anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "yardım ayeti",
+    "bedir ayeti",
+    "enfal 9",
+    "duanın kabulü ayeti"
+   ]
+  },
+  "not": "11 Kasım. Nüzul formatı. Tilavet 109 harf. Açık adlı başlık (Bedir). Tür: dua/yardım."
+ },
+ {
+  "id": "v275",
+  "tema": "Kalk",
+  "sure": 74,
+  "ayet": [
+   1,
+   3
+  ],
+  "hook": "Ağır bir şey yaşayınca içine mi kapanıyorsun?",
+  "kapanis": "Kalk ve Rabbini yücelt.",
+  "bg": "kapi",
+  "sahne": "kapi",
+  "aciklama": "Müddessir Suresi 1-3. ayetlerde örtüsüne bürünen Hz. Peygamber'e kalkıp uyarması ve Rabbini yüceltmesi buyruluyor. Ayetler, vahyin bir süre kesilmesinden sonra inmiştir (Câbir b. Abdullah rivayeti; Buhârî, Müslim). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "müddessir suresi",
+   "nüzul sebebi",
+   "ilk vahiy",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "kalp",
+   "yol",
+   "yildiz"
+  ],
+  "seslendirme": {
+   "baglam": "Vahiy bir süre kesilmişti. Peygamberimiz, Hira'da gördüğü meleği yeniden görünce korkuyla evine dönüp örtüsüne büründü; ardından şu ayetler indi.",
+   "kapanis": "Örtüsüne bürünene, kalk denildi ve vahiy art arda gelmeye başladı. Bugün kalkmak sana zor geliyorsa kendine yeniden sor:"
+  },
+  "baglam_kaynak": "Câbir b. Abdullah rivayeti (Buhârî 4, Müslim; hadeethenc.com/tr/browse/hadith/66304): vahyin kesildiği dönemde Hira'daki meleği gökle yer arasında gördü, korktu, eve dönüp örtünmek istedi; Müddessir'in ilk ayetleri indi, sonra vahiy art arda geldi.",
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "sabit",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "İçine Kapandığında Bu Ayetin İniş Hikâyesini Hatırla | Müddessir 1-3",
+   "ilk_satir": "Ağır bir şey yaşayınca içine mi kapanıyorsun? Müddessir Suresi'nin iniş hikâyesi | Müddessir 1-3",
+   "aciklama": "Müddessir Suresi 1-3. ayetlerde örtüsüne bürünen Hz. Peygamber'e kalkıp uyarması ve Rabbini yüceltmesi buyruluyor. Ayetler, vahyin bir süre kesilmesinden sonra inmiştir (Câbir b. Abdullah rivayeti; Buhârî, Müslim). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "müddessir suresi anlamı",
+    "müddessir suresi nüzul sebebi",
+    "ey örtüsüne bürünen",
+    "ayetin iniş hikayesi"
+   ]
+  },
+  "not": "11 Kasım. Nüzul formatı. Tilavet 60 harf (kısa: ~8 sn). Tür: teselli/toparlanma."
  }
 ]

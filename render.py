@@ -43,6 +43,14 @@ OPEN_GAIN, OPEN_GAIN_T = 0.38, (1.6, 3.2)
 # metin yerleşimi: yazılar gökyüzünde, karakter zeminde
 Y_TAG, Y_AR, Y_HOOK, Y_CAP = 118, 330, 640, 790
 Y_TIL = 560   # tilavet sırasında Arapça metnin merkezi
+# NÜZUL FORMATI (format: "nuzul" — 11 Kasım 2026): kanca (0–3 sn) → bağlam / nüzul sebebi (3–15) →
+#   tilavet + ekranda dinamik meal, 3–4 görsel geçiş (15–30) → döngü kapanışı (30–40; son cümle hook'a bağlanır)
+NUZUL_AR_MAX = 115            # okunan Arapça (len(AR) toplamı) — Huzeyfi'de ≈ 0,15 sn/harf → 9–17 sn
+NUZUL_BAGLAM_KELIME = 36      # bağlam en fazla (≈ 12 sn)
+NUZUL_KAPANIS_KELIME = 26     # döngü kapanışı en fazla (≈ 9 sn)
+LOOP_TAIL = 0.3               # son sözden sonra sessizlik: video başa dönünce hook hemen gelsin
+SUB_X = 0.5                   # tilavet içi görsel geçişi (çapraz geçiş, sn)
+SUBCAM = ('it', 'kay', 'cek', 'it')
 
 
 def tr_upper(s):
@@ -168,10 +176,51 @@ def meal_of(c, v, b):
     return tr if tr.endswith(('.', '!', '?', '"')) else tr + '.'
 
 
+def nuzul_of(tp):
+    """format: "nuzul" konusunu doğrular → {baglam, kapanis, gorseller}; başka formatta None.
+    Alanlar: seslendirme.baglam (en fazla 3 cümle: ayetin bağlamı / nüzul sebebi), baglam_kaynak (zorunlu: bağlamın dayandığı
+    kaynak — tefsir adı + adres ya da komşu ayetlerin meali), seslendirme.kapanis (son cümlesi hook'a bağlanır), gorseller (3–4 sahne)."""
+    if tp.get('format') != 'nuzul': return None
+    def err(m): raise SystemExit(f"{tp['id']}: nüzul formatı — {m}")
+    c = tp['sure']; a, b = tp['ayet']; ses = tp.get('seslendirme', {})
+    if not tp.get('tilavet'): err("'tilavet' alanı gerekli")
+    if tp['tilavet'].get('ayetler'): err("'tilavet.ayetler' kullanılmaz (bütün ayetler kâriden okunur)")
+    bag, kap = (ses.get('baglam') or '').strip(), (ses.get('kapanis') or '').strip()
+    if not bag: err("seslendirme.baglam yok")
+    if not (tp.get('baglam_kaynak') or '').strip(): err("baglam_kaynak yok (bağlam / nüzul sebebi kaynaksız yazılmaz)")
+    if len(bag.split()) > NUZUL_BAGLAM_KELIME: err(f"bağlam {len(bag.split())} kelime (en fazla {NUZUL_BAGLAM_KELIME})")
+    if sum(bag.count(x) for x in '.!?') > 3: err("bağlam en fazla 3 kısa cümle")
+    if not kap: err("seslendirme.kapanis yok (döngü kapanışı)")
+    if len(kap.split()) > NUZUL_KAPANIS_KELIME: err(f"kapanış {len(kap.split())} kelime (en fazla {NUZUL_KAPANIS_KELIME})")
+    n = sum(len(AR[(c, v)]) for v in range(a, b + 1))
+    if n > NUZUL_AR_MAX: err(f"Arapça {n} harf (en fazla {NUZUL_AR_MAX})")
+    if any(meal_of(c, v, b) is None for v in range(a, b + 1)): err("Diyanet'in birleştirdiği mealler bu formatta kullanılmaz")
+    g = list(tp.get('gorseller') or [])
+    if not 3 <= len(g) <= 4 or any(x not in CI.SCENES for x in g): err(f"gorseller 3–4 sahne olmalı: {sorted(CI.SCENES)}")
+    if any(g[i] == g[i + 1] for i in range(len(g) - 1)): err("komşu görseller aynı sahne olamaz")
+    return {'baglam': bag, 'kapanis': kap, 'gorseller': g}
+
+
+def yazi_meal(text, v, start, end):
+    """Nüzul formatı: meal seslendirilmez; tilavet sürerken ekranda kelime kelime ilerler (süre kelime uzunluğuna göre paylaştırılır)."""
+    ws = text.split()
+    wt = [len(w) + (5 if w[-1] in '.,;:!?"' else 1) for w in ws]
+    t0, t1 = start + 0.12, max(start + 0.6, end - 0.25)
+    k = (t1 - t0) / sum(wt); out, t = [], t0
+    for w, x in zip(ws, wt):
+        out.append((w, t, t + x * k * 0.9)); t += x * k
+    return dict(kind='meal', text=text, verse=v, start=t0, end=t1, words=out)
+
+
 def segments(tp):
     """Seslendirme parçaları: [(tür, metin, ayet_no, sonraki_sessizlik_sn)] — mcp_voice.py de bunu kullanır."""
     c = tp['sure']; a, b = tp['ayet']; sname = SURE[str(c)]
     ses = tp.get('seslendirme', {})
+    nz = nuzul_of(tp)
+    if nz:   # kanca → bağlam → tilavet (meal ekranda, yazi_meal) → döngü kapanışı; TTS yalnız 3 parça
+        segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', nz['baglam'], None, 0.5)]
+        segs += [('tilavet', AR[(c, v)].strip(), v, 0.3 if v < b else 0.55) for v in range(a, b + 1)]
+        return segs + [('cta', nz['kapanis'], None, LOOP_TAIL)]
     giris = ses.get('giris') or "Bu ayeti sonuna kadar dinle."
     yorum = ses.get('yorum') or tp['aciklama']
     kap = tp['kapanis'].rstrip('.') + '.'
@@ -245,6 +294,12 @@ def build_timeline(tp):
         g = gap * GAP_K
         audio += [smp, np.zeros(int(g * VO.SR), np.float32)]
         t += dur + g
+    if tp.get('format') == 'nuzul':   # her tilavetin üstüne ekranda ilerleyen meal
+        c, (a, b) = tp['sure'], tp['ayet']; out = []
+        for sg in tl:
+            out.append(sg)
+            if sg['kind'] == 'tilavet': out.append(yazi_meal(meal_of(c, sg['verse'], b), sg['verse'], sg['start'], sg['end']))
+        tl = out
     return tl, np.concatenate(audio), t
 
 
@@ -414,6 +469,14 @@ def render(tp, out):
                            '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-shortest', out], stdin=subprocess.PIPE)
 
     kurgu = kurgu_of(tp)
+    nz = nuzul_of(tp)
+    G = nz['gorseller'] if nz else None   # tilavet boyunca sırayla gösterilen sahneler (ayetin kelimeleriyle eşleşir)
+    Es = {g: (E if g == scene else CI.Env(g, int(tp['id'][1:]) * 13 + 5 + 7 * j)) for j, g in enumerate(G or [])}
+
+    def sub(j, t):
+        s0, s1 = bounds[1]; d = (s1 - s0) / len(G)
+        lt = max(0.0, t - (s0 + j * d)); k = clamp01(lt / d)
+        CI.SCENES[G[j]](c, t, 1, lt, k, cam_move(SUBCAM[j % len(SUBCAM)], 1, t, k, lt), Es[G[j]])
 
     def cam_for(i, t):
         s0, s1 = bounds[i]; u = clamp01((t - s0) / max(0.1, s1 - s0))
@@ -421,6 +484,13 @@ def render(tp, out):
 
     def shot(i, t):
         s0, s1 = bounds[i]; lt = max(0.0, t - s0); k = clamp01(lt / max(0.1, s1 - s0))
+        if i == 1 and G:
+            d = (s1 - s0) / len(G); j = min(len(G) - 1, int(lt / d)); lj = lt - j * d
+            if j > 0 and lj < SUB_X:
+                sub(j - 1, t); c.saveLayerAlpha(None, int(255 * CI.smooth(lj / SUB_X))); sub(j, t); c.restore()
+            else:
+                sub(j, t)
+            return
         CI.SCENES[scene](c, t, i, lt, k, cam_for(i, t), E)
 
     def words_draw(sprites, words, t, appear=0.28, hi_on=True, base_alpha=1.0, rise=14, pre=False):
@@ -452,8 +522,8 @@ def render(tp, out):
             shot(cur, t)
         # okunabilirlik: metin bölgesinin arkasında yumuşak karartma
         band_a = 0.0
-        if t < hook['end'] + 0.6 or t >= cta['start'] - 0.2: band_a = 0.42
-        elif any(cs['start'] - 0.2 <= t < cs['hold'] for cs in capsegs): band_a = 0.3
+        if t < hook['end'] + 0.6 or t >= cta['start'] - 0.2: band_a = 0.58 if nz and t < hook['end'] + 0.6 else 0.42
+        elif any(cs['start'] - 0.2 <= t < cs['hold'] for cs in capsegs): band_a = 0.5 if nz else 0.3   # nüzul: meal aydınlık sahnelerin üstünde de okunsun
         elif any(s['start'] - 0.3 <= t < s['end'] + 0.3 for s in til.values()): band_a = 0.34
         if band_a:
             sh_ = skia.GradientShader.MakeLinear([skia.Point(0, 180), skia.Point(0, 1020)],
@@ -475,11 +545,15 @@ def render(tp, out):
             y, sc = Y_AR, 1.0
             if til and cv['verse'] in til:   # tilavet sırasında Arapça ortada büyük, meal başlarken yukarı süzülür
                 ms = next((s for s in meal if s['verse'] >= cv['verse']), meal[-1])   # Diyanet birleşik meali: grubun son ayetinde
-                u = CI.ease_io(clamp01((t - ms['start'] + 0.35) / 0.6))
+                u = 1.0 if nz else CI.ease_io(clamp01((t - ms['start'] + 0.35) / 0.6))
                 y, sc = CI.lerp(Y_TIL, Y_AR, u), CI.lerp(1.14, 1.0, u)
                 ts = til[cv['verse']]
                 ka = clamp01((t - ts['start'] + 0.2) / 0.4) * (1 - clamp01((t - ts['end'] - 0.1) / 0.3))
-                draw_img(c, kari, 0, Y_TIL + im.height() * 0.62, 0.8 * ka * aout)
+                if nz:   # meal aynı anda ekranda: Arapça üstte kalır, kâri etiketi hemen altında
+                    y = max(Y_AR + 20, Y_TAG + 40 + im.height() / 2)
+                    draw_img(c, kari, 0, y + im.height() / 2 - 14, 0.8 * ka * aout)
+                else:
+                    draw_img(c, kari, 0, Y_TIL + im.height() * 0.62, 0.8 * ka * aout)
             y = max(y, Y_TAG + 40 + im.height() / 2)   # uzun ayette Arapça metin üstteki tema etiketine binmesin
             draw_img(c, im, 0, y - im.height() / 2, CI.ease_out(ain) * aout, blur=8 * (1 - CI.ease_out(ain)), scale=sc + 0.03 * (1 - ain))
         # altyazılar
@@ -491,7 +565,7 @@ def render(tp, out):
         # KAPANIŞ
         if t >= cta['start'] - 0.1:
             words_draw(cta_sp, cta['words'], t, 0.35, True, 1.0, 18)
-            fa = clamp01((t - cta['end'] + 0.4) / 0.6)
+            fa = clamp01((t - cta['start'] - 0.3) / 0.6) if nz else clamp01((t - cta['end'] + 0.4) / 0.6)   # döngü: künye kapanış boyunca görünür
             draw_img(c, refimg, 0, Y_HOOK - 40 + cta_h / 2 + 30, fa)
             draw_img(c, handle, 0, Y_HOOK - 40 + cta_h / 2 + 90, fa)
         # ince ilerleme çizgisi

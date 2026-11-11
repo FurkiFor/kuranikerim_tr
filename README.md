@@ -52,6 +52,16 @@ GitHub Actions'ta: Settings → Secrets and variables → Actions → `ELEVENLAB
 - Bulut oturumu everyayah'a erişemez: dosyalar ElevenLabs `creative_attach_reference_file` ile çekilip asset önizleme adresinden indirilir.
 - Önizleme: `KT_STILLS=2,15,70 python3 render.py <id>` yalnızca o saniyeleri PNG olarak yazar.
 
+## Nüzul formatı (`"format": "nuzul"` — 11 Kasım 2026'dan bütün yeni anlatımlı videolar)
+Kanca (0–3 sn) → bağlam / nüzul sebebi (`seslendirme.baglam`, 3–15 sn) → tilavet + ekranda kelime kelime ilerleyen Diyanet meali, arkada `gorseller`'deki 3–4 sahne (15–30 sn) → döngü kapanışı (`seslendirme.kapanis`, son cümlesi hook'a bağlanır; 30–40 sn).
+```
+"format": "nuzul", "gorseller": ["firtina", "yildiz", "kalp"],
+"seslendirme": {"baglam": "… Bunun üzerine şu ayetler indi.", "kapanis": "… Şimdi kendine bir daha sor:"},
+"baglam_kaynak": "İbn Abbâs rivayeti (Buhârî, Müslim; <adres>): …"
+```
+- Meal seslendirilmez (TTS yalnız hook, bağlam, kapanış); `render.yazi_meal` meali tilavet süresine yayar. Okunan Arapça ≤ 115 harf; birleşik meal yok; `baglam_kaynak` zorunlu — `render.nuzul_of` bunları denetler.
+- Bağlam kaynaksız yazılmaz; kurallar `GUNLUK.md` "NÜZUL FORMATI" bölümünde.
+
 ## Sahneler (`sahne` alanı)
 | sahne | anlatım | uygun temalar |
 |---|---|---|

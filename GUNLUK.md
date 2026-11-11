@@ -15,6 +15,29 @@ Bu dosya zamanlanmış görevlerin talimatıdır. İki parti var:
 | 23:30 | tilavetli anlatımlı (teselli, gece kapanışlı; 25 Ekim) | aynı video | — |
 YouTube'a ve TikTok'a tilavet kartı GÖNDERİLMEZ; Instagram'a Türkçe sesli video GÖNDERİLMEZ.
 
+## NÜZUL FORMATI — 11 Kasım 2026'dan bütün yeni Türkçe sesli videolar (Furkan'ın talimatı)
+Bu bölüm aşağıdaki eski yapı kurallarının (4. bölümde "hook → giriş → tilavet → Türkçe meal → kapanış", 5b, 6'daki parça sayısı) **önüne geçer**. Slotlar, platform düzeni, konu karışımı, hook/doğruluk kuralları, SEO, planlama ve kart kuralları aynen kalır; değişen yalnız anlatımlı videonun yapısıdır. Kartlar (Instagram) bu formata girmez.
+
+| Zaman | Bölüm | topics.json | Kural |
+|---|---|---|---|
+| 0–3 sn | **Kanca** | `hook` | tek cümle, ekranda büyük ve yüksek kontrastlı; ses 0,06 sn'de başlar (OPEN_* değişmez) |
+| 3–15 sn | **Bağlam / nüzul sebebi** | `seslendirme.baglam` + `baglam_kaynak` | 2 (en fazla 3) kısa cümle, ≤ 36 kelime: ayet hangi olay üzerine, kime, ne zaman indi. Son cümle ayete bağlar ("…şu ayet indi.") |
+| 15–30 sn | **Tilavet + dinamik meal** | `tilavet`, `gorseller` | Ali el-Huzeyfi okur; Diyanet meali **seslendirilmez**, tilavet boyunca ekranda kelime kelime ilerler. Arkada `gorseller`'deki 3–4 sahne sırayla geçer |
+| 30–40 sn | **Döngü kapanışı** | `seslendirme.kapanis` | 1 cümle öz (mealin söylediği) + hook'a bağlanan son cümle; sonda "Kaydet…" çağrısı yok, sessizlik 0,3 sn (video başa dönünce hook hemen gelir) |
+
+- Konu alanları: `"format": "nuzul"`, `tilavet` (aynı nesne; `ayetler` yazılmaz), `gorseller: [3–4 sahne adı]`, `seslendirme: {baglam, kapanis}`, `baglam_kaynak`, ayrıca her zamanki `hook, kapanis (kısa), sahne, kurgu, seo, aciklama, etiketler, tema`. `seslendirme.giris` / `yorum` yazılmaz. Örnek: topics.json v271–v275.
+- **Ayet:** 1–3 ardışık ayet, okunan Arapça `len(AR)` toplamı **60–115 harf** (Huzeyfi ≈ 0,15 sn/harf → 9–17 sn; hedef 12–15 sn). Diyanet'in birleştirdiği mealler kullanılmaz (render reddeder). Kullanılmış sure:ayet tekrar edilmez.
+- **Bağlam kaynağı (en önemli kural):** nüzul sebebi **hafızadan yazılmaz**. WebSearch/WebFetch ile doğrula: Diyanet "Kur'an Yolu" tefsiri, TDV İslâm Ansiklopedisi ya da Buhârî/Müslim rivayetini kaynağıyla aktaran sayfa. `baglam_kaynak`'a kaynağı (eser/hadis no + adres) ve bir cümlelik özetini yaz. Kaynakta olmayan isim, sayı, tarih, duygu ayrıntısı eklenmez; rivayet "rivayete göre" diye söylenir. Belirli bir nüzul olayı yoksa ya da doğrulanamıyorsa "nüzul sebebi" denmez: bağlam ayetin kendi ve komşu ayetlerinin mealinden yazılır (kimin sözü, hangi durumda — açık adlı dua ve kıssa konularında hep böyle; `baglam_kaynak` = ayet no + meal özeti). Doğrulanamayan konu seçilmez.
+- **Görseller:** `gorseller` meal sırasıyla ayetin kelimeleriyle eşleşir (ör. "acele" → `firtina`, "yalnız dinle" → `yildiz`, "kalbine" → `kalp`; sahne anlamları README tablosunda). Komşu iki görsel aynı olmaz; `sahne` (açılış ve kapanış) görsellerden farklı olabilir. Art arda üç videoda aynı `sahne` olmaz.
+- **Döngü kapanışı:** son cümle hook sorusuna geri götürür: "…kendine bir daha sor:" / "…kendine yeniden sor:" + (video başa döner) hook. Mealin söylemediği vaat yok; "bu ayetin gizli detayı", "kimsenin bilmediği", "devamını kaçırma" gibi tık tuzağı cümleleri **yazılmaz** (2. kural: hook/giriş/kapanış mealin söylemediğini vaat etmez). Emir kipi yok. Gece hitabı yine günde 1, yalnız 23:30 kapanışında. ≤ 26 kelime.
+- **Başlık:** `yt_baslik` açık adla ya da aranan ifadeyle başlar + "iniş hikâyesi" / olayın adı (ör. "Ebû Tâlib İçin İnen Ayet | Kasas 56", "Bedir'de Gelen Cevap | Enfâl 9", "Acele Etme Ayetinin İniş Hikâyesi | Kıyâme 16-17"); fikir bankası: "İçin Daraldığında Bu Ayetin İniş Hikâyesini Hatırla", "İnsan Neden Hiç Doymaz? 1400 Yıllık Cevap", "Gece Uyutmayan Düşüncelere Karşı Tek Bir Ayet" — başlık ayetin gerçekten söylediğiyle örtüşmeli. `aciklama` nüzul kaynağını kısaca anar.
+- **Slot karışımı aynı:** 10:00 teselli · 18:00 teselli ya da açık adlı peygamber sözü/duası · 20:30 açık adlı dua · 23:30 teselli (gece kapanışlı). Hepsi nüzul yapısında; dua/kıssa konularında "bağlam" = duanın Kur'an'daki hikâyesi.
+- **Ses:** yalnız 3 parça (hook, bağlam, kapanış) ≈ 330–400 kredi/video. `mcp_voice.py plan <id>` yine parçaları verir. **Tilavet kaynağı değişmedi** (Ali el-Huzeyfi, King Fahd Kompleksi kaydı); kayda yankı/efekt eklenmez.
+- **Kontrol:** `python3 -c "import json,render;[render.nuzul_of(t) for t in json.load(open('topics.json'))]"` hatasız; süre 28–42 sn; kare kontrolünde 0. sn (hook), bağlamın ortası, **tilavet içinde her görselden bir kare** (meal okunuyor, Arapça ve kâri etiketi binmiyor), son 1 sn (künye görünür).
+- **Stok:** nüzul formatlı planlanmamış konu 6'nın altına düşünce en az 8 yeni konu yaz (≥%50 açık adlı dua/peygamber — 9 Kasım kararı 3). Eski yapıdaki planlanmamış konu seçilirse önce bu formata çevrilir (`kopru_kaynak` → `baglam_kaynak`; ayet sınırı 115).
+- **Hazır stok (11 Kasım):** v271 Kıyâme 16-17 (sesi üretildi, render edildi — **11 Kasım 20:30'a planla**, YT + TikTok) · v273 Kehf 6 (gece kapanışlı → 23:30) · v274 Enfâl 9 "Bedir'de Gelen Cevap" · v272 Kasas 56 "Ebû Tâlib İçin İnen Ayet" · v275 Müddessir 1-3.
+- **Değerlendirme:** 16 Kasım haftalığında nüzul formatı (≥8 video) eski tilavetli anlatımlıyla karşılaştırılır: YouTube medyan izlenme + izlenme oranı, TikTok 2. sn / ort. izleme. Sonuç strateji.md'ye yazılır; format Furkan'ın kararı olduğu için veri kötüyse **kaldırılmaz, Furkan'a bildirilir**.
+
 Görev metni hangi partide olduğunu söyler. Hesapların tüm yönetimi bu göreve aittir: içerik seçimi, üretim, saat, yayın, yorumlara yanıt, strateji güncellemesi. Amaç her üç hesabı büyütmek. Kullanıcıyla (Furkan) Türkçe konuş; rakam uydurma.
 
 ## 0. Ortam notları

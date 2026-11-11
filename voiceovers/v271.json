@@ -1,0 +1,30 @@
+{
+ "id": "v271",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "mCmylWUfvKrnBWfKjqC9",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Sürekli bir şeylere geç kalmış gibi mi hissediyorsun?",
+   "prompt": "[deep voice] [slowly] Sürekli bir şeylere geç kalmış gibi mi hissediyorsun?",
+   "generation_id": "xXDCi9MsY2tJXTdfp9Bs",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Jo51dlYCIfesRgsPOeFL/xXDCi9MsY2tJXTdfp9Bs/content.mp3?Expires=1794402000&KeyName=assets-cdn-key-1&Signature=XjxSQfytvUD7IGk8pdW7ZXn2xfU="
+  },
+  {
+   "kind": "giris",
+   "text": "Vahiy gelirken Peygamberimiz, ayetleri unutmamak için Cebrail ile birlikte aceleyle tekrar ederdi. Bunun üzerine Kıyâme Suresi'nin şu ayetleri indi.",
+   "prompt": "[deep voice] [slowly] Vahiy gelirken Peygamberimiz, ayetleri unutmamak için Cebrail ile birlikte aceleyle tekrar ederdi. Bunun üzerine Kıyâme Suresi'nin şu ayetleri indi.",
+   "generation_id": "2IlbwiewsO7wP54dcynt",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/VPy7g3Uw1EbUcItr7X1U/2IlbwiewsO7wP54dcynt/content.mp3?Expires=1794402000&KeyName=assets-cdn-key-1&Signature=nCBCPaeVzOLpG4xzDi0u2Zj3-uQ="
+  },
+  {
+   "kind": "cta",
+   "text": "Peygamberimize, acele etme, yalnız dinle buyuruldu; gerisini Rabbi üstlendi. Şimdi kendine bir daha sor:",
+   "prompt": "[deep voice] Peygamberimize, acele etme, yalnız dinle buyuruldu; gerisini Rabbi üstlendi. Şimdi kendine bir daha sor:",
+   "generation_id": "mqnQsd2KjyRTDVSHCGey",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/G9QFI7v4DwwbPUn4bBHQ/mqnQsd2KjyRTDVSHCGey/content.mp3?Expires=1794402000&KeyName=assets-cdn-key-1&Signature=K1fcM25cNd1OTzfGrudNf5PizjQ="
+  }
+ ]
+}
