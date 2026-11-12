@@ -11783,5 +11783,50 @@
    ]
   },
   "not": "11 Kasım. Nüzul formatı. Tilavet 60 harf (kısa: ~8 sn). Tür: teselli/toparlanma."
+ },
+ {
+  "id": "v276",
+  "tur": "kart",
+  "sure": 37,
+  "ayet": [
+   75,
+   76
+  ],
+  "kart_metin": "And olsun ki, Nuh Bize seslenmişti de duasına ne güzel icabet etmiştik",
+  "sahne": "kum",
+  "hook": "Hz. Nuh Rabbine seslendi, duasına icabet edildi",
+  "tema": "Duanın kabulü",
+  "etiketler": [
+   "dua",
+   "hz nuh",
+   "saffat suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sâffât Suresi 75-76. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Onu ve ailesini büyük sıkıntıdan kurtarmıştık",
+  "seo": {
+   "yt_baslik": "Hz. Nuh'un duasına icabet | Sâffât 75-76",
+   "ilk_satir": "Duanın kabulü | Sâffât 75-76: And olsun ki, Nuh Bize seslenmişti de duasına ne güzel icabet etmiştik",
+   "aciklama": "Sâffât Suresi 75-76. ayetler, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "dua",
+    "duanın kabulü",
+    "saffat suresi 75",
+    "tilavet"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 75,
+    "metin": "And olsun ki, Nuh Bize seslenmişti de duasına ne güzel icabet etmiştik"
+   },
+   {
+    "ayet": 76,
+    "metin": "Onu ve ailesini büyük sıkıntıdan kurtarmıştık"
+   }
+  ],
+  "ust": "Hz. Nuh Rabbine seslendi, duasına icabet edildi",
+  "not": "SABAH 12 Kasım: 18:00 açık adlı dua/kabul kartı (≤90 harfli kullanılmamış tek dua ayeti kalmadı → duanın kabulü). 100 Arapça harf (49+51)."
  }
 ]

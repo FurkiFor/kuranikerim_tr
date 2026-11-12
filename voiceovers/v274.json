@@ -1,0 +1,30 @@
+{
+ "id": "v274",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "jR3FZ3I8lP9iW4JYRrSw",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Yardım istedin de cevap gelmedi mi sanıyorsun?",
+   "prompt": "[deep voice] [slowly] Yardım istedin de cevap gelmedi mi sanıyorsun?",
+   "generation_id": "FojGMTyZidoBVAlmtLS3",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/6YASiUylwEQM9WyTxvxy/FojGMTyZidoBVAlmtLS3/content.mp3?Expires=1794463200&KeyName=assets-cdn-key-1&Signature=SEPRAwLWQG_ju3AAyf_1az7CO2o="
+  },
+  {
+   "kind": "giris",
+   "text": "Bedir'de Müslümanlar güçsüz bir durumdaydı ve Rablerinden yardım istiyorlardı. Enfâl Suresi o günü şöyle anlatır.",
+   "prompt": "[deep voice] [slowly] Bedir'de Müslümanlar güçsüz bir durumdaydı ve Rablerinden yardım istiyorlardı. Enfâl Suresi o günü şöyle anlatır.",
+   "generation_id": "lzyVLhSb7IVUdUmVMEvC",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/talzA8n3a0x2bmGdKSPD/lzyVLhSb7IVUdUmVMEvC/content.mp3?Expires=1794463200&KeyName=assets-cdn-key-1&Signature=I5JTf8ZTCDmLynD2DYxH9K9xu60="
+  },
+  {
+   "kind": "cta",
+   "text": "O gün yardım isteyenlere cevap verilmişti. Duan karşılıksız kalıyor gibi geliyorsa kendine bir daha sor:",
+   "prompt": "[deep voice] O gün yardım isteyenlere cevap verilmişti. Duan karşılıksız kalıyor gibi geliyorsa kendine bir daha sor:",
+   "generation_id": "8ibC6RuNlGK2rApMRl1j",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/9oLVNWSWFXqhUFCiT4xJ/8ibC6RuNlGK2rApMRl1j/content.mp3?Expires=1794463200&KeyName=assets-cdn-key-1&Signature=psxet-M9LuzWLi9l2neViApqDqQ="
+  }
+ ]
+}
