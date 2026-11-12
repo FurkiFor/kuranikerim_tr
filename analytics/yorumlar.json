@@ -1,5 +1,18 @@
 [
  {
+  "platform": "tiktok",
+  "accountId": "6ad42f22301325504552e868",
+  "postId": "7707161350019058965",
+  "gonderi": "Yardım istedin de cevap gelmedi mi sanıyorsun? Bedir'de inen yardım ayeti | Enfâ",
+  "commentId": "7707166836710294292",
+  "yazan": "uiubek511",
+  "metin": "🤍",
+  "tarih": "2026-11-12T06:23:57.000Z",
+  "begeni": 0,
+  "yanitlanabilir": true,
+  "yanitlandi": false
+ },
+ {
   "platform": "instagram",
   "accountId": "6ad42eb0a87940951247b3ea",
   "postId": "17915789355580361",
@@ -21,9 +34,9 @@
   "yazan": "bhnkikh",
   "metin": "🤲🤲🤲",
   "tarih": "2026-11-11T17:19:23.000Z",
-  "begeni": 1,
+  "begeni": 2,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -49,7 +62,7 @@
   "tarih": "2026-11-11T12:54:58+0000",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -62,7 +75,7 @@
   "tarih": "2026-11-11T10:01:30+0000",
   "begeni": 0,
   "yanitlanabilir": true,
-  "yanitlandi": false
+  "yanitlandi": true
  },
  {
   "platform": "instagram",
@@ -489,45 +502,6 @@
   "yazan": "sakhiking405",
   "metin": "🥰🥰🥰",
   "tarih": "2026-11-05T14:18:30.000Z",
-  "begeni": 0,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "instagram",
-  "accountId": "6ad42eb0a87940951247b3ea",
-  "postId": "18342767275260977",
-  "gonderi": "Dua | Mü'minûn 39-40: Rabbim! Beni yalancı saymalarına karşılık bana yardım et 🤍",
-  "commentId": "17950275402341102",
-  "yazan": "orhaan120ozdemir",
-  "metin": "\"Bil ki sana çok yakınım.\"\n(2/Bakara, 186)",
-  "tarih": "2026-11-05T09:06:39+0000",
-  "begeni": 0,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "instagram",
-  "accountId": "6ad42eb0a87940951247b3ea",
-  "postId": "17964567267246489",
-  "gonderi": "Allah bilir ayeti | Tâhâ 7: şüphesiz O gizliyi de, gizlinin gizlisini de bilir 🤍",
-  "commentId": "18107672522525957",
-  "yazan": "orhaan120ozdemir",
-  "metin": "“Allah'ın rahmetinden ümidinizi kesmeyin.”\n◽️ Zümer Suresi 53. Ayet",
-  "tarih": "2026-11-05T06:06:53+0000",
-  "begeni": 0,
-  "yanitlanabilir": true,
-  "yanitlandi": true
- },
- {
-  "platform": "instagram",
-  "accountId": "6ad42eb0a87940951247b3ea",
-  "postId": "17969771787207970",
-  "gonderi": "Sabır ayeti | İnsân 24: Rabbinin hükmüne kadar sabret 🤍\n\nİnsân Suresi 24. ayet, ",
-  "commentId": "18187665553418265",
-  "yazan": "ahmetturut12",
-  "metin": "❤️❤️",
-  "tarih": "2026-11-05T06:03:29+0000",
   "begeni": 0,
   "yanitlanabilir": true,
   "yanitlandi": true
