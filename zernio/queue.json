@@ -2299,20 +2299,26 @@
   "at": "2026-11-12T20:30:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6af5af6a1dd2f2b58b539e69",
+  "status": "scheduled"
  },
  {
   "id": "v279",
   "at": "2026-11-12T20:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af5af6b6f09779f8220094c",
+  "status": "scheduled"
  },
  {
   "id": "v283",
   "at": "2026-11-12T23:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af5af6c1bbc984754a8a89a",
+  "status": "scheduled"
  }
 ]
