@@ -11828,5 +11828,470 @@
   ],
   "ust": "Hz. Nuh Rabbine seslendi, duasına icabet edildi",
   "not": "SABAH 12 Kasım: 18:00 açık adlı dua/kabul kartı (≤90 harfli kullanılmamış tek dua ayeti kalmadı → duanın kabulü). 100 Arapça harf (49+51)."
+ },
+ {
+  "id": "v277",
+  "tema": "Başlamak",
+  "sure": 96,
+  "ayet": [
+   1,
+   2
+  ],
+  "hook": "Bir şeye başlamaya cesaret edemiyor musun?",
+  "kapanis": "Rabbinin adıyla başla.",
+  "bg": "yol",
+  "sahne": "yol",
+  "aciklama": "Alak Suresi 1-2. ayetler, Hira Mağarası'nda Hz. Peygamber'e inen ilk ayetlerdir: Yaratan Rabbin adıyla okumak (Hz. Âişe rivayeti, Buhârî). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "ilk vahiy",
+   "alak suresi",
+   "nüzul sebebi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "fener",
+   "yildiz",
+   "yol"
+  ],
+  "seslendirme": {
+   "baglam": "Peygamberimiz Hira Mağarası'ndayken melek gelip 'Oku' dedi. O, 'Ben okuma bilmem' diye cevap verdi. Bunun üzerine ilk inen ayetler şunlardı.",
+   "kapanis": "İlk emir, seni yaratan Rabbinin adıyla başlamaktı. Başlamak sana zor geliyorsa kendine bir daha sor:"
+  },
+  "baglam_kaynak": "Âişe rivayeti (Buhârî, Bed'ü'l-vahy 3; müttefekun aleyh — hadeethenc.com/tr/browse/hadith/66303): Hz. Peygamber Hira Mağarası'ndayken melek gelip 'Oku' dedi, 'Ben okuma bilmem' dedi; ardından Alak 1-3 indi. Kapanış = Alak 1 meali.",
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "vurgu",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "İlk İnen Ayetin Hikâyesi | Alak 1-2 · Hira'da ilk vahiy",
+   "ilk_satir": "Bir şeye başlamaya cesaret edemiyor musun? İlk inen ayet ve Hira'daki iniş hikâyesi | Alak 1-2",
+   "aciklama": "Alak Suresi 1-2. ayetler, Hira Mağarası'nda Hz. Peygamber'e inen ilk ayetlerdir: Yaratan Rabbin adıyla okumak (Hz. Âişe rivayeti, Buhârî). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "ilk inen ayet",
+    "alak suresi",
+    "ilk vahiy",
+    "alak 1"
+   ]
+  },
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 69 harf."
+ },
+ {
+  "id": "v278",
+  "tema": "Hesap",
+  "sure": 3,
+  "ayet": [
+   128,
+   128
+  ],
+  "hook": "Seni üzenlerin hesabını kendin mi görmek istiyorsun?",
+  "kapanis": "Onların işi Allah'a kalmıştı.",
+  "bg": "deniz",
+  "sahne": "deniz",
+  "aciklama": "Âl-i İmrân Suresi 128. ayette, insanların tevbesini kabul etmenin ya da onlara azap etmenin Allah'ın işi olduğu bildiriliyor. Rivayete göre ayet, Hz. Peygamber'in namazda bazı müşriklere beddua etmesi üzerine indi (Buhârî). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "beddua",
+   "ali imran suresi",
+   "nüzul sebebi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "kapi",
+   "firtina",
+   "deniz"
+  ],
+  "seslendirme": {
+   "baglam": "Peygamberimiz sabah namazında, rükûdan kalkınca bazı müşriklerin adını anarak onlara beddua ediyordu. Rivayete göre bunun üzerine şu ayet indi.",
+   "kapanis": "Tevbelerini kabul etmek de azap etmek de Allah'ın işiydi. İçindeki hesap seni yoruyorsa kendine bir daha sor:"
+  },
+  "baglam_kaynak": "İbn Ömer rivayeti (Buhârî, Tefsîr 4559; ayrıca Meğâzî 4069-4070 — quran.com/al-i-imran/128/hadith): Hz. Peygamber sabah namazının son rekâtında rükûdan kalkınca bazı müşrikleri adıyla anıp lanet okurdu; Allah Âl-i İmrân 128'i indirdi. Kapanış = ayetin meali.",
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Bedduadan Sonra İnen Ayet | Âl-i İmrân 128",
+   "ilk_satir": "Seni üzenlerin hesabını kendin mi görmek istiyorsun? Bedduadan sonra inen ayet | Âl-i İmrân 128",
+   "aciklama": "Âl-i İmrân Suresi 128. ayette, insanların tevbesini kabul etmenin ya da onlara azap etmenin Allah'ın işi olduğu bildiriliyor. Rivayete göre ayet, Hz. Peygamber'in namazda bazı müşriklere beddua etmesi üzerine indi (Buhârî). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "beddua ayeti",
+    "ali imran 128",
+    "hesabı allaha bırakmak"
+   ]
+  },
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 99 harf."
+ },
+ {
+  "id": "v279",
+  "tema": "Evlat",
+  "sure": 14,
+  "ayet": [
+   39,
+   39
+  ],
+  "hook": "Evlat duan hiç kabul olmayacak mı sanıyorsun?",
+  "kapanis": "Rabbim duaları işitendir.",
+  "bg": "tohum",
+  "sahne": "tohum",
+  "aciklama": "İbrâhîm Suresi 39. ayette Hz. İbrahim, yaşlılığında kendisine İsmail ve İshak'ı veren Allah'a hamdediyor ve Rabbinin duaları işittiğini söylüyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "evlat",
+   "hz ibrahim",
+   "dua",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "kum",
+   "tohum",
+   "yildiz"
+  ],
+  "seslendirme": {
+   "baglam": "Hazreti İbrahim, çocuklarından bazılarını ekin bitmeyen bir vadiye yerleştirdiğini söyleyerek Rabbine dua etti. Duasının içinde yaşlılığında verilen oğullarını da andı.",
+   "kapanis": "Hazreti İbrahim, yaşlılığında verilen evlatları için hamd etti ve Rabbinin duaları işittiğini söyledi. Duan unutuldu sanıyorsan kendine bir daha sor:"
+  },
+  "baglam_kaynak": "İbrâhîm 35-41 meali (Hz. İbrahim'in duası; 37: 'çocuklarımdan kimini … ziraata elverişsiz bir vadiye yerleştirdim'); 39: kocamışken İsmail ve İshak'ın verilmesine hamd. Belirli nüzul olayı yok — bağlam.",
+  "kurgu": {
+   "kamera": [
+    "it",
+    "sabit",
+    "kay"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'in evlat şükrü | İbrahim 39 · Rabbim duaları işitir",
+   "ilk_satir": "Evlat duan hiç kabul olmayacak mı sanıyorsun? Hz. İbrahim'in evlat şükrü | İbrahim 39",
+   "aciklama": "İbrâhîm Suresi 39. ayette Hz. İbrahim, yaşlılığında kendisine İsmail ve İshak'ı veren Allah'a hamdediyor ve Rabbinin duaları işittiğini söylüyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "evlat duası",
+    "hz ibrahim duası",
+    "ibrahim suresi 39"
+   ]
+  },
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 113 harf."
+ },
+ {
+  "id": "v280",
+  "tema": "Evlat",
+  "sure": 19,
+  "ayet": [
+   7,
+   7
+  ],
+  "hook": "Yıllardır beklediğin bir haber mi var?",
+  "kapanis": "Müjde, bekleyen kula geldi.",
+  "bg": "fener",
+  "sahne": "fener",
+  "aciklama": "Meryem Suresi 7. ayette, yaşlılığında Rabbine içinden yalvaran Hz. Zekeriya'ya Yahya adında bir oğul müjdeleniyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "evlat",
+   "hz zekeriya",
+   "dua",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "fener",
+   "yildiz",
+   "tohum"
+  ],
+  "seslendirme": {
+   "baglam": "Hazreti Zekeriya yaşlanmıştı, eşi de kısırdı. Rabbine içinden yalvarıp kendisine bir oğul bağışlamasını istedi. Rabbinin cevabı şu oldu.",
+   "kapanis": "Kemikleri zayıflamış bir kula, daha önce kimseye verilmemiş bir adla müjde geldi. Beklemekten yorulduysan kendine bir daha sor:"
+  },
+  "baglam_kaynak": "Meryem 3-6 meali (Zekeriya Rabbine içinden yalvardı; 'kemiklerim zayıfladı, saçlarım ağardı'; 'karım da kısırdır, katından bana bir oğul bağışla'); 7: Yahya müjdesi. Belirli nüzul olayı yok — bağlam.",
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "it",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hz. Zekeriya'ya gelen müjde | Meryem 7 · Evlat duası",
+   "ilk_satir": "Yıllardır beklediğin bir haber mi var? Hz. Zekeriya'nın duasına gelen müjde | Meryem 7",
+   "aciklama": "Meryem Suresi 7. ayette, yaşlılığında Rabbine içinden yalvaran Hz. Zekeriya'ya Yahya adında bir oğul müjdeleniyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz zekeriya duası",
+    "evlat duası",
+    "meryem suresi 7"
+   ]
+  },
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 100 harf."
+ },
+ {
+  "id": "v281",
+  "tema": "Müjde",
+  "sure": 11,
+  "ayet": [
+   71,
+   71
+  ],
+  "hook": "Artık çok geç mi diye düşünüyorsun?",
+  "kapanis": "Allah'ın işine şaşılmaz.",
+  "bg": "kalp",
+  "sahne": "kalp",
+  "aciklama": "Hûd Suresi 71. ayette elçiler, Hz. İbrahim'in eşine İshak'ı ve ardından Yakub'u müjdeliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "müjde",
+   "hz ibrahim",
+   "hud suresi",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "kalp",
+   "tohum",
+   "yildiz"
+  ],
+  "seslendirme": {
+   "baglam": "Elçiler Hazreti İbrahim'e müjdeyle geldi. O, ikram ettiği yemeğe el sürmediklerini görünce içine korku düştü. Elçiler 'Korkma' dediler ve şöyle devam ettiler.",
+   "kapanis": "Hazreti İbrahim'in yaşlı eşi bu müjdeye şaşırdı; elçiler ona Allah'ın işine şaşmamasını söyledi. Çok geç sanıyorsan kendine bir daha sor:"
+  },
+  "baglam_kaynak": "Hûd 69-70 meali (elçiler müjdeyle geldi, kızartılmış buzağı, ellerini uzatmadılar, içine korku düştü, 'Korkma' dediler); 72-73 (kocakarı ve ihtiyar şaşkınlığı; 'nasıl Allah'ın işine şaşarsın'). Belirli nüzul olayı yok — bağlam.",
+  "kurgu": {
+   "kamera": [
+    "kay",
+    "sabit",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'in eşine gelen müjde | Hûd 71 · İshak ve Yakub",
+   "ilk_satir": "Artık çok geç mi diye düşünüyorsun? Hz. İbrahim'in eşine gelen müjde | Hûd 71",
+   "aciklama": "Hûd Suresi 71. ayette elçiler, Hz. İbrahim'in eşine İshak'ı ve ardından Yakub'u müjdeliyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "evlat müjdesi",
+    "hud suresi 71",
+    "hz ibrahim"
+   ]
+  },
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 97 harf."
+ },
+ {
+  "id": "v282",
+  "tema": "Tuzak",
+  "sure": 40,
+  "ayet": [
+   45,
+   45
+  ],
+  "hook": "Hakkında bir şeyler planlandığını mı hissediyorsun?",
+  "kapanis": "İşini Allah'a bırakan korundu.",
+  "bg": "yol",
+  "sahne": "yol",
+  "aciklama": "Mü'min Suresi 45. ayette Allah, işini kendisine bırakan Firavun ailesindeki mümin adamı kurulan tuzaktan koruyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "tevekkül",
+   "mümin suresi",
+   "kıssa",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "firtina",
+   "kapi",
+   "deniz"
+  ],
+  "seslendirme": {
+   "baglam": "Firavun'un ailesinden, inandığını gizleyen bir adam vardı. Kavmine gerçeği söyledi ve 'Ben işimi Allah'a bırakıyorum' dedi. Ardından şu ayet geldi.",
+   "kapanis": "İşini Allah'a bırakan o adam, kurulan tuzaktan korundu. İçindeki korku büyüyorsa kendine bir daha sor:"
+  },
+  "baglam_kaynak": "Mü'min 28 meali ('Firavun ailesinden olup da, inandığını gizleyen bir adam'), 44 ('Ben işimi Allah'a bırakıyorum'); 45: tuzaktan korundu. Belirli nüzul olayı yok — bağlam.",
+  "kurgu": {
+   "kamera": [
+    "it",
+    "kay",
+    "cek"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Firavun'un sarayındaki mümin | Mü'min 45 · Tuzaktan korunmak",
+   "ilk_satir": "Hakkında bir şeyler planlandığını mı hissediyorsun? Firavun ailesindeki mümin | Mü'min 45",
+   "aciklama": "Mü'min Suresi 45. ayette Allah, işini kendisine bırakan Firavun ailesindeki mümin adamı kurulan tuzaktan koruyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tuzaktan korunma ayeti",
+    "mümin suresi 45",
+    "işimi allaha bırakıyorum"
+   ]
+  },
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 85 harf."
+ },
+ {
+  "id": "v283",
+  "tema": "Hata",
+  "sure": 68,
+  "ayet": [
+   49,
+   49
+  ],
+  "hook": "Bir hatan yüzünden her şeyin bittiğini mi sanıyorsun?",
+  "kapanis": "Bir nimet ulaştı.",
+  "bg": "deniz",
+  "sahne": "deniz",
+  "aciklama": "Kalem Suresi 49. ayette, karanlıklar içinde Rabbine seslenen Hz. Yunus'a Rabbinin katından bir nimet ulaştığı anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "hz yunus",
+   "kalem suresi",
+   "kıssa",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "deniz",
+   "fener",
+   "yol"
+  ],
+  "seslendirme": {
+   "baglam": "Hazreti Yunus kavmine öfkelenip gitti ve karanlıklar içinde kaldı. Orada pek üzgün olarak Rabbine seslendi. Kur'an onun için şöyle der.",
+   "kapanis": "Hazreti Yunus'a Rabbinden bir nimet ulaştı; sonraki ayet, Rabbinin onu seçip iyilerden kıldığını söyler. Bittiğini sanıyorsan kendine bir daha sor:"
+  },
+  "baglam_kaynak": "Enbiyâ 87 meali ('öfkelenerek giderken … karanlıklar içinde'), Kalem 48 ('pek üzgün olarak Rabbine seslenmişti'), Kalem 50 ('Rabbi onu seçip iyilerden kıldı'). Belirli nüzul olayı yok — bağlam.",
+  "kurgu": {
+   "kamera": [
+    "sabit",
+    "it",
+    "cek"
+   ],
+   "gecis": [
+    "kararma",
+    "kesme"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hz. Yunus'a ulaşan nimet | Kalem 49 · Karanlıktan sonra",
+   "ilk_satir": "Bir hatan yüzünden her şeyin bittiğini mi sanıyorsun? Hz. Yunus'a ulaşan nimet | Kalem 49",
+   "aciklama": "Kalem Suresi 49. ayette, karanlıklar içinde Rabbine seslenen Hz. Yunus'a Rabbinin katından bir nimet ulaştığı anlatılıyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz yunus",
+    "kalem suresi 49",
+    "yunus peygamber"
+   ]
+  },
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 85 harf."
+ },
+ {
+  "id": "v284",
+  "tema": "Kurtuluş",
+  "sure": 21,
+  "ayet": [
+   71,
+   71
+  ],
+  "hook": "Çıkış yolu kalmadığını mı düşünüyorsun?",
+  "kapanis": "Kurtuluş yeri de O'nun elinde.",
+  "bg": "yol",
+  "sahne": "yol",
+  "aciklama": "Enbiyâ Suresi 71. ayette Allah, Hz. İbrahim'i ve Hz. Lut'u alemler için kutsal kıldığı yere ulaştırıp kurtardığını bildiriyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "etiketler": [
+   "kurtuluş",
+   "hz ibrahim",
+   "kıssa",
+   "tilavet"
+  ],
+  "tilavet": {
+   "kari": "Ali el-Huzeyfi",
+   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
+   "klasor": "recitations/hudhaify"
+  },
+  "format": "nuzul",
+  "gorseller": [
+   "firtina",
+   "yol",
+   "yildiz"
+  ],
+  "seslendirme": {
+   "baglam": "Hazreti İbrahim'i yakmak istediler. Ateşe serin ve zararsız olması emredildi; ona düzen kurmak isteyenler hüsrana uğradı. Ardından şu ayet gelir.",
+   "kapanis": "Ateşe atılmak istenen Hazreti İbrahim, Lut ile birlikte kutsal kılınan yere ulaştırıldı. Yol yok sanıyorsan kendine bir daha sor:"
+  },
+  "baglam_kaynak": "Enbiyâ 68-70 meali ('şunu yakın'; 'Ey ateş! İbrahim'e karşı serin ve zararsız ol'; 'düzen kurmak istediler, fakat Biz onları hüsrana uğrattık'); 71: Lut ile kurtuluş. Belirli nüzul olayı yok — bağlam.",
+  "kurgu": {
+   "kamera": [
+    "cek",
+    "vurgu",
+    "kay"
+   ],
+   "gecis": [
+    "kesme",
+    "kararma"
+   ]
+  },
+  "seo": {
+   "yt_baslik": "Hz. İbrahim ve Hz. Lut'un kurtuluşu | Enbiyâ 71",
+   "ilk_satir": "Çıkış yolu kalmadığını mı düşünüyorsun? Hz. İbrahim ve Hz. Lut'un kurtuluşu | Enbiyâ 71",
+   "aciklama": "Enbiyâ Suresi 71. ayette Allah, Hz. İbrahim'i ve Hz. Lut'u alemler için kutsal kıldığı yere ulaştırıp kurtardığını bildiriyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim ateş",
+    "enbiya suresi 71",
+    "kurtuluş ayeti"
+   ]
+  },
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 80 harf."
  }
 ]
