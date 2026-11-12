@@ -1907,18 +1907,24 @@
   "postId": "7706627738387402005",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7706964679478723349",
-  "message": "Amin, Rabbim ellerini boş çevirmesin 🤲"
+  "message": "Amin, Rabbim ellerini boş çevirmesin 🤲",
+  "sent": true,
+  "replyId": "7707125234519917333"
  },
  {
   "postId": "17978925845935259",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18452580505125218",
-  "message": "Celle celâlühû 🤍 Kalbimiz O'nu anmakla huzur bulsun."
+  "message": "Celle celâlühû 🤍 Kalbimiz O'nu anmakla huzur bulsun.",
+  "sent": true,
+  "replyId": "17911951563576808"
  },
  {
   "postId": "17978925845935259",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17889939672485769",
-  "message": "Lâ ilâhe illallah 🤍 Amin, Rabbim dualarını kabul etsin."
+  "message": "Lâ ilâhe illallah 🤍 Amin, Rabbim dualarını kabul etsin.",
+  "sent": true,
+  "replyId": "18154391683521775"
  }
 ]
