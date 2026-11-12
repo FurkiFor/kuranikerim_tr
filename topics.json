@@ -9672,7 +9672,7 @@
    26
   ],
   "kart_metin": "Doğrusu ben Rabbimin dilediği yere hicret ediyorum, O şüphesiz güçlüdür, Hakim'dir",
-  "sahne": "yol",
+  "sahne": "deniz",
   "hook": "Hz. İbrahim her şeyi bırakırken böyle dedi",
   "tema": "Hz. İbrahim'in sözü",
   "etiketler": [
@@ -9701,7 +9701,8 @@
    }
   ],
   "ust": "Hz. İbrahim her şeyi bırakırken böyle dedi",
-  "not": "Stok SABAH 6 Kasım: peygamber sözü; 98 Arapça harf (tahmin 18.4 sn)."
+  "not": "Stok SABAH 6 Kasım: peygamber sözü; 98 Arapça harf (tahmin 18.4 sn).",
+  "bg": null
  },
  {
   "id": "v232",
@@ -11092,7 +11093,7 @@
    120
   ],
   "kart_metin": "İbrahim, şüphesiz Allah'a boyun eğen ve O'na yönelen bir önderdi; puta tapanlardan değildi",
-  "sahne": "tohum",
+  "sahne": "kum",
   "hook": "Hz. İbrahim, Allah'a yönelen bir önderdi",
   "tema": "Teslimiyet",
   "etiketler": [
