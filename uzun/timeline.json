@@ -1,0 +1,1396 @@
+{
+ "total": 476.6799999999999,
+ "segs": [
+  {
+   "i": 0,
+   "bolum": "giris",
+   "start": 0.25,
+   "end": 3.95,
+   "caps": [
+    {
+     "text": "Başına gelen bir şeyin sebebini bir türlü",
+     "q": false,
+     "start": 0.25,
+     "end": 2.569402985074627
+    },
+    {
+     "text": "anlayamıyor musun?",
+     "q": false,
+     "start": 2.569402985074627,
+     "end": 3.95
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 1,
+   "bolum": "giris",
+   "start": 4.45,
+   "end": 22.8,
+   "caps": [
+    {
+     "text": "Kur'an'da bir yolculuk anlatılır.",
+     "q": false,
+     "start": 4.45,
+     "end": 7.0600000000000005
+    },
+    {
+     "text": "O yolculukta bir gemi delinir.",
+     "q": false,
+     "start": 7.0600000000000005,
+     "end": 9.625
+    },
+    {
+     "text": "Bir çocuk ölür.",
+     "q": false,
+     "start": 9.625,
+     "end": 10.975000000000001
+    },
+    {
+     "text": "Yıkılmak üzere olan bir duvar, karşılıksız onarılır.",
+     "q": false,
+     "start": 10.975000000000001,
+     "end": 14.785000000000002
+    },
+    {
+     "text": "Üçünü de aynı kişi yapar.",
+     "q": false,
+     "start": 14.785,
+     "end": 16.95
+    },
+    {
+     "text": "Yanında bir peygamber vardır.",
+     "q": false,
+     "start": 16.95,
+     "end": 19.035
+    },
+    {
+     "text": "Ve o peygamber, gördüklerinin hiçbirine dayanamaz.",
+     "q": false,
+     "start": 19.035,
+     "end": 22.8
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 2,
+   "bolum": "giris",
+   "start": 23.3,
+   "end": 38.83,
+   "caps": [
+    {
+     "text": "Bu, Kehf Suresi'nde anlatılan Hazreti Musa ve",
+     "q": false,
+     "start": 23.3,
+     "end": 26.863
+    },
+    {
+     "text": "Hızır kıssası.",
+     "q": false,
+     "start": 26.863,
+     "end": 28.39
+    },
+    {
+     "text": "Önce olanları göreceksin;",
+     "q": false,
+     "start": 28.39,
+     "end": 30.368719512195124
+    },
+    {
+     "text": "tıpkı Hazreti Musa gibi, sebebini bilmeden.",
+     "q": false,
+     "start": 30.36871951219512,
+     "end": 33.985
+    },
+    {
+     "text": "Sonra üç olayın içyüzünü, Kur'an'ın kendi",
+     "q": false,
+     "start": 33.985,
+     "end": 36.81649350649351
+    },
+    {
+     "text": "sözleriyle dinleyeceksin.",
+     "q": false,
+     "start": 36.81649350649351,
+     "end": 38.83
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 3,
+   "bolum": "Yolculuk",
+   "start": 40.83,
+   "end": 57.48,
+   "caps": [
+    {
+     "text": "Her şey bir kararla başlar.",
+     "q": false,
+     "start": 40.83,
+     "end": 43.434999999999995
+    },
+    {
+     "text": "Hazreti Musa, yanındaki genç arkadaşına şöyle der:",
+     "q": false,
+     "start": 43.434999999999995,
+     "end": 47.13999999999999
+    },
+    {
+     "text": "Ben iki denizin birleştiği yere ulaşmağa,",
+     "q": true,
+     "start": 47.14,
+     "end": 50.065
+    },
+    {
+     "text": "yahut yıllarca yürümeye kararlıyım.",
+     "q": true,
+     "start": 50.065,
+     "end": 52.794999999999995
+    },
+    {
+     "text": "Düşün: bir peygamber, öğrenmek için yıllarca",
+     "q": false,
+     "start": 52.795,
+     "end": 55.819493670886075
+    },
+    {
+     "text": "yürümeyi göze alıyor.",
+     "q": false,
+     "start": 55.819493670886075,
+     "end": 57.48
+    }
+   ],
+   "ref": "60. ayet"
+  },
+  {
+   "i": 4,
+   "bolum": "Yolculuk",
+   "start": 57.98,
+   "end": 70.62,
+   "caps": [
+    {
+     "text": "Yanlarında bir balık vardır.",
+     "q": false,
+     "start": 57.98,
+     "end": 60.36
+    },
+    {
+     "text": "İki denizin birleştiği yere ulaştıklarında onu",
+     "q": false,
+     "start": 60.36,
+     "end": 63.455390625
+    },
+    {
+     "text": "unuturlar.",
+     "q": false,
+     "start": 63.45539062499999,
+     "end": 64.57499999999999
+    },
+    {
+     "text": "Balık bir delikten kayıp denizi boylar.",
+     "q": false,
+     "start": 64.575,
+     "end": 67.43
+    },
+    {
+     "text": "Onlar ise fark etmeden yola devam ederler.",
+     "q": false,
+     "start": 67.42999999999999,
+     "end": 70.61999999999999
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 5,
+   "bolum": "Yolculuk",
+   "start": 71.12,
+   "end": 91.9,
+   "caps": [
+    {
+     "text": "Bir süre sonra Hazreti Musa yorulur.",
+     "q": false,
+     "start": 71.12,
+     "end": 74.14
+    },
+    {
+     "text": "Gence,",
+     "q": false,
+     "start": 74.14,
+     "end": 74.79949367088608
+    },
+    {
+     "text": "Azığımızı çıkar, and olsun bu yolculuğumuzda",
+     "q": true,
+     "start": 74.79949367088608,
+     "end": 77.96506329113924
+    },
+    {
+     "text": "yorgun düştük.",
+     "q": true,
+     "start": 77.96506329113924,
+     "end": 79.35000000000001
+    },
+    {
+     "text": "der.",
+     "q": false,
+     "start": 79.35000000000001,
+     "end": 80.09500000000001
+    },
+    {
+     "text": "Genç o an hatırlar:",
+     "q": false,
+     "start": 80.095,
+     "end": 81.20868421052631
+    },
+    {
+     "text": "Bak sen!",
+     "q": true,
+     "start": 81.20868421052631,
+     "end": 81.935
+    },
+    {
+     "text": "Kayalığa vardığımızda balığı unutmuştum.",
+     "q": true,
+     "start": 81.935,
+     "end": 85.13
+    },
+    {
+     "text": "Bana onu hatırlamamı unutturan ancak şeytandır.",
+     "q": true,
+     "start": 85.13000000000001,
+     "end": 88.31500000000001
+    },
+    {
+     "text": "Balık şaşılacak şekilde denizde yolunu tutup gitmiş.",
+     "q": true,
+     "start": 88.315,
+     "end": 91.9
+    }
+   ],
+   "ref": "62-63. ayetler"
+  },
+  {
+   "i": 6,
+   "bolum": "Yolculuk",
+   "start": 92.4,
+   "end": 107.29,
+   "caps": [
+    {
+     "text": "Sıradan bir unutkanlık gibi görünüyor.",
+     "q": false,
+     "start": 92.4,
+     "end": 95.08500000000001
+    },
+    {
+     "text": "Ama Hazreti Musa'nın cevabı başkadır:",
+     "q": false,
+     "start": 95.08500000000001,
+     "end": 97.80694444444445
+    },
+    {
+     "text": "İstediğimiz zaten buydu.",
+     "q": true,
+     "start": 97.80694444444445,
+     "end": 99.86500000000001
+    },
+    {
+     "text": "Ve geldikleri yoldan, izlerinin üzerinden geri",
+     "q": false,
+     "start": 99.86500000000001,
+     "end": 102.77030303030304
+    },
+    {
+     "text": "dönerler.",
+     "q": false,
+     "start": 102.77030303030304,
+     "end": 103.70000000000002
+    },
+    {
+     "text": "Aradıkları yer, tam da balığı kaybettikleri yerdir.",
+     "q": false,
+     "start": 103.7,
+     "end": 107.29
+    }
+   ],
+   "ref": "64. ayet"
+  },
+  {
+   "i": 7,
+   "bolum": "Buluşma",
+   "start": 109.29,
+   "end": 124.33000000000001,
+   "caps": [
+    {
+     "text": "Orada biriyle karşılaşırlar.",
+     "q": false,
+     "start": 109.29,
+     "end": 111.84
+    },
+    {
+     "text": "Kur'an onun adını vermez.",
+     "q": false,
+     "start": 111.84,
+     "end": 114.065
+    },
+    {
+     "text": "Onu yalnızca şöyle tanıtır:",
+     "q": false,
+     "start": 114.06500000000001,
+     "end": 116.07577272727274
+    },
+    {
+     "text": "Allah'ın, katından rahmet verdiği ve ilim",
+     "q": false,
+     "start": 116.07577272727274,
+     "end": 118.99463636363637
+    },
+    {
+     "text": "öğrettiği kullarından biri.",
+     "q": false,
+     "start": 118.99463636363637,
+     "end": 121.20000000000002
+    },
+    {
+     "text": "Hadislerde bu kulun adı Hızır olarak geçer.",
+     "q": false,
+     "start": 121.2,
+     "end": 124.33
+    }
+   ],
+   "ref": "65. ayet"
+  },
+  {
+   "i": 8,
+   "bolum": "Buluşma",
+   "start": 124.83000000000001,
+   "end": 142.69,
+   "caps": [
+    {
+     "text": "Hazreti Musa ondan tek bir şey ister:",
+     "q": false,
+     "start": 124.83000000000001,
+     "end": 127.48467625899282
+    },
+    {
+     "text": "Sana öğretileni bana hayra götüren bir bilgi",
+     "q": true,
+     "start": 127.48467625899282,
+     "end": 130.398345323741
+    },
+    {
+     "text": "olarak öğretmen için peşinden gelebilir miyim?",
+     "q": true,
+     "start": 130.398345323741,
+     "end": 133.83
+    },
+    {
+     "text": "Aldığı cevap ise bir uyarıdır:",
+     "q": false,
+     "start": 133.83,
+     "end": 135.95140845070424
+    },
+    {
+     "text": "Sen doğrusu benim yaptıklarıma dayanamazsın,",
+     "q": true,
+     "start": 135.95140845070424,
+     "end": 138.94633802816904
+    },
+    {
+     "text": "bilgice kavrayamadığın bir şeye nasıl dayanabilirsin?",
+     "q": true,
+     "start": 138.94633802816904,
+     "end": 142.69000000000003
+    }
+   ],
+   "ref": "66-68. ayetler"
+  },
+  {
+   "i": 9,
+   "bolum": "Buluşma",
+   "start": 143.19,
+   "end": 162.22,
+   "caps": [
+    {
+     "text": "Hazreti Musa söz verir:",
+     "q": false,
+     "start": 143.19,
+     "end": 144.95499999999998
+    },
+    {
+     "text": "İnşallah sabrettiğimi göreceksin, sana hiçbir",
+     "q": true,
+     "start": 144.95499999999998,
+     "end": 148.15814814814814
+    },
+    {
+     "text": "işte baş kaldırmayacağım.",
+     "q": true,
+     "start": 148.15814814814814,
+     "end": 150.25
+    },
+    {
+     "text": "Hızır tek bir şart koşar:",
+     "q": false,
+     "start": 150.25,
+     "end": 151.99521582733814
+    },
+    {
+     "text": "O halde, bana uyacaksan, ben sana anlatmadıkça",
+     "q": true,
+     "start": 151.99521582733814,
+     "end": 155.18474820143885
+    },
+    {
+     "text": "herhangi bir şey hakkında bana soru sormayacaksın.",
+     "q": true,
+     "start": 155.18474820143885,
+     "end": 158.615
+    },
+    {
+     "text": "Hazreti Musa kabul eder.",
+     "q": false,
+     "start": 158.615,
+     "end": 160.675
+    },
+    {
+     "text": "Ve yolculuk başlar.",
+     "q": false,
+     "start": 160.675,
+     "end": 162.22000000000003
+    }
+   ],
+   "ref": "69-70. ayetler"
+  },
+  {
+   "i": 10,
+   "bolum": "Gemi",
+   "start": 164.22,
+   "end": 170.38,
+   "caps": [
+    {
+     "text": "İlk olarak bir gemiye binerler.",
+     "q": false,
+     "start": 164.22,
+     "end": 166.85999999999999
+    },
+    {
+     "text": "Ve Hızır, bindikleri o gemiyi deler.",
+     "q": false,
+     "start": 166.85999999999999,
+     "end": 170.38
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 11,
+   "bolum": "Gemi",
+   "start": 170.88,
+   "end": 191.76999999999998,
+   "caps": [
+    {
+     "text": "Hazreti Musa verdiği sözü o an unutur:",
+     "q": false,
+     "start": 170.88,
+     "end": 173.91923076923075
+    },
+    {
+     "text": "Gemiyi içindekileri boğmak için mi deldin?",
+     "q": true,
+     "start": 173.91923076923075,
+     "end": 177.46499999999997
+    },
+    {
+     "text": "Doğrusu şaşılacak bir şey yaptın.",
+     "q": true,
+     "start": 177.465,
+     "end": 179.74
+    },
+    {
+     "text": "Hızır yalnızca hatırlatır:",
+     "q": false,
+     "start": 179.74,
+     "end": 181.58883720930234
+    },
+    {
+     "text": "Ben sana yaptığım işlere dayanamazsın demedim mi?",
+     "q": true,
+     "start": 181.5888372093023,
+     "end": 185.04
+    },
+    {
+     "text": "Hazreti Musa özür diler:",
+     "q": false,
+     "start": 185.04,
+     "end": 186.73765765765765
+    },
+    {
+     "text": "Unuttuğum için bana çıkışma, gücümün yetmediği",
+     "q": true,
+     "start": 186.73765765765765,
+     "end": 189.76918918918918
+    },
+    {
+     "text": "şeyden beni sorumlu tutma.",
+     "q": true,
+     "start": 189.76918918918918,
+     "end": 191.76999999999998
+    }
+   ],
+   "ref": "71-73. ayetler"
+  },
+  {
+   "i": 12,
+   "bolum": "Gemi",
+   "start": 192.26999999999998,
+   "end": 202.89999999999998,
+   "caps": [
+    {
+     "text": "Sen o gemide olsaydın ne derdin?",
+     "q": false,
+     "start": 192.26999999999998,
+     "end": 195.075
+    },
+    {
+     "text": "Seni taşıyan gemiye zarar veren birine",
+     "q": false,
+     "start": 195.075,
+     "end": 197.33142857142855
+    },
+    {
+     "text": "susabilir miydin?",
+     "q": false,
+     "start": 197.33142857142855,
+     "end": 198.71999999999997
+    },
+    {
+     "text": "Bunu aklında tut.",
+     "q": false,
+     "start": 198.71999999999997,
+     "end": 200.13499999999996
+    },
+    {
+     "text": "Çünkü ikinci olay, çok daha ağır.",
+     "q": false,
+     "start": 200.135,
+     "end": 202.89999999999998
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 13,
+   "bolum": "Çocuk",
+   "start": 204.89999999999998,
+   "end": 214.14999999999998,
+   "caps": [
+    {
+     "text": "Yeniden yola koyulurlar.",
+     "q": false,
+     "start": 204.89999999999998,
+     "end": 206.96999999999997
+    },
+    {
+     "text": "Bir erkek çocuğa rastlarlar.",
+     "q": false,
+     "start": 206.96999999999997,
+     "end": 209.26499999999996
+    },
+    {
+     "text": "Kur'an burada olanı tek cümleyle söyler:",
+     "q": false,
+     "start": 209.265,
+     "end": 212.3800724637681
+    },
+    {
+     "text": "Hızır onu öldürür.",
+     "q": false,
+     "start": 212.3800724637681,
+     "end": 214.14999999999998
+    }
+   ],
+   "ref": "74. ayet"
+  },
+  {
+   "i": 14,
+   "bolum": "Çocuk",
+   "start": 214.64999999999998,
+   "end": 232.57,
+   "caps": [
+    {
+     "text": "Bu, kıssanın en ağır anıdır.",
+     "q": false,
+     "start": 214.64999999999998,
+     "end": 217.68499999999997
+    },
+    {
+     "text": "Hazreti Musa'nın itirazı da bu kez çok daha serttir:",
+     "q": false,
+     "start": 217.68499999999997,
+     "end": 221.487735042735
+    },
+    {
+     "text": "Bir cana karşılık olmaksızın masum bir cana mı kıydın?",
+     "q": true,
+     "start": 221.487735042735,
+     "end": 225.62999999999997
+    },
+    {
+     "text": "Doğrusu pek kötü bir şey yaptın.",
+     "q": true,
+     "start": 225.62999999999997,
+     "end": 227.78999999999996
+    },
+    {
+     "text": "Cevap değişmez:",
+     "q": false,
+     "start": 227.78999999999996,
+     "end": 228.93962025316452
+    },
+    {
+     "text": "Ben sana, yaptığım işlere dayanamazsın demedim mi?",
+     "q": true,
+     "start": 228.93962025316455,
+     "end": 232.57
+    }
+   ],
+   "ref": "74-75. ayetler"
+  },
+  {
+   "i": 15,
+   "bolum": "Çocuk",
+   "start": 233.07,
+   "end": 246.64,
+   "caps": [
+    {
+     "text": "Hazreti Musa bu defa sınırı kendisi çizer:",
+     "q": false,
+     "start": 233.07,
+     "end": 236.09480263157894
+    },
+    {
+     "text": "Bundan sonra sana bir şey sorarsam bana",
+     "q": true,
+     "start": 236.09480263157894,
+     "end": 238.7250657894737
+    },
+    {
+     "text": "arkadaş olma, o zaman benim tarafımdan mazur",
+     "q": true,
+     "start": 238.7250657894737,
+     "end": 241.88138157894738
+    },
+    {
+     "text": "sayılırsın.",
+     "q": true,
+     "start": 241.88138157894736,
+     "end": 243.065
+    },
+    {
+     "text": "Yani bir hakkı daha kalmıştır.",
+     "q": false,
+     "start": 243.065,
+     "end": 245.48
+    },
+    {
+     "text": "Yalnızca bir.",
+     "q": false,
+     "start": 245.48,
+     "end": 246.64
+    }
+   ],
+   "ref": "76. ayet"
+  },
+  {
+   "i": 16,
+   "bolum": "Duvar",
+   "start": 248.64,
+   "end": 257.76,
+   "caps": [
+    {
+     "text": "Sonunda bir kasabaya varırlar.",
+     "q": false,
+     "start": 248.64,
+     "end": 251.30499999999998
+    },
+    {
+     "text": "Kasaba halkından yiyecek isterler.",
+     "q": false,
+     "start": 251.30499999999998,
+     "end": 253.95
+    },
+    {
+     "text": "Ama halk, bu iki yolcuyu misafir etmek istemez.",
+     "q": false,
+     "start": 253.95,
+     "end": 257.76
+    }
+   ],
+   "ref": "77. ayet"
+  },
+  {
+   "i": 17,
+   "bolum": "Duvar",
+   "start": 258.26,
+   "end": 277.38,
+   "caps": [
+    {
+     "text": "Tam orada, yıkılmaya yüz tutmuş bir duvar görürler.",
+     "q": false,
+     "start": 258.26,
+     "end": 262.635
+    },
+    {
+     "text": "Ve Hızır o duvarı doğrultur.",
+     "q": false,
+     "start": 262.635,
+     "end": 265.195
+    },
+    {
+     "text": "Kendilerini misafir etmek istemeyen insanların",
+     "q": false,
+     "start": 265.195,
+     "end": 268.1438709677419
+    },
+    {
+     "text": "şehrinde, hiçbir karşılık istemeden.",
+     "q": false,
+     "start": 268.1438709677419,
+     "end": 271.03
+    },
+    {
+     "text": "Hazreti Musa bu sefer yalnızca şunu söyler:",
+     "q": false,
+     "start": 271.03,
+     "end": 274.07540816326525
+    },
+    {
+     "text": "Dileseydin buna karşı bir ücret alabilirdin.",
+     "q": true,
+     "start": 274.0754081632653,
+     "end": 277.38
+    }
+   ],
+   "ref": "77. ayet"
+  },
+  {
+   "i": 18,
+   "bolum": "Duvar",
+   "start": 277.88,
+   "end": 289.90999999999997,
+   "caps": [
+    {
+     "text": "Bu, üçüncü sorudur.",
+     "q": false,
+     "start": 277.88,
+     "end": 279.985
+    },
+    {
+     "text": "Ve yolculuk burada biter.",
+     "q": false,
+     "start": 279.985,
+     "end": 282.34000000000003
+    },
+    {
+     "text": "Hızır şöyle der:",
+     "q": false,
+     "start": 282.34,
+     "end": 283.50461538461536
+    },
+    {
+     "text": "İşte bu, seninle benim ayrılmamızı",
+     "q": true,
+     "start": 283.50461538461536,
+     "end": 285.7173846153846
+    },
+    {
+     "text": "gerektiriyor; dayanamadığın işlerin yorumunu",
+     "q": true,
+     "start": 285.7173846153846,
+     "end": 288.51246153846154
+    },
+    {
+     "text": "sana anlatacağım.",
+     "q": true,
+     "start": 288.51246153846154,
+     "end": 289.91
+    }
+   ],
+   "ref": "78. ayet"
+  },
+  {
+   "i": 19,
+   "bolum": "Duvar",
+   "start": 290.40999999999997,
+   "end": 300.74999999999994,
+   "caps": [
+    {
+     "text": "Bir gemi delindi.",
+     "q": false,
+     "start": 290.40999999999997,
+     "end": 292.21
+    },
+    {
+     "text": "Bir çocuk öldü.",
+     "q": false,
+     "start": 292.21,
+     "end": 294.085
+    },
+    {
+     "text": "Bir duvar, onları misafir etmeyenlerin",
+     "q": false,
+     "start": 294.085,
+     "end": 297.1096268656716
+    },
+    {
+     "text": "şehrinde onarıldı.",
+     "q": false,
+     "start": 297.1096268656716,
+     "end": 298.90999999999997
+    },
+    {
+     "text": "Şimdi cevaplar.",
+     "q": false,
+     "start": 298.90999999999997,
+     "end": 300.74999999999994
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 20,
+   "bolum": "Geminin cevabı",
+   "start": 302.74999999999994,
+   "end": 317.5899999999999,
+   "caps": [
+    {
+     "text": "Önce gemi.",
+     "q": false,
+     "start": 302.74999999999994,
+     "end": 304.30499999999995
+    },
+    {
+     "text": "Hızır'ın açıklaması Kur'an'da şöyle geçer:",
+     "q": false,
+     "start": 304.30499999999995,
+     "end": 307.3153940886699
+    },
+    {
+     "text": "Gemi, denizde çalışan birkaç yoksula aitti;",
+     "q": true,
+     "start": 307.3153940886699,
+     "end": 310.58756157635463
+    },
+    {
+     "text": "onu kusurlu kılmak istedim, çünkü peşlerinde",
+     "q": true,
+     "start": 310.58756157635463,
+     "end": 313.72884236453194
+    },
+    {
+     "text": "her sağlam gemiye zorla el koyan bir hükümdar vardı.",
+     "q": true,
+     "start": 313.72884236453194,
+     "end": 317.5899999999999
+    }
+   ],
+   "ref": "79. ayet"
+  },
+  {
+   "i": 21,
+   "bolum": "Geminin cevabı",
+   "start": 318.0899999999999,
+   "end": 331.5899999999999,
+   "caps": [
+    {
+     "text": "Demek ki o gemi, kusurlu olduğu için",
+     "q": false,
+     "start": 318.0899999999999,
+     "end": 320.78041095890404
+    },
+    {
+     "text": "sahiplerinin elinde kaldı.",
+     "q": false,
+     "start": 320.78041095890404,
+     "end": 322.99999999999994
+    },
+    {
+     "text": "Yoksulların geçim kapısını koruyan şey, ondaki",
+     "q": false,
+     "start": 322.99999999999994,
+     "end": 326.13059701492534
+    },
+    {
+     "text": "o delikti.",
+     "q": false,
+     "start": 326.1305970149253,
+     "end": 327.19499999999994
+    },
+    {
+     "text": "Hazreti Musa deliği gördü.",
+     "q": false,
+     "start": 327.19499999999994,
+     "end": 329.29499999999996
+    },
+    {
+     "text": "Arkadan gelen hükümdarı göremedi.",
+     "q": false,
+     "start": 329.2949999999999,
+     "end": 331.5899999999999
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 22,
+   "bolum": "Çocuğun cevabı",
+   "start": 333.5899999999999,
+   "end": 352.5799999999999,
+   "caps": [
+    {
+     "text": "Sonra çocuk.",
+     "q": false,
+     "start": 333.5899999999999,
+     "end": 335.50999999999993
+    },
+    {
+     "text": "Kıssanın en zor cevabı budur:",
+     "q": false,
+     "start": 335.50999999999993,
+     "end": 337.9024999999999
+    },
+    {
+     "text": "Oğlana gelince; onun ana babası inanmış kimselerdi.",
+     "q": true,
+     "start": 337.9024999999999,
+     "end": 342.32499999999993
+    },
+    {
+     "text": "Çocuğun onları azdırmasından ve inkara",
+     "q": true,
+     "start": 342.32499999999993,
+     "end": 344.65164383561637
+    },
+    {
+     "text": "sürüklemesinden korkmuştuk.",
+     "q": true,
+     "start": 344.65164383561637,
+     "end": 346.67999999999995
+    },
+    {
+     "text": "Rablerinin o çocuktan daha temiz ve onlara",
+     "q": true,
+     "start": 346.6799999999999,
+     "end": 349.26877551020397
+    },
+    {
+     "text": "daha çok merhamet eden birini vermesini istedik.",
+     "q": true,
+     "start": 349.268775510204,
+     "end": 352.5799999999999
+    }
+   ],
+   "ref": "80-81. ayetler"
+  },
+  {
+   "i": 23,
+   "bolum": "Çocuğun cevabı",
+   "start": 353.0799999999999,
+   "end": 368.1599999999999,
+   "caps": [
+    {
+     "text": "Bunu kendi aklımızla tartmak kolay değil.",
+     "q": false,
+     "start": 353.0799999999999,
+     "end": 356.2349999999999
+    },
+    {
+     "text": "Kur'an da bunu gizlemez:",
+     "q": false,
+     "start": 356.2349999999999,
+     "end": 358.08335443037964
+    },
+    {
+     "text": "bir peygamber bile o an buna dayanamamıştır.",
+     "q": false,
+     "start": 358.0833544303797,
+     "end": 361.44999999999993
+    },
+    {
+     "text": "Bize anlatılan, olayın hükmü değil;",
+     "q": false,
+     "start": 361.44999999999993,
+     "end": 363.96624999999995
+    },
+    {
+     "text": "görünenin ardında bizim bilmediğimiz bir",
+     "q": false,
+     "start": 363.96624999999995,
+     "end": 366.42258928571425
+    },
+    {
+     "text": "bilginin bulunduğudur.",
+     "q": false,
+     "start": 366.4225892857142,
+     "end": 368.1599999999999
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 24,
+   "bolum": "Duvarın cevabı",
+   "start": 370.1599999999999,
+   "end": 393.3599999999999,
+   "caps": [
+    {
+     "text": "Ve duvar.",
+     "q": false,
+     "start": 370.1599999999999,
+     "end": 371.7899999999999
+    },
+    {
+     "text": "Duvar ise, şehirde iki yetim erkek çocuğa aitti.",
+     "q": true,
+     "start": 371.7899999999999,
+     "end": 375.9199999999999
+    },
+    {
+     "text": "Duvarın altında onların bir hazinesi vardı;",
+     "q": true,
+     "start": 375.9199999999999,
+     "end": 378.8079518072288
+    },
+    {
+     "text": "babaları da iyi bir kimseydi.",
+     "q": true,
+     "start": 378.80795180722885,
+     "end": 381.0199999999999
+    },
+    {
+     "text": "Rabbin onların erginlik çağına ulaşmasını ve",
+     "q": true,
+     "start": 381.0199999999999,
+     "end": 383.7298684210526
+    },
+    {
+     "text": "Rabbinden bir rahmet olarak hazinelerini",
+     "q": true,
+     "start": 383.7298684210525,
+     "end": 386.1988596491227
+    },
+    {
+     "text": "çıkarmalarını istedi.",
+     "q": true,
+     "start": 386.1988596491227,
+     "end": 387.8849999999999
+    },
+    {
+     "text": "Ben bunları kendiliğimden yapmadım.",
+     "q": true,
+     "start": 387.88499999999993,
+     "end": 389.99499999999995
+    },
+    {
+     "text": "İşte dayanamadığın işlerin içyüzleri budur.",
+     "q": true,
+     "start": 389.9949999999999,
+     "end": 393.3599999999999
+    }
+   ],
+   "ref": "82. ayet"
+  },
+  {
+   "i": 25,
+   "bolum": "Duvarın cevabı",
+   "start": 393.8599999999999,
+   "end": 406.5799999999999,
+   "caps": [
+    {
+     "text": "Babaları iyi bir kimseydi.",
+     "q": false,
+     "start": 393.8599999999999,
+     "end": 396.0749999999999
+    },
+    {
+     "text": "İki yetimin hakkı, onlar büyüyene kadar o",
+     "q": false,
+     "start": 396.0749999999999,
+     "end": 398.91233766233756
+    },
+    {
+     "text": "duvarın altında saklandı.",
+     "q": false,
+     "start": 398.91233766233756,
+     "end": 400.9299999999999
+    },
+    {
+     "text": "Kasaba halkı onları misafir etmemişti;",
+     "q": false,
+     "start": 400.9299999999999,
+     "end": 403.6265909090908
+    },
+    {
+     "text": "ama duvar o halk için doğrultulmamıştı.",
+     "q": false,
+     "start": 403.6265909090908,
+     "end": 406.57999999999987
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 26,
+   "bolum": "Kapanış",
+   "start": 408.5799999999999,
+   "end": 419.4799999999999,
+   "caps": [
+    {
+     "text": "Hızır'ın son sözüne dikkat et:",
+     "q": false,
+     "start": 408.5799999999999,
+     "end": 410.66697368421046
+    },
+    {
+     "text": "Ben bunları kendiliğimden yapmadım.",
+     "q": false,
+     "start": 410.66697368421046,
+     "end": 413.24499999999995
+    },
+    {
+     "text": "Bunlar, kimsenin kendi başına verebileceği",
+     "q": false,
+     "start": 413.24499999999995,
+     "end": 415.8308571428571
+    },
+    {
+     "text": "kararlar değildi.",
+     "q": false,
+     "start": 415.8308571428571,
+     "end": 417.17999999999995
+    },
+    {
+     "text": "Ona öğretilen bir ilimle oldu.",
+     "q": false,
+     "start": 417.17999999999995,
+     "end": 419.47999999999996
+    }
+   ],
+   "ref": "82. ayet"
+  },
+  {
+   "i": 27,
+   "bolum": "Kapanış",
+   "start": 419.9799999999999,
+   "end": 436.0699999999999,
+   "caps": [
+    {
+     "text": "Hazreti Musa ise bir peygamberdi.",
+     "q": false,
+     "start": 419.9799999999999,
+     "end": 423.1099999999999
+    },
+    {
+     "text": "Yine de üç olayın üçünde yalnızca görüneni gördü.",
+     "q": false,
+     "start": 423.1099999999999,
+     "end": 427.2149999999999
+    },
+    {
+     "text": "Hızır ona en başta bunu söylemişti:",
+     "q": false,
+     "start": 427.2149999999999,
+     "end": 429.46439393939386
+    },
+    {
+     "text": "bilgice kavrayamadığın bir şeye nasıl dayanabilirsin?",
+     "q": false,
+     "start": 429.46439393939386,
+     "end": 432.9249999999999
+    },
+    {
+     "text": "Sabır, çoğu zaman bilmediğin yerde başlar.",
+     "q": false,
+     "start": 432.9249999999999,
+     "end": 436.0699999999999
+    }
+   ],
+   "ref": "68. ayet"
+  },
+  {
+   "i": 28,
+   "bolum": "Kapanış",
+   "start": 436.5699999999999,
+   "end": 452.2899999999999,
+   "caps": [
+    {
+     "text": "Belki senin hayatında da delinmiş bir gemi var.",
+     "q": false,
+     "start": 436.5699999999999,
+     "end": 440.40499999999986
+    },
+    {
+     "text": "Elinden alınan bir şey.",
+     "q": false,
+     "start": 440.40499999999986,
+     "end": 442.11499999999984
+    },
+    {
+     "text": "Karşılığını göremediğin bir emek.",
+     "q": false,
+     "start": 442.1149999999999,
+     "end": 444.5749999999999
+    },
+    {
+     "text": "Bu kıssa sana her şeyin sebebini söylemez.",
+     "q": false,
+     "start": 444.5749999999999,
+     "end": 447.6249999999999
+    },
+    {
+     "text": "Ama şunu hatırlatır:",
+     "q": false,
+     "start": 447.6249999999999,
+     "end": 449.1586986301369
+    },
+    {
+     "text": "gördüğün, hikâyenin tamamı olmayabilir.",
+     "q": false,
+     "start": 449.1586986301369,
+     "end": 452.2899999999999
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 29,
+   "bolum": "Kapanış",
+   "start": 452.78999999999985,
+   "end": 460.6399999999999,
+   "caps": [
+    {
+     "text": "O yüzden şimdi kendine bir daha sor:",
+     "q": false,
+     "start": 452.78999999999985,
+     "end": 455.24312499999985
+    },
+    {
+     "text": "Başına gelenin sebebini bilmiyor olman, bir",
+     "q": false,
+     "start": 455.24312499999985,
+     "end": 458.1255468749998
+    },
+    {
+     "text": "sebebi olmadığı anlamına mı gelir?",
+     "q": false,
+     "start": 458.1255468749998,
+     "end": 460.6399999999998
+    }
+   ],
+   "ref": null
+  },
+  {
+   "i": 30,
+   "bolum": "Kapanış",
+   "start": 461.1399999999999,
+   "end": 473.6799999999999,
+   "caps": [
+    {
+     "text": "Bu kıssa, Kehf Suresi'nin altmışıncı ayetinden",
+     "q": false,
+     "start": 461.1399999999999,
+     "end": 464.53473684210513
+    },
+    {
+     "text": "seksen ikinci ayetine kadar anlatılır.",
+     "q": false,
+     "start": 464.53473684210513,
+     "end": 467.58999999999986
+    },
+    {
+     "text": "Ayetleri Diyanet mealinden okuduk.",
+     "q": false,
+     "start": 467.58999999999986,
+     "end": 470.1399999999999
+    },
+    {
+     "text": "Bir sonraki kıssada hangisini anlatalım?",
+     "q": false,
+     "start": 470.1399999999999,
+     "end": 472.6149999999999
+    },
+    {
+     "text": "Yorumlara yaz.",
+     "q": false,
+     "start": 472.6149999999999,
+     "end": 473.6799999999999
+    }
+   ],
+   "ref": null
+  }
+ ],
+ "ch": [
+  {
+   "ad": "giris",
+   "sahne": "firtina",
+   "start": 0.25,
+   "end": 40.83
+  },
+  {
+   "ad": "Yolculuk",
+   "sahne": "yol",
+   "start": 40.83,
+   "end": 109.29
+  },
+  {
+   "ad": "Buluşma",
+   "sahne": "yildiz",
+   "start": 109.29,
+   "end": 164.22
+  },
+  {
+   "ad": "Gemi",
+   "sahne": "deniz",
+   "start": 164.22,
+   "end": 204.89999999999998
+  },
+  {
+   "ad": "Çocuk",
+   "sahne": "fener",
+   "start": 204.89999999999998,
+   "end": 248.64
+  },
+  {
+   "ad": "Duvar",
+   "sahne": "kalp",
+   "start": 248.64,
+   "end": 302.74999999999994
+  },
+  {
+   "ad": "Geminin cevabı",
+   "sahne": "deniz2",
+   "start": 302.74999999999994,
+   "end": 333.5899999999999
+  },
+  {
+   "ad": "Çocuğun cevabı",
+   "sahne": "tohum",
+   "start": 333.5899999999999,
+   "end": 370.1599999999999
+  },
+  {
+   "ad": "Duvarın cevabı",
+   "sahne": "kapi",
+   "start": 370.1599999999999,
+   "end": 408.5799999999999
+  },
+  {
+   "ad": "Kapanış",
+   "sahne": "yol2",
+   "start": 408.5799999999999,
+   "end": 476.6799999999999
+  }
+ ]
+}
