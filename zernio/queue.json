@@ -2355,7 +2355,7 @@
    "tiktok"
   ],
   "zernio_id": "6af6884e6920aa2d03bedea3",
-  "status": "scheduled",
+  "status": "cancelled",
   "iptal": true,
   "not": "13 Kasım telif kararı: kâri kayıtlı, TikTok'tan geri alındı (AKŞAM)"
  },
@@ -2382,6 +2382,8 @@
   "at": "2026-11-13T16:45:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6af6fa45677f09ee877d32f5",
+  "status": "scheduled"
  }
 ]
