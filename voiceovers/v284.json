@@ -1,0 +1,30 @@
+{
+ "id": "v284",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "WPxHmApuPcwqcCl9EGp5",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Çıkış yolu kalmadığını mı düşünüyorsun?",
+   "prompt": "[deep voice] [slowly] Çıkış yolu kalmadığını mı düşünüyorsun?",
+   "generation_id": "6choO9aMCRqsmw9YYwSF",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/fysvPIzyO8OmnHCZA9Ao/6choO9aMCRqsmw9YYwSF/content.mp3?Expires=1794549600&KeyName=assets-cdn-key-1&Signature=jGd6EM7j1-hEZllcrZ_2PtCQbrw="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti İbrahim'i yakmak istediler. Ateşe serin ve zararsız olması emredildi; ona düzen kurmak isteyenler hüsrana uğradı. Ardından şu ayet gelir.",
+   "prompt": "[deep voice] [slowly] Hazreti İbrahim'i yakmak istediler. Ateşe serin ve zararsız olması emredildi; ona düzen kurmak isteyenler hüsrana uğradı. Ardından şu ayet gelir.",
+   "generation_id": "Cv9uMNamPDx0RYIZyyJG",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Xgv0ORsMl1yvDp4k0uCe/Cv9uMNamPDx0RYIZyyJG/content.mp3?Expires=1794549600&KeyName=assets-cdn-key-1&Signature=c14ePPgV-3_9Fls4muleM6bm908="
+  },
+  {
+   "kind": "cta",
+   "text": "Ateşe atılmak istenen Hazreti İbrahim, Lut ile birlikte kutsal kılınan yere ulaştırıldı. Yol yok sanıyorsan kendine bir daha sor:",
+   "prompt": "[deep voice] Ateşe atılmak istenen Hazreti İbrahim, Lut ile birlikte kutsal kılınan yere ulaştırıldı. Yol yok sanıyorsan kendine bir daha sor:",
+   "generation_id": "lcJ3oeZZ3IbPowGqYHCb",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/FLaXJuoHhjl6B0En6QEC/lcJ3oeZZ3IbPowGqYHCb/content.mp3?Expires=1794549600&KeyName=assets-cdn-key-1&Signature=FO5nAYKqfEon5ieBHlRe6Emzy9E="
+  }
+ ]
+}

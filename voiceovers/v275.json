@@ -1,0 +1,30 @@
+{
+ "id": "v275",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "sz3ceW8ZkVwXPxqfmXww",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Ağır bir şey yaşayınca içine mi kapanıyorsun?",
+   "prompt": "[deep voice] [slowly] Ağır bir şey yaşayınca içine mi kapanıyorsun?",
+   "generation_id": "bEb0MFYMRA1118LecfxH",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/G96E74QZiHM4sQSkeJYi/bEb0MFYMRA1118LecfxH/content.mp3?Expires=1794549600&KeyName=assets-cdn-key-1&Signature=zIWnHoH8Y-NiAqThncSmFnFyB2Y="
+  },
+  {
+   "kind": "giris",
+   "text": "Vahiy bir süre kesilmişti. Peygamberimiz, Hira'da gördüğü meleği yeniden görünce korkuyla evine dönüp örtüsüne büründü; ardından şu ayetler indi.",
+   "prompt": "[deep voice] [slowly] Vahiy bir süre kesilmişti. Peygamberimiz, Hira'da gördüğü meleği yeniden görünce korkuyla evine dönüp örtüsüne büründü; ardından şu ayetler indi.",
+   "generation_id": "kAV8imZBTX9fhpXj8RJJ",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/hODmkyKZdjRGfEk6ypD9/kAV8imZBTX9fhpXj8RJJ/content.mp3?Expires=1794549600&KeyName=assets-cdn-key-1&Signature=kojMv1AcDT9JzSLI4K2__KYLZNo="
+  },
+  {
+   "kind": "cta",
+   "text": "Örtüsüne bürünene, kalk denildi ve vahiy art arda gelmeye başladı. Bugün kalkmak sana zor geliyorsa kendine yeniden sor:",
+   "prompt": "[deep voice] Örtüsüne bürünene, kalk denildi ve vahiy art arda gelmeye başladı. Bugün kalkmak sana zor geliyorsa kendine yeniden sor:",
+   "generation_id": "i4W4GXMq274hFKLJQWo7",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/RNM4AV2BXQMFiQyWAYD7/i4W4GXMq274hFKLJQWo7/content.mp3?Expires=1794549600&KeyName=assets-cdn-key-1&Signature=2S1cLxAB77vFlTZ9QM0481Hwxrw="
+  }
+ ]
+}
