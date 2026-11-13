@@ -11900,18 +11900,12 @@
   "kapanis": "Onların işi Allah'a kalmıştı.",
   "bg": "deniz",
   "sahne": "deniz",
-  "aciklama": "Âl-i İmrân Suresi 128. ayette, insanların tevbesini kabul etmenin ya da onlara azap etmenin Allah'ın işi olduğu bildiriliyor. Rivayete göre ayet, Hz. Peygamber'in namazda bazı müşriklere beddua etmesi üzerine indi (Buhârî). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "aciklama": "Âl-i İmrân Suresi 128. ayette, insanların tevbesini kabul etmenin ya da onlara azap etmenin Allah'ın işi olduğu bildiriliyor. Rivayete göre ayet, Hz. Peygamber'in namazda bazı müşriklere beddua etmesi üzerine indi (Buhârî). Diyanet meali.",
   "etiketler": [
    "beddua",
    "ali imran suresi",
-   "nüzul sebebi",
-   "tilavet"
+   "nüzul sebebi"
   ],
-  "tilavet": {
-   "kari": "Ali el-Huzeyfi",
-   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
-   "klasor": "recitations/hudhaify"
-  },
   "format": "nuzul",
   "gorseller": [
    "kapi",
@@ -11920,7 +11914,7 @@
   ],
   "seslendirme": {
    "baglam": "Peygamberimiz sabah namazında, rükûdan kalkınca bazı müşriklerin adını anarak onlara beddua ediyordu. Rivayete göre bunun üzerine şu ayet indi.",
-   "kapanis": "Tevbelerini kabul etmek de azap etmek de Allah'ın işiydi. İçindeki hesap seni yoruyorsa kendine bir daha sor:"
+   "kapanis": "Tevbelerini kabul etmek de azap etmek de Allah'ın işiydi. Bu gece içindeki hesap seni yoruyorsa kendine bir daha sor:"
   },
   "baglam_kaynak": "İbn Ömer rivayeti (Buhârî, Tefsîr 4559; ayrıca Meğâzî 4069-4070 — quran.com/al-i-imran/128/hadith): Hz. Peygamber sabah namazının son rekâtında rükûdan kalkınca bazı müşrikleri adıyla anıp lanet okurdu; Allah Âl-i İmrân 128'i indirdi. Kapanış = ayetin meali.",
   "kurgu": {
@@ -11937,14 +11931,14 @@
   "seo": {
    "yt_baslik": "Bedduadan Sonra İnen Ayet | Âl-i İmrân 128",
    "ilk_satir": "Seni üzenlerin hesabını kendin mi görmek istiyorsun? Bedduadan sonra inen ayet | Âl-i İmrân 128",
-   "aciklama": "Âl-i İmrân Suresi 128. ayette, insanların tevbesini kabul etmenin ya da onlara azap etmenin Allah'ın işi olduğu bildiriliyor. Rivayete göre ayet, Hz. Peygamber'in namazda bazı müşriklere beddua etmesi üzerine indi (Buhârî). Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "aciklama": "Âl-i İmrân Suresi 128. ayette, insanların tevbesini kabul etmenin ya da onlara azap etmenin Allah'ın işi olduğu bildiriliyor. Rivayete göre ayet, Hz. Peygamber'in namazda bazı müşriklere beddua etmesi üzerine indi (Buhârî). Diyanet meali.",
    "anahtar": [
     "beddua ayeti",
     "ali imran 128",
     "hesabı allaha bırakmak"
    ]
   },
-  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 99 harf."
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 99 harf. 13 Kasım AKŞAM: telif kararı — kâri kaydı yok, meal Türkçe seslendirilir."
  },
  {
   "id": "v279",
@@ -12016,18 +12010,12 @@
   "kapanis": "Müjde, bekleyen kula geldi.",
   "bg": "fener",
   "sahne": "fener",
-  "aciklama": "Meryem Suresi 7. ayette, yaşlılığında Rabbine içinden yalvaran Hz. Zekeriya'ya Yahya adında bir oğul müjdeleniyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "aciklama": "Meryem Suresi 7. ayette, yaşlılığında Rabbine içinden yalvaran Hz. Zekeriya'ya Yahya adında bir oğul müjdeleniyor. Diyanet meali.",
   "etiketler": [
    "evlat",
    "hz zekeriya",
-   "dua",
-   "tilavet"
+   "dua"
   ],
-  "tilavet": {
-   "kari": "Ali el-Huzeyfi",
-   "kaynak": "King Fahd Kur'an Basım Kompleksi kaydı (everyayah.com Hudhaify_128kbps)",
-   "klasor": "recitations/hudhaify"
-  },
   "format": "nuzul",
   "gorseller": [
    "fener",
@@ -12053,14 +12041,14 @@
   "seo": {
    "yt_baslik": "Hz. Zekeriya'ya gelen müjde | Meryem 7 · Evlat duası",
    "ilk_satir": "Yıllardır beklediğin bir haber mi var? Hz. Zekeriya'nın duasına gelen müjde | Meryem 7",
-   "aciklama": "Meryem Suresi 7. ayette, yaşlılığında Rabbine içinden yalvaran Hz. Zekeriya'ya Yahya adında bir oğul müjdeleniyor. Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "aciklama": "Meryem Suresi 7. ayette, yaşlılığında Rabbine içinden yalvaran Hz. Zekeriya'ya Yahya adında bir oğul müjdeleniyor. Diyanet meali.",
    "anahtar": [
     "hz zekeriya duası",
     "evlat duası",
     "meryem suresi 7"
    ]
   },
-  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 100 harf."
+  "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 100 harf. 13 Kasım AKŞAM: telif kararı — kâri kaydı yok, meal Türkçe seslendirilir."
  },
  {
   "id": "v281",

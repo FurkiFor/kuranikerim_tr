@@ -1,0 +1,37 @@
+{
+ "id": "v278",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "BNp81vfxbbcmoWdosWZP",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Seni üzenlerin hesabını kendin mi görmek istiyorsun?",
+   "prompt": "[deep voice] [slowly] Seni üzenlerin hesabını kendin mi görmek istiyorsun?",
+   "generation_id": "OTkU5JXppHAvR2RHgVc9",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/IAE3rucZkfpeRudaK2tn/OTkU5JXppHAvR2RHgVc9/content.mp3?Expires=1794578400&KeyName=assets-cdn-key-1&Signature=GRl9ZeMSboMtiJhw06dL_YUjuXA="
+  },
+  {
+   "kind": "giris",
+   "text": "Peygamberimiz sabah namazında, rükûdan kalkınca bazı müşriklerin adını anarak onlara beddua ediyordu. Rivayete göre bunun üzerine şu ayet indi.",
+   "prompt": "[deep voice] [slowly] Peygamberimiz sabah namazında, rükûdan kalkınca bazı müşriklerin adını anarak onlara beddua ediyordu. Rivayete göre bunun üzerine şu ayet indi.",
+   "generation_id": "haHOV8DYgmMzoacku2B7",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/3somUv3fuibEhdqf6yW7/haHOV8DYgmMzoacku2B7/content.mp3?Expires=1794578400&KeyName=assets-cdn-key-1&Signature=I7wbBGB6C5QwbwYghPBl1ZEUbD4="
+  },
+  {
+   "kind": "meal",
+   "text": "Allah'ın, onların tevbelerini kabul veya onlara azab etmesi işiyle senin bir ilişiğin yoktur; çünkü onlar zalimlerdir.",
+   "prompt": "[softly] [slowly] Allah'ın, onların tevbelerini kabul veya onlara azab etmesi işiyle senin bir ilişiğin yoktur; çünkü onlar zalimlerdir.",
+   "generation_id": "STGvNwmbDhMGoxoyKVML",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/t6sEIofWLG4TR888n9rl/STGvNwmbDhMGoxoyKVML/content.mp3?Expires=1794578400&KeyName=assets-cdn-key-1&Signature=nYEqd1zUjlCX_g1zwoFyRaR5vQI="
+  },
+  {
+   "kind": "cta",
+   "text": "Tevbelerini kabul etmek de azap etmek de Allah'ın işiydi. Bu gece içindeki hesap seni yoruyorsa kendine bir daha sor:",
+   "prompt": "[deep voice] Tevbelerini kabul etmek de azap etmek de Allah'ın işiydi. Bu gece içindeki hesap seni yoruyorsa kendine bir daha sor:",
+   "generation_id": "22TtJYumeBG2gHzuRa8K",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/G52olgHr8HyI3WAqPyV1/22TtJYumeBG2gHzuRa8K/content.mp3?Expires=1794578400&KeyName=assets-cdn-key-1&Signature=lU7Nu_jUtSpz4CiPpD_fkZRb1wI="
+  }
+ ]
+}
