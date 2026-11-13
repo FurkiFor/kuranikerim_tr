@@ -11327,7 +11327,7 @@
    7
   ],
   "kart_metin": "Doğrusu senin Rabbin, yolundan sapıtanları çok iyi bilir; O, doğru yolda olanları da çok iyi bilir",
-  "sahne": "yol",
+  "sahne": "deniz",
   "hook": "Rabbin, doğru yolda olduğunu çok iyi bilir",
   "tema": "Hidayet",
   "etiketler": [
@@ -11355,7 +11355,7 @@
    }
   ],
   "ust": "Rabbin, doğru yolda olduğunu çok iyi bilir",
-  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 88 Arapça harf (tahmin 16.6 sn)."
+  "not": "Stok SABAH 10 Kasım (9 Kasım kararı 1: açık adlı peygamber/kabul ×12, deney 10 ×3); 88 Arapça harf (tahmin 16.6 sn). 13 Kasım: yol sahnesinde figürün başı sure etiketine bindi → deniz."
  },
  {
   "id": "v268",
@@ -12299,40 +12299,40 @@
   "tur": "kart",
   "sure": 68,
   "ayet": [
-   32,
-   32
+   29,
+   29
   ],
-  "kart_metin": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
-  "sahne": "deniz",
-  "hook": "Bahçesi kararınca Rabbinden daha iyisini dilediler",
-  "tema": "Tövbe duası",
+  "kart_metin": "Rabbimizi tenzih ederiz; doğrusu biz yazık etmiştik",
+  "sahne": "kum",
+  "hook": "Bahçeleri kararınca Rabbine böyle yöneldiler",
+  "tema": "Tövbe",
   "etiketler": [
-   "dua",
-   "tövbe duası",
+   "tövbe",
+   "bahçe sahipleri",
    "kalem suresi",
    "tilavet"
   ],
-  "aciklama": "Kalem Suresi 32. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
-  "kapanis": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
+  "aciklama": "Kalem Suresi 29. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbimizi tenzih ederiz; doğrusu biz yazık etmiştik",
   "seo": {
-   "yt_baslik": "Bahçe sahiplerinin duası | Kalem 32",
-   "ilk_satir": "Tövbe duası | Kalem 32: Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
-   "aciklama": "Kalem Suresi 32. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "yt_baslik": "Bahçe sahiplerinin tövbesi | Kalem 29",
+   "ilk_satir": "Tövbe | Kalem 29: Rabbimizi tenzih ederiz; doğrusu biz yazık etmiştik",
+   "aciklama": "Kalem Suresi 29. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
    "anahtar": [
-    "tövbe duası",
-    "kalem suresi 32",
+    "tövbe",
+    "kalem suresi 29",
     "bahçe sahipleri",
-    "dua"
+    "tövbe ayeti"
    ]
   },
   "ses": "tilavet",
   "sayfalar": [
    {
-    "ayet": 32,
-    "metin": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz"
+    "ayet": 29,
+    "metin": "Rabbimizi tenzih ederiz; doğrusu biz yazık etmiştik"
    }
   ],
-  "ust": "Bahçesi kararınca Rabbinden daha iyisini dilediler",
-  "not": "SABAH 13 Kasım: 18:00 açık adlı dua kartı — bahçe sahiplerinin tövbesi (Kalem 17-31 meali: bahçe kapkara kesildi, 'yazık etmiştik' dediler). 82 Arapça harf."
+  "ust": "Bahçeleri kararınca Rabbine böyle yöneldiler",
+  "not": "SABAH 13 Kasım: 18:00 açık adlı tövbe/dua kartı — bahçe sahipleri (Kalem 17-31 meali: bahçe kapkara kesildi; 'yazık etmiştik' dediler). İlk deneme Kalem 32 (82 harf) 20,2 sn çıktı (>17) → Kalem 29 (51 harf), meal birebir alt parça."
  }
 ]
