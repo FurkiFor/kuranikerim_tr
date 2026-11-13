@@ -12,6 +12,13 @@ import json, sys, os, unicodedata
 BASE = os.path.dirname(os.path.abspath(__file__))
 SURE = json.load(open(f'{BASE}/surahs.json'))
 TOPICS = {t['id']: t for t in json.load(open(f'{BASE}/topics.json'))}
+# TELİF (13 Kasım 2026): anlatımlı videolarda kâri kaydı yok → açıklamadan kâri künyesi ve "tilavet" etiketi çıkarılır (kartlar hariç)
+if os.environ.get('KT_TILAVET', '0') != '1':
+    for _t in TOPICS.values():
+        if _t.get('tur') == 'kart': continue
+        _t['etiketler'] = [x for x in _t.get('etiketler', []) if x.lower() != 'tilavet']
+        for _d in (_t, _t.get('seo') or {}):
+            if 'aciklama' in _d: _d['aciklama'] = _d['aciklama'].replace(' Tilavet: Ali el-Huzeyfi.', '')
 SABIT = ['kuran', 'ayet', 'kuranikerim', 'islam']
 # Yorum çağrısı (19 Ekim: YouTube'da video başına 0,3 yorum). Videoya göre sabit seçilir, hep aynı cümle olmaz.
 YORUM = ["Sana iyi geldiyse yorumlara \"Amin\" yaz 🤲",

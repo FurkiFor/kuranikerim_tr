@@ -51,6 +51,16 @@ NUZUL_KAPANIS_KELIME = 26     # döngü kapanışı en fazla (≈ 9 sn)
 LOOP_TAIL = 0.3               # son sözden sonra sessizlik: video başa dönünce hook hemen gelsin
 SUB_X = 0.5                   # tilavet içi görsel geçişi (çapraz geçiş, sn)
 SUBCAM = ('it', 'kay', 'cek', 'it')
+# TELİF (13 Kasım 2026, Furkan'ın talimatı): kâri kayıtları YouTube'da telif talebi (Content ID) alıyor →
+#   anlatımlı videolarda kâri kaydı KULLANILMAZ. KT_TILAVET=1 verilmedikçe konudaki `tilavet` alanı yok sayılır:
+#   meal Türkçe seslendirilir (TTS), altında yerel üretilen fon (ilahi.py) çalar.
+TILAVET_ACIK = os.environ.get('KT_TILAVET', '0') == '1'
+
+
+def telif(tp):
+    """Kâri kaydı kapalıyken konuyu `tilavet` alanı olmadan döndürür (kopya)."""
+    if TILAVET_ACIK or not tp.get('tilavet'): return tp
+    return {k: v for k, v in tp.items() if k != 'tilavet'}
 
 
 def tr_upper(s):
@@ -181,10 +191,10 @@ def nuzul_of(tp):
     Alanlar: seslendirme.baglam (en fazla 3 cümle: ayetin bağlamı / nüzul sebebi), baglam_kaynak (zorunlu: bağlamın dayandığı
     kaynak — tefsir adı + adres ya da komşu ayetlerin meali), seslendirme.kapanis (son cümlesi hook'a bağlanır), gorseller (3–4 sahne)."""
     if tp.get('format') != 'nuzul': return None
+    tp = telif(tp)
     def err(m): raise SystemExit(f"{tp['id']}: nüzul formatı — {m}")
     c = tp['sure']; a, b = tp['ayet']; ses = tp.get('seslendirme', {})
-    if not tp.get('tilavet'): err("'tilavet' alanı gerekli")
-    if tp['tilavet'].get('ayetler'): err("'tilavet.ayetler' kullanılmaz (bütün ayetler kâriden okunur)")
+    if tp.get('tilavet') and tp['tilavet'].get('ayetler'): err("'tilavet.ayetler' kullanılmaz (bütün ayetler kâriden okunur)")
     bag, kap = (ses.get('baglam') or '').strip(), (ses.get('kapanis') or '').strip()
     if not bag: err("seslendirme.baglam yok")
     if not (tp.get('baglam_kaynak') or '').strip(): err("baglam_kaynak yok (bağlam / nüzul sebebi kaynaksız yazılmaz)")
@@ -214,12 +224,16 @@ def yazi_meal(text, v, start, end):
 
 def segments(tp):
     """Seslendirme parçaları: [(tür, metin, ayet_no, sonraki_sessizlik_sn)] — mcp_voice.py de bunu kullanır."""
+    tp = telif(tp)
     c = tp['sure']; a, b = tp['ayet']; sname = SURE[str(c)]
     ses = tp.get('seslendirme', {})
     nz = nuzul_of(tp)
     if nz:   # kanca → bağlam → tilavet (meal ekranda, yazi_meal) → döngü kapanışı; TTS yalnız 3 parça
         segs = [('hook', tp['hook'], None, OPEN_GAP), ('giris', nz['baglam'], None, 0.5)]
-        segs += [('tilavet', AR[(c, v)].strip(), v, 0.3 if v < b else 0.55) for v in range(a, b + 1)]
+        if tp.get('tilavet'):
+            segs += [('tilavet', AR[(c, v)].strip(), v, 0.3 if v < b else 0.55) for v in range(a, b + 1)]
+        else:   # kâri kaydı yok (telif): meal Türkçe seslendirilir, Arapça metin ekranda
+            segs += [('meal', meal_of(c, v, b), v, 0.4 if v < b else 0.55) for v in range(a, b + 1)]
         return segs + [('cta', nz['kapanis'], None, LOOP_TAIL)]
     giris = ses.get('giris') or "Bu ayeti sonuna kadar dinle."
     yorum = ses.get('yorum') or tp['aciklama']
@@ -277,6 +291,7 @@ def recitation(tp, v):
 
 
 def build_timeline(tp):
+    tp = telif(tp)
     segs = segments(tp)
     if VO.MCP: VO.load_mcp(tp['id'])
     audio, tl, t = [], [], OPEN_LEAD
@@ -407,6 +422,7 @@ def _cam_move(kind, i, t, u, lt):
 
 
 def render(tp, out):
+    tp = telif(tp)
     scene = tp.get('sahne') or ESKI_BG.get(tp.get('bg'), 'fener')
     accH = CI.ACCENT[scene]; acc = CI.rgb(accH)
     tl, audio, total = build_timeline(tp)

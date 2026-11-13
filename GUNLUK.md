@@ -15,6 +15,16 @@ Bu dosya zamanlanmış görevlerin talimatıdır. İki parti var:
 | 23:30 | tilavetli anlatımlı (teselli, gece kapanışlı; 25 Ekim) | aynı video | — |
 YouTube'a ve TikTok'a tilavet kartı GÖNDERİLMEZ; Instagram'a Türkçe sesli video GÖNDERİLMEZ.
 
+## TELİF KARARI — 13 Kasım 2026 (Furkan'ın talimatı; aşağıdaki bütün tilavet kurallarının ÖNÜNE GEÇER)
+Furkan: "Short videolarındaki Kur'an sesi telife giriyor, telifli içerik yapma." YouTube, kâri kaydı (Ali el-Huzeyfi / everyayah) içeren Short'lara telif talebi (Content ID) koyuyor.
+- **YouTube ve TikTok'a giden hiçbir yeni videoda kâri kaydı kullanılmaz.** render.py artık konudaki `tilavet` alanını yok sayar (`KT_TILAVET=1` verilmedikçe): nüzul formatında 15–30 sn bölümünde Diyanet meali Türkçe seslendirilir (TTS `meal` parçası), Arapça metin ekranda kalır, altta yerel üretilen fon (ilahi.py, telifsiz) çalar. `mcp_voice.py plan <id>` meal parçalarını da verir (video ≈ 4–5 parça). caption.py açıklamadan "Tilavet: Ali el-Huzeyfi." künyesini ve `tilavet` etiketini kendisi çıkarır.
+- Yeni konu yazarken `tilavet` alanı, "Tilavet: …" künyesi, `tilavet` etiketi ve "#tilavet" yazılmaz. Meal seslendirildiği için ayet sınırı: meal toplamı ≤ 200 karakter.
+- **Kâri kaydıyla üretilmiş eski mp4'ler YouTube'a ve TikTok'a yeniden planlanmaz, tekrar paylaşılmaz** (13:00 TikTok tekrar paylaşımı dahil — yalnız kâri kaydı içermeyen videolar tekrar edilebilir; yoksa slot boş kalır). Seçilirse önce kâri kaydı olmadan yeniden üretilir (eski voiceovers manifesti meal parçası içermez → sesler baştan üretilir).
+- 13 Kasım: 18:00 YouTube gönderisi v284 (kâri kayıtlı) Kervly'de iptal edildi; v284 kâri kaydı olmadan yeniden üretilmeden planlanmaz.
+- Üçüncü tarafa ait müzik, ilahi, ezan, tilavet, video ya da görsel hiçbir içerikte kullanılmaz; ses = ElevenLabs seslendirmesi + ilahi.py/music.py'nin ürettiği fon.
+- **Instagram tilavet kartları:** Furkan'dan karar bekleniyor (13 Kasım'da soruldu). Karar gelene kadar mevcut düzen sürer; Instagram'da telif bildirimi görülürse kartlar durdurulur ve Furkan'a bildirilir.
+- Telifsiz olduğu doğrulanmış bir tilavet kaynağı bulunursa (yazılı izin ya da kendi kaydımız) Furkan'a sorulur; onaysız açılmaz.
+
 ## NÜZUL FORMATI — 11 Kasım 2026'dan bütün yeni Türkçe sesli videolar (Furkan'ın talimatı)
 Bu bölüm aşağıdaki eski yapı kurallarının (4. bölümde "hook → giriş → tilavet → Türkçe meal → kapanış", 5b, 6'daki parça sayısı) **önüne geçer**. Slotlar, platform düzeni, konu karışımı, hook/doğruluk kuralları, SEO, planlama ve kart kuralları aynen kalır; değişen yalnız anlatımlı videonun yapısıdır. Kartlar (Instagram) bu formata girmez.
 
