@@ -22,7 +22,8 @@ Furkan: "Short videolarındaki Kur'an sesi telife giriyor, telifli içerik yapma
 - **Kâri kaydıyla üretilmiş eski mp4'ler YouTube'a ve TikTok'a yeniden planlanmaz, tekrar paylaşılmaz** (13:00 TikTok tekrar paylaşımı dahil — yalnız kâri kaydı içermeyen videolar tekrar edilebilir; yoksa slot boş kalır). Seçilirse önce kâri kaydı olmadan yeniden üretilir (eski voiceovers manifesti meal parçası içermez → sesler baştan üretilir).
 - 13 Kasım: 18:00 YouTube gönderisi v284 (kâri kayıtlı) Kervly'de iptal edildi; v284 kâri kaydı olmadan yeniden üretilmeden planlanmaz.
 - Üçüncü tarafa ait müzik, ilahi, ezan, tilavet, video ya da görsel hiçbir içerikte kullanılmaz; ses = ElevenLabs seslendirmesi + ilahi.py/music.py'nin ürettiği fon.
-- **Instagram tilavet kartları:** Furkan'dan karar bekleniyor (13 Kasım'da soruldu). Karar gelene kadar mevcut düzen sürer; Instagram'da telif bildirimi görülürse kartlar durdurulur ve Furkan'a bildirilir.
+- **Instagram tilavet kartları sürer** (Furkan, 13 Kasım 14:27: "instagram ve yüklenen videolar dursun" — Instagram düzeni aynen kalır, yayınlanmış videolara dokunulmaz, silinmez). Instagram'da telif bildirimi görülürse Furkan'a bildirilir.
+- **Uzun YouTube videoları** (yatay, ~7-8 dk kıssa anlatımı; ilk: u001 Hz. Musa ve Hızır, Kehf 60-82) Furkan'a sorulmadan doğrudan Kervly'ye planlanır (13 Kasım talimatı). Kâri kaydı içermez; tırnak içindeki sözler mealden kodla çekilir.
 - Telifsiz olduğu doğrulanmış bir tilavet kaynağı bulunursa (yazılı izin ya da kendi kaydımız) Furkan'a sorulur; onaysız açılmaz.
 
 ## NÜZUL FORMATI — 11 Kasım 2026'dan bütün yeni Türkçe sesli videolar (Furkan'ın talimatı)
