@@ -12293,5 +12293,46 @@
    ]
   },
   "not": "SABAH 12 Kasım stok (nüzul formatı). Tilavet 80 harf."
+ },
+ {
+  "id": "v285",
+  "tur": "kart",
+  "sure": 68,
+  "ayet": [
+   32,
+   32
+  ],
+  "kart_metin": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
+  "sahne": "deniz",
+  "hook": "Bahçesi kararınca Rabbinden daha iyisini dilediler",
+  "tema": "Tövbe duası",
+  "etiketler": [
+   "dua",
+   "tövbe duası",
+   "kalem suresi",
+   "tilavet"
+  ],
+  "aciklama": "Kalem Suresi 32. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
+  "seo": {
+   "yt_baslik": "Bahçe sahiplerinin duası | Kalem 32",
+   "ilk_satir": "Tövbe duası | Kalem 32: Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz",
+   "aciklama": "Kalem Suresi 32. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe duası",
+    "kalem suresi 32",
+    "bahçe sahipleri",
+    "dua"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 32,
+    "metin": "Belki Rabbimiz bize bundan daha iyisini verir; doğrusu artık, Rabbimizden dilemekteyiz"
+   }
+  ],
+  "ust": "Bahçesi kararınca Rabbinden daha iyisini dilediler",
+  "not": "SABAH 13 Kasım: 18:00 açık adlı dua kartı — bahçe sahiplerinin tövbesi (Kalem 17-31 meali: bahçe kapkara kesildi, 'yazık etmiştik' dediler). 82 Arapça harf."
  }
 ]
