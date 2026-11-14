@@ -1955,12 +1955,16 @@
   "postId": "17988159639121005",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18140345710657183",
-  "message": "Sadakallahülazîm 🌻 Rabbim bu ayetin rahmetini kalbimize yerleştirsin, Allah razı olsun."
+  "message": "Sadakallahülazîm 🌻 Rabbim bu ayetin rahmetini kalbimize yerleştirsin, Allah razı olsun.",
+  "sent": true,
+  "replyId": "18088336703711210"
  },
  {
   "postId": "7707369774879214854",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7707730439687750420",
-  "message": "Lâ ilâhe illallah 🤍 Rabbim bu sözü dilimizden ve kalbimizden hiç eksik etmesin."
+  "message": "Lâ ilâhe illallah 🤍 Rabbim bu sözü dilimizden ve kalbimizden hiç eksik etmesin.",
+  "sent": true,
+  "replyId": "7707852426690609921"
  }
 ]
