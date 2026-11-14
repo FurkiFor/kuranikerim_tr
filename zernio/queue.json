@@ -2481,13 +2481,17 @@
   "at": "2026-11-14T20:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af851c77f86929a0eddf59f",
+  "status": "scheduled"
  },
  {
   "id": "v291",
   "at": "2026-11-14T23:30:00+04:00",
   "platforms": [
    "tiktok"
-  ]
+  ],
+  "zernio_id": "6af851c77f86929a0eddf5a5",
+  "status": "scheduled"
  }
 ]
