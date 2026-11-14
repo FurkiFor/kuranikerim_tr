@@ -12743,5 +12743,46 @@
    ]
   },
   "not": "AKŞAM 13 Kasım stok (nüzul formatı, telifsiz: meal Türkçe seslendirilir). Bağlam komşu ayetlerin Diyanet mealinden."
+ },
+ {
+  "id": "v294",
+  "tur": "kart",
+  "sure": 19,
+  "ayet": [
+   10,
+   10
+  ],
+  "kart_metin": "Rabbim! Öyleyse bana bir alamet ver",
+  "sahne": "deniz",
+  "hook": "Hz. Zekeriya, müjdeyi alınca Rabbine dedi ki:",
+  "tema": "Dua",
+  "etiketler": [
+   "dua",
+   "hz zekeriya",
+   "meryem suresi",
+   "tilavet"
+  ],
+  "aciklama": "Meryem Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbim! Öyleyse bana bir alamet ver",
+  "seo": {
+   "yt_baslik": "Hz. Zekeriya'nın duası | Meryem 10",
+   "ilk_satir": "Hz. Zekeriya'nın duası | Meryem 10: Rabbim! Öyleyse bana bir alamet ver",
+   "aciklama": "Meryem Suresi 10. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz zekeriya duası",
+    "zekeriya peygamberin duası",
+    "meryem suresi 10",
+    "hz zekeriya kıssası"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 10,
+    "metin": "Rabbim! Öyleyse bana bir alamet ver"
+   }
+  ],
+  "ust": "Hz. Zekeriya, müjdeyi alınca Rabbine dedi ki:",
+  "not": "SABAH 14 Kasım: 18:00 açık adlı dua kartı. Meryem 7 (Yahya müjdesi), 8-9 meali; 10'da Zekeriya alamet ister. 96 harf (~17 sn sınırında). ust vidIQ 14 Kasım 'Hz. … diyor ki' kalıbı (2 IG outlier). vidIQ 'hz zekeriya duası' <750/ay."
  }
 ]
