@@ -1,0 +1,37 @@
+{
+ "id": "v286",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "FU1nMfslL1qg7SRorgki",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Kaybettiğin birini hâlâ mı bekliyorsun?",
+   "prompt": "[deep voice] [slowly] Kaybettiğin birini hâlâ mı bekliyorsun?",
+   "generation_id": "6sHnsf6atnNWXab6rbRv",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/WwNfNakk3tp4tVrtWNFQ/6sHnsf6atnNWXab6rbRv/content.mp3?Expires=1794636000&KeyName=assets-cdn-key-1&Signature=ChBf6xiutL7E5Wf_j5xUv5MYi5A="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Yakub, oğlu Yusuf için öyle üzülmüştü ki gözlerine ak düşmüştü. Sonunda Yusuf gömleğini babasına gönderdi. Kervan yola çıkınca Hazreti Yakub şöyle dedi.",
+   "prompt": "[deep voice] [slowly] Hazreti Yakub, oğlu Yusuf için öyle üzülmüştü ki gözlerine ak düşmüştü. Sonunda Yusuf gömleğini babasına gönderdi. Kervan yola çıkınca Hazreti Yakub şöyle dedi.",
+   "generation_id": "3pxHQ8oK7qhG6jJb2Vcw",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/eHnXzIgUOs9JGszyyxOB/3pxHQ8oK7qhG6jJb2Vcw/content.mp3?Expires=1794636000&KeyName=assets-cdn-key-1&Signature=QVQjmPKBkS3tJOTrDrcjPzD3YqQ="
+  },
+  {
+   "kind": "meal",
+   "text": "Kervan, memleketlerine dönmek üzere ayrıldığında, babaları: \"Doğrusu ben Yusuf'un kokusunu duyuyorum; ne olur bana bunak demeyin\" dedi.",
+   "prompt": "[softly] [slowly] Kervan, memleketlerine dönmek üzere ayrıldığında, babaları: Doğrusu ben Yusuf'un kokusunu duyuyorum; ne olur bana bunak demeyin dedi.",
+   "generation_id": "gS0u4wUdyIUtWAnKZDVG",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/oTtatVHdYOIOrODfFG92/gS0u4wUdyIUtWAnKZDVG/content.mp3?Expires=1794636000&KeyName=assets-cdn-key-1&Signature=G7e65K7UrRDMR6MvCGUELbDdDtg="
+  },
+  {
+   "kind": "cta",
+   "text": "Üzüntüden gözlerine ak düşen Hazreti Yakub, kervan daha yoldayken Yusuf'un kokusunu duydu. Umudun tükenmek üzereyse kendine bir daha sor:",
+   "prompt": "[deep voice] Üzüntüden gözlerine ak düşen Hazreti Yakub, kervan daha yoldayken Yusuf'un kokusunu duydu. Umudun tükenmek üzereyse kendine bir daha sor:",
+   "generation_id": "SBHFOiE7S1YfBOjjfhjG",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/L0TIHNJWUqKjB5PEizu6/SBHFOiE7S1YfBOjjfhjG/content.mp3?Expires=1794636000&KeyName=assets-cdn-key-1&Signature=vuyAD4Tso2HFLVPkX8WZtmI2JZg="
+  }
+ ]
+}

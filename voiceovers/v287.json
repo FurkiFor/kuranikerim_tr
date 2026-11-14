@@ -1,0 +1,37 @@
+{
+ "id": "v287",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "PsGZ6zcyzcGt398ekE9c",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Bir yolda yorgun mu düştün?",
+   "prompt": "[deep voice] [slowly] Bir yolda yorgun mu düştün?",
+   "generation_id": "MXU3fORg1JnQteaCWLCX",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/7xyNxlgSYSj4acPzKUIS/MXU3fORg1JnQteaCWLCX/content.mp3?Expires=1794636000&KeyName=assets-cdn-key-1&Signature=5B0EIlyf4l9yNJLkSN_iFzZCo9c="
+  },
+  {
+   "kind": "giris",
+   "text": "Hazreti Musa, iki denizin birleştiği yere ulaşmaya, gerekirse yıllarca yürümeye kararlıydı. Oraya varınca yanlarındaki balığı unuttular. Yola devam edince Hazreti Musa şöyle dedi.",
+   "prompt": "[deep voice] [slowly] Hazreti Musa, iki denizin birleştiği yere ulaşmaya, gerekirse yıllarca yürümeye kararlıydı. Oraya varınca yanlarındaki balığı unuttular. Yola devam edince Hazreti Musa şöyle dedi.",
+   "generation_id": "UZbsBgsc89vcu698X9Bt",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/pyXNMNbFPT70cKMWQHCi/UZbsBgsc89vcu698X9Bt/content.mp3?Expires=1794636000&KeyName=assets-cdn-key-1&Signature=MpW0Ap-jyWJFByEB9R5FFqcYNW0="
+  },
+  {
+   "kind": "meal",
+   "text": "Oradan uzaklaştıklarında Musa, yanındaki gence: \"Azığımızı çıkar, and olsun bu yolculuğumuzda yorgun düştük\" dedi.",
+   "prompt": "[softly] [slowly] Oradan uzaklaştıklarında Musa, yanındaki gence: Azığımızı çıkar, and olsun bu yolculuğumuzda yorgun düştük dedi.",
+   "generation_id": "tI1zn5u64dEYPMQOTaPB",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/FoojSEr1wWDatymJBKHB/tI1zn5u64dEYPMQOTaPB/content.mp3?Expires=1794636000&KeyName=assets-cdn-key-1&Signature=HifWbeLKS2mJaXSSrQEuN5W_dbk="
+  },
+  {
+   "kind": "cta",
+   "text": "Hazreti Musa bile yolda yorgun düştük dedi; aradıkları yer, geri döndükleri o kayalıktı. Yorulduysan kendine bir daha sor:",
+   "prompt": "[deep voice] Hazreti Musa bile yolda yorgun düştük dedi; aradıkları yer, geri döndükleri o kayalıktı. Yorulduysan kendine bir daha sor:",
+   "generation_id": "AZRB2IdNKRLISF1fILBb",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/B4cJLyYyLaKCWK2UBNeY/AZRB2IdNKRLISF1fILBb/content.mp3?Expires=1794636000&KeyName=assets-cdn-key-1&Signature=2mHsSppOcSj2TZFdbyRrtTnWcVs="
+  }
+ ]
+}
