@@ -12596,7 +12596,7 @@
    79,
    79
   ],
-  "hook": "Herkes uyurken içini kime döküyorsun?",
+  "hook": "Rabbinle baş başa kalacağın bir vaktin var mı?",
   "kapanis": "Gece Rabbine kalkan için.",
   "bg": "fener",
   "sahne": "fener",
@@ -12614,7 +12614,7 @@
   ],
   "seslendirme": {
    "baglam": "Peygamberimize, güneşin batıya yönelmesinden gecenin kararmasına kadar ve sabah vakti namaz kılması söylendi. Sabah namazına meleklerin şahit olduğu bildirildi. Ardından şu ayet geldi.",
-   "kapanis": "Bu söz Peygamberimize söylendi: gece uyan, Rabbine yönel; belki Rabbin seni övülecek makama yükseltir. Bu gece kendine bir daha sor:"
+   "kapanis": "Bu söz Peygamberimize söylendi: geceleyin uyan, fazladan namaz kıl; belki Rabbin seni övülecek makama yükseltir. Bu gece kendine bir daha sor:"
   },
   "baglam_kaynak": "İsrâ 78 meali (güneşin batıya yönelmesinden gecenin kararmasına kadar namaz kıl; sabah namazına melekler şahit olur); 79: gece namazı. Belirli nüzul olayı yok — bağlam.",
   "kurgu": {
@@ -12630,7 +12630,7 @@
   },
   "seo": {
    "yt_baslik": "Gece Namazı Ayeti | İsrâ 79 · Teheccüd",
-   "ilk_satir": "Herkes uyurken içini kime döküyorsun? Gece namazı ayeti | İsrâ 79",
+   "ilk_satir": "Rabbinle baş başa kalacağın bir vaktin var mı? Gece namazı ayeti | İsrâ 79",
    "aciklama": "İsrâ Suresi 79. ayette Peygamberimize gece uyanıp fazladan namaz kılması söyleniyor; belki Rabbinin onu övülecek makama yükselteceği bildiriliyor. Diyanet meali.",
    "anahtar": [
     "teheccüd namazı",
@@ -12638,7 +12638,7 @@
     "gece namazı ayeti"
    ]
   },
-  "not": "AKŞAM 13 Kasım stok (nüzul formatı, telifsiz: meal Türkçe seslendirilir). Bağlam komşu ayetlerin Diyanet mealinden."
+  "not": "AKŞAM 13 Kasım stok (nüzul formatı, telifsiz: meal Türkçe seslendirilir). Bağlam komşu ayetlerin Diyanet mealinden. AKŞAM 14 Kasım: hook'taki gece ifadesi kaldırıldı (gece yalnız kapanışta), kapanış mealin sözüyle hizalandı."
  },
  {
   "id": "v292",

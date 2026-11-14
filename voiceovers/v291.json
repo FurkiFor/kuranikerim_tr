@@ -1,0 +1,37 @@
+{
+ "id": "v291",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "Ix8GrzOFpcdRL7lhbcpx",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Rabbinle baş başa kalacağın bir vaktin var mı?",
+   "prompt": "[deep voice] [slowly] Rabbinle baş başa kalacağın bir vaktin var mı?",
+   "generation_id": "Nz1Lq53yl4greL8Bfnco",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/nCNCZylrqtkJQySMCYoi/Nz1Lq53yl4greL8Bfnco/content.mp3?Expires=1794664800&KeyName=assets-cdn-key-1&Signature=HQrbU2gCck-Noa2Mqvxjgz6e6Xo="
+  },
+  {
+   "kind": "giris",
+   "text": "Peygamberimize, güneşin batıya yönelmesinden gecenin kararmasına kadar ve sabah vakti namaz kılması söylendi. Sabah namazına meleklerin şahit olduğu bildirildi. Ardından şu ayet geldi.",
+   "prompt": "[deep voice] [slowly] Peygamberimize, güneşin batıya yönelmesinden gecenin kararmasına kadar ve sabah vakti namaz kılması söylendi. Sabah namazına meleklerin şahit olduğu bildirildi. Ardından şu ayet geldi.",
+   "generation_id": "CargcNqWHc0wjD73y4nV",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/1qFuGbVUi1ZO10utBoCV/CargcNqWHc0wjD73y4nV/content.mp3?Expires=1794664800&KeyName=assets-cdn-key-1&Signature=fOQJrPbkSbrZqI7eGVaqsX7mFI0="
+  },
+  {
+   "kind": "meal",
+   "text": "Geceleyin uyanıp, yalnız sana mahsus olarak fazladan namaz kıl. Belki de Rabbin seni övülecek makama yükseltir.",
+   "prompt": "[softly] [slowly] Geceleyin uyanıp, yalnız sana mahsus olarak fazladan namaz kıl. Belki de Rabbin seni övülecek makama yükseltir.",
+   "generation_id": "RcndsV4AyapYL4B0zQKD",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/zUkke255ZgI7hwzGiw2w/RcndsV4AyapYL4B0zQKD/content.mp3?Expires=1794664800&KeyName=assets-cdn-key-1&Signature=ap5R-2pxpbSdj4AxmeusrAI13xQ="
+  },
+  {
+   "kind": "cta",
+   "text": "Bu söz Peygamberimize söylendi: geceleyin uyan, fazladan namaz kıl; belki Rabbin seni övülecek makama yükseltir. Bu gece kendine bir daha sor:",
+   "prompt": "[deep voice] Bu söz Peygamberimize söylendi: geceleyin uyan, fazladan namaz kıl; belki Rabbin seni övülecek makama yükseltir. Bu gece kendine bir daha sor:",
+   "generation_id": "JeQVgbBdxCcUJRDPhPGq",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/otZPWSsWLNOjdT3WkpPk/JeQVgbBdxCcUJRDPhPGq/content.mp3?Expires=1794664800&KeyName=assets-cdn-key-1&Signature=pnbJUFyVI1TuoN44woJTt2c3O2E="
+  }
+ ]
+}
