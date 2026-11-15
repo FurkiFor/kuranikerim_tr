@@ -119,6 +119,8 @@ Bakiye < 100 kredi ise arama yapılmaz (`vidiq_balance`).
 
 ## Deney kuyruğu
 Bir deney en az 5 video ve 7 gün ölçülür; sonuç `strateji.md`'ye karar olarak yazılır.
+- 15 Kasım 2026 AKŞAM (Paz; `vidiq_youtube_search` "ayetin iniş sebebi shorts", TR, video, kısa, 16 Eki sonrası, izlenmeye göre): nüzul nişi az rekabetli — ilk 5 sonucun en yükseği 2.364 izlenme. **Kendi videomuz** "Acele Etme Ayetinin İniş Hikâyesi | Kıyâme 16-17" (33 sn) 2.195 izlenme / 382 beğeniyle 3. sırada (beğeni oranı en yüksek). Diğerleri: @Kuran ve Tefekkür "Rabbin Seni Bırakmadı! Duhâ Suresinin İniş Sebebi" 2 dk 54 sn 2.364 (2,4 B abone); @YediHilal Gebze "Kalbini yarıp baksaydınız ya!" Nisâ 94 tefsir kesiti 1 dk 36 sn 1.484 (**9,6x**, 79 abone) ve Nisâ 100 667 (8,1x); @Asr-ı Hikmet Abese iniş sebebi animasyonu 499. Ders: 3 videodan 2'sinin başlığı **ayetteki/olaydaki sözle ünlemle açılıyor** ("Rabbin Seni Bırakmadı!", "Kalbini yarıp baksaydınız ya!") — deney 12 ("Hz. … dedi ki:") ile aynı yönde; Nisâ 94 sözü hadis rivayeti olduğu için kullanmıyoruz, biz yalnız mealdeki sözü alırız (ör. v312 "Rabbim benimle beraberdir"). Yeni 3+ kalıp yok, kuyruğa ekleme yapılmadı. Anahtar kelime (vidIQ, TR): "ayetin iniş sebebi" <750/ay (rekabet 34) → başlıkta "iniş hikâyesi" ikincil kalır, açık ad / aranan ifade önde (GUNLUK nüzul başlık kuralı aynen). Bu partide ElevenLabs ödeme hatası nedeniyle sesli video üretilmedi; bulgu sonraki 20:30 başlığında uygulanacak.
+
 | # | Format | Durum | Ölçüt |
 |---|---|---|---|
 | 1 | Tilavet kartı (kart.py, `ses: tilavet`) | 19 Ekim başladı (v046–v060) | 2. sn oranı, izlenme, paylaşım/kaydetme, takip — anlatımlıya karşı |
