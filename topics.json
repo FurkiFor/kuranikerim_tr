@@ -12439,8 +12439,8 @@
   ],
   "hook": "Geçmişin yüzünden değişemeyeceğini mi düşünüyorsun?",
   "kapanis": "Secdeye ilk onlar kapandı.",
-  "bg": "kapi",
-  "sahne": "kapi",
+  "bg": "deniz",
+  "sahne": "deniz",
   "aciklama": "Tâhâ Suresi 70. ayette, Firavun'un sihirbazları Hz. Musa'nın mucizesini görünce Musa ve Harun'un Rabbine inandıklarını söyleyip secdeye kapanıyor. Diyanet meali.",
   "etiketler": [
    "değişim",
@@ -12480,7 +12480,7 @@
     "hz musa"
    ]
   },
-  "not": "AKŞAM 13 Kasım stok (nüzul formatı, telifsiz: meal Türkçe seslendirilir). Bağlam komşu ayetlerin Diyanet mealinden. SABAH 15 Kasım: 18:00 (TikTok; Kervly bağlayıcısı yok → YouTube bekliyor)."
+  "not": "AKŞAM 13 Kasım stok (nüzul formatı, telifsiz: meal Türkçe seslendirilir). Bağlam komşu ayetlerin Diyanet mealinden. SABAH 15 Kasım: 18:00 (TikTok; Kervly bağlayıcısı yok → YouTube bekliyor). Kapı sahnesinde kapanıştaki künye ve yazı parlak kapının üstünde okunmadı → sahne deniz, yeniden render."
  },
  {
   "id": "v289",
