@@ -1,0 +1,37 @@
+{
+ "id": "v288",
+ "voice_id": "nA7C14u2DhGhE4ZLOyGF",
+ "voice_name": "Seçkin Yiğit",
+ "model": "eleven_v4",
+ "flow_id": "onnTZtT2KA6AACDOqidG",
+ "segments": [
+  {
+   "kind": "hook",
+   "text": "Geçmişin yüzünden değişemeyeceğini mi düşünüyorsun?",
+   "prompt": "[deep voice] [slowly] Geçmişin yüzünden değişemeyeceğini mi düşünüyorsun?",
+   "generation_id": "65L9yHeF2z7NeTYsmwJj",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/Y1k0rLWcVzcmH4KB33I7/65L9yHeF2z7NeTYsmwJj/content.mp3?Expires=1794722400&KeyName=assets-cdn-key-1&Signature=rGfm66ju-mzWswpm2jM3ria_jKw="
+  },
+  {
+   "kind": "giris",
+   "text": "Firavun'un sihirbazları iplerini ve değneklerini attı. Hazreti Musa içinde bir korku hissetti; Allah ona korkma, elindekini at dedi. Ardından şu ayet geldi.",
+   "prompt": "[deep voice] [slowly] Firavun'un sihirbazları iplerini ve değneklerini attı. Hazreti Musa içinde bir korku hissetti; Allah ona korkma, elindekini at dedi. Ardından şu ayet geldi.",
+   "generation_id": "to6SdqtTWR4GVP9toa9z",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/CkUWCeUAdYyY4mc8PP3e/to6SdqtTWR4GVP9toa9z/content.mp3?Expires=1794722400&KeyName=assets-cdn-key-1&Signature=7sP7vyDekTSzmgj6aSTIOdYjsHw="
+  },
+  {
+   "kind": "meal",
+   "text": "Sonunda sihirbazlar: \"Biz Musa ve Harun'un Rabbine inandık\" deyip secdeye kapandılar.",
+   "prompt": "[softly] [slowly] Sonunda sihirbazlar: Biz Musa ve Harun'un Rabbine inandık deyip secdeye kapandılar.",
+   "generation_id": "pB633c8BqLCV11kadk4y",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/6cnPByQCheUH33MomrDM/pB633c8BqLCV11kadk4y/content.mp3?Expires=1794722400&KeyName=assets-cdn-key-1&Signature=BxhpFq-qXf7ZdjPoz_JriNa_vOI="
+  },
+  {
+   "kind": "cta",
+   "text": "Az önce Firavun'un safında olan sihirbazlar, Musa ve Harun'un Rabbine inanıp secdeye kapandı. Değişmek için geç sanıyorsan kendine bir daha sor:",
+   "prompt": "[deep voice] Az önce Firavun'un safında olan sihirbazlar, Musa ve Harun'un Rabbine inanıp secdeye kapandı. Değişmek için geç sanıyorsan kendine bir daha sor:",
+   "generation_id": "7zp5gByH8ZNnoZuzOiGB",
+   "url": "https://elevenlabsusercontent.com/database/workspace/caa0c8442445491d885c0ad25d3f472d/content_generation/R7saa5itaG166KWHIrzN/7zp5gByH8ZNnoZuzOiGB/content.mp3?Expires=1794722400&KeyName=assets-cdn-key-1&Signature=fIkd35tF1URj2hYq7ZCHp9ZkJk0="
+  }
+ ]
+}
