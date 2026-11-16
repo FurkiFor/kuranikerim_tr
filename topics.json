@@ -13805,5 +13805,605 @@
    ]
   },
   "not": "SABAH 15 Kasım stok (nüzul formatı, telifsiz: meal Türkçe seslendirilir). Bağlam komşu ayetlerin Diyanet mealinden."
+ },
+ {
+  "id": "v318",
+  "tur": "kart",
+  "sure": 26,
+  "ayet": [
+   24,
+   24
+  ],
+  "kart_metin": "bilin ki O göklerin, yerin ve ikisinin arasında bulunanların Rabbidir",
+  "sahne": "yildiz",
+  "hook": "Hz. Musa, Firavun'a dedi ki:",
+  "tema": "Hz. Musa",
+  "etiketler": [
+   "hz musa",
+   "hzmusa",
+   "şuarâ suresi",
+   "tilavet"
+  ],
+  "aciklama": "Şuarâ Suresi 24. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "bilin ki O göklerin, yerin ve ikisinin arasında bulunanların Rabbidir",
+  "seo": {
+   "yt_baslik": "Hz. Musa'nın Firavun'a cevabı | Şuarâ 24",
+   "ilk_satir": "Hz. Musa'nın Firavun'a cevabı | Şuarâ 24: bilin ki O göklerin, yerin ve ikisinin arasında bulunanların Rabbidir",
+   "aciklama": "Şuarâ Suresi 24. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz musa",
+    "şuara suresi 24",
+    "hz musa firavun"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 24,
+    "metin": "bilin ki O göklerin, yerin ve ikisinin arasında bulunanların Rabbidir"
+   }
+  ],
+  "ust": "Hz. Musa, Firavun'a dedi ki:",
+  "not": "SABAH 16 Kasım stok kartı (82 harf, ~14.4 sn tahmini)."
+ },
+ {
+  "id": "v319",
+  "tur": "kart",
+  "sure": 43,
+  "ayet": [
+   64,
+   64
+  ],
+  "kart_metin": "Doğrusu Allah benim de Rabbimdir, sizin de Rabbinizdir, artık O'na kulluk edin, bu, doğru yoldur",
+  "sahne": "deniz",
+  "hook": "Hz. İsa dedi ki:",
+  "tema": "Hz. İsa",
+  "etiketler": [
+   "hz isa",
+   "hzisa",
+   "zuhruf suresi",
+   "tilavet"
+  ],
+  "aciklama": "Zuhruf Suresi 64. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Doğrusu Allah benim de Rabbimdir, sizin de Rabbinizdir, artık O'na kulluk edin, bu, doğru yoldur",
+  "seo": {
+   "yt_baslik": "Hz. İsa'nın sözü | Zuhruf 64",
+   "ilk_satir": "Hz. İsa'nın sözü | Zuhruf 64: Doğrusu Allah benim de Rabbimdir, sizin de Rabbinizdir, artık O'na kulluk edin, bu, doğru yoldu",
+   "aciklama": "Zuhruf Suresi 64. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz isa",
+    "zuhruf suresi 64",
+    "hz isa kuran"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 64,
+    "metin": "Doğrusu Allah benim de Rabbimdir, sizin de Rabbinizdir, artık O'na kulluk edin, bu, doğru yoldur"
+   }
+  ],
+  "ust": "Hz. İsa dedi ki:",
+  "not": "SABAH 16 Kasım stok kartı (79 harf, ~13.9 sn tahmini)."
+ },
+ {
+  "id": "v320",
+  "tur": "kart",
+  "sure": 12,
+  "ayet": [
+   55,
+   55
+  ],
+  "kart_metin": "Yusuf: \"Beni memleketin hazinelerine memur et, çünkü ben korumasını ve yönetmesini bilirim\" dedi",
+  "sahne": "kum",
+  "hook": "Hz. Yusuf hükümdara dedi ki:",
+  "tema": "Hz. Yusuf",
+  "etiketler": [
+   "hz yusuf",
+   "hzyusuf",
+   "yûsuf suresi",
+   "tilavet"
+  ],
+  "aciklama": "Yûsuf Suresi 55. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Yusuf: \"Beni memleketin hazinelerine memur et, çünkü ben korumasını ve yönetmesini bilirim\" dedi",
+  "seo": {
+   "yt_baslik": "Hz. Yusuf'un hükümdara sözü | Yûsuf 55",
+   "ilk_satir": "Hz. Yusuf'un hükümdara sözü | Yûsuf 55: Yusuf: \"Beni memleketin hazinelerine memur et, çünkü ben korumasını ve yönetmesini bi",
+   "aciklama": "Yûsuf Suresi 55. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz yusuf",
+    "yusuf suresi 55",
+    "hz yusuf kıssası"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 55,
+    "metin": "Yusuf: \"Beni memleketin hazinelerine memur et, çünkü ben korumasını ve yönetmesini bilirim\" dedi"
+   }
+  ],
+  "ust": "Hz. Yusuf hükümdara dedi ki:",
+  "not": "SABAH 16 Kasım stok kartı (68 harf, ~12.0 sn tahmini)."
+ },
+ {
+  "id": "v321",
+  "tur": "kart",
+  "sure": 18,
+  "ayet": [
+   64,
+   64
+  ],
+  "kart_metin": "Musa: \"İstediğimiz zaten buydu\" dedi. Hemen geldikleri yoldan izleri üzerinde geri döndüler",
+  "sahne": "deniz",
+  "hook": "Hz. Musa aradığı yeri anlayınca dedi ki:",
+  "tema": "Hz. Musa",
+  "etiketler": [
+   "hz musa",
+   "hzmusa",
+   "kehf suresi",
+   "tilavet"
+  ],
+  "aciklama": "Kehf Suresi 64. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Musa: \"İstediğimiz zaten buydu\" dedi. Hemen geldikleri yoldan izleri üzerinde geri döndüler",
+  "seo": {
+   "yt_baslik": "Hz. Musa ve Hızır yolculuğu | Kehf 64",
+   "ilk_satir": "Hz. Musa ve Hızır yolculuğu | Kehf 64: Musa: \"İstediğimiz zaten buydu\" dedi. Hemen geldikleri yoldan izleri üzerinde geri dön",
+   "aciklama": "Kehf Suresi 64. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz musa",
+    "kehf suresi 64",
+    "musa ve hızır"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 64,
+    "metin": "Musa: \"İstediğimiz zaten buydu\" dedi. Hemen geldikleri yoldan izleri üzerinde geri döndüler"
+   }
+  ],
+  "ust": "Hz. Musa aradığı yeri anlayınca dedi ki:",
+  "not": "SABAH 16 Kasım stok kartı (72 harf, ~12.7 sn tahmini)."
+ },
+ {
+  "id": "v322",
+  "tur": "kart",
+  "sure": 21,
+  "ayet": [
+   63,
+   63
+  ],
+  "kart_metin": "İbrahim: \"Belki onu şu büyükleri yapmıştır, konuşabiliyorlarsa onlara sorun\" dedi",
+  "sahne": "yildiz",
+  "hook": "Hz. İbrahim putları kırınca dedi ki:",
+  "tema": "Hz. İbrahim",
+  "etiketler": [
+   "hz ibrahim",
+   "hzibrahim",
+   "enbiyâ suresi",
+   "tilavet"
+  ],
+  "aciklama": "Enbiyâ Suresi 63. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "İbrahim: \"Belki onu şu büyükleri yapmıştır, konuşabiliyorlarsa onlara sorun\" dedi",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'in putlar karşısındaki sözü | Enbiyâ 63",
+   "ilk_satir": "Hz. İbrahim'in putlar karşısındaki sözü | Enbiyâ 63: İbrahim: \"Belki onu şu büyükleri yapmıştır, konuşabiliyorlarsa onlara so",
+   "aciklama": "Enbiyâ Suresi 63. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "enbiya suresi 63",
+    "hz ibrahim putlar"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 63,
+    "metin": "İbrahim: \"Belki onu şu büyükleri yapmıştır, konuşabiliyorlarsa onlara sorun\" dedi"
+   }
+  ],
+  "ust": "Hz. İbrahim putları kırınca dedi ki:",
+  "not": "SABAH 16 Kasım stok kartı (78 harf, ~13.7 sn tahmini)."
+ },
+ {
+  "id": "v323",
+  "tur": "kart",
+  "sure": 37,
+  "ayet": [
+   112,
+   112
+  ],
+  "kart_metin": "Ona, iyilerden olan İshak'ı peygamber olarak müjdeledik",
+  "sahne": "kum",
+  "hook": "Allah, Hz. İbrahim'e evlat müjdeledi",
+  "tema": "Hz. İbrahim",
+  "etiketler": [
+   "hz ibrahim",
+   "hzibrahim",
+   "sâffât suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sâffât Suresi 112. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Ona, iyilerden olan İshak'ı peygamber olarak müjdeledik",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim'e İshak müjdesi | Sâffât 112",
+   "ilk_satir": "Hz. İbrahim'e İshak müjdesi | Sâffât 112: Ona, iyilerden olan İshak'ı peygamber olarak müjdeledik",
+   "aciklama": "Sâffât Suresi 112. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "saffat suresi 112",
+    "evlat müjdesi"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 112,
+    "metin": "Ona, iyilerden olan İshak'ı peygamber olarak müjdeledik"
+   }
+  ],
+  "ust": "Allah, Hz. İbrahim'e evlat müjdeledi",
+  "not": "SABAH 16 Kasım stok kartı (54 harf, ~9.5 sn tahmini)."
+ },
+ {
+  "id": "v324",
+  "tur": "kart",
+  "sure": 25,
+  "ayet": [
+   35,
+   35
+  ],
+  "kart_metin": "And olsun ki Musa'ya Kitap verdik, kardeşi Harun'u da kendisine vezir yaptık",
+  "sahne": "deniz",
+  "hook": "Allah, Hz. Musa'ya kardeşini yardımcı verdi",
+  "tema": "Hz. Musa",
+  "etiketler": [
+   "hz musa",
+   "hzmusa",
+   "furkân suresi",
+   "tilavet"
+  ],
+  "aciklama": "Furkân Suresi 35. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "And olsun ki Musa'ya Kitap verdik, kardeşi Harun'u da kendisine vezir yaptık",
+  "seo": {
+   "yt_baslik": "Hz. Musa ve kardeşi Harun | Furkân 35",
+   "ilk_satir": "Hz. Musa ve kardeşi Harun | Furkân 35: And olsun ki Musa'ya Kitap verdik, kardeşi Harun'u da kendisine vezir yaptık",
+   "aciklama": "Furkân Suresi 35. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz musa",
+    "furkan suresi 35",
+    "hz harun"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 35,
+    "metin": "And olsun ki Musa'ya Kitap verdik, kardeşi Harun'u da kendisine vezir yaptık"
+   }
+  ],
+  "ust": "Allah, Hz. Musa'ya kardeşini yardımcı verdi",
+  "not": "SABAH 16 Kasım stok kartı (80 harf, ~14.1 sn tahmini)."
+ },
+ {
+  "id": "v325",
+  "tur": "kart",
+  "sure": 7,
+  "ayet": [
+   104,
+   104
+  ],
+  "kart_metin": "Musa, \"Ey Firavun! Ben alemlerin Rabbinin peygamberiyim",
+  "sahne": "yildiz",
+  "hook": "Hz. Musa, Firavun'un karşısında dedi ki:",
+  "tema": "Hz. Musa",
+  "etiketler": [
+   "hz musa",
+   "hzmusa",
+   "a'râf suresi",
+   "tilavet"
+  ],
+  "aciklama": "A'râf Suresi 104. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Musa, \"Ey Firavun! Ben alemlerin Rabbinin peygamberiyim",
+  "seo": {
+   "yt_baslik": "Hz. Musa Firavun'un karşısında | A'râf 104",
+   "ilk_satir": "Hz. Musa Firavun'un karşısında | A'râf 104: Musa, \"Ey Firavun! Ben alemlerin Rabbinin peygamberiyim",
+   "aciklama": "A'râf Suresi 104. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz musa",
+    "araf suresi 104",
+    "hz musa firavun"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 104,
+    "metin": "Musa, \"Ey Firavun! Ben alemlerin Rabbinin peygamberiyim"
+   }
+  ],
+  "ust": "Hz. Musa, Firavun'un karşısında dedi ki:",
+  "not": "SABAH 16 Kasım stok kartı (70 harf, ~12.3 sn tahmini)."
+ },
+ {
+  "id": "v326",
+  "tur": "kart",
+  "sure": 19,
+  "ayet": [
+   2,
+   2
+  ],
+  "kart_metin": "Bu, Rabbinin kulu Zekeriya'ya olan rahmetini anmadır",
+  "sahne": "kum",
+  "hook": "Rabbinin, Hz. Zekeriya'ya rahmeti",
+  "tema": "Hz. Zekeriya",
+  "etiketler": [
+   "hz zekeriya",
+   "hzzekeriya",
+   "meryem suresi",
+   "tilavet"
+  ],
+  "aciklama": "Meryem Suresi 2. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Bu, Rabbinin kulu Zekeriya'ya olan rahmetini anmadır",
+  "seo": {
+   "yt_baslik": "Hz. Zekeriya'ya rahmet | Meryem 2",
+   "ilk_satir": "Hz. Zekeriya'ya rahmet | Meryem 2: Bu, Rabbinin kulu Zekeriya'ya olan rahmetini anmadır",
+   "aciklama": "Meryem Suresi 2. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz zekeriya",
+    "meryem suresi 2",
+    "meryem suresi"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 2,
+    "metin": "Bu, Rabbinin kulu Zekeriya'ya olan rahmetini anmadır"
+   }
+  ],
+  "ust": "Rabbinin, Hz. Zekeriya'ya rahmeti",
+  "not": "SABAH 16 Kasım stok kartı (43 harf, ~7.6 sn tahmini)."
+ },
+ {
+  "id": "v327",
+  "tur": "kart",
+  "sure": 26,
+  "ayet": [
+   9,
+   9
+  ],
+  "kart_metin": "Rabbin şüphesiz güçlüdür, merhametlidir",
+  "sahne": "deniz",
+  "hook": "Rabbin hem güçlü hem merhametli",
+  "tema": "Allah",
+  "etiketler": [
+   "allah",
+   "allah ayeti",
+   "şuarâ suresi",
+   "tilavet"
+  ],
+  "aciklama": "Şuarâ Suresi 9. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Rabbin şüphesiz güçlüdür, merhametlidir",
+  "seo": {
+   "yt_baslik": "Rabbin güçlüdür, merhametlidir | Şuarâ 9",
+   "ilk_satir": "Rabbin güçlüdür, merhametlidir | Şuarâ 9: Rabbin şüphesiz güçlüdür, merhametlidir",
+   "aciklama": "Şuarâ Suresi 9. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "şuara suresi 9",
+    "allahın merhameti",
+    "rabbin merhametli"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 9,
+    "metin": "Rabbin şüphesiz güçlüdür, merhametlidir"
+   }
+  ],
+  "ust": "Rabbin hem güçlü hem merhametli",
+  "not": "SABAH 16 Kasım stok kartı (44 harf, ~7.7 sn tahmini)."
+ },
+ {
+  "id": "v328",
+  "tur": "kart",
+  "sure": 37,
+  "ayet": [
+   114,
+   114
+  ],
+  "kart_metin": "And olsun ki Musa ve Harun'a da iyilikte bulunmuştuk",
+  "sahne": "yildiz",
+  "hook": "Allah, Hz. Musa ve Hz. Harun'a iyilik etti",
+  "tema": "Hz. Musa",
+  "etiketler": [
+   "hz musa",
+   "hzmusa",
+   "sâffât suresi",
+   "tilavet"
+  ],
+  "aciklama": "Sâffât Suresi 114. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "And olsun ki Musa ve Harun'a da iyilikte bulunmuştuk",
+  "seo": {
+   "yt_baslik": "Hz. Musa ve Hz. Harun'a iyilik | Sâffât 114",
+   "ilk_satir": "Hz. Musa ve Hz. Harun'a iyilik | Sâffât 114: And olsun ki Musa ve Harun'a da iyilikte bulunmuştuk",
+   "aciklama": "Sâffât Suresi 114. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz musa",
+    "saffat suresi 114",
+    "hz harun"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 114,
+    "metin": "And olsun ki Musa ve Harun'a da iyilikte bulunmuştuk"
+   }
+  ],
+  "ust": "Allah, Hz. Musa ve Hz. Harun'a iyilik etti",
+  "not": "SABAH 16 Kasım stok kartı (43 harf, ~7.6 sn tahmini)."
+ },
+ {
+  "id": "v329",
+  "tur": "kart",
+  "sure": 5,
+  "ayet": [
+   74,
+   74
+  ],
+  "kart_metin": "Allah'a tevbe etmezler, O'ndan mağfiret dilemezler mi? Oysa Allah Bağışlayan'dır, merhamet edendir",
+  "sahne": "kum",
+  "hook": "Tövbe edene Allah bağışlayandır",
+  "tema": "Tövbe",
+  "etiketler": [
+   "tövbe",
+   "tövbe ayeti",
+   "mâide suresi",
+   "tilavet"
+  ],
+  "aciklama": "Mâide Suresi 74. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Allah'a tevbe etmezler, O'ndan mağfiret dilemezler mi? Oysa Allah Bağışlayan'dır, merhamet edendir",
+  "seo": {
+   "yt_baslik": "Tövbe edene Allah bağışlayandır | Mâide 74",
+   "ilk_satir": "Tövbe edene Allah bağışlayandır | Mâide 74: Allah'a tevbe etmezler, O'ndan mağfiret dilemezler mi? Oysa Allah Bağışlayan'dır,",
+   "aciklama": "Mâide Suresi 74. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "tövbe ayeti",
+    "maide suresi 74",
+    "allah bağışlar"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 74,
+    "metin": "Allah'a tevbe etmezler, O'ndan mağfiret dilemezler mi? Oysa Allah Bağışlayan'dır, merhamet edendir"
+   }
+  ],
+  "ust": "Tövbe edene Allah bağışlayandır",
+  "not": "SABAH 16 Kasım stok kartı (80 harf, ~14.1 sn tahmini)."
+ },
+ {
+  "id": "v330",
+  "tur": "kart",
+  "sure": 26,
+  "ayet": [
+   28,
+   28
+  ],
+  "kart_metin": "bilin ki O, doğunun, batının ve ikisinin arasında bulunanların Rabbidir",
+  "sahne": "deniz",
+  "hook": "Hz. Musa, saraydakilere dedi ki:",
+  "tema": "Hz. Musa",
+  "etiketler": [
+   "hz musa",
+   "hzmusa",
+   "şuarâ suresi",
+   "tilavet"
+  ],
+  "aciklama": "Şuarâ Suresi 28. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "bilin ki O, doğunun, batının ve ikisinin arasında bulunanların Rabbidir",
+  "seo": {
+   "yt_baslik": "Hz. Musa'nın sözü | Şuarâ 28",
+   "ilk_satir": "Hz. Musa'nın sözü | Şuarâ 28: bilin ki O, doğunun, batının ve ikisinin arasında bulunanların Rabbidir",
+   "aciklama": "Şuarâ Suresi 28. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz musa",
+    "şuara suresi 28",
+    "doğunun ve batının rabbi"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 28,
+    "metin": "bilin ki O, doğunun, batının ve ikisinin arasında bulunanların Rabbidir"
+   }
+  ],
+  "ust": "Hz. Musa, saraydakilere dedi ki:",
+  "not": "SABAH 16 Kasım stok kartı (83 harf, ~14.6 sn tahmini)."
+ },
+ {
+  "id": "v331",
+  "tur": "kart",
+  "sure": 17,
+  "ayet": [
+   84,
+   84
+  ],
+  "kart_metin": "Herkes yaradılışına göre davranır. Rabbiniz kimin en doğru yolda olduğunu bilir",
+  "sahne": "yildiz",
+  "hook": "Rabbin, kimin doğru yolda olduğunu bilir",
+  "tema": "Allah",
+  "etiketler": [
+   "doğru yol",
+   "doğruyol",
+   "i̇srâ suresi",
+   "tilavet"
+  ],
+  "aciklama": "İsrâ Suresi 84. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "Herkes yaradılışına göre davranır. Rabbiniz kimin en doğru yolda olduğunu bilir",
+  "seo": {
+   "yt_baslik": "Rabbin kimin doğru yolda olduğunu bilir | İsrâ 84",
+   "ilk_satir": "Rabbin kimin doğru yolda olduğunu bilir | İsrâ 84: Herkes yaradılışına göre davranır. Rabbiniz kimin en doğru yolda olduğunu ",
+   "aciklama": "İsrâ Suresi 84. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "isra suresi 84",
+    "doğru yol ayeti",
+    "herkes yaradılışına göre davranır"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 84,
+    "metin": "Herkes yaradılışına göre davranır. Rabbiniz kimin en doğru yolda olduğunu bilir"
+   }
+  ],
+  "ust": "Rabbin, kimin doğru yolda olduğunu bilir",
+  "not": "SABAH 16 Kasım stok kartı (89 harf, ~15.7 sn tahmini)."
+ },
+ {
+  "id": "v332",
+  "tur": "kart",
+  "sure": 51,
+  "ayet": [
+   31,
+   31
+  ],
+  "kart_metin": "İbrahim: \"Ey Elçiler! Göreviniz nedir?\" dedi",
+  "sahne": "kum",
+  "hook": "Hz. İbrahim, misafirlerine dedi ki:",
+  "tema": "Hz. İbrahim",
+  "etiketler": [
+   "hz ibrahim",
+   "hzibrahim",
+   "zâriyât suresi",
+   "tilavet"
+  ],
+  "aciklama": "Zâriyât Suresi 31. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+  "kapanis": "İbrahim: \"Ey Elçiler! Göreviniz nedir?\" dedi",
+  "seo": {
+   "yt_baslik": "Hz. İbrahim ve misafirleri | Zâriyât 31",
+   "ilk_satir": "Hz. İbrahim ve misafirleri | Zâriyât 31: İbrahim: \"Ey Elçiler! Göreviniz nedir?\" dedi",
+   "aciklama": "Zâriyât Suresi 31. ayet, Diyanet meali. Tilavet: Ali el-Huzeyfi.",
+   "anahtar": [
+    "hz ibrahim",
+    "zariyat suresi 31",
+    "hz ibrahim misafirleri"
+   ]
+  },
+  "ses": "tilavet",
+  "sayfalar": [
+   {
+    "ayet": 31,
+    "metin": "İbrahim: \"Ey Elçiler! Göreviniz nedir?\" dedi"
+   }
+  ],
+  "ust": "Hz. İbrahim, misafirlerine dedi ki:",
+  "not": "SABAH 16 Kasım stok kartı (48 harf, ~8.4 sn tahmini)."
  }
 ]
