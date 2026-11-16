@@ -2626,14 +2626,18 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tekrar paylaşım (ElevenLabs ödeme hatası; telifsiz nüzul, ilk TT 14 Kasım 18:00)"
+  "not": "tekrar paylaşım (ElevenLabs ödeme hatası; telifsiz nüzul, ilk TT 14 Kasım 18:00)",
+  "zernio_id": "6afaf18b3176a1fd2da95d63",
+  "status": "scheduled"
  },
  {
   "id": "v304",
   "at": "2026-11-16T20:30:00+04:00",
   "platforms": [
    "instagram"
-  ]
+  ],
+  "zernio_id": "6afaf1904c63d1034693d92d",
+  "status": "scheduled"
  },
  {
   "id": "v291",
@@ -2641,6 +2645,8 @@
   "platforms": [
    "tiktok"
   ],
-  "not": "tekrar paylaşım (ElevenLabs ödeme hatası; gece kapanışlı, ilk TT 14 Kasım 23:30)"
+  "not": "tekrar paylaşım (ElevenLabs ödeme hatası; gece kapanışlı, ilk TT 14 Kasım 23:30)",
+  "zernio_id": "6afaf19008a3d5040c9421df",
+  "status": "scheduled"
  }
 ]
