@@ -2697,5 +2697,29 @@
   "not": "deney 10 'Allah + sen' — İsrâ 84 (v327 6,8 sn çıktığı için yerine)",
   "zernio_id": "6afbd0b70faa3043c28c372a",
   "status": "scheduled"
+ },
+ {
+  "id": "v303",
+  "at": "2026-11-17T16:45:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "16:45 tilavet kartı — Kamer 27 (Hz. Salih, sabır), 9,1 sn"
+ },
+ {
+  "id": "v322",
+  "at": "2026-11-17T20:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "20:30 tilavet kartı — Enbiyâ 63 (deney 12 'Hz. İbrahim … dedi ki:'), 12,0 sn"
+ },
+ {
+  "id": "v278",
+  "at": "2026-11-17T23:30:00+04:00",
+  "platforms": [
+   "tiktok"
+  ],
+  "not": "tekrar paylaşım (ElevenLabs ödeme hatası; telifsiz nüzul, gece kapanışlı, ilk TT 13 Kasım 23:30)"
  }
 ]
