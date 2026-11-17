@@ -2176,8 +2176,8 @@
   },
   "v292": {
    "tiktok": {
-    "tarih": "2026-11-15T10:00:00+04:00",
-    "zernio_id": "6af92c0567cbfc6409acded0"
+    "tarih": "2026-11-17T10:00:00+04:00",
+    "zernio_id": "6afbce9e013d51bdb1c3bc41"
    }
   },
   "v297": {
@@ -2200,8 +2200,8 @@
   },
   "v288": {
    "tiktok": {
-    "tarih": "2026-11-15T18:00:00+04:00",
-    "zernio_id": "6af92db04d832821eee86c6b"
+    "tarih": "2026-11-17T18:00:00+04:00",
+    "zernio_id": "6afbce9f013d51bdb1c3bc4c"
    }
   },
   "v295": {
@@ -2244,6 +2244,18 @@
    "instagram": {
     "tarih": "2026-11-16T20:30:00+04:00",
     "zernio_id": "6afaf1904c63d1034693d92d"
+   }
+  },
+  "v323": {
+   "instagram": {
+    "tarih": "2026-11-17T10:00:00+04:00",
+    "zernio_id": "6afbce9f013d51bdb1c3bc46"
+   }
+  },
+  "v319": {
+   "instagram": {
+    "tarih": "2026-11-17T19:00:00+04:00",
+    "zernio_id": "6afbcea0ce106e6182543441"
    }
   }
  }

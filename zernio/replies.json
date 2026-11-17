@@ -2027,24 +2027,32 @@
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18150709312561650",
-  "message": "Amin, Rabbim kabul etsin 🤍"
+  "message": "Amin, Rabbim kabul etsin 🤍",
+  "sent": true,
+  "replyId": "17940427875126275"
  },
  {
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18398488141167598",
-  "message": "Amin, Rabbim dualarını geri çevirmesin 🤍"
+  "message": "Amin, Rabbim dualarını geri çevirmesin 🤍",
+  "sent": true,
+  "replyId": "18138924049732596"
  },
  {
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18099850394391405",
-  "message": "Rabbim seni her türlü şerden korusun, kalbine ferahlık versin 🤍 Yükün ağırsa güvendiğin bir hocayla konuşmanı öneririm."
+  "message": "Rabbim seni her türlü şerden korusun, kalbine ferahlık versin 🤍 Yükün ağırsa güvendiğin bir hocayla konuşmanı öneririm.",
+  "sent": true,
+  "replyId": "18109682195352920"
  },
  {
   "postId": "17963931177234455",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18391085611224271",
-  "message": "Amin, Rabbim hepimizi kötülerin şerrinden muhafaza etsin 🤍"
+  "message": "Amin, Rabbim hepimizi kötülerin şerrinden muhafaza etsin 🤍",
+  "sent": true,
+  "replyId": "18645938023035324"
  }
 ]
