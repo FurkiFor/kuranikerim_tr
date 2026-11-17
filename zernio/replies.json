@@ -2059,24 +2059,32 @@
   "postId": "17921699604532813",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18091739804273311",
-  "message": "Elhamdülillah 🤍 Allah kalbine huzur versin."
+  "message": "Elhamdülillah 🤍 Allah kalbine huzur versin.",
+  "sent": true,
+  "replyId": "18109935467627183"
  },
  {
   "postId": "18112696706621893",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18478881148115763",
-  "message": "Âmin, Rabbim dualarını kabul etsin 🤲"
+  "message": "Âmin, Rabbim dualarını kabul etsin 🤲",
+  "sent": true,
+  "replyId": "18036965930855651"
  },
  {
   "postId": "7708854137194024200",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7708880649566438164",
-  "message": "Ne güzel hatırlattın 🤍 Rabbim kalbimizi huzurla doldursun."
+  "message": "Ne güzel hatırlattın 🤍 Rabbim kalbimizi huzurla doldursun.",
+  "sent": true,
+  "replyId": "7709100870352274197"
  },
  {
   "postId": "7708769684409175297",
   "accountId": "6ad42f22301325504552e868",
   "commentId": "7708770838795387669",
-  "message": "🤍 İzlediğin için teşekkürler, Rabbim razı olsun."
+  "message": "🤍 İzlediğin için teşekkürler, Rabbim razı olsun.",
+  "sent": true,
+  "replyId": "7709096836891837191"
  }
 ]
