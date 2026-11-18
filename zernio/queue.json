@@ -2761,7 +2761,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "16:45 tilavet kartı — Enbiyâ 62 (deney 12 'Hz. İbrahim'e sordular:'), 12,1 sn, yıldız"
+  "not": "16:45 tilavet kartı — Enbiyâ 62 (deney 12 'Hz. İbrahim'e sordular:'), 12,1 sn, yıldız",
+  "zernio_id": "6afd969a2e0aee658badb7bd",
+  "status": "scheduled"
  },
  {
   "id": "v337",
@@ -2769,6 +2771,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "20:30 tilavet kartı — Kasas 11 (deney 12 'Hz. Musa'nın annesi kızına dedi ki:'), 11,9 sn, deniz"
+  "not": "20:30 tilavet kartı — Kasas 11 (deney 12 'Hz. Musa'nın annesi kızına dedi ki:'), 11,9 sn, deniz",
+  "zernio_id": "6afd969a2e0aee658badb7c2",
+  "status": "scheduled"
  }
 ]
