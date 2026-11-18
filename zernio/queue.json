@@ -2727,5 +2727,26 @@
   "not": "tekrar paylaşım (ElevenLabs ödeme hatası; telifsiz nüzul, gece kapanışlı, ilk TT 13 Kasım 23:30)",
   "zernio_id": "6afc42f2afda27a80814835e",
   "status": "scheduled"
+ },
+ {
+  "id": "v306",
+  "at": "2026-11-18T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v308",
+  "at": "2026-11-18T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
+ },
+ {
+  "id": "v320",
+  "at": "2026-11-18T19:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ]
  }
 ]
