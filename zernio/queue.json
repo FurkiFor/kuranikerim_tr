@@ -2781,7 +2781,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "10:00 tilavet kartı — Yûsuf 89 (deney 12 'Hz. Yusuf kardeşlerine dedi ki:'), 10,9 sn, yıldız"
+  "not": "10:00 tilavet kartı — Yûsuf 89 (deney 12 'Hz. Yusuf kardeşlerine dedi ki:'), 10,9 sn, yıldız",
+  "zernio_id": "6afe72d063a57dd72e32e674",
+  "status": "scheduled"
  },
  {
   "id": "v340",
@@ -2789,7 +2791,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "13:00 tilavet kartı — Meryem 34 (Hz. İsa), 8,4 sn, deniz"
+  "not": "13:00 tilavet kartı — Meryem 34 (Hz. İsa), 8,4 sn, deniz",
+  "zernio_id": "6afe72d1adbb55b32dfe0c50",
+  "status": "scheduled"
  },
  {
   "id": "v342",
@@ -2797,6 +2801,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "19:00 peygamber sözü kartı — Furkân 30 ('Peygamber Rabbine dedi ki:'), 9,2 sn, yıldız"
+  "not": "19:00 peygamber sözü kartı — Furkân 30 ('Peygamber Rabbine dedi ki:'), 9,2 sn, yıldız",
+  "zernio_id": "6afe72d1adbb55b32dfe0c54",
+  "status": "scheduled"
  }
 ]
