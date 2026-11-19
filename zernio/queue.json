@@ -2774,5 +2774,29 @@
   "not": "20:30 tilavet kartı — Kasas 11 (deney 12 'Hz. Musa'nın annesi kızına dedi ki:'), 11,9 sn, deniz",
   "zernio_id": "6afd969a2e0aee658badb7c2",
   "status": "scheduled"
+ },
+ {
+  "id": "v335",
+  "at": "2026-11-19T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "10:00 tilavet kartı — Yûsuf 89 (deney 12 'Hz. Yusuf kardeşlerine dedi ki:'), 10,9 sn, yıldız"
+ },
+ {
+  "id": "v340",
+  "at": "2026-11-19T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "13:00 tilavet kartı — Meryem 34 (Hz. İsa), 8,4 sn, deniz"
+ },
+ {
+  "id": "v342",
+  "at": "2026-11-19T19:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "19:00 peygamber sözü kartı — Furkân 30 ('Peygamber Rabbine dedi ki:'), 9,2 sn, yıldız"
  }
 ]
