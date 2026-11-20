@@ -2831,7 +2831,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "10:00 tilavet kartı — Meryem 16 'Hz. Meryem ailesinden ayrılıp çekildi', 10,1 sn, yıldız"
+  "not": "10:00 tilavet kartı — Meryem 16 'Hz. Meryem ailesinden ayrılıp çekildi', 10,1 sn, yıldız",
+  "zernio_id": "6affbdef1cd76b4581aef3f6",
+  "status": "scheduled"
  },
  {
   "id": "v343",
@@ -2839,7 +2841,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "13:00 tilavet kartı — Bakara 53 'Allah, Hz. Musa'ya Kitap verdi', 8,6 sn, deniz"
+  "not": "13:00 tilavet kartı — Bakara 53 'Allah, Hz. Musa'ya Kitap verdi', 8,6 sn, deniz",
+  "zernio_id": "6affbdf03f4427fa0a777989",
+  "status": "scheduled"
  },
  {
   "id": "v333",
@@ -2847,6 +2851,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "19:00 peygamber sözü kartı — Yûnus 80 (deney 12 'Hz. Musa sihirbazlara dedi ki:'), 16,8 sn, yıldız"
+  "not": "19:00 peygamber sözü kartı — Yûnus 80 (deney 12 'Hz. Musa sihirbazlara dedi ki:'), 16,8 sn, yıldız",
+  "zernio_id": "6affbdf0a4c60d9b913a5de7",
+  "status": "scheduled"
  }
 ]
