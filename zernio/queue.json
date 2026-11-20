@@ -2824,5 +2824,29 @@
   "not": "20:30 tilavet kartı — Enbiyâ 52 (deney 12 'Hz. İbrahim babasına dedi ki:'), 13,0 sn, deniz",
   "zernio_id": "6afee6ffd561659f0fa407f2",
   "status": "scheduled"
+ },
+ {
+  "id": "v338",
+  "at": "2026-11-20T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "10:00 tilavet kartı — Meryem 16 'Hz. Meryem ailesinden ayrılıp çekildi', 10,1 sn, yıldız"
+ },
+ {
+  "id": "v343",
+  "at": "2026-11-20T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "13:00 tilavet kartı — Bakara 53 'Allah, Hz. Musa'ya Kitap verdi', 8,6 sn, deniz"
+ },
+ {
+  "id": "v333",
+  "at": "2026-11-20T19:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "19:00 peygamber sözü kartı — Yûnus 80 (deney 12 'Hz. Musa sihirbazlara dedi ki:'), 16,8 sn, yıldız"
  }
 ]
