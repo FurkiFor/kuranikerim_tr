@@ -2911,7 +2911,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "16:45 tilavet kartı — Zuhruf 89 (deney 12 'Allah, Peygamberine dedi ki:' Onlardan geç, esenlik dile), 10,8 sn, yıldız"
+  "not": "16:45 tilavet kartı — Zuhruf 89 (deney 12 'Allah, Peygamberine dedi ki:' Onlardan geç, esenlik dile), 10,8 sn, yıldız",
+  "zernio_id": "6b01866ac1d5af1d3a53e488",
+  "status": "scheduled"
  },
  {
   "id": "v356",
@@ -2919,6 +2921,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "20:30 tilavet kartı — Meryem 20 (deney 12 'Hz. Meryem elçiye dedi ki:'), 10,7 sn, deniz"
+  "not": "20:30 tilavet kartı — Meryem 20 (deney 12 'Hz. Meryem elçiye dedi ki:'), 10,7 sn, deniz",
+  "zernio_id": "6b01866a174a6828963da291",
+  "status": "scheduled"
  }
 ]
