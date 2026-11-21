@@ -2881,7 +2881,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "10:00 tilavet kartı — Neml 11 tövbe ('Kötü hâlini iyiliğe çevirmek istiyorsan'), 16,1 sn, deniz"
+  "not": "10:00 tilavet kartı — Neml 11 tövbe ('Kötü hâlini iyiliğe çevirmek istiyorsan'), 16,1 sn, deniz",
+  "zernio_id": "6b01101d5d461b96d6c9b481",
+  "status": "scheduled"
  },
  {
   "id": "v352",
@@ -2889,7 +2891,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "13:00 tilavet kartı — Tâhâ 21 (deney 12 'Allah, Hz. Musa'ya dedi ki:' korkma), 7,1 sn, deniz"
+  "not": "13:00 tilavet kartı — Tâhâ 21 (deney 12 'Allah, Hz. Musa'ya dedi ki:' korkma), 7,1 sn, deniz",
+  "zernio_id": "6b01101d5d461b96d6c9b487",
+  "status": "scheduled"
  },
  {
   "id": "v351",
@@ -2897,6 +2901,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "19:00 peygamber sözü kartı — Hicr 53 ('Hz. İbrahim'e gelen müjde'), 7,9 sn, yıldız"
+  "not": "19:00 peygamber sözü kartı — Hicr 53 ('Hz. İbrahim'e gelen müjde'), 7,9 sn, yıldız",
+  "zernio_id": "6b01101eccb96af41cc2fad8",
+  "status": "scheduled"
  }
 ]
