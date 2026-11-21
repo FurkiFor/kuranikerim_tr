@@ -2904,5 +2904,21 @@
   "not": "19:00 peygamber sözü kartı — Hicr 53 ('Hz. İbrahim'e gelen müjde'), 7,9 sn, yıldız",
   "zernio_id": "6b01101eccb96af41cc2fad8",
   "status": "scheduled"
+ },
+ {
+  "id": "v353",
+  "at": "2026-11-21T16:45:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "16:45 tilavet kartı — Zuhruf 89 (deney 12 'Allah, Peygamberine dedi ki:' Onlardan geç, esenlik dile), 10,8 sn, yıldız"
+ },
+ {
+  "id": "v356",
+  "at": "2026-11-21T20:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "20:30 tilavet kartı — Meryem 20 (deney 12 'Hz. Meryem elçiye dedi ki:'), 10,7 sn, deniz"
  }
 ]
