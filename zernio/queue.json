@@ -2874,5 +2874,29 @@
   "not": "20:30 tilavet kartı — Meryem 24 (Hz. Meryem'e seslenildi: Sakın üzülme), 11,2 sn, deniz",
   "zernio_id": "6b0034e250a15177c0862418",
   "status": "scheduled"
+ },
+ {
+  "id": "v350",
+  "at": "2026-11-21T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "10:00 tilavet kartı — Neml 11 tövbe ('Kötü hâlini iyiliğe çevirmek istiyorsan'), 16,1 sn, deniz"
+ },
+ {
+  "id": "v352",
+  "at": "2026-11-21T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "13:00 tilavet kartı — Tâhâ 21 (deney 12 'Allah, Hz. Musa'ya dedi ki:' korkma), 7,1 sn, deniz"
+ },
+ {
+  "id": "v351",
+  "at": "2026-11-21T19:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "19:00 peygamber sözü kartı — Hicr 53 ('Hz. İbrahim'e gelen müjde'), 7,9 sn, yıldız"
  }
 ]
