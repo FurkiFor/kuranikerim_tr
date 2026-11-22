@@ -2954,5 +2954,21 @@
   "not": "19:00 peygamber sözü kartı — Neml 27 (deney 12 'Hz. Süleyman hüdhüde dedi ki:'), 9,9 sn, yıldız",
   "zernio_id": "6b0261db975722cfdc91a78d",
   "status": "scheduled"
+ },
+ {
+  "id": "v354",
+  "at": "2026-11-22T16:45:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "16:45 tilavet kartı — Yûsuf 35 'Deliller lehindeydi ama Hz. Yusuf hapsedildi', 12,4 sn, yıldız (deniz → yıldız)"
+ },
+ {
+  "id": "v362",
+  "at": "2026-11-22T20:30:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "20:30 tilavet kartı — Meryem 25 (deney 12 'Hz. Meryem'e denildi ki:'), 10,9 sn, yıldız (deniz → yıldız)"
  }
 ]
