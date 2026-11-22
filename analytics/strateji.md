@@ -618,3 +618,16 @@ Kart stoku: 9'a düştü → **15 yeni kart (v333–v347)** yazıldı (render ed
 Hesaplar: Instagram **863** (dün 863, ±0 — Zernio 07:17), TikTok **1.856** (dün 1.856, ±0), YouTube **1.100** abone / 313.266 toplam izlenme (Kervly; 18 Kasım 299.001). Kervly sağlıklı (son 3 günde error yok); 17–18 Kasım telifsiz nüzul videoları YouTube'da 1.667–3.924 (v290 Meryem 19 3.924, v291 İsrâ 79 3.107). ElevenLabs yine "failed or incomplete payment" (1 parça, v315 hook) → yeni sesli video yok; YouTube'a 18 Kasım'dan beri yeni Short çıkmadı, TikTok'a da yeni gönderi yok.
 Dün (19 Kasım) IG: v340 (13:00) 1.789 · v342 (19:00) 1.710 · v335 (10:00) 471 · **v334 (16:45) 97** · v336 (20:30, ~15 saat) 50. **16:45 slotu 3 gün üst üste çöktü** (v303 128, v341 231, v334 97) — 9–15 Kasım haftasında 16:45'te 7'de 1 çöküş vardı. 3 kart <5 video kuralının altında; 23 Kasım haftalığında 16:45 ilk değerlendirilir (öneri: kaldır ya da 15:30'a al). 19:00 kartları (v318, v319, v320, v342) çökmedi.
 Planlanan (SABAH 20 Kasım): IG **10:00 v338** Meryem 16 · **13:00 v343** Bakara 53 · **19:00 v333** Yûnus 80 (deney 12) — normal Reel, zernio_id'ler alındı. YouTube ve TikTok boş. 15 yeni kart yazıldı (v348–v362; GUNLUK 20 Kasım SABAH).
+
+### 22 Kasım 2026 SABAH — durum notu ve IG kart sahnesi kararı
+Hesaplar: Instagram **884** (dün 884, ±0 — Zernio 07:17), TikTok **1.862** (dün 1.862, ±0), YouTube **1.100** abone / 314.949 toplam izlenme (Kervly). Kervly sağlıklı (son 3 günde error yok). ElevenLabs yine "failed or incomplete payment" (1 parça) → yeni sesli video yok; YouTube'a 18 Kasım'dan, TikTok'a 17 Kasım'dan beri yeni gönderi yok.
+**IG kart sahnesi (15–21 Kasım, Zernio):**
+| Sahne | Kart | Medyan izlenme | <300 |
+|---|---|---|---|
+| deniz | 14 | **204** | **8** |
+| yıldız | 11 | 1.840 | 1 |
+| kum | 7 | 1.776 | 2 |
+Karar: **IG kartlarında `deniz` sahnesi kullanılmaz; varsayılan yıldız** (kum künye kontrastı sorunu nedeniyle ikinci tercih; kapı/yol/kalp zaten sorunlu). Not: ilişki slottan bağımsız görünüyor (deniz çöküşleri 10:00, 13:00, 16:45, 18:00, 20:30'da), ama sahne alanı yeniden render'larda güncel sahneyi gösteriyor — 29 Kasım'da yalnız yıldız kartlarla çöküş oranı yeniden ölçülür.
+Dün (21 Kasım) IG: v351 (19:00, yıldız) 2.283 · v350 (10:00, deniz) 276 · v352 (13:00, deniz) 88 · v353 (16:45, yıldız) 67 · v356 (20:30, deniz) 66.
+Planlanan (SABAH 22 Kasım): IG **10:00 v360** Zâriyât 25 (deniz → yıldız) · **13:00 v357** A'râf 117 · **19:00 v355** Neml 27 (deney 12) — normal Reel, zernio_id'ler alındı. YouTube ve TikTok boş.
+
