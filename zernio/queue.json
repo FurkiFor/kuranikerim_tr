@@ -2931,7 +2931,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "10:00 tilavet kartı — Zâriyât 25 'Hz. İbrahim'e misafirler geldi', 12,9 sn, yıldız (deniz → yıldız)"
+  "not": "10:00 tilavet kartı — Zâriyât 25 'Hz. İbrahim'e misafirler geldi', 12,9 sn, yıldız (deniz → yıldız)",
+  "zernio_id": "6b0261dad0c12e17564a8e69",
+  "status": "scheduled"
  },
  {
   "id": "v357",
@@ -2939,7 +2941,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "13:00 tilavet kartı — A'râf 117 'Allah, Hz. Musa'ya vahyetti:', 13,3 sn, yıldız"
+  "not": "13:00 tilavet kartı — A'râf 117 'Allah, Hz. Musa'ya vahyetti:', 13,3 sn, yıldız",
+  "zernio_id": "6b0261da975722cfdc91a789",
+  "status": "scheduled"
  },
  {
   "id": "v355",
@@ -2947,6 +2951,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "19:00 peygamber sözü kartı — Neml 27 (deney 12 'Hz. Süleyman hüdhüde dedi ki:'), 9,9 sn, yıldız"
+  "not": "19:00 peygamber sözü kartı — Neml 27 (deney 12 'Hz. Süleyman hüdhüde dedi ki:'), 9,9 sn, yıldız",
+  "zernio_id": "6b0261db975722cfdc91a78d",
+  "status": "scheduled"
  }
 ]
