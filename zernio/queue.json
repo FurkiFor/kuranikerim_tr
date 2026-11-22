@@ -2961,7 +2961,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "16:45 tilavet kartı — Yûsuf 35 'Deliller lehindeydi ama Hz. Yusuf hapsedildi', 12,4 sn, yıldız (deniz → yıldız)"
+  "not": "16:45 tilavet kartı — Yûsuf 35 'Deliller lehindeydi ama Hz. Yusuf hapsedildi', 12,4 sn, yıldız (deniz → yıldız)",
+  "zernio_id": "6b02d7c6a6534642f047987f",
+  "status": "scheduled"
  },
  {
   "id": "v362",
@@ -2969,6 +2971,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "20:30 tilavet kartı — Meryem 25 (deney 12 'Hz. Meryem'e denildi ki:'), 10,9 sn, yıldız (deniz → yıldız)"
+  "not": "20:30 tilavet kartı — Meryem 25 (deney 12 'Hz. Meryem'e denildi ki:'), 10,9 sn, yıldız (deniz → yıldız)",
+  "zernio_id": "6b02d7c6a6534642f0479883",
+  "status": "scheduled"
  }
 ]
