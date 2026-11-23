@@ -631,3 +631,34 @@ Karar: **IG kartlarında `deniz` sahnesi kullanılmaz; varsayılan yıldız** (k
 Dün (21 Kasım) IG: v351 (19:00, yıldız) 2.283 · v350 (10:00, deniz) 276 · v352 (13:00, deniz) 88 · v353 (16:45, yıldız) 67 · v356 (20:30, deniz) 66.
 Planlanan (SABAH 22 Kasım): IG **10:00 v360** Zâriyât 25 (deniz → yıldız) · **13:00 v357** A'râf 117 · **19:00 v355** Neml 27 (deney 12) — normal Reel, zernio_id'ler alındı. YouTube ve TikTok boş.
 
+
+### Haftalık güncelleme — 23 Kasım 2026 (Pazartesi, SABAH)
+Kaynak: Zernio stats 07:18 (IG 170, TikTok 164 gönderi) · Kervly `get_youtube_insights` (7 gün) + `get_youtube_stats` (07:16). Kervly sağlıklı (son 3 günde error yok). ElevenLabs yine "subscription has a failed or incomplete payment" (1 parça, v315 hook, ~65 kredi denemesi) → yeni sesli video yok; YouTube'a 18 Kasım'dan, TikTok'a 17 Kasım'dan beri yeni gönderi yok.
+Hesaplar: YouTube **1.100** abone / 315.823 toplam izlenme (16 Kasım 1.060); IG **892** (16 Kasım 771 → +121/hafta; Zernio hesap metriği 22 Kasım'dan beri aynı); TikTok **1.867** (16 Kasım 1.836 → +31/hafta).
+
+**YouTube (16–22 Kasım, YouTube Analytics):** 17.616 izlenme, 3.015 izlenme dakikası, +48/−9 abone, ort. izleme 10 sn; kaynak %92 Shorts akışı, %5 arama. Günlük izlenme yeni yükleme olan günlerde 6.196–6.487 (17–18 Kas), yükleme olmayan günlerde 1.191–2.500 → **yeni Short olmayınca kanal izlenmesi ~%80 düşüyor; tıkanıklık ElevenLabs ödemesi**.
+Telif kararı sonrası telifsiz nüzul videoları (meal seslendirmeli, kâri kaydı yok; 17–18 Kas, 6 video): medyan **2.348** (1.848–4.293; izlenme oranı %60–83) · kâri kayıtlı nüzul (11–13 Kas, 10 video): medyan 2.504 (1.682–3.533). Fark küçük (%6) → **telifsiz format YouTube'da performans kaybettirmedi**; en iyi iki video telifsiz (v290 Meryem 19 4.293 %72, v291 İsrâ 79 3.500 %80). Dağıtılmayan (<100) 0/16.
+Tekrar paylaşım adayı: yeni yok (≥1.000 izlenen bütün telifsiz videolar TikTok'ta zaten iki kez gitti; kâri kayıtlılar telif kararıyla yasak).
+
+**Instagram (16–22 Kasım, 35 kart):** <300 kalan **11/35** (önceki hafta 8/35).
+| Slot | Kart | <300 | Çökenler | Ayakta kalanların aralığı |
+|---|---|---|---|---|
+| 10:00 | 7 | 1 (+2 sınırda: v335 494, v350 302) | v323 150 (kum) | 1.711–1.883 |
+| 13:00 | 7 | 3 | v302 82, v343 92, v352 106 — **üçü de deniz** | 1.686–1.884 |
+| 16:45 | 7 | **4** | v303 157 (kum), v341 246 (yıldız), v334 129 (deniz), v353 87 (yıldız) | 1.777–1.849 |
+| 19:00 | 7 | 1 | v355 74 (yıldız, 22 Kas) | 1.666–2.368 |
+| 20:30 | 7 | 2 | v336 79, v356 94 — ikisi de deniz | 1.391–2.077 |
+Sahneye göre (bu hafta): yıldız 17 kart → 3 çöküş · deniz 12 → 6 · kum 6 → 2. 22 Kasım'dan beri yalnız yıldız: 5 kartın 1'i çöktü.
+19:00 (16 Kasım kararı 1) değerlendirmesi: 18:00'de 7'de 4 çöküş vardı → 19:00'da 7'de 1 → **19:00 kalıcı**.
+16:45: önceki hafta 7'de 1, bu hafta 7'de 4; 4 çöküşün 2'si yıldız kartta → sahneyle açıklanmıyor (13:00 ve 20:30 çöküşleri ise hep deniz). Çöken kartlarda ort. izleme düşük değil (5,8–7,9 sn) → içerik değil dağıtım.
+
+Bulgular → kararlar:
+1. **IG 16:45 kartı kaldırıldı** (≥5 kart: 16:45'te 7'de 4 çöküş, sahne bağımsız; 16 Kasım kararındaki "19:00 da çökerse" koşulu tutmadı ama 16:45 kendi başına eşiği aştı). IG günde **4 kart: 10:00, 13:00, 19:00, 20:30**. AKŞAM partisi bundan sonra yalnız 20:30 kartını planlar. 30 Kasım haftalığında 4 kart/gün çöküş oranı (bu hafta 7/28 diğer slotlarda) ile karşılaştırılır.
+2. **Deniz yasağı sürer** (22 Kasım kararı); bu haftaki 13:00 ve 20:30 çöküşlerinin hepsi deniz kartlarda — karar veriyle tutarlı.
+3. **19:00 dua / peygamber sözü kartı kalıcı.**
+4. **Telifsiz nüzul formatı YouTube'da yeterli** (6 video, medyan 2.348 ≈ kâri kayıtlı 2.504) — ElevenLabs gelince doğrudan bu formatla devam; format değişikliği gerekmiyor.
+5. **Furkan'a:** ElevenLabs aboneliğindeki ödeme hatası 15 Kasım'dan beri sürüyor; YouTube ve TikTok 5–6 gündür boş, YouTube günlük izlenmesi ~6.300'den ~1.200'e düştü. Ödeme tamamlanmadan sesli video üretilemez.
+6. vidIQ (bugün): "dua + hemen gelen karşılık" kalıbı 3. outlier'a ulaştı (Yûnus 89 · Kasas 24→25 YouTube 104 B · aynı içerik TikTok 979,5 B / 64,2x) → **deney 13** kuyruğa alındı; yeni stokta 4 kart (v363 Tâhâ 35-36, v365 Meryem 9, v367 Sâd 42, v376 Kamer 11).
+
+Planlanan (SABAH 23 Kasım): IG **10:00 v359** Enbiyâ 48 "Hz. Musa ve Hz. Harun'a verilen ışık" · **13:00 v344** Kasas 3 "Hz. Musa ve Firavun'un hikâyesi" (v361 Neml 17 render'landı ama 4 satırlık mealde figür künyeye bindi → stokta) · **19:00 v358** Yâsîn 16 "Elçiler, şehir halkına dedi ki:" (deniz → yıldız) — hepsi yıldız, normal Reel. YouTube ve TikTok boş (ses yok, tekrar havuzu bitti).
+Kart stoku: 8'di → 15 yeni kart (v363–v377; render edilmedi): deney 13 ×4, deney 12 "dedi ki" ×3 (Yusuf, İsa ×2), peygamber ×8 (İbrahim ×3, Musa ×2, Yunus, Meryem, İsmail-İdris-Zülkifl); hepsi yıldız. Kısa olabilecekler (<60 harf): v367 Sâd 42 (56), v376 Kamer 11 (51).

@@ -2974,5 +2974,29 @@
   "not": "20:30 tilavet kartı — Meryem 25 (deney 12 'Hz. Meryem'e denildi ki:'), 10,9 sn, yıldız (deniz → yıldız)",
   "zernio_id": "6b02d7c6a6534642f0479883",
   "status": "scheduled"
+ },
+ {
+  "id": "v359",
+  "at": "2026-11-23T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "10:00 tilavet kartı — Enbiyâ 48 'Hz. Musa ve Hz. Harun'a verilen ışık', 13,0 sn, yıldız"
+ },
+ {
+  "id": "v344",
+  "at": "2026-11-23T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "13:00 tilavet kartı — Kasas 3 'Hz. Musa ve Firavun'un hikâyesi', 10,9 sn, yıldız"
+ },
+ {
+  "id": "v358",
+  "at": "2026-11-23T19:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "19:00 peygamber sözü kartı — Yâsîn 16 (deney 12 'Elçiler, şehir halkına dedi ki:'), 10,4 sn, deniz → yıldız"
  }
 ]
