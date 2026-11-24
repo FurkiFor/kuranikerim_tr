@@ -662,3 +662,8 @@ Bulgular → kararlar:
 
 Planlanan (SABAH 23 Kasım): IG **10:00 v359** Enbiyâ 48 "Hz. Musa ve Hz. Harun'a verilen ışık" · **13:00 v344** Kasas 3 "Hz. Musa ve Firavun'un hikâyesi" (v361 Neml 17 render'landı ama 4 satırlık mealde figür künyeye bindi → stokta) · **19:00 v358** Yâsîn 16 "Elçiler, şehir halkına dedi ki:" (deniz → yıldız) — hepsi yıldız, normal Reel. YouTube ve TikTok boş (ses yok, tekrar havuzu bitti).
 Kart stoku: 8'di → 15 yeni kart (v363–v377; render edilmedi): deney 13 ×4, deney 12 "dedi ki" ×3 (Yusuf, İsa ×2), peygamber ×8 (İbrahim ×3, Musa ×2, Yunus, Meryem, İsmail-İdris-Zülkifl); hepsi yıldız. Kısa olabilecekler (<60 harf): v367 Sâd 42 (56), v376 Kamer 11 (51).
+
+### 24 Kasım 2026 SABAH — durum notu
+Hesaplar: Instagram **897** (dün 897, ±0 — Zernio 07:25), TikTok **1.871** (dün 1.871, ±0), YouTube **1.100** abone / 316.003 toplam izlenme (Kervly; dün 315.823). Kervly sağlıklı (son 3 günde error yok). ElevenLabs yine "failed or incomplete payment" (1 parça) → yeni sesli video yok; YouTube'a 18 Kasım'dan, TikTok'a 17 Kasım'dan beri yeni gönderi yok.
+Dün (23 Kasım) — 4 kartlı düzenin ilk günü, hepsi yıldız: IG 10:00 v359 1.469 · 13:00 v344 1.665 · 19:00 v358 1.609 · 20:30 v370 1.868 (en çok kaydetme: 21) — **çöküş yok** (30 Kasım haftalığında 4 kart/gün çöküş oranına girer).
+Planlanan (SABAH 24 Kasım): IG **10:00 v369** Sâffât 145-146 · **13:00 v375** Enbiyâ 86 · **19:00 v363** Tâhâ 35-36 (deney 13 ilk kart: dua + gelen cevap) — normal Reel, yıldız. v372 19,9 sn çıktı (>17 sn) → planlanmadı. YouTube ve TikTok boş.

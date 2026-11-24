@@ -3014,5 +3014,29 @@
   "not": "20:30 tilavet kartı — Meryem 30 (deney 12 'Beşikteki Hz. İsa dedi ki:'), 8,4 sn, yıldız",
   "zernio_id": "6b0429511bd7347437eadbf1",
   "status": "scheduled"
+ },
+ {
+  "id": "v369",
+  "at": "2026-11-24T10:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "10:00 tilavet kartı — Sâffât 145-146 'Hz. Yunus balığın karnından çıkınca:', 16,8 sn, yıldız"
+ },
+ {
+  "id": "v375",
+  "at": "2026-11-24T13:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "13:00 tilavet kartı — Enbiyâ 86 'Hz. İsmail, İdris ve Zülkifl için:', 10,8 sn, yıldız"
+ },
+ {
+  "id": "v363",
+  "at": "2026-11-24T19:00:00+04:00",
+  "platforms": [
+   "instagram"
+  ],
+  "not": "19:00 dua kartı — Tâhâ 35-36 (deney 13 'Hz. Musa dua etti, cevap geldi:'), 10,9 sn, yıldız"
  }
 ]
