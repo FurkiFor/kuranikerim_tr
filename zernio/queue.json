@@ -3061,7 +3061,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "10:00 tilavet kartı — Sâffât 115-116 'Hz. Musa ve Hz. Harun için:', 13,9 sn, yıldız"
+  "not": "10:00 tilavet kartı — Sâffât 115-116 'Hz. Musa ve Hz. Harun için:', 13,9 sn, yıldız",
+  "zernio_id": "6b065663d24e6d7fe034d9ed",
+  "status": "scheduled"
  },
  {
   "id": "v374",
@@ -3069,7 +3071,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "13:00 tilavet kartı — Meryem 50 'Hz. İbrahim, İshak ve Yakub için:', 9,5 sn, yıldız"
+  "not": "13:00 tilavet kartı — Meryem 50 'Hz. İbrahim, İshak ve Yakub için:', 9,5 sn, yıldız",
+  "zernio_id": "6b0656645774bfac6ffb0697",
+  "status": "scheduled"
  },
  {
   "id": "v367",
@@ -3077,6 +3081,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "19:00 dua kartı — Sâd 42 (deney 13 'Hz. Eyyub Rabbine seslendi. Cevap:'), 9,2 sn, yıldız"
+  "not": "19:00 dua kartı — Sâd 42 (deney 13 'Hz. Eyyub Rabbine seslendi. Cevap:'), 9,2 sn, yıldız",
+  "zernio_id": "6b0656647280dae9a7642d51",
+  "status": "scheduled"
  }
 ]
