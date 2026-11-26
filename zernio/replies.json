@@ -2155,12 +2155,16 @@
   "postId": "18115316048273080",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "18123772625063282",
-  "message": "Lâ ilâhe illallah 🤍 Rabbim dostluğunu kalbinden hiç eksik etmesin."
+  "message": "Lâ ilâhe illallah 🤍 Rabbim dostluğunu kalbinden hiç eksik etmesin.",
+  "sent": true,
+  "replyId": "18084874166417431"
  },
  {
   "postId": "18115316048273080",
   "accountId": "6ad42eb0a87940951247b3ea",
   "commentId": "17965015917000846",
-  "message": "Amin, Rabbim kabul etsin 🤍 Dostumuz Allah, O'na güvenen yalnız kalmaz inşallah."
+  "message": "Amin, Rabbim kabul etsin 🤍 Dostumuz Allah, O'na güvenen yalnız kalmaz inşallah.",
+  "sent": true,
+  "replyId": "18642442234049240"
  }
 ]
