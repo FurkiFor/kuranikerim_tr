@@ -1,9 +1,9 @@
-# Zernio özeti — 2026-11-28T07:19+04:00
+# Zernio özeti — 2026-11-28T14:59+04:00
 
-## instagram @kuranikerim_tr — 953 takipçi, 190 gönderi (son 90 gün)
-- Takipçi değişimi (kayıtlı ilk gün → bugün): 9 → 953 (+944, 42 gün)
-- Ortalama: 1761.153 izlenme, 92.879 beğeni, 23.063 kaydetme, 9.289 paylaşım, 0.0 takip/video, ort. izleme 8.482 sn
-- Saat (Dubai) → ort. izlenme [gönderi]: 05:00 → 117 [1], 10:00 → 1724 [38], 12:00 → 50 [2], 13:00 → 1567 [38], 15:00 → 66 [1], 16:00 → 1196 [18], 18:00 → 1822 [26], 19:00 → 1524 [13], 20:00 → 2919 [36], 21:00 → 60 [3], 22:00 → 296 [2], 23:00 → 1227 [12]
+## instagram @kuranikerim_tr — 967 takipçi, 191 gönderi (son 90 gün)
+- Takipçi değişimi (kayıtlı ilk gün → bugün): 9 → 967 (+958, 42 gün)
+- Ortalama: 1753.634 izlenme, 92.476 beğeni, 22.958 kaydetme, 9.246 paylaşım, 0.0 takip/video, ort. izleme 8.476 sn
+- Saat (Dubai) → ort. izlenme [gönderi]: 05:00 → 117 [1], 10:00 → 1685 [39], 12:00 → 50 [2], 13:00 → 1568 [38], 15:00 → 66 [1], 16:00 → 1196 [18], 18:00 → 1822 [26], 19:00 → 1528 [13], 20:00 → 2920 [36], 21:00 → 60 [3], 22:00 → 296 [2], 23:00 → 1227 [12]
 
 | id | tarih | izl. | beğ. | kay. | paylş | 2sn | ilk satır |
 |---|---|---|---|---|---|---|---|
@@ -20,17 +20,17 @@
 | v054 | 2026-10-23 | 2733 | 144 | 31 | 14 |  | Rabbişrahli duası | Taha 25-28: Hz. Musa'nın duası |
 | v047 | 2026-10-26 | 2548 | 216 | 22 | 5 |  | Herkes seni bıraktı sanıyorsan — Rabbin seni ne bı |
 
-## tiktok @kuranikerim_tr — 1880 takipçi, 164 gönderi (son 90 gün)
-- Takipçi değişimi (kayıtlı ilk gün → bugün): 1660 → 1880 (+220, 42 gün)
-- Ortalama: 374.049 izlenme, 43.402 beğeni, 11.707 kaydetme, 2.287 paylaşım, 1.659 takip/video, ort. izleme 5.284 sn
+## tiktok @kuranikerim_tr — 1881 takipçi, 164 gönderi (son 90 gün)
+- Takipçi değişimi (kayıtlı ilk gün → bugün): 1660 → 1881 (+221, 42 gün)
+- Ortalama: 374.067 izlenme, 43.402 beğeni, 11.707 kaydetme, 2.287 paylaşım, 1.659 takip/video, ort. izleme 5.283 sn
 - 2. saniyede kalan izleyici: %43 · 6. saniyede: %19 · aramadan gelen pay: %10
-- Saat (Dubai) → ort. izlenme [gönderi]: 03:00 → 191 [3], 04:00 → 167 [1], 05:00 → 180 [1], 10:00 → 217 [34], 12:00 → 279 [5], 13:00 → 169 [25], 15:00 → 170 [3], 18:00 → 219 [31], 19:00 → 186 [1], 20:00 → 212 [26], 21:00 → 4195 [6], 22:00 → 199 [1], 23:00 → 334 [27]
+- Saat (Dubai) → ort. izlenme [gönderi]: 03:00 → 191 [3], 04:00 → 167 [1], 05:00 → 180 [1], 10:00 → 217 [34], 12:00 → 280 [5], 13:00 → 169 [25], 15:00 → 170 [3], 18:00 → 219 [31], 19:00 → 186 [1], 20:00 → 212 [26], 21:00 → 4195 [6], 22:00 → 199 [1], 23:00 → 334 [27]
 
 | id | tarih | izl. | beğ. | kay. | paylş | 2sn | ilk satır |
 |---|---|---|---|---|---|---|---|
 | v021 | 2026-10-23 | 24213 | 3089 | 1153 | 241 | %56 | Pişmanlığını Allah'a nasıl söylersin? Kur'an'daki  |
 | v098 | 2026-10-22 | 2027 | 234 | 68 | 8 | %60 | Aklına kötü düşünceler gelince ne dersin? Nas Sure |
-| v024 | 2026-10-19 | 1742 | 147 | 29 | 15 | %60 | Çocuğun Allah kim diye sorsa ne dersin? İhlas Sure |
+| v024 | 2026-10-19 | 1743 | 147 | 29 | 15 | %60 | Çocuğun Allah kim diye sorsa ne dersin? İhlas Sure |
 | v291 | 2026-11-16 | 1365 | 159 | 41 | 8 | %61 | Rabbinle baş başa kalacağın bir vaktin var mı? Gec |
 | v291 | 2026-11-14 | 1257 | 183 | 34 | 7 | %63 | Rabbinle baş başa kalacağın bir vaktin var mı? Gec |
 | v181 | 2026-11-03 | 1190 | 230 | 49 | 7 | %56 | Allah'tan büyük bir şey istemekten çekiniyor musun |
