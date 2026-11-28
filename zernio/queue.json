@@ -3174,7 +3174,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "10:00 tilavet kartı — Sâd 39 ('Allah, Hz. Süleyman'a dedi ki:'), 9,8 sn, yıldız"
+  "not": "10:00 tilavet kartı — Sâd 39 ('Allah, Hz. Süleyman'a dedi ki:'), 9,8 sn, yıldız",
+  "zernio_id": "6b0a4a473bc382582765d1f3",
+  "status": "scheduled"
  },
  {
   "id": "v383",
@@ -3182,7 +3184,9 @@
   "platforms": [
    "instagram"
   ],
-  "not": "13:00 tilavet kartı — Meryem 52 ('Hz. Musa'ya Tur'da seslenildi:'), 8,8 sn, yıldız"
+  "not": "13:00 tilavet kartı — Meryem 52 ('Hz. Musa'ya Tur'da seslenildi:'), 8,8 sn, yıldız",
+  "zernio_id": "6b0a4a473bc382582765d1f8",
+  "status": "scheduled"
  },
  {
   "id": "v384",
@@ -3190,6 +3194,8 @@
   "platforms": [
    "instagram"
   ],
-  "not": "19:00 peygamber sözü kartı — Meryem 44 (deney 12 'Hz. İbrahim babasına dedi ki:'), 11,0 sn, yıldız"
+  "not": "19:00 peygamber sözü kartı — Meryem 44 (deney 12 'Hz. İbrahim babasına dedi ki:'), 11,0 sn, yıldız",
+  "zernio_id": "6b0a4a47f7491173ee4bf7f1",
+  "status": "scheduled"
  }
 ]
