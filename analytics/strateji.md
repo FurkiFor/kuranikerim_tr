@@ -667,3 +667,9 @@ Kart stoku: 8'di → 15 yeni kart (v363–v377; render edilmedi): deney 13 ×4, 
 Hesaplar: Instagram **897** (dün 897, ±0 — Zernio 07:25), TikTok **1.871** (dün 1.871, ±0), YouTube **1.100** abone / 316.003 toplam izlenme (Kervly; dün 315.823). Kervly sağlıklı (son 3 günde error yok). ElevenLabs yine "failed or incomplete payment" (1 parça) → yeni sesli video yok; YouTube'a 18 Kasım'dan, TikTok'a 17 Kasım'dan beri yeni gönderi yok.
 Dün (23 Kasım) — 4 kartlı düzenin ilk günü, hepsi yıldız: IG 10:00 v359 1.469 · 13:00 v344 1.665 · 19:00 v358 1.609 · 20:30 v370 1.868 (en çok kaydetme: 21) — **çöküş yok** (30 Kasım haftalığında 4 kart/gün çöküş oranına girer).
 Planlanan (SABAH 24 Kasım): IG **10:00 v369** Sâffât 145-146 · **13:00 v375** Enbiyâ 86 · **19:00 v363** Tâhâ 35-36 (deney 13 ilk kart: dua + gelen cevap) — normal Reel, yıldız. v372 19,9 sn çıktı (>17 sn) → planlanmadı. YouTube ve TikTok boş.
+
+### 28 Kasım 2026 SABAH — durum notu
+Hesaplar: Instagram **953** (dün 953, ±0 — Zernio 07:19), TikTok **1.880** (dün 1.880, ±0), YouTube **1.100** abone / 316.411 toplam izlenme (Kervly; dün 316.387). Kervly sağlıklı. ElevenLabs yine "failed or incomplete payment" (1 parça) → YouTube'a 18 Kasım'dan, TikTok'a 17 Kasım'dan beri yeni gönderi yok.
+Dün (27 Kasım) IG 4 kart, hepsi yıldız: 10:00 v382 1.752 · 13:00 v373 1.883 · 19:00 v376 (deney 13) 1.825 · 20:30 v366 1.787 — çöküş yok (26 Kasım'da 2 çöküş vardı; 30 Kasım haftalığında 4 kart/gün çöküş oranına girer). Deney 13 dört kartta: 2.306 · 2.030 · 86 · 1.825.
+Planlanan (SABAH 28 Kasım): IG **10:00 v388** Sâd 39 · **13:00 v383** Meryem 52 · **19:00 v384** Meryem 44 (deney 12) — normal Reel, yıldız. Kart stoku 8'e inecekti → 15 yeni kart (v393–v407); açık adlı peygamber/dua ayeti havuzu tükeniyor, yeni stok teselli ağırlıklı (açık adlı 4/15).
+
